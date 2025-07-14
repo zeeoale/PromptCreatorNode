@@ -145,13 +145,9 @@ Prompt: {prompt}
 
 Enhanced:
 """
-                    with open(os.path.join(base_path, "debug_gemini_prompt.txt"), "w", encoding="utf-8") as debug_file:
-                        debug_file.write(prompt_text)
-
+                    
                     try:
                         response = model.generate_content(prompt_text)
-                        print(f"[PromptCreator] Gemini raw response: {response}")
-                        print(f"[PromptCreator] Gemini response type: {type(response)}")
                         enhanced_text = response.candidates[0].content.parts[0].text.strip()
                         if not enhanced_text:
                             raise ValueError("Empty response from Gemini")
