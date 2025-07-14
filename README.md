@@ -7,6 +7,9 @@ A powerful custom node for ComfyUI that generates rich, dynamic prompts based on
 
 ---
 
+<img width="581" height="657" alt="image" src="https://github.com/user-attachments/assets/5382f908-2999-4cf0-9763-2af880990c93" />
+
+
 ## 🌟 Features
 
 - 🔮 Dynamic prompt generation from modular JSON worlds
@@ -98,6 +101,12 @@ Generated using the CMYK Realm:
 > “A beautiful woman wearing a shadow-ink kimono, standing in a forgotten monochrome realm, surrounded by voidstorm pressure and carrying an inkborn scythe.”
 
 ---
+
+## ☕ Support My Work
+
+If you enjoy this project, consider buying me a coffee on Ko-Fi:  
+[https://ko-fi.com/traumakom](https://ko-fi.com/traumakom)
+
 
 ## 🙏 Credits
 
