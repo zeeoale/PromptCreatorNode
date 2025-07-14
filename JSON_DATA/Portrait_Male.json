@@ -1,0 +1,90 @@
+{
+  "EPOCHS": [
+    "Renaissance",
+    "Victorian",
+    "Modern day",
+    "Cyberpunk future",
+    "Ancient Rome",
+    "Medieval"
+  ],
+  "OUTFITS": [
+    "military uniform",
+    "tailored suit",
+    "leather armor",
+    "open collar shirt",
+    "noble robes",
+    "battle-worn cloak",
+    "streetwear",
+    "only the lower part of the dress they remain bare-chested"
+  ],
+  "LIGHTING": [
+    "dramatic chiaroscuro lighting",
+    "warm natural light",
+    "cold cinematic lighting",
+    "backlit halo",
+    "soft shadows",
+    "single light source from the side"
+  ],
+  "BACKGROUNDS": [
+    "black studio backdrop",
+    "faded historical tapestry",
+    "dark concrete wall",
+    "dimly lit library",
+    "old cathedral",
+    "foggy battlefield",
+    "empty throne room"
+  ],
+  "OBJECTS": [
+    "sword hilt barely visible",
+    "glowing crystal pendant",
+    "ancient book in hand",
+    "smoke rising in background",
+    "simple gold ring",
+    "mechanical device on chest"
+  ],
+  "POSES": [
+    "arms crossed with intensity",
+    "one hand resting on chin",
+    "looking over the shoulder",
+    "standing tall, stoic",
+    "gaze directed off-frame"
+  ],
+  "EXPRESSIONS": [
+    "neutral",
+    "introspective",
+    "stoic",
+    "subtle anger",
+    "quiet confidence",
+    "stern focus",
+    "slight smirk"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up",
+    "tight head-and-shoulders shot",
+    "frontal half-bust portrait"
+  ],
+  "ATMOSPHERES": [
+    "moody",
+    "introspective",
+    "regal",
+    "mysterious",
+    "shadowy",
+    "tense",
+    "quiet strength"
+  ],
+  "ACCESSORIES": [
+    "earring",
+    "scar across eyebrow",
+    "medallion",
+    "hood partially up",
+    "gloves",
+    "neck scarf",
+    "simple crown"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "clean and elegant portrait",
+    "low": "slightly unsettling gaze or lighting",
+    "medium": "shadows crawling on skin or background",
+    "high": "glitched face or corrupted textures"
+  }
+}

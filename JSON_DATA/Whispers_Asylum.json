@@ -1,0 +1,98 @@
+{
+  "EPOCHS": [
+    "Early 20th Century",
+    "1920s Decay",
+    "Post-War Era",
+    "Timeless Void"
+  ],
+  "OUTFITS": [
+    "Torn asylum uniform",
+    "Victorian patient gown",
+    "Straitjacket",
+    "Rust-stained medical robe",
+    "Psychiatrist outfit (corrupted)",
+    "tight, low-cut dress",
+    "black lingerie"
+  ],
+  "LIGHTING": [
+    "Flickering fluorescent",
+    "Dim candlelight",
+    "Moonlight through bars",
+    "Stained sunlight through broken glass",
+    "Surreal glow from unknown source"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned asylum corridor",
+    "Decrepit patient room",
+    "Underground therapy chamber",
+    "Observation room with cracked mirrors",
+    "Dusty hall with rusty wheelchairs"
+  ],
+  "OBJECTS": [
+    "Old wheelchair",
+    "Bloody bandage",
+    "Worn patient file",
+    "Broken doll",
+    "Outdated medical tools",
+    "Stuffed animal with stitched eyes"
+  ],
+  "POSES": [
+    "Curled in corner",
+    "Sitting on asylum bed",
+    "Leaning against cracked wall",
+    "Trapped behind glass",
+    "Floating unnaturally in hallway"
+  ],
+  "EXPRESSIONS": [
+    "Blank stare",
+    "Whispering mouth",
+    "Terror-stricken",
+    "Sinister smile",
+    "Vacant and lost"
+  ],
+  "CAMERA_ANGLES": [
+    "High angle (security cam style)",
+    "Low angle (dreamlike)",
+    "Over-the-shoulder from unseen observer",
+    "Extreme close-up on eyes",
+    "Dutch angle (disoriented)"
+  ],
+  "ATMOSPHERES": [
+    "Claustrophobic",
+    "Haunted silence",
+    "Whispering madness",
+    "Time distortion",
+    "Disturbing calm"
+  ],
+  "ACCESSORIES": [
+    "Leather restraints",
+    "Medical ID tag",
+    "Loose bracelet with number",
+    "Hair clip shaped like cross",
+    "Cracked eyeglasses"
+  ],
+  "HORROR_INTENSITY": {
+    "None": [],
+    "Subtle": [
+      "Uncanny quiet",
+      "Unsettling symmetry",
+      "Faint whispering in prompt tone"
+    ],
+    "Moderate": [
+      "Visible shadows in corners",
+      "Objects arranged oddly",
+      "Mild blood or dirt stains"
+    ],
+    "Strong": [
+      "Blood on hands",
+      "Apparitions behind glass",
+      "Unnatural body posture"
+    ],
+    "Extreme": [
+      "Psychological distortion",
+      "Broken limbs in smiles",
+      "Eyes drawn on walls",
+      "Laughing figures in background"
+    ]
+  }
+}

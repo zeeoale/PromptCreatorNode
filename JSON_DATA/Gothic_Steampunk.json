@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "Industrial Gothic Age",
+    "Steamfall Era",
+    "The Clockwork Renaissance"
+  ],
+  "OUTFITS": [
+    "mechanical low-cut corset with brass tubing",
+    "leather low-cut longcoat with gear embroidery",
+    "low-cut lace veil with copper valves",
+    "blood-stained low-cut labcoat with monocle",
+    "low-cut corset armor with oscillating gears"
+  ],
+  "LIGHTING": [
+    "flickering gaslight",
+    "dim steam-lanterns",
+    "glow from internal machinery",
+    "distant lightning behind cathedral spires"
+  ],
+  "BACKGROUNDS": [
+    "cathedral made of gears and flesh",
+    "floating steam-powered asylum",
+    "rusted city with bone-paved streets",
+    "airship graveyard in a blood mist",
+    "clocktower infested with mechanical crows"
+  ],
+  "OBJECTS": [
+    "wrist-worn time siphon",
+    "bio-electric violin",
+    "hollow-eyed doll",
+    "gear-shaped holy book",
+    "jar with preserved mechanical heart"
+  ],
+  "POSES": [
+    "arms outstretched in ritual summoning",
+    "leaning against steam pipe wall",
+    "kneeling before an ancient machine god",
+    "floating mid-air among gears",
+    "looking over shoulder, mask half-lifted"
+  ],
+  "EXPRESSIONS": [
+    "mechanical grin",
+    "blank stare with clockwork eyes",
+    "rage masked by elegance",
+    "serene in horror",
+    "haunted joy"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle through rising steam",
+    "overhead shot inside gear chamber",
+    "close-up on glowing eye implant",
+    "medium shot with smoke silhouettes",
+    "angled from broken pipe reflection"
+  ],
+  "ATMOSPHERES": [
+    "haunted elegance",
+    "mechanized decay",
+    "glorious but twisted",
+    "utopic terror",
+    "smoky surrealism"
+  ],
+  "ACCESSORIES": [
+    "bronze plague mask",
+    "necklace of watch parts",
+    "goggles fused to face",
+    "clockwork wings",
+    "steam injector cane"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "mild clockwork distortion, antique mood",
+    "medium": "body fusion with machines, eerie architecture",
+    "high": "grotesque transformations, biomechanical abominations"
+  }
+}

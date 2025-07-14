@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Dystopian Ritual Era",
+    "Forgotten Pagan Times",
+    "Neo-Shamanic Future",
+    "Post-Collapse Japan"
+  ],
+  "OUTFITS": [
+    "Bloodless ceremonial kimono",
+    "Frayed white linen robes",
+    "Bone-decorated shrine attire",
+    "Tattooed skin with red symbols",
+    "tight, low-cut kimono"
+  ],
+  "LIGHTING": [
+    "Ghostly white illumination",
+    "Candle-lit chamber",
+    "Dim red ritual glow",
+    "Filtered light through incense smoke"
+  ],
+  "BACKGROUNDS": [
+    "Corrupted temple ruins",
+    "Skeletal Torii gate in fog",
+    "Bloodless altar on barren land",
+    "Underground ceremonial pit"
+  ],
+  "OBJECTS": [
+    "Scrolls with forbidden glyphs",
+    "Ivory masks of forgotten gods",
+    "Rusty ceremonial blades",
+    "Offering bowls filled with white ash"
+  ],
+  "POSES": [
+    "Kneeling with hands open to the sky",
+    "Mid-chant with mouth slightly open",
+    "Standing over ashes with closed eyes",
+    "Arms extended in silent devotion"
+  ],
+  "EXPRESSIONS": [
+    "Blank ritual trance",
+    "Whispering madness",
+    "Serene devotion",
+    "Eyes rolled back in ecstasy"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle from altar perspective",
+    "Top-down from temple ceiling",
+    "Close-up of face with bloodless markings",
+    "Behind-the-shoulder view of the ceremony"
+  ],
+  "ATMOSPHERES": [
+    "Thick with unspoken dread",
+    "Silent as death",
+    "Tense and expectant",
+    "Filled with whispers and unseen gazes"
+  ],
+  "ACCESSORIES": [
+    "Twisted bone jewelry",
+    "Headbands marked with ritual seals",
+    "Chains of dried flowers",
+    "Amulets pulsing with false life"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "Uneasy stillness with soft ritual tones",
+    "medium": "Strange rites and whispers in sacred silence",
+    "high": "Ritual climax with corrupted symbols and madness"
+  }
+}

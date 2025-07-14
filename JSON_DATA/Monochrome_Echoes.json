@@ -1,0 +1,91 @@
+{
+  "EPOCHS": [
+    "ancient world",
+    "modern day",
+    "dystopian future",
+    "lost civilization",
+    "timeless void"
+  ],
+  "OUTFITS": [
+    "minimalist",
+    "military coat",
+    "shrouded robe",
+    "victorian lace",
+    "nothing",
+    "low-cut dress"
+  ],
+  "LIGHTING": [
+    "harsh shadows",
+    "soft side light",
+    "rim lighting",
+    "studio flash",
+    "natural backlight"
+  ],
+  "BACKGROUNDS": [
+    "abandoned streets",
+    "stone ruins",
+    "high-tech city",
+    "desolate field",
+    "marble hallway"
+  ],
+  "OBJECTS": [
+    "cracked mirror",
+    "old camera",
+    "typewriter",
+    "neon sign",
+    "metal sculpture"
+  ],
+  "POSES": [
+    "close-up frontal",
+    "profile with downward gaze",
+    "eyes closed",
+    "looking into distance",
+    "hand on face"
+  ],
+  "EXPRESSIONS": [
+    "melancholic",
+    "contemplative",
+    "fearless",
+    "serene",
+    "wounded"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up",
+    "medium shot from above",
+    "wide shot with vanishing point",
+    "straight-on frontal",
+    "low angle portrait"
+  ],
+  "ATMOSPHERES": [
+    "moody",
+    "bleak",
+    "elegant",
+    "mysterious",
+    "hauntingly calm"
+  ],
+  "ACCESSORIES": [
+    "chain earring",
+    "lace glove",
+    "breathing mask",
+    "retro headset"
+  ],
+  "HORROR_INTENSITY": {
+    "none": [
+      "clean studio portrait",
+      "fashion editorial"
+    ],
+    "low": [
+      "shadowy background",
+      "unsettling silence"
+    ],
+    "medium": [
+      "cracks in skin",
+      "disjointed facial features"
+    ],
+    "high": [
+      "stitched lips",
+      "eyeless face",
+      "fragmented skull"
+    ]
+  }
+}

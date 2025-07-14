@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "modern era",
+    "futuristic Seoul",
+    "digital dream age",
+    "neon K-city nights"
+  ],
+  "OUTFITS": [
+    "stage uniform",
+    "glittery dress",
+    "urban pop attire",
+    "idol training outfit",
+    "colorful hanbok remix",
+    "sexy low-cut dress",
+    "sexy minimal dress"
+  ],
+  "LIGHTING": [
+    "neon concert lights",
+    "pastel spotlight",
+    "LED stage glow",
+    "holographic flashes",
+    "dreamy studio lighting"
+  ],
+  "BACKGROUNDS": [
+    "k-pop concert stage",
+    "k-pop fan meet stage",
+    "K-pop MV set",
+    "k-pop rooftop at night",
+    "k-pop idol dorm room"
+  ],
+  "OBJECTS": [
+    "microphone",
+    "glowsticks",
+    "confetti",
+    "K-pop banner",
+    "camera flashes"
+  ],
+  "POSES": [
+    "idol dance pose",
+    "signature finger heart",
+    "confident performer stance",
+    "dynamic spin",
+    "bow to fans"
+  ],
+  "EXPRESSIONS": [
+    "radiant smile",
+    "winking",
+    "charismatic gaze",
+    "joyful expression",
+    "peace sign face"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle from crowd",
+    "close-up on stage",
+    "side profile during dance",
+    "center-stage shot",
+    "selfie angle"
+  ],
+  "ATMOSPHERES": [
+    "electrifying",
+    "dreamy",
+    "fan-filled",
+    "glamorous",
+    "youthful energy"
+  ],
+  "ACCESSORIES": [
+    "in-ear monitors",
+    "custom choker",
+    "K-pop logo earrings",
+    "idol bracelet",
+    "stylized headset"
+  ],
+  "HORROR_INTENSITY": {}
+}

@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "The Last Judgement",
+    "Post-Apocalyptic War",
+    "Celestial Collapse",
+    "Infernal Reign"
+  ],
+  "OUTFITS": [
+    "tattered holy robes",
+    "obsidian armor with molten cracks",
+    "glowing celestial battle gear",
+    "chains and scorched fabric",
+    "halo crown with bloodstains"
+  ],
+  "LIGHTING": [
+    "divine beam from the clouds",
+    "fiery glow from below",
+    "ashen daylight with falling embers",
+    "broken sun through holy smoke",
+    "moonlight shining through ruins"
+  ],
+  "BACKGROUNDS": [
+    "ruined cathedral suspended in the sky",
+    "city split between heaven and hell",
+    "burning wasteland with fallen angel statues",
+    "abandoned church surrounded by lava cracks",
+    "sky battlefield with lightning and fire"
+  ],
+  "OBJECTS": [
+    "broken halo on the ground",
+    "sword glowing with divine runes",
+    "demonic grimoire bound in chains",
+    "feather drenched in blood",
+    "trumpet of the final war"
+  ],
+  "POSES": [
+    "mid-air clash with wings outstretched",
+    "kneeling with broken sword",
+    "reaching toward the heavens",
+    "hovering above ruins with outstretched arms",
+    "charging through fire and smoke"
+  ],
+  "EXPRESSIONS": [
+    "righteous fury",
+    "tormented anguish",
+    "divine serenity amidst chaos",
+    "gleeful malice",
+    "haunted conviction"
+  ],
+  "CAMERA_ANGLES": [
+    "from below with light piercing sky",
+    "close-up on cracked mask or face",
+    "aerial shot above burning battleground",
+    "side angle of two figures mid-clash",
+    "wide shot of heaven torn open"
+  ],
+  "ATMOSPHERES": [
+    "apocalyptic holiness",
+    "hellish grandeur",
+    "sacred ruin",
+    "divine wrath",
+    "armageddon melancholy"
+  ],
+  "ACCESSORIES": [
+    "charred wing feathers",
+    "horned crown",
+    "celestial earring shaped like a cross",
+    "holy scroll with burning edges",
+    "war mask with divine engravings"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "light divine tension, sacred battlefield",
+    "medium": "ruined paradise, corrupted angelic forms",
+    "high": "grotesque demons, torn wings, divine horror"
+  }
+}

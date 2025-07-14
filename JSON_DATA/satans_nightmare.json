@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "Medieval Inquisition",
+    "Gothic Rituals",
+    "Post-Apocalyptic Cults",
+    "Dark Ages",
+    "Unholy Victorian Era"
+  ],
+  "OUTFITS": [
+    "tattered cultist robes",
+    "blood-stained ceremonial gowns",
+    "leather-bound ritual armor",
+    "sacrificial priestess dress",
+    "spiked heretic garb",
+    "tight latex dress",
+    "latex lingerie",
+    "nothing"
+  ],
+  "LIGHTING": [
+    "hellish red glow",
+    "dim candlelight",
+    "flickering infernal sigils",
+    "backlit by sacred flames",
+    "moonlight filtered through crimson smoke"
+  ],
+  "BACKGROUNDS": [
+    "pentagram-etched catacombs",
+    "desecrated chapel ruins",
+    "forest altar with bone totems",
+    "ritual circle in scorched earth",
+    "gothic dungeon with blood runes"
+  ],
+  "OBJECTS": [
+    "demonic idols",
+    "black candles",
+    "sacrificial dagger",
+    "skull chalice",
+    "scrolls of forbidden text"
+  ],
+  "POSES": [
+    "arms raised in invocation",
+    "kneeling in ecstasy",
+    "levitating in trance",
+    "drawing runes on skin",
+    "chanting from ancient scroll"
+  ],
+  "EXPRESSIONS": [
+    "possessed gaze",
+    "blasphemous grin",
+    "inward trance",
+    "agonizing rapture",
+    "heretic ecstasy"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle with dramatic shadows",
+    "close-up on ecstatic face",
+    "close-up portrait",
+    "half-length portrait"
+  ],
+  "ATMOSPHERES": [
+    "thick sulfur mist",
+    "embers in the air",
+    "incense smoke and whispers",
+    "blood-stained fog",
+    "chant-filled silence"
+  ],
+  "ACCESSORIES": [
+    "inverted cross necklace",
+    "horned headdress",
+    "engraved bone staff",
+    "ritual chains",
+    "tattoos of forbidden symbols"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "dark pagan aesthetics, subtle occult elements",
+    "medium": "visible symbols, eerie lighting, subtle gore",
+    "high": "blasphemous rituals, blood sacrifice, overt demonic presence"
+  }
+}

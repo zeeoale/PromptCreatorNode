@@ -1,0 +1,95 @@
+{
+  "COLOR_REALM": ["C", "M", "Y", "K"],
+
+  "EPOCHS": [
+    "chromatic empire",
+    "inkpunk rebellion",
+    "neon scripture age"
+  ],
+
+  "OUTFITS": {
+    "C": [
+      "cyan crystal robes",
+      "glacial silk cloak",
+      "ice-threaded bodysuit"
+    ],
+    "M": [
+      "magenta ceremonial armor",
+      "ribboned velvet gown",
+      "enchanted rebel leotard"
+    ],
+    "Y": [
+      "sun-threaded desert garb",
+      "bright yellow explorer coat",
+      "golden priestess regalia"
+    ],
+    "K": [
+      "shadow-ink kimono",
+      "obsidian battle cloak",
+      "ritual armor of blackened metal"
+    ]
+  },
+
+  "LIGHTING": {
+    "C": ["cool refraction light", "cyan frost glow", "arctic shimmer"],
+    "M": ["neon pink haze", "burning dusk light", "magenta flare"],
+    "Y": ["sunfire shine", "amber glow", "radiant gold"],
+    "K": ["ink shadow gleam", "void glint", "monochrome contrast"]
+  },
+
+  "BACKGROUNDS": {
+    "C": ["glacier temple", "floating ice shrine", "frozen citadel ruins"],
+    "M": ["crimson throne chamber", "rebellion garden", "flaming rose cathedral"],
+    "Y": ["desert relic city", "golden monastery", "sunblasted shrine"],
+    "K": ["ancient ink arena", "forgotten monochrome realm", "cathedral of void"]
+  },
+
+  "OBJECTS": {
+    "C": ["frozen gem orb", "cyan prism cube", "cryolite blade"],
+    "M": ["burning petal mask", "magenta energy rod", "spirit ribbon dagger"],
+    "Y": ["solar compass", "eternal sun ring", "scepter of harvest"],
+    "K": ["obsidian rune stone", "black flame mask", "inkborn scythe"]
+  },
+
+  "POSES": [
+    "standing defiantly with relic in hand",
+    "kneeling before the chroma altar",
+    "floating mid-air with energy spiral",
+    "guarding the portal between realms"
+  ],
+
+  "EXPRESSIONS": [
+    "fierce determination",
+    "mystic serenity",
+    "arcane intensity",
+    "melancholy wisdom"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low-angle shot with dramatic backdrop",
+    "over-the-shoulder framing with chroma effect",
+    "close-up with color flares",
+    "wide cinematic view with intense depth"
+  ],
+
+  "ATMOSPHERES": {
+    "C": ["vibrant chroma surge", "silent magical storm", "cyan static mist"],
+    "M": ["burning spectral bloom", "magenta mirage haze", "wild aura pulses"],
+    "Y": ["golden solar storm", "heatwave shimmer", "bright flare gusts"],
+    "K": ["monochrome decay fog", "voidstorm pressure", "whispers of ink"]
+  },
+
+  "ACCESSORIES": {
+    "C": ["glowing frost anklet", "arctic sigil necklace"],
+    "M": ["spiral flame earrings", "warrior rose circlet"],
+    "Y": ["sunbeam staff", "sandglass talisman"],
+    "K": ["ink rune ring", "veil of darkness"]
+  },
+
+  "HORROR_INTENSITY": {
+    "none": [],
+    "low": ["mild chroma distortion in background"],
+    "medium": ["faint shadow creatures behind subject"],
+    "high": ["color bleeding from subject's eyes", "corruption tendrils emerging"]
+  }
+}

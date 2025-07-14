@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "surreal gothic",
+    "mirrorbound age",
+    "post-trauma timelessness",
+    "haunted victorian"
+  ],
+  "OUTFITS": [
+    "fragmented ceremonial dress",
+    "mirror-themed robes",
+    "shattered lace gown",
+    "asymmetrical garments",
+    "torn lingerie",
+    "tight, low-cut, ripped dress",
+    "naked only with ritual tattoos"
+  ],
+  "LIGHTING": [
+    "moody reflections",
+    "silver glows",
+    "candlelit with distortion",
+    "twilight with mirror flares"
+  ],
+  "BACKGROUNDS": [
+    "mirror room",
+    "shattered hallway",
+    "endless corridor",
+    "gothic asylum with reflections",
+    "fractured ballroom"
+  ],
+  "OBJECTS": [
+    "cracked mirrors",
+    "floating shards",
+    "twisting furniture",
+    "ghostly silhouettes",
+    "eye-shaped frames"
+  ],
+  "POSES": [
+    "facing reflection",
+    "touching mirror",
+    "kneeling before broken glass",
+    "turning away from self",
+    "arms spread in distortion"
+  ],
+  "EXPRESSIONS": [
+    "hollow gaze",
+    "mirrored sadness",
+    "tense recognition",
+    "eerie calm",
+    "emotional fracture"
+  ],
+  "CAMERA_ANGLES": [
+    "over-the-shoulder reflection",
+    "high angle through cracked glass",
+    "symmetrical front",
+    "angled through a mirror",
+    "side profile with echo"
+  ],
+  "ATMOSPHERES": [
+    "uncanny",
+    "psychological horror",
+    "introspective tension",
+    "creeping stillness",
+    "distorted reality"
+  ],
+  "ACCESSORIES": [
+    "mirror shard crown",
+    "glass eye pendant",
+    "asymmetrical earrings",
+    "lace gloves with cracks"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "subtle distortions and eerie calm",
+    "medium": "active reflections and shifting reality",
+    "high": "aggressive doubles and violent shattering",
+    "extreme": "identity breakdown and mirrored possession"
+  }
+}

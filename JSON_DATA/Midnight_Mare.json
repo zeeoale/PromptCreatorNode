@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "Victorian Gothic",
+    "Art Nouveau Decadence",
+    "1980s Dreamcore",
+    "Neo-Renaissance",
+    "Timeless Void"
+  ],
+  "OUTFITS": [
+    "Nightgown of Silk and Shadow",
+    "Moonlit Armor",
+    "Dusty Carnival Dress",
+    "Psychiatric Uniform (worn and faded)",
+    "Elegy Shroud",
+    "black and ruined lingerie",
+    "tight, low-cut black dress"
+  ],
+  "LIGHTING": [
+    "Candlelight filtered through lace",
+    "Greenish flicker of malfunctioning neon",
+    "Moonbeams through broken stained glass",
+    "Unholy glow from below",
+    "Ashen twilight mist"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned carousel in mist",
+    "Corridor of mirrors that don't reflect",
+    "Church consumed by black ivy",
+    "Forest where trees whisper backwards",
+    "Room with walls that breathe"
+  ],
+  "OBJECTS": [
+    "Porcelain doll with eyes removed",
+    "Clock that ticks counterclockwise",
+    "Teddy bear torn in half",
+    "Book that bleeds when opened",
+    "Glass orb showing someone else's dream"
+  ],
+  "POSES": [
+    "Floating helplessly",
+    "Hiding under invisible sheets",
+    "Climbing walls like a spider",
+    "Arms outstretched toward nothing",
+    "Kneeling with head tilted unnaturally"
+  ],
+  "EXPRESSIONS": [
+    "Vacant smile",
+    "Eyes wide with ancestral memory",
+    "Tears of ink",
+    "Mouth sewn shut",
+    "Face of someone who just woke up... or didn't"
+  ],
+  "CAMERA_ANGLES": [
+    "From inside a mirror",
+    "Extreme low angle from beneath a bed",
+    "Worm's eye view behind cracked glass",
+    "Over-the-shoulder of something unseen"
+  ],
+  "ATMOSPHERES": [
+    "Hypnagogic dread",
+    "Claustrophobic warmth",
+    "Euphoric detachment",
+    "Feeling of being watched",
+    "Weightless confusion"
+  ],
+  "ACCESSORIES": [
+    "Dreamcatcher turned inside out",
+    "Necklace made of broken clocks",
+    "Halo of thorns made from moonlight",
+    "Bandaged fingers with charcoal tips",
+    "Stuffed animal with human teeth"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "Unsettling dreamlike tension",
+    "medium": "Visions half-remembered but wholly wrong",
+    "high": "Nightmare manifest: run, but not fast enough",
+    "extreme": "Existential collapse within a lucid dreamscape"
+  }
+}

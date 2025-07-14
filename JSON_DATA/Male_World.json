@@ -1,0 +1,18 @@
+{
+  "EPOCHS": ["medieval", "victorian", "1920s", "futuristic", "samurai era", "cyberpunk"],
+  "OUTFITS": ["military uniform", "tailored suit", "casual modern wear", "leather jacket", "ancient warrior armor", "samurai kimono"],
+  "LIGHTING": ["moody lighting", "cinematic lighting", "low key light", "backlight with rim", "golden hour light", "harsh contrast light"],
+  "BACKGROUNDS": ["urban alley", "castle hall", "battlefield", "ancient temple", "rooftop at sunset", "rainy neon street"],
+  "OBJECTS": ["a katana", "a cane", "a rose", "a glowing orb", "a futuristic rifle", "a falcon on shoulder"],
+  "POSES": ["arms crossed", "one knee kneeling", "leaning against a wall", "hands in pockets", "standing tall with wind blowing", "sitting on a throne"],
+  "EXPRESSIONS": ["serious gaze", "smirking", "calm and collected", "angry shout", "stoic", "mysterious smile"],
+  "CAMERA_ANGLES": ["low angle hero shot", "frontal close-up", "3/4 profile view", "from below looking up", "over the shoulder"],
+  "ATMOSPHERES": ["tense and gritty", "romantic fog", "post-battle silence", "eerie calm before storm", "desert heat haze", "city night"],
+  "ACCESSORIES": ["sunglasses", "scar", "earring", "arm tattoo", "mechanical glove", "hooded cloak"],
+  "HORROR_INTENSITY": {
+    "Normal": "no horror, purely aesthetic",
+    "Mild": "mild eerie element (like a shadow)",
+    "Suspense": "visible tension or suspense",
+    "Corruption": "supernatural presence or corruption"
+  }
+}
