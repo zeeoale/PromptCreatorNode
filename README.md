@@ -102,6 +102,24 @@ Generated using the CMYK Realm:
 
 ---
 
+## And Remember:
+
+🎉 Welcome to the brand-new **Prompt JSON Creator Hub**!  
+A curated space designed to explore, share, and download structured JSON presets — fully compatible with your Prompt Creator app.
+
+👉 **Visit now**: [https://json.traumakom.online/](https://json.traumakom.online/)
+
+### ✨ What you can do:
+- Browse all available public JSON presets
+- View detailed descriptions, tags, and contents
+- Instantly download and use presets in your local app
+- See how many JSONs are currently live on the Hub
+
+The Prompt JSON Hub is constantly updated with new thematic presets: portraits, horror, fantasy worlds, superheroes, kawaii styles, and more.
+
+> 🔄 After adding or editing files in your local `JSON_DATA` folder, use the 🔄 button in the Prompt Creator to reload them dynamically!
+
+
 ## ☕ Support My Work
 
 If you enjoy this project, consider buying me a coffee on Ko-Fi:  
