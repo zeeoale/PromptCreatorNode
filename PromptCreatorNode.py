@@ -9,25 +9,27 @@ class PromptCreatorNode:
         json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
 
         return {
-            "required": {
-                "json_name": (sorted(json_files),),
-                "use_enhancer": (["none", "openai", "cohere", "gemini"],),
-                "add_symbols": (["no", "yes"],),
-                "seed": ("INT", {"default": 0}),
-                "gender": (["neutral", "female", "male"],),
-                "horror_intensity": (["auto"] + [str(i) for i in range(11)],),
-                "lora_triggers": ("STRING", {"default": ""}),
-                "subject_count": (["1", "2", "3"], {"default": "1"}),
-                "lock_last_prompt": (["no", "yes"], {"default": "no"})
-            }
-        }
+    "required": {
+        "json_name": (sorted(json_files),),
+        "use_enhancer": (["none", "openai", "cohere", "gemini"],),
+        "add_symbols": (["no", "yes"],),
+        "seed": ("INT", {"default": 0}),
+        "gender": (["neutral", "female", "2 female", "3 female", "female vampire", "male", "custom"],),
+        "custom_intro": ("STRING", {"default": "", "multiline": True}),
+        "horror_intensity": (["auto"] + [str(i) for i in range(11)],),
+        "lora_triggers": ("STRING", {"default": ""}),
+        "subject_count": (["1", "2", "3"],),
+        "lock_last_prompt": (["no", "yes"], {"default": "no"}),
+        "multi_object_count": ("INT", {"default": 1, "min": 1, "max": 5})
+    }
+}
 
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("prompt",)
     FUNCTION = "generate_prompt"
     CATEGORY = "Prompt Creator"
 
-    def generate_prompt(self, json_name, use_enhancer, add_symbols, seed,  gender, horror_intensity, lora_triggers, subject_count, lock_last_prompt):
+    def generate_prompt(self, json_name, use_enhancer, add_symbols, seed, gender, custom_intro, horror_intensity, lora_triggers, subject_count, lock_last_prompt, multi_object_count):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
 
@@ -47,19 +49,28 @@ class PromptCreatorNode:
 
         parts = []
 
-        gender_inserted = False
-        if gender in data:
-            values = data[gender]
-            if isinstance(values, list) and values:
-                parts.append(random.choice(values))
-                gender_inserted = True
-        if not gender_inserted:
-            if gender == "male":
-                parts.append("a mysterious man")
-            elif gender == "female":
-                parts.append("a beautiful woman")
-            else:
-                parts.append("a striking figure")
+        if gender == "custom" and custom_intro.strip():
+            parts.append(custom_intro.strip())
+        else:
+            gender_inserted = False
+            if gender in data:
+                values = data[gender]
+                if isinstance(values, list) and values:
+                    parts.append(random.choice(values))
+                    gender_inserted = True
+            if not gender_inserted:
+                if gender == "male":
+                    parts.append("a mysterious man")
+                elif gender == "female":
+                    parts.append("a beautiful woman")
+                elif gender == "2 female":
+                    parts.append("two beautiful womans")
+                elif gender == "3 female":
+                    parts.append("three unique beautiful womans")
+                elif gender == "female vampire":
+                    parts.append("a beautiful vampire woman")
+                else:
+                    parts.append("a striking figure")
 
         color_realm_value = None
         if "COLOR_REALM" in data:
@@ -69,17 +80,27 @@ class PromptCreatorNode:
                 print(f"[PromptCreator] Using COLOR_REALM: {color_realm_value}")
                 parts.append(color_realm_value)
 
+        multi_keys = ["OBJECTS", "ACCESSORIES"]
+
         if color_realm_value:
             for key in ["OUTFITS", "LIGHTING", "BACKGROUNDS", "OBJECTS", "ACCESSORIES", "ATMOSPHERES"]:
                 values_by_realm = data.get(key, {}).get(color_realm_value, [])
                 if isinstance(values_by_realm, list) and values_by_realm:
-                    parts.append(random.choice(values_by_realm))
+                    if key in multi_keys:
+                        sampled = random.sample(values_by_realm, min(multi_object_count, len(values_by_realm)))
+                        parts.extend(sampled)
+                    else:
+                        parts.append(random.choice(values_by_realm))
         else:
             for key, values in data.items():
                 if key.lower() in ["male", "female", "neutral", "horror_intensity", "color_realm"]:
                     continue
                 if isinstance(values, list) and values:
-                    parts.append(random.choice(values))
+                    if key in multi_keys:
+                        sampled = random.sample(values, min(multi_object_count, len(values)))
+                        parts.extend(sampled)
+                    else:
+                        parts.append(random.choice(values))
 
         horror_level = None
         if horror_intensity != "auto":
@@ -128,7 +149,7 @@ class PromptCreatorNode:
                     response = co.generate(
                         model="command-r-plus",
                         prompt=f"Create a simple yet detailed prompt for image generation:\n{prompt}",
-                        max_tokens=200
+                        max_tokens=500
                     )
                     prompt = response.generations[0].text.strip()
 
@@ -145,9 +166,11 @@ Prompt: {prompt}
 
 Enhanced:
 """
-                    
+
                     try:
                         response = model.generate_content(prompt_text)
+
+                        print(f"[PromptCreator] Gemini response type: {type(response)}")
                         enhanced_text = response.candidates[0].content.parts[0].text.strip()
                         if not enhanced_text:
                             raise ValueError("Empty response from Gemini")
