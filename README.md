@@ -7,7 +7,8 @@ A powerful custom node for ComfyUI that generates rich, dynamic prompts based on
 
 ---
 
-<img width="581" height="657" alt="image" src="https://github.com/user-attachments/assets/5382f908-2999-4cf0-9763-2af880990c93" />
+<img width="527" height="852" alt="image" src="https://github.com/user-attachments/assets/a4756470-4976-4b0c-b961-8cdc60f79ee9" />
+
 
 
 ## 🌟 Features
