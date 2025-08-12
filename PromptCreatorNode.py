@@ -37,19 +37,28 @@ class PromptCreatorNode:
     def _system_prompts(self):
         return {
             "standard": (
-                "You're a professional prompt enhancer for AI image generation. "
-                "Return a vivid, well-written prompt as a single sentence. No notes, no lists."
+                "You are a professional prompt enhancer for AI image generation. "
+                "Return ONE long, multi-clause sentence (~120–160 words), richly descriptive. "
+                "Cover: genre/style; era; foreground/midground/background; materials & textures; color palette (3–5 tones); "
+                "lighting (type/direction/intensity); atmosphere; camera angle & lens (mm); composition rule; 3–5 post-process keywords. "
+                "No story, no dialogue, no lists, no headings."
             ),
             "dark_ritual": (
-                "You're a cinematic horror stylist. Transform prompts into disturbing, poetic, gothic horror compositions in a single sentence."
+                "You are a cinematic horror stylist. Return ONE long, multi-clause sentence (~120–160 words) in poetic gothic tone; "
+                "focus on occult symbolism, chiaroscuro lighting, decayed textures, sinister color palette, slow shutter/soft bloom, "
+                "low-angle or three-quarter framing, and lingering dread. No story, no lists."
             ),
             "aesthetic_focus": (
-                "You're a fashion-forward visual stylist. Enhance with elegance, beauty, balance and chic atmosphere in a single sentence."
+                "You are a fashion-forward visual stylist. Return ONE long, multi-clause sentence (~120–160 words) with elegance and balance; "
+                "specify fabrics, cuts, surface finishes, palette harmony, key light/fill/rim, lens and composition details, "
+                "and tasteful post-process cues. No lists, no headings."
             ),
             "compact": (
-                "You're an expert in minimal but expressive prompts. Return a short, dense prompt with strong visuals and no filler."
+                "You are an expert in minimal but expressive prompts. Return ONE compact sentence (~70–100 words) with dense visuals; "
+                "include palette, lighting, camera angle/lens, and one composition rule. No lists."
             ),
         }
+
 
     def _build_prompt_from_json(self, data, gender, custom_intro, horror_intensity, subject_count, multi_object_count):
         parts = []
@@ -161,16 +170,66 @@ class PromptCreatorNode:
         return resp.choices[0].message.content.strip()
 
     def _enhance_with_cohere(self, base_path, system_prompt, user_prompt):
-        import cohere
+        import cohere, re, random
         keys = self._read_api_keys(base_path)
         co = cohere.Client(keys.get("cohere", ""))
-        # Cohere "generate" non ha system; includiamo l'istruzione nel prompt
-        resp = co.generate(
-            model="command-r-plus",
-            prompt=f"SYSTEM: {system_prompt}\nUSER: {user_prompt}\nReturn only the final prompt.",
-            max_tokens=700
+
+        fused = (
+            f"SYSTEM: {system_prompt}\n"
+            f"USER: Expand this seed into the required format. "
+            f"Write exactly one sentence (allow multiple clauses with commas and semicolons). "
+            f"\"Seed: {user_prompt}\\n\\nAssistant:\""
         )
-        return resp.generations[0].text.strip()
+
+        # Prova GENERATE con più candidati e parametri 'ricchi'
+        try:
+            resp = co.generate(
+                model="command-r-plus",
+                prompt=fused,
+                max_tokens=700,
+                temperature=0.9,
+                p=0.85,
+                k=0,
+                frequency_penalty=0.15,
+                presence_penalty=0.15,
+                truncate="NONE",
+                num_generations=3,
+                stop_sequences=["\nSYSTEM:", "\nUSER:", "\nAssistant:"]
+            )
+            cands = [g.text.strip() for g in resp.generations if getattr(g, "text", None)]
+            cands = [re.sub(r"\s*\n+\s*", " ", c).strip() for c in cands]
+            # scegli la più lunga (più ricca)
+            best = max(cands, key=len) if cands else ""
+            # fallback: se ancora troppo corta, un secondo pass più caldo
+            if len(best.split()) < 80:
+                resp2 = co.generate(
+                    model="command-r-plus",
+                    prompt=fused,
+                    max_tokens=800,
+                    temperature=1.0,
+                    p=0.9,
+                    k=0,
+                    truncate="NONE",
+                    num_generations=2
+                )
+                c2 = [g.text.strip() for g in resp2.generations if getattr(g, "text", None)]
+                c2 = [re.sub(r"\s*\n+\s*", " ", c).strip() for c in c2]
+                if c2:
+                    best = max([best] + c2, key=len)
+            return best
+        except Exception:
+            # Fallback su CHAT se generate non è disponibile/limita
+            r = co.chat(
+                model="command-r-plus",
+                messages=[
+                    {"role": "SYSTEM", "content": system_prompt},
+                    {"role": "USER", "content": user_prompt + "\nReturn one long sentence (~100–130 words), no lists."}
+                ],
+                temperature=0.9,
+                max_tokens=700
+            )
+            txt = (getattr(r, "text", "") or "").strip()
+            return re.sub(r"\s*\n+\s*", " ", txt)
 
     def _enhance_with_gemini(self, base_path, system_prompt, user_prompt):
         import google.generativeai as genai
