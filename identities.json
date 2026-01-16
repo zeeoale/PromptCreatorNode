@@ -1,0 +1,128 @@
+{
+  "Fallen_Helly": {
+    "age": "mid 20s",
+    "face_type": "heart-shaped face, high cheekbones, narrow jaw",
+    "eyes": "almond icy eyes, heavy lashes",
+    "nose": "straight delicate nose",
+    "mouth": "soft full lips, slight cupid bow",
+    "hair": "long platinum-white hair, heavy fringe",
+    "skin": "porcelain skin, faint under-eye shadows",
+    "expression_base": "detached melancholic calm"
+  },
+  "Helly_Identity": {
+  "age": "mid to late 20s",
+  "face_type": "soft oval face with balanced proportions and gentle jawline",
+  "eyes": "dark brown eyes, calm and attentive gaze, slightly introspective",
+  "nose": "straight nose with delicate bridge",
+  "mouth": "natural medium-full lips with subtle definition",
+  "hair": "long straight to softly wavy hair, medium brown tone, natural part",
+  "skin": "light to fair skin tone with neutral undertones",
+  "expression_base": "quiet focus, composed presence, subtle intellectual confidence"
+  },
+  "Classic_Muse": {
+    "age": "late 20s",
+    "face_type": "oval face, classical proportions",
+    "eyes": "deep-set eyes, calm gaze",
+    "nose": "straight nose",
+    "mouth": "defined lips, subtle smile",
+    "hair": "dark wavy hair, shoulder-length",
+    "skin": "soft natural skin texture",
+    "expression_base": "serene, dignified composure"
+  },
+    "NeoTokyo_Muse": {
+    "age": "early 20s",
+    "face_type": "soft oval face, delicate jawline, gentle high cheekbones",
+    "eyes": "almond-shaped dark brown eyes, subtle epicanthic fold, long natural lashes",
+    "nose": "small straight nose with a low bridge",
+    "mouth": "small defined lips, soft cupid bow",
+    "hair": "straight jet-black hair, silky texture, blunt bangs",
+    "skin": "warm light-to-medium skin tone, smooth natural texture"
+  },
+    "Mediterranean_Muse": {
+    "age": "mid to late 20s",
+    "face_type": "oval face with defined cheekbones and soft jawline",
+    "eyes": "deep brown eyes, intense gaze, thick natural lashes",
+    "nose": "straight nose with slight aquiline bridge",
+    "mouth": "full lips, well-defined cupid bow",
+    "hair": "dark brown to black hair, thick texture, softly waved",
+    "skin": "warm olive skin tone, natural sun-kissed texture",
+    "expression_base": "confident, introspective elegance"
+  },
+
+  "Nordic_Muse": {
+    "age": "early to mid 20s",
+    "face_type": "elongated oval face, high cheekbones, narrow jaw",
+    "eyes": "light blue or gray eyes, clear reflective gaze",
+    "nose": "straight narrow nose",
+    "mouth": "soft pale lips, minimal cupid bow",
+    "hair": "light blonde hair, fine texture, straight or softly flowing",
+    "skin": "very fair skin, cool undertones, subtle translucency",
+    "expression_base": "quiet, distant calm"
+  },
+
+  "Afro_Elegance": {
+    "age": "mid 20s",
+    "face_type": "rounded oval face, strong cheekbones, balanced proportions",
+    "eyes": "large dark brown eyes, expressive gaze",
+    "nose": "broad straight nose with soft bridge",
+    "mouth": "full lips, natural volume",
+    "hair": "natural afro-textured hair or tight curls",
+    "skin": "deep brown skin tone, rich natural texture",
+    "expression_base": "poised confidence, grounded presence"
+  },
+
+  "Afro_Elegance_Pixie_blue": {
+  "age": "mid 20s",
+  "face_type": "rounded oval face, strong cheekbones, balanced and elegant proportions",
+  "eyes": "blue eyes, confident and focused gaze",
+  "nose": "broad straight nose with soft bridge",
+  "mouth": "full lips, natural volume, refined definition",
+  "hair": "short sculpted pixie cut with layered texture, softly tapered sides, controlled volume on top, refined editorial finish",
+  "skin": "deep brown skin tone, rich natural texture with luminous highlights",
+  "expression_base": "poised confidence, composed authority, understated sensual elegance"
+},
+
+  "Latina_Muse": {
+    "age": "early to mid 20s",
+    "face_type": "heart-shaped face, soft jawline, pronounced cheekbones",
+    "eyes": "warm brown eyes, lively yet composed gaze",
+    "nose": "straight nose with soft rounded tip",
+    "mouth": "full lips, subtle smile",
+    "hair": "dark brown hair, long, softly waved",
+    "skin": "warm tan skin tone, smooth natural texture",
+    "expression_base": "sensual restraint, relaxed confidence"
+  },
+
+  "MiddleEastern_Muse": {
+    "age": "late 20s",
+    "face_type": "oval face, strong bone structure, elegant jawline",
+    "eyes": "large dark eyes, elongated shape, intense gaze",
+    "nose": "prominent straight nose with defined bridge",
+    "mouth": "medium-full lips, well-defined shape",
+    "hair": "dark thick hair, long, glossy texture",
+    "skin": "warm beige to olive skin tone",
+    "expression_base": "regal calm, composed authority"
+  },
+
+  "SouthAsian_Muse": {
+    "age": "early to mid 20s",
+    "face_type": "soft oval face, rounded cheekbones",
+    "eyes": "large dark brown eyes, luminous gaze",
+    "nose": "small to medium straight nose",
+    "mouth": "soft rounded lips",
+    "hair": "long black hair, thick and silky",
+    "skin": "warm golden-brown skin tone",
+    "expression_base": "gentle warmth, introspective softness"
+  },
+
+  "EastEuropean_Muse": {
+    "age": "mid 20s",
+    "face_type": "angular oval face, pronounced cheekbones, narrow jaw",
+    "eyes": "light hazel or gray eyes, piercing gaze",
+    "nose": "sharp straight nose",
+    "mouth": "defined lips, neutral expression",
+    "hair": "ash brown or dark blonde hair, straight texture",
+    "skin": "fair skin with cool undertones",
+    "expression_base": "reserved intensity, controlled elegance"
+  }
+}
