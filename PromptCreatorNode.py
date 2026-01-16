@@ -9,16 +9,42 @@ class PromptCreatorNode:
         json_dir = os.path.join(os.path.dirname(__file__), "JSON_DATA")
         json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
 
+        # carico le chiavi dal file esterno system_prompt.json
+        system_prompt_path = os.path.join(os.path.dirname(__file__), "system_prompt.json")
+        if os.path.exists(system_prompt_path):
+            with open(system_prompt_path, "r", encoding="utf-8") as f:
+                system_prompts = json.load(f)
+            enhancer_modes = list(system_prompts.keys())
+        else:
+            enhancer_modes = ["standard"]
+
+        # carico le chiavi dal file esterno identities.json (volto consistente)
+        identities_path = os.path.join(os.path.dirname(__file__), "identities.json")
+        if os.path.exists(identities_path):
+            try:
+                with open(identities_path, "r", encoding="utf-8") as f:
+                    identities = json.load(f)
+                identity_profiles = ["none"] + list(identities.keys())
+            except Exception:
+                identity_profiles = ["none"]
+        else:
+            identity_profiles = ["none"]
+
         return {
             "required": {
                 "json_name": (sorted(json_files),),
-                "use_enhancer": (["none", "ollama", "openai", "cohere", "gemini"],),
-                "enhancer_mode": (["standard", "dark_ritual", "aesthetic_focus", "compact"],),
+#                "camera_angle": (camera_angle_list,),
+
+                "use_enhancer": (["none", "ollama","llamacpp", "openai", "cohere", "gemini"],),
+                "enhancer_mode": (enhancer_modes,),
                 "add_symbols": (["no", "yes"],),
                 "seed": ("INT", {"default": 0}),
-                "gender": (["neutral", "female", "2 female", "3 female", "female vampire", "male", "custom"],),
+                "gender": (["neutral", "female", "2 female", "3 female", "female vampire", "anime woman", "male", "custom"],),
+                "identity_profile": (identity_profiles,),
+                "lock_identity": (["no", "yes"], {"default": "yes"}),
                 "custom_intro": ("STRING", {"default": "", "multiline": True}),
                 "horror_intensity": (["auto"] + [str(i) for i in range(11)],),
+                "sensuality_level": (["auto", "0", "1", "2", "3"],),
                 "lora_triggers": ("STRING", {"default": ""}),
                 "subject_count": (["1", "2", "3"],),
                 "lock_last_prompt": (["no", "yes"], {"default": "no"}),
@@ -35,33 +61,105 @@ class PromptCreatorNode:
     CATEGORY = "Prompt Creator"
 
     def _system_prompts(self):
-        return {
-            "standard": (
-                "You are a professional prompt enhancer for AI image generation. "
-                "Return ONE long, multi-clause sentence (~120–160 words), richly descriptive. "
-                "Cover: genre/style; era; foreground/midground/background; materials & textures; color palette (3–5 tones); "
-                "lighting (type/direction/intensity); atmosphere; camera angle & lens (mm); composition rule; 3–5 post-process keywords. "
-                "No story, no dialogue, no lists, no headings."
-            ),
-            "dark_ritual": (
-                "You are a cinematic horror stylist. Return ONE long, multi-clause sentence (~120–160 words) in poetic gothic tone; "
-                "focus on occult symbolism, chiaroscuro lighting, decayed textures, sinister color palette, slow shutter/soft bloom, "
-                "low-angle or three-quarter framing, and lingering dread. No story, no lists."
-            ),
-            "aesthetic_focus": (
-                "You are a fashion-forward visual stylist. Return ONE long, multi-clause sentence (~120–160 words) with elegance and balance; "
-                "specify fabrics, cuts, surface finishes, palette harmony, key light/fill/rim, lens and composition details, "
-                "and tasteful post-process cues. No lists, no headings."
-            ),
-            "compact": (
-                "You are an expert in minimal but expressive prompts. Return ONE compact sentence (~70–100 words) with dense visuals; "
-                "include palette, lighting, camera angle/lens, and one composition rule. No lists."
-            ),
-        }
+        system_prompt_path = os.path.join(os.path.dirname(__file__), "system_prompt.json")
+        if os.path.exists(system_prompt_path):
+            with open(system_prompt_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        else:
+            # fallback se manca il file
+            return {
+                "standard": (
+                    "You are a professional prompt enhancer for AI image generation. "
+                    "Return ONE long, multi-clause sentence (~120–160 words), richly descriptive. "
+                    "Cover: genre/style; era; foreground/midground/background; materials & textures; color palette (3–5 tones); "
+                    "lighting (type/direction/intensity); atmosphere; camera angle & lens (mm); composition rule; 3–5 post-process keywords. "
+                    "No story, no dialogue, no lists, no headings."
+                )
+            }
+
+    def _identity_profiles(self):
+        """Carica i profili identità dal file identities.json (se presente)."""
+        identities_path = os.path.join(os.path.dirname(__file__), "identities.json")
+        if os.path.exists(identities_path):
+            try:
+                with open(identities_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                return data if isinstance(data, dict) else {}
+            except Exception:
+                return {}
+        return {}
+
+    def _identity_to_text(self, identity_obj):
+        """Converte un profilo identità in una stringa descrittiva coerente (prompt-only)."""
+        if not isinstance(identity_obj, dict):
+            return ""
+        order = ["age", "face_type", "eyes", "nose", "mouth", "hair", "skin", "expression_base"]
+        chunks = []
+        for k in order:
+            v = identity_obj.get(k) or identity_obj.get(k.upper())
+            if isinstance(v, str) and v.strip():
+                chunks.append(v.strip())
+        return ", ".join(chunks)
 
 
-    def _build_prompt_from_json(self, data, gender, custom_intro, horror_intensity, subject_count, multi_object_count):
+
+    base_path = os.path.dirname(__file__)
+    camera_angles_path = os.path.join(base_path, "camera_angles.json")
+    camera_angle_list = ["none"]
+    if os.path.exists(camera_angles_path):
+        try:
+            with open(camera_angles_path, "r", encoding="utf-8") as f:
+                camera_data = json.load(f)
+            ids = camera_data.get("ids", [])
+            if isinstance(ids, list):
+                camera_angle_list += ids
+        except Exception:
+            pass
+    def _camera_angles(self):
+        path = os.path.join(os.path.dirname(__file__), "camera_angles.json")
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+        return {"ids": ["front"], "map": {}}
+
+    @staticmethod
+    def _is_none(v):
+        return (not v) or (str(v).strip().lower() == "none")
+
+    def _resolve_camera_angle(self, ui_angle, world_data, angle_dict):
+        """
+        Se UI ha un valore (≠ none) → usa quello e ignora il mondo.
+        Se UI è none → eredita da world_data["camera_angle"] o ["CAMERA_ANGLE"].
+        Mappa l'id in camera_angles.map se presente, altrimenti lascia il testo.
+        """
+        if not self._is_none(ui_angle):
+            chosen = ui_angle
+        else:
+            chosen = world_data.get("camera_angle") or world_data.get("CAMERA_ANGLE") or ""
+        if not chosen:
+            return ""
+        mapped = (angle_dict or {}).get("map", {}).get(chosen)
+        return mapped or chosen
+
+    def _sanitize_world_camera(self, world_data, ui_angle):
+        if not self._is_none(ui_angle) and world_data:
+            wd = dict(world_data)
+            wd.pop("camera_angle", None)
+            wd.pop("CAMERA_ANGLE", None)
+            return wd
+        return world_data
+
+    def _build_prompt_from_json(self, data, gender, custom_intro, horror_intensity, sensuality_level, subject_count, multi_object_count):
         parts = []
+
+        # 1) Camera angle (se presente) in testa
+
+
+    # (il resto della funzione resta uguale)
+
 
         # Gender / subject intro
         if gender == "custom" and custom_intro.strip():
@@ -79,7 +177,8 @@ class PromptCreatorNode:
                     "female": "a beautiful woman",
                     "2 female": "two beautiful womans",
                     "3 female": "three unique beautiful womans",
-                    "female vampire": "a beautiful vampire woman"
+                    "female vampire": "a beautiful vampire woman",
+                    "anime woman": "a beautiful anime woman"
                 }
                 parts.append(gender_defaults.get(gender, "a striking figure"))
 
@@ -127,6 +226,19 @@ class PromptCreatorNode:
             except ValueError:
                 pass
 
+        # Sensuality level (modulatore simile a HORROR_INTENSITY)
+        if sensuality_level != "auto" and "SENSUALITY_LEVEL" in data:
+            try:
+                s_level = int(sensuality_level)
+                s_entries = data["SENSUALITY_LEVEL"]
+                if isinstance(s_entries, dict):
+                    matching = s_entries.get(str(s_level))
+                    if matching:
+                        parts.append(matching)
+            except ValueError:
+                pass
+
+
         if subject_count != "1":
             parts.append(f"{subject_count} subjects present")
 
@@ -169,67 +281,139 @@ class PromptCreatorNode:
         )
         return resp.choices[0].message.content.strip()
 
-    def _enhance_with_cohere(self, base_path, system_prompt, user_prompt):
-        import cohere, re, random
-        keys = self._read_api_keys(base_path)
-        co = cohere.Client(keys.get("cohere", ""))
+    import requests
 
-        fused = (
-            f"SYSTEM: {system_prompt}\n"
-            f"USER: Expand this seed into the required format. "
-            f"Write exactly one sentence (allow multiple clauses with commas and semicolons). "
-            f"\"Seed: {user_prompt}\\n\\nAssistant:\""
+    def _enhance_with_llamacpp(self, host, system_prompt, user_prompt, temperature=0.7, top_p=0.9, n_predict=220):
+        """
+        llama.cpp server backend.
+        Tries OpenAI-compatible endpoint first (/v1/chat/completions), then falls back to (/completion).
+        host example: http://127.0.0.1:11434
+        """
+
+        host = host.rstrip("/")
+
+        # 1) Try OpenAI-compatible chat endpoint
+        try:
+            r = requests.post(
+                f"{host}/v1/chat/completions",
+                json={
+                    "model": "llama",  # ignored by llama.cpp in many builds; kept for compatibility
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    "temperature": float(temperature),
+                    "top_p": float(top_p),
+                    "max_tokens": int(n_predict),
+                    "stream": False,
+                },
+                timeout=120,
+            )
+
+            if r.status_code == 200:
+                j = r.json()
+                # OpenAI-like: choices[0].message.content
+                content = (
+                    j.get("choices", [{}])[0]
+                    .get("message", {})
+                    .get("content", "")
+                )
+                content = (content or "").strip()
+                if content:
+                    return content
+
+            # if non-200, fall through to fallback
+        except Exception:
+            pass
+
+        # 2) Fallback to llama.cpp native /completion
+        r = requests.post(
+            f"{host}/completion",
+            json={
+                "prompt": f"{system_prompt}\n\n{user_prompt}",
+                "temperature": float(temperature),
+                "top_p": float(top_p),
+                "n_predict": int(n_predict),
+                "stream": False,
+            },
+            timeout=120,
+        )
+        r.raise_for_status()
+        j = r.json()
+
+        # llama.cpp /completion commonly returns: {"content": "..."} or {"completion": "..."} depending on version
+        content = (j.get("content") or j.get("completion") or "").strip()
+        if not content:
+            raise RuntimeError(f"llama.cpp returned no content. Keys: {list(j.keys())}")
+        return content
+
+
+    def _enhance_with_cohere(self, base_path, system_prompt, user_prompt):
+        import re
+        try:
+            import cohere
+        except ImportError:
+            print("[PromptCreator] Cohere SDK not installed, skipping enhance.")
+            return user_prompt
+
+        keys = self._read_api_keys(base_path)
+        api_key = keys.get("cohere", "").strip()
+        if not api_key:
+            print("[PromptCreator] No Cohere API key found, skipping enhance.")
+            return user_prompt
+
+        # Usa il client V2 (nuova API)
+        try:
+            co = cohere.ClientV2(api_key=api_key)
+        except Exception as e:
+            print(f"[PromptCreator] Cohere ClientV2 not available: {e}")
+            return user_prompt
+
+        # Messaggi Chat v2
+        system_msg = (
+            f"{system_prompt}\n\n"
+            "You are a prompt enhancer for image generation. "
+            "Expand the user seed into ONE single, long, flowing sentence "
+            "with multiple clauses separated by commas and semicolons. "
+            "Do NOT use bullet points or numbered lists. "
+            "Keep the original mood and style."
         )
 
-        # Prova GENERATE con più candidati e parametri 'ricchi'
+        user_msg = (
+            f"Seed: {user_prompt}\n\n"
+            "Return exactly one long sentence (around 100 to 150 words), no line breaks."
+        )
+
+        # === BLOCCO TRY PRINCIPALE ===
         try:
-            resp = co.generate(
-                model="command-r-plus",
-                prompt=fused,
+            resp = co.chat(
+                model="command-r-08-2024",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_msg},
+                ],
                 max_tokens=700,
                 temperature=0.9,
-                p=0.85,
-                k=0,
-                frequency_penalty=0.15,
-                presence_penalty=0.15,
-                truncate="NONE",
-                num_generations=3,
-                stop_sequences=["\nSYSTEM:", "\nUSER:", "\nAssistant:"]
             )
-            cands = [g.text.strip() for g in resp.generations if getattr(g, "text", None)]
-            cands = [re.sub(r"\s*\n+\s*", " ", c).strip() for c in cands]
-            # scegli la più lunga (più ricca)
-            best = max(cands, key=len) if cands else ""
-            # fallback: se ancora troppo corta, un secondo pass più caldo
-            if len(best.split()) < 80:
-                resp2 = co.generate(
-                    model="command-r-plus",
-                    prompt=fused,
-                    max_tokens=800,
-                    temperature=1.0,
-                    p=0.9,
-                    k=0,
-                    truncate="NONE",
-                    num_generations=2
-                )
-                c2 = [g.text.strip() for g in resp2.generations if getattr(g, "text", None)]
-                c2 = [re.sub(r"\s*\n+\s*", " ", c).strip() for c in c2]
-                if c2:
-                    best = max([best] + c2, key=len)
-            return best
-        except Exception:
-            # Fallback su CHAT se generate non è disponibile/limita
-            r = co.chat(
-                model="command-r-plus",
-                messages=[
-                    {"role": "SYSTEM", "content": system_prompt},
-                    {"role": "USER", "content": user_prompt + "\nReturn one long sentence (~100–130 words), no lists."}
-                ],
-                temperature=0.9,
-                max_tokens=700
-            )
-            txt = (getattr(r, "text", "") or "").strip()
-            return re.sub(r"\s*\n+\s*", " ", txt)
+
+            content = ""
+            if hasattr(resp, "message") and getattr(resp.message, "content", None):
+                parts = resp.message.content
+                texts = [getattr(p, "text", "") for p in parts if getattr(p, "text", None)]
+                content = " ".join(texts).strip()
+
+            if not content:
+                print("[PromptCreator] Cohere returned empty content.")
+                return user_prompt
+
+            content = re.sub(r"\s*\n+\s*", " ", content).strip()
+            return content
+
+        # === ECCO IL BLOCCO EXCEPT CHE ORA È ALLINEATO PERFETTAMENTE ===
+        except Exception as e:
+            print(f"[PromptCreator] Error calling Cohere chat: {e}")
+            return user_prompt
+
 
     def _enhance_with_gemini(self, base_path, system_prompt, user_prompt):
         import google.generativeai as genai
@@ -245,7 +429,7 @@ class PromptCreatorNode:
         r = model.generate_content(txt)
         return r.candidates[0].content.parts[0].text.strip()
 
-    def generate_prompt(self, json_name, use_enhancer, enhancer_mode, add_symbols, seed, gender, custom_intro, horror_intensity, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
+    def generate_prompt(self, json_name, use_enhancer, enhancer_mode, add_symbols, seed, gender, identity_profile, lock_identity, custom_intro, horror_intensity, sensuality_level, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
 
@@ -268,10 +452,26 @@ class PromptCreatorNode:
         if seed:
             random.seed(seed)
 
+        # Identity profile (prompt-only consistency)
+        identity_txt = ""
+        if identity_profile != "none" and lock_identity == "yes":
+            identities = self._identity_profiles()
+            identity_txt = self._identity_to_text(identities.get(identity_profile, {}))
+            print("[PromptCreator][DEBUG] identity_profile:", identity_profile)
+            print("[PromptCreator][DEBUG] lock_identity:", lock_identity)
+            print("[PromptCreator][DEBUG] identity_txt:", repr(identity_txt))
+
+
+
         # Costruisci prompt base
         prompt = self._build_prompt_from_json(
-            data, gender, custom_intro, horror_intensity, subject_count, multi_object_count
+            data, gender, custom_intro, horror_intensity, sensuality_level, subject_count, multi_object_count
         )
+
+        if identity_txt:
+            prompt = identity_txt + ", " + prompt
+            print("[PromptCreator][DEBUG] prompt_pre_enhancer:", prompt[:500])
+
 
         # System prompt condiviso per tutti i backend
         system_prompts = self._system_prompts()
@@ -280,9 +480,16 @@ class PromptCreatorNode:
 
         # Enhancer backends
         if use_enhancer != "none":
+            print("[PromptCreator][DEBUG] use_enhancer:", use_enhancer)
+            print("[PromptCreator][DEBUG] enhancer_mode:", enhancer_mode)
+            print("[PromptCreator][DEBUG] system_prompt:", system_prompt[:400])
+            print("[PromptCreator][DEBUG] user_prompt:", user_prompt[:400])
+
             try:
                 if use_enhancer == "ollama":
                     prompt = self._enhance_with_ollama(ollama_host, ollama_model, system_prompt, user_prompt)
+                elif use_enhancer == "llamacpp":
+                    prompt = self._enhance_with_llamacpp(ollama_host, system_prompt, user_prompt)
                 elif use_enhancer == "openai":
                     prompt = self._enhance_with_openai(base_path, system_prompt, user_prompt)
                 elif use_enhancer == "cohere":
