@@ -1,0 +1,268 @@
+{
+  "TRAITS": {
+    "age": [
+      "late teens",
+      "early 20s",
+      "mid 20s",
+      "late 20s",
+      "early 30s",
+      "mid 30s",
+      "late 30s",
+      "early 40s"
+    ],
+    "face_type": [
+      "heart-shaped face, high cheekbones, narrow jaw",
+      "oval face, soft jawline, balanced proportions",
+      "round face, soft cheeks, gentle jawline",
+      "square face, strong jawline, defined cheekbones",
+      "diamond face, sharp cheekbones, narrow forehead",
+      "long face, high forehead, elegant jawline",
+      "triangular face, wider jaw, narrow forehead",
+      "soft angular face, sculpted cheekbones, tapered chin",
+      "delicate petite face, small jaw, refined features",
+      "mature face, subtle nasolabial lines, elegant structure"
+    ],
+    "eyes": [
+      "almond eyes, heavy lashes",
+      "almond eyes, soft under-eye shadows",
+      "slightly hooded eyes, defined lash line",
+      "cat-like eyes, sharp outer corners",
+      "round eyes, bright catchlight",
+      "deep-set eyes, intense gaze",
+      "wide-set eyes, ethereal look",
+      "close-set eyes, piercing stare",
+      "downturned eyes, melancholic softness",
+      "upturned eyes, confident look"
+    ],
+    "eyes_color": [
+      "eyes color icy gray",
+      "eyes color pale blue",
+      "eyes color steel blue",
+      "eyes color deep blue",
+      "eyes color emerald green",
+      "eyes color sage green",
+      "eyes color amber",
+      "eyes color hazel",
+      "eyes color dark brown",
+      "eyes color light brown",
+      "eyes color violet",
+      "eyes color silver-white"
+    ],
+    "nose": [
+      "straight delicate nose",
+      "small button nose, subtle upturn",
+      "narrow nose bridge, refined tip",
+      "soft roman nose, elegant bridge",
+      "short nose, rounded tip",
+      "slim nose, defined nostrils",
+      "high bridge nose, sharp profile",
+      "gentle aquiline nose, balanced features"
+    ],
+    "mouth": [
+      "soft full lips, slight cupid bow",
+      "full lips, glossy finish",
+      "medium lips, defined cupid bow",
+      "thin lips, sharp corners",
+      "plush lower lip, subtle upper lip",
+      "pouty lips, soft gradient tint",
+      "matte lips, crisp outline",
+      "natural lips, minimal makeup look",
+      "heart-shaped lips, delicate corners",
+      "slightly parted lips, calm expression"
+    ],
+    "hair": [
+      "long straight hair, heavy fringe",
+      "long wavy hair, heavy fringe",
+      "long hair, wispy bangs, face-framing strands",
+      "high twin buns (space buns), straight fringe, face-framing strands",
+      "high twin-tails, straight fringe, long flowing lengths",
+      "low twin-tails, wispy bangs, soft loose strands",
+      "high ponytail, sleek crown, long length, face-framing strands",
+      "low ponytail, soft volume, curtain bangs",
+      "half-up half-down, loose waves, curtain bangs",
+      "short bob cut, blunt bangs",
+      "chin-length bob, side-swept bangs",
+      "pixie cut, textured layers",
+      "long layered hair, center part, soft waves",
+      "long layered hair, side part, glossy finish",
+      "braided crown, loose tendrils",
+      "messy bun, loose strands, wispy bangs",
+      "sleek bun, center part, polished finish",
+      "shoulder-length hair, soft waves, no bangs"
+    ],
+    "hair_color": [
+      "hair color jet-black",
+      "hair color soft black",
+      "hair color blue-black",
+      "hair color platinum-white",
+      "hair color silver-white",
+      "hair color ash blonde",
+      "hair color golden blonde",
+      "hair color honey blonde",
+      "hair color strawberry blonde",
+      "hair color chestnut brown",
+      "hair color dark chocolate brown",
+      "hair color warm brown",
+      "hair color copper red",
+      "hair color deep auburn",
+      "hair color burgundy",
+      "hair color cobalt-blue",
+      "hair color midnight blue",
+      "hair color teal-black",
+      "hair color lavender",
+      "hair color smoky purple"
+    ],
+    "skin": [
+      "porcelain skin, faint under-eye shadows",
+      "pale skin, cool undertone, subtle freckles",
+      "fair skin, neutral undertone, smooth texture",
+      "light skin, warm undertone, soft glow",
+      "olive skin, neutral undertone, even tone",
+      "tan skin, warm undertone, sun-kissed glow",
+      "deep skin, warm undertone, smooth complexion",
+      "deep skin, cool undertone, high contrast look",
+      "alabaster skin, high contrast, delicate blush",
+      "porcelain skin, soft matte finish, minimal blemishes"
+    ],
+    "expression_base": [
+      "detached melancholic calm",
+      "cold confident stare",
+      "soft neutral expression",
+      "subtle smirk, controlled confidence",
+      "distant dreamy gaze",
+      "serious focused look",
+      "gentle sadness, lowered eyelids",
+      "quiet intensity, unwavering eye contact",
+      "calm elegance, relaxed facial muscles",
+      "mysterious composure, minimal emotion",
+      "playful calm, slight eyebrow lift",
+      "subtle closed-lip smile, controlled and restrained",
+      "barely-there smile, calm and composed expression",
+      "soft understated smile, minimal lip movement",
+      "faint knowing smile, confident and alluring",
+      "subtle mischievous smile, controlled confidence",
+      "slight asymmetric smile, quiet seductive intent",
+      "dark subtle smile, restrained and enigmatic",
+      "cool understated smile, gothic elegance",
+      "faint predatory smile, calm and self-assured",
+      "stoic expression, minimal movement"
+    ],
+    "ethnicity": [
+      "None",
+      "East Asian (Japanese/Korean)",
+      "East Asian (Chinese)",
+      "Southeast Asian",
+      "South Asian",
+      "Mediterranean",
+      "Middle Eastern",
+      "Slavic",
+      "Nordic/Scandinavian",
+      "Latina",
+      "African (West African)",
+      "African (East African)"
+    ]
+  },
+  "PRESETS": {
+    "Fallen_Helly": {
+      "age": [
+        "mid 20s"
+      ],
+      "face_type": [
+        "heart-shaped face, high cheekbones, narrow jaw"
+      ],
+      "eyes": [
+        "almond eyes, heavy lashes"
+      ],
+      "eyes_color": [
+        "icy gray",
+        "pale blue"
+      ],
+      "nose": [
+        "straight delicate nose"
+      ],
+      "mouth": [
+        "soft full lips, slight cupid bow"
+      ],
+      "hair": [
+        "long straight hair, heavy fringe"
+      ],
+      "hair_color": [
+        "platinum-white",
+        "silver-white"
+      ],
+      "skin": [
+        "porcelain skin, faint under-eye shadows"
+      ],
+      "expression_base": [
+        "detached melancholic calm"
+      ],
+      "ethnicity": [
+        "East Asian (Japanese/Korean)",
+        "None"
+      ]
+    },
+    "Kira_Goth": {
+      "age": [
+        "early 20s",
+        "mid 20s"
+      ],
+      "face_type": [
+        "soft angular face, sculpted cheekbones, tapered chin",
+        "oval face, soft jawline, balanced proportions"
+      ],
+      "eyes": [
+        "cat-like eyes, sharp outer corners",
+        "deep-set eyes, intense gaze"
+      ],
+      "eyes_color": [
+        "icy gray",
+        "violet",
+        "steel blue"
+      ],
+      "nose": [
+        "narrow nose bridge, refined tip",
+        "straight delicate nose"
+      ],
+      "mouth": [
+        "matte lips, crisp outline",
+        "plush lower lip, subtle upper lip"
+      ],
+      "hair": [
+        "high twin buns (space buns), straight fringe, face-framing strands",
+        "high twin-tails, straight fringe, long flowing lengths"
+      ],
+      "hair_color": [
+        "cobalt-blue",
+        "midnight blue",
+        "blue-black"
+      ],
+      "skin": [
+        "porcelain skin, soft matte finish, minimal blemishes",
+        "alabaster skin, high contrast, delicate blush"
+      ],
+      "expression_base": [
+        "quiet intensity, unwavering eye contact",
+        "mysterious composure, minimal emotion"
+      ],
+      "ethnicity": [
+        "None",
+        "East Asian (Japanese/Korean)",
+        "Slavic"
+      ]
+    },
+    "Neutral_Studio": {
+      "age": [
+        "early 20s",
+        "mid 20s",
+        "late 20s"
+      ],
+      "expression_base": [
+        "soft neutral expression",
+        "calm elegance, relaxed facial muscles"
+      ],
+      "ethnicity": [
+        "None"
+      ]
+    }
+  }
+}
