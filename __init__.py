@@ -4,11 +4,8 @@
 
 MANIFEST = {
     "name": "Prompt Creator Node",
-<<<<<<< HEAD
     "version": (1, 8, 0),
-=======
     "version": (1, 4, 0),
->>>>>>> origin/master
     "author": "traumakom",
     "project": "https://github.com/traumakom/PromptCreatorNode",
     "description": (
@@ -23,7 +20,6 @@ print(
     f"[PromptCreatorNode] "
     f"v{'.'.join(map(str, MANIFEST['version']))} loaded"
 )
-<<<<<<< HEAD
 def _print_promptcreator_banner():
     banner = r"""
  ██████╗ ██████╗  ██████╗ ███╗   ███╗██████╗ ████████╗
@@ -53,8 +49,6 @@ Author: traumakom
     print(banner)
 
 _print_promptcreator_banner()
-=======
->>>>>>> origin/master
 
 # -------------------------
 # Node imports
@@ -62,14 +56,9 @@ _print_promptcreator_banner()
 
 from .PromptCreatorNode import PromptCreatorNode
 from .IdentityMixerNode import IdentityMixerNode
-<<<<<<< HEAD
 from .PromptReplayNode import PromptReplayNode
 from .PromptBuilderNode import PromptBuilderNode
 from .PromptTagsExtractorNode import PromptTagsExtractorNode
-
-=======
->>>>>>> origin/master
-
 
 # -------------------------
 # ComfyUI mappings
@@ -78,25 +67,16 @@ from .PromptTagsExtractorNode import PromptTagsExtractorNode
 NODE_CLASS_MAPPINGS = {
     "PromptCreatorNode": PromptCreatorNode,
     "IdentityMixerNode": IdentityMixerNode,
-<<<<<<< HEAD
     "PromptReplayNode": PromptReplayNode,
     "PromptBuilderNode": PromptBuilderNode,
     "PromptTagsExtractorNode": PromptTagsExtractorNode
-
-
-=======
->>>>>>> origin/master
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "PromptCreatorNode": "Prompt Generator",
     "IdentityMixerNode": "Identity Mixer (Parts)",
-<<<<<<< HEAD
     "PromptReplayNode": "Prompt Replay",
     "PromptBuilderNode": "Prompt Builder",
     "PFN_PromptTagsExtractor": "PFN Prompt → Tags (Extractor)"
 
-
-=======
->>>>>>> origin/master
 }
