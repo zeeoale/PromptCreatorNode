@@ -1,34 +1,45 @@
 # traumakom Prompt Generator – ComfyUI Node
 
-A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement.
+A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, optional AI-based prompt enhancement, and a modular **Identity Mixer** to build consistent characters from reusable traits.
 
-> Created with passion by [traumakom](https://github.com/traumakom)  
+> Created with passion by traumakom  
 > Powered by Dante 🐈‍⬛, Helly 🐺, and Lily 💻
 
----
+<img width="325" height="739" alt="Screenshot_20260120_021750" src="https://github.com/user-attachments/assets/88e775dc-2b5a-45d9-a0e7-3d0afe5b346c" />
+<img width="332" height="739" alt="Screenshot_20260120_021811" src="https://github.com/user-attachments/assets/4af76762-d9b2-4d8c-beab-5ade6557810f" />
 
-<img width="581" height="657" alt="image" src="https://github.com/user-attachments/assets/5382f908-2999-4cf0-9763-2af880990c93" />
+<img width="1303" height="1032" alt="image" src="https://github.com/user-attachments/assets/abe5a3d3-abd6-4fe8-8c68-03c8c3714d61" />
 
 
 ## 🌟 Features
 
-- 🔮 Dynamic prompt generation from modular JSON worlds
-- 🎨 `COLOR_REALM` support for RGB / CMYK palette-driven aesthetics
-- 🧠 Optional AI enhancer using OpenAI, Cohere, or Gemini
-- 🧩 LoRA trigger integration (e.g., `Realistic`, `Detailed Hand`)
+### PromptCreator Core
+- 🔮 Dynamic prompt generation from modular **JSON worlds**
+- 🎨 `COLOR_REALM` support for **RGB / CMYK** palette-driven aesthetics
+- 🧩 LoRA trigger integration (e.g., `Realistic`, `Detailed Hands`)
+- 🧠 Optional AI enhancer (OpenAI / Cohere / Gemini / Ollama / llama.cpp) to rewrite or enrich prompts
 - 📁 Reads world data from `/JSON_DATA`
-- 🧪 Debug messages and error handling for smooth workflow
+- 🧪 Debug messages + error handling for smoother workflows
+- 🔄 Reload JSON worlds without restarting ComfyUI
+
+### ✅ Identity Mixer (NEW)
+- 🧬 Modular identity generation via reusable traits
+- ♻️ Trait library (`TRAITS`) + curated presets (`PRESETS`)
+- 🎲 Randomized or fixed identity attributes
+- 📴 Optional ethnicity exclusion (`None`)
+- 🧷 Identity signature output for dataset consistency
+- 🧼 Explicit trait syntax (e.g. `lavender hair`, `emerald eyes`) to avoid semantic bleed
 
 ---
 
 ## 📦 Installation
 
-### 🔸 Option 1: Using ComfyUI Manager
-1. Open ComfyUI → `Manager` tab
-2. Click `Install from URL`
-3. Paste the GitHub repo link and hit Install
+### Using ComfyUI Manager
+1. Open ComfyUI → Manager
+2. Install from URL
+3. Paste the GitHub repository URL
 
-### 🔸 Option 2: Manual Install
+### Manual
 ```bash
 cd ComfyUI/custom_nodes
 git clone https://github.com/yourusername/PromptCreatorNode.git
@@ -42,103 +53,77 @@ git clone https://github.com/yourusername/PromptCreatorNode.git
 ComfyUI/
 ├── custom_nodes/
 │   └── PromptCreatorNode/
-│       └── PromptCreatorNode.py
+│       ├── PromptCreatorNode.py
+│       ├── IdentityMixerNode.py
 ├── JSON_DATA/
-│   ├── RGB_Chronicles.json
-│   ├── CMYK_Chronicles.json
-│   └── ...
+│   └── *.json
+├── identity.json
+├── identities.json
 ├── api_keys.txt
 ```
 
-> ✅ `api_keys.txt` is a **simple text file**, **not** JSON. Example:
+---
 
+## ⚙️ Usage
+
+### PromptCreator
+1. Select a JSON world
+2. Enable AI enhancer (optional)
+3. Generate prompt
+4. Connect to CLIPTextEncode
+
+### Identity Mixer
+1. Select traits or presets
+2. Use random or fixed values
+3. Output identity string + signature
+4. Append to prompt or dataset captions
+
+---
+
+## 🌈 identity.json Structure
+
+### TRAITS
+Reusable identity components:
+```json
+{
+  "TRAITS": {
+    "hair_color": ["lavender hair", "cobalt-blue hair"],
+    "eyes_color": ["emerald eyes", "icy gray eyes"],
+    "ethnicity": ["None", "Mediterranean", "East Asian"]
+  }
+}
 ```
-openai=sk-...
-cohere=...
-gemini=...
+
+### PRESETS
+Optional curated identities:
+```json
+{
+  "PRESETS": {
+    "Kira_Goth": {
+      "hair_color": ["cobalt-blue hair"],
+      "expression_base": ["quiet intensity"],
+      "ethnicity": ["None"]
+    }
+  }
+}
 ```
 
 ---
 
-## ⚙️ How to Use
+## 🧪 AI Enhancement
 
-1. Open ComfyUI and search for the **PromptCreator** node
-2. Choose one of the installed JSON worlds from the dropdown (e.g. `RGB_Chronicles`)
-3. Optionally enable AI Enhancement (OpenAI / Cohere / Gemini)
-4. Click **Generate Prompt**
-5. Connect the output to `CLIPTextEncode` or use however you'd like!
+Supports OpenAI, Cohere, and Gemini.  
+API keys must be placed in `api_keys.txt`.
 
 ---
 
-## 🧪 Prompt Enhancement
+## ☕ Support
 
-When selected, the enhancer will transform your raw prompt into a refined, vivid description using:
-
-- **OpenAI** (GPT-3.5-turbo)
-- **Cohere** (Command R+)
-- **Gemini** (Gemini 2.5 Pro)
-
-> Make sure to place the correct API key in `api_keys.txt`.
-
----
-
-## 🌈 JSON World Format
-
-Each `.json` file includes categories like:
-
-- `COLOR_REALM`: Defines the active color palette (e.g. ["C", "M", "Y", "K"])
-- Realm-specific values: `OUTFITS`, `LIGHTING`, `BACKGROUNDS`, `OBJECTS`, `ACCESSORIES`, `ATMOSPHERES`
-- Global traits: `EPOCHS`, `POSES`, `EXPRESSIONS`, `CAMERA_ANGLES`, `HORROR_INTENSITY`
-
-JSON files must be saved inside the `ComfyUI/JSON_DATA/` folder.
-
----
-
-## 🖼️ Example Output
-
-Generated using the CMYK Realm:
-
-> “A beautiful woman wearing a shadow-ink kimono, standing in a forgotten monochrome realm, surrounded by voidstorm pressure and carrying an inkborn scythe.”
-
----
-
-## And Remember:
-
-🎉 Welcome to the brand-new **Prompt JSON Creator Hub**!  
-A curated space designed to explore, share, and download structured JSON presets — fully compatible with your Prompt Creator app.
-
-👉 **Visit now**: [https://json.traumakom.online/](https://json.traumakom.online/)
-
-### ✨ What you can do:
-- Browse all available public JSON presets
-- View detailed descriptions, tags, and contents
-- Instantly download and use presets in your local app
-- See how many JSONs are currently live on the Hub
-
-The Prompt JSON Hub is constantly updated with new thematic presets: portraits, horror, fantasy worlds, superheroes, kawaii styles, and more.
-
-> 🔄 After adding or editing files in your local `JSON_DATA` folder, use the 🔄 button in the Prompt Creator to reload them dynamically!
-
-
-## ☕ Support My Work
-
-If you enjoy this project, consider buying me a coffee on Ko-Fi:  
-[https://ko-fi.com/traumakom](https://ko-fi.com/traumakom)
-
-
-## 🙏 Credits
-
-Thanks to:
-
-- **Magnificent Lily** 💻  
-- **My wonderful cat Dante** 😽  
-- **My one and only muse Helly** 😍❤️❤️❤️😍
+If you enjoy this project, consider supporting it on Ko-Fi.
 
 ---
 
 ## 📜 License
 
 Free to use and remix.  
-If you love it, ⭐ star the repo or ☕ donate a coffee!
-
-Let the prompt alchemy begin 🧪✨
+Star the repo if you like it ⭐
