@@ -1,0 +1,66 @@
+{
+  "EPOCHS": [
+    "Victorian Gothic",
+    "Baroque Fantasy",
+    "Dark Age of Hunters"
+  ],
+  "OUTFITS": [
+    "black leather hunter coat with ornate embroidery",
+    "tricorne hat with feathers",
+    "white ruffled cravat",
+    "bloodstained lace ribbon",
+    "high boots with steel buckles"
+  ],
+  "LIGHTING": [
+    "backlit stained glass glow",
+    "cold moonlight rim lighting",
+    "dramatic silhouette illumination"
+  ],
+  "BACKGROUNDS": [
+    "Astral Clocktower interior with massive gears",
+    "ornate gothic stained glass window",
+    "ashen cathedral ruins",
+    "blood petals floating in dim light"
+  ],
+  "OBJECTS": [
+    "rapier with glowing embers",
+    "silver-inlaid pistol",
+    "astral pendant with arcane motif",
+    "broken gothic chains"
+  ],
+  "POSES": [
+    "seated with rapier resting on knee",
+    "standing in defiance before the clock window",
+    "drawing weapon with elegance",
+    "heroic stance, coat billowing"
+  ],
+  "EXPRESSIONS": [
+    "stoic and dignified",
+    "melancholic resolve",
+    "silent determination",
+    "icy defiance"
+  ],
+  "CAMERA_ANGLES": [
+    "low heroic angle",
+    "three-quarter frontal view",
+    "extreme close-up portrait",
+    "tight thirds composition"
+  ],
+  "ATMOSPHERES": [
+    "tragic beauty",
+    "somber gothic majesty",
+    "melancholic but powerful",
+    "ethereal and arcane aura"
+  ],
+  "ACCESSORIES": [
+    "ornate rapier",
+    "silver pistol",
+    "blood-stained lace ribbon",
+    "astral pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle gothic elegance, faintly unsettling clockwork echoes",
+    "1": "Uncanny astral aura, shadows lingering in silence",
+    "2": "Blood-stained petals, spectral apparitions haunting the Clocktower"
+  }
+}

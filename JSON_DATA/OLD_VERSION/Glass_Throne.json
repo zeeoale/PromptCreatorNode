@@ -1,0 +1,72 @@
+{
+  "EPOCHS": [
+    "Crystal Age",
+    "Frozen Dynasty",
+    "Mirror Empire",
+    "Shattered Realms"
+  ],
+  "OUTFITS": [
+    "transparent glass gown",
+    "ornate ice armor",
+    "crystal shard corset",
+    "royal veil with gem embroidery",
+    "mirrored bodice with flowing silk",
+    "she wears nothing, naked only with a garter",
+    "crystal lingerie"
+  ],
+  "LIGHTING": [
+    "moonlight through stained glass",
+    "refracted crystal glow",
+    "dawn breaking on a frosty throne",
+    "backlit by magical auroras"
+  ],
+  "BACKGROUNDS": [
+    "throne room made of glass",
+    "shattered mirror hall",
+    "floating citadel above icy clouds",
+    "crystal forest palace",
+    "glass bridge suspended in sky"
+  ],
+  "OBJECTS": [
+    "glass crown",
+    "floating crystal shards",
+    "royal scepter of ice",
+    "glowing sigils",
+    "enchanted mirror orb"
+  ],
+  "POSES": [
+    "sitting on a glass throne with regal posture",
+    "standing among broken crystal pillars",
+    "reaching toward a floating crown",
+    "leaning sensually on a translucent balustrade"
+  ],
+  "EXPRESSIONS": [
+    "cold and commanding",
+    "sultry and distant",
+    "whispering with power",
+    "enigmatic gaze through a frosty veil"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle from throne steps",
+    "frontal close-up through frosted lens",
+    "over-the-shoulder with blurred shards",
+    "wide angle showcasing grandeur"
+  ],
+  "ATMOSPHERES": [
+    "ethereal silence",
+    "tense courtly tension",
+    "fragile serenity",
+    "radiant cold elegance"
+  ],
+  "ACCESSORIES": [
+    "ice-drop earrings",
+    "glass gauntlets",
+    "transparent tiara",
+    "frozen rose pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "pure fantasy, no horror",
+    "subtle": "subtle cracks in the glass, faint whispers behind mirrors",
+    "strong": "shattered realms bleeding dark mist, reflections acting on their own"
+  }
+}

@@ -14,6 +14,7 @@ FIELDS_ORDER = [
     "hair",
     "hair_color",
     "skin",
+    "body_type",
     "expression_base",
     "ethnicity",
 ]
@@ -110,6 +111,7 @@ class IdentityMixerNode:
                 "hair": (opts["hair"],),
                 "hair_color": (opts["hair_color"],),
                 "skin": (opts["skin"],),
+                "body_type": (opts["body_type"],),
                 "expression_base": (opts["expression_base"],),
                 "ethnicity": (opts["ethnicity"],),
                 "random_seed": ("INT", {"default": 123456, "min": 0, "max": 2147483647}),
@@ -125,8 +127,9 @@ class IdentityMixerNode:
     FUNCTION = "mix"
     CATEGORY = "PromptCreator"
 
-    def mix(self, preset, age, face_type, eyes, eyes_color, nose, mouth, hair, hair_color, skin, expression_base, ethnicity,
+    def mix(self, preset, age, face_type, eyes, eyes_color, nose, mouth, hair, hair_color, skin, body_type, expression_base, ethnicity,
             random_seed, custom_intro_prefix, identities_file=None):
+
 
         data = _load_json(identities_file) if identities_file else {}
         traits, presets, is_new = _get_traits_and_presets(data)
@@ -165,6 +168,7 @@ class IdentityMixerNode:
             ("hair", hair),
             ("hair_color", hair_color),
             ("skin", skin),
+            ("body_type", body_type),
             ("expression_base", expression_base),
             ("ethnicity", ethnicity),
         ]:

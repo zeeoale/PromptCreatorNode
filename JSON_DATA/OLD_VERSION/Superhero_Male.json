@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "modern",
+    "futuristic",
+    "post-apocalyptic",
+    "neo-noir",
+    "retro-futuristic"
+  ],
+  "OUTFITS": [
+    "high-tech armored suit",
+    "spandex bodysuit",
+    "battle-worn cape",
+    "military tactical gear",
+    "cyber-enhanced uniform"
+  ],
+  "LIGHTING": [
+    "dramatic backlight",
+    "neon glow",
+    "stormy shadows",
+    "explosions in the background",
+    "city lights at night"
+  ],
+  "BACKGROUNDS": [
+    "rooftop at night",
+    "burning city",
+    "space station",
+    "dystopian battlefield",
+    "underground lair"
+  ],
+  "OBJECTS": [
+    "power gauntlet",
+    "energy sword",
+    "glowing crystal",
+    "holographic map",
+    "grappling hook"
+  ],
+  "POSES": [
+    "epic stance",
+    "mid-air leap",
+    "power punch",
+    "kneeling with cape fluttering",
+    "arms crossed heroically"
+  ],
+  "EXPRESSIONS": [
+    "determined",
+    "angry",
+    "focused",
+    "stoic",
+    "gritting teeth"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle shot",
+    "over-the-shoulder",
+    "dynamic diagonal",
+    "close-up",
+    "wide heroic shot"
+  ],
+  "ATMOSPHERES": [
+    "tense and stormy",
+    "vibrant and explosive",
+    "dark and gritty",
+    "epic showdown vibe",
+    "celestial calm before battle"
+  ],
+  "ACCESSORIES": [
+    "utility belt",
+    "visor helmet",
+    "battle scars",
+    "glowing chest emblem",
+    "jetpack"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "classic superhero style",
+    "medium": "grimdark heroic tale",
+    "high": "twisted powers with monstrous foes"
+  }
+}

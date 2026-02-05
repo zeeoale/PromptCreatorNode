@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "Cosmic Fantasy",
+    "Celestial Sorcery",
+    "Astro-Mage",
+    "Divine Oracle"
+  ],
+  "OUTFITS": [
+    "Dark ornate robes with gold embroidery",
+    "Fabric with galaxy and nebula patterns",
+    "Hooded cloaks with celestial designs",
+    "High-collared jackets with golden accents"
+  ],
+  "LIGHTING": [
+    "Cosmic glow from nebulae",
+    "Starlight and celestial radiance",
+    "Ethereal backlighting"
+  ],
+  "BACKGROUNDS": [
+    "Starry nebulae (pink, blue, purple)",
+    "Deep space with constellations",
+    "Galactic vistas",
+    "Abstract cosmic patterns"
+  ],
+  "OBJECTS": [
+    "Stars and constellations",
+    "Golden moon crescents",
+    "Cosmic dust and particles",
+    "Galaxy patterns on clothing and blindfolds"
+  ],
+  "POSES": [
+    "Upper body portrait",
+    "Three-quarter view",
+    "Slight head tilt",
+    "Confident and regal posture"
+  ],
+  "EXPRESSIONS": [
+    "Mysterious and serene (often blindfolded)",
+    "Confident and powerful",
+    "Stoic and otherworldly"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up",
+    "Medium close-up / Bust shot",
+    "Eye-level",
+    "Slightly low angle to emphasize presence"
+  ],
+  "ATMOSPHERES": [
+    "Cosmic and ethereal",
+    "Mystical and powerful",
+    "Divine and otherworldly",
+    "Magical fantasy",
+    "Serene majesty"
+  ],
+  "ACCESSORIES": [
+    "Blindfold with a galaxy/nebula pattern",
+    "Elaborate gold jewelry (earrings, necklaces)",
+    "Moon and star-shaped ornaments",
+    "Celestial hair pieces and clasps",
+    "Hoods with intricate gold embroidery"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Very low; the aesthetic is purely mystical and fantasy-based. While the character is powerful and otherworldly, the atmosphere is awe-inspiring and magical rather than frightening."
+  }
+}

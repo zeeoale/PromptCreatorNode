@@ -1,0 +1,118 @@
+{
+   
+  "WORLD_NAME": "PFN_Tokyo_Insomnia_Noir",
+
+  "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in neo-noir urban portraiture and late-night Tokyo interiors, grounded in analog film aesthetics, intimate realism, and restrained cyberpunk influence. When requested, return ONE single long sentence (180–240 words), richly descriptive and atmospheric, without line breaks or lists, depicting a solitary figure immersed in insomnia inside a quiet high-rise apartment overlooking rain-soaked Tokyo skylines. Seamlessly integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. Emphasize tactile analog textures, static television glow washing over skin, condensation on glass, worn metal prosthetics, synthetic skin surfaces, peeling posters, and dust caught in low light. Lighting must rely on practical sources and neon spill, dominated by the interplay of teal and red illumination, deep shadows, and uneven contrast, enhanced by visible film grain and subtle halation. Maintain a restrained nocturnal palette centered on teal, cyan, desaturated reds, asphalt gray, and nicotine amber. Use photographic language to suggest aperture, focus falloff, and lens character, favoring shallow depth of field and intimate framing. The tone should evoke emotional stillness, loneliness, faded rebellion, and futuristic melancholy, avoiding overt fantasy or surrealism while preserving grounded urban realism infused with quiet cyberpunk sensuality and muted danger.",
+  
+  "EPOCHS": [
+    "Neo-Noir Late Night",
+    "Retro 90s Cyber Apartment",
+    "Early 2000s Techno-Noir",
+    "Near-Future Tokyo Night",
+    "Analog VHS Era",
+    "Rainy Season Cityscape"
+  ],
+  "OUTFITS": [
+    "Oversized black sweater, bare legs",
+    "Distressed crop tee, cybernetic limbs exposed",
+    "Minimal slip dress, choker",
+    "Graphic band tee, ripped denim",
+    "Mesh top under leather jacket",
+    "Monochrome streetwear, high socks"
+  ],
+  "LIGHTING": [
+    "Window neon rimlight (red primary, teal fill)",
+    "TV glow key light, soft falloff",
+    "Backlit silhouette from street signs",
+    "Low-key chiaroscuro with hard edge",
+    "Moonless ambient with screen spill"
+  ],
+"BACKGROUNDS": [
+  "High-rise window overlooking dense city blocks, faint TK neon reflection bleeding into the glass",
+  "Cluttered apartment wall with torn posters, one bearing a faded TK logo partially ripped",
+  "Rain-washed skyline with cable lines and distant TK signage glowing through haze",
+  "Couch against panoramic neon view, subtle TK light flicker reflected on walls",
+  "Bed in shadow, city framed in window with a blurred TK billboard far below",
+  "Industrial alley glow leaking into room, TK graffiti tag barely visible on concrete"
+],
+"OBJECTS": [
+  "a torn TK sticker",
+  "Old CRT television displaying static with intermittent TK broadcast artifact",
+  "Cassette deck and scattered tapes, one cassette labeled TK in handwritten marker",
+  "Ashtray with half-burnt cigarettes resting beside a scratched TK logo",
+  "Peeling wall posters and tape, layered with remnants of old TK street flyers",
+  "Metal prosthetic forearm etched with small worn TK insignia",
+  "Window condensation streaks revealing a finger-drawn TK mark"
+],
+"POSES": [
+  "Slouched on couch, legs angled toward camera",
+  "Reclined by window, one arm draped",
+  "Standing in doorway, side profile, chin lowered",
+  "Curled on bed, face buried in sheets",
+  "Knees apart casual lounge, gaze tilted",
+  "Walking mid-step, fabric and hair in motion",
+  "Wide stance with one knee bent, weight shifted confidently",
+  "Leaning forward slightly, hands on thighs, intense eye contact",
+  "Arms raised adjusting jacket or hood, torso elongated",
+  "Low crouch with elbows resting on knees, steady gaze upward",
+  "Twisting torso while looking back over shoulder",
+  "One foot elevated against wall, relaxed dominant posture",
+  "Striding past camera, head turned sideways",
+  "Hands lifting collar or hoodie, exposing neckline",
+  "Dynamic lean against wall, hips angled, shoulders relaxed"
+],
+  "EXPRESSIONS": [
+    "Detached boredom",
+    "Predatory calm",
+    "Sleep-deprived glaze",
+    "Subtle contempt",
+    "Melancholic focus",
+    "Half-smirk defiance"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle from knee level",
+    "Eye-level intimate portrait",
+    "Over-the-shoulder toward neon window",
+    "Extreme close-up on eye and freckles",
+    "Three-quarter profile from doorway",
+    "Wide interior framing the city grid"
+  ],
+  "ATMOSPHERES": [
+    "Nicotine haze and dust motes",
+    "Damp night air leaking indoors",
+    "Static-laced TV flicker",
+    "Urban hum under distant sirens",
+    "Quiet insomnia at 3 A.M.",
+    "Electric stillness before rain"
+  ],
+  "ACCESSORIES": [
+    "Black choker",
+    "Minimal hoop earrings",
+    "Finger rings with chipped enamel",
+    "Bandage tape on knuckles",
+    "Worn combat boots on floor",
+    "Cable wrist strap on prosthetic"
+  ],
+
+  "CUSTOM_INTRO": {
+    "0": "Cinematic neo-noir portrait of insomnia inside a Tokyo high-rise apartment, teal and red neon spill cutting through smoke and film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Late-night Tokyo interior realism, solitary figure lit by TV glow and window neon, analog textures, quiet melancholy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Neo-noir apartment scene overlooking rain-soaked city blocks, teal shadows and red highlights shaping a sleep-deprived presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Intimate urban portrait at 3 A.M., nicotine haze, static TV flicker, and analog grain capturing futuristic loneliness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Tokyo techno-noir interior with condensation-streaked windows and distant neon glow, subdued danger and emotional stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Grounded cyberpunk realism inside a cluttered apartment, ember highlights, worn textures, and shallow focus intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Neo-noir Tokyo insomnia portrait, teal-red illumination, deep shadows, chromatic aberration, and analog film imperfection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  },
+
+  "SENSUALITY_LEVEL": {
+    "0": "Emotional distance: sensuality is absent, replaced by fatigue, isolation, and detached presence under cold neon light.",
+    "1": "Tired intimacy: relaxed posture, exposed skin under soft shadows, and close framing suggest quiet allure shaped by loneliness.",
+    "2": "Noir sensuality: proximity, low light, and confident body language create a muted, dangerous attraction without overt eroticism."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Pure neo-noir mood, no gore; soft film grain, chromatic aberration",
+    "1": "Subtle uncanny, shadow shapes on walls, suggestive menace",
+    "2": "Red ocular glow, faint blood-like streaks on window, gritty halftone poster texture"
+  }
+}

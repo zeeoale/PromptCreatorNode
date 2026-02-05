@@ -1,0 +1,63 @@
+{
+  "EPOCHS": [
+    "Gothic Revival (19th century)",
+    "Late Baroque / Caravaggism",
+    "Late Medieval (Flamboyant Gothic)",
+    "Victorian twilight"
+  ],
+  "OUTFITS": [
+    "black velvet cloak with high collar",
+    "burgundy brocade aristocratic jacket",
+    "ivory lace jabot shirt",
+    "soft ruff with oxidized silver brooch"
+  ],
+  "LIGHTING": [
+    "moonbeams through stained glass, dusty godrays",
+    "cool rim light on cheeks and thorn crown"
+  ],
+  "BACKGROUNDS": [
+    "ruined chapel nave with pointed arches",
+    "matte museum wall with framed painting",
+    "crypt with damp stone columns",
+    "attic window at night with veiled moon"
+  ],
+  "OBJECTS": [
+    "dark thorn crown with tiny crimson dew",
+    "silver filigree pendant",
+    "black velvet reliquary"
+  ],
+  "POSES": [
+    "three-quarter portrait, shoulders squared",
+    "half-profile with solemn gaze",
+    "low-angle stance, cape gently flowing",
+    "front-facing, straight-backed, hands folded"
+  ],
+  "EXPRESSIONS": [
+    "solemn with fangs subtly peeking",
+    "regal calm with closed lips and visible canines",
+    "silent snarl with bared fangs",
+    "cold menace with narrowed eyes"
+  ],
+  "CAMERA_ANGLES": [
+    "85mm portrait, shallow depth of field",
+    "24mm low angle, long perspective",
+    "straight-on museum hang, full frame visible",
+    "macro 100mm detail on crown and teeth"
+  ],
+  "ATMOSPHERES": [
+    "cool nocturnal air with faint mist",
+    "dust motes in diagonal moonlight",
+    "subdued palette: burgundy, charcoal, ivory, antique gold"
+  ],
+  "ACCESSORIES": [
+    "silver signet ring with vampiric sigil",
+    "embroidered velvet collar",
+    "dark garnet cabochons",
+    "thorned vine bracelet"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "SFW gothic elegance, no blood, fangs hinted",
+    "1": "clear fangs, subtle enamel glint, restrained crimson accents",
+    "2": "bared fangs and threatening posture, faint blood sheen on thorns, still tasteful and non-gory"
+  }
+}

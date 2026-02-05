@@ -1,0 +1,94 @@
+{
+  "WORLD_NAME": "Veiled_Rite_of_Silence",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation. When requested, return ONE single long, cinematic sentence (110–140 words), with no lists and no line breaks, describing a ritualistic, gothic-erotic fine art scene centered on a veiled feminine figure where sensuality is expressed through fabric tension, exposed skin, ceremonial jewelry, moisture, and controlled body posture rather than explicit action. Always weave together selected elements from EPOCHS, OUTFITS, LIGHTING, BACKGROUNDS, OBJECTS, POSES, EXPRESSIONS, CAMERA_ANGLES, ATMOSPHERES, and ACCESSORIES into a coherent visual language. Maintain a chiaroscuro palette of ivory skin, silver metals, candle gold, deep crimson, and shadowed stone. Emphasize shallow depth of field, cinematic lighting, subtle grain, soft bloom, and devotional stillness. Modulate erotic intensity through SENSUALITY_LEVEL and ritual unease through HORROR_INTENSITY.",
+  "EPOCHS": [
+    "timeless gothic ritual aesthetic",
+    "baroque devotional imagery",
+    "dark romantic fine art",
+    "modern cinematic gothic fantasy"
+  ],
+  "OUTFITS": [
+    "sheer lace ceremonial gown clinging to wet skin",
+    "corseted ritual dress with silver embroidery",
+    "translucent veils wrapped over eyes and hair",
+    "ornate lingerie integrated into sacred garments",
+    "flowing fabric panels revealing thighs and torso"
+  ],
+  "LIGHTING": [
+    "candlelit low-key illumination with deep shadows",
+    "soft top light filtering through haze",
+    "single rim light outlining wet skin and fabric",
+    "diffused ambient light with golden highlights",
+    "chiaroscuro lighting collapsing into darkness"
+  ],
+  "BACKGROUNDS": [
+    "stone ritual hall lined with candles",
+    "gothic cathedral interior lost in shadow",
+    "dark ceremonial chamber with crimson accents",
+    "ancient hall with wet stone floor",
+    "void-like space punctuated by candle flames"
+  ],
+  "OBJECTS": [
+    "black or ivory lace blindfold",
+    "dangling silver cords and ritual jewelry",
+    "candles dripping wax onto the floor",
+    "scattered petals and ritual remnants",
+    "ornamental metal clasps and charms"
+  ],
+  "POSES": [
+    "slow ceremonial walk forward",
+    "kneeling posture with lowered head",
+    "arms raised as if in offering",
+    "body held still in ritual submission",
+    "upright stance with exposed chest and veiled eyes"
+  ],
+  "EXPRESSIONS": [
+    "serene surrender",
+    "controlled sensual calm",
+    "detached devotional focus",
+    "silent ecstasy restrained",
+    "emotionless ritual composure"
+  ],
+  "CAMERA_ANGLES": [
+    "full-body frontal view at eye level",
+    "low-angle close-up emphasizing dominance of space",
+    "tight crop on chest and neck",
+    "upward angle focusing on chin and blindfold",
+    "centered symmetrical composition"
+  ],
+  "ATMOSPHERES": [
+    "humid air heavy with incense",
+    "ritual silence broken only by candle flicker",
+    "sacred tension suspended in time",
+    "sensual stillness with oppressive calm",
+    "devotional eroticism without urgency"
+  ],
+  "ACCESSORIES": [
+    "ornate silver choker with dangling cords",
+    "arm cuffs linked by fine cords",
+    "ritual belt framing hips",
+    "lace wrappings around wrists and eyes",
+    "delicate metal adornments resting on skin"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely devotional and atmospheric, sensuality implied only through form and fabric",
+    "1": "subtle erotic tension expressed through exposed skin, posture, and gaze",
+    "2": "strong sensual presence with emphasis on body curves, moisture, and intimacy",
+    "3": "high ritual eroticism with confident exposure and charged physical stillness"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean gothic ritual with no unsettling elements",
+    "1": "mild unease created by shadows, blindfolds, and silence",
+    "2": "ritual discomfort through submission imagery and oppressive space",
+    "3": "intense ritual dread with claustrophobic framing and severe lighting"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A ceremonial gothic scene where a veiled woman advances slowly through a candlelit hall, sheer lace clinging to her wet skin as silver chains trace her body, the blindfold sealing her expression into calm surrender, cinematic chiaroscuro lighting carving ivory flesh from shadow — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate ritual portrait focused on the blindfolded face and exposed chest, moisture glistening across skin and fabric as candle flames blur into golden bokeh, her posture still and devotional, charged with restrained erotic tension — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A sensual gothic composition framed through drifting haze, lace garments parting to reveal thighs and torso, silver adornments resting on skin, the atmosphere thick with incense and silence, eroticism expressed through stillness rather than action — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A devotional full-body view of a blindfolded figure kneeling among candles, ritual garments flowing and damp, chains and metal catching soft highlights, her expression unreadable yet charged with sacred sensuality — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A low-angle ritual close-up emphasizing the neck, collarbone, and blindfold, skin glistening under rim light as lace and metal frame the body in oppressive intimacy, the space closing in with ceremonial tension — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A claustrophobic gothic erotic frame where the body fills the composition, fabric tension and exposed skin dominating the scene, candles reduced to distant red glows as the ritual atmosphere becomes heavy and consuming — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": ""
+  }
+}

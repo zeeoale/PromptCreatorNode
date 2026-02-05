@@ -1,0 +1,55 @@
+{
+  "EPOCHS": [
+    "Classical"
+  ],
+  "OUTFITS": [
+    "Scout leathers",
+    "Cloak",
+    "Lorica light"
+  ],
+  "LIGHTING": [
+    "Golden hour",
+    "Torchlit rampart",
+    "Overcast"
+  ],
+  "BACKGROUNDS": [
+    "Frontier palisade",
+    "Watchtower",
+    "Forest edge",
+    "Gravel road milepost"
+  ],
+  "OBJECTS": [
+    "Composite bow",
+    "Map",
+    "Standard banner",
+    "Lantern"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "Kneeling steady",
+    "Over-shoulder aim"
+  ],
+  "EXPRESSIONS": [
+    "Determined",
+    "Calm focus",
+    "Cold glare"
+  ],
+  "CAMERA_ANGLES": [
+    "Wide establishing",
+    "Low angle hero",
+    "Tracking profile"
+  ],
+  "ATMOSPHERES": [
+    "Campfire smoke",
+    "Morning fog",
+    "Dust trail"
+  ],
+  "ACCESSORIES": [
+    "Arm guard",
+    "Cloak clasp",
+    "Leather bracers"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Borderland superstitions at dusk"
+  }
+}

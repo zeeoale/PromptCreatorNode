@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Winter Fantasy",
+    "Ice Queen Aesthetic",
+    "Medieval Winter",
+    "Nordic/Slavic Folklore"
+  ],
+  "OUTFITS": [
+    "Elaborate blue and silver winter dresses",
+    "Heavy fur coats and capes",
+    "Ornate patterned fabrics with silver embroidery",
+    "Layered winter garments with paisley designs"
+  ],
+  "LIGHTING": [
+    "Soft, diffused winter light",
+    "Cold, blue-toned lighting",
+    "Natural overcast lighting",
+    "Muted, ethereal illumination"
+  ],
+  "BACKGROUNDS": [
+    "Heavy snowfall",
+    "Winter landscape",
+    "Overcast snowy sky",
+    "Blizzard conditions"
+  ],
+  "OBJECTS": [
+    "White/grey horses",
+    "Falling snowflakes",
+    "Horse bridles and reins",
+    "Ornate silver jewelry and accessories"
+  ],
+  "POSES": [
+    "Mounted on horseback",
+    "Regal and composed while riding",
+    "Looking into the distance",
+    "Intimate interaction with the horse"
+  ],
+  "EXPRESSIONS": [
+    "Serene and ethereal",
+    "Contemplative and distant",
+    "Regal and composed",
+    "Mystical and otherworldly"
+  ],
+  "CAMERA_ANGLES": [
+    "Medium shot focusing on rider and horse",
+    "Eye-level or slightly low angle",
+    "Close-up portrait style",
+    "Three-quarter view"
+  ],
+  "ATMOSPHERES": [
+    "Mystical winter romance",
+    "Ethereal and dreamlike",
+    "Majestic and regal",
+    "Cold beauty",
+    "Fantasy winter tale"
+  ],
+  "ACCESSORIES": [
+    "Elaborate silver jewelry and earrings",
+    "Ornate hair ornaments and tiaras",
+    "Blue lipstick and winter makeup",
+    "Fur trim and collars",
+    "Horse tack and bridles"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "No horror elements present. The aesthetic is purely fantastical and beautiful, evoking winter fairy tales and ice queen mythology without any frightening or disturbing content."
+  }
+}

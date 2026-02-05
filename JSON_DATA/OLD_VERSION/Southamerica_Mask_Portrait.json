@@ -1,0 +1,52 @@
+{
+  "EPOCHS": [
+    "Pre-Columbian era",
+    "Colonial decay",
+    "Post-apocalyptic jungle"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Torch-lit shadows",
+    "Flickering ceremonial fire",
+    "Pale moonlight",
+    "Jungle mist diffusion"
+  ],
+  "BACKGROUNDS": [
+    "Black studio backdrop",
+    "Weathered stone wall with faded glyphs backdrop"
+  ],
+  "OBJECTS": [
+    "Jaguar mask with bone details",
+    "Condor-feathered ritual mask",
+    "Obsidian death idol fragment",
+    "Dried ayahuasca vines",
+    "Gold mask half-covered in blood",
+    "Ceremonial skull with turquoise inlay",
+    "Chakana (Incan cross) etched into flesh",
+    "Snakes emerging from cracked mask"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Eyes wide in trance",
+    "Face convulsed in silent scream",
+    "Unblinking horror",
+    "Eyes glowing with ancient curse"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "Shamanic possession",
+    "Jungle nightmare hallucination",
+    "Blood sacrifice under eclipse",
+    "Ritual gone wrong",
+    "Voices whispering from the mask",
+    "Fungal infection merging with soul"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "Dusty relic ambience",
+    "1": "Dark folkloric possession",
+    "2": "Skin ripped by cursed mask"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Heian period"
+  ],
+  "OUTFITS": [
+    "Junihitoe",
+    "Hakama",
+    "Yoroi armor",
+    "Hooded cloak"
+  ],
+  "LIGHTING": [
+    "Moonlit",
+    "Lantern-lit",
+    "Candlelit",
+    "Blue hour",
+    "Rim lighting"
+  ],
+  "BACKGROUNDS": [
+    "Shinto shrine",
+    "Torii gate on cliff",
+    "Bamboo forest",
+    "Karesansui rock garden",
+    "Wooden bridge"
+  ],
+  "OBJECTS": [
+    "Paper umbrella",
+    "Lantern",
+    "Tessen fan",
+    "Scroll",
+    "Charm talisman"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "Crouched aim",
+    "Kneeling steady",
+    "Over-shoulder aim"
+  ],
+  "EXPRESSIONS": [
+    "Calm focus",
+    "Stoic",
+    "Wry smile",
+    "Cold glare"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle hero",
+    "Over-shoulder",
+    "Medium shot",
+    "Close-up",
+    "Tracking profile"
+  ],
+  "ATMOSPHERES": [
+    "Misty",
+    "Festival lanterns",
+    "Light drizzle",
+    "Embers in air"
+  ],
+  "ACCESSORIES": [
+    "Kanzashi hairpin",
+    "Omamori charm",
+    "Obi sash",
+    "Straw sandals",
+    "Cord bracer"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "Peaceful shrine nights",
+    "mild": "Yūrei rumors in the grove"
+  }
+}

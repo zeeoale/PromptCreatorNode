@@ -1,0 +1,86 @@
+{
+  "EPOCHS": [
+    "neutral studio environment",
+    "plain seamless backdrop",
+    "minimal photographic studio",
+    "soft neutral background with no texture",
+    "flat background with subtle gradient",
+    "empty studio space"
+  ],
+
+  "OUTFITS": [
+    "simple tank top",
+    "plain t-shirt with no logos",
+    "strapless neutral top",
+    "basic camisole",
+    "minimal sleeveless dress",
+    "fitted long-sleeve shirt",
+    "simple open shirt over neutral top",
+    "light robe partially open but modest",
+    "plain bodysuit with no decorations"
+  ],
+
+  "LIGHTING": [
+    "soft diffused studio lighting",
+    "even frontal lighting with minimal shadows",
+    "window light simulation from one side",
+    "low-contrast balanced lighting",
+    "softbox lighting with gentle falloff",
+    "neutral daylight color temperature"
+  ],
+
+  "BACKGROUNDS": [
+    "solid gray background",
+    "solid beige background",
+    "solid off-white background",
+    "solid muted pastel background",
+    "neutral gradient background",
+    "plain dark gray background"
+  ],
+
+  "POSES": [
+    "standing straight, arms relaxed",
+    "standing three-quarter turn",
+    "sitting upright on a stool",
+    "sitting relaxed with hands on thighs",
+    "shoulders angled slightly toward camera",
+    "head tilted subtly to one side",
+    "neutral posture with weight shifted",
+    "frontal pose with relaxed shoulders"
+  ],
+
+  "EXPRESSIONS": [
+    "neutral expression",
+    "soft relaxed gaze",
+    "calm expression with closed lips",
+    "slight natural smile",
+    "emotionless passport-style expression",
+    "gentle attentive look"
+  ],
+
+  "CAMERA_ANGLES": [
+    "eye-level frontal portrait",
+    "three-quarter view at eye level",
+    "slightly high angle looking down",
+    "slightly low angle looking up",
+    "straight-on symmetrical framing",
+    "medium close-up framing"
+  ],
+
+  "ATMOSPHERES": [
+    "clean and neutral photographic mood",
+    "technical portrait style",
+    "identity-focused composition",
+    "dataset-oriented clarity",
+    "unembellished realistic capture",
+    "training-friendly neutral aesthetic"
+  ],
+
+  "ACCESSORIES": [
+    "no accessories",
+    "simple necklace",
+    "small stud earrings",
+    "no visible jewelry",
+    "minimal unobtrusive jewelry"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+
+  "WORLD_NAME": "PFN_Dark_Nun_V3",
+
+  "SYSTEM_PROMPT": "You are a high-end cinematic prompt generator specialized in heretical dark fantasy and gothic couture iconography, focused on reinterpreting sacred archetypes through forbidden elegance and ritual authority. When requested, return ONE single long sentence (180–240 words), richly descriptive and painterly, without line breaks or lists, depicting a dark nun figure frozen in a moment of sacrilegious devotion. Always preserve the iconic silhouette of the habit and veil while replacing orthodox symbolism with pagan, occult, and forbidden ritual elements. Seamlessly blend elements chosen from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize high-fashion gothic materials such as latex, leather, satin, lace, and metal chains, rendered with tactile realism and subtle wear. Lighting must evoke cinematic chiaroscuro with sculpted highlights, deep shadow falloff, and atmospheric haze, never treated as literal objects. Environments should feel decadent and ceremonial, defined by cracked stone, velvet drapery, incense smoke, and ritual architecture. Maintain a restrained palette dominated by black, crimson, ivory, obsidian, and tarnished silver. The tone must convey sacrilegious elegance, erotic menace, ritual control, and forbidden devotion, with fine-art composition, cinematic depth, and a sense of timeless transgression suspended in silence.",
+
+  "EPOCHS": [
+    "Gothic Horror",
+    "Dark Fantasy",
+    "Unholy Couture",
+    "Apocalyptic Ritual"
+  ],
+
+  "OUTFITS": [
+    "Glossy latex nun habit with corset lacing and slit skirt",
+    "Translucent veil over leather harness and occult collar",
+    "Stained ritual-lace gown with torn hem and barbed accents",
+    "Black satin cassock cinched by chain belt and thorned corset"
+  ],
+
+  "LIGHTING": [
+    "Caravaggio-style chiaroscuro",
+    "Crimson rim light from behind",
+    "Candlelit flicker with deep shadow falloff",
+    "Backlit incense haze, strong frontal light shaping facial features"
+  ],
+
+"BACKGROUNDS": [
+  "Blood-slick marble floor, subtle reflections",
+  "Torn red velvet drapery with faded sigils",
+  "Cracked stone walls etched with forbidden symbols",
+  "Obsidian altar room lit by scattered candles and incense smoke",
+  "Ancient ritual hall with hanging chains and worn stone arches",
+  "Velvet-lined chamber with ritual markings stitched into the fabric",
+  "Shadowed cloister ruins overtaken by darkness and creeping roots",
+  "Ceremonial chamber with blackened mirrors and drifting haze"
+],
+
+
+  "OBJECTS": [
+    "Barbed ritual beads wrapped around wrist",
+    "",
+    "",
+    "Ritual bandages slowly seeping",
+    "d"
+  ],
+
+"POSES": [
+  "Hands crossed over abdomen in ritual stance",
+  "One hand gripping veil, the other holding a sigil",
+  "Kneeling posture with defiant spine",
+  "Leaning forward as if whispering an invocation",
+  "Reclined sideways on ritual stone, veil cascading across the frame",
+  "Standing in profile with veil spread wide, arms extended horizontally",
+  "Seated across an altar edge, body angled and gaze directed off-frame",
+  "Lying back amid incense smoke, arms open in ceremonial surrender",
+  "Half-turned stance with cloak drawn wide to fill the horizontal space",
+  "Slow ritual walk captured mid-step, fabric trailing across the scene"
+],
+
+
+  "EXPRESSIONS": [
+    "Ritual ecstasy (eyes half-lidded)",
+    "Wicked, knowing smirk",
+    "Tearful trance with dark fluid tears",
+    "Cold, admonishing serenity"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Extreme close-up on eyes and lips",
+    "Low-angle devotional framing",
+    "Centered symmetrical composition"
+  ],
+
+  "ATMOSPHERES": [
+    "Forbidden rite in progress",
+    "Sultry menace with sacrilegious undertones",
+    "Blood-rite intensity",
+    "Gothic high-fashion heresy"
+  ],
+
+  "ACCESSORIES": [
+    "Barbed thorn crown (dark metal)",
+    "Sigil choker and layered chains",
+    "Ritual rings and blade-shaped veil pins",
+    "Obsidian or bone earrings with occult motifs",
+    "Ritual beads wrapped twice around throat"
+  ],
+
+  "SENSUALITY_LEVEL": {
+  "0": "Veiled devotion: sensuality suggested through posture, fabric tension, and controlled gaze; the body remains mostly concealed, desire implied rather than shown, creating an atmosphere of restrained ritual intimacy.",
+  "1": "Ritual allure: exposed skin beneath the habit, latex and lace clinging to form, slow deliberate poses and half-lidded expressions conveying sacred seduction and forbidden authority without explicit display.",
+  "2": "Sacrilegious eroticism: the habit opens to reveal the body as an object of ritual power, skin marked by pressure, chains, or sigils; sensuality becomes an active force, charged, commanding, and deliberately transgressive."
+  },
+
+
+  "HORROR_INTENSITY": {
+    "0": "Suggestive heresy: inverted archetypes, subtle dark tears, veiled sensuality; mood unsettling but restrained.",
+    "1": "Brazen transgression: ritual markings, barbed impressions, darkened lips; erotic charge with clear menace.",
+    "2": "Ritual gore: carved sigils and dripping thorns, bleeding ceremonial talismans; unholy ecstasy at the edge of taboo."
+
+  },
+   
+  "CUSTOM_INTRO": {
+    "0": "A heretical gothic tableau depicting a dark nun emerging from shadowed ritual space, her habit preserved in silhouette yet transformed through forbidden couture and occult authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic dark fantasy portrait of a sacrilegious nun figure rendered with painterly depth, ritual elegance, and controlled erotic menace, frozen in a moment of forbidden devotion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "High-fashion gothic reinterpretation of the nun archetype, blending sacred silhouette with pagan ritual symbolism and decadent materials under dramatic chiaroscuro light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Fine-art dark fantasy composition portraying a ritual nun within a forbidden ceremonial chamber, veiled authority and transgressive elegance suspended in incense-filled silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Sacrilegious couture scene centered on a dark nun whose presence radiates ritual control, erotic restraint, and ancient heresy through texture, shadow, and posture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Painterly gothic horror portrait of a forbidden nun figure framed by velvet drapery, cracked stone, and ritual smoke, conveying timeless transgression and unholy devotion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Cinematic sacrilegious vision of a dark nun archetype elevated through occult fashion, chiaroscuro lighting, and ritual atmosphere, poised between devotion and damnation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

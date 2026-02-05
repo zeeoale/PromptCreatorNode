@@ -1,0 +1,15 @@
+Title: Contemporary Gothic Femininity in a Cyberpunk Noir Alley
+
+Scene Description:
+
+In the heart of a sprawling cybernetic metropolis, bathed in the soft glow of neon lights and holographic advertisements, a captivating figure emerges from an alleyway adorned with graffiti and steam vents. The ambiance is dense with urban nocturnal realism, as rain patters on the cobblestones and fog swirls around the city's towering structures.
+
+Our protagonist, a mid-20s East Asian woman with a heart-shaped face, high cheekbones, narrow jaw, almond eyes framed by heavy lashes, icy gray eyes that simmer with cold, controlled rage, a straight delicate nose, soft full lips with a slight cupid's bow, and dark/black lipstick, wears her cobalt-blue hair in a sleek bun, center parted, and polished to perfection. Her porcelain skin is speckled with faint under-eye shadows, hinting at late-night vigilance.
+
+Dressed in a fusion of dark romantic fashion and minimalist urban style, she dons a jacket embellished with neon trim and LED patches that flicker softly against her skin, subtly reflecting the city's pulsating energy. A pair of fingerless gloves equipped with haptic sensors cling to her wrists, completing her tech-infused ensemble.
+
+In this low-angle shot, our protagonist crouches in the neon-lit alleyway, hacking into a console with an air of calculating precision. Her gaze is fixed on the console, her eyes shining like icy gemstones under the diffused reflections of the surrounding neon environment. Neon lights cast a pink and cyan holographic haze over her face, giving her an ethereal glow while preserving the natural skin behavior, visible pores, micro-imperfections, and subtle subsurface scattering that characterize real human skin.
+
+Around her, the alleyway comes alive with floating holographic ads flickering in the background, their neon hues fragmented and atmospheric, filtered through the haze, rain, fog, or glass. The composition feels as though it were shot on a real camera, with controlled contrast, imperfect exposure, low-key lighting, film grain, depth of field, and subtle lens artifacts that contribute to the scene's cinematic intent.
+
+This masterpiece captures the essence of contemporary gothic femininity in a cyberpunk noir setting, evoking urban nocturnal realism, emotional intimacy, and tactile presence, while ensuring the subject always reads as a real person in a real city rather than a rendered character. The scene is presented in 4k resolution, with ultra-detailed visuals that showcase both the protagonist's captivating appearance and the gritty, lived-in aesthetics of the cityscape around her., <lora:RebelReal(z-image):1><lora:Z-Breast-Slider:1>

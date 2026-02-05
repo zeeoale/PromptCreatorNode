@@ -1,0 +1,58 @@
+{
+  "EPOCHS": [
+    "Ancient Horror Era",
+    "Flesh Cathedral Age",
+    "Brood Reign"
+  ],
+  "OUTFITS": [
+    "flesh-woven robe",
+    "parasitic armor",
+    "organic crown fused to skull",
+    "black lingerie"
+  ],
+  "LIGHTING": [
+    "womb-like glow",
+    "crimson bioluminescence"
+  ],
+  "BACKGROUNDS": [
+    "throne made of pulsating flesh",
+    "organic hive-chamber",
+    "infested cathedral hall"
+  ],
+  "OBJECTS": [
+    "scepter made of bone and larva",
+    "brood eggs",
+    "hive lanterns",
+    "birthing sac"
+  ],
+  "POSES": [
+    "enthroned, hand on pregnant belly",
+    "standing regal with tendrils rising",
+    "cradling a parasitic infant"
+  ],
+  "EXPRESSIONS": [
+    "serene corruption",
+    "divine detachment",
+    "blissful agony"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle, looking up",
+    "frontal throne shot",
+    "over-the-shoulder toward larvae"
+  ],
+  "ATMOSPHERES": [
+    "ritualistic infestation",
+    "sacred brood birthing",
+    "gothic body horror"
+  ],
+  "ACCESSORIES": [
+    "crown of thorns and tentacles",
+    "parasite-woven jewelry",
+    "scarred ceremonial staff"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "mild parasite hints, subtle hive design",
+    "medium": "visible brood sacs, slight body deformation",
+    "high": "grotesque larval birth, invasive tendrils, open womb detail"
+  }
+}

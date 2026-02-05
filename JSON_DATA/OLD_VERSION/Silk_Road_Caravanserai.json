@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "Classical",
+    "Medieval"
+  ],
+  "OUTFITS": [
+    "Travel robes",
+    "Turbaned attire",
+    "Scale mail",
+    "Desert ranger leathers"
+  ],
+  "LIGHTING": [
+    "Harsh midday",
+    "Golden hour",
+    "Torchlit",
+    "Moonlit courtyard"
+  ],
+  "BACKGROUNDS": [
+    "Caravanserai courtyard",
+    "Desert dunes",
+    "Oasis palms",
+    "Bazaar arcade",
+    "Cliffside road"
+  ],
+  "OBJECTS": [
+    "Map",
+    "Compass",
+    "Relic",
+    "Water skin",
+    "Totem"
+  ],
+  "POSES": [
+    "On the run shot",
+    "Perched lookout",
+    "Side-draw pose",
+    "Back-to-wall"
+  ],
+  "EXPRESSIONS": [
+    "Determined",
+    "Calm focus",
+    "Wry smile",
+    "Fierce"
+  ],
+  "CAMERA_ANGLES": [
+    "Wide establishing",
+    "Tracking profile",
+    "Over-shoulder",
+    "Medium shot"
+  ],
+  "ATMOSPHERES": [
+    "Dust storm edge",
+    "Heat shimmer",
+    "Distant caravan bells"
+  ],
+  "ACCESSORIES": [
+    "Utility belt",
+    "Veil scarf",
+    "Cloak clasp",
+    "Charm talisman"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "Trade routes alive",
+    "mild": "Mirage folklore at dusk"
+  }
+}

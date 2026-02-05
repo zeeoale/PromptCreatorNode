@@ -1,0 +1,52 @@
+{
+  "EPOCHS": [
+    "Feudal Japan",
+    "Mythical Edo period",
+    "Neo-Noh cyber era",
+    "Spirit-bound Heian court"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Single spotlight from below",
+    "Cold misty light"
+  ],
+  "BACKGROUNDS": [
+    "Black studio backdrop",
+    "Red velvet with gold japanese dragon motifs backdrop",
+    "Black silk curtain backdrop",
+    "Faded japanese folding screen backdrop",
+    "Dimly lit shoji wall backdrop",
+    "Antique paper screen with calligraphy backdrop",
+    "Tatami mat pattern backdrop",
+    "Rustic wooden wall backdrop",
+    "Black void with falling ash backdrop",
+    "Soft golden gradient backdrop"
+  ],
+  "OBJECTS": [
+    "cracked Hannya mask",
+    "white Kitsune mask with red markings",
+    "wooden Okame mask",
+    "demonic Oni mask with fangs",
+    "battle-worn Mempo",
+    "fox spirit charm hanging from ear",
+    "string knots binding the mask to the head"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [],
+  "ACCESSORIES": [
+    "mask straps tied behind head",
+    "paper talismans stuck to skin",
+    "face partially wrapped in ceremonial cloth",
+    "glowing kanji hovering near mask",
+    "gold cords dangling from mask edges"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "mask intact, no distress",
+    "1": "cracked mask, faint blood or wear",
+    "2": "heavily damaged mask, blood, ritual scars visible"
+  }
+}

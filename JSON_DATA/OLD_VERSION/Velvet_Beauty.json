@@ -1,0 +1,89 @@
+{
+  "EPOCHS": [
+    "contemporary",
+    "neo-victorian",
+    "art deco revival",
+    "modern gothic",
+    "baroque-inspired"
+  ],
+  "OUTFITS": [
+    "black velvet long-sleeved gown",
+    "high-neck fitted dress with subtle embroidery",
+    "three-quarter sleeve midi dress",
+    "closed-toe heeled boots in crimson velvet",
+    "ornate beaded choker necklace"
+  ],
+  "LIGHTING": [
+    "dramatic low-key lighting",
+    "directional side lighting with soft falloff",
+    "specular highlights on jewelry",
+    "deep shadows enhancing texture"
+  ],
+"BACKGROUNDS": [
+  "ornate vintage mirrors with gilded frames",
+  "dark damask wallpaper",
+  "crimson velvet curtains",
+  "plush burgundy seating",
+  "dimly lit velvet-lined boudoir",
+  "black lacquered walls with soft candle reflections",
+  "antique wooden paneling in deep mahogany tones",
+  "shadowed alcove with velvet drapery",
+  "low-lit gothic salon with velvet upholstery",
+  "smoked glass panels reflecting warm ambient light",
+  "opulent Victorian interior softened by darkness",
+  "deep wine-colored walls with subtle fabric texture"
+],
+  "OBJECTS": [
+    "crystal chandelier",
+    "gilded mirror",
+    "velvet upholstered sofa",
+    "decorative pillows"
+  ],
+  "POSES": [
+    "three-quarter back pose",
+    "looking over shoulder",
+    "graceful static stance",
+    "elegant controlled posture",
+    "reclining on velvet chaise longue",
+    "lying sideways on a velvet chaise longue",
+    "seated on a velvet divanette",
+    "relaxed seated pose on velvet sofa",
+    "crossed legs seated on velvet couch",
+    "elongated reclining pose with arched back",
+    "upright seated pose with hands resting softly",
+    "semi-reclined pose against velvet cushions"
+  ],
+  "EXPRESSIONS": [
+    "serene",
+    "pensive",
+    "sensual calm",
+    "eyes closed or downcast",
+    "composed confidence"
+  ],
+  "CAMERA_ANGLES": [
+    "mid-length portrait",
+    "eye-level perspective",
+    "slight three-quarter angle",
+    "framed to include chandelier and mirror",
+    "tight vertical composition emphasizing legs and gown"
+  ],
+  "ATMOSPHERES": [
+    "opulent and intimate",
+    "moody romanticism",
+    "noir elegance",
+    "vintage cabaret ambiance",
+    "gothic glamour"
+  ],
+  "ACCESSORIES": [
+    "beaded choker and layered necklace",
+    "drop earrings",
+    "crimson ankle-strap heels",
+    "ring on right hand",
+    "lace or beaded detailing on dress"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Luxurious night lounge with romantic allure",
+    "1": "Velvet shadows hint at secret decadence",
+    "2": "Gothic glamour wrapped in candlelit mystery"
+  }
+}

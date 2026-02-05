@@ -1,0 +1,53 @@
+{
+  "EPOCHS": [
+    "Ancient China",
+    "Mythological China",
+    "Dynastic China"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Foggy spotlight",
+    "Moonlight through mist"
+  ],
+  "BACKGROUNDS": [
+    "Red velvet with gold chinese dragon motifs backdrop",
+    "Black void with incense smoke"
+  ],
+  "OBJECTS": [
+    "Chinese opera mask cracked and bleeding",
+    "Demonic Nuo mask with golden horns",
+    "Jingju mask with rotting wood texture",
+    "Burned dragon mask",
+    "Spirit mask hanging from golden thread"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Empty gaze with glowing eyes",
+    "Frozen scream",
+    "Distorted serenity",
+    "Sinister calm",
+    "Possessed trance"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "Supernatural dread",
+    "Possessed theater",
+    "Ancient ritual gone wrong",
+    "Ghostly presence",
+    "Burning incense smoke"
+  ],
+  "ACCESSORIES": [
+    "Cracked porcelain forehead charm",
+    "Hanging red string",
+    "Golden earrings",
+    "Blood-stained ribbon",
+    "Charred talisman on cheek"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle eeriness with mystic tones",
+    "1": "Disturbing spiritual presence",
+    "2": "Extreme ritualistic horror and gore"
+  }
+}

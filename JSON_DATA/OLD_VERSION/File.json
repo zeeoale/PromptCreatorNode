@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Era of the Unseen",
+    "Dimension of Whispers",
+    "Realm of the Forsaken",
+    "Desolate Future"
+  ],
+  "OUTFITS": [
+    "Flesh-wrapped Bodysuit",
+    "Woven Vines Gown",
+    "Mourner's Silk",
+    "Bloodied Corset"
+  ],
+  "LIGHTING": [
+    "Sunlight filtered through decaying leaves",
+    "Glowing iridescent fog",
+    "Shadows cast by skeletal trees",
+    "Cold, harsh light of a dystopian dawn"
+  ],
+  "BACKGROUNDS": [
+    "Wilted rose garden",
+    "Ruined cathedral cloaked in thorns",
+    "Decaying urban wasteland",
+    "Desolate forest of bone-white trees"
+  ],
+  "OBJECTS": [
+    "Shattered mirror",
+    "Spinal Cables",
+    "Blood-inked Diary",
+    "Rusted Surgical Tools"
+  ],
+  "POSES": [
+    "Crucifixion agony",
+    "Ecstatic Pain",
+    "Somber reflection",
+    "Ethereal ascendancy"
+  ],
+  "EXPRESSIONS": [
+    "Rapturous despair",
+    "Quiet madness",
+    "Seductive dread",
+    "Frightened anticipation"
+  ],
+  "CAMERA_ANGLES": [
+    "Tilting ominously",
+    "Peering from shadows",
+    "Slightly above, capturing a feeling of dominance",
+    "Eye level, inducing intimacy"
+  ],
+  "ATMOSPHERES": [
+    "Rotting Elegance",
+    "Sensual Dystopia",
+    "Horrific Beauty",
+    "Haunting Desolation"
+  ],
+  "ACCESSORIES": [
+    "Ornate Bone Necklace",
+    "Blood-stained Lace Veil",
+    "Rusted Iron Crown",
+    "Thorn-wrapped Choker"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "A haunted elegance, whispers of the macabre intertwined with beauty",
+    "1": "Sensual discomfort, the allure of the grotesque",
+    "2": "Explicit horror, the beauty in fear and despair",
+    "3": "Final descent, the epitome of dystopian terror"
+  }
+}

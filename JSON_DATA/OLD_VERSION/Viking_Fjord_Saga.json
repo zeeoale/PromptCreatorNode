@@ -1,0 +1,64 @@
+{
+  "EPOCHS": [
+    "Viking Age"
+  ],
+  "OUTFITS": [
+    "Fur cloak",
+    "Leather armor",
+    "Wool tunic",
+    "Hooded cloak"
+  ],
+  "LIGHTING": [
+    "Overcast diffuse",
+    "Moonlit",
+    "Golden hour edge",
+    "Firelight"
+  ],
+  "BACKGROUNDS": [
+    "Fjord cliff",
+    "Longhouse yard",
+    "Pine forest ridge",
+    "Frozen shore",
+    "Waterfall mist"
+  ],
+  "OBJECTS": [
+    "Longbow",
+    "Rune stone",
+    "Drinking horn",
+    "Shield",
+    "Rope coil"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "Kneeling steady",
+    "Leap-and-shoot",
+    "Crouched aim"
+  ],
+  "EXPRESSIONS": [
+    "Stoic",
+    "Defiant",
+    "Fierce",
+    "Calm focus"
+  ],
+  "CAMERA_ANGLES": [
+    "High vantage",
+    "Low angle hero",
+    "Medium shot",
+    "Tracking profile"
+  ],
+  "ATMOSPHERES": [
+    "Snow flurries",
+    "Sea spray",
+    "Campfire smoke"
+  ],
+  "ACCESSORIES": [
+    "Fur hood",
+    "Leather bracers",
+    "Wool scarf",
+    "Charm bracelet"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Old forest spirits",
+    "moderate": "Draugr tales near barrows"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "WORLD_NAME": "Modern_Goth_Bedroom",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in modern urban gothic imagery focused on intimate interior spaces and private atmospheres rather than public environments. When requested, you must return ONE single long, cinematic, highly descriptive sentence (180–240 words), without line breaks or lists, depicting a contemporary gothic woman inside her personal bedroom sanctuary. The scene must feel lived-in and authentic, layered with posters of dark bands, abstract occult artwork, monochrome photography, worn fabrics, scattered personal objects, and subtle signs of daily ritual. Always weave together elements selected from {{OUTFITS}}, {{LIGHTING}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{COLOR_REALM}} into a cohesive visual narrative, emphasizing low ambient lighting, bedside lamps, soft LED glows, textured shadows, and quiet nocturnal intimacy. The tone must remain modern, restrained, and fashion-aware, avoiding theatrical fantasy or exaggerated gothic clichés, favoring subtle erotic tension, introspection, emotional depth, realistic materials, natural posture, and an authentic sense of solitude, captured through cinematic framing, shallow depth of field, gentle grain, and soft atmospheric diffusion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting.",
+
+  "EPOCHS": [
+    "contemporary era",
+    "late-night modern present",
+    "timeless urban gothic now"
+  ],
+
+  "OUTFITS": [
+    "black lace lingerie layered with oversized gothic knitwear",
+    "sheer black top worn loosely over structured bralette",
+    "minimal black slip dress with soft fabric tension",
+    "dark satin camisole paired with lace stockings",
+    "modern gothic loungewear with intimate silhouettes"
+  ],
+
+  "LIGHTING": [
+    "low ambient bedside lighting",
+    "soft LED glow along walls",
+    "warm lamp light mixed with deep shadow",
+    "subtle rim light separating figure from darkness"
+  ],
+
+  "BACKGROUNDS": [
+    "dark bedroom sanctuary with band posters and worn textiles",
+    "bedroom corner lit by a bedside lamp and LED strip glow",
+    "private room with monochrome photography and abstract occult prints",
+    "lived-in gothic bedroom with unmade bed and soft shadows"
+  ],
+
+  "OBJECTS": [
+    "bedside lamp",
+    "vinyl records",
+    "custom gothic posters featuring abstract TK-style symbols and minimal branding marks",
+    "worn pillows and sheets",
+    "personal jewelry scattered on nightstand"
+  ],
+
+  "POSES": [
+    "reclining on an unmade bed",
+    "seated on the mattress with relaxed posture",
+    "leaning against the bedroom wall, shoulders soft",
+    "lying sideways with knees slightly drawn in"
+  ],
+
+  "EXPRESSIONS": [
+    "introspective gaze",
+    "quiet emotional distance",
+    "soft melancholic calm",
+    "neutral expression with internal tension"
+  ],
+
+  "CAMERA_ANGLES": [
+    "intimate eye-level framing",
+    "three-quarter body composition",
+    "soft close-up with shallow depth",
+    "fashion editorial bedroom perspective"
+  ],
+
+  "ATMOSPHERES": [
+    "private nocturnal intimacy",
+    "modern gothic solitude",
+    "quiet emotional depth",
+    "restrained erotic presence"
+  ],
+
+  "ACCESSORIES": [
+    "dark lipstick with soft smudge realism",
+    "minimal rings and thin chain necklace (no symbols)",
+    "lace choker collar, understated and modern",
+    "subtle TK monogram ring or tiny tag on clothing hem"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "purely introspective and neutral",
+    "1": "subtle sensual tension through posture",
+    "2": "intimate erotic mood expressed through fabric and gaze",
+    "3": "high-fashion erotic intimacy, restrained and never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light emotional unease",
+    "2": "melancholic darkness without horror elements",
+    "3": "not used"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A modern goth bedroom portrait framed by low ambient lamp light and a faint LED glow, posters and monochrome prints layering the walls as worn sheets and personal objects create a lived-in nocturnal intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic, private interior scene where a contemporary gothic woman lingers in quiet solitude, soft shadows and textured fabrics surrounding her as subtle erotic tension sits in posture and gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "An intimate bedroom sanctuary rendered with realistic materials and restrained fashion-aware goth styling, bedside lamp warmth mixing with deep blacks as scattered jewelry and vinyl records imply a personal ritual, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A soft-focus editorial bedroom portrait capturing modern gothic introspection, shallow depth of field isolating the subject from posters, rumpled textiles and dim practical lights that feel authentic and unforced, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A quiet late-night interior where subtle LED color spill and lamp falloff sculpt a contemporary goth silhouette, emphasizing fabric tension, natural posture, and calm emotional depth rather than theatrics, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A modern urban gothic bedroom moment with realistic clutter and softly worn textures, intimate framing and gentle grain revealing understated sensuality through lace, satin, and a composed gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A restrained cinematic bedroom scene where solitude feels fashionable and real, deep charcoal tones and warm highlights shaping a lived-in goth atmosphere, with a subtle TK-inspired poster design integrated into the background as abstract branding rather than readable text, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

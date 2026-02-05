@@ -1,0 +1,78 @@
+{
+  "EPOCHS": [
+    "Cursed Renaissance",
+    "Forgotten Inquisition",
+    "Divine Apocalypse",
+    "Plague era dream",
+    "Sanctified decay"
+  ],
+  "OUTFITS": [
+    "Cracked ceremonial porcelain mask",
+    "Holy veil soaked in blood",
+    "Monastic hood with burnt embroidery",
+    "Bone corset with gold inlays",
+    "Obsidian ritual armor"
+  ],
+  "LIGHTING": [
+    "Extreme chiaroscuro on the face",
+    "Harsh sidelight revealing cracks",
+    "Infernal underglow",
+    "Cold top-down cathedral beam"
+  ],
+  "BACKGROUNDS": [
+    "featureless black void with a few floating gilded fragments of broken halos; large-scale, non-repeating surface.",
+    "a smooth plaster wall with scattered paper talismans and hand-brushed cursed kanji sheets pinned irregularly; no wallpaper, no repeating motifs."
+  ],
+  "OBJECTS": [
+    "Wounds shaped like crosses",
+    "Burnt scriptures",
+    "Cracked halos",
+    "Rosaries fused to skin",
+    "Runes etched on the flesh",
+    "Kanji symbols painted across the face",
+    "Cursed ideograms carved into the skin",
+    "Sutra characters written with ink and ash",
+    "Elvish script drawn in blood",
+    "Korean ideograms inscribed like sacred wounds",
+    "Ancient glyphs forming bleeding symbols",
+    "Arcane letters emerging from torn skin",
+    "Forbidden alphabet scrawled across the face"
+  ],
+  "POSES": [
+    "Vertical frontal extreme close-up",
+    "Half-face tightly framed",
+    "Looking down in suffering",
+    "Closed eyes with ashes falling",
+    "Direct gaze through symbolic tears"
+  ],
+  "EXPRESSIONS": [
+    "Silent agony",
+    "Religious ecstasy",
+    "Tranquil sorrow",
+    "Symbolic martyrdom",
+    "Void gaze"
+  ],
+  "CAMERA_ANGLES": [
+    "Hyper close-up from below",
+    "extreme close-up on face"
+  ],
+  "ATMOSPHERES": [
+    "Iconic dread",
+    "Sacred rot",
+    "Ritualized silence",
+    "Divine hallucination",
+    "Apocalyptic vision"
+  ],
+  "ACCESSORIES": [
+    "Metallic cross fused with skin",
+    "Blood tears",
+    "Thorns crown with glowing symbols",
+   
+    "Flesh-embedded relics"
+  ],
+  "HORROR_INTENSITY": {
+    "1": "Sacral, iconic and mysterious",
+    "2": "Visceral but composed, with sacred elements",
+    "3": "Extremely disturbing, sacred horror, flesh-symbol fusion"
+  }
+}

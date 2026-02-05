@@ -2,12 +2,26 @@ import os
 import random
 import json
 import requests
+from datetime import datetime
 
 class PromptCreatorNode:
     @classmethod
     def INPUT_TYPES(cls):
         json_dir = os.path.join(os.path.dirname(__file__), "JSON_DATA")
         json_files = [f for f in os.listdir(json_dir) if f.endswith(".json")]
+
+        # camera angles (optional) from camera_angles.json
+        camera_angle_list = ["none"]
+        camera_angles_path = os.path.join(os.path.dirname(__file__), "camera_angles.json")
+        if os.path.exists(camera_angles_path):
+            try:
+                with open(camera_angles_path, "r", encoding="utf-8") as f:
+                    camera_data = json.load(f)
+                ids = camera_data.get("ids", [])
+                if isinstance(ids, list):
+                    camera_angle_list += [str(x) for x in ids if str(x).strip()]
+            except Exception:
+                pass
 
         # carico le chiavi dal file esterno system_prompt.json
         system_prompt_path = os.path.join(os.path.dirname(__file__), "system_prompt.json")
@@ -24,25 +38,28 @@ class PromptCreatorNode:
             try:
                 with open(identities_path, "r", encoding="utf-8") as f:
                     identities = json.load(f)
-                identity_profiles = ["none"] + list(identities.keys())
+                identity_profiles = ["none", "external"] + list(identities.keys())
             except Exception:
-                identity_profiles = ["none"]
+                identity_profiles = ["none", "external"]
         else:
-            identity_profiles = ["none"]
+            identity_profiles = ["none", "external"]
 
         return {
             "required": {
                 "json_name": (sorted(json_files),),
-#                "camera_angle": (camera_angle_list,),
+                "camera_angle": (camera_angle_list,),
 
                 "use_enhancer": (["none", "ollama","llamacpp", "openai", "cohere", "gemini"],),
                 "enhancer_mode": (enhancer_modes,),
+                "system_prompt_lock": (["auto", "external"], {"default": "auto"}),
                 "add_symbols": (["no", "yes"],),
                 "seed": ("INT", {"default": 0}),
                 "gender": (["neutral", "female", "2 female", "3 female", "female vampire", "anime woman", "male", "custom"],),
-                "identity_profile": (identity_profiles,),
+                                "identity_profile": (identity_profiles,),
+                "external_identity": ("STRING", {"default": "", "multiline": True, "forceInput": True}),
                 "lock_identity": (["no", "yes"], {"default": "yes"}),
                 "custom_intro": ("STRING", {"default": "", "multiline": True}),
+                "custom_intro_id": (["Random","0","1","2","3","4","5","6"], {"default":"Random"}),
                 "horror_intensity": (["auto"] + [str(i) for i in range(11)],),
                 "sensuality_level": (["auto", "0", "1", "2", "3"],),
                 "lora_triggers": ("STRING", {"default": ""}),
@@ -50,8 +67,8 @@ class PromptCreatorNode:
                 "lock_last_prompt": (["no", "yes"], {"default": "no"}),
                 "multi_object_count": ("INT", {"default": 1, "min": 1, "max": 5}),
                 # Ollama settings
-                "ollama_host": ("STRING", {"default": "http://192.168.1.1:11434"}),
-                "ollama_model": ("STRING", {"default": "llama3.2"})
+                "ollama_host": ("STRING", {"default": "http://10.10.10.2:11434"}),
+                "ollama_model": ("STRING", {"default": "qwen3:8b"})
             }
         }
 
@@ -103,18 +120,6 @@ class PromptCreatorNode:
 
 
 
-    base_path = os.path.dirname(__file__)
-    camera_angles_path = os.path.join(base_path, "camera_angles.json")
-    camera_angle_list = ["none"]
-    if os.path.exists(camera_angles_path):
-        try:
-            with open(camera_angles_path, "r", encoding="utf-8") as f:
-                camera_data = json.load(f)
-            ids = camera_data.get("ids", [])
-            if isinstance(ids, list):
-                camera_angle_list += ids
-        except Exception:
-            pass
     def _camera_angles(self):
         path = os.path.join(os.path.dirname(__file__), "camera_angles.json")
         if os.path.exists(path):
@@ -152,25 +157,75 @@ class PromptCreatorNode:
             return wd
         return world_data
 
-    def _build_prompt_from_json(self, data, gender, custom_intro, horror_intensity, sensuality_level, subject_count, multi_object_count):
+    def _build_prompt_from_json(
+        self,
+        data,
+        gender,
+        custom_intro,
+        custom_intro_id,
+        horror_intensity,
+        sensuality_level,
+        subject_count,
+        multi_object_count,
+        camera_angle_txt="",
+    ):
         parts = []
 
         # 1) Camera angle (se presente) in testa
+        if isinstance(camera_angle_txt, str) and camera_angle_txt.strip():
+            parts.append(camera_angle_txt.strip())
 
+        # 2) Gender / subject intro
+        # Se gender=custom:
+        # - se custom_intro (textarea) non è vuoto -> usa quello (override manuale)
+        # - altrimenti usa custom_intro_id (0..6 o Random) dal world JSON (CUSTOM_INTRO come dict o list)
+        if gender == "custom":
+            ci = (custom_intro or "").strip()
 
-    # (il resto della funzione resta uguale)
+            def _get_custom_intro_pool(world_data):
+                pool = {}
+                raw = None
+                if isinstance(world_data, dict):
+                    raw = world_data.get("CUSTOM_INTRO") or world_data.get("custom_intro")
 
+                # dict -> keys "0".."6"
+                if isinstance(raw, dict):
+                    for k in [str(i) for i in range(7)]:
+                        v = raw.get(k)
+                        if isinstance(v, str) and v.strip():
+                            pool[k] = v.strip()
 
-        # Gender / subject intro
-        if gender == "custom" and custom_intro.strip():
-            parts.append(custom_intro.strip())
+                # list -> indices 0..6
+                elif isinstance(raw, list):
+                    for i in range(min(7, len(raw))):
+                        v = raw[i]
+                        if isinstance(v, str) and v.strip():
+                            pool[str(i)] = v.strip()
+
+                return pool
+
+            if not ci:
+                pool = _get_custom_intro_pool(data)
+
+                if custom_intro_id and custom_intro_id != "Random":
+                    chosen = pool.get(str(custom_intro_id))
+                    if chosen:
+                        ci = chosen
+
+                if not ci and pool:
+                    ci = random.choice(list(pool.values()))
+
+            if ci:
+                parts.append(ci)
+
         else:
             gender_inserted = False
-            if gender in data:
+            if isinstance(data, dict) and gender in data:
                 values = data[gender]
                 if isinstance(values, list) and values:
                     parts.append(random.choice(values))
                     gender_inserted = True
+
             if not gender_inserted:
                 gender_defaults = {
                     "male": "a mysterious man",
@@ -178,11 +233,13 @@ class PromptCreatorNode:
                     "2 female": "two beautiful womans",
                     "3 female": "three unique beautiful womans",
                     "female vampire": "a beautiful vampire woman",
-                    "anime woman": "a beautiful anime woman"
+                    "anime woman": "a beautiful anime woman",
                 }
                 parts.append(gender_defaults.get(gender, "a striking figure"))
 
         # Optional color realm
+
+
         color_realm_value = None
         if "COLOR_REALM" in data:
             possible_realms = data["COLOR_REALM"]
@@ -205,7 +262,14 @@ class PromptCreatorNode:
                         parts.append(random.choice(values_by_realm))
         else:
             for key, values in data.items():
-                if key.lower() in ["male", "female", "neutral", "horror_intensity", "color_realm"]:
+                if key.lower() in [
+                    "male", "female", "neutral",
+                    "horror_intensity", "sensuality_level",
+                    "color_realm",
+                    "system_prompt", "world_name",
+                    "custom_intro",
+                    "camera_angles", "camera_angle",
+                ]:
                     continue
                 if isinstance(values, list) and values:
                     if key in multi_keys:
@@ -429,7 +493,42 @@ class PromptCreatorNode:
         r = model.generate_content(txt)
         return r.candidates[0].content.parts[0].text.strip()
 
-    def generate_prompt(self, json_name, use_enhancer, enhancer_mode, add_symbols, seed, gender, identity_profile, lock_identity, custom_intro, horror_intensity, sensuality_level, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
+    @staticmethod
+    def log_prompt_run(
+        json_name,
+        enhancer_mode,
+        gender,
+        custom_intro,
+        lora_triggers,
+        final_prompt,
+        source="generated",
+        node_version="1.5.0",
+    ):
+        """Append one JSONL entry per run to ./logs/prompt_history.jsonl."""
+        log_dir = os.path.join(os.path.dirname(__file__), "logs")
+        os.makedirs(log_dir, exist_ok=True)
+
+        log_path = os.path.join(log_dir, "prompt_history.jsonl")
+
+        entry = {
+            "timestamp": datetime.now().isoformat(timespec="seconds"),
+            "json_world": json_name,
+            "system_prompt": enhancer_mode,
+            "gender": gender,
+            "custom_intro": custom_intro.strip() if (gender == "custom" and isinstance(custom_intro, str) and custom_intro.strip()) else None,
+            "lora_triggers": lora_triggers,
+            "final_prompt": final_prompt,
+            "source": source,
+            "node_version": node_version
+        }
+
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+
+    
+    def generate_prompt(self, json_name, camera_angle, use_enhancer, enhancer_mode, system_prompt_lock, add_symbols, seed, gender, identity_profile, external_identity, lock_identity, custom_intro, custom_intro_id, horror_intensity, sensuality_level, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
 
@@ -438,6 +537,16 @@ class PromptCreatorNode:
         if lock_last_prompt == "yes" and os.path.exists(history_path):
             with open(history_path, "r", encoding="utf-8") as f:
                 prompt = f.read().strip()
+            self.log_prompt_run(
+                json_name=json_name,
+                enhancer_mode=enhancer_mode,
+                gender=gender,
+                custom_intro=custom_intro,
+                lora_triggers=lora_triggers,
+                final_prompt=prompt,
+                source="history_lock",
+                node_version="1.5.0"
+            )
             print("[PromptCreator] Prompt locked and loaded from history")
             return (prompt,)
 
@@ -448,15 +557,29 @@ class PromptCreatorNode:
             print(f"[PromptCreator] Errore nel caricamento del JSON: {e}")
             return ("",)
 
+        # world-level SYSTEM_PROMPT (unified JSON) if present
+        world_system_prompt = None
+        if isinstance(data, dict):
+            wsp = data.get("SYSTEM_PROMPT") or data.get("system_prompt")
+            if isinstance(wsp, str) and wsp.strip():
+                world_system_prompt = wsp.strip()
+        # Camera angle resolution (UI overrides world)
+        angle_dict = self._camera_angles()
+        camera_angle_txt = self._resolve_camera_angle(camera_angle, data, angle_dict)
+        data = self._sanitize_world_camera(data, camera_angle)
+
         # Seed opzionale per coerenza
         if seed:
             random.seed(seed)
 
         # Identity profile (prompt-only consistency)
         identity_txt = ""
-        if identity_profile != "none" and lock_identity == "yes":
-            identities = self._identity_profiles()
-            identity_txt = self._identity_to_text(identities.get(identity_profile, {}))
+        if lock_identity == "yes":
+            if identity_profile == "external":
+                identity_txt = (external_identity or "").strip()
+            elif identity_profile != "none":
+                identities = self._identity_profiles()
+                identity_txt = self._identity_to_text(identities.get(identity_profile, {}))
             print("[PromptCreator][DEBUG] identity_profile:", identity_profile)
             print("[PromptCreator][DEBUG] lock_identity:", lock_identity)
             print("[PromptCreator][DEBUG] identity_txt:", repr(identity_txt))
@@ -465,25 +588,26 @@ class PromptCreatorNode:
 
         # Costruisci prompt base
         prompt = self._build_prompt_from_json(
-            data, gender, custom_intro, horror_intensity, sensuality_level, subject_count, multi_object_count
+            data, gender, custom_intro, custom_intro_id, horror_intensity, sensuality_level, subject_count, multi_object_count, camera_angle_txt=camera_angle_txt
         )
 
         if identity_txt:
-            prompt = identity_txt + ", " + prompt
-            print("[PromptCreator][DEBUG] prompt_pre_enhancer:", prompt[:500])
+            prompt = prompt + ", " + identity_txt
+            print("[PromptCreator][DEBUG] prompt_pre_enhancer:", prompt)
 
 
         # System prompt condiviso per tutti i backend
         system_prompts = self._system_prompts()
-        system_prompt = system_prompts.get(enhancer_mode, system_prompts["standard"])
+        effective_world_system_prompt = None if system_prompt_lock == "external" else world_system_prompt
+        system_prompt = effective_world_system_prompt or system_prompts.get(enhancer_mode, system_prompts["standard"])
         user_prompt = f"Enhance this prompt: {prompt}"
 
         # Enhancer backends
         if use_enhancer != "none":
             print("[PromptCreator][DEBUG] use_enhancer:", use_enhancer)
             print("[PromptCreator][DEBUG] enhancer_mode:", enhancer_mode)
-            print("[PromptCreator][DEBUG] system_prompt:", system_prompt[:400])
-            print("[PromptCreator][DEBUG] user_prompt:", user_prompt[:400])
+            print("[PromptCreator][DEBUG] system_prompt:", system_prompt)
+            print("[PromptCreator][DEBUG] user_prompt:", user_prompt)
 
             try:
                 if use_enhancer == "ollama":
@@ -514,4 +638,14 @@ class PromptCreatorNode:
             f.write(prompt.strip())
 
         print(f"[PromptCreator] Prompt finale: {prompt}")
+        self.log_prompt_run(
+            json_name=json_name,
+            enhancer_mode=enhancer_mode,
+            gender=gender,
+            custom_intro=custom_intro,
+            lora_triggers=lora_triggers,
+            final_prompt=prompt,
+            source="generated",
+                node_version="1.5.0"
+        )
         return (prompt,)

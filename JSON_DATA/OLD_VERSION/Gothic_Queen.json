@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "gothic revival",
+    "contemporary dark fantasy",
+    "neo-medieval",
+    "victorian-inspired",
+    "timeless mythic"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "dramatic low-key lighting",
+    "spotlit crown highlights",
+    "deep shadows",
+    "moody atmosphere",
+    "subtle glints on metallic details"
+  ],
+  "BACKGROUNDS": [
+    "dark maroon gradient",
+    "velvet backdrop",
+    "shadowy indistinct space",
+    "studio darkness",
+    "minimal undefined background"
+  ],
+  "OBJECTS": [
+    "ornate black crown with red gemstones",
+    "metallic chains hanging from the crown",
+    "crimson cross-shaped pendants",
+    "solid black opaque veil completely covering eyes and upper face",
+    "non-lace, non-transparent veil",
+    "dark lipstick"
+  ],
+  "POSES": [
+    "upright",
+    "formal and composed",
+    "face forward",
+    "majestic stillness",
+    "minimal movement"
+  ],
+  "EXPRESSIONS": [
+    "serene",
+    "commanding",
+    "stoic",
+    "mysterious",
+    "powerful presence"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme face close-up"
+  ],
+  "ATMOSPHERES": [
+    "regal",
+    "ominous",
+    "mysterious authority",
+    "gothic elegance",
+    "dramatic solemnity",
+    "sacred void",
+    "royal silence",
+    "iconic dread"
+  ],
+  "ACCESSORIES": [
+    "black spiked crown with red gems",
+    "metallic hanging chains",
+    "black cross pendant jewelry",
+    "ornate choker",
+    "solid ritual veil fully covering the upper face and eyes",
+    "heavy opaque black cloth over eyes",
+    "opulent textures",
+    "heavy embroidery",
+    "baroque metallic detailing"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Noble darkness, elegance veiled in mystery",
+    "1": "Regal intimidation, unspoken powers",
+    "2": "Gothic throne—where silence reigns"
+  }
+}

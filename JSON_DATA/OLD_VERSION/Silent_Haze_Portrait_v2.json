@@ -1,0 +1,81 @@
+{
+  "EPOCHS": [
+    "contemporary 2020s",
+    "urban modern",
+    "social media aesthetic"
+  ],
+  "OUTFITS": [
+    "casual cozy loungewear",
+    "white fitted tank top",
+    "simple minimal clothing",
+    "bare shoulders",
+    "relaxed home attire"
+  ],
+  "LIGHTING": [
+    "soft diffused natural daylight",
+    "warm golden hour tones",
+    "gentle window light from side",
+    "low contrast even illumination",
+    "subtle warm highlights on skin"
+  ],
+  "BACKGROUNDS": [
+    "neutral beige bedroom interior",
+    "soft out-of-focus indoor setting",
+    "minimalist clean space",
+    "warm cream-colored walls",
+    "cozy domestic environment"
+  ],
+  "OBJECTS": [
+    "soft plush blanket",
+    "bed linens",
+    "pillow",
+    "smartphone (implied selfie)"
+  ],
+  "POSES": [
+    "lying down relaxed",
+    "head resting on pillow",
+    "casual self-portrait angle",
+    "intimate close framing",
+    "soft tilted head"
+  ],
+  "EXPRESSIONS": [
+    "serene and calm",
+    "soft subtle smile",
+    "dreamy contemplative gaze",
+    "relaxed and comfortable",
+    "gentle inviting look"
+  ],
+  "CAMERA_ANGLES": [
+    "high angle looking down",
+    "selfie POV from above",
+    "close-up portrait crop",
+    "slightly tilted frame",
+    "shallow depth of field"
+  ],
+  "ATMOSPHERES": [
+    "intimate and personal",
+    "cozy warmth",
+    "peaceful morning vibes",
+    "soft romantic mood",
+    "quiet solitude"
+  ],
+  "ACCESSORIES": [
+    "natural minimal makeup",
+    "no visible jewelry",
+    "clean bare aesthetic"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light melancholic unease",
+    "2": "dark romantic undertone without horror elements"
+  }
+}

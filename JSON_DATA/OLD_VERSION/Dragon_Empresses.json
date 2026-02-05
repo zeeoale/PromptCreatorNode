@@ -1,0 +1,87 @@
+{
+  "EPOCHS": [
+    "Ancient Dynasty",
+    "Volcanic Reign",
+    "Celestial Empire",
+    "Twilight Kingdom",
+    "Frozen Dominion",
+    "Sacred Flame Era"
+  ],
+  "OUTFITS": [
+    "ceremonial dragon-scale gown",
+    "battle-worn empress armor",
+    "flowing silk robe with claw-shaped clasp",
+    "regal crimson kimono embroidered with golden dragons",
+    "obsidian corset with flame motifs",
+    "ice-blue cape with runic trim"
+  ],
+  "LIGHTING": [
+    "backlit by a roaring inferno",
+    "soft light from glowing dragon eyes",
+    "moonlight breaking through smoke",
+    "radiant aura from enchanted scales",
+    "reflected lava glow",
+    "misty sunrise over mountains"
+  ],
+  "BACKGROUNDS": [
+    "high atop a jagged mountain peak",
+    "standing on a battlefield of fire and ash",
+    "riding through stormy skies",
+    "before an ancient draconic temple",
+    "within a crater pulsing with molten energy",
+    "facing an army in the snowy abyss"
+  ],
+  "OBJECTS": [
+    "dragonbone scepter",
+    "amulet glowing with ancient fire",
+    "sword forged in drakeflame",
+    "crystal orb showing dragon visions",
+    "scroll of lost incantations",
+    "banner of the empress house"
+  ],
+  "POSES": [
+    "standing proudly beside her dragon",
+    "walking confidently through smoke",
+    "arms outstretched, commanding flames",
+    "kneeling with head bowed before a colossal drake",
+    "ascending stairs as the dragon coils above",
+    "riding her dragon mid-flight"
+  ],
+  "EXPRESSIONS": [
+    "fierce determination",
+    "mystical calm",
+    "commanding power",
+    "vengeful wrath",
+    "tenderness toward her dragon",
+    "stoic regality"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up of her face with dragon blurred in background",
+    "low angle from below the dragon's jaws",
+    "eye-level with the empress",
+    "wide shot capturing both dragon and empress",
+    "over-the-shoulder of the dragon looking at her"
+  ],
+  "ATMOSPHERES": [
+    "fiery and war-torn",
+    "mystical and foggy",
+    "crackling with magical tension",
+    "icy winds with falling ash",
+    "serene with distant thunder",
+    "heavenly but threatening"
+  ],
+  "ACCESSORIES": [
+    "horn-shaped tiara",
+    "fire-sapphire earrings",
+    "scale-etched gauntlets",
+    "dragon claw ring",
+    "veil woven from silver flame",
+    "dragon eye necklace"
+  ],
+  "HORROR_INTENSITY": {
+    "none": 0,
+    "subtle": 1,
+    "dark epic": 2,
+    "apocalyptic draconic wrath": 3
+  }
+}

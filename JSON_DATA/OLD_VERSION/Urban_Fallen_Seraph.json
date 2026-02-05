@@ -1,0 +1,72 @@
+{
+  "EPOCHS": [
+    "post-fall modern era",
+    "contemporary urban present",
+    "timeless modern gothic"
+  ],
+  "OUTFITS": [
+    "tailored black blazer over lace corsetry",
+    "urban gothic coat with structured shoulders",
+    "modern corset dress with restrained elegance",
+    "minimalist gothic fashion, contemporary silhouette"
+  ],
+  "LIGHTING": [
+    "soft overcast daylight",
+    "diffused urban ambient light",
+    "subtle rim light defining wings",
+    "low contrast cinematic lighting"
+  ],
+  "BACKGROUNDS": [
+    "empty city street",
+    "stone-lined urban avenue",
+    "deserted modern architecture",
+    "quiet metropolitan passage"
+  ],
+  "OBJECTS": [
+    "worn armchair placed in the street",
+    "discarded urban furniture",
+    "weathered architectural details"
+  ],
+  "POSES": [
+    "seated with arms resting outward",
+    "relaxed dominant posture",
+    "still pose, wings partially extended",
+    "composed frontal presence"
+  ],
+  "EXPRESSIONS": [
+    "quiet authority",
+    "melancholic detachment",
+    "controlled emotional restraint",
+    "calm dominance without aggression"
+  ],
+  "CAMERA_ANGLES": [
+    "frontal medium portrait",
+    "eye-level cinematic framing",
+    "slightly low angle emphasizing presence"
+  ],
+  "ATMOSPHERES": [
+    "solemn urban silence",
+    "post-divine melancholy",
+    "modern existential calm",
+    "fallen grace without despair"
+  ],
+  "ACCESSORIES": [
+    "minimal gothic jewelry",
+    "metallic details integrated into clothing",
+    "subtle urban textures"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light melancholic unease",
+    "2": "dark romantic undertone without horror elements"
+  }
+}

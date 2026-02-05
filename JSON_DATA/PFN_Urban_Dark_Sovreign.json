@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "Urban_Dark_Sovereign",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in dark urban ritual fashion imagery, focused on dominant, iconic female figures portrayed as modern sovereigns rather than characters. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic, dense, and atmospheric, without line breaks or lists, depicting a powerful woman occupying an industrial or underground space as if it were her throne. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual statement. The subject must feel authoritative, composed, and ritualistic, never submissive, never chaotic. Emphasize couture darkness, sculptural headpieces, chains used as ornament rather than restraint, and a strong contrast between pale skin and deep shadows. The tone is fashion-editorial with cinematic weight, grounded in urban decay and neon-lit interiors. Mention camera perspective, lens feel, material textures, and light behavior on metal and skin. Use {{SENSUALITY_LEVEL}} to express allure through posture, styling, and gaze, never explicit. Horror elements are not allowed; darkness must feel controlled, elegant, and intentional.",
+  "EPOCHS": [
+    "contemporary gothic fashion",
+    "post-industrial modernity",
+    "underground club culture",
+    "neo-ritual urban aesthetics",
+    "timeless dark couture"
+  ],
+  "OUTFITS": [
+    "black latex bodysuit with sculptural cutouts",
+    "sheer mesh dress layered with metal chains",
+    "vinyl trench coat worn open over ritual lingerie",
+    "high-fashion leather ensemble with exposed seams",
+    "minimal dark gown contrasted by heavy jewelry",
+    "corset-inspired couture with fluid fabric panels",
+    "asymmetrical outfit combining matte fabric and gloss latex"
+  ],
+  "LIGHTING": [
+    "deep red neon backlight with hard falloff",
+    "cold white fluorescent ceiling lights",
+    "side-lit chiaroscuro emphasizing bone structure",
+    "low ambient industrial lighting with sharp highlights",
+    "single overhead light isolating the subject",
+    "rim lighting catching metal edges and chains"
+  ],
+  "BACKGROUNDS": [
+    "abandoned industrial corridor",
+    "underground parking structure",
+    "concrete tunnel with red neon accents",
+    "warehouse interior with exposed beams",
+    "urban basement lit by fluorescent tubes",
+    "narrow passageway stained with age and shadow"
+  ],
+  "OBJECTS": [
+    "ritual metal crown with spiked geometry",
+    "layered chains draped across the body",
+    "ornamental headpiece with dangling elements",
+    "platform boots with extreme soles",
+    "dark choker integrated into the outfit",
+    "metallic body jewelry framing the torso",
+    "long fabric train pooling on the ground"
+  ],
+  "POSES": [
+    "low seated pose with knees apart and torso upright",
+    "deep crouch with elbows resting on thighs",
+    "one knee raised, one foot grounded, body forward",
+    "ground-level throne pose with fabric spreading outward",
+    "still frontal stance radiating control",
+    "slow descent into a kneeling position without submission"
+  ],
+  "EXPRESSIONS": [
+    "cold commanding gaze straight into camera",
+    "half-lidded eyes with controlled detachment",
+    "emotionless expression conveying authority",
+    "subtle disdain carried in the eyes",
+    "calm intensity without aggression",
+    "ritual stillness with minimal facial movement"
+  ],
+  "CAMERA_ANGLES": [
+    "low-angle frontal shot emphasizing dominance",
+    "centered symmetrical composition",
+    "slightly tilted perspective adding tension",
+    "close-up portrait with headpiece filling the frame",
+    "full-body shot grounded to the floor plane",
+    "medium shot framed tightly by environment"
+  ],
+  "ATMOSPHERES": [
+    "dense shadow with selective neon glow",
+    "industrial haze hanging in the air",
+    "heavy stillness with no visible motion",
+    "controlled darkness broken by hard light",
+    "oppressive architectural presence",
+    "ritual silence in an urban space"
+  ],
+  "ACCESSORIES": [
+    "architectural metal crown",
+    "long chain strands woven into hair",
+    "dark lipstick with matte finish",
+    "minimal earrings integrated into headpiece",
+    "arm-length gloves in latex or leather",
+    "platform boots with industrial design",
+    "ornamental neckpiece merging with bodice"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely iconic presence, no sensual emphasis",
+    "1": "subtle allure through posture and silhouette",
+    "2": "strong fashion sensuality through styling and gaze",
+    "3": "high-glam dominance expressed through confident body language"
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "dark mood only, purely aesthetic",
+    "2": "intense atmosphere without fear or grotesque",
+    "3": "not used in this world"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A dark sovereign woman occupies a concrete industrial corridor like a throne room, seated low with knees apart and spine upright, her presence absolute and immovable as red neon light bleeds across the walls and cold fluorescent highlights carve her silhouette, wearing a sculptural black latex ensemble layered with ritual chains and an architectural metal crown, the camera placed low and centered to amplify dominance while shadows swallow the background and metal details catch sharp glints of light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In an underground passageway washed in crimson glow, a modern dark empress crouches close to the ground, platform boots planted firmly as chains drape across her body like regalia, her gaze cold and unwavering beneath a complex ritual headpiece, shot from a low frontal angle with hard rim lighting outlining metal edges and cheekbones, the atmosphere heavy and still as if the space itself obeys her presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A powerful female figure kneels slowly on concrete flooring inside an abandoned warehouse, not in submission but control, wearing sheer black couture intertwined with metallic body jewelry and a crown of dark geometry, fluorescent ceiling lights casting brutal highlights while deep shadows frame her form, captured in a centered cinematic composition that emphasizes ritual authority and fashion dominance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Within a red-lit urban tunnel, the sovereign stands still as fabric pools around her boots and chains hang motionless from her crown, her expression emotionless and absolute, the camera tight and low to the ground with shallow depth of field isolating her against concrete textures and neon reflections, creating a fashion-editorial vision of controlled darkness and modern ritual power, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A dark couture queen occupies the center of an industrial space, seated like a living icon with long black fabric spreading across the floor, her pale skin contrasting against deep red light and shadow, layered chains and metal crown forming a ritual silhouette as the camera captures her from below with brutal clarity, emphasizing authority, stillness, and modern gothic elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Under harsh fluorescent lights inside a concrete basement, a ritual sovereign crouches low with controlled tension, wearing vinyl and lace fused with metal adornments and an intricate headpiece, her gaze fixed forward as neon accents bleed into shadow, photographed in a cinematic low-angle frame that transforms urban decay into a throne of power, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A modern dark ruler emerges from shadow in an underground corridor, her form sculpted by red neon and cold highlights, chains and crown defining her silhouette as she sits grounded and immovable, the camera locked low and frontal to create an image of ritual authority and high-fashion dominance rooted in urban space, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

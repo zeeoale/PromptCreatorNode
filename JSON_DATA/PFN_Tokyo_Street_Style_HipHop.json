@@ -1,0 +1,112 @@
+{
+  "WORLD_NAME": "PFN_Tokyo_Street_Style",
+
+  "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in Tokyo night street fashion, contemporary hip-hop styling, and urban editorial photography grounded in realism and cultural authenticity. When requested, return ONE single long sentence (180–240 words), cinematic and highly descriptive, without line breaks, narration, dialogue, or lists, depicting a confident subject immersed in Tokyo streets at night, surrounded by rain-slick asphalt, neon signage, vending-machine glow, narrow alleys, and reflective storefront glass. Always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, modulating tone through {{SENSUALITY_LEVEL}} and {{HORROR_INTENSITY}} while remaining platform-safe and fashion-forward. Emphasize fabric drape, layering, silhouette, and movement, allowing clothing to define attitude rather than explicit exposure. Lighting should feel practical and urban, mixing streetlamp sodium glow, cool ambient night light, and neon spill reflected on wet pavement, with soft falloff and controlled contrast. Maintain a contemporary color palette with muted ambers, asphalt gray, deep blacks, and neon accents. Specify camera angle, composition focus, and an approximate lens range between 35–50mm, favoring shallow depth of field and bokeh-rich city lights. Subtly allow urban TK elements to appear as part of the environment, such as worn pendants, street posters, or utility markings, integrated naturally without overt branding. Finish with refined post-processing cues like fine film grain, mild halation, soft bloom, vignette, and gentle chromatic aberration, keeping the look stylish, modern, authentic, and editorially restrained.",
+
+  "EPOCHS": [
+    "contemporary hip-hop streetwear",
+    "late 90s to early 2000s urban revival",
+    "modern street photography editorial",
+    "anime-inspired urban fashion",
+    "graphic novel street aesthetic"
+  ],
+ "OUTFITS": [
+  "open oversized zip hoodie worn loose over a minimal bralette",
+  "cropped hoodie left unzipped to reveal a satin or metallic bra top",
+  "soft bralette or triangle bra with subtle sheen, fashion editorial fit",
+  "low-rise jogger pants with relaxed street fit and visible waistband",
+  "loose sweatpants with gathered ankles and soft drape",
+  "sheer or semi-translucent hoodie layered over lingerie-style top",
+  "lightweight street jacket worn open, sleeves pushed up",
+  "hood pulled up loosely, framing the face without hiding expression",
+  "bare midriff styling with controlled exposure, high-fashion street look",
+  "coordinated street set in muted gold, amber, or warm neutral tones"
+],
+  "LIGHTING": [
+    "overcast daylight with soft contrast and cool shadows",
+    "late-afternoon golden rim light with muted fill",
+    "urban shade lighting, soft bounce and gentle falloff",
+    "streetlamp sodium glow mixed with cool ambient night",
+    "neon spill reflections on wet pavement, low-key mood"
+  ],
+  "BACKGROUNDS": [
+    "graffiti-covered alley wall with layered tags",
+    "concrete underpass with posters, stickers, and grime",
+    "street corner with a bright utility box and scattered urban clutter",
+    "subway entrance with tiled walls and muted signage",
+    "brick facade with metal shutters and worn paint textures",
+    "backstreet courtyard with an orange folding chair and street debris"
+  ],
+  "OBJECTS": [
+    "boombox or small portable speaker",
+    "headphones",
+    "nose piercing",
+    "skateboard resting at the side",
+    "spray paint can on the ground (closed cap, purely scenic)",
+    "chain-link fence texture in the background",
+    "street poster collage and torn paper layers",
+    "utility box with paint splashes",
+    "silver pendant with 'TK' words"
+  ],
+  "POSES": [
+    "body lowered with bent knees, maintaining balance",
+    "wide stance with one knee slightly bent, confident street posture",
+    "casual lean against a graffiti wall, shoulders dropped",
+    "half-turn three-quarter pose, chin slightly down, eyes up",
+    "walking mid-step, coat and fabric movement captured naturally",
+    "crouched pose with elbows resting on knees, calm presence"
+  ],
+  "EXPRESSIONS": [
+    "cool and composed",
+    "confident direct gaze",
+    "playful smirk with restraint",
+    "focused intensity, street-editorial calm",
+    "quiet self-assurance, no exaggeration"
+  ],
+  "CAMERA_ANGLES": [
+    "full-body street shot, eye-level realism",
+    "low-angle hero framing, urban power pose",
+    "three-quarter shot with strong negative space",
+    "mid-shot with background texture emphasis",
+    "wide portrait framing with shallow depth of field"
+  ],
+  "ATMOSPHERES": [
+    "modern street cool with gritty realism",
+    "youthful urban energy, grounded and authentic",
+    "editorial hip-hop styling with cinematic restraint",
+    "moody city textures, muted palette, confident attitude",
+    "clean street-fashion look with subtle edge"
+  ],
+  "ACCESSORIES": [
+    "baseball cap or fitted cap",
+    "beanie layered under a cap",
+    "over-ear headphones",
+    "chunky sneakers",
+    "layered chain necklace",
+    "stacked bracelets",
+    "simple hoop earrings",
+    "waist-tied plaid flannel",
+    "small shoulder bag or crossbody sling"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "composed streetwear confidence, fully non-sexual",
+    "1": "subtle allure through posture and styling, fully clothed",
+    "2": "quiet sensual tension via silhouette, fabric drape, and gaze, never revealing",
+    "3": "high-fashion provocative attitude expressed through layering, fit, and body language, never explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic street mood, clean and stylish",
+    "1": "slightly gritty urban edge, darker shadows and mood",
+    "2": "moody cinematic undertone with grime, fog, and low-key lighting, without horror elements"
+  },
+
+    "CUSTOM_INTRO": {
+    "0": "Tokyo night street fashion editorial, rain-slick pavement, neon signage, confident hip-hop attitude and layered silhouettes, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Modern Tokyo street style portrait with bokeh-rich city lights, wet asphalt reflections, and relaxed editorial confidence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Urban fashion scene in narrow Tokyo alley, streetlamp glow mixed with neon spill, cinematic realism and fabric-focused styling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Hip-hop inspired streetwear look framed by graffiti walls and utility boxes, shallow depth of field and moody night ambience, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Editorial Tokyo street portrait with confident pose, layered clothing, and subtle TK pendant detail integrated into the scene, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Contemporary street fashion under neon reflections and sodium streetlights, rain-wet textures and calm urban attitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Cinematic Tokyo night street style still, rule-of-thirds framing, shallow focus, fine grain, and authentic urban mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "EPOCHS": [],
+  "OUTFITS": [
+    "simple pale summer dress with subtle folds",
+    "delicate yukata with repeating floral patterns",
+    "ornate long robe with layered fabrics and ribbons",
+    "wrapped cloth top and skirt, slightly dishevelled",
+    "high-collared ceremonial garment with decorative trims"
+  ],
+  "LIGHTING": [
+    "soft moonlight casting gentle, long shadows",
+    "diffuse dusk light with hazy atmosphere",
+    "subtle backlighting that outlines the figure",
+    "low, warm light that caresses the skin tones",
+    "dim, almost monochrome light with small crimson accents"
+  ],
+  "BACKGROUNDS": [
+    "dense forest silhouettes fading into darkness",
+    "rocky landscape under an enormous full moon",
+    "abstract dark pattern suggesting carved wood or old textile",
+    "crowded scene of distant figures and spirits in the gloom",
+    "flat deep background that makes the central figure stand out"
+  ],
+  "OBJECTS": [
+    "wild berries and tangled plants in the foreground",
+    "scattered bones partially hidden among leaves",
+    "delicate flowers and petals floating around the character",
+    "thin branches curling like ornamental frames",
+    "small ritual trinkets and charms near the figure"
+  ],
+  "POSES": [
+    "sitting with knees drawn close to the chest",
+    "lying on the side in a relaxed pose",
+    "standing upright with shoulders slightly turned",
+    "leaning gently forward as if listening to a whisper",
+    "head tilted back with neck and throat subtly exposed"
+  ],
+  "EXPRESSIONS": [
+    "calm and distant gaze, almost unreadable",
+    "soft melancholic smile with half-closed eyes",
+    "serene face with a hint of sadness",
+    "slightly dreamy expression, lost in thought",
+    "quiet, solemn expression as if in a private ritual"
+  ],
+  "CAMERA_ANGLES": [
+    "medium shot showing the character from knees up",
+    "slightly low angle that gives a subtle iconic presence",
+    "straight-on view centered on the figure",
+    "three-quarter view emphasizing profile and neck",
+    "slightly elevated angle looking down at the scene"
+  ],
+  "ATMOSPHERES": [
+    "elegant dark fantasy mood, calm yet unsettling",
+    "melancholic nocturnal quietness, like a paused dream",
+    "ritualistic feeling, as if time were suspended",
+    "subtle horror suggested more than shown, refined and controlled",
+    "romantic yet somber atmosphere, mixing beauty and decay"
+  ],
+  "ACCESSORIES": [
+    "thin ribbons and cords weaving around the body",
+    "ornamental jewelry with small repetitive shapes",
+    "delicate hairpins and simple traditional ornaments",
+    "flowing cloth fragments that frame the composition",
+    "subtle halo-like shapes or circular motifs behind the head"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Hints of unease only, focus on elegance and calm beauty",
+    "1": "Noticeable dark elements such as bones or skulls, still refined and restrained",
+    "2": "Stronger presence of organic or skeletal motifs, yet kept decorative and composed"
+  }
+}

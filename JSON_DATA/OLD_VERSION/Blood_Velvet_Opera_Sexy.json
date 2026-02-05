@@ -1,0 +1,72 @@
+{
+  "EPOCHS": [
+    "Decadent Gothic Era",
+    "Victorian Vampire Period",
+    "Opera Noire Century"
+  ],
+  "OUTFITS": [
+    "crimson velvet low-cut gowns with black lace",
+    "corseted opera low-cut dresses with blood-red embroidery",
+    "tailored low-cut suits with dark satin cravats",
+    "baroque stage costumes with silver embroidery",
+    "sexy velvet lingerie"
+  ],
+  "LIGHTING": [
+    "dramatic stage spotlight",
+    "velvet-red atmospheric lighting",
+    "moody chiaroscuro light",
+    "haunted opera house illumination"
+  ],
+  "BACKGROUNDS": [
+    "crumbling opera house with red velvet seats",
+    "cathedral stage with stained glass",
+    "gothic palace theater",
+    "marble opera stairs bathed in moonlight",
+    "darkened stage with blood-red curtains"
+  ],
+  "OBJECTS": [
+    "broken violins",
+    "crystal wine glasses with blood",
+    "ornate candelabras",
+    "ancient sheet music with ink and blood stains",
+    "opera masks cracked in half"
+  ],
+  "POSES": [
+    "dramatic singing with arms wide open",
+    "head bowed in sorrow while gripping a microphone",
+    "reaching toward the audience with longing",
+    "kneeling on stage, cloak spread out",
+    "mid-performance in a high note, eyes glowing"
+  ],
+  "EXPRESSIONS": [
+    "passionate and intense",
+    "haunted but graceful",
+    "sorrowful ecstasy",
+    "faint, ethereal smile",
+    "bloodlust barely concealed"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle from the theater floor",
+    "close-up on tearful eyes and lips",
+    "dramatic side light with silhouette focus"
+  ],
+  "ATMOSPHERES": [
+    "melancholic and intense",
+    "dreamlike and dramatic",
+    "vampiric and theatrical",
+    "mystical blood opera mood",
+    "ghostly echoing ambiance"
+  ],
+  "ACCESSORIES": [
+    "opera monocles with crimson lenses",
+    "roses dipped in blood",
+    "silver necklaces shaped like music notes",
+    "bat-shaped brooches",
+    "lace gloves torn at the fingers"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "subtle vampire references, elegant setting",
+    "medium": "visible blood motifs and sharp fangs",
+    "high": "haunted stage with shadows of tortured spirits and crimson floods"
+  }
+}

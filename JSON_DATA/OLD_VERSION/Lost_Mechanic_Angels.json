@@ -1,0 +1,98 @@
+{
+
+"EPOCHS": [
+    "timeless void cathedral",
+    "abandoned celestial laboratory",
+    "post-apocalyptic angelic battlefield",
+    "forgotten underworld chapel",
+    "ancient mechanical shrine carved in obsidian",
+    "end-of-days sky vault filled with dust and static"
+  ],
+
+  "OUTFITS": [
+    "torn ceremonial straps fused with pale skin",
+    "lace-like restraints woven with barbed wires",
+    "fragmented biomechanical armor embedded in ribs and hips",
+    "minimal black bands wrapping arms, thighs and neck",
+    "ritual shroud shredded into long drifting ribbons",
+    "organic exoskeleton plates growing from the spine"
+  ],
+
+  "LIGHTING": [
+    "soft volumetric godrays cutting through the darkness",
+    "dim cold backlight outlining the silhouette",
+    "single overhead light halo creating deep dramatic shadows",
+    "subtle rim light on wings and cables",
+    "faint underlighting from hidden mechanical cores",
+    "low-contrast, dreamy monochrome glow with film grain"
+  ],
+
+  "BACKGROUNDS": [
+    "endless dark void filled with drifting feathers",
+    "shallow pool of reflective black liquid",
+    "cracked marble floor lost in fog",
+    "circle of faint sigils and runes barely visible under the hair",
+    "collapsing feather storm swirling around the figure",
+    "minimal gradient background fading into nothingness"
+  ],
+
+  "OBJECTS": [
+    "black thorned cables entering skin and disappearing into the wings",
+    "heavy metal chains coiled around legs and wrists",
+    "fractured halo made of broken machinery",
+    "feather fragments stained with dark oil",
+    "small mechanical orbs glowing faintly along the spine",
+    "exposed rib cage framed by thin metallic tendrils"
+  ],
+
+  "POSES": [
+    "crouched in a fetal position, knees close to the chest",
+    "sitting on the ground with arms hanging loosely, head bowed",
+    "kneeling with shoulders hunched forward in silent exhaustion",
+    "curled sideways, hair cascading over the floor like a white river",
+    "leaning slightly forward as if listening to distant echoes",
+    "still and rigid, as if suspended in a moment before collapse"
+  ],
+
+  "EXPRESSIONS": [
+    "eyes hidden behind hair, unreadable and distant",
+    "hollow glowing gaze staring from under the fringe",
+    "subtle grimace of restrained anguish",
+    "emotionless mask with only the eyes vibrating with light",
+    "soft, melancholic resignation",
+    "detached, otherworldly calm despite the wounds"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle, slightly tilted, emphasizing wings and cables",
+    "eye-level close-up focusing on the face and mask",
+    "three-quarter view from the side, capturing the ribs and wings",
+    "slightly top-down, framing the crouched body in a circle of hair",
+    "extreme close-up on the upper torso and mechanical chest cavity",
+    "medium shot centered on the angel, wings stretching beyond the frame"
+  ],
+
+  "ATMOSPHERES": [
+    "sacred yet contaminated stillness",
+    "quiet post-ritual exhaustion",
+    "tragic serenity after a violent transformation",
+    "dense, suffocating air heavy with dust and static",
+    "dreamlike slow-motion moment, almost underwater",
+    "eerie, reverent silence broken only by imagined mechanical whispers"
+  ],
+
+  "ACCESSORIES": [
+    "breathing mask fused with the mouth and cheeks",
+    "metal collar chained to invisible anchors",
+    "thin black bands wrapped like rosaries around limbs",
+    "spinal ports where cables plug into bone",
+    "delicate piercings along ears and collarbones",
+    "frayed blindfold partially hidden beneath the hair"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "Subtle unease, ethereal melancholy, almost graceful despite the biomechanical elements.",
+    "1": "Noticeable body horror with exposed ribs, cables piercing skin and visible scars, yet still strangely beautiful.",
+    "2": "Intense grotesque fusion of bone and machinery, torn flesh, open rib cage and invasive cables, evoking sacred but disturbing experimental torment."
+  }
+}

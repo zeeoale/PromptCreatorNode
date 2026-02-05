@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "contemporary street style",
+    "anime-inspired urban fashion",
+    "vibrant pop-art",
+    "futuristic dance culture",
+    "graphic novel aesthetic"
+  ],
+  "OUTFITS": [
+    "graphic print crop top",
+    "baggy cargo or track pants",
+    "high-top fashion sneakers",
+    "oversized t-shirt",
+    "layered athletic wear"
+  ],
+  "LIGHTING": [
+    "vibrant high-key lighting",
+    "dynamic colored lights",
+    "strong contrast with bold shadows",
+    "energetic light flares and particles",
+    "clean studio-style illumination"
+  ],
+  "BACKGROUNDS": [
+    "abstract graffiti wall",
+    "colorful geometric shapes",
+    "explosive light patterns",
+    "vibrant color-blocked backdrop",
+    "urban art installation"
+  ],
+  "OBJECTS": [
+    "fashion sneakers",
+    "graphic prints on clothing",
+    "choker necklace",
+    "colorful hair highlights",
+    "floating geometric elements"
+  ],
+  "POSES": [
+    "dynamic dance stance",
+    "energetic crouching pose",
+    "hip-hop action pose",
+    "stylish one-legged balance",
+    "confident mid-motion freeze frame"
+  ],
+  "EXPRESSIONS": [
+    "confident and direct gaze",
+    "cool and composed",
+    "focused intensity",
+    "playful smirk",
+    "stylish indifference"
+  ],
+  "CAMERA_ANGLES": [
+    "mid-shot",
+    "low-angle perspective",
+    "dynamic three-quarter shot",
+    "full-body action shot",
+    "eye-level portrait"
+  ],
+  "ATMOSPHERES": [
+    "energetic and vibrant",
+    "urban street cool",
+    "pop-culture dynamism",
+    "stylish and modern",
+    "youthful and expressive"
+  ],
+  "ACCESSORIES": [
+    "choker necklace",
+    "star-shaped earrings",
+    "layered bracelets or armbands",
+    "statement sneakers",
+    "hair clips and bands"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Vibrant energy of urban pop art.",
+    "1": "Confident style in a world of explosive color.",
+    "2": "The dynamic rhythm of street dance culture."
+  }
+}

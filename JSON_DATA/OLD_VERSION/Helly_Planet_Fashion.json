@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "Contemporary Fashion Era",
+    "Urban Modern",
+    "Neo-Minimalist Age"
+  ],
+  "OUTFITS": [
+    "Chic casual ensemble with high-waisted trousers and silk blouse",
+    "Elegant evening gown with refined embroidery",
+    "Modern streetwear with oversized jacket and clean sneakers",
+    "Sporty yet stylish activewear set",
+    "Professional suit with subtle patterns"
+  ],
+  "LIGHTING": [
+    "Soft studio lighting",
+    "Golden hour natural light",
+    "Diffused overhead photography light",
+    "Spotlight accent lighting",
+    "Ambient city glow at dusk"
+  ],
+  "BACKGROUNDS": [
+    "Minimalist studio with neutral backdrop",
+    "Urban rooftop with skyline view",
+    "Elegant interior with muted tones",
+    "Fashion show runway",
+    "Chic boutique facade"
+  ],
+  "OBJECTS": [
+    "Fashion camera tripod",
+    "Studio reflector",
+    "Elegant handbag",
+    "Magazine cover stand",
+    "Fashion mood board"
+  ],
+  "POSES": [
+    "Front-facing confident pose with hands on hips",
+    "Natural candid walking motion",
+    "Elegant seated pose on fashion set",
+    "Mid-step on runway",
+    "Profile view looking toward camera with relaxed posture"
+  ],
+  "EXPRESSIONS": [
+    "Subtle confident smile",
+    "Focused model gaze",
+    "Relaxed joyful expression",
+    "Calm contemplative look",
+    "Radiant and poised"
+  ],
+  "CAMERA_ANGLES": [
+    "Mid-length fashion portrait",
+    "Three-quarter pose with slight tilt",
+    "Front-facing close-up",
+    "Over-the-shoulder view",
+    "Dynamic low-angle shot from runway"
+  ],
+  "ATMOSPHERES": [
+    "Professional fashion studio mood",
+    "Urban chic",
+    "Quiet boutique elegance",
+    "High-fashion runway energy",
+    "Tranquil natural light serenity"
+  ],
+  "ACCESSORIES": [
+    "Minimalist fashion earrings",
+    "Subtle wristwatch",
+    "Delicate ring set",
+    "Light scarf"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None - fully grounded in fashion realism",
+    "1": "None - this is not a horror-themed JSON",
+    "2": "None - this is not a horror-themed JSON"
+  }
+}

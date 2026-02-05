@@ -1,0 +1,97 @@
+{
+  "EPOCHS": [
+    "Feudal Japan Aesthetic",
+    "Edo/Meiji Period",
+    "Modern Cinematic Asian",
+    "Wabi-sabi (beauty in imperfection)",
+    "Taishō Roman (early 20th century elegance)",
+    "Neo-traditional Japanese fashion fusion"
+  ],
+  "OUTFITS": [
+    "Silk kimono with floral patterns (red, white)",
+    "Traditional Yukata",
+    "Black kimono with red and orange floral embroidery",
+    "White/silver kimono with red flowers",
+    "Kimono loosely draped over shoulders revealing delicate collarbones",
+    "Modern satin dress with traditional obi belt",
+    "Sheer silk haori over a lace undergarment",
+    "Kimono with long trailing sleeves and golden embroidery"
+  ],
+  "LIGHTING": [
+    "Soft, diffused light",
+    "Chiaroscuro, with strong contrasts between light and shadow",
+    "Atmospheric, low-key lighting",
+    "Natural light from windows or doors",
+    "Moonlight filtering through shoji panels",
+    "Golden hour sunlight illuminating hair and skin"
+  ],
+  "BACKGROUNDS": [
+    "Traditional Japanese interiors",
+    "Rooms with tatami mats",
+    "Shoji sliding panels",
+    "Dark, intimate settings",
+    "Zen garden with raked gravel and stone lanterns",
+    "Cherry blossom garden at twilight",
+    "Rainy street in Gion district",
+    "Silhouette of a temple under a full moon"
+  ],
+  "OBJECTS": [
+    "Fresh flowers (lilies, cherry blossoms)",
+    "Porcelain vases",
+    "Kanzashi hair ornaments",
+    "Silk fabrics",
+    "Folded paper fans",
+    "Tea ceremony set with steam rising",
+    "Delicate parasol with painted motifs",
+    "Perfume bottle on lacquered tray"
+  ],
+  "POSES": [
+    "Direct and intense gaze towards the camera",
+    "Lying or sitting on the tatami in a contemplative pose",
+    "Profile or three-quarters view, with a distant gaze",
+    "Slightly tilted head",
+    "Holding a fan close to lips, half-smiling",
+    "Back turned to the camera, looking over shoulder",
+    "Adjusting kimono collar delicately",
+    "Kneeling with hands resting gracefully on lap",
+    "Standing by shoji door with light outlining silhouette"
+  ],
+  "EXPRESSIONS": [
+    "Melancholic and thoughtful",
+    "Intense and direct",
+    "Serene but with a hint of sadness",
+    "Mysterious and charming",
+    "Subtle playful smile",
+    "Dreamy and lost in thought",
+    "Shy but alluring glance"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up",
+    "Medium shot / Bust shot",
+    "Eye-level",
+    "Slightly from above for ground poses",
+    "Low angle emphasizing elegance",
+    "Over-the-shoulder perspective",
+    "Close-up of lips and eyes"
+  ],
+  "ATMOSPHERES": [
+    "Intimate and personal",
+    "Melancholic beauty",
+    "Contemplative serenity",
+    "Timeless elegance",
+    "Mystery and romance",
+    "Sensual and refined",
+    "Quiet tension between viewer and subject"
+  ],
+  "ACCESSORIES": [
+    "Floral hair ornaments (Kanzashi)",
+    "Delicate earrings",
+    "Bright red lipstick as a focal point",
+    "Silk obi with intricate patterns",
+    "Gold hairpins with dangling chains",
+    "Lace gloves paired with kimono"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "No horror elements. The atmosphere is purely melancholic, intimate, sensual, and beautiful, with no intention to frighten."
+  }
+}

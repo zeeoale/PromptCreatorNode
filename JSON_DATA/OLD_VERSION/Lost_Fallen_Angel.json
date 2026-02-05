@@ -1,0 +1,104 @@
+{
+  "EPOCHS": [
+    "timeless void cathedral",
+    "abandoned angelic sanctuary",
+    "post-apocalyptic sacred battlefield",
+    "forgotten underworld chapel",
+    "ancient obsidian shrine eroded by time",
+    "end-of-days sky vault filled with ash and drifting feathers"
+  ],
+
+  "OUTFITS": [
+    "torn ceremonial straps fused with pale wounded skin",
+    "decayed lace restraints soaked with dried blood",
+    "fragmented ritual armor of bone and cracked leather",
+    "minimal black bands cutting into arms, thighs and neck",
+    "sacrificial shroud shredded into long drifting ribbons",
+    "organic growths of cartilage and scar tissue along the spine"
+  ],
+
+  "LIGHTING": [
+    "soft volumetric godrays cutting through dust and smoke",
+    "dim cold backlight outlining the fallen silhouette",
+    "single overhead halo-light casting deep funereal shadows",
+    "subtle rim light catching feathers, scars and wounds",
+    "faint ambient glow as if from dying candles",
+    "low-contrast monochrome glow with heavy film grain"
+  ],
+
+  "BACKGROUNDS": [
+    "endless dark void filled with drifting black feathers",
+    "shallow pool of reflective blood-dark liquid",
+    "cracked marble floor lost in incense fog",
+    "faint ritual sigils barely visible beneath hair and skin",
+    "collapsing feather storm swirling in slow motion",
+    "minimal desaturated gradient fading into nothingness"
+  ],
+
+  "OBJECTS": [
+    "thorny organic tendrils piercing skin and wings",
+    "heavy rusted chains wrapped around limbs",
+    "fractured halo made of bone and ash",
+    "blood-stained feathers clinging to wet skin",
+    "ritual scars carved deeply along the spine",
+    "exposed rib cage bound by sinew and scar tissue"
+  ],
+
+  "POSES": [
+    "crouched in a fetal position, knees tight to the chest",
+    "sitting on the ground with arms hanging loose, head bowed",
+    "kneeling with shoulders collapsed inward in surrender",
+    "curled sideways, hair spilling like a pale veil",
+    "leaning forward as if listening to distant prayers",
+    "motionless, suspended in the moment after the fall"
+  ],
+
+  "EXPRESSIONS": [
+    "eyes hidden behind hair, unreadable and distant",
+    "hollow luminous gaze dulled by sorrow",
+    "subtle grimace of restrained spiritual pain",
+    "emotionless mask fractured by silent despair",
+    "soft, resigned melancholy",
+    "detached sacred calm despite visible wounds"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle emphasizing wings and collapsed posture",
+    "eye-level close-up focused on face and scars",
+    "three-quarter side view revealing ribs and wings",
+    "slightly top-down framing the fallen body in isolation",
+    "extreme close-up on scarred chest and collarbones",
+    "centered medium shot with wings fading out of frame"
+  ],
+
+  "ATMOSPHERES": [
+    "sacred yet profaned stillness",
+    "post-ritual exhaustion and spiritual collapse",
+    "tragic serenity after divine abandonment",
+    "dense suffocating air heavy with ash and incense",
+    "dreamlike suspended moment, almost timeless",
+    "reverent silence broken only by imagined echoes"
+  ],
+
+  "ACCESSORIES": [
+    "tattered blindfold partially soaked in blood",
+    "rusted iron collar chained to nothing",
+    "thin black rosary-like bands wrapped around limbs",
+    "ritual piercings along ears, ribs and collarbones",
+    "wax-dripped candles embedded in the ground nearby",
+    "ashes clinging to skin and hair"
+  ],
+    
+  "SENSUALITY_LEVEL": {
+    "0": "pure elegance, no sensual emphasis",
+    "1": "suggested femininity through posture and fabric",
+    "2": "controlled sensuality, tasteful and refined",
+    "3": "decadent elegance with subtle erotic tension, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Ethereal melancholy, fallen grace, minimal wounds and spiritual decay.",
+    "1": "Visible body trauma, exposed ribs, scars and blood, tragic and intimate.",
+    "2": "Extreme fallen body horror, open wounds, ritual mutilation and sacred desecration."
+  }
+}

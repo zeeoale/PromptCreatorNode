@@ -1,0 +1,99 @@
+{
+  "EPOCHS": [
+    "Corporate Goth",
+    "Dark Academia",
+    "Modern Vampire/Supernatural",
+    "Urban Fantasy",
+    "Neo-Gothic Contemporary"
+  ],
+  "OUTFITS": [
+    "Tailored black blazer",
+    "Long black leather coat",
+    "Sheer black blouse with high collar",
+    "Black silk shirt slightly unbuttoned",
+    "High-waisted black trousers",
+    "Slim black waistcoat",
+    "Asymmetrical gothic jacket",
+    "Black latex or leather gloves",
+    "Modern gothic bodysuit under formal wear"
+  ],
+  "LIGHTING": [
+    "High-contrast studio lighting",
+    "Dramatic key light on the face",
+    "Soft rim lighting to separate from background",
+    "Low-key lighting with deep shadows",
+    "Side lighting emphasizing cheekbones",
+    "Subtle red or cold blue accent light"
+  ],
+  "BACKGROUNDS": [
+    "Solid black, minimalistic",
+    "Studio portrait backdrop",
+    "Dark marble interior",
+    "Modern gothic office",
+    "Industrial loft with shadows",
+    "Night cityscape barely visible"
+  ],
+  "OBJECTS": [
+    "Ornate silver pagan symbols (brooches)",
+    "Modern gothic rings",
+    "Black leather-bound book",
+    "Glass of dark red wine",
+    "Silver cane with occult engravings"
+  ],
+  "POSES": [
+    "Direct-to-camera portrait",
+    "Upper body/bust shot",
+    "Three-quarter body pose",
+    "Leaning slightly forward with dominance",
+    "Arms crossed with controlled tension",
+    "One hand adjusting collar or tie",
+    "Seated pose with legs crossed",
+    "Standing with weight on one hip",
+    "Head lowered, eyes looking up",
+    "Side profile with sharp jawline emphasis",
+    "Hand resting on animal companion",
+    "Walking pose, coat flowing"
+  ],
+  "EXPRESSIONS": [
+    "Intense and direct gaze",
+    "Cold and confident",
+    "Seductive restraint",
+    "Menacing calm",
+    "Detached superiority",
+    "Subtle smirk",
+    "Predatory focus"
+  ],
+  "CAMERA_ANGLES": [
+    "Straight-on, eye-level shot",
+    "Slight low-angle to enhance dominance",
+    "Medium close-up",
+    "Tight close-up on eyes",
+    "Three-quarter framing",
+    "Cinematic portrait framing"
+  ],
+  "ATMOSPHERES": [
+    "Sophisticated horror",
+    "Dark elegance",
+    "Corporate power with occult undertones",
+    "Modern gothic sensuality",
+    "Cold luxury",
+    "Silent dominance",
+    "Urban supernatural presence"
+  ],
+  "ACCESSORIES": [
+    "Ornate silver pagan symbols (brooches)",
+    "Minimalist black choker",
+    "Spiky black hair ornament",
+    "Dark lipstick and makeup (black tears or smudged eyeliner)",
+    "Leather harness under jacket",
+    "Pointed ears (subtle, optional)",
+    "Animal companion (varies)"
+  ],
+  "ANIMALS": [
+    "Crow/Raven",
+    "Black Cat"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low to moderate; psychological and supernatural tension. Emphasis on power, sensuality, and dark symbolism rather than gore."
+  }
+}

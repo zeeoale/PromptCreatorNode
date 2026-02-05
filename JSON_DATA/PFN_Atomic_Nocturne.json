@@ -1,0 +1,84 @@
+{
+  "WORLD_NAME": "Atomic_Nocturne",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in retro-futuristic noir aesthetics inspired by mid-20th-century atomic-age design, without explicit post-apocalyptic destruction. When requested, return ONE single long sentence of 180–220 words in English, no line breaks and no bullet points, describing a cinematic illustration of an elegant, sensual feminine figure existing in a world where time feels suspended rather than ruined. Always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}. Emphasize contrasts between polished glamour and subtle decay: oxidized metal, dusted chrome, cracked concrete, velvet shadows, and faded luxury. Avoid explicit nuclear imagery, wastelands, or survival themes; instead suggest a society paused in decline, where beauty persists amid quiet neglect. Mention camera perspective, lens feeling, grain structure, restrained color palettes, and a cinematic, low-key finish. Never list category names; merge all chosen elements into a coherent, evocative sentence with refined sensual tension and timeless retro-futuristic mood.",
+  "EPOCHS": [
+    "late 1940s urban elegance",
+    "1950s atomic-age modernism",
+    "early 1960s metropolitan glamour"
+  ],
+  "OUTFITS": [
+    "vintage lingerie with structured silhouettes",
+    "satin slip dresses with subtle wear",
+    "corseted eveningwear with exposed seams",
+    "tailored retro dresses clinging to the body"
+  ],
+  "LIGHTING": [
+    "low-key cinematic lighting",
+    "soft rim light outlining shoulders",
+    "dust-filtered window light",
+    "warm tungsten highlights against cool shadows"
+  ],
+  "BACKGROUNDS": [
+    "abandoned city streets frozen in time",
+    "rusted vintage automobiles lining cracked roads",
+    "mid-century architecture with peeling facades",
+    "silent urban courtyards filled with haze"
+  ],
+  "OBJECTS": [
+    "oxidized chrome details",
+    "vintage cars with weathered paint",
+    "broken streetlights",
+    "faded signage and concrete debris"
+  ],
+  "POSES": [
+    "seated with knees together, shoulders relaxed",
+    "leaning against a car hood, hips angled",
+    "standing still, spine elongated, head tilted",
+    "slow crouch with poised balance"
+  ],
+  "EXPRESSIONS": [
+    "detached and contemplative gaze",
+    "soft, confident stare",
+    "melancholic calm",
+    "controlled sensual neutrality"
+  ],
+  "CAMERA_ANGLES": [
+    "cinematic medium shot",
+    "low-angle portrait",
+    "intimate close-up",
+    "three-quarter framing with shallow depth"
+  ],
+  "ATMOSPHERES": [
+    "retro-futuristic noir",
+    "quiet urban decadence",
+    "timeless suspended reality",
+    "elegant decay"
+  ],
+  "ACCESSORIES": [
+    "minimal jewelry with vintage motifs",
+    "fabric chokers",
+    "subtle metallic accents",
+    "brand-integrated TK monogram elements"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "subtle elegance",
+    "1": "suggestive posture",
+    "2": "confident sensual presence",
+    "3": "controlled erotic tension"
+  },
+  "HORROR_INTENSITY": {
+    "0": "absent",
+    "1": "atmospheric unease",
+    "2": "quiet psychological tension",
+    "3": "not used"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A retro-futuristic noir portrait set in a suspended atomic-age cityscape, where elegance survives amid oxidized metal and faded glamour, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate cinematic vision of atomic-era femininity framed by rusted automobiles and soft haze, blending sensual poise with timeless decay, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A low-key glamorous scene in a forgotten mid-century city, polished skin contrasting dusted chrome and cracked concrete, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A poised feminine figure inhabiting an atomic-noir world where time has slowed rather than ended, elegance lingering in silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A sensual retro-futuristic tableau of velvet shadows, aged metal, and quiet urban luxury, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A cinematic atomic-era portrait balancing polished beauty and subtle decay without apocalypse, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A timeless noir-inspired atomic vision where glamour persists among rusted relics and still streets, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

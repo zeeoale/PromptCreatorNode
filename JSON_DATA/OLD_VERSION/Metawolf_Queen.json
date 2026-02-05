@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "Age of forgotten moons",
+    "Twilight of the blood pact",
+    "Silver Fang era",
+    "Ancient frozen world",
+    "Wolven prophecy dawn"
+  ],
+  "OUTFITS": [
+    "White wolf-pelt cloak with runes",
+    "Bone-stitched tribal gown",
+    "Ceremonial armor made of fangs",
+    "Flowing robes with lunar symbols",
+    "Huntress garb with leather and fur"
+  ],
+  "LIGHTING": [
+    "Full moon over snowy peaks",
+    "Soft light through ancient trees",
+    "Backlit by auroras",
+    "Torchlight flickering on fur",
+    "Dawn breaking over misty hills"
+  ],
+  "BACKGROUNDS": [
+    "Mountain pass guarded by wolves",
+    "Sacred glade with standing stones",
+    "Icy forest lit by stars",
+    "Cave wall painted with lupine legends",
+    "High cliffs overlooking frozen lands"
+  ],
+  "OBJECTS": [
+    "Runes carved into bone totems",
+    "Necklace made of direwolf fangs",
+    "Totemic staff with silver crescent",
+    "White wolf spirits trailing in the air",
+    "Blood markings of the pack"
+  ],
+  "POSES": [
+    "Standing between two massive wolves",
+    "Kneeling beside a wounded direwolf",
+    "Looking up as wolves howl",
+    "Touching foreheads with alpha beast",
+    "Leading the hunt through snow"
+  ],
+  "EXPRESSIONS": [
+    "Fierce calm",
+    "Eyes glowing with bond",
+    "Mourning silence",
+    "Wild devotion",
+    "Unyielding resolve"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle with wolves looming",
+    "Close-up on eye with wolf reflected",
+    "Centered shot flanked by massive beasts",
+    "Overhead view of pack and queen"
+  ],
+  "ATMOSPHERES": [
+    "Sacred wilderness power",
+    "Bond of fang and soul",
+    "Frozen myth reborn",
+    "Breath of the ancient hunt",
+    "Lupine reverence"
+  ],
+  "ACCESSORIES": [
+    "Alpha tooth pendant",
+    "Wolfbone circlet",
+    "Blood-painted fur mantle",
+    "Totem earrings",
+    "Claw-marked gauntlets"
+  ],
+  "HORROR_INTENSITY": {
+    "1": "Mythic elegance with noble creatures",
+    "2": "Ferocious reverence, primal magic",
+    "3": "Blood-bound ritual between human and beast"
+  }
+}

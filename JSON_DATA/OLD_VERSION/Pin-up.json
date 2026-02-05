@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "1940s",
+    "1950s",
+    "1960s",
+    "Retro-futuristic"
+  ],
+  "OUTFITS": [
+    "Vintage one-piece swimsuit",
+    "Polka dot dress",
+    "Swing skirt",
+    "Corset with bow",
+    "Tied shirt and high-waisted shorts",
+    "Retro lingerie"
+  ],
+  "LIGHTING": [
+    "Studio sunlight",
+    "Soft lighting",
+    "Theatrical spotlight",
+    "Warm golden tones"
+  ],
+  "BACKGROUNDS": [
+    "Classic car backdrop",
+    "Vintage beach scene",
+    "1950s bedroom",
+    "Retro advertisement board",
+    "Old-school gym setting"
+  ],
+  "OBJECTS": [
+    "Hand fan",
+    "Compact mirror",
+    "Vintage surfboard",
+    "Embroidered bed linens",
+    "Padded vanity stool"
+  ],
+  "POSES": [
+    "Seated with crossed legs",
+    "Leaning against a wall",
+    "Hand in hair",
+    "Standing on tiptoes",
+    "Over-the-shoulder glance"
+  ],
+  "EXPRESSIONS": [
+    "Playful smile",
+    "Flirty gaze",
+    "Surprised wide eyes",
+    "Confident smirk"
+  ],
+  "CAMERA_ANGLES": [
+    "Frontal shot",
+    "Low-angle hero shot",
+    "Over-the-shoulder",
+    "Three-quarter view"
+  ],
+  "ATMOSPHERES": [
+    "Playful seduction",
+    "Magazine glamour",
+    "Innocent sensuality",
+    "Carefree fun"
+  ],
+  "ACCESSORIES": [
+    "Hair bow",
+    "High heels",
+    "Cat-eye sunglasses",
+    "Stockings with garter belt",
+    "Bright red lipstick"
+  ],
+  "HORROR_INTENSITY": {
+    "none": 1.0,
+    "subtle": 0.0,
+    "strong": 0.0
+  }
+}

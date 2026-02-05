@@ -1,0 +1,46 @@
+{
+  "EPOCHS": [
+    "Post-Religious Future",
+    "Cyber-Gothic Ritual",
+    "Industrial Hellscape"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Directional light from above",
+    "High-contrast shadows",
+    "Cold metallic reflections"
+  ],
+  "BACKGROUNDS": [
+    "black studio backdrop"
+  ],
+  "OBJECTS": [
+    "Spiked crown",
+    "Hanging chains",
+    "Symbolic cross artifacts"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Void of emotion",
+    "Silent command",
+    "Sacrificial serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up",
+    "Centered ritual portrait"
+  ],
+  "ATMOSPHERES": [
+    "Oppressive divine aura",
+    "Unholy silence",
+    "Ceremonial tension"
+  ],
+  "ACCESSORIES": [
+    "Blindfolded metal veil",
+    "Chains with crosses",
+    "Pierced halo crown"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Slightly unnatural elegance",
+    "1": "Uncanny metallic stillness, Lips blackened, eyes covered in sacred blindness",
+    "2": "Blasphemous aura, surgical scars, crucifix-shaped wounds"
+  }
+}

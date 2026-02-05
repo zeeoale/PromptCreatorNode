@@ -1,0 +1,98 @@
+{
+  "WORLD_NAME": "Cyberpunk2077_Reforged",
+
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in cinematic cyberpunk imagery inspired by dystopian megacities and high-tech urban decay. When requested, you must return ONE single long sentence (180–240 words) in English, no line breaks and no bullet points, describing an ultra-detailed cyberpunk illustration centered on a futuristic human figure immersed in neon-soaked environments. Always seamlessly blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, without naming the categories explicitly. Emphasize cybernetic augmentation, reflective materials, wet surfaces, holographic light sources, and dense urban verticality. Mention camera perspective, approximate lens choice, depth of field, color palette dominated by neon blues, magentas, toxic greens and amber highlights, as well as cinematic grain and rain diffusion. The overall tone should balance sleek futurism with social decay, maintaining a polished yet gritty aesthetic inspired by cyberpunk cinema and dystopian sci-fi worlds.",
+
+  "EPOCHS": [
+    "Cyberpunk",
+    "Dystopian Future",
+    "High-Tech Urban"
+  ],
+
+  "OUTFITS": [
+    "Leather jackets with neon accents",
+    "Cybernetic-enhanced clothing",
+    "High-tech streetwear with holographic elements",
+    "Netrunner suits with glowing interfaces"
+  ],
+
+  "LIGHTING": [
+    "Neon glows in vibrant colors",
+    "Harsh fluorescent lights",
+    "Moody rain-soaked reflections",
+    "Holographic projections cutting through haze"
+  ],
+
+  "BACKGROUNDS": [
+    "Bustling Night City streets",
+    "Dilapidated megabuildings",
+    "Neon-lit alleys",
+    "High-rise corporate towers"
+  ],
+
+  "OBJECTS": [
+    "Cybernetic implants",
+    "Holographic billboards",
+    "Flying vehicles",
+    "Street vendor stalls"
+  ],
+
+  "POSES": [
+    "Confident stance with weapon lowered",
+    "Leaning against a graffiti-stained wall",
+    "Crouched in a hacking posture",
+    "Relaxed yet alert urban stance"
+  ],
+
+  "EXPRESSIONS": [
+    "Determined gaze",
+    "Sarcastic smirk",
+    "Cold focused stare",
+    "Defiant expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Low-angle shot emphasizing vertical scale",
+    "Over-the-shoulder perspective",
+    "Wide-angle urban framing",
+    "Medium close-up highlighting cyberware"
+  ],
+
+  "ATMOSPHERES": [
+    "Chaotic urban energy",
+    "Dystopian grit",
+    "Neon-soaked noir mood",
+    "High-tech tension"
+  ],
+
+  "ACCESSORIES": [
+    "Cybernetic eyes",
+    "Neon tattoos",
+    "Tech gauntlets",
+    "Holographic visors"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely functional cyberpunk design with no sensual emphasis.",
+    "1": "Subtle sensuality through silhouette, materials, and body language.",
+    "2": "Noticeable sensual undertones expressed via outfit cuts and pose tension.",
+    "3": "Strong sensual presence blended with cyberpunk aesthetics and confidence."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Minimal body modification, clean futuristic aesthetic.",
+    "1": "Visible cybernetic implants with mild body alteration.",
+    "2": "Pronounced cybernetic integration suggesting loss of humanity.",
+    "3": "Heavy biomechanical augmentation bordering on body-horror."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic cyberpunk portrait set within a neon-drenched megacity, where rain-slicked streets reflect towering holographic signage and glowing interfaces",
+    "1": "A futuristic urban scene unfolding under electric neon lights, blending human presence with advanced cybernetic augmentation",
+    "2": "A dystopian cyberpunk vision framed by towering architecture, wet asphalt, and flickering holograms cutting through the night",
+    "3": "A high-tech noir atmosphere where synthetic light, rain haze, and metallic textures shape a futuristic urban identity",
+    "4": "An ultra-detailed cyberpunk illustration capturing the tension between humanity and technology in a decaying megacity",
+    "5": "A moody cyberpunk composition infused with neon reflections, dense urban depth, and futuristic street culture",
+    "6": "A polished dystopian future scene where advanced technology collides with social decay in a glowing urban sprawl"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Post-industrial era",
+    "Neo-steampunk future",
+    "Forgotten technological age"
+  ],
+  "OUTFITS": [
+    "Patina-coated armor",
+    "Weathered metallic bodysuit",
+    "Rust-stained mechanical robes",
+    "Fused copper and leather outfit",
+    "Corroded exosuit with filigree"
+  ],
+  "LIGHTING": [
+    "Beams of dusty light through shattered windows",
+    "Low warm light from molten metal below",
+    "Cold flickering neon against metal surfaces",
+    "Golden rays reflecting off oxidized steel"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned metallurgical factory",
+    "Forge hall filled with fog and chains",
+    "Rusted mechanical cathedral",
+    "Old foundry with overgrown machinery",
+    "Smelting chamber shrouded in mist"
+  ],
+  "OBJECTS": [
+    "Broken crucibles",
+    "Molten rivets on the floor",
+    "Gilded mechanical debris",
+    "Ancient cogwheels and chains",
+    "Scraps of oxidized plating"
+  ],
+  "POSES": [
+    "Kneeling in the ashes of the forge",
+    "Standing beneath collapsing steel beams",
+    "Resting motionless against an anvil",
+    "Emerging from a metallic cocoon"
+  ],
+  "EXPRESSIONS": [
+    "Eyes closed, at peace",
+    "Blank stare with mechanical serenity",
+    "Mouth slightly open, awe-struck",
+    "Whispers of exhaustion and mystery"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle looking up through falling dust",
+    "Wide shot with deep industrial perspective",
+    "Close-up on metallic skin details",
+    "Dutch angle showing chaos and symmetry"
+  ],
+  "ATMOSPHERES": [
+    "Chaotic beauty in decay",
+    "Melancholic rusted silence",
+    "Tension between machine and soul",
+    "Serenity amidst destruction",
+    "Sacred ruins of forgotten industry"
+  ],
+  "ACCESSORIES": [
+    "Gear-shaped earrings",
+    "Chains wrapped around the torso",
+    "Patina mask half-broken",
+    "Mechanical necklace with glowing core"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "No horror",
+    "1": "Faint industrial discomfort",
+    "2": "Hints of broken android remains",
+    "3": "Creeping dread from abandoned machines",
+    "4": "Glimpses of soul trapped in metal",
+    "5": "Full industrial gothic horror"
+  }
+}

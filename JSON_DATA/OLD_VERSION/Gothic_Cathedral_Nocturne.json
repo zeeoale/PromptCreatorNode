@@ -1,0 +1,61 @@
+{
+  "EPOCHS": [
+    "Gothic"
+  ],
+  "OUTFITS": [
+    "Hooded cloak",
+    "Monk robes",
+    "Leather cuirass"
+  ],
+  "LIGHTING": [
+    "Moonlit",
+    "Stained-glass glow",
+    "Candlelit",
+    "Backlit silhouettes"
+  ],
+  "BACKGROUNDS": [
+    "Cathedral nave",
+    "Cloister walk",
+    "Bell tower",
+    "Graveyard"
+  ],
+  "OBJECTS": [
+    "Lantern",
+    "Rosary",
+    "Relic",
+    "Tome"
+  ],
+  "POSES": [
+    "Back-to-wall",
+    "Perched lookout",
+    "Kneeling steady",
+    "Over-shoulder aim"
+  ],
+  "EXPRESSIONS": [
+    "Stoic",
+    "Calm focus",
+    "Cold glare",
+    "Defiant"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle hero",
+    "Dutch tilt",
+    "Medium shot",
+    "Close-up"
+  ],
+  "ATMOSPHERES": [
+    "Foggy moor air",
+    "Embers in air",
+    "Falling ash"
+  ],
+  "ACCESSORIES": [
+    "Half mask",
+    "Cloak clasp",
+    "Leather gloves",
+    "Pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "moderate": "Whispers among tombs",
+    "high": "Shadowed choir loft figures"
+  }
+}

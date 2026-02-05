@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "Magical Girl Era",
+    "Pink Cyber Future",
+    "Modern Kawaii Tokyo",
+    "Pastel Fantasy Kingdom"
+  ],
+  "OUTFITS": [
+    "frilly pink dress",
+    "pink kimono with sakura patterns",
+    "schoolgirl uniform in soft pink",
+    "cyberpunk pink bodysuit with LEDs",
+    "vintage barbie-style outfit",
+    "sexy pinky lingerie",
+    "low-cutted pinky latex dress"
+  ],
+  "LIGHTING": [
+    "soft pink glow",
+    "sunset with pink clouds",
+    "dreamy studio light with heart-shaped flares",
+    "glittery ambient pink light"
+  ],
+  "BACKGROUNDS": [
+    "candy-filled landscape",
+    "kawaii bedroom with plushies and pink wallpaper",
+    "rooftop at sunset with heart-shaped balloons",
+    "pink city street with cat cafes and pastel signage"
+  ],
+  "OBJECTS": [
+    "pink umbrella",
+    "stuffed animal collection",
+    "pink bubble tea",
+    "glowing heart-shaped locket",
+    "plush pink bunny"
+  ],
+  "POSES": [
+    "jumping joyfully with arms wide",
+    "winking with a peace sign",
+    "holding a kitten close to chest",
+    "sitting on a heart-shaped swing",
+    "standing confidently with sparkles around"
+  ],
+  "EXPRESSIONS": [
+    "cheerful and smiling",
+    "shy with blushing cheeks",
+    "playful wink",
+    "gentle and dreamy gaze",
+    "excited with wide eyes"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up from below with sparkles",
+    "over-the-shoulder dreamy shot",
+    "frontal pose with depth of field",
+    "high angle with pastel background blur"
+  ],
+  "ATMOSPHERES": [
+    "magical and sweet",
+    "cute and serene",
+    "bubbly and energetic",
+    "romantic and dreamy"
+  ],
+  "ACCESSORIES": [
+    "cat-ear headband",
+    "pink heart-shaped sunglasses",
+    "glittery choker",
+    "bow-shaped hair clip",
+    "kawaii phone case with charms"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "Totally sweet and safe",
+    "soft": "Tiny spooky elements, like ghost-shaped plushies",
+    "medium": "Cute-gone-wrong: cracked porcelain dolls or glitchy pastel holograms",
+    "strong": "Kawaii nightmare: pink blood, smiling masks, and cute chaos"
+  }
+}

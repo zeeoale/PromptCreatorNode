@@ -1,0 +1,78 @@
+{
+    "EPOCHS": [
+        "Post-Urban Decay",
+        "Neo-Noir Dreams",
+        "Silent Bathroom Era"
+    ],
+
+    "OUTFITS": [
+        "wet slip dress",
+        "loose white shirt",
+        "minimal torn nightgown",
+        "bandaged top with straps"
+    ],
+
+    "LIGHTING": [
+        "cold neon blue lighting",
+        "sickly green bathroom light",
+        "pink-blue cyber glow",
+        "dim tungsten reflection"
+    ],
+
+    "BACKGROUNDS": [
+        "cracked tiled bathroom",
+        "abandoned sink with graffiti",
+        "rusted pipes and leaking tubes",
+        "dirty bathtub in ruined building"
+    ],
+
+    "OBJECTS": [
+        "water puddles",
+        "foggy mirror",
+        "broken tiles",
+        "rusted showerhead",
+        "faint reflections on wet floor"
+    ],
+
+    "POSES": [
+        "sitting curled up in bathtub",
+        "knees pulled to chest in silence",
+        "head bowed with long hair falling forward",
+        "leaning against cracked tiles, exhausted"
+    ],
+
+    "EXPRESSIONS": [
+        "empty gaze",
+        "melancholic stillness",
+        "exhausted calm",
+        "quiet despair"
+    ],
+
+    "CAMERA_ANGLES": [
+        "low angle near the wet floor",
+        "tight close-up of face in dim light",
+        "medium shot from bathtub rim",
+        "cinematic portrait from slightly above"
+    ],
+
+    "ATMOSPHERES": [
+        "foggy, cold, damp air",
+        "neon melancholy",
+        "urban solitude",
+        "post-traumatic quiet"
+    ],
+
+    "ACCESSORIES": [
+        "wet hair strands",
+        "bandage straps",
+        "water droplets on skin",
+        "subtle grain and film scratches"
+    ],
+
+    "HORROR_INTENSITY": {
+        "0": "delicate sorrow, tender bleakness",
+        "1": "abandoned ruin, unsettling quiet",
+        "2": "claustrophobic decay, oppressive loneliness"
+    }
+}
+

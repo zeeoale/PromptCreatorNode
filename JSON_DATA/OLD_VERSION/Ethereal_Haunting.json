@@ -1,0 +1,69 @@
+{
+  "EPOCHS": [
+    "Victorian Nightmare",
+    "Post-Apocalyptic Haunting",
+    "Medieval Gothic Dread",
+    "Futuristic Ethereal Wasteland"
+  ],
+  "OUTFITS": [
+    "Flesh-Wrapped Gown of Wailing Spirits",
+    "Ethereal Spectral Bodysuit",
+    "Abandoned Mansion-inspired Tattered Suit",
+    "Moonlight Terror Transparent Robe",
+    "Gothic Fear Leather Corset"
+  ],
+  "LIGHTING": [
+    "Sinister Moonlight",
+    "Phantasmagoric Fog Glow",
+    "Eerie Glow of the Spectral Apparitions"
+  ],
+  "BACKGROUNDS": [
+    "Decaying Grandeur of an Abandoned Mansion",
+    "Haunted Post-Apocalyptic Ruins",
+    "Dread-filled Medieval Dungeon",
+    "Fog-Engulfed Gothic Cemetery",
+    "Endless Void of the Haunting Silence"
+  ],
+  "OBJECTS": [
+    "Memento Mori of Ethereal Beauty",
+    "Death Whispering Ouija Board",
+    "Possession-Inducing Cursed Amulet",
+    "Ghostly Horrors Captured in Antique Mirrors",
+    "Gothic Fear-infused Dagger"
+  ],
+  "POSES": [
+    "Ethereal Levitation",
+    "Provocative Possession Stance",
+    "Hauntingly Sensual Lure",
+    "Spectral Apparition Manifestation"
+  ],
+  "EXPRESSIONS": [
+    "Ecstatic Pain",
+    "Haunting Silence",
+    "Death Whisper Seduction",
+    "Possession-induced Delirium"
+  ],
+  "CAMERA_ANGLES": [
+    "Unnerving Low Angle",
+    "Disturbing Aerial View",
+    "Spectrally Skewed Perspective",
+    "Ethereal Beauty Close-up"
+  ],
+  "ATMOSPHERES": [
+    "Fog-veiled Terror",
+    "Spectral Chill",
+    "Death Whispering Cold",
+    "Possession-induced Madness"
+  ],
+  "ACCESSORIES": [
+    "Ghostly Horror Choker",
+    "Ethereal Beauty Crown of Thorns",
+    "Wailing Spirits Chain Earrings",
+    "Moonlight Terror Pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Slight unsettling mood with subtle hints of dread, minor wounds or markings, and eerie spectral apparitions",
+    "1": "Visible body modifications, clear signs of possession, pain mixed with pleasure, evident spectral apparitions",
+    "2": "Extreme horror, mutilation, gore, body horror intertwined with sensual elements, manifest physical possession, terrifying spectral apparitions"
+  }
+}

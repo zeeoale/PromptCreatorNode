@@ -1,0 +1,115 @@
+{
+  "WORLD_NAME": "Urban_Street_Angel",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in modern, fashion-forward angelic imagery set in contemporary urban environments. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, with no line breaks and no bullet points, depicting a stylish modern angel moving through the city with confident, dynamic energy. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive visual. The wings must be clearly angelic—feathered, luminous, clean, and modern—never demonic, never mechanical, never decayed. Emphasize streetwear tailoring, premium textures, sneakers, layered fabrics, subtle jewelry, and contemporary attitude, while keeping the character aspirational and heroic. Mention a camera perspective and lens feel, micro-details like fabric sheen, rain droplets, dust motes, or bokeh, and a strong sense of motion (mid-step, mid-jump, pivot, turn). Use {{SENSUALITY_LEVEL}} to modulate allure through fashion silhouette and confidence, not explicitness. Keep {{HORROR_INTENSITY}} at minimal levels: this world is uplifting, modern, and radiant, with urban grit only as contrast to the angelic glow.",
+  "EPOCHS": [
+    "late-90s street",
+    "2000s clubwear",
+    "2010s hypebeast",
+    "contemporary luxury street",
+    "near-future citycore"
+  ],
+  "OUTFITS": [
+    "oversized bomber jacket over a fitted techwear bodysuit",
+    "layered hoodie and cropped puffer with utility straps",
+    "sleek windbreaker set with reflective piping and cargo pockets",
+    "tailored street suit with sneakers and a minimal chain",
+    "baggy skate denim with a sharp corset-like harness top",
+    "monochrome athleisure with sculpted shoulder details",
+    "long trench coat over a satin slip-dress styled as street couture"
+  ],
+  "LIGHTING": [
+    "neon rim light with wet asphalt reflections",
+    "golden-hour backlight cutting through haze",
+    "cool moonlight with soft volumetric beams",
+    "streetlamp glow with cinematic falloff",
+    "LED billboard bounce lighting across the face",
+    "flash-lit editorial pop with controlled shadows"
+  ],
+  "BACKGROUNDS": [
+    "graffiti alley with puddles and posters",
+    "subway platform with motion blur and sparks of light",
+    "rooftop skyline with cranes and distant neon",
+    "basketball court at night with chain-link fence",
+    "underpass with concrete pillars and mist",
+    "city intersection in light rain, reflections everywhere",
+    "industrial stairwell with warning stripes and steam vents"
+  ],
+  "OBJECTS": [
+    "floating feather particles trailing behind",
+    "spray paint cans and torn street posters",
+    "skateboard tucked under one arm",
+    "portable music player with wired headphones",
+    "translucent umbrella catching city light",
+    "polaroid camera and film canisters",
+    "holographic sticker pack and a metro card",
+    "small halo charm hanging from a necklace"
+  ],
+  "POSES": [
+    "mid-air jump over a puddle, knees tucked, wings flaring wide",
+    "running start into a rooftop leap, coat and feathers whipping",
+    "one-foot plant with a sharp pivot, shoulder dropped, wings angled back",
+    "low crouch on a ledge, one hand to the ground, gaze upward",
+    "landing pose with bent knees, hands adjusting jacket collar, wings settling",
+    "skater stance, weight shifted, board angled, wings half-open for balance",
+    "dynamic step-forward lunge, arm extended, fingers catching light",
+    "back-arched turn in motion, hair sweeping, wings forming a glowing arc",
+    "kneel-and-rise movement, one knee down, then pushing up with power",
+    "wide stance hero pose, chin lifted, wings fully spread, city behind"
+  ],
+  "EXPRESSIONS": [
+    "calm confidence with a soft half-smile",
+    "focused eyes, slightly parted lips, determined",
+    "playful smirk, streetwise and warm",
+    "serene and radiant, looking past the camera",
+    "intense gaze under shadowed brow, editorial cool",
+    "joyful breath of relief, subtle laugh in the eyes"
+  ],
+  "CAMERA_ANGLES": [
+    "low-angle hero shot",
+    "Dutch tilt action frame",
+    "three-quarter portrait with deep background bokeh",
+    "wide cinematic full-body shot",
+    "close-up with wings as a graphic backdrop",
+    "over-the-shoulder chase perspective",
+    "top-down urban geometry composition"
+  ],
+  "ATMOSPHERES": [
+    "light rain and mist with glowing reflections",
+    "warm haze with floating dust motes",
+    "clean night air with neon bloom",
+    "sunlit smog with soft flares",
+    "cold winter breath and glittering ice particles",
+    "festival energy with confetti-like feathers"
+  ],
+  "ACCESSORIES": [
+    "halo-shaped ear cuff",
+    "minimal chain necklace with a tiny wing pendant",
+    "fingerless gloves with reflective tabs",
+    "cap pulled low with embroidered symbol",
+    "sleek over-ear headphones",
+    "wraparound sport sunglasses",
+    "crossbody sling bag with metal hardware",
+    "angel-feather charm on a zipper pull"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely modest styling, focus on silhouette and light",
+    "1": "subtle allure through confident posture and tailored fit",
+    "2": "fashion-forward sensuality: corsetry lines, satin sheen, poised attitude",
+    "3": "high-glam editorial allure: bold styling, strong body language, teasing elegance"
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror elements, purely uplifting",
+    "1": "slight urban grit only (rain, smoke, shadow), still clean",
+    "2": "tense mood and dramatic contrast, never grotesque",
+    "3": "not used in this world; keep angelic and pristine"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A modern street angel bursts into motion in a rain-slick graffiti alley, feathered wings snapping open with luminous clean edges as neon reflections ripple across wet asphalt, the outfit reading like luxury techwear with sharp tailoring, reflective piping, and sneaker-heavy attitude, captured in a low-angle hero shot with cinematic bloom, micro-droplets clinging to fabric and hair while a soft halo charm swings at the collar, everything feeling fast, crisp, and editorial, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "On a rooftop skyline, a fashionable angel pivots mid-run into a leap, trench coat and layered street couture flowing like a banner as pristine feather wings flare wide, city cranes and neon signs dissolving into bokeh behind, the camera catching the motion with a slight Dutch tilt and a punchy rim light, sneakers planted on the edge for a split second, expression focused and calm, feather particles trailing like confetti in cold air, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A city intersection in light rain becomes a stage as an urban angel lands from a jump with bent knees and relaxed confidence, hoodie and cropped puffer gleaming under streetlamp falloff, wings settling in a clean luminous arc that contrasts the gritty posters and puddle reflections, shot wide and cinematic with subtle motion blur on the coat hem, the gaze streetwise and warm as headphones rest at the neck, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "In a subway platform glow, the angel strikes a skater stance with weight shifted and a board angled, pristine feather wings half-open for balance as LED billboard bounce light paints the face in cool gradients, the outfit mixing baggy denim with a harness-like fashion structure, captured in a three-quarter frame that emphasizes speed, steel, and shine, with dust motes floating like tiny feathers in the air, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Under an industrial underpass veiled in mist, a modern angel rises from a low crouch on a ledge, one hand to the ground, chin lifted, wings fully spread and spotless as if cut from moonlight, the camera close enough to read stitching, zipper pulls, and reflective tabs on fingerless gloves, while distant neon blooms behind concrete pillars, creating a heroic street-fashion tableau, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "At night on a fenced basketball court, the angel lunges forward in a dynamic step, arm extended as if catching light, monochrome athleisure sculpting the silhouette with confident elegance, pristine feather wings forming a graphic backdrop, captured with flash-lit editorial pop and controlled shadows, confetti-like feather particles drifting through the frame as the expression turns playful, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In golden-hour haze cutting through city smog, the angel turns mid-motion with hair sweeping and a soft half-smile, satin street couture shimmering while clean feather wings glow from behind, shot close-up so the wings become a luminous pattern and the background dissolves into warm bokeh, the overall feeling modern, hopeful, and iconic like a music-video still, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

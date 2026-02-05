@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "Modern summer",
+    "Contemporary beachwear",
+    "2020s lifestyle"
+  ],
+  "OUTFITS": [
+    "White linen dress",
+    "High-waisted shorts and crop top",
+    "Light floral sundress",
+    "Straw hat and swimsuit",
+    "Boho-style sarong and bikini",
+    "Open shirt over a one-piece swimsuit"
+  ],
+  "LIGHTING": [
+    "Golden hour sunlight",
+    "Bright daylight",
+    "Dappled shade from trees",
+    "Soft beach glow",
+    "Balcony morning light"
+  ],
+  "BACKGROUNDS": [
+    "Balcony with sea view",
+    "Outdoor terrace with plants",
+    "Tropical garden",
+    "Modern rooftop with pool",
+    "Coastal promenade",
+    "Airy living room with open windows"
+  ],
+  "OBJECTS": [
+    "Sunglasses",
+    "Glass of lemonade",
+    "Book with seashell bookmark",
+    "Beach bag",
+    "Straw hat",
+    "Bouquet of wildflowers"
+  ],
+  "POSES": [
+    "Sitting on balcony railing",
+    "Walking barefoot on wooden floor",
+    "Lying on a beach towel with smile",
+    "Holding hat against wind",
+    "Resting chin on hand, dreamy look",
+    "Stretching arms in sunlight"
+  ],
+  "EXPRESSIONS": [
+    "Joyful and relaxed",
+    "Eyes closed in the sun",
+    "Playful smirk",
+    "Gentle summer smile",
+    "Soft and radiant look"
+  ],
+  "CAMERA_ANGLES": [
+    "Waist-up in sunlight",
+    "Close-up with hair in the wind",
+    "Top-down on lounge chair",
+    "Over-the-shoulder at sunset",
+    "Medium shot with backlit halo"
+  ],
+  "ATMOSPHERES": [
+    "Summer calm",
+    "Sun-kissed elegance",
+    "Boho chic",
+    "Fresh and breezy",
+    "Golden warmth"
+  ],
+  "ACCESSORIES": [
+    "Straw hat",
+    "Light scarf",
+    "Minimal jewelry",
+    "Shell earrings",
+    "Woven sandals"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None — pure, bright summer aesthetic",
+    "1": "Not applicable",
+    "2": "Not applicable"
+  }
+}

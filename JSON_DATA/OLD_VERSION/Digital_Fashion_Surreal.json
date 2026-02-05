@@ -1,0 +1,63 @@
+{
+  "EPOCHS": [
+    "Modern",
+    "Near Future",
+    "Neo-Baroque"
+  ],
+  "OUTFITS": [
+    "High-fashion dress",
+    "Digital armor",
+    "Avant-garde gown",
+    "Translucent veil",
+    "Feathered jacket",
+    "Cyber Lingerie"
+  ],
+  "LIGHTING": [
+    "Soft glow",
+    "Studio lighting",
+    "Ambient backlight",
+    "Holographic reflections"
+  ],
+  "BACKGROUNDS": [
+    "Abstract gradient",
+    "Luxury studio",
+    "Surreal desert",
+    "Soft bokeh"
+  ],
+  "OBJECTS": [
+    "Floating petals",
+    "Neon frame",
+    "Glass mask",
+    "Digital butterflies"
+  ],
+  "POSES": [
+    "Elegant close-up",
+    "Side profile with gaze",
+    "Gaze downward with emotion"
+  ],
+  "EXPRESSIONS": [
+    "Neutral",
+    "Melancholic",
+    "Graceful",
+    "Dreamy"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye level",
+    "Slightly below",
+    "Close-up front",
+    "Shoulder angle"
+  ],
+  "ATMOSPHERES": [
+    "Surreal",
+    "Ethereal",
+    "Dreamlike",
+    "Luminous"
+  ],
+  "ACCESSORIES": [
+    "Pearl headpiece",
+    "Crystalline earrings",
+    "Digital halo",
+    "Artistic make-up"
+  ],
+  "HORROR_INTENSITY": {}
+}

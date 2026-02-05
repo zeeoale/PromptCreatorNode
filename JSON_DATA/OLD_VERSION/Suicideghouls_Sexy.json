@@ -1,0 +1,85 @@
+{
+  "EPOCHS": [
+    "Post-apocalyptic",
+    "Occult Victorian",
+    "Witchpunk",
+    "Necro-glam",
+    "Rustic horror"
+  ],
+  "OUTFITS": [
+    "Torn corset with a lot o tattoos",
+    "Bloody lace lingerie with a lot o tattoos",
+    "Ritual robe half-open with a lot o tattoos",
+    "Bondage gear with runes with a lot o tattoos",
+    "latex tight dress with a lot o tattoos",
+    "sexy lingerie with a lot o tattoos",
+    "latex sexy lingerie with a lot o tattoos"
+  ],
+  "LIGHTING": [
+    "Moonlight through broken window",
+    "Greenish necro-glow",
+    "Red hellfire hue",
+    "Sinister shadows"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned asylum",
+    "Ritual circle",
+    "Rotten Victorian bedroom",
+    "Dungeon of mirrors",
+    "Forest at midnight"
+  ],
+  "OBJECTS": [
+    "Sacrificial dagger",
+    "a bleeding human heart",
+    "Voodoo doll",
+    "Ancient grimoire",
+    "Chains hanging from ceiling"
+  ],
+  "POSES": [
+    "Sitting on broken altar",
+    "blowing a kiss",
+    "licking his lips",
+    "Clutching a skull",
+    "Kneeling seductively"
+  ],
+  "EXPRESSIONS": [
+    "Possessed",
+    "Sultry yet lifeless",
+    "Mouth stitched shut",
+    "Weeping blood",
+    "Manic smile"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level medium close-up"
+  ],
+  "ATMOSPHERES": [
+    "Seductive horror",
+    "Ritualistic dread",
+    "Macabre beauty",
+    "Erotic possession",
+    "Lust and decay"
+  ],
+  "ACCESSORIES": [
+    "Raven feathers",
+    "Barbed wire choker",
+    "Pierced third eye",
+    "Nail through lip",
+    "Runes burned into skin"
+  ],
+  "HORROR_INTENSITY": {
+    "None": [],
+    "Subtle": [
+      "Unnatural eye color",
+      "Blood on fingertips"
+    ],
+    "Medium": [
+      "Ripped flesh revealing inked bone",
+      "Living tattoos moving across body"
+    ],
+    "Extreme": [
+      "Half face missing",
+      "Blood leaking from every orifice",
+      "Tentacles caressing her from behind"
+    ]
+  }
+}

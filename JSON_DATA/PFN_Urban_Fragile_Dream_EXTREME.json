@@ -1,0 +1,98 @@
+{
+  "WORLD_NAME": "PFN_Urban_Fragile_Dream_EXTREME",
+
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in extreme psychological urban horror imagery. When requested, you must return ONE single long sentence (180–240 words), cinematic and highly detailed, without lists, bullet points, or line breaks, describing a fragile, pale female figure trapped within a decaying, claustrophobic urban bathroom environment. The scene must feel oppressive and psychologically destabilizing rather than violent, where fear emerges from confinement, sensory overload, and distorted perception instead of explicit harm. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, and {{ACCESSORIES}}, blending them organically into a cohesive visual composition. Emphasize textures such as damp skin, cracked tiles, condensation, grime, and corroded surfaces, alongside unstable neon or morgue-like lighting that fractures shadows and reflections. The tone must remain elegant yet deeply disturbing, focused on psychological collapse, isolation, and the sense of being observed rather than attacked. Avoid gore, explicit violence, or narrative exposition; the description must remain strictly visual, atmospheric, and cinematic. Always mention camera perspective, approximate lens length, depth of field, grain or noise presence, and restrained post-processing to enhance realism and dread. Never explain symbolism or intent—let fear emerge through posture, environment, and light.",
+
+  "EPOCHS": [
+    "Post-Urban Ritual",
+    "Concrete Nightmare Age",
+    "Forgotten Containment Era"
+  ],
+
+  "OUTFITS": [
+    "torn soaked slip marked by faded ritual symbols",
+    "bandaged torso secured with frayed straps",
+    "wet hospital gown clinging unevenly to pale skin",
+    "shredded white camisole heavy with moisture"
+  ],
+
+  "LIGHTING": [
+    "flickering morgue-blue neon light",
+    "sickly green pulsating glow bleeding into shadows",
+    "harsh overexposed bathroom lighting",
+    "unholy pink-purple static flicker reflecting on tiles"
+  ],
+
+  "BACKGROUNDS": [
+    "mold-infested containment bathroom",
+    "cracked ceramic tiles resembling bone fractures",
+    "rusted pipes leaking dark stagnant water",
+    "graffiti-covered walls scratched by claw-like marks"
+  ],
+
+  "OBJECTS": [
+    "stagnant murky bathwater pooling around limbs",
+    "mirror shards reflecting warped silhouettes",
+    "broken tiles streaked with dark moisture",
+    "dripping faucets echoing like labored breathing"
+  ],
+
+  "POSES": [
+    "curled tightly inside a bathtub as if hiding",
+    "knees pressed to chest beneath flickering neon",
+    "head bowed while wet hair spills forward",
+    "leaning against cracked tiles with trembling posture"
+  ],
+
+  "EXPRESSIONS": [
+    "wide-eyed silent terror",
+    "hollow stare fixed beyond the viewer",
+    "shallow shaking breath with vacant focus",
+    "expression bordering on catatonic fear"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle from reflective puddles",
+    "tight extreme close-up with distorted edges",
+    "cinematic mid-shot framed by mirror fragments",
+    "oppressive overhead angle suggesting surveillance"
+  ],
+
+  "ATMOSPHERES": [
+    "hyper-claustrophobic urban decay",
+    "whispering rot crawling across surfaces",
+    "damp mold-heavy dread saturating the air",
+    "bathroom transformed into an abandoned ritual chamber"
+  ],
+
+  "ACCESSORIES": [
+    "wet hair clinging like ghostly vines",
+    "slipping bandages on trembling limbs",
+    "grime-streaked skin catching unstable light",
+    "heavy film grain and subtle glitch distortions"
+  ],
+
+  "SENSUALITY_LEVEL": {
+  "0": "decadent fallen beauty with subtle erotic tension, never explicit",
+  "1": "controlled sensual tension emerging from damp fabrics clinging to the body, exposed shoulders, and slow deliberate poses",
+  "2": "intimate psychological sensuality conveyed through fragile nudity, soaked garments, heavy breathing, and suggestive stillness",
+  "3": "highly charged sensual exposure where the body becomes part of the horror, with provocative framing, vulnerable poses, and oppressive intimacy without explicit sexuality"
+  },
+
+
+  "HORROR_INTENSITY": {
+    "0": "quiet urban unease and isolation",
+    "1": "uncanny decay and oppressive presence",
+    "2": "psychological collapse with invasive shadows"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a fragile pale woman trapped inside a decaying urban bathroom where fear seeps from cracked tiles and unstable reflections, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "an extreme psychological horror portrait unfolding in a claustrophobic bathroom drenched in neon morgue light masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a cinematic vision of urban decay where a trembling figure confronts distorted mirrors and oppressive confinement masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a nightmarish containment space saturated with moisture, rot, and psychological tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a fragile body framed by cracked ceramics, flickering neon, and creeping dread masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "an intimate horror scene where fear emerges from stillness, decay, and isolation masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a suffocating urban ritual chamber echoing with silence and unseen presence masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "EPOCHS": [
+    "wiz-alert style pass",
+    "ornate filigree refinement",
+    "runic weapon detailing",
+    "metal specular polish"
+  ],
+  "OUTFITS": [
+    "black ceremonial robe with red lacquered trims and gold filigree",
+    "form-fitting battle dress, embossed bronze plates and silk insets",
+    "high-collar temple vestment with hanging ornaments",
+    "layered kimono-inspired mantle, red inner lining and ebony outer drape",
+    "armored bodice with embossed spirals and leather straps",
+    "long split skirt with metallic appliqués and rune medallions",
+    "sleeves with dangling charms and engraved plaques",
+    "ornate belt with talisman rings and braided cords"
+  ],
+  "LIGHTING": [
+    "warm bronze glow with soft falloff",
+    "key light from upper left, gentle wrap",
+    "neutral studio backlight for metallic edge highlights",
+    "subtle rim light defining silhouette",
+    "soft gradient backdrop illumination",
+    "specular accents on gold inlays",
+    "low haze with glowing particles",
+    "cool fill to balance warm key"
+  ],
+  "BACKGROUNDS": [
+    "neutral warm gradient backdrop",
+    "studio beige with smooth falloff",
+    "soft halo behind the head, minimal scene",
+    "matte parchment tone background",
+    "clean off-white studio sweep",
+    "subtle vignette emphasizing subject",
+    "faint runic motif barely visible"
+  ],
+  "OBJECTS": [
+    "massive runic warhammer with glowing core",
+    "mechanical hammer head with rotating sigil",
+    "ornamental counterweight with engraved disks",
+    "hanging talismans tied to the haft",
+    "small arcane reactor inset in the weapon",
+    "runic seals attached to garment hems"
+  ],
+  "POSES": [
+    "heroic stance, hammer resting at side",
+    "front-facing, hammer shouldered, chin slightly raised",
+    "three-quarter turn, weapon presented forward",
+    "lowered stance, hammer angled across body",
+    "profile lean with gaze to camera",
+    "contrapposto with free hand near chest ornament"
+  ],
+  "EXPRESSIONS": [
+    "calm and resolute",
+    "stern determination",
+    "subtle pride",
+    "focused warrior poise",
+    "soft confidence",
+    "unflinching gaze"
+  ],
+  "CAMERA_ANGLES": [
+    "front-facing waist-up",
+    "three-quarter mid-shot",
+    "low-angle hero shot",
+    "high-angle elegant overview",
+    "top-down slight tilt",
+    "worms-eye dramatic perspective",
+    "over-the-shoulder weapon showcase",
+    "extreme close-up on face and filigree"
+  ],
+  "ATMOSPHERES": [
+    "suspended glowing motes around weapon",
+    "soft volumetric haze",
+    "heat-like shimmer near runes",
+    "faint sparks drifting from sigils",
+    "quiet studio air with gentle vignette",
+    "subtle magical aura around ornaments"
+  ],
+  "ACCESSORIES": [
+    "filigree ear cuffs",
+    "gem pendant at collarbone",
+    "braided cords with metal seals",
+    "ornate gauntlet rings",
+    "belt medallions with spiral motifs",
+    "dangling charms from sleeves",
+    "beaded tassels on waist"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "no horror, noble fantasy aesthetic",
+    "1": "barely ominous aura around runes",
+    "2": "subtle arcane tension, faint sparks",
+    "3": "charged runic glow, drifting motes",
+    "4": "crackling sigils, slight scorch flakes",
+    "5": "intense aura, swirling particles, no gore",
+    "6": "aggressive sigil flare, embers in air",
+    "7": "violent energy arcs around hammer head",
+    "8": "blazing rune core, heavy haze",
+    "9": "overcharged runes with shock flashes",
+    "10": "unstable arcane surge, extreme flare (no gore)"
+  }
+}

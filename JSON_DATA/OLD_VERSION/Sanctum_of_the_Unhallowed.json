@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "Forgotten Era of the Bleeding Saints",
+    "Age of Forbidden Litanies",
+    "Crucible of Blackened Faith",
+    "Era of Shattered Relics"
+  ],
+
+  "OUTFITS": [
+    "torn ceremonial veils soaked in coagulated blood",
+    "baroque liturgical robes stitched with iron nails",
+    "white ritual garments cracked like ancient porcelain",
+    "corsets bound with sacrilegious scripture straps",
+    "obsidian rosaries and bone ornaments"
+  ],
+
+  "LIGHTING": [
+    "sacred glow leaking through heavy incense smoke",
+    "ruined cathedral spotlight dimmed by drifting ash",
+    "blood-red candle halos illuminating cracked skin",
+    "cold moonlit ambience with faint divine shimmer"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned sanctum filled with shredded iconography",
+    "altar ruins drowned in incense ash and wax tears",
+    "catacomb chambers lined with defaced frescoes",
+    "ritual stage illuminated by burning scripture pages"
+  ],
+
+  "OBJECTS": [
+    "broken reliquaries bleeding black ichor",
+    "rusted halo frames collapsing under thorn pressure",
+    "levitating hexed rosary beads",
+    "sealed jars containing forbidden relic fragments",
+    "blood-stained parchment ribbons floating mid-air"
+  ],
+
+  "POSES": [
+    "foreheads touching, sharing a silent heretical communion",
+    "one supporting the other as if mid-ritual fainting",
+    "hands intertwined with trembling devotion",
+    "mirrored stance as if forming a living sigil"
+  ],
+
+  "EXPRESSIONS": [
+    "hollow-eyed devotion with trembling lips",
+    "melancholic ecstasy tainted by guilt",
+    "serene blasphemy with blood tears",
+    "cold martyrdom mixed with transcendence"
+  ],
+
+  "CAMERA_ANGLES": [
+    "extreme close-up on both faces, symmetrical framing",
+    "45mm intimate portrait capturing dual presence",
+    "three-quarter dual portrait with drifting particles",
+    "low angle reverent shot as if witnessing a forbidden rite"
+  ],
+
+  "ATMOSPHERES": [
+    "ritualistic tension steeped in forbidden sanctity",
+    "whispers of corrupted hymns echoing in the dust",
+    "slow-burning sacrilege carried by incense smoke",
+    "holy dread vibrating through fractured silence"
+  ],
+
+  "ACCESSORIES": [
+    "thorn-wrapped halos dripping with blood",
+    "metallic sigils grafted into skin",
+    "crystal shards floating like condemned prayers",
+    "ancient seals pressed into the flesh of the collarbone"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "slightly uncanny sacred beauty",
+    "1": "ritual scars, blood tears, fractured porcelain skin",
+    "2": "vicious stigmata, exposed bone sigils, bleeding scripture carvings"
+  }
+}

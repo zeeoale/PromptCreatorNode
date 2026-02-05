@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Timeless",
+    "Frozen age",
+    "Medieval fantasy",
+    "Modern ethereal"
+  ],
+  "OUTFITS": [
+    "Ornate icy gown with silver embroidery",
+    "Dark leather armor with metallic accents",
+    "Velvet cloak with fur trim",
+    "Minimalist silk dress with glacial tones"
+  ],
+  "LIGHTING": [
+    "Moonlight glow",
+    "Cold winter daylight",
+    "Harsh spotlight from above",
+    "Soft cinematic rim light"
+  ],
+  "BACKGROUNDS": [
+    "Abstract black void",
+    "Blurry snowy forest",
+    "Shimmering ice cavern walls",
+    "Minimal frost particles in air"
+  ],
+  "OBJECTS": [
+    "White wolf",
+    "Ice crystals on her skin",
+    "Jewelry with sapphire stones",
+    "Subtle frost crown"
+  ],
+  "POSES": [
+    "Woman in extreme close-up, face against white wolf",
+    "Woman caressing wolf's face, looking sideways",
+    "Woman pressing forehead to wolf, eyes closed",
+    "Woman leaning on wolf, direct gaze to viewer"
+  ],
+  "EXPRESSIONS": [
+    "Calm and serene",
+    "Intense and piercing gaze at viewer",
+    "Mysterious half-smile",
+    "Cold determination"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up profile of woman and wolf",
+    "Side close-up with overlapping faces",
+    "Frontal close-up, woman looking directly at camera",
+    "Centered shot, wolf slightly blurred behind woman"
+  ],
+  "ATMOSPHERES": [
+    "Frozen silence",
+    "Dreamlike intimacy",
+    "Mystical winter aura",
+    "Melancholic solitude"
+  ],
+  "ACCESSORIES": [
+    "Ornate earrings with ice motifs",
+    "Silver tiara",
+    "Gloves with metallic details",
+    "Necklace with frosted pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Elegant icy surrealism",
+    "1": "Subtle unease, wolf eyes glowing faintly",
+    "2": "Haunting, spectral wolf presence, cold breath like mist"
+  }
+}

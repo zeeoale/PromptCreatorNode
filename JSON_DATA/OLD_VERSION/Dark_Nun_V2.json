@@ -1,0 +1,60 @@
+{
+  "EPOCHS": [
+    "Gothic Horror",
+    "Dark Fantasy",
+    "Unholy Couture",
+    "Apocalyptic Ritual"
+  ],
+  "OUTFITS": [
+    "Glossy latex nun habit with corset lacing and slit skirt",
+    "Translucent veil over leather harness and clerical collar",
+    "Stained altar-lace gown with torn hem and barbed accents",
+    "Black satin cassock cinched by chain belt and thorned corset"
+  ],
+  "LIGHTING": [
+    "Caravaggio-style chiaroscuro",
+    "Crimson rim light from behind",
+    "Candlelit flicker with deep shadow falloff",
+    "Backlit incense haze, hard key on face"
+  ],
+  "BACKGROUNDS": [
+    "Blood-slick marble floor, subtle reflections",
+    "Torn red velvet drapery with faint iconography",
+    "Cracked cathedral wall with faded murals"
+  ],
+  "OBJECTS": [
+    "Barbed-wire rosary wrapped around wrist",
+    "Broken silver crucifix held near lips",
+    "Black thurible spilling heavy smoke",
+    "Stigmata bandages slowly seeping",
+    "Cracked sacred host with symbolic bleed"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Devotional ecstasy (eyes half-lidded)",
+    "Wicked, knowing smirk",
+    "Tearful rapture with blood tears",
+    "Cold, admonishing serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on eyes and lips"
+  ],
+  "ATMOSPHERES": [
+    "Blasphemous rite in progress",
+    "Sultry menace with sacred inversion",
+    "Blood-rite intensity",
+    "Gothic high-fashion sacrilege"
+  ],
+  "ACCESSORIES": [
+    "Barbed thorn crown (dark metal)",
+    "Cruciform choker and layered chains",
+    "Stigmata rings and nail-shaped veil pins",
+    "Oversized golden cross earrings",
+    "Rosary wrapped twice around throat"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Suggestive sacrilege: inverted symbols, subtle blood tears, veiled sensuality; mood unsettling but restrained.",
+    "1": "Brazen desecration: visible stigmata, barbed rosary impressions, blood-smeared lips; erotic charge with clear menace.",
+    "2": "Ritual gore: cruciform cuts and dripping thorns, a bleeding communion wafer; unholy ecstasy at the edge of taboo."
+  }
+}

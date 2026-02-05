@@ -1,0 +1,54 @@
+{
+  "EPOCHS": [
+    "Victorian Gothic Era",
+    "Post-Apocalyptic Dark Future",
+    "Surreal Timeless Epoch",
+    "Alternative Fashion Movement"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Soft, Cool Toned Noir",
+    "Subtle, Neutral Toned Chiaroscuro",
+    "Dramatic Lighting with Marked Contrasts",
+    "Gentle Shadow Gradients Illuminating Key Details"
+  ],
+  "BACKGROUNDS": [
+    "Black studio backdrop",
+    "Red velvet with gold korean phoenix motifs backdrop"
+  ],
+  "OBJECTS": [
+    "Mask detail",
+    "hair ornament",
+    "cracked makeup",
+    "piercing gaze",
+    "cryptic facial mark"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Mysterious Half-Smile",
+    "Elegant Detachment from Reality",
+    "Dramatic Expression of Dark Elegance",
+    "Refined Aesthetic of Subtle Power"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "Air of Dark Elegance",
+    "Sense of Mysterious Power",
+    "Surreal, Fairytale-Like Ambience",
+    "Gothic Romanticism"
+  ],
+  "ACCESSORIES": [
+    "temple hairpin",
+    "ornate brow jewel",
+    "earring",
+    "forehead symbol"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Mild, surreal setting with Gothic undertones",
+    "1": "Visible metallic bone accessories, dark atmosphere with eerie elegance",
+    "2": "Alternative fashion elements suggesting ritual, dark elegance and refined aesthetic",
+    "3": "Intense, theatrical expressions of power, marked contrasts in lighting"
+  }
+}

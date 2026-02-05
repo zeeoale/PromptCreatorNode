@@ -1,0 +1,43 @@
+{
+  "EPOCHS": [],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "moody chiaroscuro",
+    "soft diffused spotlight",
+    "moonlight from a high window"
+  ],
+  "BACKGROUNDS": [
+    "Black velvet backdrop",
+    "Cracked stone wall",
+    "Baroque red drapery"
+  ],
+  "OBJECTS": [
+    "Venetian plague doctor mask",
+    "Volto mask",
+    "Zanni mask",
+    "fragments of broken mirror",
+    "withered laurel leaves"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "haunting gaze",
+    "expressionless mask",
+    "sinister smirk",
+    "tear-streaked face"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "decaying theatre atmosphere",
+    "haunted Venetian alley",
+    "abandoned opera house",
+    "carnival gone wrong"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "no horror",
+    "1": "unsettling and eerie",
+    "2": "disturbing and grotesque"
+  }
+}

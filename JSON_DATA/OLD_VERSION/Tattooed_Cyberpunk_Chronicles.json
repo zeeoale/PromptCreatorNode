@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "Post-apocalyptic future",
+    "Neo-Tokyo dystopia",
+    "Cyberpunk decay"
+  ],
+  "OUTFITS": [
+    "Black tactical harness and crop top",
+    "Floral embroidered combat pants",
+    "Cybernetic arm plating with glowing tattoos",
+    "Minimalist techwear with bandages",
+    "Blood-stained bodywraps with sakura embroidery"
+  ],
+  "LIGHTING": [
+    "Neon backlight (red/blue split)",
+    "Flickering CRT monitors",
+    "Moonlight through broken window",
+    "Overhead fluorescent tube lights"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned train station with overgrowth",
+    "Cybernetic throne room with screens and cables",
+    "Cracked concrete bathtub filled with glowing red liquid",
+    "Urban ruins overtaken by vegetation",
+    "Underground hacker den with glowing terminals"
+  ],
+  "OBJECTS": [
+    "CRT monitors dangling from cables",
+    "Rusty train cars covered in graffiti",
+    "Cybernetic limbs with data readouts",
+    "Cables plugged into spines and skulls",
+    "Neon kanji signs glowing in the fog"
+  ],
+  "POSES": [
+    "Sitting in profile, gazing into distance",
+    "Back turned, revealing full spine tattoo",
+    "Reclining in fluid with closed eyes",
+    "Sitting cross-legged in command position",
+    "Hands resting on lap, serene posture"
+  ],
+  "EXPRESSIONS": [
+    "Detached and focused",
+    "Meditative serenity",
+    "Warrior calm before battle",
+    "Stoic with a hint of defiance",
+    "Emotionless, almost robotic"
+  ],
+  "CAMERA_ANGLES": [
+    "Side profile close-up",
+    "Extreme close-up on cybernetic arms",
+    "Medium shot from behind showing full tattoos",
+    "Overhead angle showing subject in bathtub",
+    "Wide shot of room with screens and seated figure"
+  ],
+  "ATMOSPHERES": [
+    "Electric stillness",
+    "Oppressive silence with hum of machines",
+    "Mystical melancholy",
+    "Decay and rebirth",
+    "Tattooed rage beneath synthetic calm"
+  ],
+  "ACCESSORIES": [
+    "Cybernetic spinal implants",
+    "Digital tattoo projections",
+    "Black choker with data chip",
+    "Holographic interface lens",
+    "Arm straps with neon text"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Urban melancholy with soft dystopian glow",
+    "1": "Cybernetic decay with floral contrasts",
+    "2": "Post-human ritualism in bath of blood and light"
+  }
+}

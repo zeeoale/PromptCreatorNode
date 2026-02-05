@@ -1,0 +1,69 @@
+{
+  "EPOCHS": [
+    "Forgotten Kingdoms of Flesh",
+    "Post-Plague Regencies",
+    "Worm Monarch Era",
+    "Parasitic Renaissance"
+  ],
+  "OUTFITS": [
+    "organic robe of living worms",
+    "translucent silk with parasite embroidery",
+    "royal crown made of insect shells",
+    "bone corset with living leeches",
+    "flesh-grown gown with breathing holes",
+    "black lingerie"
+  ],
+  "LIGHTING": [
+    "low red glow from parasite veins",
+    "bioluminescent mucus reflections",
+    "soft decay light from the throne itself"
+  ],
+  "BACKGROUNDS": [
+    "a cathedral of parasites with pulsating walls",
+    "a living throne room made of fused corpses",
+    "a cavern of worms and tangled nerves",
+    "a royal chamber infested by sentient rot"
+  ],
+  "OBJECTS": [
+    "a staff made of bone and writhing larvae",
+    "chalice filled with infected ichor",
+    "parasitic egg cradled like a gem",
+    "cage of ribs housing a glowing leech"
+  ],
+  "POSES": [
+    "seated regally with parasites crawling over limbs",
+    "spine arched in ecstasy while being fed upon",
+    "one hand caressing the throne’s breathing surface",
+    "entangled with her parasitic courtiers"
+  ],
+  "EXPRESSIONS": [
+    "ecstasy and domination",
+    "serene while being consumed",
+    "half-smile with bloodied lips",
+    "blank gaze with pupils shaped like worms"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle to enhance her parasite-crowned majesty",
+    "close-up of her face with worms behind her eyes",
+    "side view showing the symbiosis with the throne",
+    "wide shot revealing the parasitic court around her"
+  ],
+  "ATMOSPHERES": [
+    "visceral reverence",
+    "slow, rotting elegance",
+    "fetid grandeur",
+    "oppressive infestation"
+  ],
+  "ACCESSORIES": [
+    "living tiara of twitching antennae",
+    "necklace of embedded leech-mouths",
+    "bracelets made of beetle shells",
+    "flesh earrings secreting golden pus"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "subtle crawling under the skin, hints of infestation",
+    "1": "visible symbiosis, regal beauty amid grotesque",
+    "2": "flesh mutilation and parasites fused into anatomy",
+    "3": "monarch fully fused to a writhing mass of parasitic entities"
+  }
+}

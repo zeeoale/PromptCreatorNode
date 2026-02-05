@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Victorian",
+    "Edwardian",
+    "Late Romanticism",
+    "Fin-de-Siècle"
+  ],
+  "OUTFITS": [
+    "blood-stained white dress",
+    "lace corset and long gloves",
+    "tattered opera gown",
+    "funeral veil and mourning jewelry"
+  ],
+  "LIGHTING": [
+    "moonlight through stained glass",
+    "overcast rainy window light",
+    "dramatic chiaroscuro"
+  ],
+  "BACKGROUNDS": [
+    "gothic bedroom with velvet drapes",
+    "abandoned cathedral interior",
+    "rose garden under stormy sky",
+    "marble floor with blood trail"
+  ],
+  "OBJECTS": [
+    "wilted rose",
+    "broken porcelain doll",
+    "engraved silver mirror",
+    "blood-soaked handkerchief"
+  ],
+  "POSES": [
+    "kneeling in despair",
+    "gently holding a rose",
+    "lying on marble floor",
+    "looking into broken mirror"
+  ],
+  "EXPRESSIONS": [
+    "melancholy",
+    "tears in eyes",
+    "haunted gaze",
+    "subtle sorrowful smile"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle through glass shards",
+    "close-up on tear-streaked face",
+    "top-down with long shadows",
+    "side angle highlighting reflection"
+  ],
+  "ATMOSPHERES": [
+    "romantic tragedy",
+    "decaying beauty",
+    "eternal mourning",
+    "poetic sorrow"
+  ],
+  "ACCESSORIES": [
+    "black choker with ruby",
+    "mourning ring",
+    "antique locket",
+    "pocket watch with blood"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "pure emotional sorrow, no horror elements",
+    "mild": "slight surrealism like bleeding roses or whispering shadows",
+    "moderate": "visible blood trails, cracked mirror with reflection moving",
+    "intense": "ghostly figure behind, ritual symbols on floor, subtle possession signs"
+  }
+}

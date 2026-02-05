@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Medieval Korea",
+    "Joseon Dynasty",
+    "Post-shamanic dark age",
+    "Neo-Korean ritual future"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "single harsh spotlight",
+    "smoky ambient glow",
+    "shimmering shadows from paper lantern"
+  ],
+  "BACKGROUNDS": [
+    "Black studio backdrop",
+    "Red velvet with gold korean phoenix motifs backdrop"
+  ],
+  "OBJECTS": [
+    "traditional Korean mask (hahoetal, yangban, talchum)",
+    "etched bone markings",
+    "hanging paper talismans",
+    "ritual blood smudges",
+    "burnt incense ash on skin",
+    "ancient symbols carved into flesh"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "unreadable gaze behind the mask",
+    "stoic and haunting presence",
+    "subtle smirk beneath the mask",
+    "motionless, like a statue"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "ritualistic and ancestral",
+    "eerie spiritual tension",
+    "frozen in ceremonial silence",
+    "chilling presence from the past",
+    "disturbing serenity in the stillness"
+  ],
+  "ACCESSORIES": [
+    "fragments of burnt scrolls around the neck",
+    "ceremonial threads tied on mask edges",
+    "metal pins piercing near the mask",
+    "charcoal drawings under the chin",
+    "cracked ritual paint",
+    "shaman bells bound to the ear"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "clean mask, no damage, no blood",
+    "1": "cracked paint, faint blood lines, minor damage to mask",
+    "2": "deep ritual carvings, mask broken and stained, heavy blood presence"
+  }
+}

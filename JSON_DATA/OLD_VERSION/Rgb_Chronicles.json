@@ -1,0 +1,126 @@
+{
+  "COLOR_REALM": [
+    "R",
+    "G",
+    "B"
+  ],
+  "EPOCHS": [
+    "cyberpunk future",
+    "dystopian present",
+    "dreamlike past"
+  ],
+  "OUTFITS": {
+    "R": [
+      "fiery red dress",
+      "tattered crimson cloak",
+      "battle-worn armor with red accents"
+    ],
+    "G": [
+      "forest-dweller robe",
+      "glowing green bodysuit",
+      "gossamer green veil"
+    ],
+    "B": [
+      "deep blue kimono",
+      "midnight leather coat",
+      "cerulean silk tunic"
+    ]
+  },
+  "LIGHTING": {
+    "R": [
+      "sunset flames",
+      "lava glow",
+      "neon red reflections"
+    ],
+    "G": [
+      "bioluminescent jungle",
+      "neon swamp mist",
+      "alien forest light"
+    ],
+    "B": [
+      "moonlight and shadows",
+      "cold LED strips",
+      "blueish rain reflections"
+    ]
+  },
+  "BACKGROUNDS": {
+    "R": [
+      "burning horizon",
+      "volcanic field",
+      "post-battlefield"
+    ],
+    "G": [
+      "lush overgrown temple",
+      "abandoned greenhouse",
+      "alien jungle"
+    ],
+    "B": [
+      "neon-lit alleyway",
+      "arctic plain",
+      "nocturnal rooftop"
+    ]
+  },
+  "OBJECTS": {
+    "R": [
+      "crimson orb",
+      "broken red mask",
+      "ancient fire totem"
+    ],
+    "G": [
+      "glowing leaf",
+      "emerald compass",
+      "green rune stone"
+    ],
+    "B": [
+      "blue shard",
+      "frozen rose",
+      "glass eye"
+    ]
+  },
+  "POSES": [
+    "standing tall amid chaos",
+    "kneeling in quiet reflection",
+    "walking through mist"
+  ],
+  "EXPRESSIONS": [
+    "fierce determination",
+    "ethereal calm",
+    "enigmatic sadness"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle heroic",
+    "over-the-shoulder dreamy",
+    "close-up with color flares"
+  ],
+  "ATMOSPHERES": {
+    "R": [
+      "intensity, conflict, bloodlust"
+    ],
+    "G": [
+      "growth, secrets, metamorphosis"
+    ],
+    "B": [
+      "melancholy, wisdom, isolation"
+    ]
+  },
+  "ACCESSORIES": {
+    "R": [
+      "ruby choker",
+      "flaming pendant"
+    ],
+    "G": [
+      "leaf-shaped earrings",
+      "glowing vine bracelet"
+    ],
+    "B": [
+      "sapphire circlet",
+      "dark crystal ring"
+    ]
+  },
+  "HORROR_INTENSITY": {
+    "0": "",
+    "1": "minor unsettling fog",
+    "5": "surreal distortions in the background",
+    "10": "nightmarish chromatic phantoms"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Gothic Horror",
+    "Dark Fantasy",
+    "Modern Occult",
+    "Sacrilegious Chic"
+  ],
+  "OUTFITS": [
+    "Stylized black and white nun's habit",
+    "Leather-like materials with religious insignia",
+    "Hooded cloaks with graphic/calligraphic details",
+    "Modern gothic attire mixed with clerical clothing"
+  ],
+  "LIGHTING": [
+    "High-contrast studio lighting",
+    "Intense red ambient glow",
+    "Dramatic key light on the subject",
+    "Sharp shadows to define features"
+  ],
+  "BACKGROUNDS": [
+    "Solid, vibrant red",
+    "Abstract black and red graphic patterns",
+    "Minimalistic with symbolic shapes",
+    "Dark, spiky, thorn-like elements"
+  ],
+  "OBJECTS": [
+    "Crown of thorns (black, spiky)",
+    "Blood drops or tears",
+    "Ornate golden crosses",
+    "Occult symbols and sigils"
+  ],
+  "POSES": [
+    "Intense close-up portrait",
+    "Head tilted with direct gaze at the camera",
+    "Slight three-quarter view",
+    "Confident and confrontational posture"
+  ],
+  "EXPRESSIONS": [
+    "Seductive yet menacing",
+    "Stoic and intense",
+    "Confident and defiant",
+    "Mournful with blood tears"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up on the face and upper torso",
+    "Slightly low angle to convey power",
+    "Straight-on, confrontational shot",
+    "Portrait style"
+  ],
+  "ATMOSPHERES": [
+    "Sacrilegious and blasphemous",
+    "Darkly seductive",
+    "Intense horror",
+    "Gothic and rebellious",
+    "High-fashion occultism"
+  ],
+  "ACCESSORIES": [
+    "Elaborate black crown of thorns",
+    "Large golden cross necklaces and chains",
+    "Facial and neck tattoos (thorny branches, symbols)",
+    "Occult sigils on forehead",
+    "Lip and septum piercings",
+    "Cross-shaped earrings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Moderate to High; features strong elements of religious and body horror, including stigmata-like blood tears, a crown of thorns, and blasphemous use of sacred symbols. The atmosphere is unsettling and menacing."
+  }
+}

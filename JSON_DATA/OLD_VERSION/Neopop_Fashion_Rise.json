@@ -1,0 +1,78 @@
+{
+  "TITLE": "NeoPop_Fashion_Rise",
+  "DESCRIPTION": "Futuristic fashion portraits inspired by digital light, pop geometry and avant-garde elegance. Featuring bold color blocks, oversized sunglasses, and experimental high-neck outfits under a neon atmosphere.",
+  "TAGS": [
+    "fashion",
+    "futuristic",
+    "digital",
+    "avant-garde",
+    "pop",
+    "neon",
+    "portrait",
+    "oversized sunglasses",
+    "bold colors",
+    "high collar"
+  ],
+  "EPOCHS": [
+    "NeoPop Future",
+    "Digital Renaissance",
+    "RetroTech Vogue"
+  ],
+  "OUTFITS": [
+    "high-neck sculpted dress",
+    "digitally projected garment",
+    "color-block bodysuit",
+    "geometric armor-style fashion"
+  ],
+  "LIGHTING": [
+    "studio neon lights",
+    "pink-blue gradient lighting",
+    "cyberpunk rimlight",
+    "smooth digital backlight"
+  ],
+  "BACKGROUNDS": [
+    "vaporwave gradient circle",
+    "abstract digital set",
+    "minimalist neon gradient",
+    "glitchy pink and purple walls"
+  ],
+  "OBJECTS": [
+    "oversized sunglasses",
+    "neon circle halo",
+    "digital light beams",
+    "fashion gloves"
+  ],
+  "POSES": [
+    "confident head tilt",
+    "gesture near sunglasses",
+    "straight-on futuristic model pose",
+    "gaze of control"
+  ],
+  "EXPRESSIONS": [
+    "neutral empowerment",
+    "silent pride",
+    "fashion focus",
+    "glamorous detachment"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up",
+    "symmetrical portrait frame"
+  ],
+  "ATMOSPHERES": [
+    "fashion runway meets future",
+    "digital aura",
+    "empowered elegance",
+    "calm and bold fusion"
+  ],
+  "ACCESSORIES": [
+    "geometric earrings",
+    "reflective sunglasses",
+    "neon gloves",
+    "techno jewelry"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Clean futuristic elegance with no horror elements",
+    "1": "Slight digital distortion or surreal skin textures",
+    "2": "Glitch-infused identity and uncanny pop surrealism"
+  }
+}

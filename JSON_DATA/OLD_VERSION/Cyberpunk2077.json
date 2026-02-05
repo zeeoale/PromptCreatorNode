@@ -1,0 +1,64 @@
+{
+  "EPOCHS": [
+    "Cyberpunk",
+    "Dystopian Future",
+    "High-Tech Urban"
+  ],
+  "OUTFITS": [
+    "Leather jackets with neon accents",
+    "Cybernetic-enhanced clothing",
+    "High-tech streetwear with holographic elements",
+    "Netrunner suits with glowing interfaces"
+  ],
+  "LIGHTING": [
+    "Neon glows in vibrant colors",
+    "Harsh fluorescent lights",
+    "Moody, rain-slicked street reflections",
+    "Holographic projections"
+  ],
+  "BACKGROUNDS": [
+    "Bustling Night City streets",
+    "Dilapidated megabuildings",
+    "Neon-lit alleys",
+    "High-rise corporate towers"
+  ],
+  "OBJECTS": [
+    "Cybernetic implants",
+    "Holographic billboards",
+    "Flying vehicles",
+    "Street vendor stalls"
+  ],
+  "POSES": [
+    "Confident stance with weapon drawn",
+    "Leaning against a graffiti wall",
+    "Crouched in a hacking pose",
+    "Dynamic action ready"
+  ],
+  "EXPRESSIONS": [
+    "Determined",
+    "Sarcastic smirk",
+    "Intense focus",
+    "Defiant glare"
+  ],
+  "CAMERA_ANGLES": [
+    "Low-angle shots emphasizing height",
+    "Over-the-shoulder view",
+    "Wide-angle cityscape",
+    "Close-up on cyberware"
+  ],
+  "ATMOSPHERES": [
+    "Chaotic urban energy",
+    "Dystopian grit",
+    "High-tech excitement",
+    "Noir mystery"
+  ],
+  "ACCESSORIES": [
+    "Cybernetic eyes",
+    "Neon tattoos",
+    "Tech gauntlets",
+    "Holographic visors"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low to moderate; elements of body horror from cybernetic modifications, but primarily focused on sci-fi action and dystopian themes rather than pure horror."
+  }
+}

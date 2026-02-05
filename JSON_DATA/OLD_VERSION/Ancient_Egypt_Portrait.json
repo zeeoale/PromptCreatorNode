@@ -1,0 +1,103 @@
+{
+  "EPOCHS": [
+    "Old Kingdom (pyramid age, formal canon)",
+    "New Kingdom (Ramesside richness)",
+    "Amarna (softer facial modeling)",
+    "Late Period classic revival",
+    "Ptolemaic fusion (Greek–Egyptian motifs)"
+  ],
+  "OUTFITS": [
+    "royal kalasiris gown in fine pleated linen, body-skimming high waist, gold hem embroidery",
+    "beaded net overdress (faience bead lattice) layered over a linen sheath, Ptolemaic court style",
+    "sheer ceremonial over-robe with gold-thread borders and trailing train, draped off the shoulders",
+    "gold lamé sun-pleated cape clasped at the shoulders with scarab brooches",
+    "high-slit linen skirt with jeweled belt and tassel fringe, fitted bodice with structured darts",
+    "ankle-length pleated gown with side cut-outs bridged by beadwork, conservative neckline",
+    "alabaster-white linen ensemble with metallic paneling and side lacing, festival attire",
+    "two-piece royal set: fitted corset-like bodice under a translucent capelet, bead fringe along the edge",
+    "silk-linen hybrid sheath with diagonal gold piping and lotus appliqué",
+    "column dress with layered bead fringe at bust and hips, subtle train",
+    "court mantle in shimmering gauze with embroidered cartouche border (no modern text)",
+    "linen wrap skirt with overlapping panels and gilded edging, paired with a sheer halter top",
+    "pleated goddess dress with crossed straps and central jeweled pectoral",
+    "evening kalasiris with metallic bead drapery over the shoulders and low back",
+    "floor-grazing gown with integrated vulture-wing cape motif (stylized, ceremonial)"
+  ],
+  "LIGHTING": [
+    "raking sidelight to reveal chisel marks and fabric weave",
+    "torchlit micro-flicker with warm falloff",
+    "soft bounced desert light with gentle rim",
+    "subtle specular highlights on gold leaf and faience",
+    "incense glow with thin volumetric streaks"
+  ],
+  "BACKGROUNDS": [
+    "polished limestone relief plane with crisp hieroglyphs",
+    "alabaster panel with translucent edge glow",
+    "sandstone block with faint pigment residues",
+    "papyrus scroll pattern behind shallow DOF",
+    "obsidian inlay accent behind jewelry",
+    "gold leaf cartouche field (no modern text)"
+  ],
+  "OBJECTS": [
+    "ankh pendant at collarbone",
+    "lotus flower held near face",
+    "was-sceptre tip partially in frame",
+    "alabaster unguent jar lip and stopper",
+    "scarab amulet on braided cord",
+    "papyrus reed pen and ink palette"
+  ],
+  "POSES": [
+    "three-quarter face tilt, diadem dominant",
+    "strict profile echoing relief canon",
+    "downcast gaze with lotus raised",
+    "hand to cheek showing signet ring",
+    "chin-up regal stance with collar detail",
+    "close hands in offering gesture at chest"
+  ],
+  "EXPRESSIONS": [
+    "serene and timeless",
+    "enigmatic half-smile",
+    "contemplative calm",
+    "reverent awe",
+    "quiet pride",
+    "soft benevolence"
+  ],
+  "CAMERA_ANGLES": [
+    "CLOSE-UP: 50–85mm, head-and-shoulders, shallow DOF, focus on eyes/diadem",
+    "MID CLOSE-UP: 70–105mm, face + collar + upper hands, balanced DOF for reliefs",
+    "EXTREME CLOSE-UP: 90–100mm macro, detail of eye, lips, jewelry, or hieroglyph cut"
+  ],
+  "ATMOSPHERES": [
+    "incense curls and floating dust motes",
+    "heat shimmer with warm haze",
+    "moon-cool hush with soft breath fog",
+    "temple stillness with distant echo",
+    "museum-grade clarity with fine film grain"
+  ],
+  "ACCESSORIES": [
+    "double-uraeus diadem with lapis inlay (royal cobra twins)",
+    "vulture crown variant (gold wings framing the temples) with central sun disk",
+    "Isis/Hathor headdress (stylized horns with sun disk) for high ceremony",
+    "broad wesekh collar (multi-row gold, lapis, carnelian, malachite, faience) resting over the bust",
+    "jeweled waist chain (belly chain) with gemstone drops over the kalasiris",
+    "ornamental pectoral with lotus and ankh inlays, suspended on bead strands",
+    "royal sash with long embroidered train, cartouche motifs along the edge (no modern text)",
+    "stacked gold bangles and snake upper-arm bands (coiled cobra style)",
+    "scarab signet rings and cartouche rings (seal-style, engraved)",
+    "shoulder brooches (falcon/lotus) fastening capes or veils",
+    "beaded wig with faience tubes and discreet hair rings, jeweled hair combs",
+    "gold-leaf court sandals with ankle veils and beaded anklets",
+    "ear cuffs and drop earrings in lapis and carnelian (lotus/ankh motifs)",
+    "delicate nose-to-ear chain (festival variant, tasteful and minimal)",
+    "perfume cone ornament (ritual, small and elegant) and alabaster unguent vial prop",
+    "sheer ritual veil with gold-thread hem and micro-bead tassels",
+    "jeweled belt with pendant scarab centerpiece and bead fringe",
+    "cobra diadem side-pins reinforcing the front band of the headdress"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "pure classic beauty and authenticity; no horror motifs; clean temples and calm desert light.",
+    "1": "whispered mythic presence—long shadows, faint deity silhouettes, ancient whispers; no gore.",
+    "2": "stronger supernatural charge—glowing glyphs, living statues, sacred omens; tasteful and non-graphic.",
+    "3": "cosmic awe within Egyptian canon—impossible geometry in reliefs, star-dark recesses, haloed eyes; strictly no gore or modern elements."
+  }
+}

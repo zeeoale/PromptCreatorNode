@@ -1,0 +1,62 @@
+{
+  "EPOCHS": [
+    "modern contemporary"
+  ],
+  "OUTFITS": [
+    "textured plaid fabric dress",
+    "casual layered garments with straps",
+    "worn matte textiles"
+  ],
+  "LIGHTING": [
+    "low-key diffused lighting",
+    "soft directional side light",
+    "subtle rim light through haze"
+  ],
+  "BACKGROUNDS": [
+    "dark natural surroundings",
+    "blurred stone surfaces",
+    "shadowed foliage environment"
+  ],
+  "OBJECTS": [
+    "minimal jewelry",
+    "round tinted glasses",
+    "metal piercings"
+  ],
+  "POSES": [
+    "seated pose with relaxed shoulders",
+    "slight forward lean",
+    "still posture with quiet tension"
+  ],
+  "EXPRESSIONS": [
+    "intense direct gaze",
+    "detached contemplative look",
+    "soft melancholic calm"
+  ],
+  "CAMERA_ANGLES": [
+    "slightly elevated angle",
+    "top-down close-up"
+  ],
+  "ATMOSPHERES": [
+    "humid air",
+    "soft drifting haze",
+    "quiet nocturnal stillness"
+  ],
+  "ACCESSORIES": [
+    "nose rings",
+    "chain necklaces",
+    "minimal makeup accents"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light melancholic unease",
+    "2": "dark romantic undertone without horror elements"
+  }
+}

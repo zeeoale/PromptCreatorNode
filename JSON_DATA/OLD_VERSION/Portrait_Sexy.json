@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "contemporary",
+    "futuristic",
+    "cyberpunk",
+    "vintage 50s",
+    "ancient Rome",
+    "renaissance"
+  ],
+  "OUTFITS": [
+    "low-cut latex dress",
+    "sexy low-cut dress",
+    "minimalist monochrome turtleneck",
+    "soft chiffon top",
+    "lace-detailed high collar",
+    "nothing"
+  ],
+  "LIGHTING": [
+    "soft diffused studio lighting",
+    "warm golden hour",
+    "cool neon side light",
+    "dramatic chiaroscuro",
+    "black and white classic"
+  ],
+  "BACKGROUNDS": [
+    "minimalist gray backdrop",
+    "colorful gradient",
+    "dreamy pastel clouds",
+    "textured velvet curtain",
+    "soft bokeh of blurred lights"
+  ],
+  "OBJECTS": [
+    "a single white rose",
+    "a silver pendant",
+    "crystal drop earring",
+    "a lace fan partially visible"
+  ],
+  "POSES": [
+    "looking straight into camera",
+    "chin resting on hand",
+    "gazing downward softly",
+    "head tilted slightly to the side"
+  ],
+  "EXPRESSIONS": [
+    "subtle smile",
+    "melancholic gaze",
+    "confident smirk",
+    "gentle serenity",
+    "piercing stare with kohl-lined eyes"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level medium close-up"
+  ],
+  "ATMOSPHERES": [
+    "mysterious and enchanting",
+    "romantic and nostalgic",
+    "dreamy and surreal",
+    "intimate and elegant"
+  ],
+  "ACCESSORIES": [
+    "round glasses",
+    "crystal earrings",
+    "metallic face tattoo",
+    "delicate lace choker",
+    "subtle face gems"
+  ],
+  "HORROR_INTENSITY": {
+    "Low": "with faint eerie undertones in her expression",
+    "Medium": "her eyes show a hint of unnatural knowledge, skin slightly pale",
+    "High": "subtle blood smudge on cheek, eyes glowing faintly",
+    "Extreme": "distorted facial features, black liquid tears, unsettling aura"
+  }
+}

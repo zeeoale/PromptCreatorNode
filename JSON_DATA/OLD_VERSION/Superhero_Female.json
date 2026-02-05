@@ -1,0 +1,78 @@
+{
+  "EPOCHS": [
+    "modern",
+    "futuristic",
+    "mythological",
+    "post-apocalyptic",
+    "cyberpunk"
+  ],
+  "OUTFITS": [
+    "sleek tactical low-cut bodysuit",
+    "enchanted low-cut armor",
+    "neon-glow low-cut suit",
+    "flight-ready costume",
+    "mystic cape with runes"
+  ],
+  "LIGHTING": [
+    "moonlit night",
+    "vibrant neon",
+    "electric sparks",
+    "rays of justice",
+    "chaotic firelight"
+  ],
+  "BACKGROUNDS": [
+    "skyline of futuristic city",
+    "burning temple",
+    "cybernetic lab",
+    "sacred battlefield",
+    "stormy rooftop"
+  ],
+  "OBJECTS": [
+    "energy lasso",
+    "telekinetic blade",
+    "glowing book",
+    "mystical orb"
+  ],
+  "POSES": [
+    "soaring mid-air",
+    "landing pose with fist down",
+    "protective shield stance",
+    "arms raised summoning power",
+    "elegant combat pose"
+  ],
+  "EXPRESSIONS": [
+    "confident",
+    "fierce",
+    "calm and focused",
+    "resolute",
+    "powerful smirk"
+  ],
+  "CAMERA_ANGLES": [
+    "upward hero angle",
+    "close-up of determined gaze",
+    "dramatic side light",
+    "overhead action shot",
+    "low angle with wind-blown cape",
+    "half-length portrait",
+    "close-up portrait"
+  ],
+  "ATMOSPHERES": [
+    "electrifying battle",
+    "ethereal serenity",
+    "gritty vengeance",
+    "rising rebellion",
+    "suspense before the strike"
+  ],
+  "ACCESSORIES": [
+    "tech visor",
+    "glowing bracelets",
+    "enchanted earrings",
+    "symbolic necklace",
+    "combat boots with jet boosters"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "heroic elegance",
+    "medium": "mystic powers with dark edges",
+    "high": "haunted heroine fighting inner demons"
+  }
+}

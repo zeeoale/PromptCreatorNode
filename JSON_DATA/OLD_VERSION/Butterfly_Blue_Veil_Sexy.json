@@ -1,0 +1,78 @@
+{
+  "EPOCHS": [
+    "Timeless",
+    "Modern Fantasy",
+    "Victorian",
+    "Futuristic Dream"
+  ],
+  "OUTFITS": [
+    "blue sexy lingerie",
+    "blue sexy latex lingerie",
+    "blue sexy low-cut latex dress"
+  ],
+  "LIGHTING": [
+    "Moonlit",
+    "Bioluminescent glow",
+    "Soft blue haze",
+    "Backlit with stardust"
+  ],
+  "BACKGROUNDS": [
+    "Deep forest at dusk",
+    "Floating petals in mist",
+    "Starry night sky",
+    "Ancient mirror hall",
+    "Enchanted garden"
+  ],
+  "OBJECTS": [
+    "Butterflies",
+    "Blue roses",
+    "Floating lights",
+    "Crystals",
+    "Feathers",
+    "Lanterns",
+    "Pearls"
+  ],
+  "POSES": [
+    "Close-up with closed eyes",
+    "Face partially hidden by veil",
+    "close embrace",
+    "forehead touching",
+    "one girl on tiptoes",
+    "hands on cheeks",
+    "holding hands while kissing",
+    "Looking over shoulder",
+    "Head surrounded by flowers",
+    "Profile with butterfly on lips"
+  ],
+  "EXPRESSIONS": [
+    "Serene",
+    "Enigmatic",
+    "Melancholic",
+    "Ethereal",
+    "Dreamlike"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up portrait",
+    "eye-level medium close-up"
+  ],
+  "ATMOSPHERES": [
+    "Mystical",
+    "Romantic surrealism",
+    "Melancholy elegance",
+    "Harmonic fantasy",
+    "Silent wonder"
+  ],
+  "ACCESSORIES": [
+    "Butterfly crown",
+    "Crystal necklace",
+    "Veil with embroidery",
+    "Star earrings",
+    "Luminous forehead gem"
+  ],
+  "HORROR_INTENSITY": {
+    "none": 1.0,
+    "low": 0.3,
+    "medium": 0.0,
+    "high": 0.0
+  }
+}

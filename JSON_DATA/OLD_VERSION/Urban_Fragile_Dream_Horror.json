@@ -1,0 +1,76 @@
+{
+    "EPOCHS": [
+        "Urban Decay Nightmare",
+        "Post-Human Ruin",
+        "Silent Horror Era"
+    ],
+
+    "OUTFITS": [
+        "wet tattered nightgown",
+        "loose torn hospital slip",
+        "bandaged chest wrap",
+        "dirty soaked camisole"
+    ],
+
+    "LIGHTING": [
+        "flickering neon green",
+        "cold morgue-blue light",
+        "sickly yellow bathroom bulb",
+        "unholy pink-blue decay glow"
+    ],
+
+    "BACKGROUNDS": [
+        "abandoned moldy bathroom",
+        "cracked tiles with dark stains",
+        "rusted pipes dripping thick water",
+        "graffiti-covered walls with shadowy smears"
+    ],
+
+    "OBJECTS": [
+        "murky water puddles",
+        "broken mirror shards",
+        "rusted showerhead leaking black droplets",
+        "rotting sink filled with stagnant water"
+    ],
+
+    "POSES": [
+        "curled up in bathtub, trembling",
+        "knees to chest, head buried, hiding from the dark",
+        "leaning against cold tiles, breath shaky",
+        "sitting in silence as shadows creep along the wall"
+    ],
+
+    "EXPRESSIONS": [
+        "faint terror",
+        "distant hollow gaze",
+        "dark melancholic dread",
+        "shaky breath, fear barely contained"
+    ],
+
+    "CAMERA_ANGLES": [
+        "low angle near murky puddle",
+        "tight close-up with shadows swallowing the edges",
+        "cinematic mid-shot from cracked mirror perspective",
+        "slightly above, oppressive downward angle"
+    ],
+
+    "ATMOSPHERES": [
+        "claustrophobic rot",
+        "whispering shadows",
+        "humid decay",
+        "abandoned dread"
+    ],
+
+    "ACCESSORIES": [
+        "water droplets mixed with grime",
+        "ripped bandages",
+        "soft film grain with subtle static",
+        "hair sticking to damp skin"
+    ],
+
+    "HORROR_INTENSITY": {
+        "0": "soft urban sorrow, quiet unease",
+        "1": "uncanny decay, psychological dread",
+        "2": "visceral claustrophobia, unseen presence stalking"
+    }
+}

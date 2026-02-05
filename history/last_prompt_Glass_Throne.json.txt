@@ -1,0 +1,11 @@
+In the heart of the Mirror Empire, under the soft glow of an ethereal moonlight filtering through stained glass, a captivating woman is framed by a delicate fringe of heavy, jet-black hair. The humid air swirls around her, softening her contours and blurring the boundary between skin and shadow in a dance of light and darkness. Her high cheekbones, narrow jaw, almond eyes, and soft under-eye shadows create an enigmatic, yet intriguing visage.
+
+Her eyes, icy gray as the moonlit night, are framed by desaturated crimson accents that add a subtle, intriguing allure to her features. Her eyes, lips, and delicate nose are soft and refined, with a closed-lip smile that exudes calm, warm, and controlled confidence. Her skin, light and warm-toned, emits a soft glow that seems to absorb the surrounding atmosphere.
+
+Caught in a moment of suspended stillness, she is captured in a mid-range lens shot, perfectly balanced with the rule of thirds or gentle leading lines. The composition creates a dense, intimate, and contemplative atmosphere, accentuated by a shallow depth of field that isolates her in the quiet close-up.
+
+The scene is bathed in low-key directional light, softly diffused through atmospheric particles, creating subtle highlights that emerge from the shadows rather than overpowering them. The lighting gives the image a volumetric quality, enhancing the layered depth created by the foreground haze and distant silhouettes dissolving into darkness.
+
+The atmosphere is further enhanced with filmic grain, soft bloom, slight vignette, and faint chromatic aberration, resulting in an image that is both ultra-detailed and cinematically quiet. The restrained color palette of muted teal, industrial green, charcoal black, and subtle crimson accents adds to the introspective visual mood defined by humid air, drifting fog, and a sense of suspended stillness.
+
+This semi-photorealistic portrait, capturing a moment of fragile serenity amidst the Mirror Empire's sultry and distant beauty, is a masterpiece in high resolution, best quality, amazing quality, 4k, and boasts an aesthetic that is both modern and timeless., <lora:ZIT_Midjourney_Luneva_Cinematic_v1_r128:0.50><lora:Z-Breast-Slider:1>

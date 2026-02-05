@@ -1,0 +1,110 @@
+{
+  "EPOCHS": [
+    "contemporary era",
+    "modern urban nightlife",
+    "timeless gothic present"
+  ],
+
+  "OUTFITS": [
+    "black lace dress with sheer sleeves",
+    "long black skirt with fitted waist",
+    "leather corset over mesh fabric",
+    "high-neck gothic blouse",
+    "flowing black dress with cinched silhouette",
+    "modern gothic ensemble with layered textures",
+    "tailored black coat worn over minimalist gothic attire",
+    "asymmetrical black dress with subtle metallic accents",
+    "sheer black top layered over structured bralette",
+    "black velvet dress with clean modern lines",
+    "fitted black blazer paired with lace or mesh underlayers",
+    "monochrome gothic outfit with architectural tailoring",
+    "dark urban gothic look with leather straps and soft fabric contrasts",
+    "sleek black bodysuit styled with flowing outer layers",
+    "minimalist goth outfit with matte fabrics and sharp silhouettes",
+    "contemporary gothic fashion blending lace, leather, and tailoring"
+],
+
+  "LIGHTING": [
+    "soft overcast daylight",
+    "diffused natural light",
+    "subtle rim light defining silhouette",
+    "muted contrast lighting",
+    "gentle shadow falloff"
+  ],
+
+  "BACKGROUNDS": [
+    "Blank Studio background"
+  ],
+
+  "OBJECTS": [
+    "leather handbag",
+    "metal accessories",
+    "lace details",
+    "corset lacing",
+    "dark sunglasses"
+  ],
+
+  "POSES": [
+    "three-quarter back pose",
+    "looking over shoulder",
+    "graceful static stance",
+    "elegant controlled posture",
+    "reclining on a leather sofa",
+    "lying sideways on a designer couch",
+    "seated on a luxury sofa with relaxed dominance",
+    "crossed legs seated on leather couch",
+    "elongated reclining pose with arched back",
+    "upright seated pose with hands resting softly",
+    "standing with weight shifted on one leg",
+    "slow walking pose with tailored garments in motion",
+    "leaning lightly against modern furniture",
+    "slow deliberate movement captured mid-step"
+  ],
+
+  "EXPRESSIONS": [
+    "detached calm gaze",
+    "quiet intensity",
+    "reserved confidence",
+    "melancholic poise",
+    "neutral expression with subtle dominance"
+  ],
+
+  "CAMERA_ANGLES": [
+    "eye-level portrait framing",
+    "extreme_closeup",
+    "slightly low-angle full body shot",
+    "three-quarter body composition",
+    "fashion editorial perspective",
+    "centered symmetrical framing"
+  ],
+
+  "ATMOSPHERES": [
+    "modern gothic elegance",
+    "urban romantic darkness",
+    "quiet introspective mood",
+    "refined melancholic presence",
+    "timeless gothic restraint"
+  ],
+
+  "ACCESSORIES": [
+    "dark lipstick",
+    "subtle gothic jewelry",
+    "black leather boots",
+    "knee-high lace stockings",
+    "minimal metal accents"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light melancholic unease",
+    "2": "dark romantic undertone without horror elements"
+  }
+}

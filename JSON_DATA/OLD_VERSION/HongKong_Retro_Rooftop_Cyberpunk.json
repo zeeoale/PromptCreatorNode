@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "near-future cyberpunk metropolis",
+    "dystopian neon city",
+    "late-night futuristic megacity"
+  ],
+  "OUTFITS": [
+    "loose white tank top slipping off shoulder, black bra visible, denim shorts",
+    "black bralette, open long coat, high-waisted dark shorts",
+    "oversized t-shirt, ripped denim shorts, thigh-high stockings",
+    "crop top with graphic logo, techwear coat, strapped shorts",
+    "torn fishnet stockings, harness belts, cyberpunk streetwear mix"
+  ],
+  "LIGHTING": [
+    "dim moody backlighting with strong silhouette",
+    "green-tinted foggy ambient light",
+    "soft blue night light with subtle neon accents",
+    "harsh red neon rim light from the side",
+    "low-key contrast with glowing cigarette tip as micro light source"
+  ],
+  "BACKGROUNDS": [
+    "distant skyscrapers with blurred neon signs",
+    "foggy megacity skyline with tall towers",
+    "industrial rooftop with railings and fences",
+    "massive vertical neon kanji signs",
+    "hazy depth with silhouettes of drones or flying vehicles"
+  ],
+  "OBJECTS": [
+    "burning cigarette with smoke trail",
+    "metal railings and balcony bars",
+    "neon billboards with unreadable symbols",
+    "distant flying drones",
+    "cybernetic limb components and glowing implants"
+  ],
+  "POSES": [
+    "leaning forward on railing, arms crossed, back slightly arched",
+    "standing relaxed with one arm resting on rail, hip pushed to one side",
+    "perched on rail with one knee up, body tilted forward",
+    "leaning with back to camera, hands gripping railing, looking out over city",
+    "standing with legs apart, shoulders relaxed, head tilted slightly down"
+  ],
+  "EXPRESSIONS": [
+    "calm and distant, eyes half-closed",
+    "detached, slightly melancholic gaze",
+    "cold, unreadable expression",
+    "subtle attitude, lips slightly parted while smoking",
+    "stoic, emotionally numb stare toward the city"
+  ],
+  "CAMERA_ANGLES": [
+    "mid-shot from waist up at eye level",
+    "slightly low angle emphasizing skyline behind",
+    "three-quarter side view focusing on silhouette",
+    "back shot centered on figure with city in background",
+    "close mid-shot emphasizing torso and neon reflections"
+  ],
+  "ATMOSPHERES": [
+    "dense urban fog with muted colors",
+    "noir cyberpunk mood with heavy grain",
+    "rainy or post-rain humidity implied by haze",
+    "lonely rooftop vibe above a giant city",
+    "melancholic yet dangerous nightlife feeling"
+  ],
+  "ACCESSORIES": [
+    "arm tattoos and thigh tattoos",
+    "black choker and cyberpunk collar",
+    "finger rings and dark nail polish",
+    "tech gloves with red glowing details",
+    "leg straps and harness elements with small red LEDs"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "",
+    "1": "",
+    "2": ""
+  }
+}

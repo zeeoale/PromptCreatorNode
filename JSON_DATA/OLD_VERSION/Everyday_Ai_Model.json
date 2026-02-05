@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "Contemporary",
+    "Modern fashion",
+    "2020s aesthetics"
+  ],
+  "OUTFITS": [
+    "Black satin dress",
+    "Silk robe and glasses",
+    "Casual jeans and crop top",
+    "Elegant office attire",
+    "Flowy floral summer dress",
+    "Simple lingerie with light robe"
+  ],
+  "LIGHTING": [
+    "Natural window light",
+    "Soft studio lighting",
+    "Golden hour light",
+    "Indoor ambient light"
+  ],
+  "BACKGROUNDS": [
+    "Minimalist apartment",
+    "Fashion photo studio",
+    "Urban balcony",
+    "Elegant living room",
+    "Modern bathroom with mirror",
+    "Art gallery room"
+  ],
+  "OBJECTS": [
+    "White rose",
+    "Reading glasses",
+    "Necklace and earrings",
+    "Sketchbook",
+    "Cup of coffee"
+  ],
+  "POSES": [
+    "Standing by a window",
+    "Sitting on a couch, relaxed",
+    "Looking over shoulder",
+    "Lying on bed, head tilted",
+    "Holding a flower close to face",
+    "Adjusting glasses with one hand"
+  ],
+  "EXPRESSIONS": [
+    "Calm and confident",
+    "Slight smile",
+    "Sultry glance",
+    "Thoughtful and soft",
+    "Eyes wide open and focused"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up portrait",
+    "Three-quarter view",
+    "Over-the-shoulder shot",
+    "Medium shot from waist up",
+    "Top-down relaxed angle"
+  ],
+  "ATMOSPHERES": [
+    "Casual elegance",
+    "Modern femininity",
+    "Quiet intimacy",
+    "Natural beauty",
+    "Soft confidence"
+  ],
+  "ACCESSORIES": [
+    "Silver jewelry",
+    "Pearl earrings",
+    "Framed glasses",
+    "Delicate bracelets"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None — clean, realistic aesthetic",
+    "1": "Not applicable",
+    "2": "Not applicable"
+  }
+}

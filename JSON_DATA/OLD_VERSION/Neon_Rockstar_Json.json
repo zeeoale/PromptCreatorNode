@@ -1,0 +1,66 @@
+{
+  "EPOCHS": [
+    "1980s",
+    "Retro-Futuristic",
+    "Modern Rock Era"
+  ],
+  "OUTFITS": [
+    "leather jacket with studs",
+    "torn fishnet tights",
+    "crop top with neon print",
+    "tight metallic pants",
+    "fingerless gloves"
+  ],
+  "LIGHTING": [
+    "purple neon glow",
+    "blue backlight",
+    "streetlight reflections",
+    "concert spotlight",
+    "ambient nightclub lighting"
+  ],
+  "BACKGROUNDS": [
+    "empty city alley",
+    "abandoned concert stage",
+    "graffiti-covered wall",
+    "vintage recording studio",
+    "rainy urban street"
+  ],
+  "OBJECTS": [
+    "electric guitar",
+    "vintage microphone",
+    "vinyl records",
+    "cigarette smoke spiral",
+    "cracked mirror"
+  ],
+  "POSES": [
+    "leaning against a wall with guitar",
+    "singing with closed eyes",
+    "posing defiantly with one hand on hip",
+    "sitting on an amplifier"
+  ],
+  "EXPRESSIONS": [
+    "seductive gaze",
+    "melancholic look",
+    "fiery determination",
+    "introspective"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle close-up",
+    "side profile with light flares",
+    "dutch tilt",
+    "top-down shot"
+  ],
+  "ATMOSPHERES": [
+    "emotional intensity",
+    "rebellious vibe",
+    "romantic nostalgia",
+    "electric sensuality"
+  ],
+  "ACCESSORIES": [
+    "choker with silver pendant",
+    "piercings",
+    "guitar pick necklace",
+    "stacked bracelets"
+  ],
+  "HORROR_INTENSITY": {}
+}

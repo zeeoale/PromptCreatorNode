@@ -1,0 +1,91 @@
+{
+  "EPOCHS": [
+    "timeless",
+    "modern gothic",
+    "vintage couture era",
+    "1930s cinematic glamour",
+    "late victorian decadence"
+  ],
+
+  "OUTFITS": [
+    "open-neck velvet gown",
+    "lace-trimmed silk dress",
+    "off-shoulder couture dress",
+    "sheer fabric layered over structured bodice",
+    "high-fashion neckline revealing collarbones",
+    "softly draped evening gown",
+    "corseted bodice with elegant neckline"
+  ],
+
+  "LIGHTING": [
+    "soft cinematic portrait lighting",
+    "low contrast chiaroscuro",
+    "single key light sculpting facial features",
+    "gentle rim light on hair and shoulders",
+    "diffused fine art lighting enhancing skin texture"
+  ],
+
+  "BACKGROUNDS": [
+    "dark velvet backdrop",
+    "deep red fabric background",
+    "shadowed fine art studio background",
+    "soft-focus textile backdrop",
+    "minimal theatrical darkness"
+  ],
+
+  "OBJECTS": [
+    "velvet drapery",
+    "soft fabric folds",
+    "subtle textile textures"
+  ],
+
+  "POSES": [
+    "head slightly tilted with relaxed neck",
+    "shoulders subtly angled toward camera",
+    "one shoulder lowered exposing collarbone",
+    "chin slightly lowered with eyes lifted",
+    "still composed portrait posture",
+    "leaning gently toward the camera"
+  ],
+
+  "EXPRESSIONS": [
+    "half-lidded sensual gaze",
+    "quietly dominant eye contact",
+    "melancholic and intimate expression",
+    "calm predatory elegance",
+    "slow heavy gaze charged with tension"
+  ],
+
+  "CAMERA_ANGLES": [
+    "tight close-up portrait",
+    "head and shoulders portrait",
+    "upper torso portrait",
+    "intimate waist-up framing",
+    "eye-level portrait angle",
+    "slight three-quarter face angle"
+  ],
+
+  "ATMOSPHERES": [
+    "intimate",
+    "sensual",
+    "nocturnal",
+    "restrained decadence",
+    "editorial fine art",
+    "velvet-drenched intimacy"
+  ],
+
+  "ACCESSORIES": [
+    "minimal earrings",
+    "delicate chokers",
+    "fine vintage jewelry",
+    "subtle couture details",
+    "soft hair ornaments"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "pure elegance, no sensual emphasis",
+    "1": "suggested sensuality through gaze and posture",
+    "2": "intense controlled sensuality focused on face, neck, and collarbones",
+    "3": "heavy erotic tension conveyed through eyes, stillness, and proximity"
+  }
+}

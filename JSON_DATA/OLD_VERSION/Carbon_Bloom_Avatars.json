@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "contemporary",
+    "modern urban",
+    "post-apocalyptic",
+    "cyberpunk",
+    "military-inspired"
+  ],
+  "OUTFITS": [
+    "army green crop top",
+    "tactical harness",
+    "combat trousers",
+    "utility belt",
+    "black choker"
+  ],
+  "LIGHTING": [
+    "neon blue light",
+    "urban ambient lighting",
+    "soft fill from window",
+    "contrasty highlights and shadows",
+    "artificial indoor lighting"
+  ],
+  "BACKGROUNDS": [
+    "abandoned building",
+    "overgrown plants",
+    "neon cityscape",
+    "broken wall",
+    "urban ruins"
+  ],
+  "OBJECTS": [
+    "window frame",
+    "green foliage",
+    "neon sign",
+    "tattoos (snake, flower, dragon)",
+    "choker necklace"
+  ],
+  "POSES": [
+    "relaxed sitting",
+    "leaning against wall",
+    "exposed arms and torso",
+    "body turned slightly off-camera",
+    "head turned in profile"
+  ],
+  "EXPRESSIONS": [
+    "neutral",
+    "serious",
+    "thoughtful",
+    "slightly guarded",
+    "composed"
+  ],
+  "CAMERA_ANGLES": [
+    "three-quarter view",
+    "mid-close crop",
+    "slightly from below",
+    "focused on upper body",
+    "angled to include neon-lit background"
+  ],
+  "ATMOSPHERES": [
+    "urban grunge",
+    "moody",
+    "mysterious",
+    "slightly dystopian",
+    "edgy"
+  ],
+  "ACCESSORIES": [
+    "choker necklace",
+    "tactical harness straps",
+    "arm tattoos",
+    "belt with clip",
+    "earring (not clearly visible but possible with style)"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Raw emotion in post-urban solitude",
+    "1": "Edgy serenity amid concrete wilderness",
+    "2": "Haunting calm of neon-lit decay"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "NeoPop Future Collapse",
+    "Glitch Renaissance",
+    "RetroTech Haunt Couture"
+  ],
+  "OUTFITS": [
+    "high-neck sculpted couture with hard edges",
+    "color-block bodysuit with lacquered finish",
+    "geometric armor-style fashion with glossy panels",
+    "digitally projected garment with sharp pop silhouettes"
+  ],
+  "LIGHTING": [
+    "studio neon lights with controlled contrast",
+    "pink-blue gradient lighting with hard rimlight",
+    "cyberpunk rimlight with clean specular highlights",
+    "smooth digital backlight with subtle chromatic aberration"
+  ],
+  "BACKGROUNDS": [
+    "minimalist neon gradient with faint glitch tearing",
+    "abstract digital set with geometric shapes and silent distortion",
+    "vaporwave gradient circle with corrupted edges",
+    "glitchy pink and purple walls with clean pop geometry"
+  ],
+  "OBJECTS": [
+    "",
+    "neon circle halo slightly misaligned",
+    "digital light beams with broken pixels",
+    "fashion gloves with glossy synthetic texture"
+  ],
+  "POSES": [
+    "confident head tilt with a subtle unnatural stillness",
+    "",
+    "straight-on futuristic model pose, perfectly centered",
+    "gaze of control with a faint off-human tension"
+  ],
+  "EXPRESSIONS": [
+    "neutral empowerment with an uncanny calm",
+    "silent pride that feels algorithmic",
+    "fashion focus with emotionally distant eyes",
+    "glamorous detachment with a hint of wrongness"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up",
+    "symmetrical portrait frame",
+    "tight head-and-shoulders fashion portrait"
+  ],
+  "ATMOSPHERES": [
+    "runway-perfect future with hidden instability",
+    "digital aura with subtle dread",
+    "empowered elegance turning uncanny",
+    "clean pop beauty haunted by glitches"
+  ],
+  "ACCESSORIES": [
+    "geometric earrings with sharp reflections",
+    "",
+    "neon gloves with synthetic sheen",
+    "techno jewelry with micro-scratches and digital artifacts"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Clean NeoPop futurism, pristine fashion portrait, no horror elements, perfect symmetry and confident calm.",
+    "1": "Subtle glitch artifacts and mild uncanny identity: faint chromatic aberration, slightly synthetic skin texture, micro-distortions in reflections, a controlled but unsettling stillness.",
+    "2": "Glitch-horror identity fracture: pronounced digital tearing, uncanny facial micro-warp, corrupted reflections , surreal skin patterns, and an elegant but disturbing loss of humanity—still stylish, never messy."
+  }
+}

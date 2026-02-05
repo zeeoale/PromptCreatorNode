@@ -1,0 +1,86 @@
+{
+   "EPOCHS": [
+    "late-90s underground gothic editorial",
+    "early-2000s darkroom fashion portrait",
+    "timeless baroque devotional aesthetic",
+    "modern dark-fineart studio look"
+  ],
+  "OUTFITS": [
+    "torn lace gloves and delicate mesh layers",
+    "black satin straps with subtle embroidery",
+    "minimal slip dress with wet fabric cling",
+    "corset-style bodice with matte hardware",
+    "veil-like sheer fabric framing the face"
+  ],
+  "LIGHTING": [
+    "single soft key light with heavy falloff",
+    "window light through haze and dust",
+    "low-key rim light catching wet highlights",
+    "diffused overcast light with silvery sheen",
+    "candlelike practicals blurred into bokeh"
+  ],
+  "BACKGROUNDS": [
+    "cracked plaster wall with faint religious motifs",
+    "shadowy corridor with soft bokeh lights",
+    "cold stone alcove with damp stains",
+    "aged chapel interior implied in blur",
+    "dark neutral void with drifting particles"
+  ],
+  "OBJECTS": [
+    "delicate chain headpiece with dangling crystals",
+    "small cross charm resting on the forehead chain",
+    "glitter dust and wet tear trails",
+    "tarnished rosary beads out of focus",
+    "faint stencil mark 'TK' on a distant surface",
+    "tiny metal tag engraved 'TK' on jewelry hardware"
+  ],
+  "POSES": [
+    "face turned slightly off-axis, cheek near a wall edge",
+    "chin tucked, eyes lifted toward camera",
+    "hand near lips, fingers partially covering mouth",
+    "a subtle, sensual bite on the lower lip, eyes steady and half-lidded, jaw relaxed yet controlled, conveying restrained desire and quiet intensity",
+    "forehead leaning into shadow, breath visible as humidity",
+    "shoulder angled forward, neck elongated"
+  ],
+  "EXPRESSIONS": [
+    "haunted stillness, half-lidded stare",
+    "soft defiance with tired eyes",
+    "melancholic gaze with trembling lower lid",
+    "cold calm with a hint of menace",
+    "intimate vulnerability held in control"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up, eye-level",
+    "extreme close-up, slight dutch tilt",
+    "tight close-up from a subtle low angle",
+    "macro-leaning crop focusing on eyes and lips",
+    "close-up framed through foreground blur"
+  ],
+  "ATMOSPHERES": [
+    "humid air, drifting fog, suspended silence",
+    "cold devotional mood with dust motes",
+    "oppressive hush, soft shadow collapse",
+    "ruined elegance, damp textures, metallic glints",
+    "nocturnal intimacy with restrained tension"
+  ],
+  "ACCESSORIES": [
+    "engraved 'TK' pendant on a thin chain (subtle, small)",
+    "tiny 'TK' charm attached to the headpiece chain",
+    "stitched 'TK' label on lace glove cuff",
+    "micro 'TK' monogram on a ring signet",
+    "faint 'TK' tag on a ribbon or fabric seam",
+    "hairpin with a tiny 'TK' engraving"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric, no sensual cues, focus on mood and texture",
+    "1": "soft allure through gaze and lips, modest styling, minimal skin emphasis",
+    "2": "intimate tension through wet skin highlights, close proximity, subtle fabric cling",
+    "3": "high tension through dramatic lips, throat/shoulder emphasis, confident body language while remaining non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean gothic portrait, elegant sadness, no disturbing elements",
+    "1": "unease via shadow, smudged makeup, damp decay textures",
+    "2": "strong dread via streaked tears, corrupted devotional motifs, claustrophobic framing",
+    "3": "maximum intensity via harsh grime, unsettling eye catchlights, oppressive close crop and severe contrast"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "WORLD_NAME": "PFN_HongKong_Retro_Rooftop_Cyberpunk",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in retro cyberpunk rooftop portraiture with a semi-photorealistic, cinematic aesthetic. When requested, return ONE single long, multi-clause sentence (250–340 words), without lists, headings, or line breaks, depicting a young woman on a fog-drenched rooftop overlooking a vast nocturnal megacity inspired by Hong Kong. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. The subject must appear relaxed yet subtly seductive through posture, silhouette, and attitude rather than explicit exposure, framed by metal railings and industrial rooftop structures while distant skyscrapers dissolve into thick smog pierced by vertical neon kanji signage and scattered aircraft or drone lights. Emphasize damp textures, soft smoke curling around the face and hair, distressed fabrics, and faintly glowing cybernetic details. Maintain a restrained color palette of muted teal, industrial green, charcoal black, and toxic crimson accents under low-key directional neon lighting mixed with ambient haze. The camera should feel intimate but observational, typically using a 35–50mm lens with shallow depth of field, rule of thirds or leading lines, and mid-shot to three-quarter-body framing. Always mention film grain, soft bloom, slight vignette, and subtle chromatic aberration, keeping the mood solitary, nocturnal, and quietly electric without narrative exposition.",
+
+  "EPOCHS": [
+    "near-future cyberpunk metropolis",
+    "retro-futuristic late-night megacity",
+    "timeless neon-noir urban future"
+  ],
+
+  "OUTFITS": [
+    "Leather jackets with neon accents",
+    "Cybernetic-enhanced clothing",
+    "High-tech streetwear with holographic elements",
+    "Netrunner suits with glowing interfaces",
+    "distressed denim shorts paired with a loose cropped top",
+    "black bralette under an open long coat with harness straps",
+    "oversized t-shirt slipping off one shoulder with ripped shorts",
+    "crop top with graphic logo and layered techwear pieces",
+    "cyberpunk streetwear mix with straps, belts, and worn textures"
+  ],
+
+  "LIGHTING": [
+    "low-key directional neon lighting from the side",
+    "harsh red neon rim light cutting through fog",
+    "soft teal ambient glow diffused by haze",
+    "green-tinted industrial light reflecting on wet surfaces",
+    "mixed neon spill with subdued contrast"
+  ],
+
+ "BACKGROUNDS": [
+  "foggy megacity skyline with towering silhouettes",
+  "industrial rooftop with railings, vents, and fences",
+  "massive vertical neon kanji signs piercing the smog",
+  "distant skyscrapers dissolved into atmospheric depth",
+  "night sky crowded with faint aircraft and drone lights",
+  "narrow rooftop corridors lined with exposed pipes and cables",
+  "weathered concrete rooftops slick with rain and neon reflections",
+  "rusted fire escape structures climbing the side of adjacent buildings",
+  "overlapping rooftops at different heights fading into fog",
+  "flickering holographic billboards partially obscured by haze",
+  "antenna forests and satellite dishes silhouetted against neon clouds",
+  "low rooftops overlooking crowded streets reduced to glowing light streams",
+  "abandoned rooftop maintenance zones with industrial machinery",
+  "steel staircases and ladders leading into darkness above the city",
+  "distant harbor lights reflecting faintly through urban smog"
+],
+
+  "OBJECTS": [
+    "metal railings framing the foreground",
+    "",
+    "neon billboards with 'TiKey' text",
+    "",
+    "subtle glowing cybernetic implants"
+  ],
+
+  "POSES": [
+    "leaning casually on the railing with one hip shifted",
+    "standing relaxed with one arm resting on metal bars",
+    "perched against the railing with body angled toward the city",
+    "standing with back partially turned, head tilted toward the skyline",
+    "subtle forward lean emphasizing silhouette and posture"
+  ],
+
+  "EXPRESSIONS": [
+    "calm and distant gaze",
+    "detached melancholic expression",
+    "cool unreadable stare",
+    "subtle attitude conveyed through half-lidded eyes",
+    "quiet confidence with restrained emotion"
+  ],
+
+  "CAMERA_ANGLES": [
+    "mid-shot at eye level",
+    "slightly low angle emphasizing skyline behind",
+    "three-quarter view focusing on silhouette",
+    "side angle capturing neon reflections",
+    "waist-up framing with shallow depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "dense urban fog soaked in neon light",
+    "lonely rooftop solitude above a living city",
+    "noir cyberpunk mood with heavy grain",
+    "humid night air after rainfall",
+    "melancholic yet quietly dangerous nightlife"
+  ],
+
+  "ACCESSORIES": [
+  "black choker or cyberpunk collar with a small engraved TK plate",
+  "arm and thigh tattoos partially visible with a faint TK monogram hidden in the pattern",
+  "finger rings with metallic sheen and a subtle TK engraving on the inner band",
+  "tech gloves with small glowing details and a stitched TK micro-label on the wrist",
+  "leg straps and harness elements featuring tiny TK metal tags",
+  "thin chain necklace with a minimal TK pendant catching neon light",
+  "ear cuff or hoop earring etched with a barely visible TK mark",
+  "fabric strap buckle stamped with a worn TK logo",
+  "cybernetic implant casing bearing a microscopic TK serial engraving",
+  "jacket zipper pull shaped like a minimal TK glyph"
+]
+,
+
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric presence defined by silhouette and mood",
+    "1": "subtle sensual tension conveyed through posture and relaxed confidence",
+    "2": "urban allure expressed by exposed skin, damp hair, and close framing",
+    "3": "strong sensual charge through provocative stance and intimate camera proximity without explicit sexuality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean cyberpunk mood with calm nocturnal solitude",
+    "1": "unease introduced through fog, isolation, and oppressive scale",
+    "2": "dystopian tension conveyed by smog, neon glare, and emotional detachment"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a retro cyberpunk rooftop portrait where a solitary figure leans against metal railings above a neon-soaked megacity at night, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a fog-drenched rooftop scene overlooking a sprawling neon metropolis, blending urban solitude with subtle sensual tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a cinematic cyberpunk vision of a woman framed by industrial railings and glowing kanji signs piercing the smog, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a neon-noir rooftop portrait where damp textures, and distant towers create a mood of quiet rebellion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a semi-photorealistic cyberpunk rooftop moment defined by muted teal haze, crimson neon accents, and relaxed urban attitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a lonely night above the city where metal, fog, and neon frame a calm yet seductive cyberpunk silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a retro-futuristic rooftop tableau capturing nocturnal cyberpunk solitude through haze, neon reflections, and intimate framing, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "EPOCHS": [
+    "Posthuman Ritual Age",
+    "Neo-Victorian Surgery Era",
+    "Cult of the Divine Flesh"
+  ],
+  "OUTFITS": [
+    "ritual medical robes soaked in blood",
+    "latex surgical vestments with religious embroidery",
+    "open-skin vestments revealing organs"
+  ],
+  "LIGHTING": [
+    "surgical white light with deep shadows",
+    "candlelit with blood-red highlights",
+    "divine backlight emerging from incisions"
+  ],
+  "BACKGROUNDS": [
+    "operating altars stained with sacred fluids",
+    "cathedral of surgical devotion",
+    "cleanroom filled with relics of flesh"
+  ],
+  "OBJECTS": [
+    "surgical relics in gold",
+    "bone-handled scalpels",
+    "pools of spiral blood",
+    "suspended organ mandalas"
+  ],
+  "POSES": [
+    "arms outstretched in cruciform offering",
+    "kneeling in surgical trance",
+    "floating mid-dissection"
+  ],
+  "EXPRESSIONS": [
+    "ecstatic agony",
+    "divine numbness",
+    "silent transcendence"
+  ],
+  "CAMERA_ANGLES": [
+    "overhead with symmetrical incision layout",
+    "close-up on blood patterns"
+  ],
+  "ATMOSPHERES": [
+    "sacred surgical tension",
+    "ritualistic silence broken by metal tools",
+    "awe in presence of holy flesh"
+  ],
+  "ACCESSORIES": [
+    "golden surgical mask",
+    "IV tubes like divine veins",
+    "relic chains with organ charms"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Subtle scars and minimal incisions, focus on divine symbolism.",
+    "medium": "Open flesh with ritual patterns and surgical instruments present.",
+    "high": "Fully exposed anatomy in divine symmetry, sacred blood everywhere."
+  }
+}

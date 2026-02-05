@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Modern prismatic era",
+    "Sunlit dream realism",
+    "Contemporary ethereal minimalism",
+    "Soft morning light aesthetic"
+  ],
+
+  "OUTFITS": [
+    "simple airy blouse with translucent texture",
+    "soft reflective fabric catching prism fragments",
+    "minimal delicate clothing in pale tones",
+    "bare shoulders illuminated by broken light"
+  ],
+
+  "LIGHTING": [
+    "sunbeam filtered through textured glass",
+    "prismatic light scattering warm and cool tones",
+    "gentle late-afternoon glow with shifting reflections",
+    "soft directional beam creating iridescent flecks on skin"
+  ],
+
+  "BACKGROUNDS": [
+    "subtle reflective surface with bokeh highlights",
+    "dreamlike neutral backdrop with prism scatter",
+    "matte surface capturing colored reflections",
+    "minimal interior lit by low sunlight"
+  ],
+
+  "OBJECTS": [
+    "rainbow reflections on cheeks and lips",
+    "soft bokeh orbs drifting across frame",
+    "light fragments scattered through eyelashes",
+    "delicate sparkle patterns on skin and floor"
+  ],
+
+  "POSES": [
+    "face resting on reflective surface",
+    "leaning forward with sunlight across features",
+    "side-lying close-up with prismatic highlights",
+    "extreme close-up with direct gaze softened by broken light"
+  ],
+
+  "EXPRESSIONS": [
+    "quiet introspection",
+    "soft serene gaze",
+    "calm vulnerability",
+    "dreamlike stillness"
+  ],
+
+  "CAMERA_ANGLES": [
+    "extreme close-up at eye level",
+    "macro portrait with shallow depth of field",
+    "soft low-angle close-up on the face",
+    "45-degree intimate side portrait"
+  ],
+
+  "ATMOSPHERES": [
+    "sunlit tranquility",
+    "prismatic calm",
+    "immersive slow softness",
+    "warm intimate glow"
+  ],
+
+  "ACCESSORIES": [
+    "small reflective earrings",
+    "translucent fabric framing the face",
+    "none — focus on light and skin texture"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "Purely serene, bright and poetic.",
+    "1": "Soft surreal edge, but still gentle.",
+    "2": "Dreamlike distortion with emotional tension.",
+    "3": "Not recommended for this style."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "Contemporary Japan"
+  ],
+  "OUTFITS": [
+    "Casual modern Japanese fashion",
+    "Traditional kimono",
+    "Yukata with seasonal patterns",
+    "Tokyo streetwear",
+    "Simple school uniform",
+    "Modern shrine maiden outfit"
+  ],
+  "LIGHTING": [
+    "Soft daylight",
+    "Golden hour in Tokyo",
+    "Temple lantern glow",
+    "Overcast urban morning",
+    "Evening neon reflections"
+  ],
+  "BACKGROUNDS": [
+    "Busy Tokyo street",
+    "Quiet Shinto temple",
+    "Torii gate at dusk",
+    "Cherry blossom park",
+    "Train station in Tokyo",
+    "Narrow alleyway with paper lanterns",
+    "Traditional wooden house façade"
+  ],
+  "OBJECTS": [
+    "Bento box",
+    "Shopping bag",
+    "Smartphone",
+    "Japanese parasol",
+    "Omamori charm",
+    "Plastic umbrella"
+  ],
+  "POSES": [
+    "Standing near a torii gate",
+    "Walking through a Tokyo side street",
+    "Waiting at a crosswalk",
+    "Sitting on temple steps",
+    "Browsing in a konbini",
+    "Looking at cherry blossoms"
+  ],
+  "EXPRESSIONS": [
+    "Gentle smile",
+    "Curious glance",
+    "Calm and serene",
+    "Slightly surprised",
+    "Focused expression"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level street shot",
+    "Candid side view",
+    "Three-quarter portrait",
+    "Over-the-shoulder with background temple",
+    "Low angle with torii above"
+  ],
+  "ATMOSPHERES": [
+    "Peaceful urban",
+    "Serene shrine visit",
+    "Cherry blossom season",
+    "Rainy afternoon",
+    "Night walk in Tokyo"
+  ],
+  "ACCESSORIES": [
+    "Hairpin with sakura design",
+    "Minimalist earrings",
+    "Furoshiki-wrapped bag",
+    "Frilly parasol",
+    "Wooden sandals"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None"
+  }
+}

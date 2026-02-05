@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "Victorian cemetery at night",
+    "Gothic ruins under a crimson moon",
+    "Post-apocalyptic cathedral",
+    "Futuristic necropolis",
+    "Timeless dark dimension"
+  ],
+  "OUTFITS": [
+    "torn velvet dresses",
+    "funeral silk robes",
+    "lace gowns stained with blood",
+    "corsets with exposed ribs",
+    "ritual lingerie and bones"
+  ],
+  "LIGHTING": [
+    "moonlight filtered through mist",
+    "bioluminescent fungi light",
+    "neon glow in decayed tunnels",
+    "eerie violet backlight"
+  ],
+  "BACKGROUNDS": [
+    "abandoned graveyard",
+    "gothic crypt with statues",
+    "underground catacombs",
+    "blood-soaked altar",
+    "foggy forest of dead trees"
+  ],
+  "OBJECTS": [
+    "wilted roses",
+    "blood-filled goblets",
+    "chains of devotion",
+    "engraved daggers"
+  ],
+  "POSES": [
+    "holding hands with stitched fingers",
+    "kissing under the blood moon",
+    "entwined in a lover's embrace",
+    "sitting on a throne of bones",
+    "one resting in the other's lap"
+  ],
+  "EXPRESSIONS": [
+    "longing and sorrow",
+    "intense gaze of eternal love",
+    "haunting serenity",
+    "ecstasy of the damned",
+    "melancholic smile of the undead"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up of their faces touching",
+    "side profile with kissing lips",
+    "top-down from crypt ceiling",
+    "low angle from between tombstones",
+    "cinematic wide shot of embrace"
+  ],
+  "ATMOSPHERES": [
+    "romantic decay",
+    "macabre intimacy",
+    "sensual rot",
+    "eternal longing",
+    "undead passion"
+  ],
+  "ACCESSORIES": [
+    "crown of thorns",
+    "chokers made of bone",
+    "engraved rings of mourning",
+    "veils soaked in tears",
+    "lockets with ashes"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "just romantic and dark, no gore",
+    "1": "visible stitches, faded wounds, traces of blood",
+    "2": "partially decomposed bodies, exposed hearts, fused flesh"
+  }
+}

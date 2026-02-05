@@ -1,0 +1,57 @@
+{
+  "EPOCHS": [
+    "Timeless fantasy",
+    "Surreal dreamscape",
+    "Mystic era"
+  ],
+  "OUTFITS": [
+    "flowing red dress adorned with lace",
+    "red silk robe with embroidered patterns",
+    "red gown with delicate semi-transparent layers"
+  ],
+  "LIGHTING": [
+    "soft red glow",
+    "backlight through mist"
+  ],
+  "BACKGROUNDS": [
+    "enchanted forest at dusk",
+    "mystical floral garden",
+    "surreal dream world in red hues"
+  ],
+  "OBJECTS": [
+    "crimson butterflies",
+    "red flowers",
+    "falling petals",
+    "sparkling dust particles",
+    "floating crystals"
+  ],
+  "POSES": [
+    "portrait close-up with serene expression",
+    "head slightly tilted, eyes closed",
+    "gazing directly at the viewer"
+  ],
+  "EXPRESSIONS": [
+    "enigmatic calm",
+    "ethereal serenity",
+    "gentle melancholy"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up portrait",
+    "eye-level medium close-up"
+  ],
+  "ATMOSPHERES": [
+    "mysterious and surreal",
+    "harmonious and magical",
+    "delicate and elegant"
+  ],
+  "ACCESSORIES": [
+    "butterfly headpiece",
+    "petal earrings",
+    "veil with embedded sparkles",
+    "red crystal pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "min": 0,
+    "max": 0
+  }
+}

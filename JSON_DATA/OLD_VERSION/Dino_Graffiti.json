@@ -1,0 +1,59 @@
+{
+  "EPOCHS": [
+    "80s retro graffiti alley",
+    "90s underground punk streets",
+    "Urban neon night walls",
+    "Retro hip-hop skate era"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Neon glow reflecting on graffiti walls",
+    "Flickering streetlight yellow-orange",
+    "UV blacklight with fluorescent paint",
+    "City dusk with haze and spray mist",
+    "Harsh flash like old street photo"
+  ],
+  "BACKGROUNDS": [
+    "Graffiti-covered brick alley",
+    "Abandoned skate park with dino murals",
+    "Concrete wall with punk dinosaur graffiti",
+    "Underground subway wall with neon dino art",
+    "Billboard overtaken by graffiti dinosaurs"
+  ],
+  "OBJECTS": [
+    "Spray paint cans scattered on the ground",
+    "Boom box with graffiti stickers",
+    "Skateboard leaning on wall",
+    "Graffiti dinosaur murals (T-Rex, Velociraptor, Triceratops)",
+    "Wild graffiti lettering with punk slogans",
+    "Chains, fences and urban grunge textures"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "Low angle showing wall full of dino graffiti",
+    "Close-up on spray can dripping paint",
+    "Wide shot capturing full graffiti mural",
+    "Dutch angle with punk energy",
+    "Behind the shoulder view of tagging"
+  ],
+  "ATMOSPHERES": [
+    "Retro graffiti energy",
+    "Punk street rebellion",
+    "Raw alley grime",
+    "Spray paint mist in the air",
+    "Underground neon punk vibe"
+  ],
+  "ACCESSORIES": [
+    "Graffiti backpack full of spray cans",
+    "Bandana with graffiti dino print",
+    "Punk chains and pins",
+    "Spray cap necklace",
+    "Fingerless gloves with paint stains"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Playful retro graffiti with dinos as art",
+    "1": "Aggressive punk energy, edgy wall murals",
+    "2": "Chaotic dino graffiti with anarchic punk destruction"
+  }
+}

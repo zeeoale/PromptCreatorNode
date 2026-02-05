@@ -1,0 +1,72 @@
+{
+    "EPOCHS": [],
+    "OUTFITS": [
+        "dark modern kimono with glossy fabric",
+        "black-and-red embroidered dress",
+        "asymmetric combat dress with metallic ornaments",
+        "sleek leather outfit with kabuki-inspired elements",
+        "short qipao with silver floral patterns"
+    ],
+    "LIGHTING": [
+        "harsh spotlight from above",
+        "deep red cinematic glow",
+        "cold blue rim light from the side",
+        "moody low-key studio lighting",
+        "flickering white beams cutting through darkness"
+    ],
+    "BACKGROUNDS": [
+        "traditional Japanese shoji room illuminated from behind",
+        "void-like black stage with floating red threads",
+        "crowd of masked figures in crimson robes",
+        "distorted shadow silhouettes creeping on the wall",
+        "large stylized eyes filling the scene like surreal wallpaper"
+    ],
+    "OBJECTS": [
+        "katana with reflective blade",
+        "kabuki mask with red accents",
+        "floating red ribbons",
+        "chains dripping with light",
+        "oversized fans used in choreography",
+        "black feathers or falling ash"
+    ],
+    "POSES": [
+        "character holding a katana horizontally in front of the face",
+        "surrounded by masked figures leaning inward",
+        "mid-air leap with weapon drawn",
+        "slow elegant dance pose with hands extended",
+        "standing still while shadows fall behind"
+    ],
+    "EXPRESSIONS": [
+        "icy confidence",
+        "predatory calm",
+        "unsettling faint smile",
+        "ritual trance",
+        "wide-eyed intensity"
+    ],
+    "CAMERA_ANGLES": [
+        "dynamic low-angle heroic shot",
+        "extreme close-up with glossy reflections",
+        "mid-shot with symmetrical composition",
+        "wide shot emphasizing choreography",
+        "Dutch angle with chaotic background motion"
+    ],
+    "ATMOSPHERES": [
+        "occult pop-horror energy",
+        "ritualistic elegance",
+        "surreal nightmare dance",
+        "predatory femininity with ritual undertones",
+        "dark J-pop theatricality with violent tension"
+    ],
+    "ACCESSORIES": [
+        "silver hair ornaments",
+        "crimson gloves",
+        "neck chokers with metallic charms",
+        "kabuki-style eye makeup",
+        "ornamental hairpins reflecting light"
+    ],
+    "HORROR_INTENSITY": {
+        "0": "stylized theatrical menace, subtle uncanny beauty",
+        "1": "masked ritual dancers, oppressive red shadows",
+        "2": "distorted silhouettes, violent surreal elements, predatory energy"
+    }
+}

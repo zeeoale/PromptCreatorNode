@@ -4,6 +4,7 @@
 
 MANIFEST = {
     "name": "Prompt Creator Node",
+    "version": (1, 8, 0),
     "version": (1, 4, 0),
     "author": "traumakom",
     "project": "https://github.com/traumakom/PromptCreatorNode",
@@ -19,6 +20,35 @@ print(
     f"[PromptCreatorNode] "
     f"v{'.'.join(map(str, MANIFEST['version']))} loaded"
 )
+def _print_promptcreator_banner():
+    banner = r"""
+ ██████╗ ██████╗  ██████╗ ███╗   ███╗██████╗ ████████╗
+ ██╔══██╗██╔══██╗██╔═══██╗████╗ ████║██╔══██╗╚══██╔══╝
+ ██████╔╝██████╔╝██║   ██║██╔████╔██║██████╔╝   ██║   
+ ██╔═══╝ ██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝    ██║   
+ ██║     ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║        ██║   
+ ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝        ╚═╝   
+ -----------------------------------------------------
+                        1.8.0                         
+ -----------------------------------------------------
+
+===========================================================
+PromptCreatorNode v1.8.0
+A modular cinematic prompt generator for ComfyUI
+
+Loaded nodes:
+  - Prompt Generator
+  - Identity Mixer (Parts)
+  - Prompt Replay
+  - Prompt Builder
+  - Promt Tags Extractor Node (create tags for galley uploader)
+
+Author: traumakom
+===========================================================
+"""
+    print(banner)
+
+_print_promptcreator_banner()
 
 # -------------------------
 # Node imports
@@ -26,7 +56,9 @@ print(
 
 from .PromptCreatorNode import PromptCreatorNode
 from .IdentityMixerNode import IdentityMixerNode
-
+from .PromptReplayNode import PromptReplayNode
+from .PromptBuilderNode import PromptBuilderNode
+from .PromptTagsExtractorNode import PromptTagsExtractorNode
 
 # -------------------------
 # ComfyUI mappings
@@ -35,9 +67,16 @@ from .IdentityMixerNode import IdentityMixerNode
 NODE_CLASS_MAPPINGS = {
     "PromptCreatorNode": PromptCreatorNode,
     "IdentityMixerNode": IdentityMixerNode,
+    "PromptReplayNode": PromptReplayNode,
+    "PromptBuilderNode": PromptBuilderNode,
+    "PromptTagsExtractorNode": PromptTagsExtractorNode
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "PromptCreatorNode": "Prompt Generator",
     "IdentityMixerNode": "Identity Mixer (Parts)",
+    "PromptReplayNode": "Prompt Replay",
+    "PromptBuilderNode": "Prompt Builder",
+    "PFN_PromptTagsExtractor": "PFN Prompt → Tags (Extractor)"
+
 }

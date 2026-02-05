@@ -1,0 +1,54 @@
+{
+  "EPOCHS": [
+    "Edo period"
+  ],
+  "OUTFITS": [
+    "Yukata",
+    "Festival happi",
+    "Ninja garb"
+  ],
+  "LIGHTING": [
+    "Lantern-lit",
+    "Blue hour",
+    "Candlelit"
+  ],
+  "BACKGROUNDS": [
+    "Lantern street",
+    "Temple grounds",
+    "Riverbank with torii"
+  ],
+  "OBJECTS": [
+    "Paper lantern",
+    "Wind chime",
+    "Charm talisman"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "Kneeling steady",
+    "Side-draw pose"
+  ],
+  "EXPRESSIONS": [
+    "Wry smile",
+    "Calm focus",
+    "Surprised"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up",
+    "Medium shot",
+    "Over-shoulder"
+  ],
+  "ATMOSPHERES": [
+    "Festival lanterns",
+    "Light mist",
+    "Firefly drift"
+  ],
+  "ACCESSORIES": [
+    "Fox mask",
+    "Omamori charm",
+    "Fan"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Yōkai pranks",
+    "moderate": "Yūrei by the river"
+  }
+}

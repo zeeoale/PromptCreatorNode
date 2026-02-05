@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "Cosmic Horror (Lovecraftian)",
+    "Gothic Horror (Victorian)",
+    "Slasher (80s-90s)",
+    "Found Footage (Modern)",
+    "Folk Horror (Pagan/Rural)"
+  ],
+  "OUTFITS": [
+    "Tattered and blood-stained clothing",
+    "Mutilated flesh and exposed organs",
+    "Archaic asylum uniforms or patient gowns",
+    "Butcher's apron covered in gore",
+    "Skin stitched together from different victims"
+  ],
+  "LIGHTING": [
+    "Harsh, clinical fluorescent light",
+    "Strobe lighting revealing glimpses of horror",
+    "Deep, oppressive shadows (chiaroscuro)",
+    "Sickly green or yellow ambient glow"
+  ],
+  "BACKGROUNDS": [
+    "Derelict insane asylum with blood on walls",
+    "Abattoir or meat processing plant",
+    "Dank, claustrophobic basement or cellar",
+    "A surreal landscape of flesh and bone",
+    "Foreboding, ancient forest with twisted trees"
+  ],
+  "OBJECTS": [
+    "Rusty surgical tools (scalpels, bone saws)",
+    "Chains, hooks, and meat grinders",
+    "Jars containing preserved organs or body parts",
+    "Piles of dismembered limbs and viscera",
+    "An ancient, cursed book bound in human skin"
+  ],
+  "POSES": [
+    "Contorted body in an unnatural position",
+    "Writhing in agony or mid-transformation",
+    "Dragging a mangled limb",
+    "Violently convulsing on the floor",
+    "Limp, lifeless body hanging from meat hooks"
+  ],
+  "EXPRESSIONS": [
+    "Silent scream of pure terror",
+    "Empty, soulless eyes of the possessed",
+    "Pain-induced grimace with gritted teeth",
+    "Manic, sadistic grin",
+    "Agonized rictus of a body horror transformation"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on a wound or gore detail",
+    "Unsettling Dutch angle (canted angle)",
+    "POV shot from the victim's or killer's perspective",
+    "Low angle looking up at a menacing figure",
+    "Voyeuristic shot through a crack or keyhole"
+  ],
+  "ATMOSPHERES": [
+    "Visceral and stomach-churning",
+    "Claustrophobic dread",
+    "Nightmarish and surreal",
+    "Relentless, oppressive tension",
+    "Body violation and loss of autonomy"
+  ],
+  "ACCESSORIES": [
+    "Exposed bones and sinew",
+    "Barbed wire wrapped around limbs",
+    "Medical braces or restraints fused into flesh",
+    "Parasitic organisms burrowing under the skin",
+    "Protruding biomechanical implants"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Extreme; focuses heavily on graphic gore, mutilation, and visceral body horror. Designed to be shocking, disturbing, and push the boundaries of disgust and terror."
+  }
+}

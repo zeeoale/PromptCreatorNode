@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Modern luxury",
+    "80s corporate power",
+    "Contemporary horror",
+    "Neo-noir fashion"
+  ],
+  "OUTFITS": [
+    "Tailored white dress suit with blood stains",
+    "Elegant black dress with gloves",
+    "Transparent raincoat over bloodied shirt",
+    "High fashion suit with exaggerated shoulders"
+  ],
+  "LIGHTING": [
+    "Cinematic lighting with soft shadows",
+    "Moody blue ambiance",
+    "High-key white luxury lighting",
+    "Retro-futuristic neon lighting"
+  ],
+  "BACKGROUNDS": [
+    "Luxurious penthouse with marble furniture",
+    "Sterile white kitchen with abstract sculpture",
+    "High-end bathroom with blood on sink",
+    "Wall Street office interior with glass walls"
+  ],
+  "OBJECTS": [
+    "Blood-splattered axe",
+    "Designer handbag with gold details",
+    "Bloodied kitchen knife",
+    "Crystal wine glass with red wine",
+    "Art sculpture shaped like a distorted figure"
+  ],
+  "POSES": [
+    "Sitting elegantly on a marble counter",
+    "Standing confidently holding a weapon",
+    "Walking forward with blood dripping from shoes",
+    "Head turned slightly with cold expression"
+  ],
+  "EXPRESSIONS": [
+    "Cold and confident",
+    "Blank and menacing",
+    "Seductive and deadly",
+    "Expressionless stare"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level full-body shot",
+    "Low angle for dominance",
+    "Medium close-up with intense gaze",
+    "Symmetrical frontal composition"
+  ],
+  "ATMOSPHERES": [
+    "Glamorous with sinister undertones",
+    "Elegant horror",
+    "Luxury meets madness",
+    "Disturbingly clean and cold"
+  ],
+  "ACCESSORIES": [
+    "Black leather gloves",
+    "Gold earrings",
+    "Statement sunglasses",
+    "Luxury watch"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Clean elegance with subtle menace",
+    "1": "Visible blood stains on luxury fashion",
+    "2": "Full psycho killer mode with blood on walls and weapons"
+  }
+}

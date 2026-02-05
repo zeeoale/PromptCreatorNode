@@ -1,0 +1,38 @@
+{
+  "EPOCHS": [
+    "contemporary portrait macro"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "large softbox 30° from camera left",
+    "catchlight reflection in iris",
+    "subtle rim glow to accent lashes"
+  ],
+  "BACKGROUNDS": [
+    "neutral blur",
+    "soft gradient"
+  ],
+  "OBJECTS": [
+    "single human eye with iris detail",
+    "lashes with tiny dew-like highlights"
+  ],
+  "POSES": [
+    "frontal close-up cropped tightly on the eye"
+  ],
+  "EXPRESSIONS": [
+    "neutral gaze",
+    "slightly widened for iris clarity"
+  ],
+  "CAMERA_ANGLES": [
+    "macro 100mm equivalent lens",
+    "razor-thin focus on iris and pupil"
+  ],
+  "ATMOSPHERES": [
+    "intimate",
+    "clinical clarity with poetic undertone"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "none"
+  }
+}

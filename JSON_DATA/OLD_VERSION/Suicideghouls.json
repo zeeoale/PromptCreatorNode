@@ -1,0 +1,87 @@
+{
+  "EPOCHS": [
+    "Post-apocalyptic",
+    "Occult Victorian",
+    "Witchpunk",
+    "Necro-glam",
+    "Rustic horror"
+  ],
+  "OUTFITS": [
+    "Torn corset",
+    "Bloody lace lingerie",
+    "Ritual robe half-open",
+    "Bondage gear with runes",
+    "latex tight dress",
+    "sexy lingerie",
+    "latex sexy lingerie"
+  ],
+  "LIGHTING": [
+    "Moonlight through broken window",
+    "Greenish necro-glow",
+    "Red hellfire hue",
+    "Sinister shadows"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned asylum",
+    "Ritual circle",
+    "Rotten Victorian bedroom",
+    "Dungeon of mirrors",
+    "Forest at midnight"
+  ],
+  "OBJECTS": [
+    "Sacrificial dagger",
+    "a bleeding human heart",
+    "Voodoo doll",
+    "Ancient grimoire",
+    "Chains hanging from ceiling"
+  ],
+  "POSES": [
+    "Crawling toward the viewer",
+    "Sitting on broken altar",
+    "Clutching a skull",
+    "Kneeling seductively"
+  ],
+  "EXPRESSIONS": [
+    "Possessed",
+    "Sultry yet lifeless",
+    "Mouth stitched shut",
+    "Weeping blood",
+    "Manic smile"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up",
+    "tight head-and-shoulders shot",
+    "frontal half-bust portrait",
+    "wide shot through cracked glass"
+  ],
+  "ATMOSPHERES": [
+    "Seductive horror",
+    "Ritualistic dread",
+    "Macabre beauty",
+    "Erotic possession",
+    "Lust and decay"
+  ],
+  "ACCESSORIES": [
+    "Raven feathers",
+    "Barbed wire choker",
+    "Pierced third eye",
+    "Nail through lip",
+    "Runes burned into skin"
+  ],
+  "HORROR_INTENSITY": {
+    "None": [],
+    "Subtle": [
+      "Unnatural eye color",
+      "Blood on fingertips"
+    ],
+    "Medium": [
+      "Ripped flesh revealing inked bone",
+      "Living tattoos moving across body"
+    ],
+    "Extreme": [
+      "Half face missing",
+      "Blood leaking from every orifice",
+      "Tentacles caressing her from behind"
+    ]
+  }
+}

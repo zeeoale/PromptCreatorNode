@@ -1,0 +1,83 @@
+{
+  "EPOCHS": [
+    "timeless contemporary",
+    "decayed modern era"
+  ],
+
+  "OUTFITS": [
+    "torn lace lingerie",
+    "latex bodysuit with organic tears",
+    "sheer fabric soaked and clinging to skin",
+    "ritual garments bound with fabric ties"
+  ],
+
+  "LIGHTING": [
+    "low-key oppressive lighting",
+    "single cold practical light source",
+    "greenish cyan cast with sickly undertones",
+    "hard shadows with aggressive falloff",
+    "top or side light grazing wet skin"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned tiled room",
+    "decaying bathroom or chamber",
+    "stained concrete walls",
+    "claustrophobic interior space"
+  ],
+
+  "OBJECTS": [
+    "soft rope bindings around wrists",
+    "fabric restraints",
+    "wet surfaces and dripping textures"
+  ],
+
+  "POSES": [
+    "arched back with restrained posture",
+    "body pressed against wall",
+    "twisted torso emphasizing tension",
+    "semi-crouched pose",
+    "still pose with controlled erotic tension"
+  ],
+
+  "EXPRESSIONS": [
+    "detached haunted gaze",
+    "half-lidded eyes with restrained calm",
+    "emotionless erotic stare",
+    "subtle menace mixed with vulnerability"
+  ],
+
+  "CAMERA_ANGLES": [
+    "slightly low angle emphasizing presence",
+    "top-down oppressive close-up",
+    "tight medium shot with cropped limbs",
+    "intimate close-up on face and shoulders"
+  ],
+
+  "ATMOSPHERES": [
+    "humid air",
+    "oppressive silence",
+    "ritualistic dread",
+    "sensual claustrophobia",
+    "dark erotic horror"
+  ],
+
+  "ACCESSORIES": [
+    "dark lipstick",
+    "black nail polish",
+    "simple fabric choker"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "cold and distant presence with no erotic charge",
+    "1": "subtle sensual tension through posture and skin highlights",
+    "2": "controlled erotic presence conveyed through body tension and gaze",
+    "3": "dark, ritualistic sensuality expressed through minimal restraint, wet skin, and intimate proximity, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "aesthetic darkness without threat",
+    "1": "uneasy erotic tension and psychological discomfort",
+    "2": "ritualistic horror atmosphere with oppressive and disturbing undertones"
+  }
+}

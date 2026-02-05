@@ -1,0 +1,64 @@
+{
+  "EPOCHS": [
+    "Edo period inspired",
+    "Modern Japanese reinterpretation",
+    "Neo-traditional ukiyo-e"
+  ],
+  "OUTFITS": [
+    "Kimono with cranes and floral motifs",
+    "Red and black silk kimono",
+    "Elegant obi with golden embroidery"
+  ],
+  "LIGHTING": [
+    "Soft lantern light",
+    "Candlelit glow",
+    "Dramatic stage lighting with red hues"
+  ],
+  "BACKGROUNDS": [
+    "Japanese folding screen with crane motifs",
+    "Room with red lanterns and sakura decorations",
+    "Traditional Japanese interior with painted walls"
+  ],
+  "OBJECTS": [
+    "Paper lanterns",
+    "Ornamental fans",
+    "Tatami mats",
+    "Cherry blossoms falling",
+    "Painted folding screens"
+  ],
+  "POSES": [
+    "Standing gracefully with open sleeves",
+    "Back turned showing kimono details",
+    "Holding a katana with elegance",
+    "Arms slightly raised revealing patterns"
+  ],
+  "EXPRESSIONS": [
+    "Calm and enigmatic",
+    "Slight melancholic gaze",
+    "Regal and composed",
+    "Mysterious smile"
+  ],
+  "CAMERA_ANGLES": [
+    "Full body portrait with kimono details",
+    "Three-quarter view highlighting patterns",
+    "Close-up with background motifs",
+    "Symmetrical composition with lanterns"
+  ],
+  "ATMOSPHERES": [
+    "Elegant and refined",
+    "Mysterious and ceremonial",
+    "Artistic theatrical mood",
+    "Modern ukiyo-e surrealism"
+  ],
+  "ACCESSORIES": [
+    "Hairpins with flowers",
+    "Red roses in hair",
+    "Ornamental hair combs",
+    "Necklace with traditional pendant"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Pure elegance, no horror elements",
+    "1": "Slightly uncanny elegance, surreal proportions",
+    "2": "Dark ceremonial aura, unsettling background motifs"
+  }
+}

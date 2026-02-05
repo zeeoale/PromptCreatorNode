@@ -1,0 +1,84 @@
+{
+  "EPOCHS": [
+    "Postwar Japan aesthetic",
+    "Timeless underground art space",
+    "Decaying modern era"
+  ],
+
+  "OUTFITS": [
+    "torn silk dress clinging to the body",
+    "delicate lace garments partially damaged",
+    "ceremonial robes stained with dried blood",
+    "antique medical garments",
+    "ritual lingerie-inspired attire (non-explicit)"
+  ],
+
+  "LIGHTING": [
+    "soft chiaroscuro lighting",
+    "sickly pale ambient light",
+    "low-key studio lighting with deep shadows",
+    "subtle crimson rim light",
+    "cold surgical light softened by haze"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned ritual room",
+    "minimal dark studio background",
+    "decaying interior with medical relics",
+    "smoky void with floating dust",
+    "silent shrine-like space"
+  ],
+
+  "OBJECTS": [
+    "antique medical instruments (symbolic, clean)",
+    "ritual talismans",
+    "broken porcelain dolls",
+    "bloody bandages",
+    "religious relics"
+  ],
+
+  "POSES": [
+    "still, frontal stance",
+    "mirrored pose between two women",
+    "heads gently touching",
+    "one woman supporting the other",
+    "ritualistic symmetrical posture"
+  ],
+
+  "EXPRESSIONS": [
+    "vacant gaze",
+    "soft melancholic stare",
+    "detached calm",
+    "subtle suffering without screaming",
+    "serene resignation"
+  ],
+
+  "CAMERA_ANGLES": [
+    "extreme close-up portrait",
+    "tight medium shot",
+    "symmetrical frontal composition",
+    "intimate shoulder-level framing"
+  ],
+
+  "ATMOSPHERES": [
+    "disturbing elegance",
+    "quiet psychological horror",
+    "sensual unease",
+    "ritualistic stillness",
+    "dreamlike grotesque calm"
+  ],
+
+  "ACCESSORIES": [
+    "bandages wrapped like ornaments",
+    "antique chokers",
+    "ritual earrings",
+    "symbolic scars",
+    "subtle body markings"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "Subtle unsettling beauty, flawless skin with faint imperfections",
+    "1": "Visible wounds, dried blood, surgical symbolism, emotional detachment",
+    "2": "Grotesque aesthetic balance, ritual scars, bleeding textures, disturbing serenity"
+  }
+}

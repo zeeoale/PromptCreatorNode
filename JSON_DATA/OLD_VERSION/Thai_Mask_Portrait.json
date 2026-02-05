@@ -1,0 +1,58 @@
+{
+  "EPOCHS": [
+    "Ancient Thai dynasty",
+    "Mythological Siam",
+    "Dark spirit era"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Red glow from cursed incense",
+    "Moonlight filtered through temple smoke",
+    "Lightning strike during monsoon ritual"
+  ],
+  "BACKGROUNDS": [
+    "Plain black silk backdrop",
+    "Neutral dark gradient",
+    "Smoky void",
+    "Dimly lit temple corner"
+  ],
+  "OBJECTS": [
+    "Khon demon mask",
+    "Thai ogre mask",
+    "Golden spirit headdress",
+    "Decorative tusks",
+    "Cursed emerald ornaments",
+    "Royal amulet with blood cracks",
+    "Hanuman monkey mask (possessed)"
+  ],
+  "POSES": [
+    "Staring directly into camera",
+    "Slight head tilt with shadowed eye",
+    "Mouth slightly open revealing broken teeth"
+  ],
+  "EXPRESSIONS": [
+    "Empty soulless gaze",
+    "Malevolent smirk behind mask",
+    "Feral snarl under the gold paint"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "Blood moon over Ayutthaya ruins",
+    "Temple engulfed in black incense",
+    "Ritual under monsoon lightning",
+    "Spirit market at dusk",
+    "Silent shrine haunted by whispers"
+  ],
+  "ACCESSORIES": [
+    "Ornate bone earrings",
+    "Gold-threaded veil of shadows",
+    "Charmed necklace made of baby teeth"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Traditional aesthetic with slight mystery",
+    "1": "Disturbing gaze, weathered mask, subtle blood stains",
+    "2": "Corrupted spirit, mask fused with flesh, oozing eyes"
+  }
+}

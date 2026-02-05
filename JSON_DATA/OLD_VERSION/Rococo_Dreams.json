@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "contemporary fantasy",
+    "rococo revival",
+    "modern baroque",
+    "dreamlike surrealism",
+    "retro-futuristic"
+  ],
+  "OUTFITS": [
+    "luxurious flowing gown in pastel satin",
+    "puffy-sleeved cocktail dress",
+    "iridescent robe tied at the waist",
+    "lace-up strappy heels",
+    "ruffled tulle skirt"
+  ],
+  "LIGHTING": [
+    "vivid colored neon lighting",
+    "soft, diffused glamour lights",
+    "pink and turquoise glow",
+    "sparkling reflections from glass and glitter",
+    "dramatic backlighting with halos"
+  ],
+  "BACKGROUNDS": [
+    "ornate floral arrangements",
+    "mirrored walls and glimmering decor",
+    "baroque-style throne with high back",
+    "glittering disco balls",
+    "illuminated circular neon installations"
+  ],
+  "OBJECTS": [
+    "elaborate throne or regal chair",
+    "floral headdress or hair accessories",
+    "glittery drapes and tulle",
+    "illuminated ring lights"
+  ],
+  "POSES": [
+    "sitting regally on a throne",
+    "legs elegantly crossed or extended",
+    "arms rested gracefully on chair arms",
+    "upright and composed posture",
+    "body facing forward, feet pointed outward"
+  ],
+  "EXPRESSIONS": [
+    "composed and confident",
+    "serene",
+    "enigmatic",
+    "noble calm",
+    "dreamlike detachment"
+  ],
+  "CAMERA_ANGLES": [
+    "frontal mid-shot",
+    "low angle emphasizing grandeur",
+    "centered vertical composition",
+    "close-up for dress and accessories",
+    "slight upward tilt to enhance throne"
+  ],
+  "ATMOSPHERES": [
+    "surreal opulence",
+    "ethereal fantasy",
+    "festive glamour",
+    "regal dreamscape",
+    "sparkling reverie"
+  ],
+  "ACCESSORIES": [
+    "floral crown or hairpiece",
+    "ornate earrings",
+    "intricate headband",
+    "lace ankle socks or detailed shoes",
+    "large statement rings and sashes"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Dazzling fantasy in a sparkling court.",
+    "1": "Enigmatic royalty amidst surreal neon blooms.",
+    "2": "Dreamlike palace where beauty hints at hidden secrets."
+  }
+}

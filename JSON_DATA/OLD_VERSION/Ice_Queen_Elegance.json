@@ -1,0 +1,90 @@
+{
+  "EPOCHS": [
+    "Nordic Fantasy",
+    "Winter Renaissance",
+    "Ethereal Ice Age",
+    "Frost Queen Era",
+    "Arctic Mythology",
+    "Glacial Baroque"
+  ],
+  "OUTFITS": [
+    "Ice-encrusted blue gown",
+    "Lace winter corset dress",
+    "High-neck embroidered robe",
+    "Frosted lace ballgown",
+    "Crystal bead embroidered dress",
+    "Blue velvet ice queen gown"
+  ],
+  "LIGHTING": [
+    "Soft blue twilight glow",
+    "Ethereal rim lighting",
+    "Subtle snowflake highlights",
+    "Misty diffused light",
+    "Icy blue backlighting",
+    "Gentle glacial reflections"
+  ],
+  "BACKGROUNDS": [
+    "Snowy mountain peaks",
+    "Frozen glacial landscape",
+    "Icy mist-filled valley",
+    "Blizzard atmospheric haze",
+    "Crystal cave interior",
+    "Winter storm backdrop"
+  ],
+  "OBJECTS": [
+    "Ice crystal crown",
+    "Frosted hair braids",
+    "Snowflake jewelry",
+    "Icicle tiara",
+    "Frozen vine patterns",
+    "Glacial earrings"
+  ],
+  "POSES": [
+    "Profile contemplative",
+    "Gentle head tilt",
+    "Seated on rocky ledge",
+    "Standing with flowing gown",
+    "Hair cascading dramatically",
+    "Elegant shoulder pose"
+  ],
+  "EXPRESSIONS": [
+    "Serene icy gaze",
+    "Mystical side glance",
+    "Calm ethereal beauty",
+    "Subtle parted lips",
+    "Distant winter stare",
+    "Graceful composure"
+  ],
+  "CAMERA_ANGLES": [
+    "Profile portrait view",
+    "Three-quarter angle",
+    "Wide environmental shot",
+    "Close dramatic face",
+    "Low angle majestic",
+    "Over-shoulder landscape"
+  ],
+  "ATMOSPHERES": [
+    "Mystical winter serenity",
+    "Ethereal frost beauty",
+    "Glacial enchantment",
+    "Snowy dreamlike haze",
+    "Icy regal poise",
+    "Frozen fantasy grace"
+  ],
+  "ACCESSORIES": [
+    "Ice crystal crown",
+    "Frosted braid ornaments",
+    "Snowflake earrings",
+    "Glacial pearl necklace",
+    "Icicle hairpins",
+    "Crystal choker"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward, no gore, clean chrome",
+    "1": "suggestive menace, faint red glows",
+    "2": "ritual accents, subtle blood tears",
+    "3": "jagged implants, cracked porcelain skin",
+    "4": "organic machinery, exposed sinew hints",
+    "5": "opulent dread—saintly yet monstrous, heavy biomech intrusion"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Ancient Egyptian Fantasy",
+    "Mythological Epic",
+    "Divine Beings",
+    "God-Queen Aesthetic"
+  ],
+  "OUTFITS": [
+    "Ornate gold armor and plating",
+    "Black, white, and teal fabrics (capes, skirts)",
+    "Revealing tops and loincloths",
+    "Elaborate belts with gems and gold chains"
+  ],
+  "LIGHTING": [
+    "Bright, divine daylight",
+    "Dramatic celestial backlighting (moons, suns)",
+    "Warm glow from magical staffs or energy",
+    "Epic, high-contrast cinematic lighting"
+  ],
+  "BACKGROUNDS": [
+    "Ancient Egyptian temple ruins",
+    "Grand halls with pillars and statues",
+    "Celestial sky with cosmic elements",
+    "Ornate throne rooms"
+  ],
+  "OBJECTS": [
+    "Golden staffs and scepters",
+    "Ornate golden thrones",
+    "Egyptian statues (Anubis, Horus)",
+    "Divine energy and light effects",
+    "Hieroglyphic patterns on armor and walls"
+  ],
+  "POSES": [
+    "Confident full-body stance with a staff",
+    "Seated regally on a throne",
+    "Powerful, commanding posture",
+    "Presenting magical power in hand"
+  ],
+  "EXPRESSIONS": [
+    "Regal and confident",
+    "Stoic and powerful",
+    "Direct, divine gaze",
+    "Calm and authoritative"
+  ],
+  "CAMERA_ANGLES": [
+    "Full-body shot",
+    "Slightly low angle to emphasize power",
+    "Medium shot, focusing on the upper body",
+    "Eye-level portrait"
+  ],
+  "ATMOSPHERES": [
+    "Epic and mythological",
+    "Divine and powerful",
+    "Majestic and ancient",
+    "High Fantasy",
+    "Regal authority"
+  ],
+  "ACCESSORIES": [
+    "Elaborate golden headdresses (Uraeus, divine symbols)",
+    "Cat ears (Bastet-inspired)",
+    "Usekh-style collars and heavy necklaces",
+    "Golden armbands, bracers, and gauntlets",
+    "Intricate belts and thigh bands with gems"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "the theme is mythological and divine power. The atmosphere is epic and majestic, not frightening or horrific."
+  }
+}

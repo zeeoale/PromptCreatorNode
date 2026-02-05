@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Post-human future",
+    "Cybernetic dystopia",
+    "Techno-collapse"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Harsh lab lighting",
+    "Flickering fluorescent",
+    "Low red warning lights",
+    "Backlight from broken neon sign"
+  ],
+  "BACKGROUNDS": [
+    "Black industrial void",
+    "Neural interface station backdrop"
+  ],
+  "OBJECTS": [
+    "Tangled cables",
+    "Metallic implants",
+    "Circuit scars",
+    "Neural ports",
+    "Glass optic lenses",
+    "Liquid cooling tubes",
+    "Glowing synaptic nodes",
+    "Skin staplers"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Pain suppression",
+    "Emotionless stare",
+    "Silent agony",
+    "Glitching blink"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on cybernetic face",
+    "Macro view of neural implant zone"
+  ],
+  "ATMOSPHERES": [
+    "Claustrophobic",
+    "Sterile and cold",
+    "Surgical horror",
+    "Techno-organic dread"
+  ],
+  "ACCESSORIES": [
+    "Data cables inserted into skull",
+    "Face partially replaced with circuits",
+    "Transparent skin showing circuits beneath",
+    "Jaw reinforced with steel plating"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Clean fusion of skin and tech, minimal damage",
+    "1": "Visible scars, open wires, exposed tissue",
+    "2": "Mutilated features, heavy cybernetic intrusion, loss of identity"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "EPOCHS": [
+    "Neo-Gothic Cyber Age",
+    "Post-Apocalyptic Tokyo",
+    "Cathedralpunk Future",
+    "Void Opera Era",
+    "Sovereign Mech Dynasty",
+    "Nocturne Metropolis"
+  ],
+  "OUTFITS": [
+    "black latex bodysuit with biomech exoskeleton plates",
+    "spiked chrome thigh-high greaves and stiletto heels",
+    "ornate breastplate with living circuitry veins",
+    "asymmetrical mantle with shredded white train",
+    "mesh lace catsuit with scaled armor bands",
+    "high-collar corset with ribbed pneumatics",
+    "serrated pauldrons and vertebrae spine rig",
+    "cathedral-etched cuirass with crimson glow cores"
+  ],
+  "LIGHTING": [
+    "cyan rim light on black void",
+    "blood-red bounce from below",
+    "cold moon key with soft haze",
+    "neon teal key + magenta fill",
+    "hard chrome specular highlights",
+    "volumetric god-rays through dust",
+    "spotlit vignette, deep falloff",
+    "silver backlight with red subsurface"
+  ],
+  "BACKGROUNDS": [
+    "endless black void with drifting debris",
+    "cathedral ruins with fractured arches",
+    "high-rise neon alley in rain mist",
+    "sterile mint backdrop, fashion-studio minimal",
+    "ritual dais on crimson velvet floor",
+    "industrial hangar with fog and beam lights"
+  ],
+  "OBJECTS": [
+    "floating aureole ring of broken gold",
+    "bio-cable tails and servo tendons",
+    "levitating rock shards",
+    "runic spine cores glowing crimson",
+    "lace-pattern energy filigree",
+    "ritual dagger with chrome thorns",
+    "mechanical fleur-de-lis motifs"
+  ],
+  "POSES": [
+    "one knee raised on dais, elongated S-curve",
+    "power stance, shoulders forward, chin down",
+    "over-the-shoulder glare, cape trailing",
+    "kneeling dominance pose, hand on thigh",
+    "close portrait, face centered, crown high",
+    "mid-stride prowl, heels digging into velvet"
+  ],
+  "EXPRESSIONS": [
+    "icy regal calm",
+    "predatory smirk",
+    "saintly sorrow with steel resolve",
+    "blood-teared serenity",
+    "void-gaze determination",
+    "tempting menace"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle hero, 35mm",
+    "hyper close-up portrait, 85mm",
+    "three-quarter body, 50mm",
+    "Dutch tilt medium shot",
+    "ground-level fashion angle, 28mm",
+    "front-on symmetrical framing"
+  ],
+  "ATMOSPHERES": [
+    "cold fog with metallic dust",
+    "ionized ozone haze",
+    "velvet darkness, soft bloom",
+    "neon drizzle and steam",
+    "incense smoke coils",
+    "shattered moonlight mist"
+  ],
+  "ACCESSORIES": [
+    "spiked aureole crown",
+    "razor-lace veil",
+    "clawed gauntlets",
+    "servo-chain belt",
+    "barbed choker with glyph tag",
+    "ear spikes with micro-LEDs",
+    "ornate mask with asymmetric horn",
+    "runic stockings, web lattice"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward, no gore, clean chrome",
+    "1": "suggestive menace, faint red glows",
+    "2": "ritual accents, subtle blood tears",
+    "3": "jagged implants, cracked porcelain skin",
+    "4": "organic machinery, exposed sinew hints",
+    "5": "opulent dread—saintly yet monstrous, heavy biomech intrusion"
+  }
+}

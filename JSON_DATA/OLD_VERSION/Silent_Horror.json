@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "1920s",
+    "Silent Era",
+    "Victorian",
+    "Black and White"
+  ],
+  "OUTFITS": [
+    "nightgown",
+    "straitjacket",
+    "torn tuxedo",
+    "funeral dress",
+    "black lingerie",
+    "sexy tight, low-cut dress"
+  ],
+  "LIGHTING": [
+    "low key",
+    "harsh contrast",
+    "dim ambient"
+  ],
+  "BACKGROUNDS": [
+    "abandoned asylum",
+    "foggy cemetery",
+    "silent theater",
+    "rotting mansion"
+  ],
+  "OBJECTS": [
+    "antique mirror",
+    "phonograph",
+    "cracked doll",
+    "rusty wheelchair"
+  ],
+  "POSES": [
+    "frozen stance",
+    "twisting",
+    "hunched back",
+    "reaching out"
+  ],
+  "EXPRESSIONS": [
+    "blank stare",
+    "mouth agape",
+    "crying eyes",
+    "silent scream"
+  ],
+  "CAMERA_ANGLES": [
+    "high angle",
+    "low wide",
+    "Dutch tilt",
+    "close-up horror"
+  ],
+  "ATMOSPHERES": [
+    "oppressive silence",
+    "paranoia",
+    "suffocating dread",
+    "claustrophobic"
+  ],
+  "ACCESSORIES": [
+    "bloody bandage",
+    "veil",
+    "cobweb"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "subtle eeriness",
+    "medium": "uneasy tension",
+    "high": "visceral dread",
+    "extreme": "mind-warping horror"
+  }
+}

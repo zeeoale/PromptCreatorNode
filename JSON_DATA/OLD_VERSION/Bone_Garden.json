@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Victorian",
+    "Baroque",
+    "Post-Apocalyptic",
+    "Dark Fantasy"
+  ],
+  "OUTFITS": [
+    "tattered lace dress",
+    "velvet cloak with bone jewelry",
+    "ceremonial robe with stitched petals",
+    "corset with thorn embroidery"
+  ],
+  "LIGHTING": [
+    "eerie twilight",
+    "moody ambient glow",
+    "soft moonlight"
+  ],
+  "BACKGROUNDS": [
+    "overgrown graveyard",
+    "garden of bones and thorns",
+    "ruined cathedral garden",
+    "misty forest with skeletal trees"
+  ],
+  "OBJECTS": [
+    "bone staff",
+    "wilted rose bouquet",
+    "crow perched on skull",
+    "hanging lanterns",
+    "antique mirror"
+  ],
+  "POSES": [
+    "kneeling in the flowers",
+    "gazing at a skull",
+    "standing among bones",
+    "touching a dying flower"
+  ],
+  "EXPRESSIONS": [
+    "melancholic",
+    "serene",
+    "mysterious smile",
+    "tearful gaze"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up from below",
+    "three-quarter profile",
+    "frontal with depth",
+    "overhead dramatic view"
+  ],
+  "ATMOSPHERES": [
+    "mystical sorrow",
+    "elegant decay",
+    "timeless silence",
+    "sacred grief"
+  ],
+  "ACCESSORIES": [
+    "bone earrings",
+    "thorn crown",
+    "veil of petals",
+    "lace gloves with skeletal fingers"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "delicate skulls among roses, subtle bone motifs, petals covering skeletal hands",
+    "1": "visible ribcages entwined with vines, half-decomposed statues, skeletons posing serenely",
+    "2": "fleshless faces adorned with jewels, open graves blooming flowers, ritual scenes among bones"
+  }
+}

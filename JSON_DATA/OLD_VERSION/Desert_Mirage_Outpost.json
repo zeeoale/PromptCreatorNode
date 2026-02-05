@@ -1,0 +1,57 @@
+{
+  "EPOCHS": [
+    "Ancient",
+    "Medieval"
+  ],
+  "OUTFITS": [
+    "Desert ranger leathers",
+    "Hooded cloak",
+    "Light mail"
+  ],
+  "LIGHTING": [
+    "Harsh midday",
+    "Golden hour",
+    "Moonlit"
+  ],
+  "BACKGROUNDS": [
+    "Hilltop outpost",
+    "Dune sea",
+    "Rocky canyon gate",
+    "Oasis"
+  ],
+  "OBJECTS": [
+    "Grappling hook",
+    "Map",
+    "Water skin",
+    "Lantern"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "On the run shot",
+    "Crouched aim"
+  ],
+  "EXPRESSIONS": [
+    "Determined",
+    "Fierce",
+    "Calm focus"
+  ],
+  "CAMERA_ANGLES": [
+    "Wide establishing",
+    "Tracking profile",
+    "Low angle hero"
+  ],
+  "ATMOSPHERES": [
+    "Dust devils",
+    "Heat shimmer",
+    "Distant thunderheads"
+  ],
+  "ACCESSORIES": [
+    "Scarf veil",
+    "Utility belt",
+    "Arm guard",
+    "Cloak clasp"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Djinn rumors on the wind"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "WORLD_NAME": "Velvet_Boudoir",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in boudoir-inspired visual storytelling rooted in classical elegance and quiet intimacy. When requested, return ONE single long, cinematic sentence of 180–240 words, highly descriptive and atmospheric, without lists or line breaks. The scene must depict an adult woman alone in a private interior space, inspired by historical boudoir rooms, where sensuality is expressed through posture, fabric, light, and restraint rather than explicit display. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive narrative. The tone must remain refined, intimate, and timeless, evoking silk, lace, whispered gestures, slow breathing, and moments of solitude, resting on a chaise lounge, or adjusting delicate garments. Emphasize natural body language, subtle exposure, and emotional presence over provocation. Avoid vulgarity, explicit sexuality, or modern exhibitionism. The final image should feel like a private moment accidentally witnessed, lit with painterly softness, shallow depth of field, gentle grain, and a cinematic stillness that honors classical beauty, restraint, and quiet desire.",
+ "OUTFITS": [
+  "black silk lingerie with lace trim",
+  "corseted bodice with sheer fabrics",
+  "delicate nightgown slipping from shoulder",
+  "embroidered robe loosely tied",
+  "vintage lace undergarments",
+  "soft satin chemise",
+  "sheer lace bodysuit with open back",
+  "unbuttoned silk blouse worn without underlayers",
+  "lingerie set with high-waisted briefs",
+  "translucent slip dress clinging to skin",
+  "corset worn alone, laces partially undone",
+  "open-front robe revealing bare torso",
+  "lace bralette with nothing beneath",
+  "fine mesh lingerie barely concealing form",
+  "antique-inspired camisole with exposed shoulders",
+  "lingerie layered with loose stockings",
+  "delicate garter belt with silk stockings",
+  "soft velvet wrap worn directly on skin",
+  "ivory lace corset paired with bare legs",
+  "lingerie partially removed, resting at hips",
+  "sheer fabric draped loosely across chest"
+],
+  "LIGHTING": [
+    "warm candlelight glow",
+    "soft window light filtered through curtains",
+    "low bedside lamp illumination",
+    "golden hour interior light",
+    "muted shadows with gentle highlights"
+  ],
+  "BACKGROUNDS": [
+    "classic boudoir room with velvet drapes",
+    "ornate bedroom with antique furniture",
+    "private sitting room with chaise longue",
+    "intimate reading corner with tall windows",
+    "bedroom adorned with silk and mirrors"
+  ],
+"OBJECTS": [
+  "lace gloves draped over chair",
+  "silk robe loosely folded nearby",
+  "vintage perfume bottle with crystal stopper",
+  "delicate gold necklace resting on skin",
+  "soft velvet cushion",
+  "half-open jewelry box",
+  "champagne flute on bedside table",
+  "burning scented candle",
+  "pearl hairpin",
+  "corset ribbons hanging loose",
+  "embroidered handkerchief",
+  "antique bedside lamp with fabric shade",
+  "sheer curtains catching warm light",
+  "lace stockings folded beside bed",
+  "small porcelain dish for rings",
+  "opened silk fan",
+  "vintage photograph frame",
+  "unfastened garter",
+  "ink pen resting on vanity",
+  "mirror catching a partial reflection"
+],
+"POSES": [
+  "reclining on chaise, legs gently crossed",
+  "sitting on bed edge, fabric gathered in hands",
+  "resting back against pillows",
+  "kneeling softly on cushions",
+  "lounging diagonally across bed, one shoulder bare",
+  "half-reclined with arms raised above head",
+  "sitting with knees apart, slow confident posture",
+  "lying on back, head turned toward camera",
+  "leaning forward slightly, elbows resting on thighs",
+  "standing beside bed, silk slipping from shoulders",
+  "arched back while seated, chin tilted upward",
+  "lying face down, legs bent at the knees",
+  "resting on forearms, hips subtly lifted",
+  "turned away from camera, looking back over shoulder",
+  "seated sideways, one leg tucked under body",
+  "slow stretch along the bed linens",
+  "one knee raised, foot resting on mattress edge",
+  "soft slouch against headboard, relaxed exposure",
+  "hands resting on thighs, composed but inviting"
+]
+,
+  "EXPRESSIONS": [
+    "calm introspective gaze",
+    "half-lidded eyes in quiet thought",
+    "subtle relaxed smile",
+    "serene, inward-focused expression",
+    "gentle, unguarded look"
+  ],
+  "CAMERA_ANGLES": [
+    "intimate close-up with shallow depth of field",
+    "three-quarter body shot at eye level",
+    "soft overhead angle",
+    "side profile framed by curtains",
+    "low perspective emphasizing posture"
+  ],
+  "ATMOSPHERES": [
+    "quiet, private, and contemplative",
+    "softly sensual without display",
+    "timeless and elegant",
+    "warm, intimate solitude",
+    "dreamlike stillness"
+  ],
+  "ACCESSORIES": [
+    "lace stockings",
+    "delicate jewelry",
+    "silk ribbons",
+    "embroidered gloves",
+    "fine chain necklace"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric and contemplative",
+    "1": "subtle elegance and suggestion",
+    "2": "intimate sensuality through posture and fabric",
+    "3": "maximum Boudoir erotic tension, provocative fashion framing, intimate gaze, pronounced silhouette and fabric tension, still elegant and non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "slight melancholic undertone",
+    "2": "soft gothic mood",
+    "3": "dark romantic atmosphere"
+  },
+  "CUSTOM_INTRO": {
+    "0": "An intimate boudoir scene captured in a timeless, painterly style, focusing on quiet elegance and restrained sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic portrayal of a private moment in a classical boudoir, where softness, fabric, and light define sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A refined boudoir atmosphere emphasizing solitude, grace, and intimate beauty through subtle gestures and warm lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A quiet, elegant interior moment where sensuality is implied through posture and emotion rather than exposure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A soft-focus cinematic boudoir scene inspired by classical femininity and timeless restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "An intimate visual narrative unfolding in a private boudoir, rich with texture, silence, and understated desire, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A delicate and introspective boudoir composition celebrating elegance, solitude, and controlled sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "EPOCHS": [
+    "futuristic",
+    "cyberpunk",
+    "contemporary",
+    "sci-fi",
+    "post-human"
+  ],
+  "OUTFITS": [
+    "white strappy top",
+    "high-waisted pants",
+    "skin-tight clothing",
+    "minimalist futuristic wear",
+    "tattoo-emphasizing outfit"
+  ],
+  "LIGHTING": [
+    "neon red glow",
+    "contrasty illumination",
+    "dramatic highlights",
+    "cool background shadows"
+  ],
+  "BACKGROUNDS": [
+    "stone bath",
+    "red liquid",
+    "industrial stone textures",
+    "surreal ritual ambient"
+  ],
+  "OBJECTS": [
+    "cybernetic arms",
+    "red glowing prosthetics",
+    "full-body tattoos (cherry blossoms)",
+    "mechanical plating"
+  ],
+  "POSES": [
+    "lying in bath",
+    "arms outstretched",
+    "relaxed recline",
+    "torso partially elevated",
+    "passive resting position"
+  ],
+  "EXPRESSIONS": [
+    "serene",
+    "calm",
+    "neutral",
+    "tranquil",
+    "emotional detachment"
+  ],
+  "CAMERA_ANGLES": [
+    "top-down shot",
+    "medium-close crop",
+    "slight diagonal overhead",
+    "centered on torso and arms",
+    "focus on body details"
+  ],
+  "ATMOSPHERES": [
+    "futuristic ritual",
+    "sci-fi surrealism",
+    "haunting tranquility",
+    "organic-tech fusion",
+    "mysterious serenity"
+  ],
+  "ACCESSORIES": [
+    "cybernetic arm modules",
+    "digital interface panels",
+    "advanced prosthetics",
+    "decorative tattoos",
+    "mechanical connections"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Melancholic harmony between nature and machine",
+    "1": "Strange beauty in organic-tech fusion",
+    "2": "Haunting stillness of post-organic temples"
+  }
+}

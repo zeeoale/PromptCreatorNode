@@ -1,0 +1,101 @@
+{
+  "WORLD_NAME": "Modern_Goth_Urban",
+
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation specialized in contemporary urban gothic aesthetics grounded in realism. When requested, return ONE long, cohesive, multi-clause sentence (180–240 words), richly descriptive and cinematic, without lists or line breaks, depicting a modern gothic subject rooted in urban environments rather than fantasy or supernatural settings. The imagery must emphasize black fashion, lace, leather, corsetry, refined tailoring, and modern silhouettes, blending elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a seamless visual narrative. Focus on posture, fabric tension, controlled body language, and quiet dominance rather than overt motion, using natural or softly diffused light, neutral city backdrops, aged stone, concrete, or minimalist urban architecture. The mood should convey calm confidence, romantic darkness, and introspective elegance, allowing {{SENSUALITY_LEVEL}} and {{HORROR_INTENSITY}} to subtly modulate tension while preserving realism, restraint, and contemporary gothic identity, captured with editorial framing, gentle grain, balanced contrast, and cinematic depth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting.",
+
+  "EPOCHS": [
+    "contemporary era",
+    "modern urban nightlife",
+    "timeless gothic present"
+  ],
+
+  "OUTFITS": [
+    "black lace dress with sheer sleeves",
+    "leather corset over mesh fabric",
+    "tailored black blazer with lace underlayers",
+    "sleek black bodysuit with flowing outer layers",
+    "minimalist gothic ensemble with architectural tailoring"
+  ],
+
+  "LIGHTING": [
+    "soft overcast daylight",
+    "diffused urban light",
+    "gentle rim light defining silhouette",
+    "muted contrast lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "aged concrete wall",
+    "quiet residential alley",
+    "urban stone pavement",
+    "neutral city architecture with soft depth"
+  ],
+
+  "OBJECTS": [
+    "subtle gothic jewelry",
+    "corset lacing",
+    "leather straps",
+    "minimal metal accents"
+  ],
+
+  "POSES": [
+    "standing with weight shifted on one leg",
+    "three-quarter back pose",
+    "looking over shoulder",
+    "slow deliberate walking posture",
+    "leaning lightly against an urban surface"
+  ],
+
+  "EXPRESSIONS": [
+    "detached calm gaze",
+    "quiet confidence",
+    "romantic melancholy",
+    "neutral dominance"
+  ],
+
+  "CAMERA_ANGLES": [
+    "eye-level fashion portrait",
+    "three-quarter body composition",
+    "slightly low-angle full body shot",
+    "editorial urban framing"
+  ],
+
+  "ATMOSPHERES": [
+    "modern gothic elegance",
+    "urban romantic darkness",
+    "controlled emotional restraint",
+    "contemporary gothic identity"
+  ],
+
+  "ACCESSORIES": [
+    "dark lipstick",
+    "black leather boots",
+    "lace stockings",
+    "minimal metal jewelry",
+    "subtle TK monogram ring or tiny bag tag"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic gothic mood",
+    "1": "light melancholic unease",
+    "2": "dark romantic undertone without horror",
+    "3": "not used"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A contemporary urban gothic portrait grounded in realism, black lace and tailored leather shaping a refined silhouette against neutral concrete and stone textures, calm dominance expressed through posture and fabric tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A fashion-editorial modern goth scene set in a quiet city alley, soft diffused light and gentle grain revealing lace, corsetry seams and minimalist jewelry with introspective elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A restrained urban portrait where romantic darkness meets modern tailoring, the subject’s calm gaze and controlled body language framed by muted architecture and shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A low-key contemporary goth editorial with neutral city backdrops, subtle rim light outlining black silhouettes and lace textures, quiet confidence replacing overt motion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A realistic modern gothic street portrait emphasizing refined silhouettes, leather and mesh contrasts, and a composed expression that carries sensual tension without theatrics, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A cinematic city-frame composition with soft daylight diffusion, black fashion and minimal metal accents, the subject’s posture and fabric tension communicating calm dominance and introspection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A contemporary gothic identity expressed through restrained fashion editorial realism, muted urban textures and shallow depth framing a quiet, sensual presence with a subtle TK detail integrated as accessory branding, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

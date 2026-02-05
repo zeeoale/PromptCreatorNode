@@ -1,0 +1,78 @@
+{
+  "EPOCHS": [
+    "Demon-infested Edo era",
+    "Corrupted shrine age",
+    "Twilight of the Yokai",
+    "Blood-soaked festival night",
+    "Sacred Oni Hunt"
+  ],
+  "OUTFITS": [
+    "Tattooed battle kimono",
+    "Torn shrine maiden robes",
+    "Samurai armor with oni glyphs",
+    "Demonic silk garment with kanji embroidery",
+    "Bone and rope ceremonial outfit"
+  ],
+  "LIGHTING": [
+    "Flickering lantern light",
+    "Moonlight through cursed fog",
+    "Firelight revealing demonic silhouettes",
+    "Backlight through red paper seals",
+    "Glowing kanji projected on face"
+  ],
+  "BACKGROUNDS": [
+    "Burning torii gate",
+    "Ancient cursed shrine",
+    "Foggy bamboo grove",
+    "Oni-infested battlefield",
+    "Scrolls of binding floating in the air"
+  ],
+  "OBJECTS": [
+    "Oni horns emerging from skin",
+    "Burning kanji tattoos all over the body",
+    "Cursed masks half-fused to the face",
+    "Sealing talismans nailed to skin",
+    "Spiritual chains with written prayers"
+  ],
+  "POSES": [
+    "Standing in fog with blood dripping from fingers",
+    "Eyes glowing through Hannya mask",
+    "Body arched in possession",
+    "Kneeling with scrolls floating around",
+    "Hand raised, revealing cursed palm symbol"
+  ],
+  "EXPRESSIONS": [
+    "Demonic ecstasy",
+    "Silent rage",
+    "Possessed trance",
+    "Unholy seduction",
+    "Mouth open in yokai scream"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on eyes and forehead sigils",
+    "Hyper close-up from below",
+    "Frontal symmetrical frame",
+    "Face tilted in anguish",
+    "Top-down sacred angle",
+    "Diagonal frame with face scars"
+  ],
+  "ATMOSPHERES": [
+    "Cursed festival ambience",
+    "Thick yokai mist",
+    "Sacrificial shrine energy",
+    "Ominous silence before the attack",
+    "Blood-stained prayer field"
+  ],
+  "ACCESSORIES": [
+    "Hannya mask partially shattered",
+    "Red string bindings",
+    "Incense smoke forming symbols",
+    "Nails hammered through paper seals"
+    
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle yokai presence with haunting beauty",
+    "1": "Visible possession and glyph corruption",
+    "2": "Full spiritual breakdown with overwhelming sigil coverage"
+  }
+}

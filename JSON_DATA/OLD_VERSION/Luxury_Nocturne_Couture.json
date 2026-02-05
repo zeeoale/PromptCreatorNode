@@ -1,0 +1,125 @@
+{
+  "EPOCHS": [
+    "contemporary luxury era",
+    "modern haute couture",
+    "late-night metropolitan elegance",
+    "post-2000s fashion editorial",
+    "timeless minimalist glamour",
+    "modern european high fashion"
+  ],
+
+  "OUTFITS": [
+    "tailored luxury suit for women with sharp lines",
+    "elegant silk blouse with structured trousers",
+    "high-fashion minimalist evening dress",
+    "architectural couture gown with clean silhouette",
+    "monochrome power suit with subtle sheen",
+    "sleek satin dress with controlled slit",
+    "asymmetrical designer dress with sharp tailoring",
+    "modern tuxedo-inspired ensemble",
+    "refined cocktail dress with couture cut",
+    "luxury knit dress with sculpted fit"
+  ],
+
+  "LIGHTING": [
+    "soft editorial studio lighting",
+    "controlled cinematic rim light",
+    "low-key luxury interior lighting",
+    "architectural lighting with clean shadow edges",
+    "soft top light sculpting cheekbones",
+    "high-end fashion lighting with restrained contrast",
+    "diffused ambient light reflecting on leather surfaces"
+  ],
+
+  "BACKGROUNDS": [
+    "minimal luxury living room with designer furniture",
+    "modern penthouse interior with city skyline windows",
+    "architectural interior with clean lines and neutral tones",
+    "high-end fashion studio with minimal set design",
+    "luxury apartment lounge with leather sofa",
+    "sleek urban interior with glass, stone, and metal accents",
+    "quiet night-time interior overlooking the city"
+  ],
+
+  "OBJECTS": [
+    "leather sofa with clean modern lines",
+    "marble coffee table with sculptural form",
+    "designer armchair in leather or fabric",
+    "floor-to-ceiling windows with city lights",
+    "minimalist art pieces and sculptures",
+    "architectural lamps with soft glow",
+    "glass surfaces reflecting controlled light"
+  ],
+
+  "POSES": [
+    "three-quarter back pose",
+    "looking over shoulder",
+    "graceful static stance",
+    "elegant controlled posture",
+    "reclining on a leather sofa",
+    "lying sideways on a designer couch",
+    "seated on a luxury sofa with relaxed dominance",
+    "crossed legs seated on leather couch",
+    "elongated reclining pose with arched back",
+    "upright seated pose with hands resting softly",
+    "standing with weight shifted on one leg",
+    "slow walking pose with tailored garments in motion",
+    "leaning lightly against modern furniture",
+    "side profile pose emphasizing couture silhouette"
+  ],
+
+  "EXPRESSIONS": [
+    "calm and distant",
+    "cool confident gaze",
+    "controlled sensuality",
+    "serene modern elegance",
+    "quiet authority",
+    "subtle self-possessed expression",
+    "detached high-fashion poise",
+    "timeless composed confidence"
+  ],
+
+  "CAMERA_ANGLES": [
+    "medium fashion portrait",
+    "waist-up editorial portrait",
+    "three-quarter view",
+    "slightly elevated angle",
+    "low angle emphasizing power and elegance",
+    "cinematic close-up",
+    "intimate mid-shot",
+    "full body fashion portrait with negative space"
+  ],
+
+  "ATMOSPHERES": [
+    "luxury minimalism",
+    "modern nocturnal elegance",
+    "cinematic fashion editorial",
+    "quiet power and restraint",
+    "high-end contemporary glamour",
+    "subtle sensual tension",
+    "metropolitan night calm"
+  ],
+
+  "ACCESSORIES": [
+    "minimalist designer earrings",
+    "fine gold or silver jewelry",
+    "architectural belts",
+    "luxury wristwatch",
+    "structured leather handbag",
+    "subtle couture detailing",
+    "tailored gloves or cuffs"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure modern elegance, professional and restrained",
+    "1": "subtle allure through posture, tailoring, and gaze",
+    "2": "controlled sensuality expressed through silhouette and proximity",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no darkness, pure luxury and clarity",
+    "1": "slight psychological tension through shadow and night setting",
+    "2": "noir-like atmosphere driven by isolation and contrast, no horror elements"
+  }
+}

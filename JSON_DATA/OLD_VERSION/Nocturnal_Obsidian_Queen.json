@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Gothic Revival",
+    "Dark Romanticism",
+    "Neo-Baroque Gothic",
+    "Modern Occult Aesthetic"
+  ],
+  "OUTFITS": [
+    "Black lace ceremonial gown",
+    "High-neck gothic dress with sheer textures",
+    "Velvet and lace ritual attire",
+    "Dark couture gown with cathedral silhouette"
+  ],
+  "LIGHTING": [
+    "Cold moonlit key light",
+    "Soft diffused frontal glow",
+    "Subtle halo backlighting",
+    "Low-contrast nocturnal illumination"
+  ],
+  "BACKGROUNDS": [
+    "Midnight blue void",
+    "Snow-filled nocturnal atmosphere",
+    "Ethereal dark mist backdrop",
+    "Astral night haze"
+  ],
+  "OBJECTS": [
+    "Ornate obsidian crown",
+    "Radiant gothic halo headpiece",
+    "Dark gemstone forehead jewel",
+    "Intricate metallic filigree crown"
+  ],
+  "POSES": [
+    "Regal frontal extreme close-up portrait"
+
+  ],
+  "EXPRESSIONS": [
+    "Serene solemn gaze",
+    "Detached divine calm",
+    "Cold melancholic stare",
+    "Silent sovereign composure"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level portrait framing",
+    "Centered symmetrical composition",
+    "Tight head-and-shoulders crop",
+    "Slightly low reverent angle"
+  ],
+  "ATMOSPHERES": [
+    "Sacred nocturnal stillness",
+    "Frozen gothic solemnity",
+    "Ritualistic silence",
+    "Ethereal dark divinity"
+  ],
+  "ACCESSORIES": [
+    "Black gemstone tiara",
+    "Lace veil details",
+    "Dark sapphire jewelry",
+    "Filigree metal adornments"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "pure gothic elegance, sacred calm",
+    "1": "subtle uncanny presence, cold tension",
+    "2": "ritual aura, inhuman serenity",
+    "3": "otherworldly divinity, porcelain stillness",
+    "4": "eldritch sacred queen, barely human",
+    "5": "dark celestial entity, transcendent and eternal"
+  }
+}
