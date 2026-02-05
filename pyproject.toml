@@ -1,7 +1,7 @@
 [project]
 name = "promptcreatornode"
 description = "A powerful custom node for ComfyUI that generates rich, dynamic prompts based on modular JSON worlds — with color realm control (RGB / CMYK), LoRA triggers, and optional AI-based prompt enhancement."
-version = "1.0.0"
+version = "1.8.0"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
@@ -20,8 +20,6 @@ license = {file = "LICENSE"}
 #     "Environment :: GPU :: Apple Metal",    # Apple Metal support
 # ]
 
-dependencies = ["openai==0.28.1", "google.generativeai==0.8.5", "cohere"]
-
 [project.urls]
 Repository = "https://github.com/zeeoale/PromptCreatorNode"
 #  Used by Comfy Registry https://registry.comfy.org
@@ -29,7 +27,7 @@ Documentation = "https://github.com/zeeoale/PromptCreatorNode/wiki"
 "Bug Tracker" = "https://github.com/zeeoale/PromptCreatorNode/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "TK-traumakom"
 DisplayName = "PromptCreatorNode"
 Icon = ""
 includes = [] 
