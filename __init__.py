@@ -5,8 +5,7 @@
 MANIFEST = {
     "name": "Prompt Creator Node",
     "version": (1, 8, 0),
-    "version": (1, 4, 0),
-    "author": "traumakom",
+    "author": "TK-traumakom",
     "project": "https://github.com/traumakom/PromptCreatorNode",
     "description": (
         "Dynamic prompt generator for ComfyUI using modular JSON worlds, "
