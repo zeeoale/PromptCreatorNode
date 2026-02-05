@@ -1,0 +1,87 @@
+{
+  "WORLD_NAME": "PFN_HongKong_Retro_Room",
+
+  "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in authentic 1990s Hong Kong film portraiture and late-80s Asian cinema aesthetics, grounded in real analog photography and practical lighting rather than modern digital stylization. When requested, return ONE single long sentence (180–240 words), richly descriptive and filmic, without line breaks or lists, depicting an intimate half-body portrait inside a narrow, humid Hong Kong room where yellowed Cantonese newspapers and aged paper ads cover the walls like fragile wallpaper. Seamlessly integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. Emphasize tactile realism: wrinkled fabric clinging slightly to the body, textured newsprint softened by moisture, worn plaster, and skin subtly glistening with heat, with loose strands of hair falling naturally across the face. Lighting must feel entirely practical and period-accurate, dominated by tungsten bulb glow mixed with faint green fluorescent or neon spill, producing uneven illumination, soft halation around highlights, and gentle shadow falloff. Maintain a restrained palette of muted amber, olive green, burnt sienna, and sepia tones, with a visible heat haze. Specify a cinematic 50mm lens feel, shallow depth of field, and rule-of-thirds framing. Finish with unmistakably analog post-processing cues such as real film grain, organic halation, slight color drift, chromatic aberration at the edges, subtle gate softness, and warm chemical tone mapping, preserving moody intimacy, claustrophobia, and nostalgic realism.",
+
+    
+    "EPOCHS": [
+        "1990s Hong Kong cinema era",
+        "late 80s Asian film aesthetic",
+        "retro city night aesthetic"
+    ],
+    "OUTFITS": [
+        "thin strap dress in dark fabric",
+        "loose white tank top",
+        "silky slip dress with subtle texture",
+        "simple dark outfit, slightly wrinkled"
+    ],
+    "LIGHTING": [
+        "tungsten bulb glow with faint green spill",
+        "moody dim light with orange tint",
+        "low-key lighting with soft highlights bloom",
+        "harsh shadow contrast and narrow light beam"
+    ],
+    "BACKGROUNDS": [
+        "narrow Hong Kong room covered in old Cantonese newspapers",
+        "retro room with yellowed newsprint wallpaper",
+        "aged wall plastered with faded posters and paper ads",
+        "neon spill reflecting on old damp wallpaper"
+    ],
+    "OBJECTS": [
+        "old hanging lightbulb",
+        "rusted metal fan barely visible in shadows",
+        "scattered newspapers on the floor",
+        "hanging wire lamp emitting warm light"
+    ],
+    "POSES": [
+        "subject leaning against the newspaper wall, gaze soft",
+        "half-body pose with head slightly tilted toward the light",
+        "standing close to wall, shoulder pressed against paper surface",
+        "looking toward camera, strands of hair falling across face"
+    ],
+    "EXPRESSIONS": [
+        "melancholic and distant gaze",
+        "soft seductive look under dim light",
+        "tired dreamy expression, lips slightly parted",
+        "lonely nostalgia under tungsten light"
+    ],
+    "CAMERA_ANGLES": [
+        "close-up portrait with shallow depth of field",
+        "half-body portrait shot with cinematic framing",
+        "slightly low angle emphasizing the dim bulb light",
+        "medium close-up focusing on glossy lips and dewy skin"
+    ],
+    "ATMOSPHERES": [
+        "claustrophobic nostalgic mood with raw emotion",
+        "moody cinematic realism with subtle melancholy",
+        "humid room atmosphere, skin glistening with heat",
+        "intimate retro ambience, filled with still air and faint neon hue"
+    ],
+    "ACCESSORIES": [
+        "minimal gold earrings barely visible in shadows",
+        "simple chain necklace reflecting warm light",
+        "none — focus on natural realism and skin detail"
+    ],
+
+    "CUSTOM_INTRO": {
+    "0": "Authentic 1990s Hong Kong cinematic portrait in a cramped humid room covered in yellowed Cantonese newspapers, tungsten bulb glow and faint green spill, analog film realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Late-80s to 90s Asian film still aesthetic, half-body close-up with dewy skin and messy hair strands, warm tungsten halation and real film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Moody retro Hong Kong interior plastered with old newsprint, practical bulb lighting mixed with faint neon spill, soft bloom and analog color drift, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Cinematic realist portrait with visible film grain and gate softness, muted amber and sepia palette under uneven tungsten light, intimate claustrophobic mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Hong Kong night interior realism, subject leaning against damp newspaper wall, warm bulb halation and subtle green contamination, authentic analog feel, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Retro city ambience bleeding into a narrow room, glossy skin under heavy air, chromatic aberration and chemical warmth from real film stock, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "1990s Hong Kong film still look, rule-of-thirds half-body framing, tungsten bulb glow, halation, grain, and nostalgic analog imperfection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  },
+
+  "SENSUALITY_LEVEL": {
+    "0": "Observed intimacy: sensuality emerges only through proximity, heat, and subtle skin sheen, restrained and documentary in tone.",
+    "1": "Humid allure: warmth, dewy skin, and relaxed posture under tungsten light suggest quiet desire without explicit emphasis.",
+    "2": "Sultry realism: close framing, clingy fabric, and heat-haze highlights amplify bodily presence, intimate and provocative while remaining grounded in cinematic authenticity."
+  },
+
+    "HORROR_INTENSITY": {
+        "0": "Photorealistic retro mood, nostalgic and sensual lighting",
+        "1": "Damp cinematic melancholy, skin glowing under heavy air",
+        "2": "Emotional decay, claustrophobic room with oppressive green glow"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "EPOCHS": [
+        "Urban Abyss Era",
+        "Post-Reality Corruption",
+        "Neon Paranoia Age"
+    ],
+
+    "OUTFITS": [
+        "soaked torn nightgown clinging unnaturally",
+        "loose wet hospital slip with stretched seams",
+        "bandaged top warped by moisture and tension",
+        "thin fabric that appears slightly distorted in shape"
+    ],
+
+    "LIGHTING": [
+        "flickering neon green void-light",
+        "unsteady morgue-blue pulse",
+        "distorted pink-blue glow bending around edges",
+        "sickly ambient light that feels misaligned"
+    ],
+
+    "BACKGROUNDS": [
+        "tiles bulging subtly as if something pushes behind them",
+        "walls covered in graffiti that shifts when unfocused",
+        "pipes that appear stretched or slightly warped",
+        "mirror surface with delayed or fragmented reflections"
+    ],
+
+    "OBJECTS": [
+        "water rippling despite no movement",
+        "shadow pools that shimmer faintly",
+        "puddles reflecting details that aren’t in the room",
+        "broken mirror fragments showing mismatched angles"
+    ],
+
+    "POSES": [
+        "curling into herself as the room bends inward",
+        "knees pressed close, trying not to breathe too loudly",
+        "head bowed as long hair drapes like tendrils",
+        "leaning against tiles that seem to pulse behind her"
+    ],
+
+    "EXPRESSIONS": [
+        "paralyzed dread",
+        "glassy, hollow fixation on something unseen",
+        "quiet terror with trembling breath",
+        "expression of someone hearing whispers you cannot"
+    ],
+
+    "CAMERA_ANGLES": [
+        "low angle with warped perspective lines",
+        "tight close-up where background subtly distorts",
+        "mirror-shot with reflections not matching her posture",
+        "slightly tilted cinematic frame suggesting instability"
+    ],
+
+    "ATMOSPHERES": [
+        "claustrophobic reality distortion",
+        "whispers crawling through damp air",
+        "humid hallucination-like dread",
+        "silence so heavy it feels sentient"
+    ],
+
+    "ACCESSORIES": [
+        "hair that falls in unnatural symmetric patterns",
+        "fabric reacting subtly to unseen drafts",
+        "soft film grain mixed with glitch-like noise",
+        "water droplets forming impossible shapes"
+    ],
+
+    "HORROR_INTENSITY": {
+        "0": "uneasy quiet, subtly wrong atmosphere",
+        "1": "psychological dread, reality lightly bending",
+        "2": "extreme uncanny distortion, oppressive presence watching"
+    }
+}

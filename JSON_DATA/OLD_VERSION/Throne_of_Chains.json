@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "Dark Baroque",
+    "Neo-Gothic",
+    "Occult Cathedral",
+    "Underground Ritual Chamber",
+    "Red Velvet Throne Room"
+  ],
+  "OUTFITS": [
+    "ornate black crown with chains",
+    "dark lace corset with metallic details",
+    "ritual leather armor with gothic engravings",
+    "long flowing black cloak",
+    "obsidian jewelry with blood-red gems"
+  ],
+  "LIGHTING": [
+    "dramatic chiaroscuro",
+    "low-key red neon",
+    "moonlit silver glow",
+    "ritual spotlight from above",
+    "harsh fluorescent underground lights"
+  ],
+  "BACKGROUNDS": [
+    "velvet red walls",
+    "cathedral ruins bathed in shadow",
+    "underground garage with neon reflections",
+    "abandoned throne hall"
+  ],
+  "OBJECTS": [
+    "black iron chains",
+    "ritual dagger",
+    "obsidian throne",
+    "gothic cross",
+    "ritual circle engraved on the floor"
+  ],
+  "POSES": [
+    "kneeling in chains",
+    "sitting on a throne, one leg forward",
+    "leaning back with a defiant gaze",
+    "crouching predator stance",
+    "profile view with blood tears"
+  ],
+  "EXPRESSIONS": [
+    "cold dominion",
+    "seductive temptation",
+    "ritual trance",
+    "fierce glare",
+    "enigmatic serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle shot to emphasize dominance",
+    "extreme close-up on eyes with tears of blood",
+    "front full-body portrait on throne",
+    "profile view highlighting crown",
+    "dramatic half-body with chains"
+  ],
+  "ATMOSPHERES": [
+    "forbidden ritual",
+    "baroque oppression",
+    "occult seduction",
+    "vampiric elegance",
+    "sacred blasphemy"
+  ],
+  "ACCESSORIES": [
+    "baroque crown with metal filigree",
+    "iron cross earrings",
+    "black chains wrapped around arms",
+    "ornamental chokers",
+    "blood gem headpiece"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Gothic elegance with subtle menace",
+    "1": "Occult beauty with crimson tears",
+    "2": "Dark ritual queen bound in chains and blood"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "EPOCHS": [
+    "Cyber-Gothic 2300 AD",
+    "Post-Apocalyptic Neo-Victorian",
+    "Dark BioTech Era",
+    "Late Dystopian Renaissance"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Cold Neon",
+    "Bleeding Red Strobe",
+    "Flickering Green Fluorescent",
+    "Shadowy Ultraviolet",
+    "Spectral Blue"
+  ],
+  "BACKGROUNDS": [
+    "black studio background",
+    "red velvet with gold inlays"
+  ],
+  "OBJECTS": [
+    "Organic Rose with Thorns",
+    "Cybernetic Piercing Instruments",
+    "Blood-Soaked Jewels",
+    "facial piercing",
+    "bloody carved kanji 竜 (dragon) on forehead",
+    "bloody carved kanji 狼 (wolf) on cheek"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Ecstatic Pain",
+    "Cold Indifference",
+    "Blissful Torment",
+    "Disturbing Satisfaction",
+    "Inhuman Serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme Close-Up on Modified Face"
+  ],
+  "ATMOSPHERES": [
+    "Dystopian Decadence",
+    "Bleak Elegance",
+    "Ritualistic Horror",
+    "Gothic Sensuality",
+    "Cybernetic Nightmare"
+  ],
+  "ACCESSORIES": [
+    "Jeweled Cybernetic Implants",
+    "Piercing Chains",
+    "Blood-Dripping Necklaces",
+    "Rusted Surgical Tools",
+    "Crown of Thorns"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "mild cyber-gothic setting with bio-tech undertones",
+    "1": "visible implants, blood tubes, eerie coldness",
+    "2": "extreme face modification, divine suffering, grotesque elegance",
+    "3": "ritual mutilation, ecstatic pain, dystopian decadence",
+    "4": "ultimate horror, cybernetic nightmare, inhuman serenity"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Contemporary Gothic",
+    "Urban Fantasy",
+    "Dark Glamour",
+    "Modern Occult",
+    "Cat-girl Aesthetic"
+  ],
+  "OUTFITS": [
+    "Black lace tops and dresses",
+    "Intricate leather harnesses",
+    "Sheer, transparent fabrics",
+    "High-collared gothic shirts",
+    "Elaborate dark formalwear"
+  ],
+  "LIGHTING": [
+    "Low-key portrait lighting",
+    "Dramatic key light emphasizing facial features",
+    "Soft rim lighting for separation",
+    "High-contrast with deep shadows",
+    "Studio lighting setup"
+  ],
+  "BACKGROUNDS": [
+    "Solid black or dark grey studio backdrop",
+    "Minimalist and non-descript",
+    "Dark, moody gradients",
+    "Simple, out-of-focus background to emphasize the subject"
+  ],
+  "OBJECTS": [
+    "Cat ears (headband or integrated into a tiara)",
+    "Intricate metal and jewel headpieces",
+    "Lace fabrics",
+    "Ornate gothic jewelry"
+  ],
+  "POSES": [
+    "Direct-to-camera portrait",
+    "Three-quarter view of the face",
+    "Slight, confident head tilt",
+    "Upper body and headshot framing",
+    "Posing to highlight makeup and accessories"
+  ],
+  "EXPRESSIONS": [
+    "Intense, direct, and captivating gaze",
+    "Confident and slightly menacing",
+    "Seductive and mysterious",
+    "Stoic and powerful",
+    "Enigmatic and unreadable"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level portrait shot",
+    "Medium close-up on face and shoulders",
+    "Slightly low angle to convey confidence",
+    "Straight-on, confrontational angle",
+    "Tight crop on facial features"
+  ],
+  "ATMOSPHERES": [
+    "Darkly seductive and alluring",
+    "Gothic elegance",
+    "Mysterious and enchanting",
+    "Powerful and dominant femininity",
+    "A mix of danger and beauty"
+  ],
+  "ACCESSORIES": [
+    "Cat ear headbands or tiaras",
+    "Elaborate black lace or metal headpieces/veils",
+    "Septum ring and other facial piercings",
+    "Layered chokers, necklaces, and harnesses",
+    "Dramatic dark makeup (heavy eyeliner, black lipstick)"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low; the aesthetic is dark, gothic, and stylized. It focuses on beauty, power, and mystery rather than inducing fear. There are no elements of gore, violence, or traditional horror."
+  }
+}

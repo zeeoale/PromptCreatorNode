@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Post-apocalyptic Dystopia",
+    "Cybernetic Rebellion Era",
+    "Rusted Machinery Age",
+    "Biotech Revolution Period",
+    "Age of Surgical Rituals"
+  ],
+  "OUTFITS": [
+    "Flesh-wrapped Bodysuit",
+    "Surgical Leather Harness",
+    "Skin-grafted Robes",
+    "Womb-tech Armor",
+    "Organic Circuitry Corset"
+  ],
+  "LIGHTING": [
+    "Neon Blood Illumination",
+    "Bio-luminescent Organ Glow",
+    "Rusty Halogen Spotlight",
+    "Flickering Surgical Lamp",
+    "Pulsating Womb-tech Radiance"
+  ],
+  "BACKGROUNDS": [
+    "Dystopian Surgical Chamber",
+    "Rusted Machinery Landscape",
+    "Organic Tech Hive",
+    "Neon-bathed Body Modification Lab",
+    "Post-apocalyptic Pleasure Dome"
+  ],
+  "OBJECTS": [
+    "Rusted Surgical Tools",
+    "Organic Tech Implants",
+    "Cybernetic Limbs on Sterile Trays",
+    "Neon Blood Transfusion Kits",
+    "Womb Tech Incubators"
+  ],
+  "POSES": [
+    "Sensual Submission to the Surgical Blade",
+    "Ecstasy in the Midst of Mutilation",
+    "Revelation of the Flesh Implants",
+    "Embrace of the Cybernetic Limb",
+    "Ritualistic Offering of Neon Blood"
+  ],
+  "EXPRESSIONS": [
+    "Ecstatic Pain",
+    "Pleasure in Dystopian Desolation",
+    "Sublime Fear of the Organic Implant",
+    "Ritualistic Tranquility Amidst Mutilation",
+    "Sensual Surrender to the Cybernetic Transformation"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on one eye"
+  ],
+  "ATMOSPHERES": [
+    "Sickly Sweet Scent of Blood and Rust",
+    "Humming Dystopian Desolation",
+    "Pulsating Bio-tech Energy",
+    "Sterile Coldness of the Surgical Chamber",
+    "Sensual Heat Amidst Mechanical Chill"
+  ],
+  "ACCESSORIES": [
+    "Bio-luminescent Vein Jewelry",
+    "Surgical Steel Piercings",
+    "Neon Blood Vial Necklace",
+    "Cybernetic Limb Extensions",
+    "Womb-tech Ornamental Implants"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Unsettling Mood, Flesh Implants Just Beneath the Surface, Minor Wounds with Neon Blood",
+    "1": "Visible Body Modifications, Surgical Rituals in Progress, Sensual Pain Expression",
+    "2": "Extreme Ritualistic Mutilation, Gore with Neon Blood, Organic Tech Body Horror with Sensual Elements"
+  }
+}

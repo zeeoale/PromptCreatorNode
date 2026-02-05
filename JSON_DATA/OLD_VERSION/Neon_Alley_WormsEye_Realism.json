@@ -1,0 +1,85 @@
+{
+  "EPOCHS": [
+    "late-night contemporary city, cyber-noir undertone, post-rain streets",
+    "near-future megacity outskirts, quiet urban decay with luxury details",
+    "modern nightlife district, neon signage and wet asphalt reflections",
+    "post-industrial inner city afterhours, gritty realism, editorial mood"
+  ],
+  "OUTFITS": [
+    "black bomber jacket over fitted top, minimalist street couture",
+    "cropped hoodie with subtle harness straps, tactical-chic silhouette",
+    "structured black mini dress with discreet leather paneling",
+    "oversized jacket with leather accents, high-waist skirt or shorts",
+    "monochrome streetwear layers with metal hardware, zippers, buckles",
+    "sleek bodycon outfit under a heavy coat, urban executive-night vibe"
+  ],
+  "LIGHTING": [
+    "magenta neon rim light with cyan fill bounce from wet pavement",
+    "high-contrast signage lighting, sculpted shadows on cheekbones and jaw",
+    "hard side light from a flickering neon sign, controlled back rim separation",
+    "low-key cinematic lighting with neon reflections in puddles",
+    "chiaroscuro street lighting, highlights on leather, nylon, and metal"
+  ],
+  "BACKGROUNDS": [
+    "tight alley canyon between tall buildings, stacked neon signs and grime",
+    "abandoned service corridor with peeling walls, exposed conduits and cables",
+    "ruined courtyard shaft opening to the sky, towering concrete frames",
+    "wet backstreet with cracked asphalt, puddles, and signage reflections",
+    "dense urban trench with vertical signage, broken panels, and hanging wires"
+  ],
+  "OBJECTS": [
+    "vertical neon signage with partial letters and flicker",
+    "tangled overhead power lines and junction boxes",
+    "puddles reflecting magenta and cyan, ripples from light rain",
+    "distressed posters and graffiti tags on cracked concrete",
+    "metal pipes, railings, and cable bundles used as leading lines"
+  ],
+  "POSES": [
+    "dominant low crouch with one knee raised, hand reaching toward the lens",
+    "one-foot-forward power pose with the sneaker pushed into extreme foreground",
+    "half-squat on pavement, elbow resting on knee, relaxed but assertive hand",
+    "leaning back against a wall, chin slightly lifted, controlled stillness",
+    "slow step mid-motion, coat trailing, gaze angled downward at camera",
+    "seated/crouched pose framed by architecture, legs forming strong diagonals"
+  ],
+  "EXPRESSIONS": [
+    "cold detached gaze with restrained menace",
+    "neutral editorial expression, lips slightly parted, unbothered confidence",
+    "piercing stare, calm dominance, minimal emotion",
+    "subtle smirk of control, eyes locked on the lens",
+    "distant eyes, quiet authority, no overt softness"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme worm’s-eye view from ground level, camera almost touching pavement",
+    "ultra low-angle wide lens 18–24mm, exaggerated foreground sneaker scale",
+    "ground-level close-up on shoe in foreground, subject towering in midground",
+    "low-angle dutch tilt with strong verticals from buildings and signage",
+    "street-level three-quarter view with leading lines of cables and neon",
+    "low-angle fashion editorial framing, shallow depth of field, cinematic bokeh"
+  ],
+  "ATMOSPHERES": [
+    "light rain haze with neon diffusion and wet concrete sheen",
+    "noir smog with faint fog drifting through the alley",
+    "humid night air with subtle steam from vents, distant city hum",
+    "soft neon bloom with fine film grain and muted contrast roll-off",
+    "after-rain stillness, flickering signs, quiet tension in empty streets"
+  ],
+  "ACCESSORIES": [
+    "chunky sneakers with visible stitching and worn rubber texture",
+    "tattoos on thigh or calf, crisp ink lines under neon light",
+    "thin choker or collar strap, understated fetish hint",
+    "silver rings and small hoop earrings catching rim light",
+    "tactical belt strap details with metal buckles and zippers",
+    "glossy nails or fingerless gloves, hand placed close to lens"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "suggestive but restrained, professional editorial distance, no explicit focus on body",
+    "1": "controlled sensual presence through pose, fabric tension, and confident gaze, tasteful street couture",
+    "2": "strong erotic charge expressed via dominance, proximity to lens, and deliberate concealment, still non-explicit and fashion-forward"
+  },
+  "HORROR_INTENSITY": {
+    "0": "pure fashion noir, clean realism, no threat",
+    "1": "subtle menace in shadows and environment, uneasy quiet streets",
+    "2": "heavier tension, harsher shadows, decay emphasized, still grounded and non-fantasy"
+  }
+}

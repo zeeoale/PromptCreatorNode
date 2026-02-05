@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "luminous post-human renaissance",
+    "neo-sacred cyber iconography",
+    "angelic biomech revival",
+    "cathedral of light era"
+  ],
+  "OUTFITS": [
+    "pearlescent bio-armor with gold inlays",
+    "white priestess mantle with microcircuits embroidery",
+    "polished titanium plates and clear fiber tubes",
+    "ceremonial exosuit with luminous filigree",
+    "translucent synthetic veil over cranial implants"
+  ],
+  "LIGHTING": [
+    "heavenly soft white key with crimson accents",
+    "rim light halo with subtle bloom",
+    "silver bounce over matte skin",
+    "diffused volumetric shafts through incense haze",
+    "specular highlights on polished metal"
+  ],
+  "BACKGROUNDS": [
+    "vast gray chapel with floating luminous glyphs",
+    "mirror-smooth floor reflecting a radiant halo",
+    "misty nave layered with light cables",
+    "open sanctum with suspended circuitry icons",
+    "quiet pool of liquid glass beneath the altar"
+  ],
+  "OBJECTS": [
+    "hollow aureole of segmented metal petals",
+    "glass ampoules with glowing spirit-code",
+    "silver rosary threaded with fiber optics",
+    "chromed spinal lattice emitting white glow",
+    "wing-like cable arrays forming a corona"
+  ],
+  "POSES": [
+    "serene kneeling with hands folded",
+    "head tilted heavenward in benediction",
+    "gentle outreach of one hand toward the light",
+    "standing still with halo centered behind",
+    "repose with veil cascading over armor"
+  ],
+  "EXPRESSIONS": [
+    "beatific calm",
+    "hushed revelation",
+    "tender awe",
+    "solemn grace",
+    "quiet transcendence"
+  ],
+  "CAMERA_ANGLES": [
+    "iconic frontal portrait with centered halo",
+    "low angle emphasizing ascension",
+    "close-up on eyes glowing softly",
+    "three-quarter icon pose with aureole",
+    "symmetrical poster framing"
+  ],
+  "ATMOSPHERES": [
+    "sanctified serenity with latent power",
+    "angelic biomech benediction",
+    "hushed cathedral hush with living circuitry",
+    "glassy stillness before transformation",
+    "holy light diffusing through engineered relics"
+  ],
+  "ACCESSORIES": [
+    "lattice mask of white metal",
+    "gold microfilament tassels",
+    "opaline lens inserts over eyes",
+    "fine fiber-optic strands woven into hair",
+    "etched sigil plates along the collar"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "luminous sacred calm with gentle biomech",
+    "1": "sublime transformation with subtle uncanny details",
+    "2": "beatific terror, angelic form revealing hidden machinery"
+  }
+}

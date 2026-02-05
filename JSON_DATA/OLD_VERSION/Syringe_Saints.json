@@ -1,0 +1,63 @@
+{
+  "EPOCHS": [
+    "Modern Gothic Clinic",
+    "Post-apocalyptic Vatican",
+    "Neo-Renaissance Hospital"
+  ],
+  "OUTFITS": [
+    "white latex nun suit",
+    "ritual surgeon robe",
+    "blood-stained cassock with IV tubing",
+    "transparent medical veil"
+  ],
+  "LIGHTING": [
+    "sacred spotlight from above",
+    "surgical cold fluorescence"
+  ],
+  "BACKGROUNDS": [
+    "desecrated operating theatre altar",
+    "statue of a bleeding angel",
+    "cathedral full of IV drips hanging from the ceiling"
+  ],
+  "OBJECTS": [
+    "chrome crucifix syringe",
+    "rosary made of needles",
+    "blood bags shaped like hearts",
+    "floating medical relics"
+  ],
+  "POSES": [
+    "arms spread like crucifixion",
+    "holding a syringe like a relic",
+    "kneeling in prayer with IV lines attached",
+    "embracing a dying patient"
+  ],
+  "EXPRESSIONS": [
+    "ecstatic pain",
+    "devotional trance",
+    "serene suffering",
+    "blissful agony"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle cathedral shot",
+    "close-up on syringe in mouth",
+    "over-the-shoulder ritual shot",
+    "profile with dripping IV in background"
+  ],
+  "ATMOSPHERES": [
+    "divine contamination",
+    "sacred blood mist",
+    "hospital incense smoke",
+    "spiritual decay"
+  ],
+  "ACCESSORIES": [
+    "latex gloves with golden filigree",
+    "halo made of IV tubing",
+    "metallic tears of blood",
+    "crown of surgical scalpels"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "mild surreal hospital setting with gothic undertones",
+    "1": "visible syringes, blood tubes, eerie holiness",
+    "2": "ritual mutilation, divine suffering, grotesque holiness"
+  }
+}

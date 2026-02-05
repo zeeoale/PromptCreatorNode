@@ -1,0 +1,49 @@
+{
+  "EPOCHS": [
+    "Neo-noir",
+    "Cyber-gothic",
+    "Dark modern"
+  ],
+  "OUTFITS": [
+    "Tattooed skin with Irezumi dragon designs"
+  ],
+  "LIGHTING": [
+    "Soft warm backlight",
+    "Moody shadows"
+  ],
+  "BACKGROUNDS": [
+    "Japanese poster design",
+    "Textured vintage paper",
+    "Abstract dark shapes"
+  ],
+  "OBJECTS": [
+    "Piercings",
+    "Large hoop earrings"
+  ],
+  "POSES": [
+    "Hands together near face",
+    "Eyes staring directly at viewer"
+  ],
+  "EXPRESSIONS": [
+    "Mysterious smirk",
+    "Intense gaze"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up portrait",
+    "Three-quarter view"
+  ],
+  "ATMOSPHERES": [
+    "Occult mysticism",
+    "Urban darkness",
+    "Rebel spirit"
+  ],
+  "ACCESSORIES": [
+    "Black choker",
+    "Metal hoop earrings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Stylized gothic beauty with subtle dark charm",
+    "1": "Eyes faintly glowing red, aura of occult power",
+    "2": "Eyes burning crimson, sinister flame conjured between hands"
+  }
+}

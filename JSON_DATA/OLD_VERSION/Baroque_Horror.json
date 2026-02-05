@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "gothic revival",
+    "contemporary dark fantasy",
+    "neo-victorian",
+    "baroque horror",
+    "dark romanticism"
+  ],
+  "OUTFITS": [
+    "black lace gown",
+    "sheer long sleeves",
+    "low-cut neckline dress",
+    "gothic corset top",
+    "victorian-inspired attire"
+  ],
+  "LIGHTING": [
+    "dramatic low-key lighting",
+    "chiaroscuro",
+    "strong backlight from window",
+    "rim lighting on hair and shoulders",
+    "moody, soft ambient light"
+  ],
+  "BACKGROUNDS": [
+    "gothic cathedral interior",
+    "stained glass window",
+    "arched church window",
+    "dark chapel",
+    "stone altar setting"
+  ],
+  "OBJECTS": [
+    "gothic cross symbol",
+    "large cross pendant",
+    "black lace veil",
+    "ornate church window",
+    "candlestick holder"
+  ],
+  "POSES": [
+    "hands clasped in prayer near the face",
+    "head tilted upwards in reverence",
+    "solemn prayer pose",
+    "standing with pious posture",
+    "looking up towards a light source"
+  ],
+  "EXPRESSIONS": [
+    "solemn and serene",
+    "pious devotion",
+    "melancholic tranquility",
+    "introspective and grave",
+    "dramatic reverence"
+  ],
+  "CAMERA_ANGLES": [
+    "low-angle shot",
+    "medium close-up",
+    "frontal portrait",
+    "eye-level perspective",
+    "three-quarter view"
+  ],
+  "ATMOSPHERES": [
+    "sacred and solemn",
+    "gothic and mysterious",
+    "darkly romantic",
+    "hauntingly beautiful",
+    "pious and reverent"
+  ],
+  "ACCESSORIES": [
+    "large ornate cross necklace",
+    "black lace veil",
+    "leather choker",
+    "long, dark, pointed nails",
+    "dangling earrings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Solemn beauty in a sacred, shadowed space.",
+    "1": "Mysterious devotion where piety meets darkness.",
+    "2": "A haunting ritual in a forgotten gothic sanctuary."
+  }
+}

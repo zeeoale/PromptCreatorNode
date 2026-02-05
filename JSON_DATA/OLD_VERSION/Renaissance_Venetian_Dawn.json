@@ -1,0 +1,64 @@
+{
+  "EPOCHS": [
+    "Renaissance"
+  ],
+  "OUTFITS": [
+    "Hooded cloak",
+    "Doublet",
+    "Merchant attire",
+    "Ranger leathers"
+  ],
+  "LIGHTING": [
+    "Golden hour",
+    "Fog-filtered sunrise",
+    "Candlelit",
+    "Backlit"
+  ],
+  "BACKGROUNDS": [
+    "Canal bridge",
+    "Market square",
+    "Gothic palazzo courtyard",
+    "Shipyard docks",
+    "Campanile walkway"
+  ],
+  "OBJECTS": [
+    "Map",
+    "Compass",
+    "Lantern",
+    "Relic",
+    "Grappling hook"
+  ],
+  "POSES": [
+    "Perched lookout",
+    "On the run shot",
+    "Back-to-wall",
+    "Side-draw pose"
+  ],
+  "EXPRESSIONS": [
+    "Determined",
+    "Calm focus",
+    "Fierce",
+    "Wry smile"
+  ],
+  "CAMERA_ANGLES": [
+    "Wide establishing",
+    "Low angle hero",
+    "Over-shoulder",
+    "Medium shot"
+  ],
+  "ATMOSPHERES": [
+    "Morning fog",
+    "Seabreeze haze",
+    "Distant gulls"
+  ],
+  "ACCESSORIES": [
+    "Feathered cap",
+    "Leather satchel",
+    "Cloak clasp",
+    "Gloves"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "Civic bustle",
+    "mild": "Alleyway whispers at dawn"
+  }
+}

@@ -1,0 +1,9 @@
+Title: "Elegy of Eternity"
+
+Description: Generate a haunting image of a beautiful woman clad in an Edwardian gown, her attire adorned with funeral veil and mourning jewelry. The scene is set against a background of dramatic chiaroscuro lighting, casting long shadows across a grand marble floor marked by a subtle blood trail. An engraved silver mirror reflects her sorrow-filled gaze as she clasps a broken porcelain doll, its shattered form echoing her inner turmoil.
+
+In her delicate hand, a wilted rose symbolizes lost love and unfulfilled dreams, contrasting with her subtle sorrowful smile tinged with poignant resignation. Despite the despair that surrounds her, she remains serene and elegant, kneeling in quiet contemplation amidst a tableau of poetic sorrow.
+
+Focusing on the details, include a pocket watch tainted with blood, its hands frozen in time, and a black choker adorned with a gleaming ruby that symbolizes her unyielding grief. Complete the composition with a mourning ring on her finger, a stark reminder of her profound loss and unending sorrow.
+
+Capture the essence of melancholy and timeless beauty in this top-down view of a woman caught in the depths of grief, surrounded by symbols of mortality and remembrance. Your evocative image will evoke a sense of elegiac grace and haunting allure, immersing viewers in a visual narrative of eternal sorrow and quiet resilience., <lora:Helly_Model:1>hellymodel, (-bad hands -unnatural hands -fused fingers -too many fingers)<lora:The_beauty_of_realism_2_(T):1> Cinematic picture

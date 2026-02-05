@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Decadent opera age",
+    "Neo-surgical future",
+    "Anatomical cabaret"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Red velvet spotlight",
+    "Overexposed surgical theater lights",
+    "Moody chiaroscuro with crimson accents",
+    "Dim stage light from below"
+  ],
+  "BACKGROUNDS": [
+    "Torn red curtain backdrop",
+    "Surgical stage with blood-spattered drapes",
+    "Anatomical sketchboard in the shadows",
+    "Dark theater with fractured mirrors"
+  ],
+  "OBJECTS": [
+    "Gold opera mask with flesh seams",
+    "Antique surgical instruments",
+    "Blood-slicked spotlight",
+    "Embroidered gauze stained with makeup",
+    "Organ-like jewelry",
+    "Threaded lips and stitched smiles"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Ecstatic madness",
+    "Smiling through pain",
+    "Frenzied performer trance",
+    "Dead-eyed elegance"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on theatrical surgical face",
+    "Macro focus on stitched facial features"
+  ],
+  "ATMOSPHERES": [
+    "Decadent horror",
+    "Surreal and bloody",
+    "Operatic agony",
+    "Surgical spectacle"
+  ],
+  "ACCESSORIES": [
+    "Flesh-piercing stage jewelry",
+    "Suture crown",
+    "Leather-bound vocal mask",
+    "Bone earrings shaped like music notes"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle theatrical makeup with hints of flesh themes",
+    "1": "Visible surgical seams, symbolic bleeding stage effects",
+    "2": "Grotesque facial modifications, open incisions, theatrical gore"
+  }
+}

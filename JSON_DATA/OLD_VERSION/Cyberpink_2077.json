@@ -1,0 +1,68 @@
+{
+  "EPOCHS": [
+    "Cyberpunk 2099",
+    "Post-Apocalyptic 2077",
+    "Dystopian Tokyo 2100",
+    "Gothic Future 2121"
+  ],
+  "OUTFITS": [
+    "Pink Leather Domina Attire",
+    "Flesh-Wrapped Bodysuit with Pink Fur Collar",
+    "Glowing Cybernetic Lingerie, Pink Neon",
+    "Distorted Kawaii Streetwear"
+  ],
+  "LIGHTING": [
+    "Sickly Neon Glare",
+    "Harsh Pink Fluorescent Tubes",
+    "Flickering Holographic Projections",
+    "Dark Shadows with Blinding Pink Highlights"
+  ],
+  "BACKGROUNDS": [
+    "Tokyo Skyline Consumed by Smog",
+    "Abandoned Shibuya Night Market",
+    "Ruined Love Hotel, Dystopian Aftermath",
+    "Neon Lit Bioengineered Forest"
+  ],
+  "OBJECTS": [
+    "Bio-Mechanical Tentacles",
+    "Cracked Neon Geisha Masks",
+    "Pulsating Cybernetic Hearts",
+    "Spinal Cables Sprouting Sakura Blossoms"
+  ],
+  "POSES": [
+    "Lethal Seduction",
+    "Ecstatic Pain",
+    "Cruel Dominance",
+    "Twisted Innocence"
+  ],
+  "EXPRESSIONS": [
+    "Manic Delight",
+    "Sinister Pleasure",
+    "Agonized Ecstasy",
+    "Cold Determination"
+  ],
+  "CAMERA_ANGLES": [
+    "Low Angle, Dominance",
+    "High Angle, Vulnerability",
+    "Extreme Close up, Intensity",
+    "Wide Angle, Isolation"
+  ],
+  "ATMOSPHERES": [
+    "Oppressive Humidity of a Tokyo Night",
+    "Chilling Sterility of a Cybernetic Lab",
+    "Suffocating Density of a Post-Apocalyptic City",
+    "Aching Loneliness of a Neon Metropolis"
+  ],
+  "ACCESSORIES": [
+    "Holo-Protrusion Eye Wear",
+    "Mechanical Parasite Jewelry",
+    "Flesh-Melded Cybernetic Implants",
+    "Neon Inked Tattoos"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "",
+    "1": "Twisted innocence, cybernetic body horror, oppressive neon",
+    "2": "Agonizing ecstasy, grotesque kawaii, desolate Tokyo",
+    "3": "Apocalyptic sensuality, bio-mechanical nightmares, neon-lit despair"
+  }
+}

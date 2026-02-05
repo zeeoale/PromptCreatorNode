@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Post-Apocalyptic Renaissance",
+    "Cybernetic Middle Ages",
+    "Dystopian Victorian Era",
+    "Neo-Gothic Industrial Revolution"
+  ],
+  "OUTFITS": [
+    "Flesh-wrapped Bodysuit with Spinal Cables",
+    "Celestial Veil of Shimmering Stardust",
+    "Dress of Luminous Lotus Petals",
+    "Radiant Robe of Astral Presence",
+    "Sacred Geometry Bodice with Crystal Embellishments"
+  ],
+  "LIGHTING": [
+    "Soft Focus Moonlight",
+    "Glowing Ambient Light of Inner Peace",
+    "Radiant Luminosity of Transcendence",
+    "Ethereal Glow of Otherworldly Halo"
+  ],
+  "BACKGROUNDS": [
+    "Mystical Aura of Timeless Space",
+    "Surreal Landscape of Sacred Symbols",
+    "Dreamlike Vortex of Cosmic Meditation",
+    "Serene Ethereal Plane with Floating Lotus"
+  ],
+  "OBJECTS": [
+    "Veil of Light Shrouding a Crystal Orb",
+    "Radiant Mystic Symbols Etched into Stone",
+    "Glowing Astral Projection of Sacred Geometry",
+    "Shimmering Stardust Flowing from an Abstract Lotus"
+  ],
+  "POSES": [
+    "Graceful Enlightenment Gaze towards the Heavens",
+    "Peaceful Meditation in Cosmic Harmony",
+    "Floating in a Dreamlike State of Transcendence",
+    "Introspective Stance with a Veil of Light"
+  ],
+  "EXPRESSIONS": [
+    "Calm Serenity amidst the Divine Horror",
+    "Ethereal Radiance of Enlightened Inner Peace",
+    "Abstract Beauty in the Face of Fear",
+    "Graceful Acceptance of Celestial Suffering"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up, Capturing the Luminous Enlightened Gaze",
+    "Mystical Worm's Eye View"
+  ],
+  "ATMOSPHERES": [
+    "Mystical Serenity amidst the Dark Chaos",
+    "Radiant Horror wrapped in Divine Beauty",
+    "Cosmic Peace in the Face of Dystopian Ruin",
+    "Ethereal Calm amidst the Surreal Terror"
+  ],
+  "ACCESSORIES": [
+    "Crystal Orb Radiating Astral Light",
+    "Glowing Halo of Sacred Geometry",
+    "Shimmering Veil of Stardust",
+    "Ethereal Lotus Petals Floating in Timeless Space"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Ethereal tranquility with dystopian undertones",
+    "1": "Introspective serenity, sacred symbols, eerie beauty",
+    "2": "Spiritual suffering, celestial horror, divine terror",
+    "3": "Existential dread, cosmic chaos, divine enlightenment"
+  }
+}

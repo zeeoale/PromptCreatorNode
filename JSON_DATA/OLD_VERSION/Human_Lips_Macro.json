@@ -1,0 +1,39 @@
+{
+  "EPOCHS": [
+    "contemporary portrait macro"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "beauty dish frontal soft light",
+    "subtle specular highlights on lips",
+    "diffused fill for skin texture"
+  ],
+  "BACKGROUNDS": [
+    "dark neutral blur"
+  ],
+  "OBJECTS": [
+    "human lips with gloss or natural texture",
+    "tiny water droplets for shimmer"
+  ],
+  "POSES": [
+    "tight crop on mouth area",
+    "slightly parted lips"
+  ],
+  "EXPRESSIONS": [
+    "neutral softness",
+    "subtle tension"
+  ],
+  "CAMERA_ANGLES": [
+    "macro 90–100mm",
+    "shallow depth to keep lips sharp, skin softly blurred"
+  ],
+  "ATMOSPHERES": [
+    "sensual",
+    "textural",
+    "detailed"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "none"
+  }
+}

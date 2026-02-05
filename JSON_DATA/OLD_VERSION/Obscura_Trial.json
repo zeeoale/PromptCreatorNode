@@ -1,0 +1,66 @@
+{
+  "EPOCHS": [
+    "Post-apocalyptic",
+    "Neo-Tokyo",
+    "Bio-mechanical age",
+    "Cyber-shamanic future"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Soft rim light from behind",
+    "Harsh single light from below",
+    "Flickering neon from one side",
+    "Moody chiaroscuro shadows"
+  ],
+  "BACKGROUNDS": [
+    "black void",
+    "deep gradient darkness",
+    "nebulous smoke",
+    "subtle glitch texture",
+    "blurred data stream",
+    "dim light haze"
+  ],
+  "OBJECTS": [
+    "authentic kanji markings painted on face",
+    "cybernetic scars",
+    "metallic micro-circuits",
+    "dripping ink",
+    "spirit sigils",
+    "blood traces arranged ritualistically",
+    "kanji 竜 (dragon) on forehead",
+    "kanji 狼 (wolf) carved on cheek"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "staring directly at the viewer",
+    "blank, emotionless gaze",
+    "possessed intensity",
+    "subtle grimace",
+    "serene but uncanny look",
+    "jaw slightly open"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme face-only macro close-up"
+  ],
+  "ATMOSPHERES": [
+    "ritualistic and surreal",
+    "mysterious and sterile",
+    "disturbingly serene",
+    "dense and suffocating",
+    "spirit-tech fusion",
+    "forgotten laboratory energy"
+  ],
+  "ACCESSORIES": [
+    "metal rods piercing skin",
+    "hanging wires from temple",
+    "earrings shaped like circuit keys",
+    "liquid metal tears",
+    "sacred tech ornaments",
+    "tattoos glowing under face"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "clean kanji, no blood or damage",
+    "1": "subtle blood streaks and cracks",
+    "2": "full ritual scars, blood, and cybernetic damage"
+  }
+}

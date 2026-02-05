@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Pre-Columbian Civilizations",
+    "Aztec/Maya Fantasy",
+    "Tribal Futurism",
+    "Shamanic Fantasy"
+  ],
+  "OUTFITS": [
+    "Intricate tribal tattoos covering body",
+    "Gold ceremonial chest plates and armor",
+    "Teal and turquoise fabric wrappings",
+    "Traditional tribal garments with modern fantasy elements",
+    "Minimal clothing showcasing body art"
+  ],
+  "LIGHTING": [
+    "Warm golden backlighting creating halos",
+    "Dramatic chiaroscuro effects",
+    "Mystical glowing orbs and energy",
+    "Fire-like ambient lighting",
+    "Divine/spiritual illumination"
+  ],
+  "BACKGROUNDS": [
+    "Glowing circular portals or sun discs",
+    "Dark atmospheric environments",
+    "Mystical energy fields",
+    "Sparkling particle effects",
+    "Ancient temple-like settings"
+  ],
+  "OBJECTS": [
+    "Golden ceremonial jewelry",
+    "Mystical glowing orbs",
+    "Traditional tribal ornaments",
+    "Sacred geometric patterns",
+    "Floating light particles"
+  ],
+  "POSES": [
+    "Confident frontal stance",
+    "Regal and commanding posture",
+    "Spiritual/meditative positioning",
+    "Warrior-like ready stance",
+    "Ceremonial presentation pose"
+  ],
+  "EXPRESSIONS": [
+    "Intense and piercing gaze",
+    "Stoic and determined",
+    "Mystical and otherworldly",
+    "Fierce and confident",
+    "Spiritually connected"
+  ],
+  "CAMERA_ANGLES": [
+    "Straight-on portrait shots",
+    "Slightly low angle emphasizing power",
+    "Close-up focusing on facial details",
+    "Upper body emphasis showing tattoos and jewelry"
+  ],
+  "ATMOSPHERES": [
+    "Mystical and spiritual",
+    "Powerful and commanding",
+    "Ancient and timeless",
+    "Magical realism",
+    "Tribal warrior energy"
+  ],
+  "ACCESSORIES": [
+    "Elaborate golden ear ornaments",
+    "Intricate neck jewelry and chokers",
+    "Tribal face paint and markings",
+    "Hair ornaments and braiding",
+    "Ceremonial body chains"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Very low horror elements; primarily focused on mystical warrior aesthetics with some dark atmospheric elements, but the overall mood is empowering and spiritual rather than frightening."
+  }
+}

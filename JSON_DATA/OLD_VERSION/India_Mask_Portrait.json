@@ -1,0 +1,48 @@
+{
+  "EPOCHS": [],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Torch-lit with heavy shadows",
+    "Blood-red ambient light",
+    "Moonlight with smoke",
+    "Ceremonial firelight"
+  ],
+  "BACKGROUNDS": [
+    "Black temple corridor with faint gold patterns",
+    "Smoke-filled sacred shrine interior",
+    "Stone wall with ancient Sanskrit carvings",
+    "Red silk with ash and smudges",
+    "Burnt ritual drapery"
+  ],
+  "OBJECTS": [
+    "Terracotta demon mask",
+    "Kathakali dancer mask with blood cracks",
+    "Wooden mask with cracked white paint and ash stains",
+    "Blackened bronze mask with serpent engravings",
+    "Red-painted ritual mask with three eyes"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "Ancestral horror",
+    "Ritual madness",
+    "Possession trance",
+    "Sacrificial tension",
+    "Forbidden devotion"
+  ],
+  "ACCESSORIES": [
+    "Gold forehead medallion",
+    "Burning incense sticks",
+    "String of skull beads",
+    "Painted clay ritual fangs",
+    "Blood-soaked earrings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Neutral ceremonial expression, mask clean and serene",
+    "1": "Unsettling mask with smeared paint and eerie eyes",
+    "2": "Violently possessed mask, cracked, bleeding, with demonic gaze"
+  }
+}

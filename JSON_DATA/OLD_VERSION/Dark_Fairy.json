@@ -1,0 +1,72 @@
+{
+  "EPOCHS": [
+    "Dark Fantasy",
+    "Gothic Romance",
+    "Neo-Victorian Fantasy",
+    "Contemporary Fairy Tale"
+  ],
+  "OUTFITS": [
+    "Black elaborate gowns with sparkle/glitter details",
+    "Corset-style bodices with deep V-necklines",
+    "Layered tulle and ruffled skirts",
+    "Gothic princess dresses with floral accents",
+    "Fairy wings (dark/black)"
+  ],
+  "LIGHTING": [
+    "Soft, diffused natural light",
+    "Pink-tinted ambient lighting from cherry blossoms",
+    "Dreamy, ethereal glow",
+    "Romantic backlighting with petal highlights"
+  ],
+  "BACKGROUNDS": [
+    "Cherry blossom trees in full bloom",
+    "Pink petals falling like snow",
+    "Moody, atmospheric sky",
+    "Enchanted forest setting",
+    "Tree branches creating natural frames"
+  ],
+  "OBJECTS": [
+    "Black cats as companions",
+    "Falling cherry blossom petals",
+    "Tree branches and bark textures",
+    "Floral elements integrated into clothing",
+    "Natural outdoor elements"
+  ],
+  "POSES": [
+    "Seated elegantly on tree branches",
+    "Contemplative, looking upward or away",
+    "Graceful positioning with dress arranged",
+    "Intimate interaction with cat companion",
+    "Serene, fairy-like positioning"
+  ],
+  "EXPRESSIONS": [
+    "Serene and peaceful",
+    "Dreamy and contemplative",
+    "Slightly melancholic",
+    "Ethereal and otherworldly",
+    "Gentle and mystical"
+  ],
+  "CAMERA_ANGLES": [
+    "Medium to full-body shots",
+    "Slightly low angle emphasizing elegance",
+    "Artistic framing with natural elements",
+    "Portrait-style with environmental context"
+  ],
+  "ATMOSPHERES": [
+    "Romantic gothic",
+    "Dreamy and surreal",
+    "Enchanted forest magic",
+    "Melancholic beauty",
+    "Spring fantasy with dark undertones"
+  ],
+  "ACCESSORIES": [
+    "Dark fairy wings",
+    "Floral crown or hair ornaments",
+    "Black strappy shoes/boots",
+    "Sparkle/glitter details on dress",
+    "Natural flower petals as decoration"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "No horror elements; purely romantic fantasy with gothic aesthetic. The mood is dreamy, enchanting, and beautiful rather than frightening."
+  }
+}

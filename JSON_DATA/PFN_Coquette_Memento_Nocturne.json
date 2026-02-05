@@ -1,0 +1,113 @@
+{
+  "WORLD_NAME": "Coquette_Memento_Nocturne",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation focused on coquette gothic boudoir portraiture with vintage romantic decadence and cinematic restraint; when requested, return ONE single long sentence in English (180–240 words), no line breaks and no bullet points, that merges the selected values into a coherent scene without ever listing category names, maintaining an elegant, old-world taste where sensuality is expressed through couture construction, lace tension, corsetry seams, skin highlights, posture and gaze rather than explicit acts, balancing soft chiaroscuro with muted olive-sage fog, candle-amber accents, ivory skin, ink-black velvet and worn antique gold; always integrate details from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, and modulate the overall mood using {{SENSUALITY_LEVEL}} while keeping {{HORROR_INTENSITY}} low-to-moderate as atmospheric unease (never gore, never body horror); emphasize tactile microtexture (powdered skin, satin sheen, lace fray), subtle film grain, lens choice and framing, and a refined editorial finish; include one clear brand placement cue for TK chosen from {{ACCESSORIES}} (monogram charm, embroidery, ring seal, cameo, watermark plaque), making it feel diegetic and era-appropriate; keep compositions poised and classical, like inherited glamour photographed in a forgotten chapel dressing room, with quiet confidence and controlled tension.",
+  "EPOCHS": [
+    "late Victorian romantic revival",
+    "Edwardian boudoir elegance",
+    "Belle Époque decadence",
+    "1920s forbidden salon glamour",
+    "1950s pin-up noir crossover",
+    "timeless vintage editorial (no modern tech)"
+  ],
+  "OUTFITS": [
+    "black velvet corset with ivory ruffled neckline",
+    "off-shoulder lace bodysuit with garter straps",
+    "ivory satin chemise under a fitted waist cincher",
+    "sheer lace sleeves with ribbon ties and pearl buttons",
+    "high-waist lingerie set with delicate embroidery and scalloped edges",
+    "structured corsetry gown with thigh-high slit and lace stockings",
+    "soft tulle peignoir draped over a satin bodice",
+    "antique-inspired choker collar with cameo clasp"
+  ],
+  "LIGHTING": [
+    "low-key candlelight with soft rim glow",
+    "window spill light through dusty lace curtains",
+    "single practical lamp with warm falloff and deep shadows",
+    "moonlit haze with faint silver highlights",
+    "portrait key light feathered across cheekbones",
+    "soft bounce fill with pronounced chiaroscuro"
+  ],
+  "BACKGROUNDS": [
+    "baroque dressing room with worn wallpaper and cracked plaster",
+    "shadowed chapel corridor with carved stone and faded murals",
+    "antique parlor with velvet drapes and tarnished mirrors",
+    "foggy rose-garden conservatory with dark greenery",
+    "decaying mansion hallway with ornate frames and patina",
+    "curtained alcove filled with old flowers and candle stubs"
+  ],
+  "OBJECTS": [
+    "wilted roses and scattered petals",
+    "tarnished vanity mirror with hairpins",
+    "vintage perfume bottle and powder compact",
+    "candle cluster with wax drips on brass tray",
+    "lace gloves folded beside a cameo locket",
+    "old ribbon spools and embroidery scissors",
+    "antique frame partially covered in ivy",
+    "pearls spilled across a velvet cushion"
+  ],
+  "POSES": [
+    "standing contrapposto, hip angled, one hand at waist cincher",
+    "seated on a stone ledge, knees together, shoulders slightly forward",
+    "leaning into a wall, chin tipped down, eyes up through lashes",
+    "half-turn over shoulder, back arched subtly, hand grazing collarbone",
+    "kneeling on velvet rug, torso upright, hands resting on thighs",
+    "perched on vanity edge, one leg crossed, fingers adjusting garter",
+    "one arm raised to hair, elbow framing face, other hand on corset seam",
+    "slow step forward through fog, dress slit revealing stocking top"
+  ],
+  "EXPRESSIONS": [
+    "cool intimate gaze, calm and unblinking",
+    "soft parted lips, restrained confidence",
+    "faint smirk with heavy-lidded eyes",
+    "melancholic stare, glossy eyes, composed",
+    "seductive neutrality, poised and editorial",
+    "sly side glance, subtle challenge"
+  ],
+  "CAMERA_ANGLES": [
+    "tight cinematic close-up, macro-leaning crop",
+    "three-quarter portrait at eye level, shallow depth of field",
+    "low-angle fashion portrait with strong neck and jawline emphasis",
+    "waist-up framing with negative space and candle bokeh",
+    "full-body editorial with centered symmetry and soft vignette",
+    "over-the-shoulder crop with mirror reflection"
+  ],
+  "ATMOSPHERES": [
+    "incense haze with drifting dust particles",
+    "muted olive fog with candle-amber bokeh",
+    "quiet devotional stillness, velvet-silent air",
+    "soft film grain and faded patina texture",
+    "low contrast shadows with gentle highlight bloom",
+    "romantic decay, elegant and controlled"
+  ],
+  "ACCESSORIES": [
+    "TK monogram signet ring on index finger (diegetic brand)",
+    "TK cameo brooch at the throat (diegetic brand)",
+    "TK embroidery stitched into corset hem (diegetic brand)",
+    "TK wax-seal tag on ribbon choker (diegetic brand)",
+    "small TK watermark plaque in a lower corner, subtle and clean (brand)",
+    "hairpin shaped like a tiny TK monogram, barely visible (diegetic brand)",
+    "antique key with TK initials engraved on the bow (diegetic brand)",
+    "lace glove charm with TK initials, softly catching rim light (diegetic brand)"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "tasteful, modest allure, couture focus, minimal skin, classic portrait restraint",
+    "1": "soft seduction, lingerie implied, lace tension, collarbone and neckline emphasis",
+    "2": "bold boudoir editorial, visible lingerie details, stockings/garters, confident pose language",
+    "3": "maximum coquette erotic tension, provocative fashion framing, intimate gaze, pronounced silhouette and fabric tension, still elegant and non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror, purely romantic vintage decadence",
+    "1": "subtle unease, abandoned beauty, quiet shadows and fog",
+    "2": "gothic melancholy, heavier chiaroscuro, ritual-like stillness without violence",
+    "3": "dark devotional atmosphere, oppressive architecture, intense tension, still no gore and no body horror"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A low-key cinematic portrait in muted olive fog and candle-amber glow, coquette gothic boudoir elegance with ivory lace and ink-black velvet corsetry, soft film grain, gentle highlight bloom on powdered skin, wilted roses and tarnished gold accents, poised editorial sensuality and restrained confidence, TK placed as a diegetic monogram accessory integrated into jewelry or embroidery, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Vintage romantic decadence in a baroque dressing room, cracked plaster and worn wallpaper behind a sensual lace bodysuit with garter straps, incense haze and drifting dust, chiaroscuro rim light tracing collarbones and satin sheen, classical composition with intimate gaze, TK embedded as cameo brooch or signet ring, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Forbidden salon glamour with velvet drapes and tarnished mirrors, off-shoulder ruffles and corsetry seams emphasized by soft window spill, cinematic close framing and shallow depth of field, antique perfume and scattered pearls, confident provocative pose language without explicitness, TK stitched into hem or engraved on an antique key, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Chapel-corridor editorial where moonlit haze meets candle bokeh, ivory satin and black lace layered in refined coquette tension, gentle vignetting and soft grain, roses and wax drips on brass, serene control and quiet menace at low intensity, TK presented as subtle corner plaque watermark or wax-seal tag, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Antique parlor boudoir with romantic decay, sculpted silhouette in velvet corset gown and thigh-high stockings, low contrast shadows with blooming highlights, hands adjusting garter in a poised editorial gesture, incense haze and floating particles, TK as hairpin monogram or signet ring glinting in rim light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Rose-garden conservatory at dusk with muted sage fog, lace sleeves tied with ribbons, powdery skin microtexture and satin sheen, shallow depth of field, classical symmetry, a calm intimate stare that reads provocative and composed, TK integrated as cameo clasp at the throat or embroidery detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Full-body vintage editorial in an ornate mansion hallway, velvet and lace couture with ruffles and garters, candle clusters and tarnished frames, soft film grain and patina texture, contrapposto pose and sculpted neckline under feathered key light, TK as a diegetic accessory (wax-seal tag, ring, brooch) kept subtle and era-correct, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

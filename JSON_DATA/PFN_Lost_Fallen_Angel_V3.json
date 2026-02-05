@@ -1,0 +1,118 @@
+{
+  "WORLD_NAME": "Lost_Fallen_Angel",
+
+  "SYSTEM_PROMPT": "You are a prompt alchemist specialized in fallen angel iconography and monochrome body horror. When requested, you must return ONE single long sentence of 180-240 words in English, no line breaks and no bullet points, describing an extremely detailed illustration of a pale, androgynous angelic figure suspended in a dark void. Always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and modulate the tone using {{HORROR_INTENSITY}}. Emphasize the contrast between luminous white hair and porcelain skin and vast organic wings—angelic or diabolical—formed of layered feathers or torn membranous flesh, subtly scarred, shadow-stained or ash-dusted, emerging naturally from fragile shoulder bones. Mention camera angle, approximate lens length, restrained monochrome color palette, fine cinematic grain, and a softly diffused, high-contrast photographic finish. Never list the category names, only blend their chosen values into a coherent, oppressive and sacred atmosphere.",
+
+  "EPOCHS": [
+    "timeless void cathedral",
+    "abandoned angelic sanctuary",
+    "post-apocalyptic sacred battlefield",
+    "forgotten underworld chapel",
+    "ancient obsidian shrine eroded by time",
+    "end-of-days sky vault filled with ash and drifting feathers"
+  ],
+
+  "OUTFITS": [
+    "torn ceremonial straps fused with pale wounded skin",
+    "decayed lace restraints soaked with dried blood",
+    "fragmented ritual armor of bone and cracked leather",
+    "minimal black bands cutting into arms, thighs and neck",
+    "sacrificial shroud shredded into long drifting ribbons",
+    "organic growths of cartilage and scar tissue along the spine"
+  ],
+
+  "LIGHTING": [
+    "soft volumetric godrays cutting through dust and smoke",
+    "dim cold backlight outlining the fallen silhouette",
+    "single overhead halo-light casting deep funereal shadows",
+    "subtle rim light catching feathers, scars and wounds",
+    "faint ambient glow as if from dying candles",
+    "low-contrast monochrome glow with heavy film grain"
+  ],
+
+  "BACKGROUNDS": [
+    "endless dark void filled with drifting black feathers",
+    "shallow pool of reflective blood-dark liquid",
+    "cracked marble floor lost in incense fog",
+    "faint ritual sigils barely visible beneath hair and skin",
+    "collapsing feather storm swirling in slow motion",
+    "minimal desaturated gradient fading into nothingness"
+  ],
+
+  "OBJECTS": [
+    "thorny organic tendrils piercing skin and wings",
+    "ropes wrapped around limbs",
+    "fractured halo made of bone and ash",
+    "blood-stained feathers clinging to wet skin",
+    "ritual scars carved deeply along the spine",
+    "exposed rib cage bound by sinew and scar tissue"
+  ],
+
+  "POSES": [
+    "crouched in a fetal position, knees tight to the chest",
+    "sitting on the ground with arms hanging loose, head bowed",
+    "kneeling with shoulders collapsed inward in surrender",
+    "curled sideways, hair spilling like a pale veil",
+    "leaning forward as if listening to distant prayers",
+    "motionless, suspended in the moment after the fall"
+  ],
+
+  "EXPRESSIONS": [
+    "eyes hidden behind hair, unreadable and distant",
+    "hollow luminous gaze dulled by sorrow",
+    "subtle grimace of restrained spiritual pain",
+    "emotionless mask fractured by silent despair",
+    "soft, resigned melancholy",
+    "detached sacred calm despite visible wounds"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle emphasizing wings and collapsed posture",
+    "eye-level close-up focused on face and scars",
+    "three-quarter side view revealing ribs and wings",
+    "slightly top-down framing the fallen body in isolation",
+    "extreme close-up on scarred chest and collarbones",
+    "centered medium shot with wings fading out of frame"
+  ],
+
+  "ATMOSPHERES": [
+    "sacred yet profaned stillness",
+    "post-ritual exhaustion and spiritual collapse",
+    "tragic serenity after divine abandonment",
+    "dense suffocating air heavy with ash and incense",
+    "dreamlike suspended moment, almost timeless",
+    "reverent silence broken only by imagined echoes"
+  ],
+
+  "ACCESSORIES": [
+    "tattered blindfold partially soaked in blood",
+    "rusted iron collar chained to nothing",
+    "thin black rosary-like bands wrapped around limbs",
+    "ritual piercings along ears, ribs and collarbones",
+    "wax-dripped candles embedded in the ground nearby",
+    "ashes clinging to skin and hair"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure elegance, no sensual emphasis",
+    "1": "suggested femininity through posture and fabric",
+    "2": "controlled sensuality, tragic and restrained",
+    "3": "decadent fallen beauty with subtle erotic tension, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "ethereal melancholy, fallen grace, minimal wounds and spiritual decay",
+    "1": "visible body trauma, scars and blood, tragic and intimate",
+    "2": "extreme fallen body horror, ritual mutilation and sacred desecration"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "This scene explores contemporary gothic fallen angel femininity through restrained body language, dark romantic fashion, and quiet confidence, blending lace, corsetry, and minimalist urban surroundings into a fashion-forward gothic aesthetic grounded in realism and emotional stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A vision focused on ritual aftermath and bodily decay, where scars, restraints and feathers tell the story of devotion turned to suffering, maintaining tragic beauty and religious symbolism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "An intimate interpretation centered on sorrowful expression, exposed skin and spiritual vulnerability, avoiding spectacle and focusing on emotional collapse, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A darker interpretation pushing body horror and desecration, emphasizing ritual wounds, exposed anatomy and corrupted holiness while remaining cinematic and symbolic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A painterly, almost baroque composition inspired by religious iconography, statues and sacred murals eroded by time, with soft lighting and devotional stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A minimal void-focused variation where the fallen angel floats in darkness, isolated and silent, with emphasis on form, posture and negative space, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A final after-fall moment of quiet acceptance, ashes settling, wings heavy, expression calm despite ruin, conveying tragic serenity rather than pain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

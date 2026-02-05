@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Medieval era of sorcery and darkness",
+    "Post-apocalyptic dystopian future",
+    "Timeless realm of epic fantasy",
+    "Ancient civilization consumed by mysticism"
+  ],
+  "OUTFITS": [
+    "Hooded figure adorned in dark robes with golden accents",
+    "Mysterious character wearing flesh-wrapped bodysuit",
+    "Unknown entity engulfed in shadowed robes and spinal cables"
+  ],
+  "LIGHTING": [
+    "Cinematic sidelight casting dramatic shadows",
+    "Eerie luminescence from unknown source",
+    "Dying ember glow reflecting off golden inscriptions",
+    "Chiaroscuro lighting emphasizing atmospheric depth"
+  ],
+  "BACKGROUNDS": [
+    "Gothic cathedral ruins",
+    "Desolated dystopian cityscape",
+    "Ethereal forest bathed in twilight",
+    "Ancient ceremonial crypt imbued with mysticism"
+  ],
+  "OBJECTS": [
+    "Ornate sword with elaborate crossguard and detailed metalwork",
+    "Legendary weapon bearing ancient runes",
+    "Ceremonial blade with intricate engravings",
+    "Elvish script-laden fantasy weapon",
+    "Ornamental hilt adorned with haunting faces"
+  ],
+  "POSES": [
+    "Heroic stance with sword wielding",
+    "Mysterious figure shrouded in shadows",
+    "Powerful presence emanating from a seated figure",
+    "Serene meditation amidst chaos",
+    "Ecstatic pain reflected in a twisted pose"
+  ],
+  "EXPRESSIONS": [
+    "Shadowed face with eyes gleaming malevolently",
+    "Mask of stoicism hiding inner turmoil",
+    "Visage of serene acceptance contrasted with visible pain",
+    "Ecstatic rapture intermingled with terror"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle shot emphasizing power",
+    "Close up capturing intricate details of the sword",
+    "extreme close-up"
+  ],
+  "ATMOSPHERES": [
+    "Mystical atmosphere charged with impending doom",
+    "Tension palpable in the air",
+    "Surreal tranquility juxtaposed with grotesque surroundings",
+    "A sense of lost grandeur looming"
+  ],
+  "ACCESSORIES": [
+    "Dark hood obscuring the face",
+    "Golden amulet with elvish inscriptions",
+    "Ancient tome bound in human flesh",
+    "Rosary made of raven skulls"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "mild surreal hospital setting with gothic undertones",
+    "1": "visible syringes, blood tubes, eerie holiness",
+    "2": "ritual mutilation, divine suffering, grotesque holiness"
+  }
+}

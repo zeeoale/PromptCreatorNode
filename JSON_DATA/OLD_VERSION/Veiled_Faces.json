@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "Post-sacrificial era",
+    "Age of the Nameless",
+    "Ashen veil cult rise",
+    "Wartime disfigurement age",
+    "Silent monastery of scars"
+  ],
+  "OUTFITS": [
+    "Blood-stained robe with hood",
+    "Tattered uniform with obscured insignia",
+    "Ritual garment stitched with names",
+    "Veil covering face entirely",
+    "Shroud made of human hair"
+  ],
+  "LIGHTING": [
+    "Single swinging light bulb",
+    "Ash-filled dusk",
+    "Flickering fire from behind the veil",
+    "Blue emergency light in abandoned hall"
+  ],
+  "BACKGROUNDS": [
+    "Underground asylum",
+    "Decrepit orphanage altar",
+    "Dusty cathedral corridor",
+    "Worn concrete execution room",
+    "Chamber filled with nameless masks"
+  ],
+  "OBJECTS": [
+    "Veil stitched directly into skin",
+    "Mask with no eye holes",
+    "Photographs with faces scratched out",
+    "Sewing needles hanging from ceiling",
+    "Headless dolls nailed to walls"
+  ],
+  "POSES": [
+    "Facing camera with head bowed",
+    "Back turned, veil blowing",
+    "Standing still, hands in prayer",
+    "Kneeling over mask fragments",
+    "Frozen mid-motion, face blurred"
+  ],
+  "EXPRESSIONS": [
+    "Unseen",
+    "Hidden agony",
+    "Blank silence",
+    "Mouth stretched beneath cloth",
+    "Emotionless and faceless"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up of veil texture",
+    "Shot from behind showing veil movement",
+    "Low angle from the floor",
+    "Tilted frame with face half-revealed",
+    "Top-down shot of veiled figure lying still"
+  ],
+  "ATMOSPHERES": [
+    "Suffocating silence",
+    "Heavy unseen presence",
+    "Anxiety before revelation",
+    "Tension of withheld identity",
+    "Cold breath behind the veil"
+  ],
+  "ACCESSORIES": [
+    "Veil soaked in tears",
+    "Rusty pins holding the cloth",
+    "Tattooed names of the forgotten",
+    "Locked collar with missing key",
+    "Prayer beads made of bone"
+  ],
+  "HORROR_INTENSITY": {
+    "1": "Unsettling concealment, quiet dread",
+    "2": "Sinister presence, identity erasure, tension",
+    "3": "Violent facial horror, sewn or removed features, extreme obscurity"
+  }
+}

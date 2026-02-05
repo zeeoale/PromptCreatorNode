@@ -1,0 +1,69 @@
+{
+  "EPOCHS": [
+    "Timeless Edo-night",
+    "Late-Heian ghost hour",
+    "Showa backwoods myth",
+    "Modern day, forgotten shrine"
+  ],
+  "OUTFITS": [
+    "white ceremonial kimono, hem mud-soaked, blood-stained sash",
+    "miko robes (white haori, red hakama) weathered and torn",
+    "funerary yukata, loose obi, waterlogged",
+    "peasant yukata, tattered sleeves, soot marks"
+  ],
+  "LIGHTING": [
+    "moonlit blue hour with heavy fog and cold fill",
+    "lantern glow pools (warm key, cool ambient)",
+    "backlit mist with volumetric rays through trees",
+    "rim light from behind torii, soft frontal fill"
+  ],
+  "BACKGROUNDS": [
+    "ancient torii gate draped in cursed dolls and ofuda papers",
+    "swampy cedar forest with twisted, mossy trunks",
+    "overgrown shrine courtyard, stone steps half-buried",
+    "mirror-still marsh water, low ground fog, floating leaves"
+  ],
+  "OBJECTS": [
+    "torii beam wrapped in shimenawa rope and red ribbons",
+    "hanging chōchin lanterns, soot-stained",
+    "ofuda talismans, straw wara-ningyō dolls pinned to wood",
+    "stone tōrō lantern, Jizō statues with faded bibs",
+    "incense bowl, ash drift, scattered prayer beads"
+  ],
+  "POSES": [
+    "centered, barefoot, arms relaxed, facing camera",
+    "hands clasped before chest, subtle forward lean",
+    "one hand clutching talisman at waist, feet together",
+    "back to torii, slight head tilt, dress pulled by breeze"
+  ],
+  "EXPRESSIONS": [
+    "blank trance-like stare",
+    "hollow sorrow, eyes damp",
+    "wrath held back (subtle brow tension)",
+    "unnatural calm, parted lips"
+  ],
+  "CAMERA_ANGLES": [
+    "perfectly centered symmetrical wide, eye-level",
+    "low angle heroic portrait, subject framed by torii",
+    "medium-full portrait with shallow depth",
+    "35mm cinematic still, static tripod framing"
+  ],
+  "ATMOSPHERES": [
+    "thick ground fog, breath visible, cicadas distant",
+    "cold mist with drifting ash flecks",
+    "light drizzle beading on wood and silk",
+    "windless stillness, wet earth haze"
+  ],
+  "ACCESSORIES": [
+    "blood-streaked obi knot",
+    "kanzashi hairpins, slightly askew",
+    "juzu prayer beads looped at wrist",
+    "paper amulet clutched in hand"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "clean garments, no blood, fewer talismans, thin fog",
+    "1": "subtle stains, 2–3 dolls, gentle lantern glow, light mist",
+    "2": "visible blood smears on hem, many ofuda and ribbons, dense fog, colder palette",
+    "3": "heavy blood staining, numerous straw dolls pinned to torii, torn papers fluttering, choking fog, stark high-contrast lighting"
+  }
+}

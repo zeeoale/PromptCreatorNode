@@ -1,0 +1,108 @@
+{
+  "WORLD_NAME": "PFN_TK_Reborn_in_Shadows",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in gothic fine-art portraiture with obsessive micro-detail and restrained sensual intensity. When requested, return ONE single long, cinematic sentence (180–240 words), without lists or line breaks, centered on an extreme close-up portrait that emphasizes wet skin texture, glitter particles, mascara tears, pores, stray hair strands, and subtle reflections on metal jewelry. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent and elegant visual composition rooted in gothic fine-art aesthetics. Maintain a cold, desaturated palette dominated by silver, pewter, ash tones, and muted lavender lips, with controlled highlights and deep shadow falloff. The camera presence must feel intimate and intrusive, typically evoking a 50–100mm lens with shallow depth of field, emphasizing eyes, lips, and skin texture. Always mention grain, halation, soft bloom, vignette, and faint chromatic aberration as restrained post-processing choices. Modulate psychological tension through {{HORROR_INTENSITY}} and sensual presence through {{SENSUALITY_LEVEL}}, ensuring sensuality remains suggestive, atmospheric, and non-explicit. Frequently embed a subtle “TK” signature as a discreet engraved charm, pendant, stitched label, or faint stencil element integrated into the scene without becoming overt text or signage. Avoid narration, explanation, or symbolism; the output must remain purely visual, cinematic, and emotionally charged.",
+
+  "EPOCHS": [
+    "late-90s underground gothic editorial",
+    "early-2000s darkroom fashion portrait",
+    "timeless baroque devotional aesthetic",
+    "modern dark-fineart studio look"
+  ],
+
+  "OUTFITS": [
+    "torn lace gloves and delicate mesh layers",
+    "black satin straps with subtle embroidery",
+    "minimal slip dress with wet fabric cling",
+    "corset-style bodice with matte hardware",
+    "veil-like sheer fabric framing the face"
+  ],
+
+  "LIGHTING": [
+    "single soft key light with heavy falloff",
+    "window light filtered through haze and dust",
+    "low-key rim light catching wet highlights",
+    "diffused overcast light with silvery sheen",
+    "candlelike practical lights dissolved into bokeh"
+  ],
+
+  "BACKGROUNDS": [
+    "cracked plaster wall with faint religious motifs",
+    "shadowy corridor with distant blurred lights",
+    "cold stone alcove marked by damp stains",
+    "aged chapel interior implied through blur",
+    "dark neutral void with drifting particles"
+  ],
+
+  "OBJECTS": [
+    "delicate chain headpiece with dangling crystals",
+    "small cross charm resting along the forehead chain",
+    "glitter dust and wet tear trails on skin",
+    "tarnished rosary beads slipping out of focus",
+    "tiny metal tag subtly engraved with 'TK'"
+  ],
+
+  "POSES": [
+    "face turned slightly off-axis with cheek near a wall edge",
+    "chin tucked while eyes lift toward the camera",
+    "hand hovering near lips with fingers partially covering the mouth",
+    "shoulder angled forward, neck elongated and exposed",
+    "forehead leaning into shadow with visible breath humidity"
+  ],
+
+  "EXPRESSIONS": [
+    "haunted stillness with half-lidded stare",
+    "soft defiance carried by tired eyes",
+    "melancholic gaze with trembling lower lid",
+    "cold calm edged with quiet menace",
+    "intimate vulnerability held under control"
+  ],
+
+  "CAMERA_ANGLES": [
+    "extreme close-up at eye level",
+    "extreme close-up with slight dutch tilt",
+    "tight close-up from a subtle low angle",
+    "macro-leaning crop focused on eyes and lips",
+    "close-up framed through foreground blur"
+  ],
+
+  "ATMOSPHERES": [
+    "humid air with drifting fog and suspended silence",
+    "cold devotional mood punctuated by dust motes",
+    "oppressive hush with collapsing shadows",
+    "ruined elegance defined by damp textures and metallic glints",
+    "nocturnal intimacy charged with restrained tension"
+  ],
+
+  "ACCESSORIES": [
+    "engraved 'TK' pendant on a thin chain",
+    "tiny 'TK' charm attached to the headpiece",
+    "stitched 'TK' label on a lace glove cuff",
+    "micro 'TK' monogram on a signet ring",
+    "hairpin bearing a barely visible 'TK' engraving"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric presence focused on texture, light, and mood without sensual emphasis",
+    "1": "soft allure expressed through gaze, lips, and minimal skin exposure",
+    "2": "intimate tension conveyed by wet skin highlights, close proximity, and subtle fabric cling",
+    "3": "high sensual charge through dramatic lips, exposed throat or shoulders, and confident yet non-explicit body language"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean gothic portrait with elegant melancholy",
+    "1": "unease introduced through shadow, smudged makeup, and damp decay",
+    "2": "strong psychological dread via streaked tears, corrupted devotional hints, and claustrophobic framing",
+    "3": "maximum intensity through oppressive close crop, unsettling eye reflections, harsh contrast, and severe intimacy"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a reborn gothic portrait where wet skin, glittering tears, and cold shadows converge in intimate silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "an extreme close-up fine-art vision defined by damp textures, metallic glints, and restrained sensual tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a dark devotional portrait framed by obsessive detail, shallow focus, and nocturnal stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a cinematic rebirth in shadows where eyes, lips, and skin become the center of psychological intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a cold fine-art close-up infused with gothic melancholy and subtle ritual symbolism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "an intimate portrait where vulnerability, control, and texture collide under silvery light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a shadow-drenched rebirth marked by grain, halation, and a barely visible TK signature, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

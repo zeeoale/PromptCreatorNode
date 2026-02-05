@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Esoteric present",
+    "Forgotten cult age",
+    "Ancient flesh rituals"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Reddish glow from blood-filled glass",
+    "Flickering torchlight",
+    "Ritual fire illumination"
+  ],
+  "BACKGROUNDS": [
+    "Black stone altar backdrop",
+    "Dark cave wall with veins carved in stone",
+    "Blood-smeared ritual chamber",
+    "Velvet curtain behind sacred symbols"
+  ],
+  "OBJECTS": [
+    "Blood-soaked gauze",
+    "Vein-shaped sigils",
+    "Rusty ritual needles",
+    "Sacred carving blade",
+    "Glass vials of congealed blood",
+    "Spiritual intravenous lines",
+    "Vein-mapping tattoos"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Ecstatic trance",
+    "Blood-drunk serenity",
+    "Painful reverence",
+    "Calm submission to ritual"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on ritual-scarred face",
+    "Macro focus on veined skin with symbols"
+  ],
+  "ATMOSPHERES": [
+    "Blood-soaked",
+    "Sacrificial",
+    "Trance-like",
+    "Dark ceremonial energy"
+  ],
+  "ACCESSORIES": [
+    "Vein-wrapped piercings",
+    "Sigils carved along facial veins",
+    "Bleeding crown of flesh",
+    "Skin marked with arterial pathways"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle symbols and healed veins",
+    "1": "Fresh markings, small blood trails",
+    "2": "Open wounds, gushing veins, exposed inner flesh"
+  }
+}

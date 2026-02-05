@@ -1,0 +1,58 @@
+{
+  "EPOCHS": [
+    "Industrial",
+    "Steampunk"
+  ],
+  "OUTFITS": [
+    "Steampunk attire",
+    "Trench coat",
+    "Ranger leathers"
+  ],
+  "LIGHTING": [
+    "Noir high-contrast",
+    "Sodium lamps",
+    "Backlit steam"
+  ],
+  "BACKGROUNDS": [
+    "Rail yard",
+    "Factory floor",
+    "Iron bridge",
+    "Foggy docks"
+  ],
+  "OBJECTS": [
+    "Goggles",
+    "Pocket watch",
+    "Lantern",
+    "Blueprint tube"
+  ],
+  "POSES": [
+    "Back-to-wall",
+    "Perched lookout",
+    "Side-draw pose"
+  ],
+  "EXPRESSIONS": [
+    "Stoic",
+    "Defiant",
+    "Calm focus"
+  ],
+  "CAMERA_ANGLES": [
+    "Dutch tilt",
+    "Low angle hero",
+    "Medium shot"
+  ],
+  "ATMOSPHERES": [
+    "Steam plumes",
+    "Soot fall",
+    "Rainy"
+  ],
+  "ACCESSORIES": [
+    "Utility belt",
+    "Gloves",
+    "Harness straps",
+    "Goggles on head"
+  ],
+  "HORROR_INTENSITY": {
+    "mild": "Factory myths",
+    "moderate": "Shadows in the fog"
+  }
+}

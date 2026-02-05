@@ -1,0 +1,72 @@
+{
+  "EPOCHS": [
+    "Post-Apocalyptic Decadence",
+    "Dark Cybernetics Era",
+    "Plague-ridden Future",
+    "Cryptic Fallen Civilization",
+    "Necrotic Industrial Age"
+  ],
+  "OUTFITS": [
+    "Flesh-wrapped Bodysuit",
+    "Tattered Illness Gown",
+    "Gore-drizzled Corset",
+    "Wound-laced Robes",
+    "Rotten Leather Harness"
+  ],
+  "LIGHTING": [
+    "Sickly Green Haze",
+    "Decaying Amber Flicker",
+    "Cold Steel Blue Illumination",
+    "Ghastly Pallor Spotlight"
+  ],
+  "BACKGROUNDS": [
+    "Decomposing Cityscape",
+    "Pandemic Ravaged Slums",
+    "Dystopian Surgical Chamber",
+    "Corpse-filled Catacombs",
+    "Ruined Temple of Flesh"
+  ],
+  "OBJECTS": [
+    "Rusty Surgical Tools",
+    "Broken Bioengineered Limbs",
+    "Leaking Vials of Plague",
+    "Mutilated Cyborg Parts",
+    "Rotting Anatomical Sculptures"
+  ],
+  "POSES": [
+    "Painful Ecstasy",
+    "Desperate Clawing",
+    "Maddened Revelry",
+    "Dying Embrace",
+    "Twisted Sorrow"
+  ],
+  "EXPRESSIONS": [
+    "Ecstatic Pain",
+    "Ravaged Bliss",
+    "Sickening Desire",
+    "Terrifying Euphoria",
+    "Morbid Curiosity"
+  ],
+  "CAMERA_ANGLES": [
+    "Grotesque Close-up",
+    "Extreme Close-up"
+  ],
+  "ATMOSPHERES": [
+    "Suffocating Fear",
+    "Sensual Decay",
+    "Disturbing Silence",
+    "Corporeal Desolation",
+    "Infectious Madness"
+  ],
+  "ACCESSORIES": [
+    "Spinal Cables",
+    "Organic Prosthetics",
+    "Bloody Veils",
+    "Bone-made Ornaments"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Unsettling Mood, minor wounds, vague sense of dread, subtle body modifications",
+    "1": "Visible body modifications, intense pain expressions, palpable fear, disturbing imagery",
+    "2": "Extreme mutilation, visceral gore, explicit body horror with sensual elements, overwhelming terror"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Victorian era", 
+    "Gothic revival", 
+    "Baroque decay", 
+    "Timeless night"
+  ],
+  "OUTFITS": [
+    "lace and velvet gowns", 
+    "black corsets and silver jewelry", 
+    "ritual robes with runic embroidery", 
+    "tattered circus attire", 
+    "cultist cloaks and ceremonial armor"
+  ],
+  "LIGHTING": [
+    "candlelight and moonlight glow", 
+    "flickering lanterns and crimson haze", 
+    "occult neon runes illuminating darkness", 
+    "strobe carnival lights through smoke", 
+    "eldritch cosmic radiance"
+  ],
+  "BACKGROUNDS": [
+    "haunted manors with decaying portraits", 
+    "ritual chambers filled with sigils", 
+    "cursed circus tents burning in twilight", 
+    "cosmic voids and shifting geometries", 
+    "graveyards of bones and ash"
+  ],
+  "OBJECTS": [
+    "ancient spellbooks", 
+    "black candles and skull chalices", 
+    "mirrors with trapped souls", 
+    "tarot decks glowing with arcane light", 
+    "mechanical carnival masks", 
+    "eldritch idols of tentacled gods"
+  ],
+  "POSES": [
+    "standing amid swirling smoke", 
+    "kneeling in ritual trance", 
+    "dancing under broken lights", 
+    "floating in voidal silence", 
+    "emerging from a grave of roses"
+  ],
+  "EXPRESSIONS": [
+    "haunting serenity", 
+    "possessed delight", 
+    "cold fascination", 
+    "mad devotion", 
+    "divine terror"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up on eyes filled with cosmic light", 
+    "mid-shot with flickering shadows", 
+    "wide-angle inside a haunted hall", 
+    "low-angle looking up at an eldritch deity", 
+    "overhead view of a ritual circle"
+  ],
+  "ATMOSPHERES": [
+    "gothic opulence and decay", 
+    "mystical energy pulsing through darkness", 
+    "chaotic infernal spectacle", 
+    "cosmic insanity and beauty", 
+    "unholy resurrection and blasphemous awe"
+  ],
+  "ACCESSORIES": [
+    "silver crosses and rosaries", 
+    "bone necklaces", 
+    "crow feathers", 
+    "black veils", 
+    "arcane rings with glowing gems"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Dark elegance, soft shadows, and mystery within beauty.",
+    "1": "Macabre charm with visible decay, occult sigils, and eerie details.",
+    "2": "Visceral horror — blood, demons, possession, and cosmic dread."
+  }
+  }

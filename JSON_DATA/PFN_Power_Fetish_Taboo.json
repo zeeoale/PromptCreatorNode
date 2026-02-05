@@ -1,0 +1,112 @@
+{
+  "WORLD_NAME": "Power_Fetish_Taboo",
+  "SYSTEM_PROMPT": "You are a professional prompt generator for AI image creation focused on fashion-forward fetish aesthetics and symbolic taboo romance, always adult, consensual, suggestive and non-explicit. When requested, return ONE single long, cinematic sentence (180–240 words), with no line breaks and no bullet points, describing a refined editorial scene where power, desire, restraint and intimacy are communicated through styling, posture, framing, and atmosphere rather than nudity or graphic action. Seamlessly blend chosen elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, photorealistic composition with high-end fashion discipline, rich textures (latex sheen, leather grain, lace micro-detail), and controlled body language. Emphasize mood over action, suggestion over explicitness, and symbolic restraint over violence, keeping the tone elegant, intense, and tastefully provocative. Always specify camera perspective and lens feel, mention lighting quality and contrast, and maintain an Instagram-safe editorial finish with intentional negative space, strong typography-friendly framing, and a deliberate color palette anchored in deep reds, blacks, and muted highlights.",
+  "EPOCHS": [
+    "Modern editorial studio",
+    "Neo-noir contemporary",
+    "90s fashion campaign",
+    "Retro boudoir glamour",
+    "Cinematic modern gothic",
+    "Minimal luxury lookbook"
+  ],
+  "OUTFITS": [
+    "Latex corset dress with structured seams",
+    "Leather harness over silk slip dress",
+    "Lace bodysuit with high-waist garter belt",
+    "Tailored power blazer with corsetry underneath",
+    "High-neck mesh top with leather skirt",
+    "Vinyl trench coat partially open, layered lingerie silhouette",
+    "Opera gloves, stilettos, and restrained couture lines",
+    "Monochrome latex catsuit with subtle cut lines"
+  ],
+  "LIGHTING": [
+    "Softbox key light with controlled falloff",
+    "Red gel rim light with dim fill",
+    "Low-key cinematic lighting, deep shadows",
+    "Candle-like warm practicals with cool ambient",
+    "Neon spill + soft diffusion haze",
+    "Moody window light through sheer curtains"
+  ],
+  "BACKGROUNDS": [
+    "Crimson lacquered wall with subtle specular reflections",
+    "Black satin sheets and heavy curtains",
+    "Minimal studio cyclorama with shadow gradients",
+    "Rainy window panes and dark city bokeh",
+    "Vintage velvet drapes and ornate mirror",
+    "Industrial loft corner with chains as decor"
+  ],
+  "OBJECTS": [
+    "Silk ribbon ties laid on a dresser (unused, symbolic)",
+    "Leather cuffs displayed like jewelry (not applied)",
+    "A vintage perfume bottle and smeared lipstick on tissue",
+    "Polaroids scattered, partially hidden",
+    "A single rose with thorny stem in glass",
+    "A collar resting beside a pearl necklace",
+    "Gloves folded with a thin red thread spool"
+  ],
+  "POSES": [
+    "Standing tall, chin slightly lifted, hands relaxed behind back",
+    "Seated on edge of bed, knees angled, posture composed",
+    "Half-turn over shoulder, deliberate stillness, controlled breathing",
+    "One arm above head, torso elongated, calm dominance",
+    "Kneeling pose implied by framing, fully clothed, serene gaze",
+    "Two figures close but not touching, tension held in posture",
+    "Reclined with crossed ankles, gaze steady, no theatrics",
+    "Hands resting on collarbone, subtle restraint suggested"
+  ],
+  "EXPRESSIONS": [
+    "Strong eye contact, calm and intentional",
+    "Soft parted lips, restrained intensity",
+    "Neutral face with heavy-lidded gaze",
+    "Quiet confidence, slight smirk",
+    "Tender gaze, vulnerability without weakness",
+    "Composed, controlled, emotionally present"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle hero shot, 50mm feel",
+    "Medium close-up, 85mm portrait compression",
+    "Top-down intimate framing, 35mm editorial",
+    "Over-the-shoulder, shallow depth of field",
+    "Wide environmental portrait, 28mm cinematic",
+    "Tight detail macro on fabric and accessories"
+  ],
+  "ATMOSPHERES": [
+    "Velvet-dark elegance with red-black palette",
+    "Noir tension, rain and bokeh hints",
+    "Studio-clean fetish couture, minimal and sharp",
+    "Soft aftercare calm, warm highlights, safe mood",
+    "Secretive romance, shadows and partial concealment",
+    "Luxurious stillness, air heavy with perfume"
+  ],
+  "ACCESSORIES": [
+    "Choker collar with metal ring (symbolic)",
+    "Delicate chain jewelry worn as fashion",
+    "Fishnet stockings with lace trim",
+    "Stiletto heels, glossy finish",
+    "Opera gloves, satin sheen",
+    "Earrings with gothic filigree",
+    "Thin belt straps and tasteful buckles",
+    "Smoky eye makeup with deep red lipstick"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "subtle",
+    "1": "suggestive",
+    "2": "bold",
+    "3": "intense"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "mild",
+    "2": "dark",
+    "3": "extreme"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Week 1 theme: dominance and desire expressed through couture power, controlled body language, and symbolic restraint; emphasize a commanding silhouette versus surrendered elegance, strong eye contact, and tension held in posture rather than action, with a fashion editorial tone and Instagram-safe composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Week 2 theme: fetish aesthetics as pure styling—latex sheen, leather grain, lace micro-detail, gloves, heels, collars and harness lines shown as fashion; focus on close-ups of texture, accessories arranged like jewelry, and a refined studio or boudoir set with tasteful suggestion only, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Week 3 theme: taboo energy as secret romance and forbidden tension—shadowed faces, hidden glances, partial concealment, power imbalance shown through framing and height, two people too close for comfort but still, composed, elegant; keep everything symbolic and non-graphic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Week 4 theme: intimacy and control with a safe, calm aftercare vibe—soft lighting, gentle closeness, relaxed eyes, steady holding, emotional warmth over physical contact; mix hard styling with tender atmosphere, emphasizing consent and chosen restraint through posture and mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Luxury studio variation: clean background gradients, typographic negative space, impeccable styling, crisp textures, and a quiet, high-fashion calm that reads like a magazine cover while staying suggestive and non-explicit, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Neo-noir variation: rain bokeh, red gel rim light, smoky shadows, secret glances, and cinematic tension held in stillness; the scene feels like a film still, elegant and controlled, never graphic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Aftercare variation: warm practicals, soft diffusion, calm breathing, relaxed posture, subtle marks suggested only through styling details (lipstick smear on tissue, creased fabric), emotional closeness centered, serene and safe, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

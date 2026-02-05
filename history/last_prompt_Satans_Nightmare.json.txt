@@ -1,0 +1,11 @@
+In the hauntingly evocative realm of a dark Medieval era, the foreground is dominated by a striking woman clad in worn, leather-bound ritual armor, her contours subtly accentuated against the textured fabric's weathered patina. The midground showcases the desecrated remains of a once-majestic chapel, its crumbling stonework echoing the passage of time and the fading faith within its walls.
+
+Enshrouded in shadows cast by sacred flames that backlight her figure, she stands with an air of defiance amidst the ruinous setting. A skull chalice clutched tightly in one hand, her other arm outstretched, adorned with tattoos of forbidden symbols that dance upon her skin as she draws runes in the air with a practiced hand.
+
+Her ecstatic face, illuminated by the flickering light, displays an intense expression of spiritual fervor, her eyes brimming with both fear and unwavering resolve. The composition is a close-up, emphasizing the intricate details of her etched features and the runes that mark her skin.
+
+The color palette is somber yet captivating, a blend of rich, earthy browns from the worn armor, the crimson hues of the desecrated chapel's stones, and the fiery orange-yellows cast by the sacred flames. The background is painted in deep, ominous blues, adding to the atmosphere of ancient sorrow and foreboding.
+
+The scene is captured from a low angle, with a wide-angle lens that accentuates the vastness of the ruined chapel and emphasizes the woman's dominance over the desolate landscape. The lighting creates a dramatic contrast between the illuminated subject and the shadows surrounding her, further highlighting her defiance against the oppressive forces of the Inquisition.
+
+Post-process keywords include subtle grain to add depth, a soft vignette for focus on the subject, and enhanced contrast to create a stark, haunting atmosphere befitting the era and setting of this captivating image., <lora:Asa_Model_AI(ZImageTurbo):1>traumakom_asa<lora:Z-Breast-Slider:1>

@@ -1,0 +1,61 @@
+{
+  "EPOCHS": [
+    "Ancient Himalayan",
+    "Mystical Era of Tibetan Monks",
+    "Occult Nepalese Legends"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "ritual torchlight",
+    "dim temple ambience",
+    "smoke-filtered light"
+  ],
+  "BACKGROUNDS": [
+    "dark ceremonial void",
+    "stone wall with ritual smoke"
+  ],
+  "OBJECTS": [
+    "Mahākāla mask",
+    "Yama skull crown",
+    "damaru drum with dried sinew",
+    "kapala (ritual skull cup)",
+    "bone trumpet (kangling)",
+    "human thighbone flute",
+    "blood-soaked thangka scroll",
+    "red thread of wrathful deities",
+    "flaming third eye",
+    "charred mala beads",
+    "bile-stained prayer flags",
+    "ritual mirror (melong) cracked",
+    "ritual staff (khatvanga) pierced in the ground"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "blank trance",
+    "possessed stare",
+    "demonic ecstasy",
+    "unblinking wrath"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up on masked face",
+    "slightly tilted head close-up",
+    "front-facing mask with vertical symmetry"
+  ],
+  "ATMOSPHERES": [
+    "ritualistic",
+    "spirit-invoking",
+    "possessed silence",
+    "chanted terror"
+  ],
+  "ACCESSORIES": [
+    "golden ritual earrings",
+    "skull necklace",
+    "crown of flame motifs",
+    "forehead sigils"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "mystical and sacred, no visible gore",
+    "1": "subtle blood marks, eerie energy",
+    "2": "dripping blood, torn mask, demonic possession"
+  }
+}

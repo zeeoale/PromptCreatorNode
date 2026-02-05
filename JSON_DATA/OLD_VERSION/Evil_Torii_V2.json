@@ -1,0 +1,87 @@
+{
+  "EPOCHS": [
+    "Traditional Japanese folklore",
+    "Heian-era Japan",
+    "Timeless supernatural epoch"
+  ],
+  "OUTFITS": [
+    "White bloodstained kimono",
+    "Traditional low-cut yukata",
+    "Loose ceremonial robe",
+    "Obi belt",
+    "Barefoot"
+  ],
+  "LIGHTING": [
+    "Cinematic lighting",
+    "Dramatic contrast",
+    "Moody soft foggy light",
+    "Ominous directional backlighting",
+    "Symmetrical highlights"
+  ],
+  "BACKGROUNDS": [
+    "Dark swampy forest",
+    "Dense misty woods",
+    "Moss-covered twisted trees",
+    "Scattered puddles reflecting light",
+    "Fog-laden backdrop"
+  ],
+  "OBJECTS": [
+    "Ancient torii gate",
+    "Hanging cursed dolls",
+    "Ominous paper talismans",
+    "Red ritual ribbons",
+    "Lanterns with dim light",
+    "Muddy water with blood stains"
+  ],
+  "POSES": [
+    "Standing alone facing camera",
+    "Centered full frontal pose",
+    "Direct eye contact with viewer",
+    "Symmetrical posture with hands relaxed",
+    "Barefoot stance in shallow water"
+  ],
+  "EXPRESSIONS": [
+    "Blank haunted stare",
+    "Emotionless face",
+    "Silent dread",
+    "Intense direct gaze",
+    "Hints of sorrow"
+  ],
+  "CAMERA_ANGLES": [
+    "Perfectly centered composition",
+    "Eye-level front view",
+    "Portrait orientation",
+    "Symmetrical wide framing",
+    "Movie still perspective"
+  ],
+  "ATMOSPHERES": [
+    "Ominous supernatural atmosphere",
+    "Uncanny horror mood",
+    "Ghostly tension",
+    "Chilling folklore vibe",
+    "Silent cinematic suspense"
+  ],
+  "ACCESSORIES": [
+    "Bloody stains",
+    "Cursed doll charms",
+    "Long flowing hair",
+    "Red ribbons and hanging lanterns",
+    "Sashes with ritual objects"
+  ],
+
+    "SENSUALITY_LEVEL": {
+    "0": "composed and restrained",
+    "1": "subtle tension through posture and fabric",
+    "2": "quiet sensual presence expressed through silhouette",
+    "3": "high-fashion erotic tension conveyed with restraint, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward, no gore, clean chrome",
+    "1": "suggestive menace, faint red glows",
+    "2": "ritual accents, subtle blood tears",
+    "3": "jagged implants, cracked porcelain skin",
+    "4": "organic machinery, exposed sinew hints",
+    "5": "opulent dread—saintly yet monstrous, heavy biomech intrusion"
+  }
+}

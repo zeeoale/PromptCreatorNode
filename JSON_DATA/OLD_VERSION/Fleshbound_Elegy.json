@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "Timeless cathedral",
+    "Abandoned hospice",
+    "Post-apocalyptic ruins",
+    "Baroque inferno"
+  ],
+  "OUTFITS": [
+    "Skin-stitched gowns",
+    "Torn choir robes",
+    "Latex bandages",
+    "Bleeding ceremonial attire"
+  ],
+  "LIGHTING": [
+    "Shafts of red through stained glass",
+    "Flickering neon from broken signs",
+    "Moonlight filtered through smoke"
+  ],
+  "BACKGROUNDS": [
+    "Altar room made of bones",
+    "Velvet-draped ritual chamber",
+    "Decayed concert hall",
+    "Womb-like sanctuary of flesh"
+  ],
+  "OBJECTS": [
+    "Gilded needles",
+    "Strings of rosary made of teeth",
+    "Rusted scalpels",
+    "Lanterns with screaming faces inside"
+  ],
+  "POSES": [
+    "Head tilted in silent wailing",
+    "Arms bound behind back",
+    "Kneeling on stitched carpet",
+    "Arched in suspended agony"
+  ],
+  "EXPRESSIONS": [
+    "Eyes full of regret",
+    "Mouth stitched with gold thread",
+    "Silent scream",
+    "Tearful serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "Dutch angle close-up",
+    "Low angle from altar floor",
+    "Overhead like a choir of the dead"
+  ],
+  "ATMOSPHERES": [
+    "Thick incense and blood mist",
+    "Claustrophobic holiness",
+    "Decaying harmony",
+    "Warmth of decay and sorrow"
+  ],
+  "ACCESSORIES": [
+    "Flesh-bound hymn book",
+    "Choker made of vertebrae",
+    "Crimson ribbons soaked in tears",
+    "Crown of sutures"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Minor scars, symbolic bindings, faded memories",
+    "1": "Visible stitches, bloodied robes, lips sealed by thread",
+    "2": "Flayed torsos, exposed ribs, gold-threaded open wounds, weeping flesh walls"
+  }
+}

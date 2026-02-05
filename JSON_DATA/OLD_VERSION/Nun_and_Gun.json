@@ -1,0 +1,97 @@
+{
+  "EPOCHS": [
+    "timeless contemporary era with vintage religious undertones",
+    "undefined modern age suspended between past and present",
+    "retro-modern aesthetic inspired by sacred iconography"
+  ],
+
+  "OUTFITS": [
+    "Glossy latex nun black habit with corset lacing and slit skirt",
+    "",
+    "Black Stained altar-lace gown with torn hem and barbed accents",
+    "Black satin cassock cinched by chain belt and thorned corset"
+  ],
+
+  "LIGHTING": [
+    "low-key directional light filtering through haze",
+    "muted jade and desaturated green ambient lighting",
+    "soft top-down illumination creating halo-like highlights",
+    "diffused window light mixed with shadow collapse",
+    "dim ceremonial lighting with subtle glow around the subject"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned chapel interior with cracked walls and faded symbols",
+    "ceremonial hall filled with mist and dust particles",
+    "sacred room stripped of ornamentation and left to decay",
+    "minimal sanctified space with religious geometry and negative space",
+    "quiet interior dominated by silence and reverence"
+  ],
+
+  "OBJECTS": [
+    "ceremonial assault rifle held with restraint",
+    "modern pistol treated as a symbolic prop",
+    "machine gun partially obscured by fabric or shadow",
+    "cold metal shoogun sacred garments",
+    "gun used as iconographic tension"
+  ],
+
+  "POSES": [
+    "Hands crossed over abdomen in ritual stance",
+    "One hand gripping veil, the other holding a sigil",
+    "Kneeling posture with defiant spine",
+    "Leaning forward as if whispering an invocation",
+    "Reclined sideways on ritual stone, veil cascading across the frame",
+    "Standing in profile with veil spread wide, arms extended horizontally",
+    "Seated across an altar edge, body angled and gaze directed off-frame",
+    "Lying back amid incense smoke, arms open in ceremonial surrender",
+    "Half-turned stance with cloak drawn wide to fill the horizontal space",
+    "Slow ritual walk captured mid-step, fabric trailing across the scene"
+  ],
+
+  "EXPRESSIONS": [
+    "calm authoritative gaze with restrained intensity",
+    "emotionally distant expression conveying control",
+    "soft yet commanding eye contact",
+    "neutral expression charged with underlying tension",
+    "quiet confidence without overt emotion"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low-angle shot enhancing dominance",
+    "tight medium framing focusing on torso and posture",
+    "three-quarter view emphasizing silhouette",
+    "eye-level shot with shallow depth of field",
+    "slightly tilted angle adding unease and intimacy"
+  ],
+
+  "ATMOSPHERES": [
+    "ritual silence thick with tension",
+    "oppressive stillness shaped by shadow and air",
+    "sacred calm infused with sensual authority",
+    "ceremonial heaviness suspended in time",
+    "reverent mood with underlying danger"
+  ],
+
+  "ACCESSORIES": [
+    "",
+    "bullet belt integrated into the outfit",
+    "ammo belt worn at the waist",
+    "simple crosses and sacred pendants",
+    "bullet belt worn low at the waist, restrained and ceremonial",
+    "minimal jewelry with symbolic meaning"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed sacred presence with restrained elegance",
+    "1": "subtle sensual tension expressed through posture and fabric weight",
+    "2": "controlled erotic charge conveyed through silhouette, gaze, and ritual stillness",
+    "3": "high-fashion sacrilegious sensuality, dominant and intimate, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic sacred mood",
+    "1": "uneasy spiritual tension and corrupted reverence",
+    "2": "dark ritual undertone with oppressive, unsettling atmosphere"
+  }
+}

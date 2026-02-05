@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Gothic Victorian",
+    "Baroque",
+    "Medieval",
+    "Romantic 1800s",
+    "Timeless Darkness"
+  ],
+  "OUTFITS": [
+    "black lace dress",
+    "velvet cloak",
+    "corset and long skirt",
+    "dark priestess robes",
+    "leather and lace ensemble"
+  ],
+  "LIGHTING": [
+    "chiaroscuro",
+    "candlelit",
+    "moonlight",
+    "low-key dramatic",
+    "dim with soft highlights"
+  ],
+  "BACKGROUNDS": [
+    "abandoned cathedral",
+    "foggy graveyard",
+    "candlelit chamber",
+    "haunted forest",
+    "ancient ruins"
+  ],
+  "OBJECTS": [
+    "silver dagger",
+    "old book",
+    "mirror with cracks",
+    "raven skull"
+  ],
+  "POSES": [
+    "gazing into mirror",
+    "sitting on ancient throne",
+    "hands clasped in prayer",
+    "touching cold stone wall"
+  ],
+  "EXPRESSIONS": [
+    "melancholic",
+    "mysterious smile",
+    "haunted",
+    "cold and regal",
+    "wistful"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up",
+    "tight head-and-shoulders shot",
+    "frontal half-bust portrait",
+    "wide shot through cracked glass"
+  ],
+  "ATMOSPHERES": [
+    "misty",
+    "oppressive",
+    "romantic gloom",
+    "ethereal darkness",
+    "still and eerie"
+  ],
+  "ACCESSORIES": [
+    "dark veil",
+    "ancient necklace",
+    "spiked crown",
+    "silver rings",
+    "lace gloves"
+  ],
+  "HORROR_INTENSITY": {
+    "none": 0,
+    "subtle": 1,
+    "symbolic": 2,
+    "mildly disturbing": 3,
+    "ghostly presence": 4,
+    "full gothic horror": 5
+  }
+}

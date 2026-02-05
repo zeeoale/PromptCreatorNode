@@ -1,0 +1,63 @@
+{
+  "EPOCHS": [
+    "modern era",
+    "timeless horror setting",
+    "ritual night"
+  ],
+  "OUTFITS": [
+    "Japanese school uniform",
+    "blood-stained sailor uniform",
+    "dark ritual school attire"
+  ],
+  "LIGHTING": [
+    "deep red ritual lighting",
+    "low-key cinematic lighting",
+    "underlit crimson glow",
+    "shadow-dominant illumination"
+  ],
+  "BACKGROUNDS": [
+    "dark undefined void",
+    "claustrophobic ritual space",
+    "textured red darkness",
+    "shadow-filled empty room"
+  ],
+  "OBJECTS": [
+    "ritual markings on the floor",
+    "thin glowing red lines",
+    "invisible summoning circle"
+  ],
+  "POSES": [
+    "kneeling low to the ground",
+    "crawling posture",
+    "hunched ritual stance",
+    "predatory stillness"
+  ],
+  "EXPRESSIONS": [
+    "emotionless possessed stare",
+    "subtle predatory gaze",
+    "blank ritual trance",
+    "suppressed menace"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up on face",
+    "low-angle claustrophobic framing",
+    "intimate cinematic portrait",
+    "tight vertical composition"
+  ],
+  "ATMOSPHERES": [
+    "ritual horror",
+    "psychological dread",
+    "oppressive silence",
+    "blood-soaked stillness"
+  ],
+  "ACCESSORIES": [
+    "long disheveled black hair",
+    "subtle glowing eyes",
+    "faint ritual scars"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Unsettling red lighting with quiet tension",
+    "1": "Possessed aura, glowing eyes, ritual posture",
+    "2": "Full ritual corruption, blood-lit presence, predatory stillness"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "post-human future",
+    "techno-religious dystopia",
+    "industrial cyber age",
+    "sacred digital apocalypse"
+  ],
+  "OUTFITS": [
+    "black synthetic armor fused with cables",
+    "latex priestess robe with glowing runes",
+    "metallic spinal plating and fluid tubes",
+    "ritual armor of sacred circuitry",
+    "biomechanical exosuit with organic scars"
+  ],
+  "LIGHTING": [
+    "deep red underlight casting long shadows",
+    "single overhead crimson beam",
+    "harsh directional light through smoke",
+    "low contrast ambient glow with black core",
+    "soft red haze with flickering mechanical sparks"
+  ],
+  "BACKGROUNDS": [
+    "mechanical cathedral filled with cables and cruciform shapes",
+    "dark industrial chamber dripping with synthetic oil",
+    "cybernetic shrine with floating red sigils",
+    "empty ritual hall bathed in crimson fog",
+    "abandoned AI temple with glowing circuits on the walls"
+  ],
+  "OBJECTS": [
+    "mechanical halo dripping in red light",
+    "cables forming wing-like shapes",
+    "liquid metal pool reflecting red glow",
+    "broken android limbs scattered on ritual ground",
+    "ancient terminals pulsing with neural code"
+  ],
+  "POSES": [
+    "kneeling in reverence",
+    "head bowed under mechanical weight",
+    "looking upward through mask slits",
+    "sitting in trance with cables attached to spine",
+    "arms extended as if in silent prayer"
+  ],
+  "EXPRESSIONS": [
+    "blank yet divine serenity",
+    "silent agony behind mask",
+    "trance-like devotion",
+    "empty gaze illuminated by inner red glow",
+    "sublime surrender to the machine spirit"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up on face and mask",
+    "low angle emphasizing dominance",
+    "three-quarter view with glowing reflections",
+    "profile shot with red background gradient",
+    "top-down shot over ritual setup"
+  ],
+  "ATMOSPHERES": [
+    "ritualistic biomechanical reverence",
+    "cybernetic gothic spirituality",
+    "sacred horror under red illumination",
+    "silence before mechanical transcendence",
+    "fusion of organic pain and divine circuitry"
+  ],
+  "ACCESSORIES": [
+    "metallic mask covering face",
+    "tubular connectors along neck and spine",
+    "mechanical halo with dripping code",
+    "neural wires woven through hair",
+    "armor plates engraved with forgotten sigils"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "quiet mechanical devotion bathed in red light",
+    "1": "synthetic suffering and divine transformation",
+    "2": "ritual biomechanical torment merging flesh and machine"
+  }
+}

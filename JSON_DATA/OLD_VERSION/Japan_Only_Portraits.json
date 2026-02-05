@@ -1,0 +1,82 @@
+{
+  "EPOCHS": [
+    "Heian",
+    "Edo",
+    "Taisho",
+    "Modern Japanese",
+    "Neo-Tokyo",
+    "Samurai era"
+  ],
+  "OUTFITS": [
+    "elegant low-cut kimono with intricate patterns",
+    "delicate low-cut yukata with floral motifs",
+    "modern school uniform with sensual touch",
+    "lace-trimmed haori open on shoulders",
+    "samurai chest wrap with exposed collarbone",
+    "traditional undergarments with silk textures"
+  ],
+  "LIGHTING": [
+    "soft paper lantern glow",
+    "sunset light through rice paper walls",
+    "moonlight casting delicate shadows",
+    "early morning mist with gentle sunlight"
+  ],
+  "BACKGROUNDS": [
+    "tatami room with sliding shoji doors",
+    "zen garden with cherry blossoms",
+    "narrow Kyoto alley in the rain",
+    "old teahouse interior",
+    "balcony overlooking Mount Fuji",
+    "shrine at dusk with fox statues"
+  ],
+  "OBJECTS": [
+    "folded fan held delicately",
+    "ornate hairpin with floral design",
+    "katana resting nearby",
+    "tea cup with rising steam",
+    "scroll with ancient kanji script"
+  ],
+  "POSES": [
+    "close-up with tilted head and dreamy gaze",
+    "half-length with hands resting softly",
+    "portrait with hair falling over one eye",
+    "sensual shoulder reveal while seated",
+    "chin resting on fingers with intense eye contact"
+  ],
+  "EXPRESSIONS": [
+    "subtle smile with blushing cheeks",
+    "slightly parted lips in contemplation",
+    "melancholic gaze downward",
+    "confident smirk with narrowed eyes",
+    "innocent curiosity with arched brows"
+  ],
+  "CAMERA_ANGLES": [
+    "frontal portrait close-up",
+    "slightly above eye-level",
+    "three-quarter view focusing on the eyes",
+    "over-the-shoulder with face turned",
+    "low angle emphasizing presence"
+  ],
+  "ATMOSPHERES": [
+    "quiet and intimate",
+    "hauntingly serene",
+    "romantic tension",
+    "mysterious elegance",
+    "soft sensual stillness"
+  ],
+  "ACCESSORIES": [
+    "delicate pearl earrings",
+    "lace choker with kanzashi charm",
+    "decorative obi sash",
+    "tattoo peeking from shoulder",
+    "veil of silk partially covering face"
+  ],
+  "HORROR_INTENSITY": {},
+
+    "SENSUALITY_LEVEL": {
+    "0": "cold and distant presence with no erotic charge",
+    "1": "subtle sensual tension through posture and skin highlights",
+    "2": "controlled erotic presence conveyed through body tension and gaze",
+    "3": "dark, ritualistic sensuality expressed through restraint, wet skin, and intimate proximity, never explicit"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "EPOCHS": [
+    "Modern Witch School",
+    "Summer Magic Academy",
+    "Arcane Campus"
+  ],
+  "OUTFITS": [
+    "short enchanted robe",
+    "translucent spellcasting dress",
+    "magical swimsuit with glowing runes",
+    "light arcane sundress",
+    "witch uniform with summer twist"
+  ],
+  "LIGHTING": [
+    "golden hour",
+    "soft morning light",
+    "moonlit courtyard",
+    "sun-dappled forest"
+  ],
+  "BACKGROUNDS": [
+    "arcane classroom under open sky",
+    "floating garden of spells",
+    "mystical beach with runes",
+    "ritual circle in summer woods",
+    "ancient academy cloisters"
+  ],
+  "OBJECTS": [
+    "floating grimoire",
+    "hovering wand",
+    "enchanted parasol",
+    "crystal vial glowing with light",
+    "magical familiars"
+  ],
+  "POSES": [
+    "casting playful spell",
+    "sitting with crossed legs holding book",
+    "leaning on broomstick",
+    "walking barefoot on glowing path",
+    "floating gently in air"
+  ],
+  "EXPRESSIONS": [
+    "mischievous smile",
+    "sensual glance",
+    "dreamy gaze",
+    "confident smirk",
+    "playfully mysterious"
+  ],
+  "CAMERA_ANGLES": [
+    "medium close-up",
+    "over-the-shoulder",
+    "low angle looking up",
+    "front view full-body",
+    "side view portrait"
+  ],
+  "ATMOSPHERES": [
+    "enchanting and flirtatious",
+    "soft and dreamy",
+    "mystical and sun-kissed",
+    "romantic arcane vibe",
+    "playfully mysterious"
+  ],
+  "ACCESSORIES": [
+    "floating earrings",
+    "magical anklet",
+    "glowing pendant",
+    "spell bracelet",
+    "charmed sunglasses"
+  ],
+  "HORROR_INTENSITY": {
+    "none": [
+      "pure fantasy with no dark elements"
+    ],
+    "low": [
+      "a faint hint of forbidden magic"
+    ],
+    "medium": [
+      "soft shadow magic in the background"
+    ]
+  }
+}

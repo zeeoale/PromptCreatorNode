@@ -1,0 +1,88 @@
+{
+  "EPOCHS": [
+    "Hive Era",
+    "Parasitic Bloom",
+    "Mothering Night",
+    "Biogenesis Age"
+  ],
+  "OUTFITS": [
+    "transparent organ dress",
+    "latex hive suit",
+    "flesh-laced veil",
+    "gore-stitched gown",
+    "resin cocoon armor"
+  ],
+  "LIGHTING": [
+    "soft glowing from within",
+    "bioluminescent shadows",
+    "surgical cold light",
+    "pinkish womb glow",
+    "nest flicker"
+  ],
+  "BACKGROUNDS": [
+    "pulsating egg chamber",
+    "organic cathedral",
+    "infested birthing nest",
+    "chitin-covered cave",
+    "abandoned bio-lab"
+  ],
+  "OBJECTS": [
+    "egg sac",
+    "dripping resin",
+    "antennae cluster",
+    "incubation pod",
+    "sacred scalpel",
+    "parasite crucible"
+  ],
+  "POSES": [
+    "arched back birthing stance",
+    "cradling the hive",
+    "arms open in offering",
+    "crouched predator pose",
+    "caressing abdomen"
+  ],
+  "EXPRESSIONS": [
+    "sacred ecstasy",
+    "predatory calm",
+    "pleasure in pain",
+    "hollow devotion",
+    "unblinking motherly stare"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle worship shot",
+    "tight chest crop",
+    "overhead hive view",
+    "rear bloom reveal",
+    "extreme close-up"
+  ],
+  "ATMOSPHERES": [
+    "fermented warmth",
+    "crawling anxiety",
+    "womb-like humidity",
+    "clinical dread",
+    "suffocating allure"
+  ],
+  "ACCESSORIES": [
+    "wrist bone piercings",
+    "insect diadem",
+    "vein-threaded corset",
+    "chitin gloves",
+    "umbilical jewelry"
+  ],
+  "HORROR_INTENSITY": {
+    "low": [
+      "faint hive pattern on skin",
+      "subtle glow in abdomen"
+    ],
+    "medium": [
+      "small eggs under skin",
+      "writhing under clothes",
+      "visible insect wings sprouting"
+    ],
+    "high": [
+      "open abdominal cavity with hive",
+      "insect legs emerging from mouth",
+      "multiple eyes and swollen glands"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "EPOCHS": [
+    "Future collapse",
+    "Silent post-human era",
+    "Neo-organic awakening"
+  ],
+  "OUTFITS": [
+    "Bioluminescent bodysuit with neural motifs",
+    "Tight black trousers with data-threaded seams",
+    "Minimalist backless suits with glitched fibers"
+  ],
+  "LIGHTING": [
+    "Misty tunnel light shafts",
+    "Bioluminescent glow from tattoos",
+    "Diffuse white ambient light with particles",
+    "Cold blue CRT light flickering"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned subway covered in overgrowth",
+    "Corridor of flickering vintage CRT monitors",
+    "Train tunnel filled with roses and broken clocks",
+    "Neo-ruins with sacred screens and graffitied walls"
+  ],
+  "OBJECTS": [
+    "Old analog clocks frozen in time",
+    "Framed flowers in cracked display glass",
+    "CRT monitors showing abstract data spirals",
+    "Metallic vines creeping over tech",
+    "Fallen petals on dusty concrete"
+  ],
+  "POSES": [
+    "Back turned, hands joined behind",
+    "Standing still as if in contemplation",
+    "Looking at a wall of flickering screens",
+    "Crouched beside a blooming flower",
+    "Walking into light at tunnel�s end"
+  ],
+  "EXPRESSIONS": [
+    "Silent introspection",
+    "Emotionless observation",
+    "Peaceful surrender to decay",
+    "Wonder at organic growth",
+    "Longing for something lost"
+  ],
+  "CAMERA_ANGLES": [
+    "Back view, full body center frame",
+    "Low angle through overgrown plants",
+    "Close-up on glowing tattoo network",
+    "Wide cinematic tunnel shot",
+    "Soft-focus perspective from behind flora"
+  ],
+  "ATMOSPHERES": [
+    "Sacred quiet of post-human ritual",
+    "Peaceful solitude in forgotten systems",
+    "Soft humming of old tech still breathing",
+    "Nature reclaiming digital ruins",
+    "Frozen time in bloom"
+  ],
+  "ACCESSORIES": [
+    "Neural tattoos glowing under skin",
+    "Ear implants with crystal stems",
+    "Transparent chest plating with internal bloom",
+    "Glass box with preserved rose",
+    "Portable analog timepieces"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Melancholic harmony between nature and machine",
+    "1": "Strange beauty in organic-tech fusion",
+    "2": "Haunting stillness of post-organic temples"
+  }
+}

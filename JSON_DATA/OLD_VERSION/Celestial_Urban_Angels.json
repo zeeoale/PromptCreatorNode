@@ -1,0 +1,104 @@
+{
+  "EPOCHS": [
+    "timeless dawn in a living forest sanctuary",
+    "contemporary city night with hidden celestial presence",
+    "golden hour over distant mountains and pine woods",
+    "rainy midnight in neon alleyways beneath skyscrapers",
+    "early morning fog in a quiet riverside grove",
+    "modern metropolis twilight, glass towers reflecting pale halo-light"
+  ],
+
+  "OUTFITS": [
+    "clean ceremonial robe with modern tailoring, minimal embroidery",
+    "sharp black coat over luminous inner garments, restrained corporate elegance",
+    "simple linen tunic with a fitted waist, travel-worn but pristine",
+    "sleek leather-and-cloth layered outfit, subtle sacred geometry stitching",
+    "high-collar cape with soft feather trim, understated and refined",
+    "monochrome urban couture with delicate metallic accents, angelic restraint"
+  ],
+
+  "LIGHTING": [
+    "soft natural godrays filtering through leaves and mist",
+    "moonlight with gentle rim light outlining closed wings",
+    "neon spill mixed with cool streetlight, cinematic chiaroscuro",
+    "overcast skylight with subtle halo glow, low-noise film texture",
+    "sunrise backlight turning feathers into a soft luminous edge",
+    "city reflections from glass facades, sculpted highlights on fabric and skin"
+  ],
+
+  "BACKGROUNDS": [
+    "mossy forest path with tall trees, ferns, and drifting pollen",
+    "quiet clearing with fog layers and distant birds in silhouette",
+    "rooftop edge among glass-and-steel skyscrapers, vast skyline depth",
+    "narrow night alley with wet pavement, signage reflections, and brick textures",
+    "windy bridge between towers, clouds moving behind the subject",
+    "urban courtyard with ivy on concrete, hidden sanctuary feeling"
+  ],
+
+  "OBJECTS": [
+    "subtle halo ring or faint crown-light, delicate and not overpowering",
+    "single feather caught in rain or wind, floating near the lens",
+    "small pendant or signet representing a guardian order",
+    "folded umbrella or coat collar in the rain, grounded realism",
+    "street puddles mirroring wings and city lights",
+    "branches, leaves, and drifting mist framing the subject naturally"
+  ],
+
+  "POSES": [
+    "standing still with wings fully closed, hands relaxed, calm authority",
+    "three-quarter stance, one shoulder forward, wings slightly parted in restraint",
+    "kneeling on one knee in a forest clearing, head gently raised toward light",
+    "walking toward camera in a neon alley, coat trailing, wings hidden under fabric silhouette",
+    "leaning lightly against a wall or railing, composed guardian posture, wings folded tight",
+    "quiet rooftop pose with wind in hair and feathers, gaze directed downward to the city"
+  ],
+
+  "EXPRESSIONS": [
+    "serene and watchful gaze, quiet protection",
+    "calm confidence with a softened intensity",
+    "neutral expression with gentle resolve, no menace",
+    "subtle warmth in the eyes, restrained empathy",
+    "focused and vigilant, controlled presence",
+    "peaceful composure, sacred calm without sorrow"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle emphasizing closed wings and tall silhouette against trees or towers",
+    "eye-level medium shot with wings folded, cinematic depth and clean framing",
+    "three-quarter side view revealing wing contours under coat or cape",
+    "slightly top-down angle in a forest clearing for sacred symmetry",
+    "wide establishing shot with the subject small against skyscrapers or vast woods",
+    "close-up portrait with soft rim light on lashes and feather edges, shallow depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "quiet sacred calm, protective presence, grounded realism",
+    "clean cinematic serenity, modern myth in everyday spaces",
+    "rain-soaked noir stillness with gentle celestial dignity",
+    "misty forest hush with subtle wonder and restraint",
+    "soft awe without fantasy excess, believable and contemporary",
+    "tranquil tension of guardianship, watchful and composed"
+  ],
+
+  "ACCESSORIES": [
+    "minimal ring or pendant with subtle celestial motif",
+    "fine leather gloves or tailored cuffs, modern restraint",
+    "simple earrings or small piercings, understated elegance",
+    "hooded cape or high-collar coat, wings hinted beneath silhouette",
+    "soft feather details on collar or shoulder seam, tasteful and real",
+    "boots with clean lines, grounded urban practicality"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure grace and restraint, no sensual emphasis, devotional calm",
+    "1": "subtle allure through posture, fabric tension, and quiet confidence",
+    "2": "controlled sensuality expressed through elegance, proximity, and silhouette, never explicit",
+    "3": "strong erotic charge through dominance and composed stillness, fashion-forward and non-explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror; serene guardian mood, pure and luminous calm",
+    "1": "light unease through shadows, rain, and noir atmosphere, still safe and non-violent",
+    "2": "tense supernatural suspense without gore, threat implied only by environment and framing"
+  }
+}

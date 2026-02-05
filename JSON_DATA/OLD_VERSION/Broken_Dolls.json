@@ -1,0 +1,51 @@
+{
+  "EPOCHS": [
+    "Victorian era"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Dusty light through cracked window",
+    "Flickering fluorescent bulb",
+    "Soft light filtered through cobwebs"
+  ],
+  "BACKGROUNDS": [
+    "Red velvet with gold chinese dragon motifs backdrop",
+    "Black void with incense smoke"
+  ],
+  "OBJECTS": [
+    "Cracked porcelain mask",
+    "Detached glass eye",
+    "Rusty wind-up key",
+    "Torn lace parasol",
+    "Music box with missing ballerina",
+    "Shattered mirror"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [
+    "Vacant stare",
+    "Cracked smile",
+    "Glassy-eyed sadness",
+    "Twisted innocence",
+    "Blank emotionless face"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on broken face"
+  ],
+  "ATMOSPHERES": [
+    "Haunting silence",
+    "Dusty stillness",
+    "Melancholic decay",
+    "Creeping discomfort"
+  ],
+  "ACCESSORIES": [
+    "Hair ribbons with frayed ends",
+    "Missing button eyes",
+    "Half-destroyed stuffed animal",
+    "Stained lace choker"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Cracked antique aesthetic with melancholic tone",
+    "1": "Disturbing details like empty sockets, exposed stuffing",
+    "2": "Body horror with mutilated limbs, fused faces, stitched mouths"
+  }
+}

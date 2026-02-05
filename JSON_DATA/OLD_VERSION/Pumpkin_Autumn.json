@@ -1,0 +1,69 @@
+{
+  "EPOCHS": [
+    "Victorian autumn",
+    "Edwardian parlor",
+    "Retro 1970s boho fall",
+    "Timeless fantasy academia"
+  ],
+  "OUTFITS": [
+    "pumpkin-orange knitted witch dress with keyhole neckline and balloon sleeves",
+    "orange brocade mini-dress with lace cuffs and embroidered leaves",
+    "orange tweed sweater-dress with distressed hem and corset belt",
+    "orange silk tea-dress with deep neckline and fitted bodice"
+  ],
+  "LIGHTING": [
+    "golden hour window light with dust motes",
+    "soft overcast skylight through stained glass",
+    "library tungsten lamps with gentle falloff"
+  ],
+  "BACKGROUNDS": [
+    "antique library shelves stacked with weathered books",
+    "stained-glass mullioned windows with fall motifs",
+    "carved wooden desk cluttered with tomes and quills",
+    "cozy study nook with pumpkins and dried flowers"
+  ],
+  "OBJECTS": [
+    "spellbook with metal clasp",
+    "oversized corset belt with ornate buckle",
+    "pumpkins, cinnamon sticks, dried leaves",
+    "inkwell, quill, wax seal, parchment scrolls",
+    "steaming mug of spiced tea"
+  ],
+  "POSES": [
+    "three-quarter standing by window, hands on desk",
+    "hands clasping a closed grimoire at waist",
+    "one elbow resting on books, thoughtful gaze",
+    "leaning against shelves, hat tilted"
+  ],
+  "EXPRESSIONS": [
+    "soft confident smile",
+    "curious scholar’s gaze",
+    "serene daydreaming",
+    "playful raised brow"
+  ],
+  "CAMERA_ANGLES": [
+    "waist-up portrait, 50mm natural perspective",
+    "three-quarter full body, low angle hero",
+    "close-up on face and hat brim, shallow depth",
+    "over-the-shoulder toward window bokeh"
+  ],
+  "ATMOSPHERES": [
+    "cozy autumn academia",
+    "spiced-air warmth with drifting dust",
+    "gentle nostalgia and bookish calm",
+    "subtle magical shimmer near pages"
+  ],
+  "ACCESSORIES": [
+    "wide-brim witch hat with ribbon and florals",
+    "ornate leather corset belt with embossed metal",
+    "dangling filigree earrings",
+    "lace stockings and ankle boots",
+    "pendant talisman on fine chain"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "purely cozy, no dark motifs",
+    "1": "hint of arcane glow on pages",
+    "2": "faint sigils in glass and soft candle smoke",
+    "3": "whispering runes and shadowy silhouettes (still elegant, not gruesome)"
+  }
+}

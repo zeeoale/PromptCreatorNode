@@ -1,0 +1,84 @@
+{
+  "EPOCHS": [
+    "Victorian Gothic",
+    "Edwardian Fetish",
+    "Neo-Victorian",
+    "Dark Academia",
+    "Steampunk Elegance",
+    "Gothic Romance"
+  ],
+  "OUTFITS": [
+    "Black latex gown",
+    "High-neck latex dress",
+    "Long black latex gloves",
+    "Form-fitting latex bodysuit",
+    "Lace-trimmed latex corset",
+    "Victorian-inspired latex ensemble"
+  ],
+  "LIGHTING": [
+    "Dramatic side lighting",
+    "Soft cinematic glow",
+    "Moody vignette shadows",
+    "Subtle rim lighting",
+    "Warm golden highlights",
+    "High contrast chiaroscuro"
+  ],
+  "BACKGROUNDS": [
+    "Dark textured studio backdrop",
+    "Velvet curtain void",
+    "Neo-Victorian interior shadows",
+    "Architectural gothic framing",
+    "Foggy atmospheric haze"
+  ],
+  "OBJECTS": [
+    "Human-sized ornate birdcage",
+    "Open birdcage door",
+    "Brass cage structure surrounding the body",
+    "Black silk blindfold",
+    "Latex bondage elements",
+    "Victorian lace details"
+  ],
+  "POSES": [
+    "Standing inside the birdcage",
+    "Hands resting lightly on cage bars",
+    "Regal upright posture within enclosure",
+    "Three-quarter body view",
+    "Shoulders back, composed stance"
+  ],
+  "EXPRESSIONS": [
+    "Mysterious veiled gaze",
+    "Enigmatic expression",
+    "Subtle parted lips",
+    "Calm composed demeanor",
+    "Serene yet haunting"
+  ],
+  "CAMERA_ANGLES": [
+    "Mid-distance cinematic framing",
+    "Full-body portrait",
+    "Slightly low angle",
+    "Centered symmetrical composition",
+    "Vertical portrait orientation"
+  ],
+  "ATMOSPHERES": [
+    "Eerie sophistication",
+    "Dark elegance",
+    "Symbolic confinement",
+    "Haunting femininity",
+    "Gothic sensuality"
+  ],
+  "ACCESSORIES": [
+    "Long latex gloves",
+    "Silk blindfold veil",
+    "Lace cuff details",
+    "Brass jewelry accents",
+    "Victorian brooches"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward, no gore, clean chrome",
+    "1": "suggestive menace, faint golden glows",
+    "2": "ritual accents, symbolic restraint",
+    "3": "psychological unease, oppressive elegance",
+    "4": "ritualized confinement, dark fetish tension",
+    "5": "opulent dread—beauty imprisoned by symbolism"
+  }
+}

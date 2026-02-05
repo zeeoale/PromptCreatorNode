@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "Dark future",
+    "Neo-Victorian twilight",
+    "Blood moon ritual night",
+    "Abandoned cathedral of sin"
+  ],
+  "OUTFITS": [
+    "Latex corset with heart-shaped studs",
+    "Full-body leather harness with metal buckles",
+    "Transparent mesh bodysuit and vinyl boots",
+    "Bondage-inspired dress with dangling chains",
+    "Strappy lingerie over black tattoos"
+  ],
+  "LIGHTING": [
+    "Cinematic spotlight with deep shadows",
+    "Neon red from below",
+    "Soft diffuse light with haze",
+    "Reflected chrome highlights",
+    "Slight overexposure with bloom"
+  ],
+  "BACKGROUNDS": [
+    "Rusty metal wall with scratches",
+    "Dim industrial warehouse with smoke",
+    "Dark corridor lit by red LEDs",
+    "Metal throne room with barbed chains",
+    "Broken mirrors and scattered roses"
+  ],
+  "OBJECTS": [
+    "Spiked collar on a mannequin",
+    "Latex mask with zipper mouth",
+    "Bloodied rose petals",
+    "Chains hanging from the ceiling",
+    "High-heeled boots with laces undone"
+  ],
+  "POSES": [
+    "Leaning with dominance against wall",
+    "Chin tilted, eyes staring down the viewer",
+    "Leg crossed over stool, whip resting on thigh",
+    "Both hands gripping chains",
+    "Back arched, mouth slightly open"
+  ],
+  "EXPRESSIONS": [
+    "Sinister smile",
+    "Provocative glare",
+    "Eyes glowing with dominance",
+    "Teasingly calm",
+    "Predatory focus"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level with dramatic depth of field",
+    "Close-up on lips and piercings",
+    "Low angle emphasizing body curves",
+    "Dutch angle with blur edges",
+    "Tilted headshot with defiant posture"
+  ],
+  "ATMOSPHERES": [
+    "Suffocating sensuality",
+    "Dark seduction with pain undertones",
+    "Mystic lust and rebellion",
+    "Forbidden elegance",
+    "Gothic eroticism"
+  ],
+  "ACCESSORIES": [
+    "Studded black collar",
+    "Leather gloves with claw tips",
+    "Gothic cross earrings",
+    "Red flower in bleached hair"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Dark glamour with latex reflections",
+    "1": "Blood tears and chains of desire",
+    "2": "Body as altar, pain as prayer"
+  }
+}

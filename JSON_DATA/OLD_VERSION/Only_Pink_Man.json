@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Future Tokyo",
+    "Cyber Miami",
+    "Neon Utopia",
+    "Bubblegum Dystopia"
+  ],
+  "OUTFITS": [
+    "Pink tactical vest with chrome accents",
+    "Pastel pink hoodie with oversized sleeves",
+    "Bubblegum pink bomber jacket and joggers",
+    "Neon pink crop top and wide-leg cargo pants",
+    "Silky pink kimono with urban graffiti",
+    "Pink mesh tank top and ripped jeans"
+  ],
+  "LIGHTING": [
+    "Soft neon pink glow",
+    "Overexposed candy lighting",
+    "Backlit with magenta halo",
+    "Reflective puddles of pink light"
+  ],
+  "BACKGROUNDS": [
+    "Cyber street filled with cotton candy haze",
+    "Neon-lit alley with graffiti hearts",
+    "Pink futuristic shopping district",
+    "Floating candy cubes in a vaporwave sky",
+    "Stage with giant pink speakers and lasers"
+  ],
+  "OBJECTS": [
+    "Pink boombox",
+    "Bubblegum bubbles",
+    "Neon heart drone",
+    "Glowing pink katana",
+    "Giant floating lollipops"
+  ],
+  "POSES": [
+    "Jumping mid-air with arms wide",
+    "Peace sign and playful grin",
+    "Flexing in front of graffiti wall",
+    "Leaning against neon-lit pole",
+    "Crossed arms with confident smile"
+  ],
+  "EXPRESSIONS": [
+    "Confident and playful",
+    "Joyfully intense",
+    "Charming and mischievous",
+    "Focused like a pink ninja"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle with fisheye distortion",
+    "Close-up with wide lens",
+    "Overhead drone shot",
+    "Dynamic tilted angle"
+  ],
+  "ATMOSPHERES": [
+    "Explosively sweet and fun",
+    "Overwhelming pink overload",
+    "Sugar-pop urban chaos",
+    "Glitter storm in a cyber dream"
+  ],
+  "ACCESSORIES": [
+    "Pink shades with LED rims",
+    "Oversized pink headphones",
+    "Bubblegum in mouth",
+    "Neon belt with candy grenades",
+    "Fingerless gloves with heart studs"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "Subtle eerie lighting under the sweet vibe",
+    "medium": "A few melting pink mannequins in the background",
+    "high": "Distorted pink creatures crawling behind the neon signs"
+  }
+}

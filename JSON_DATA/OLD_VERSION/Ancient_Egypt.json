@@ -1,0 +1,103 @@
+{
+  "EPOCHS": [
+    "Old Kingdom (pyramid age)",
+    "Middle Kingdom",
+    "New Kingdom (Ramesside)",
+    "Amarna period (Atenist style)",
+    "Late Period",
+    "Ptolemaic fusion (Greek–Egyptian)",
+    "Mythic timeless Egypt (idealized, museum-grade)"
+  ],
+  "OUTFITS": [
+    "fine pleated linen dress, modest, fitted",
+    "sheer linen shawl with gold edging",
+    "nemes headdress with uraeus",
+    "tall crown (hedjet or deshret) stylized",
+    "broad usekh collar (gold + faience)",
+    "arm cuffs, anklets, and signet rings",
+    "beaded wig with hair beads",
+    "sandals with woven straps",
+    "kohl eyeliner, ochre and malachite cosmetics (tasteful)"
+  ],
+  "LIGHTING": [
+    "sun-baked rim light with warm bounce",
+    "torchlit chiaroscuro in temple interior",
+    "golden hour desert glow",
+    "moonlit courtyard with cool fill",
+    "incense-haze shafts through clerestory",
+    "raking light across carved reliefs",
+    "reflective Nile water caustics"
+  ],
+  "BACKGROUNDS": [
+    "hypostyle hall with papyrus-cap columns",
+    "pylons and obelisks aligned on an axial path",
+    "lotus pool and sacred lake",
+    "tomb corridor covered in hieroglyphic reliefs",
+    "desert dunes with distant pyramids",
+    "sanctum with colossal statues of deities",
+    "Nile riverbank with palm and papyrus",
+    "workshop with alabaster and gold leaf"
+  ],
+  "OBJECTS": [
+    "ankh",
+    "was sceptre",
+    "crook and flail (ornamental)",
+    "scarab amulet",
+    "lotus flower",
+    "papyrus scrolls and scribal palette",
+    "canopic jars (clean, non-gory)",
+    "alabaster unguent jars",
+    "sistrum (ritual rattle)",
+    "cartouche seal (no modern text)"
+  ],
+  "POSES": [
+    "frontal regal stance, symmetrical",
+    "processional walk in profile",
+    "seated on throne, hands on lap",
+    "offering gesture toward altar",
+    "holding a lotus near chest",
+    "kneeling before carved wall",
+    "over-shoulder glance beneath headdress"
+  ],
+  "EXPRESSIONS": [
+    "serene",
+    "enigmatic",
+    "divine calm",
+    "graceful confidence",
+    "contemplative",
+    "soft proud smile",
+    "reverent awe"
+  ],
+  "CAMERA_ANGLES": [
+    "low-angle grand wide 24–28mm, axial symmetry",
+    "royal portrait 85–105mm, shallow DOF",
+    "profile 50mm side view, relief backdrop",
+    "macro 90–100mm raking light on carvings",
+    "overhead centered, geometric alignment",
+    "three-quarter medium shot, columns framing"
+  ],
+  "ATMOSPHERES": [
+    "sacred stillness with drifting incense",
+    "heat shimmer and sun dust",
+    "cool moonlit hush",
+    "festival banners lightly stirring",
+    "quiet sanctum reverberation",
+    "wind-blown sand haze",
+    "museum-grade clarity with soft grain"
+  ],
+  "ACCESSORIES": [
+    "diadem with uraeus cobra",
+    "wesekh broad collar (gold, lapis, carnelian, faience)",
+    "beaded wigs and hair rings",
+    "pectorals and scarab pendants",
+    "anklets and arm cuffs",
+    "decorated belts and sashes",
+    "ritual veil or shawl edge in gold thread"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "pure classic beauty and authenticity; no horror motifs; clean temples and calm desert light.",
+    "1": "whispered mythic presence—long shadows, faint deity silhouettes, ancient whispers; no gore.",
+    "2": "stronger supernatural charge—glowing glyphs, living statues, sacred omens; tasteful and non-graphic.",
+    "3": "cosmic awe within Egyptian canon—impossible geometry in reliefs, star-dark recesses, haloed eyes; strictly no gore or modern elements."
+  }
+}

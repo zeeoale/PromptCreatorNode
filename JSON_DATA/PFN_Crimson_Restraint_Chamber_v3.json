@@ -1,0 +1,98 @@
+{
+  "WORLD_NAME": "Crimson_Restraint_Chamber",
+
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in dark erotic interior imagery where psychological tension, bodily restraint, and oppressive atmosphere take precedence over explicit action. When requested, return ONE single long, cinematic sentence (180–240 words) in English, without line breaks or bullet points, describing a contemporary figure enclosed within a claustrophobic chamber defined by decay, humidity, and silence. Always merge elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a unified visual narrative, never naming the categories explicitly. Emphasize restrained posture, fabric tension, wet or reflective skin surfaces, and minimal bindings made of soft rope or fabric, suggesting ritual intent rather than force. The lighting should feel oppressive and directional, grazing skin and textures with cold highlights and deep shadow falloff, while the environment conveys damp air, stained surfaces, and quiet confinement. Modulate intensity through {{SENSUALITY_LEVEL}} and {{HORROR_INTENSITY}}, keeping all erotic elements suggestive, controlled, and non-explicit, and all horror psychological rather than graphic. Mention camera proximity, cropping, depth of field, muted color casts, subtle grain, and cinematic diffusion, resulting in an image that feels intimate, unsettling, and deliberately restrained, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting.",
+
+  "EPOCHS": [
+    "timeless contemporary",
+    "decayed modern era"
+  ],
+
+  "OUTFITS": [
+    "torn lace lingerie",
+    "latex bodysuit with organic tears",
+    "sheer fabric soaked and clinging to skin",
+    "ritual garments bound with fabric ties"
+  ],
+
+  "LIGHTING": [
+    "oppressive lighting",
+    "single cold practical light source",
+    "greenish cyan cast with sickly undertones",
+    "hard shadows with aggressive falloff",
+    "top or side light grazing wet skin"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned tiled chamber",
+    "decaying bathroom interior",
+    "stained concrete walls",
+    "claustrophobic enclosed room"
+  ],
+
+  "OBJECTS": [
+    "soft rope bindings around wrists",
+    "fabric restraints",
+    "wet surfaces and dripping textures"
+  ],
+
+  "POSES": [
+    "arched back with restrained posture",
+    "body pressed against a damp wall",
+    "twisted torso emphasizing internal tension",
+    "semi-crouched pose in limited space",
+    "still pose with controlled erotic restraint"
+  ],
+
+  "EXPRESSIONS": [
+    "detached haunted gaze",
+    "half-lidded eyes with restrained calm",
+    "emotionless erotic stare",
+    "subtle menace mixed with vulnerability"
+  ],
+
+  "CAMERA_ANGLES": [
+    "slightly low angle emphasizing presence",
+    "top-down oppressive close-up",
+    "tight medium shot with cropped limbs",
+    "intimate close-up on face and shoulders"
+  ],
+
+  "ATMOSPHERES": [
+    "humid air",
+    "oppressive silence",
+    "ritualistic dread",
+    "sensual claustrophobia",
+    "dark erotic tension"
+  ],
+
+  "ACCESSORIES": [
+    "dark lipstick",
+    "black nail polish",
+    "simple fabric choker"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "cold and distant presence with no erotic charge",
+    "1": "subtle sensual tension through posture and skin highlights",
+    "2": "controlled erotic presence conveyed through body tension and gaze",
+    "3": "dark ritualistic sensuality expressed through minimal restraint, wet skin, and intimate proximity, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "aesthetic darkness without threat",
+    "1": "uneasy erotic tension and psychological discomfort",
+    "2": "ritualistic horror atmosphere with oppressive undertones",
+    "3": "not used"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A claustrophobic interior scene soaked in damp air and silence, where restrained posture and fabric tension define a dark erotic ritual atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic chamber portrait framed by oppressive directional light grazing wet skin and stained surfaces, controlled erotic tension replacing explicit action, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dark ritual interior where minimal fabric restraints and soaked textures suggest psychological confinement rather than force, shallow depth and tight cropping amplifying intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An unsettling erotic tableau inside a decaying tiled chamber, greenish cyan light cutting across skin and concrete while silence presses inward, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A restrained cinematic vision of damp walls, ritual garments, and controlled stillness, where psychological tension defines both horror and desire, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A tight, oppressive close framing emphasizes wet textures, fabric bindings, and a calm haunted gaze, transforming confinement into aesthetic tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A dark erotic chamber scene where silence, humidity, and restrained posture merge into a ritualistic atmosphere of controlled menace and intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

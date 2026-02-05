@@ -1,0 +1,97 @@
+{
+  "EPOCHS": [
+    "ancient infernal citadel",
+    "forgotten abyssal throne hall",
+    "cavern of eternal embers",
+    "obsidian ritual chamber",
+    "decaying temple of forbidden gods",
+    "smoldering wasteland under a blood-red sky"
+  ],
+
+  "OUTFITS": [
+    "dark ceremonial corset forged from obsidian plates",
+    "molten-metal lacework hugging the hips and collarbones",
+    "tattered ritual veils shimmering like hot ash",
+    "skin-tight demonic armor etched with runes",
+    "lace-like straps adorned with burning sigils",
+    "ornamental bone jewelry woven along the ribs"
+  ],
+
+  "LIGHTING": [
+    "fiery rim light carving the silhouette",
+    "soft hellfire glow reflecting on horns and wings",
+    "low warm underlight from molten cracks in the ground",
+    "dramatic contrast between shadows and ember highlights",
+    "smoke-filtered cinematic backlight",
+    "subtle golden sparks floating in the warm haze"
+  ],
+
+  "BACKGROUNDS": [
+    "expansive infernal landscape filled with drifting ash",
+    "deep cavern illuminated by molten rivers",
+    "ancient ruin cracked by glowing magma veins",
+    "ritual circle carved into charred stone",
+    "vast obsidian hall with towering demonic statues",
+    "blood-red sky swirling behind infernal peaks"
+  ],
+
+  "OBJECTS": [
+    "curved horns shaped like polished obsidian",
+    "burning sigils floating around the body",
+    "chains glowing with ember-like heat",
+    "ritual blade embedded in scorched ground",
+    "demonic runestones pulsing faintly",
+    "lava droplets suspended mid-air like fireflies"
+  ],
+
+  "POSES": [
+    "standing tall with wings half-open, exuding dominance",
+    "slow, graceful step forward as embers swirl",
+    "kneeling in a ritual stance, hands resting elegantly",
+    "leaning forward slightly with a teasing posture",
+    "hips turned subtly, gaze over the shoulder",
+    "arms open in a beckoning, seductive gesture"
+  ],
+
+  "EXPRESSIONS": [
+    "smoldering seductive gaze",
+    "calm infernal confidence",
+    "soft dangerous smile",
+    "ancient hunger masked by elegance",
+    "cold alluring stare",
+    "mysterious half-lidded eyes"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low angle emphasizing horns and wings",
+    "three-quarter view enhancing curves and silhouette",
+    "close-up on face with embers reflecting in eyes",
+    "medium shot centered on upper body and infernal ornaments",
+    "slightly high angle revealing ritual markings beneath",
+    "dramatic side-shot with drifting ash in foreground"
+  ],
+
+  "ATMOSPHERES": [
+    "heavy with drifting embers and warm smoke",
+    "seductive tension in the air, like before a ritual",
+    "slow burning haze softening the scene",
+    "ancient infernal pressure radiating through the ground",
+    "dreamlike molten glow blending into shadows",
+    "mystical dark charm infused with heat and danger"
+  ],
+
+  "ACCESSORIES": [
+    "obsidian crown with curved horns",
+    "burning sigil necklace",
+    "ember-threaded armbands",
+    "ritual bracelets shaped from molten metal",
+    "runed anklets glowing faintly",
+    "infernal ear jewelry shaped like twisted bone"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "Soft infernal beauty with subtle demonic traits and elegant warmth.",
+    "1": "Noticeable demonic anatomy, glowing runes and hints of dangerous hunger beneath the charm.",
+    "2": "Seductive but frightening demon, horns sharp as blades, molten veins, fiery gaze and an aura of ancient predatory power."
+  }
+}

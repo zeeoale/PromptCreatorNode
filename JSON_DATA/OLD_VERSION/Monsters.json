@@ -1,0 +1,52 @@
+{
+  "EPOCHS": [
+    "Ancient times",
+    "Medieval dark ages",
+    "Post-apocalyptic future",
+    "Modern city at night",
+    "Ancient ruins"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "dim torchlight",
+    "moonlit shadows",
+    "storm lightning flashes",
+    "eerie bioluminescence",
+    "hellfire glow"
+  ],
+  "BACKGROUNDS": [
+    "foggy graveyard",
+    "abandoned cathedral",
+    "deep underwater abyss",
+    "burning wasteland",
+    "mystical forest at midnight"
+  ],
+  "OBJECTS": [
+    "chains",
+    "ritual totems",
+    "bones scattered on the ground",
+    "ancient runes",
+    "shattered mirrors"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "extreme close-up on monstrous features",
+    "low-angle shot to enhance menace",
+    "full-body view towering over the viewer",
+    "over-the-shoulder of the monster approaching"
+  ],
+  "ATMOSPHERES": [
+    "blood-chilling suspense",
+    "whispering madness",
+    "unholy dread",
+    "apocalyptic chaos",
+    "suffocating darkness"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "slightly unnatural appearance, eerie yet subtle",
+    "1": "distorted anatomy, unsettling textures, predatory gaze",
+    "2": "grotesque deformations, gore elements, overwhelming terror"
+  }
+}

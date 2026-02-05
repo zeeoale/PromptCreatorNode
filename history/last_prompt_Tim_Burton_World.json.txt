@@ -1,0 +1,7 @@
+In the ethereal realm of Timeless Halloween Night, a hauntingly beautiful woman emerges from the claustrophobic embrace of dense fog and desolate graveyard. The scene unfolds through a 40mm lens, with a Dutch tilt and creeping dolly-in, as if drawn by an unseen force. The atmosphere is tinged with a palette of desaturated steel blue, blood rust, and candle ember, underlit by flickering tungsten bulbs that cast long, ominous shadows.
+
+The lighting oscillates between strobing fluorescent glare and single warm diegetic glow, creating an unsettling dance of light and darkness. Fog drifts through the scene like a ghostly river, revealing silhouettes half-emerging from shadow, obscured by grime, pipes, or torn curtains. The camera shakes with the rhythm of the wind, emphasizing depth and movement through the mist and drifting particles.
+
+Post-processed with analog grain, bloom over practicals, faint chromatic bleed, and gate jitter, the scene feels as if it's being projected onto a grainy screen in an abandoned theater. The woman, draped in long, tattered dresses, moves through this nightmare landscape with wide-eyed wonder, her hand-stitched scarves billowing behind her like spectral wings.
+
+Above the ground, furniture floats gently, suspended in sorrowful magic. The top-down theatrical perspective accentuates the surreal tableau, as the woman dances with the ghosts of Halloweens past and future, lost in a world where the veil between life and death is thin., hkevil, <lora:SDXL-国潮-泼墨_V1:1>ananmo

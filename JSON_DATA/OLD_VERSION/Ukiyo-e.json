@@ -1,0 +1,87 @@
+{
+  "EPOCHS": [
+    "Edo period ukiyo-e",
+    "Feudal Japan folklore",
+    "Mythical Heian era",
+    "Shinto ritual scenes",
+    "Kabuki theatre ukiyo-e",
+    "Hokusai inspired landscapes"
+  ],
+  "OUTFITS": [
+    "Crimson sakura-pattern kimono",
+    "Black kimono with gold cranes",
+    "Warrior kimono with lacquered armor",
+    "Indigo ceremonial kimono with ornate obi",
+    "Festival attire with dragon motifs",
+    "Tattered kimono of a wandering ronin"
+  ],
+  "LIGHTING": [
+    "Moonlight on washi paper",
+    "Sunrise over misty mountains",
+    "Lantern glow through shoji screens",
+    "Stormy skies with ink wash clouds",
+    "Twilight with golden flecks",
+    "Candlelit kabuki stage"
+  ],
+  "BACKGROUNDS": [
+    "Torii gates in swirling mist",
+    "Stormy sea with Hokusai-style waves",
+    "Bamboo grove in morning fog",
+    "Clifftop temple above crashing waves",
+    "Cherry blossom garden with stone lanterns",
+    "Mountain pass under a rising sun"
+  ],
+  "OBJECTS": [
+    "Red dragon coiling across the sky",
+    "White wolf standing before a shrine",
+    "Oni mask hanging from a branch",
+    "Katana with ornate tsuba",
+    "Calligraphy scroll with golden seal",
+    "Shamisen resting against a lantern"
+  ],
+  "POSES": [
+    "Gracefully holding a folding fan",
+    "Standing serenely on a bridge",
+    "Dancing with flowing sleeves",
+    "Confronting a coiling dragon",
+    "Drawing a katana under storm clouds",
+    "Kneeling in quiet meditation"
+  ],
+  "EXPRESSIONS": [
+    "Serene and elegant",
+    "Fierce determination",
+    "Mysterious calm",
+    "Playful smile beneath shadows",
+    "Stoic as carved in wood",
+    "Otherworldly gaze"
+  ],
+  "CAMERA_ANGLES": [
+    "Full-body ukiyo-e portrait",
+    "Three-quarter view with diagonal composition",
+    "Wide scroll with sweeping landscape",
+    "Close-up with intricate kimono details",
+    "Low angle beneath towering dragon",
+    "High angle over shrine and waves"
+  ],
+  "ATMOSPHERES": [
+    "Ukiyo-e woodblock print aesthetic",
+    "Sumi-e ink outlines with flat shading",
+    "Limited palette with washi paper texture",
+    "Ink splatters and visible woodgrain",
+    "Gold leaf flecks scattered through sky",
+    "Subtle asymmetry and negative space"
+  ],
+  "ACCESSORIES": [
+    "Kanzashi hairpins with blossoms",
+    "Red paper parasol",
+    "Fox mask tied at the waist",
+    "Obi with embroidered dragons",
+    "Wooden geta sandals",
+    "Prayer beads with ink stains"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Peaceful ukiyo-e elegance",
+    "1": "Slightly uncanny, surreal masks or waves",
+    "2": "Grotesque oni presence, unsettling distortions"
+  }
+}

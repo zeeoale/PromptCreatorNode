@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Dark religious era",
+    "Post-apocalyptic vision",
+    "Occult medieval age",
+    "Symbolic timeless void",
+    "Dystopian future ritual"
+  ],
+  "OUTFITS": [
+    "Ritual robe with metallic embroidery",
+    "Blackened cassock with sacred runes",
+    "Tattered ceremonial vestment",
+    "Bone-white veil with sigils",
+    "Heavy hooded armor with relics"
+  ],
+  "LIGHTING": [
+    "Harsh directional light from above",
+    "Soft frontal light with deep shadows",
+    "Flickering light from a distant fire",
+    "Backlight revealing facial scars"
+  ],
+  "BACKGROUNDS": [
+    "Black void",
+    "Stone wall with carvings",
+    "Symbolic dark tapestry",
+    "Foggy sanctuary interior",
+    "Abstract sacred geometry"
+  ],
+  "OBJECTS": [
+    "Occult markings",
+    "Ritual tattoos",
+    "Sigils",
+    "Bone jewelry",
+    "Metallic chains",
+    "Fragments of sacred scrolls"
+  ],
+  "POSES": [
+    "Close-up face in silent scream",
+    "Profile with downward gaze",
+    "Head bowed in prayer",
+    "Eyes closed with ritual tears",
+    "Staring directly with hollow eyes"
+  ],
+  "EXPRESSIONS": [
+    "Agony",
+    "Devotion",
+    "Possession",
+    "Ecstasy",
+    "Stoic transcendence"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on one eye"
+  ],
+  "ATMOSPHERES": [
+    "Visceral dread",
+    "Spiritual corruption",
+    "Sacred madness",
+    "Burning silence",
+    "Ancient revelation"
+  ],
+  "ACCESSORIES": [
+    "Gold-trimmed hoods",
+    "Obsidian rosaries",
+    "Piercings with religious symbols",
+    "Face paint in runic patterns",
+    "Cracked masks"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Elegant with faint occult symbols",
+    "1": "Ritualistic and dramatic, with scars or markings",
+    "2": "Extremely intense facial details, disturbing presence, sacred horror"
+  }
+}

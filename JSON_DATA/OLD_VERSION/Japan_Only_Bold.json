@@ -1,0 +1,70 @@
+{
+  "EPOCHS": [
+    "modern japan",
+    "tokyo nightlife",
+    "neo-geisha era"
+  ],
+  "OUTFITS": [
+    "revealing silk kimono",
+    "off-shoulder yukata",
+    "lace lingerie under robe",
+    "transparent floral haori",
+    "modern kimono with thigh slit"
+  ],
+  "LIGHTING": [
+    "steamy bathhouse glow",
+    "neon pink and purple",
+    "paper lantern light",
+    "late night urban moody light",
+    "soft red interior lighting"
+  ],
+  "BACKGROUNDS": [
+    "intimate ryokan room",
+    "small neon-lit alley",
+    "steamy onsen bath",
+    "luxury geisha parlor",
+    "urban rooftop at night"
+  ],
+  "OBJECTS": [
+    "sake cup in hand",
+    "open parasol",
+    "scattered cherry petals",
+    "silk sheets"
+  ],
+  "POSES": [
+    "seductive close-up",
+    "confident half-body pose",
+    "lying sideways with direct gaze",
+    "kneeling with exposed shoulder",
+    "hand near lips in thought"
+  ],
+  "EXPRESSIONS": [
+    "provocative gaze",
+    "biting lip",
+    "confident smirk",
+    "gentle yet daring smile",
+    "flushed cheeks with sultry look"
+  ],
+  "CAMERA_ANGLES": [
+    "portrait close-up",
+    "upper-body from below",
+    "diagonal angle with focus on eyes",
+    "soft profile close-up",
+    "intimate eye-level shot"
+  ],
+  "ATMOSPHERES": [
+    "sensual tension",
+    "forbidden elegance",
+    "mystery and allure",
+    "temptation in the air",
+    "intimate and dreamy"
+  ],
+  "ACCESSORIES": [
+    "red lipstick",
+    "ink tattoos under silk",
+    "ornamental hairpins",
+    "silk blindfold",
+    "earring with dangling pearl"
+  ],
+  "HORROR_INTENSITY": {}
+}

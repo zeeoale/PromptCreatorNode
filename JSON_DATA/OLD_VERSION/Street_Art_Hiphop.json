@@ -1,0 +1,83 @@
+{
+  "EPOCHS": [
+    "Modern Urban",
+    "Early 2000s",
+    "90s Underground",
+    "Neo-Street 2080",
+    "Retro Bronx"
+  ],
+  "OUTFITS": [
+    "Oversized hoodie and saggy jeans",
+    "Baggy cargo pants with bomber jacket",
+    "Basketball tank top and loose tracksuit",
+    "Camouflage pants with graffiti T-shirt",
+    "Layered streetwear with chains and patches",
+    "Denim jacket with spray-paint stains",
+    "three-quarter length hip hop pants"
+  ],
+  "LIGHTING": [
+    "Moody alley lighting",
+    "Streetlamp orange hue",
+    "Stage lights from rap battle",
+    "Daylight with city shadows",
+    "Graffiti wall reflections"
+  ],
+  "BACKGROUNDS": [
+    "Graffiti-covered brick walls",
+    "Abandoned skatepark with murals",
+    "Metro tunnel with neon tags",
+    "Underground club with fog",
+    "Street corner with boombox and posters",
+    "Rooftop of a slum area"
+  ],
+  "OBJECTS": [
+    "Spray cans",
+    "Boombox",
+    "Old-school microphone",
+    "Skateboard",
+    "Cassette tapes",
+    "Subwoofer crates",
+    "Breakdance mat"
+  ],
+  "POSES": [
+    "Crouching with mic in hand",
+    "Mid breakdance move",
+    "Hands in air hyping crowd",
+    "Standing with arms crossed in front of graffiti",
+    "Leaning on a wall spitting bars"
+  ],
+  "EXPRESSIONS": [
+    "Fierce and determined",
+    "Confident and proud",
+    "Focused mid-rap",
+    "Chill and laid-back",
+    "Explosive joy during a beat drop"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle from the ground",
+    "Close-up with fisheye lens",
+    "Wide shot from rooftop",
+    "Side view with dynamic blur",
+    "Over-the-shoulder with mic in focus"
+  ],
+  "ATMOSPHERES": [
+    "Energetic and raw",
+    "Urban grit and rhythm",
+    "Underground rebellion",
+    "Vibrant hip-hop heat",
+    "Battle-ready intensity"
+  ],
+  "ACCESSORIES": [
+    "Snapback cap",
+    "Gold chain",
+    "Graffiti gloves",
+    "Sunglasses at night",
+    "Grillz",
+    "Oversized headphones"
+  ],
+  "HORROR_INTENSITY": {
+    "low": "A shadowy figure lurking behind the graffiti",
+    "medium": "Graffiti symbols that seem to move",
+    "high": "Faces emerging from the wall art, screaming in silence"
+  }
+}

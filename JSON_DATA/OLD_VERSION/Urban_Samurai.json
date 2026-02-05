@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "Dark Fantasy",
+    "Feudal Japan Aesthetic",
+    "Modern Action",
+    "Urban Samurai"
+  ],
+  "OUTFITS": [
+    "Black leather-like coats and capes",
+    "Outfits with red embroidery and trim",
+    "Samurai-inspired armor pieces (pauldrons, bracers)",
+    "Flowing black robes and hakama-style pants"
+  ],
+  "LIGHTING": [
+    "Strong blue/white backlighting from the moon",
+    "Red accent lighting and rim light",
+    "Dramatic chiaroscuro",
+    "Low-key, nocturnal lighting"
+  ],
+  "BACKGROUNDS": [
+    "Night forest with gnarled trees",
+    "Large, full moon in the sky",
+    "Trees with vibrant red leaves (like Japanese maple)",
+    "Misty or foggy atmosphere"
+  ],
+  "OBJECTS": [
+    "Katana or Japanese-style sword",
+    "Sword with a glowing red blade or details",
+    "Full moon",
+    "Red-leafed trees"
+  ],
+  "POSES": [
+    "Holding a sword in a ready stance",
+    "Looking down at the sword blade",
+    "Looking over the shoulder",
+    "Action-ready, dynamic poses"
+  ],
+  "EXPRESSIONS": [
+    "Focused and determined",
+    "Serious and intense",
+    "Confident and ready",
+    "Slightly melancholic"
+  ],
+  "CAMERA_ANGLES": [
+    "Medium shot / Three-quarter view",
+    "Slightly low angle",
+    "Eye-level",
+    "Over-the-shoulder perspective"
+  ],
+  "ATMOSPHERES": [
+    "Mystical and magical",
+    "Dark fantasy",
+    "Nocturnal and mysterious",
+    "Tense and ready for combat"
+  ],
+  "ACCESSORIES": [
+    "Katana/sword",
+    "Leather bracers/gauntlets",
+    "Hair tied up in a bun or ponytail",
+    "Belts and sashes with symbolic designs"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low to moderate; the theme is dark fantasy and action. The horror element is suggested through the dark, nocturnal setting and the red color palette, implying potential violence and danger, but it is not graphic or overtly frightening."
+  }
+}

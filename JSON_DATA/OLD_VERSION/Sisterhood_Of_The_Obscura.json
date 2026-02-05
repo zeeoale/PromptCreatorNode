@@ -1,0 +1,61 @@
+{
+  "EPOCHS": [
+    "Baroque gothic",
+    "Medieval monastic",
+    "Victorian occult",
+    "Dark ecclesiastical fantasy"
+  ],
+  "OUTFITS": [
+    "black embroidered veil with crimson lining",
+    "ritual habit with gilded trims",
+    "sacred armor with lace inserts",
+    "obsidian corset adorned with bone rosaries"
+  ],
+  "LIGHTING": [
+    "cold spotlight with radial halo",
+    "stained glass filtered beams",
+    "dim ambient light with velvet diffusion"
+  ],
+  "BACKGROUNDS": [
+    "blurred cathedral frescoes",
+    "vague silhouette of gothic stained glass",
+    "obscured mosaic wall with gold veins",
+    "abstract chapel void in deep shadow"
+  ],
+  "OBJECTS": [
+    "baroque cross with red gemstone core",
+    "ritual incense burner emitting crimson smoke",
+    "tarnished silver rosary",
+    "sacred book clasped shut with wax seal"
+  ],
+  "POSES": [
+    "head centered, slightly tilted, unwavering gaze",
+    "chin low, eyes piercing upward",
+    "silent prayer expression with closed lips"
+  ],
+  "EXPRESSIONS": [
+    "solemn and knowing",
+    "devotional trance",
+    "unholy serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up on masked face"
+  ],
+  "ATMOSPHERES": [
+    "heavy incense haze",
+    "sacred silence",
+    "ritualistic darkness",
+    "air dense with divine dread"
+  ],
+  "ACCESSORIES": [
+    "ornate black and gold mask with filigree",
+    "crimson teardrop earrings",
+    "layered rosary chains",
+    "metal lace choker with sacred sigil"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Sacred elegance with a veil of mystery",
+    "1": "Dark divine aura, eyes glowing with forbidden truth",
+    "2": "Blasphemous sanctity, bleeding sigils and silent vows of pain"
+  }
+}

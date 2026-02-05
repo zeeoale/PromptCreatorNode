@@ -1,0 +1,107 @@
+{
+    "EPOCHS": [
+        "1980s retro-futurism",
+        "1990s VHS aesthetic",
+        "neon cyber-horror future",
+        "grindhouse 70s style",
+        "modern minimalist poster art",
+        "classic monster movie era",
+        "1980s Japanese sci-fi horror",
+        "Italian giallo poster style"
+    ],
+    "OUTFITS": [
+        "teenagers in 80s casual clothes",
+        "scientists in glowing lab coats",
+        "punk hackers with neon accessories",
+        "ghostly silhouettes in vintage attire",
+        "AI cultists wearing chrome masks",
+        "school uniforms under flickering lights",
+        "retro detectives in trench coats",
+        "street kids with holographic visors"
+    ],
+    "LIGHTING": [
+        "neon underglow with electric hues",
+        "dramatic chiaroscuro inspired by film noir",
+        "blue and magenta split lighting",
+        "flickering monitor light",
+        "streetlight reflections on wet asphalt",
+        "ominous red emergency lights",
+        "cinematic golden hour glow",
+        "cold fluorescent ambience"
+    ],
+    "BACKGROUNDS": [
+        "Tokyo skyline filled with flickering holograms",
+        "abandoned cinema covered in torn posters",
+        "underground AI lab with glowing terminals",
+        "suburban basement filled with old computers",
+        "foggy alleyway with neon kanji signs",
+        "digital vortex made of corrupted data",
+        "old VHS rental store with broken TVs",
+        "mysterious glowing room surrounded by cables"
+    ],
+    "OBJECTS": [
+        "glowing table-monitor showing strange code",
+        "retro computer with CRT screen flickering",
+        "floating holographic skull",
+        "AI core suspended in glass tank",
+        "vintage keyboard with red backlight",
+        "old VHS tape labeled 'DON’T RUN IT'",
+        "metallic mask reflecting neon light",
+        "poster tube leaking digital smoke"
+    ],
+    "POSES": [
+        "group of teens huddled around the glowing monitor",
+        "one character reaching toward the screen",
+        "a figure standing behind with crossed arms in the dark",
+        "two characters looking shocked at the table light",
+        "everyone leaning forward in fascination",
+        "a central figure bathed in light, others in shadow",
+        "a lone character turning away as the light expands",
+        "group seen from above through smoky haze"
+    ],
+    "EXPRESSIONS": [
+        "wide-eyed awe and fear",
+        "curiosity mixed with anxiety",
+        "shocked and frozen in wonder",
+        "slight nervous smile in neon light",
+        "determined stare with reflections of code in eyes",
+        "terrified yet mesmerized faces",
+        "calm, analytical focus",
+        "astonishment turning to dread"
+    ],
+    "CAMERA_ANGLES": [
+        "cinematic low angle with dramatic composition",
+        "wide shot framed like a movie poster",
+        "top-down view of glowing table",
+        "Dutch angle for tension",
+        "close-up on reflections in eyes",
+        "medium group shot with central lighting focus",
+        "poster-style symmetrical layout",
+        "foreground blur with light streaks"
+    ],
+    "ATMOSPHERES": [
+        "80s horror nostalgia with neon highlights",
+        "mystical AI cult tension",
+        "urban nightmare with playful energy",
+        "warm retro glow with creeping unease",
+        "digital supernatural suspense",
+        "techno-mystical fusion of fear and fascination",
+        "dreamlike analog fantasy",
+        "chaotic cyber-apocalypse with artistic beauty"
+    ],
+    "ACCESSORIES": [
+        "holographic wristbands",
+        "retro headphones",
+        "digital goggles",
+        "AI-branded badges",
+        "CRT monitor glow on skin",
+        "film grain overlay",
+        "retro logo typography",
+        "light flares and static noise"
+    ],
+    "HORROR_INTENSITY": {
+        "0": "lighthearted retro mystery, family-friendly tone",
+        "1": "tense supernatural tension with neon colors",
+        "2": "dark cyber-occult atmosphere, glowing eyes, digital possession"
+    }
+}

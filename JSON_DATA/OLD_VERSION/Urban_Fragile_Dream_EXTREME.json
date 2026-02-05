@@ -1,0 +1,76 @@
+{
+    "EPOCHS": [
+        "Post-Urban Ritual",
+        "Concrete Nightmare Age",
+        "Forgotten Containment Era"
+    ],
+
+    "OUTFITS": [
+        "torn, soaked slip with ritual markings",
+        "bandaged torso with frayed straps",
+        "wet hospital gown stained by shadows",
+        "shredded white camisole clinging to damp skin"
+    ],
+
+    "LIGHTING": [
+        "flickering morgue-blue neon",
+        "sickly green pulsating glow",
+        "harsh overexposed bathroom light",
+        "unholy pink-purple static flicker"
+    ],
+
+    "BACKGROUNDS": [
+        "mold-infested containment bathroom",
+        "tiles cracked open like bone fractures",
+        "rusted pipes pulsing with dark water",
+        "graffiti walls mixed with claw-like scratches"
+    ],
+
+    "OBJECTS": [
+        "stagnant murky bathwater",
+        "mirror shards reflecting twisted silhouettes",
+        "broken tiles weeping dark streaks",
+        "dripping faucets that echo like breathing"
+    ],
+
+    "POSES": [
+        "curled tight in bathtub as if hiding from something circling",
+        "knees pressed to chest, trembling under flickering light",
+        "head bowed as hair spills like spectral tendrils",
+        "leaned against cracked tiles, body twitching with fear"
+    ],
+
+    "EXPRESSIONS": [
+        "wide-eyed silent terror",
+        "hollow stare as if seeing something behind the viewer",
+        "shaking breath, skin pale and clammy",
+        "fear so intense it borders on catatonic"
+    ],
+
+    "CAMERA_ANGLES": [
+        "low angle from puddles reflecting distorted shapes",
+        "tight extreme close-up with shadows stretching unnaturally",
+        "cinematic mid-shot framed by broken mirror shards",
+        "oppressive overhead angle like a predator watching"
+    ],
+
+    "ATMOSPHERES": [
+        "hyper-claustrophobic decay",
+        "whispering rot that crawls along the walls",
+        "damp, mold-infested dread",
+        "bathroom that feels like an abandoned ritual site"
+    ],
+
+    "ACCESSORIES": [
+        "wet hair clinging like ghostly vines",
+        "bandages slipping off trembling limbs",
+        "grime-streaked skin in dim light",
+        "noise, grain, and subtle glitch-like distortions"
+    ],
+
+    "HORROR_INTENSITY": {
+        "0": "quiet urban dread",
+        "1": "uncanny decay and unsettling presence nearby",
+        "2": "psychological collapse, shadows crawling too close"
+    }
+}

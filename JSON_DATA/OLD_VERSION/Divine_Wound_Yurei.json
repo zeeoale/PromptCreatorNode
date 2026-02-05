@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Ancient mourning ritual",
+    "Ethereal veil of the Heian court",
+    "Floating spirit world",
+    "Buried curse era",
+    "Moonlit funeral age"
+  ],
+  "OUTFITS": [
+    "Tattered white kimono",
+    "Translucent mourning robes",
+    "Floating fabric with faint kanji",
+    "Grave-soiled ceremonial wear",
+    "Silken wrap with invisible prayers"
+  ],
+  "LIGHTING": [
+    "Cold moonlight on the face",
+    "Soft lantern light from behind",
+    "Blue mist enveloping the scene",
+    "Faint glow from ghostly symbols",
+    "Flickering shadows from unseen flames"
+  ],
+  "BACKGROUNDS": [
+    "Old wooden room with altars",
+    "Shoreline of the underworld",
+    "Forest clearing filled with spirits",
+    "Abandoned home with silent dolls",
+    "Paper sliding doors barely opened"
+  ],
+  "OBJECTS": [
+    "Ink-painted kanji weeping down cheeks",
+    "Ghostly hands writing prayers on skin",
+    "Hair tangled with paper slips",
+    "Faint spectral symbols floating around the head",
+    "Necklace of tiny prayer scrolls"
+  ],
+  "POSES": [
+    "Standing motionless in the fog",
+    "Back turned, face half-revealed",
+    "Hovering above the ground",
+    "Tilting head with closed eyes and tear marks",
+    "Hands pressed together, fingers bloodied"
+  ],
+  "EXPRESSIONS": [
+    "Sorrow beyond death",
+    "Peaceful torment",
+    "Yearning for release",
+    "Unending despair",
+    "Timeless stillness"
+  ],
+  "CAMERA_ANGLES": [
+    "Hyper close-up from below",
+    "Frontal symmetrical frame",
+    "Face tilted in anguish",
+    "Top-down sacred angle",
+    "Diagonal frame with face scars"
+  ],
+  "ATMOSPHERES": [
+    "Chilling stillness",
+    "Presence without sound",
+    "Lament echoing in the air",
+    "Fleeting memories in fog",
+    "Bound sorrow emanation"
+  ],
+  "ACCESSORIES": [
+    "Hairpins with engraved symbols",
+    "Floating ghost-fabric ribbons",
+    "Veil covering glowing marks",
+    "Ceramic mask cracked in half",
+    "Necklace of bells that never ring"
+  ],
+  "HORROR_INTENSITY": {
+    "1": "Subtle spirit with melancholic grace",
+    "2": "Visible haunting with kanji and spectral distortion",
+    "3": "Fully manifest Yūrei with emotional devastation and curse marks"
+  }
+}

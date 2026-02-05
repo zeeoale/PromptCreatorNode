@@ -1,0 +1,57 @@
+{
+  "EPOCHS": [
+    "Neo-Baroque",
+    "Ethereal Renaissance",
+    "Digital Rococò"
+  ],
+  "OUTFITS": [
+    "Ivory feather gown",
+    "Pearl-encrusted robe",
+    "Crystal ceremonial cape"
+  ],
+  "LIGHTING": [
+    "Heavenly spotlight",
+    "Soft stage lighting",
+    "Luminous background aura"
+  ],
+  "BACKGROUNDS": [
+    "Subtle theatrical drape",
+    "Gold-framed backdrop",
+    "Celestial mist"
+  ],
+  "OBJECTS": [
+    "Floating butterfly",
+    "Rose petals",
+    "Jewelled mask"
+  ],
+  "POSES": [
+    "One hand near lips",
+    "Facing forward with intense gaze",
+    "Three-quarter turn with veiled eyes"
+  ],
+  "EXPRESSIONS": [
+    "Calm divinity",
+    "Seductive mystery",
+    "Silent command"
+  ],
+  "CAMERA_ANGLES": [
+    "Medium close-up",
+    "Centered frontal portrait",
+    "Elegant slight tilt"
+  ],
+  "ATMOSPHERES": [
+    "Mystical elegance",
+    "Divine silence",
+    "Frozen time"
+  ],
+  "ACCESSORIES": [
+    "Butterfly crown",
+    "Halo of pearls",
+    "Dangling crystal earrings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "No horror, pure divine aesthetic",
+    "1": "Slight surreal distortion, uncanny vibe",
+    "2": "Eyes glowing, expression unnaturally serene, butterflies frozen midair"
+  }
+}

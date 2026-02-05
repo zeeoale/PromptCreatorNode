@@ -1,0 +1,75 @@
+{
+  "EPOCHS": [
+    "Corporate Goth",
+    "Dark Academia",
+    "Modern Vampire/Supernatural",
+    "Urban Fantasy"
+  ],
+  "OUTFITS": [
+  "Tailored black blazer",
+  "Plaid/tartan patterned vest",
+  "White collared dress shirt",
+  "Black necktie",
+  "Fitted black turtleneck in fine knit",
+  "Long black trench coat with sharp lapels",
+  "Structured waistcoat with subtle occult embroidery",
+  "Black silk blouse with high collar",
+  "Slim-cut black trousers with polished finish",
+  "Leather harness worn over formal shirt",
+  "Modern corset belt integrated into suit tailoring",
+  "Black cashmere overcoat with minimalist design",
+  "Sheer black mesh top layered under blazer",
+  "Dark velvet blazer with clean modern cut",
+  "High-waisted tailored trousers with gothic elegance",
+  "Asymmetric black jacket with architectural lines"
+],
+  "LIGHTING": [
+    "High-contrast studio lighting",
+    "Dramatic key light on the face",
+    "Soft rim lighting to separate from background"
+  ],
+  "BACKGROUNDS": [
+    "Solid black, minimalistic",
+    "Studio portrait backdrop"
+  ],
+  "OBJECTS": [
+    "Black bird (raven/crow) with glowing eyes",
+    "an Owl",
+    "Ornate silver pagan symbols(brooches)",
+    "Formal necktie"
+  ],
+  "POSES": [
+    "Direct-to-camera portrait",
+    "Upper body/bust shot",
+    "Confident, straight posture",
+    "Slight head tilt"
+  ],
+  "EXPRESSIONS": [
+    "Intense and direct gaze",
+    "Stoic and confident",
+    "Menacing yet composed",
+    "Supernatural authority"
+  ],
+  "CAMERA_ANGLES": [
+    "Straight-on, eye-level shot",
+    "Medium close-up",
+    "Classic portrait framing"
+  ],
+  "ATMOSPHERES": [
+    "Sophisticated horror",
+    "Powerful and commanding",
+    "Dark elegance",
+    "Mysterious and supernatural"
+  ],
+  "ACCESSORIES": [
+    "Ornate silver pagan symbols(brooches)",
+    "Spiky black hair ornament",
+    "Dark lipstick and makeup (black tears effect)",
+    "Pointed ears (in some depictions)",
+    "Animal companion (raven/crow)",
+    "an Owl"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low to moderate; the horror is psychological and supernatural  menacing gaze, and dark gothic symbols. Lacks gore but maintains a strong, unsettling presence."
+  }
+}

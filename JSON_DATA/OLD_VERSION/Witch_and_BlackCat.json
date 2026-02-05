@@ -1,0 +1,67 @@
+{
+  "EPOCHS": [
+    "Gothic era",
+    "Victorian age",
+    "Dark fantasy realm",
+    "Modern urban night",
+    "Ancient occult ritual"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Moonlit shadows",
+    "Streetlight neon haze",
+    "Cold blue mist",
+    "Golden twilight aura"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned cathedral ruins",
+    "Misty graveyard",
+    "Dark alleyway",
+    "Enchanted forest at night",
+    "Room filled with arcane books"
+  ],
+  "OBJECTS": [
+    "Ancient grimoire",
+    "Broken mirror",
+    "Floating orbs of light"
+  ],
+  "POSES": [
+    "Holding the black cat close to her chest",
+    "The cat perched on her shoulder",
+    "The woman sitting while the cat gazes at the camera",
+    "The cat curled in her arms",
+    "Both staring into the darkness together"
+  ],
+  "EXPRESSIONS": [
+    "Calm but mysterious",
+    "Melancholic gaze",
+    "Faint smile of hidden knowledge",
+    "Intense and dramatic",
+    "Eyes glowing with arcane power"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up of the woman and the cat",
+    "Close-up of their faces side by side",
+    "The cat in focus with the woman blurred",
+    "The woman in focus, the cat shadowed"
+  ],
+  "ATMOSPHERES": [
+    "Occult and enigmatic",
+    "Dreamlike and surreal",
+    "Heavy gothic mood",
+    "Dark romantic elegance",
+    "Arcane mystery"
+  ],
+  "ACCESSORIES": [
+    "Silver amulet",
+    "Runic tattoos",
+    "Dark veil",
+    "Crow feather earring",
+    "Occult rings"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Subtle gothic charm with the black cat as a mystical companion",
+    "1": "Eerie connection, the cat’s eyes glowing unnaturally",
+    "2": "Unholy bond, the cat appears as a demonic familiar with shadowy aura"
+  }
+}

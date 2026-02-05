@@ -1,0 +1,96 @@
+{
+  "WORLD_NAME": "TK_Reborn_in_Shadows",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation; when requested, return ONE single long, cinematic sentence (110–140 words), no lists and no line breaks, centered on an extreme close-up portrait with obsessive micro-detail (wet skin texture, glitter particles, mascara tears, pores, stray hair strands, metal jewelry reflections), always blending selected elements from EPOCHS, OUTFITS, LIGHTING, BACKGROUNDS, OBJECTS, POSES, EXPRESSIONS, CAMERA_ANGLES, ATMOSPHERES and ACCESSORIES into a coherent gothic-fineart look; keep the palette cold and desaturated (silver, pewter, ash, blue-gray lips) with controlled highlights, use a 50–100mm lens feel and shallow depth of field, add film grain, halation, soft bloom, vignette and faint chromatic aberration, modulate intensity via HORROR_INTENSITY and sensual tension via SENSUALITY_LEVEL, and frequently embed a subtle “TK” signature as a small engraved charm, pendant, tag, stitch label or faint stencil element without turning it into readable poster text.",
+  "EPOCHS": [
+    "late-90s underground gothic editorial",
+    "early-2000s darkroom fashion portrait",
+    "timeless baroque devotional aesthetic",
+    "modern dark-fineart studio look"
+  ],
+  "OUTFITS": [
+    "torn lace gloves and delicate mesh layers",
+    "black satin straps with subtle embroidery",
+    "minimal slip dress with wet fabric cling",
+    "corset-style bodice with matte hardware",
+    "veil-like sheer fabric framing the face"
+  ],
+  "LIGHTING": [
+    "single soft key light with heavy falloff",
+    "window light through haze and dust",
+    "low-key rim light catching wet highlights",
+    "diffused overcast light with silvery sheen",
+    "candlelike practicals blurred into bokeh"
+  ],
+  "BACKGROUNDS": [
+    "cracked plaster wall with faint religious motifs",
+    "shadowy corridor with soft bokeh lights",
+    "cold stone alcove with damp stains",
+    "aged chapel interior implied in blur",
+    "dark neutral void with drifting particles"
+  ],
+  "OBJECTS": [
+    "delicate chain headpiece with dangling crystals",
+    "small cross charm resting on the forehead chain",
+    "glitter dust and wet tear trails",
+    "tarnished rosary beads out of focus",
+    "faint stencil mark 'TK' on a distant surface",
+    "tiny metal tag engraved 'TK' on jewelry hardware"
+  ],
+  "POSES": [
+    "face turned slightly off-axis, cheek near a wall edge",
+    "chin tucked, eyes lifted toward camera",
+    "hand near lips, fingers partially covering mouth",
+    "forehead leaning into shadow, breath visible as humidity",
+    "shoulder angled forward, neck elongated"
+  ],
+  "EXPRESSIONS": [
+    "haunted stillness, half-lidded stare",
+    "soft defiance with tired eyes",
+    "melancholic gaze with trembling lower lid",
+    "cold calm with a hint of menace",
+    "intimate vulnerability held in control"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up, eye-level",
+    "extreme close-up, slight dutch tilt",
+    "tight close-up from a subtle low angle",
+    "macro-leaning crop focusing on eyes and lips",
+    "close-up framed through foreground blur"
+  ],
+  "ATMOSPHERES": [
+    "humid air, drifting fog, suspended silence",
+    "cold devotional mood with dust motes",
+    "oppressive hush, soft shadow collapse",
+    "ruined elegance, damp textures, metallic glints",
+    "nocturnal intimacy with restrained tension"
+  ],
+  "ACCESSORIES": [
+    "engraved 'TK' pendant on a thin chain (subtle, small)",
+    "tiny 'TK' charm attached to the headpiece chain",
+    "stitched 'TK' label on lace glove cuff",
+    "micro 'TK' monogram on a ring signet",
+    "faint 'TK' tag on a ribbon or fabric seam",
+    "hairpin with a tiny 'TK' engraving"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric, no sensual cues, focus on mood and texture",
+    "1": "soft allure through gaze and lips, modest styling, minimal skin emphasis",
+    "2": "intimate tension through wet skin highlights, close proximity, subtle fabric cling",
+    "3": "high tension through dramatic lips, throat/shoulder emphasis, confident body language while remaining non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean gothic portrait, elegant sadness, no disturbing elements",
+    "1": "unease via shadow, smudged makeup, damp decay textures",
+    "2": "strong dread via streaked tears, corrupted devotional motifs, claustrophobic framing",
+    "3": "maximum intensity via harsh grime, unsettling eye catchlights, oppressive close crop and severe contrast"
+  },
+  "CUSTOM_INTRO": {
+  "0": "An extreme close-up gothic portrait drenched in humidity, where glittered tear tracks and smeared kohl carve quiet rivers down porcelain skin, a delicate chain headpiece draped across the brow with tiny crystal drops and a subtle engraved TK charm catching pinprick highlights, blue-gray lips held in controlled tension, fingers in torn lace hovering near the mouth as the background dissolves into a damp chapel-like blur, lit by a single soft key with heavy falloff, shot with a 85mm feel and razor-thin depth of field, finished with film grain, halation, soft bloom, vignette, and faint chromatic aberration — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "1": "A tight macro-leaning crop on eyes and lips, emphasizing wet skin microtexture, glitter dust, and mascara tears, with a thin chain crossing the forehead and a small cross charm offset by a tiny TK monogram ring, the gaze cold and intimate, chin tucked as if pressed against a cracked plaster edge, low-key silvery lighting diffused through haze, oppressive stillness and drifting particles, cinematic grain, subtle bloom, gentle vignette, and soft analog halation — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "2": "An extreme close-up framed through foreground blur, where damp strands cling to the cheek and the headpiece chains drip like jewelry rain, a stitched TK label barely visible on a lace glove cuff as fingertips hover at the lower lip, expression poised between vulnerability and defiance, desaturated ash-and-pewter palette with controlled highlights, window light filtered by fog, background reduced to an implied stone alcove, with film grain, chromatic whisper, soft bloom and vignette sealing the hush — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "3": "A devotional gothic close-up where the face emerges from shadow, tear trails glittering under low-key rim light, a faint TK stencil mark dissolving in the distant blur while a tiny TK charm swings from the brow chain, lips painted icy blue-gray, eyes steady and half-lidded, the atmosphere thick with humid silence, damp textures and metallic glints, captured at eye-level with a 50–100mm feel, shallow focus, film grain, halation, soft bloom and subtle vignette — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "4": "An intimate extreme close-up with the cheek near a wall edge, pores and wet highlights rendered brutally crisp, glitter specks suspended across the skin like frost, chain headpiece and rosary-like beads out of focus, a hairpin engraved TK catching a single highlight, expression calm yet menacing, palette cold and restrained, directional light collapsing into deep shadow, finished with analog softness, grain, bloom, vignette and faint chromatic aberration — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "5": "A claustrophobic close crop on the eyes, nose bridge and lips, where smeared makeup and shimmering tear residue create a ritual-fineart texture, the hand near the mouth wrapped in torn mesh, a thin necklace carrying a tiny TK pendant resting at the collarbone edge, background reduced to chapel-like shapes in foggy bokeh, low-key silvery lighting and damp decay mood, 85mm cinematic feel, shallow depth, film grain, halation, bloom and vignette — masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+  "6": ""
+}
+}

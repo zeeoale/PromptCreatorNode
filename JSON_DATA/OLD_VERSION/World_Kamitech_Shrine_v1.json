@@ -1,0 +1,107 @@
+{
+  "EPOCHS": [
+    "Gothic ruins (13th–15th c.)",
+    "Baroque decay (17th–18th c.)",
+    "Post-apocalyptic present",
+    "Moonlit vigil",
+    "Ritual aftermath",
+    "Sanctum under restoration",
+    "Forgotten convent",
+    "Timeless void chapel"
+  ],
+  "OUTFITS": [
+    "ashen monastic robe with long veil",
+    "ritual habit with gilded trim",
+    "hooded mantle, plain linen layers",
+    "black cassock with subtle embroidery",
+    "penitential cloak tied with rope belt",
+    "ceremonial surcoat with shoulder plates",
+    "veil-and-cowl set, semi-transparent chiffon",
+    "traveling cloak, tattered hem"
+  ],
+  "LIGHTING": [
+    "full-moon backlight",
+    "god rays through high oculus",
+    "incense-smoke volumetric shafts",
+    "cold blue ambient fill",
+    "specular highlights on gold metal",
+    "subtle bounce from pale stone floor",
+    "soft bloom on halos"
+  ],
+  "BACKGROUNDS": [
+    "ruined cathedral nave, open roof, large moon behind",
+    "broken stone arch framing a dark apse",
+    "altar block with pale smoke rising",
+    "cracked marble tiles and scattered rubble",
+    "narrow side aisle fading into fog",
+    "collapsed clerestory with hanging dust",
+    "empty black void beyond archway",
+    "weathered columns and simple masonry (no patterns)"
+  ],
+  "OBJECTS": [
+    "gilded broken halo (levitating)",
+    "metal cross reliquary",
+    "thurible with faint embers",
+    "prayer beads (rosary)",
+    "talisman scraps and wax seals",
+    "loose stones and fallen plaster",
+    "linen veils and cords"
+  ],
+  "POSES": [
+    "two figures shoulder-to-shoulder facing camera",
+    "one profile, one frontal under the same halo glow",
+    "hands clasped around cross at chest",
+    "head slightly bowed, eyes up",
+    "arms extended presenting relic",
+    "veil held by fingertips in breeze",
+    "kneeling before altar with lifted gaze",
+    "slow turn, three-quarter stance"
+  ],
+  "EXPRESSIONS": [
+    "stoic calm",
+    "haunted serenity",
+    "sorrowful resolve",
+    "beatific trance",
+    "fierce devotion",
+    "distant contemplation",
+    "defiant faith",
+    "subtle dread"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level 85mm portrait",
+    "low-angle close-up (heroic)",
+    "three-quarter mid-shot",
+    "centered, symmetrical framing",
+    "tight vertical crop on faces and halo",
+    "slight dolly-in with shallow DOF",
+    "over-shoulder toward altar smoke",
+    "wide establishing shot of nave"
+  ],
+  "ATMOSPHERES": [
+    "incense haze and drifting ash motes",
+    "cold mist rolling along floor",
+    "hushed echoing space",
+    "light dust fall from high vaults",
+    "distant wind through broken roof",
+    "sub-audible choir hum (implied)",
+    "faint ember sparks near thurible",
+    "lunar frost in the air"
+  ],
+  "ACCESSORIES": [
+    "thorn crown",
+    "gilded halo apparatus",
+    "veiled hood and cowl",
+    "rosary at wrist",
+    "forehead sigils in ink",
+    "simple rope cincture",
+    "fingerless embroidered gloves",
+    "pendant reliquary"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "clean robes, serene faces, soft moonlight, no relic damage",
+    "1": "subtle ash motes, faint forehead sigils, cool haze",
+    "2": "broken halo fragments, blood-tear accents, heavier smoke",
+    "3": "levitating stones, deeper shadows behind arch, stronger sigils",
+    "4": "silhouetted presence in void, wind-torn veils, altar light flares; keep surfaces plain and non-patterned"
+  }
+}

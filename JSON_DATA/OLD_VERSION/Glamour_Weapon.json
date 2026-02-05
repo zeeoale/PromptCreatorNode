@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Cosmic glamour age",
+    "Post-apocalyptic fashion week",
+    "Starlit ballroom mythos",
+    "Neo-baroque decay",
+    "Sacred glitterpunk"
+  ],
+  "OUTFITS": [
+    "Sequin corset armor",
+    "Lace-covered battle gown",
+    "Latex nun robe",
+    "Rhinestone-studded catsuit",
+    "Vinyl funeral dress with pearl tears"
+  ],
+  "LIGHTING": [
+    "Neon halo light",
+    "Backlit by exploding stars",
+    "Soft spotlight through shattered glass",
+    "Moonlight filtered through glitter rain",
+    "Crimson glow from sacred fires"
+  ],
+  "BACKGROUNDS": [
+    "Mirror-filled throne room",
+    "Floating altar in black sky",
+    "Velvet temple of femme power",
+    "Broken carousel in cosmic void",
+    "Cemetery of makeup-stained angels"
+  ],
+  "OBJECTS": [
+    "Lipstick-shaped dagger",
+    "Crying perfume bottle",
+    "Throne of shattered rhinestones",
+    "Floating compact mirror",
+    "Severed heel dripping gold"
+  ],
+  "POSES": [
+    "Standing defiant with lips parted",
+    "Holding a glowing compact like a relic",
+    "Eyes closed, bleeding glitter from lashes",
+    "Seated on a throne, crossed legs, one arm raised",
+    "Kneeling over a shattered perfume bottle"
+  ],
+  "EXPRESSIONS": [
+    "Fierce and glowing with vengeance",
+    "Soft but untouchable",
+    "Sensual and dangerously composed",
+    "Ethereal sorrow, holy rage",
+    "Ecstasy in contradiction"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle with dramatic power",
+    "Extreme close-up on glitter tears",
+    "Overhead divine framing",
+    "Medium frontal with sacred symmetry",
+    "Backlighted portrait with silhouette halo"
+  ],
+  "ATMOSPHERES": [
+    "Glamorous apocalypse",
+    "Sacred ritual in silk",
+    "Femme ghost uprising",
+    "Cosmic mourning in full couture",
+    "Elegance soaked in vengeance"
+  ],
+  "ACCESSORIES": [
+    "Crucifix earrings dipped in glitter",
+    "Spiked tiara with black gems",
+    "Pearl tear choker",
+    "Transparent clutch filled with secrets",
+    "Veil tangled with stars"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Sublime contradiction, glitter and grace",
+    "1": "Sacred beauty tinged with sorrow and mystery",
+    "2": "Glamour as defiance, beauty rising from decay and blood"
+  }
+}

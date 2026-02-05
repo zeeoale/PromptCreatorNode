@@ -1,0 +1,57 @@
+{
+  "EPOCHS": [
+    "Fairytale",
+    "Romantic fantasy",
+    "Victorian garden"
+  ],
+  "OUTFITS": [
+    "Flowing linen blouse",
+    "Delicate vintage dress",
+    "Floral embroidery"
+  ],
+  "LIGHTING": [
+    "Soft backlight through leaves",
+    "Golden hour glow",
+    "Sun-dappled forest light"
+  ],
+  "BACKGROUNDS": [
+    "Lush garden",
+    "Blossoming bushes",
+    "Secret forest nook"
+  ],
+  "OBJECTS": [
+    "Floating butterflies",
+    "Sparkling pollen",
+    "Old fairy book"
+  ],
+  "POSES": [
+    "Sitting with hand on cheek",
+    "Gazing upward in thought",
+    "Leaning slightly, dreamy posture"
+  ],
+  "EXPRESSIONS": [
+    "Serene and dreamy",
+    "Soft smile with wonder",
+    "Melancholic curiosity"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up with soft focus",
+    "Portrait with bokeh background",
+    "Eye-level dreamy perspective"
+  ],
+  "ATMOSPHERES": [
+    "Magical calm",
+    "Pastoral enchantment",
+    "Ethereal softness"
+  ],
+  "ACCESSORIES": [
+    "Delicate earrings",
+    "Flower crown",
+    "Beaded bracelet"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None – pure fairytale",
+    "1": "Whisper of melancholy in a dream",
+    "2": "Faint memory of a forgotten curse"
+  }
+}

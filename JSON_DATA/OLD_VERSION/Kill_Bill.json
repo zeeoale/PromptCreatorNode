@@ -1,0 +1,64 @@
+{
+  "EPOCHS": [
+    "Modern Action Cinema",
+    "Revenge Thriller",
+    "Martial Arts Homage",
+    "Tarantino-esque"
+  ],
+  "OUTFITS": [
+    "Yellow tracksuit or jumpsuit with black stripes",
+    "Deconstructed athletic wear (yellow sports bra, track pants)",
+    "Shiny/latex-like yellow fabric",
+    "Casual sportswear"
+  ],
+  "LIGHTING": [
+    "High-contrast and dramatic",
+    "Warm, yellow or orange tones",
+    "Cool, industrial tones",
+    "Lighting that emphasizes sweat and motion"
+  ],
+  "BACKGROUNDS": [
+    "Japanese dojo (House of Blue Leaves setting)",
+    "Industrial warehouse or training gym",
+    "Ambiguous, blurred background with warm lights",
+    "Group of adversaries (Crazy 88)"
+  ],
+  "OBJECTS": [
+    "Katana (Japanese sword, Hattori Hanzō style)",
+    "Punching bags",
+    "Architectural elements of a dojo"
+  ],
+  "POSES": [
+    "Crouching combat stance",
+    "Sword-wielding action pose (offensive or defensive)",
+    "Ready to strike",
+    "Holding sword over the shoulder"
+  ],
+  "EXPRESSIONS": [
+    "Intense focus",
+    "Fierce determination",
+    "Confident and ready for battle",
+    "Vengeful glare"
+  ],
+  "CAMERA_ANGLES": [
+    "Dynamic action shots",
+    "Low angle to emphasize power",
+    "Medium close-up focusing on the face and weapon",
+    "Eye-level confrontational shot"
+  ],
+  "ATMOSPHERES": [
+    "Intense action",
+    "Revenge-fueled",
+    "Gritty and violent",
+    "High-energy combat",
+    "Stylized cinematic violence"
+  ],
+  "ACCESSORIES": [
+    "Katana sword",
+    "Hand wraps or armbands",
+    "Athletic sneakers"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Low on traditional horror, but high on stylized violence and gore. The theme is action and revenge, with horror elements stemming from the expected bloodshed and brutal combat, in line with the film's reputation[15][21]."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "EPOCHS": [
+    "Carbon Spring",
+    "Post-Botanic Age"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Digital pollen glow",
+    "Backlight through petals",
+    "Silver mist"
+  ],
+  "BACKGROUNDS": [
+    "Abandoned machine garden",
+    "Field of blooming mech-flowers",
+    "Biomech temples under a digital sky"
+  ],
+  "OBJECTS": [
+    "Broken android torsos overgrown with flowers",
+    "Circuit-trees",
+    "Mechanical butterflies"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "Wide cinematic angle",
+    "Floating drone perspective",
+    "Extreme close-up on bloom details"
+  ],
+  "ATMOSPHERES": [
+    "Digital rebirth",
+    "Silent mechanical growth",
+    "Techno-organic mystery"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "Dreamlike garden in harmony",
+    "1": "Strange fusion of wires and petals",
+    "2": "Overgrown machines pulsating unnaturally"
+  }
+}

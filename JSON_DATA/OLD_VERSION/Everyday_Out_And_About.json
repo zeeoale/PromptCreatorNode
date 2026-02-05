@@ -1,0 +1,86 @@
+{
+  "EPOCHS": [
+    "Contemporary",
+    "Modern Day",
+    "Urban Life"
+  ],
+  "OUTFITS": [
+    "Casual jeans and a blouse",
+    "Summer dress with floral patterns",
+    "Turtleneck and midi skirt",
+    "Sporty leggings and hoodie",
+    "Long coat with scarf",
+    "Light sweater and trousers",
+    "Simple sundress with sandals",
+    "Button-up shirt and high-waisted pants"
+  ],
+  "LIGHTING": [
+    "Natural sunlight",
+    "Warm cafe lighting",
+    "Overcast daylight",
+    "Golden hour"
+  ],
+  "BACKGROUNDS": [
+    "Outdoor café terrace",
+    "Local park with trees and benches",
+    "Busy street market",
+    "Artisan bakery",
+    "Bookstore interior",
+    "Modern restaurant",
+    "Open-air food fair",
+    "Urban square with fountains"
+  ],
+  "OBJECTS": [
+    "Shopping bags",
+    "Notebook and pen",
+    "Cup of coffee",
+    "Smartphone",
+    "Sunglasses",
+    "Magazine or book",
+    "Pastry on a plate",
+    "Canvas tote bag"
+  ],
+  "POSES": [
+    "Sitting at a table with coffee",
+    "Walking along a sidewalk",
+    "Browsing through books",
+    "Taking a photo of food",
+    "Leaning on a railing",
+    "Standing beside a flower stall",
+    "Smiling at the camera",
+    "Observing the surroundings thoughtfully"
+  ],
+  "EXPRESSIONS": [
+    "Gentle smile",
+    "Curious gaze",
+    "Content and relaxed",
+    "Laughing softly",
+    "Slightly dreamy expression"
+  ],
+  "CAMERA_ANGLES": [
+    "Portrait from waist up",
+    "Full-body outdoor shot",
+    "Close-up while seated",
+    "Candid side angle while walking",
+    "From behind with over-the-shoulder focus"
+  ],
+  "ATMOSPHERES": [
+    "Relaxed and sociable",
+    "Tranquil urban moment",
+    "Curious and inspired",
+    "Friendly lifestyle vibe",
+    "Fresh and modern feel"
+  ],
+  "ACCESSORIES": [
+    "Minimal earrings",
+    "Wristwatch",
+    "Neck scarf",
+    "Reading glasses",
+    "Delicate bracelet"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Natural and friendly tone only. No horror elements included.",
+    "1": "",
+    "2": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "EPOCHS": [
+    "Ancient Springtime Mythology",
+    "Victorian Bloom",
+    "Pre-Raphaelite Dream",
+    "Arcadian Vision",
+    "Ethereal 1970s"
+  ],
+  "OUTFITS": [
+    "Lace-trimmed white dress",
+    "Pastel chiffon gown",
+    "Corset with flowing sleeves",
+    "Bohemian linen wrap",
+    "Vintage nightgown with floral embroidery"
+  ],
+  "LIGHTING": [
+    "Golden hour glow",
+    "Dappled forest light",
+    "Moonlight through leaves",
+    "Sunflare behind subject",
+    "Dreamy ambient radiance"
+  ],
+  "BACKGROUNDS": [
+    "Blossoming orchard at twilight",
+    "Overgrown secret garden",
+    "Soft meadow with wildflowers",
+    "Ancient tree with glowing moss",
+    "Floating butterflies in morning mist"
+  ],
+  "OBJECTS": [
+    "Flower crown",
+    "Floating petals",
+    "Pearl earrings",
+    "Crystal orb in hand",
+    "Delicate moths"
+  ],
+  "POSES": [
+    "Gazing upward, hand near face",
+    "Eyes closed, holding a flower",
+    "Kneeling among blossoms",
+    "Half-turned, looking over shoulder",
+    "Hands cradling face in light"
+  ],
+  "EXPRESSIONS": [
+    "Ethereal wonder",
+    "Quiet joy",
+    "Mystical longing",
+    "Peaceful enchantment",
+    "Subtle melancholy"
+  ],
+  "CAMERA_ANGLES": [
+    "Soft-focus close-up",
+    "Waist-up front view with shallow depth",
+    "Three-quarter angle portrait",
+    "Low angle with lens flare",
+    "Face in profile surrounded by bloom"
+  ],
+  "ATMOSPHERES": [
+    "Dreamlike and floral",
+    "Twilight serenity",
+    "Mythical nostalgia",
+    "Tender surrealism",
+    "Romantic otherworldliness"
+  ],
+  "ACCESSORIES": [
+    "Vintage beads and bracelets",
+    "Earrings with small flowers",
+    "Natural flower crown",
+    "Silk sash belt",
+    "Gilded hairpin"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "None – warm and soft dreamlike glow",
+    "1": "Faint aura of surreal tension, like a forgotten myth",
+    "2": "Glimpse of eerie beauty: luminous eyes, petals tinged in blood"
+  }
+}

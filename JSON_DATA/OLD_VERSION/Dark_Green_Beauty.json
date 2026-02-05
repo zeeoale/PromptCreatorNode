@@ -1,0 +1,59 @@
+{
+  "EPOCHS": [
+    "Steampunk",
+    "Neo-Victorian",
+    "Contemporary Fantasy"
+  ],
+  "OUTFITS": [
+    "Corset with lace and gold embroidery",
+    "High-neck sheer tops",
+    "Bustier with baroque floral patterns",
+    "Victorian- or baroque-inspired dresses"
+  ],
+  "LIGHTING": [
+    "Warm, low-key lighting",
+    "Golden hour glow",
+    "Moody, chiaroscuro effects"
+  ],
+  "BACKGROUNDS": [
+    "Dark, rustic wooden interiors",
+    "Antique nautical elements",
+    "Dimly lit, vintage-styled rooms"
+  ],
+  "OBJECTS": [
+    "Antique lanterns",
+    "Wooden walls",
+    "Gold embroidered fabric"
+  ],
+  "POSES": [
+    "Partial profile",
+    "Leaning against the wall",
+    "Standing with torso angled toward the camera"
+  ],
+  "EXPRESSIONS": [
+    "Neutral",
+    "Composed",
+    "Slightly mysterious"
+  ],
+  "CAMERA_ANGLES": [
+    "Three-quarter view",
+    "Close-up of the upper torso",
+    "Slightly above shoulder height"
+  ],
+  "ATMOSPHERES": [
+    "Sensual",
+    "Mysterious",
+    "Rebellious",
+    "Dramatic"
+  ],
+  "ACCESSORIES": [
+    "Chokers",
+    "Layered earrings",
+    "Beaded or braided hair ornaments",
+    "Multiple piercings",
+    "Necklaces"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Very low; the mood is more dark-romantic and rebellious than horror-themed."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "EPOCHS": [
+    "Modern",
+    "Cyberpunk",
+    "Fantasy",
+    "Gothic",
+    "Victorian",
+    "Urban"
+  ],
+  "OUTFITS": [
+    "school uniforms",
+    "summer dresses",
+    "cyber leather suits",
+    "latex low-cut dress",
+    "lace lingerie"
+  ],
+  "LIGHTING": [
+    "soft golden hour",
+    "moonlight",
+    "neon reflections",
+    "studio spotlight",
+    "natural diffuse light"
+  ],
+  "BACKGROUNDS": [
+    "bedroom setting",
+    "rooftop at sunset",
+    "cherry blossom garden",
+    "urban alley",
+    "magical forest",
+    "classroom scene"
+  ],
+  "OBJECTS": [
+    "flower petals",
+    "floating hearts",
+    "sparkles",
+    "books",
+    "mirror reflections",
+    "city lights"
+  ],
+  "POSES": [
+    "close embrace",
+    "forehead touching",
+    "one girl on tiptoes",
+    "hands on cheeks",
+    "holding hands while kissing"
+  ],
+  "EXPRESSIONS": [
+    "eyes closed",
+    "gentle smile",
+    "tears of joy",
+    "blushing",
+    "biting lip softly"
+  ],
+  "CAMERA_ANGLES": [
+    "close-up",
+    "cinematic side angle",
+    "top-down shot",
+    "from behind",
+    "frontal romantic angle"
+  ],
+  "ATMOSPHERES": [
+    "dreamlike",
+    "nostalgic",
+    "tender",
+    "electric",
+    "emotional"
+  ],
+  "ACCESSORIES": [
+    "flower crown",
+    "glasses",
+    "earrings",
+    "scarves",
+    "hair clips"
+  ],
+  "HORROR_INTENSITY": {
+    "low": [],
+    "medium": [],
+    "high": []
+  }
+}

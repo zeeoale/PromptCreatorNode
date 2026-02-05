@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Nun_And_Gun",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in visually striking imagery that fuses corrupted religious iconography with contemporary sensual power. When requested, return ONE single long, multi-clause sentence (180–240 words), cinematic and highly descriptive, without lists or narration, depicting a sacred yet transgressive scene where ritual garments, veils, halos, and ceremonial silhouettes are reinterpreted through modern fashion, posture, and atmosphere rather than explicit exposure. Sensuality must emerge from controlled body language, fabric tension, partial concealment, and emotional dominance, never from graphic sexuality. The subject should appear composed, authoritative, and self-possessed, embodying a dangerous calm that contrasts sacred symbolism with modern weaponry treated as iconographic objects rather than instruments of action. Environments must feel ceremonial, abandoned, or sanctified, shaped by mist, low light, architectural stillness, and a sense of reverent decay. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Mention camera angle, lens feeling, depth of field, grain, and restrained post-processing to sustain a cinematic, solemn, and dangerously intimate mood. Horror, when present, must remain spiritual and psychological, never grotesque.",
+
+  "EPOCHS": [
+    "timeless contemporary era with vintage religious undertones",
+    "undefined modern age suspended between past and present",
+    "retro-modern aesthetic inspired by sacred iconography"
+  ],
+
+  "OUTFITS": [
+    "glossy latex black nun habit with corset lacing and slit skirt",
+    "black stained altar-lace gown with torn hem and barbed accents",
+    "black satin cassock cinched by chain belt and thorned corset",
+    "structured ceremonial veil layered over modern couture lingerie"
+  ],
+
+  "LIGHTING": [
+    "low-key directional light filtering through haze",
+    "muted jade and desaturated green ambient lighting",
+    "soft top-down illumination creating halo-like highlights",
+    "diffused window light mixed with shadow collapse",
+    "dim ceremonial lighting with subtle glow around the subject"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned chapel interior with cracked walls and faded symbols",
+    "ceremonial hall filled with mist and dust particles",
+    "sacred room stripped of ornamentation and left to decay",
+    "minimal sanctified space with religious geometry and negative space",
+    "quiet interior dominated by silence and reverence"
+  ],
+
+  "OBJECTS": [
+    "ceremonial assault rifle held with restraint",
+    "modern pistol treated as a symbolic prop",
+    "machine gun partially obscured by fabric or shadow",
+    "weapon integrated as iconographic tension rather than action"
+  ],
+
+  "POSES": [
+    "hands crossed over abdomen in ritual stance",
+    "kneeling posture with defiant spine and lifted chin",
+    "leaning forward as if whispering an invocation",
+    "reclined sideways on ritual stone, veil cascading across the frame",
+    "standing in profile with veil spread wide, arms extended",
+    "seated across an altar edge, body angled and gaze off-frame",
+    "half-turned stance with cloak drawn wide to fill the composition",
+    "slow ritual walk captured mid-step, fabric trailing"
+  ],
+
+  "EXPRESSIONS": [
+    "calm authoritative gaze with restrained intensity",
+    "emotionally distant expression conveying control",
+    "soft yet commanding eye contact",
+    "neutral expression charged with underlying tension",
+    "quiet confidence without overt emotion"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low-angle shot enhancing dominance",
+    "tight medium framing focusing on torso and posture",
+    "three-quarter view emphasizing silhouette",
+    "eye-level shot with shallow depth of field",
+    "slightly tilted angle adding unease and intimacy"
+  ],
+
+  "ATMOSPHERES": [
+    "ritual silence thick with tension",
+    "oppressive stillness shaped by shadow and air",
+    "sacred calm infused with sensual authority",
+    "ceremonial heaviness suspended in time",
+    "reverent mood with underlying danger"
+  ],
+
+  "ACCESSORIES": [
+    "bullet belt integrated into the outfit",
+    "ammo belt worn ceremonially at the waist",
+    "simple crosses and sacred pendants",
+    "minimal jewelry with symbolic meaning"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "composed sacred presence with restrained elegance",
+    "1": "subtle sensual tension expressed through posture and fabric weight",
+    "2": "controlled erotic charge conveyed through silhouette, gaze, and ritual stillness",
+    "3": "high-fashion sacrilegious sensuality, dominant and intimate, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "purely aesthetic sacred mood",
+    "1": "uneasy spiritual tension and corrupted reverence",
+    "2": "dark ritual undertone with oppressive, unsettling atmosphere",
+    "3": "intense sacrilegious atmosphere where sanctity and threat merge, still controlled and cinematic"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic sacred scene where corrupted religious iconography meets controlled sensual power, rendered with reverence and tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A ritual fashion tableau blending sanctified silence, modern weapon symbolism, and dominant stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "An abandoned ceremonial interior where veils, shadows, and authority shape a dangerous sacred calm, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A solemn yet transgressive vision of sacred couture and restrained dominance, captured with cinematic reverence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A darkly elegant religious fashion portrait infused with symbolic weaponry and ritual stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A controlled sacrilegious atmosphere where sensuality, sanctity, and threat coexist in silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A high-fashion sacred ritual frozen in time, reverent, dangerous, and intimately composed, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

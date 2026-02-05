@@ -1,0 +1,86 @@
+{
+  "EPOCHS": [
+    "Golden Age of Piracy",
+    "Caribbean Seas Fantasy",
+    "18th century corsair era",
+    "Dark nautical legends",
+    "Mythical pirate queens"
+  ],
+  "OUTFITS": [
+    "Tattered white pirate blouse with tied knot",
+    "Leather vest with engraved buckles",
+    "Loose linen shirt with rolled sleeves",
+    "Beaded pirate sash with skull motifs",
+    "Corset with metallic details and laces",
+    "Weathered trousers with patches",
+    "High leather boots with sea stains"
+  ],
+  "LIGHTING": [
+    "Golden sunset on the ocean",
+    "Stormy sky over the ship deck",
+    "Lantern glow on a pirate cabin",
+    "Harsh daylight reflecting on sails",
+    "Moonlight breaking through clouds",
+    "Bonfire glow on a beach camp"
+  ],
+  "BACKGROUNDS": [
+    "Wooden deck of a pirate ship",
+    "Stormy Caribbean sea",
+    "Tavern filled with smoke and lanterns",
+    "Hidden cove with treasure chests",
+    "Island jungle with wrecked ships"
+  ],
+  "OBJECTS": [
+    "Compass with ornate details",
+    "Weathered pirate map with ink stains",
+    "Skull-shaped pendant",
+    "Cutlass with intricate handle",
+    "Beaded necklaces with silver coins",
+    "Rum bottle with torn label"
+  ],
+  "POSES": [
+    "Standing proudly with hands on belt",
+    "Sitting casually on ship steps",
+    "Leaning against mast with a smirk",
+    "Pointing sword towards horizon",
+    "Adjusting bandana with confidence",
+    "Resting hands on cutlass hilt"
+  ],
+  "EXPRESSIONS": [
+    "Playful smirk",
+    "Defiant gaze",
+    "Mischievous smile",
+    "Stoic determination",
+    "Wild untamed energy",
+    "Rebellious charm"
+  ],
+  "CAMERA_ANGLES": [
+    "Full-body portrait with ship background",
+    "Medium shot on deck with ropes and sails",
+    "Close-up highlighting pirate accessories",
+    "Low angle emphasizing dominance",
+    "Dynamic shot with wind in hair",
+    "Three-quarter angle with dramatic lighting"
+  ],
+  "ATMOSPHERES": [
+    "Gritty and adventurous",
+    "Romanticized pirate fantasy",
+    "Rough nautical realism",
+    "Swashbuckling cinematic mood",
+    "Dark Caribbean legend",
+    "High seas freedom and danger"
+  ],
+  "ACCESSORIES": [
+    "Red or purple bandana tied around head",
+    "Multiple layered necklaces with beads and charms",
+    "Silver rings with ornate skull and gem details",
+    "Leather wristbands with studs",
+    "Wide pirate belt with buckle",
+    "Braided dreadlocks with beads and feathers"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Playful pirate adventure, cinematic",
+    "1": "Dark legend vibe, cursed seas atmosphere",
+    "2": "Grotesque ghost ship, skeletal crew and ominous sea fog"
+  }
+}

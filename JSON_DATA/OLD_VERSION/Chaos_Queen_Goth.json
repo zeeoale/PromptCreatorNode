@@ -1,0 +1,58 @@
+{
+  "EPOCHS": [
+    "Rust apocalypse",
+    "Urban gothic",
+    "Post-industrial decay",
+    "Twilight reign"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Moody rimlight with crimson glow",
+    "Sharp side lighting with harsh shadows",
+    "Cinematic spotlight with metallic reflections",
+    "Dim cold light filtered through rust"
+  ],
+  "BACKGROUNDS": [
+    "Rusty metal wall",
+    "Abandoned warehouse",
+    "Decayed cathedral interior",
+    "Blood-stained stone altar"
+  ],
+  "OBJECTS": [
+    "Spiked heart-shaped necklace",
+    "Tattoo machine on table",
+    "Metal chains hanging from ceiling",
+    "Cracked mirror with blood streaks"
+  ],
+  "POSES": [
+    "Standing against the wall with piercing stare",
+    "Leaning with crossed arms and defiant expression",
+    "Looking straight ahead with head tilted slightly"
+  ],
+  "EXPRESSIONS": [
+    "Menacing calm with crimson tears",
+    "Defiant pride with blood-smeared lips",
+    "Cold seduction with intense gaze",
+    "Haunted elegance with slight smirk"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme Close-up on face with centered eyes"
+  ],
+  "ATMOSPHERES": [
+    "Dark metal elegance",
+    "Ritualistic pain and power",
+    "Rust and blood aesthetic",
+    "Fetishized horror poetry"
+  ],
+  "ACCESSORIES": [
+    "Heart-shaped studs and spikes",
+    "Red flower hair pins",
+    "Layered metallic necklaces",
+    "Tattoo sleeves with skulls and roses"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Gothic beauty with subtle menace",
+    "1": "Blood makeup and rusted defiance",
+    "2": "Ritualistic power, blood tears, skull tattoos and seductive violence"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "EPOCHS": [
+    "near-future dystopia",
+    "late 21st century",
+    "cyberpunk neo-noir era"
+  ],
+
+  "OUTFITS": [
+    "loose cyberpunk jacket slipping from shoulders",
+    "simple tank top",
+    "minimal urban streetwear",
+    "worn fabric clothing",
+    "functional dystopian attire"
+  ],
+
+  "LIGHTING": [
+    "soft neon backlight",
+    "diffused city glow",
+    "low-key lighting",
+    "subtle rim light",
+    "ambient urban illumination"
+  ],
+
+  "BACKGROUNDS": [
+    "foggy megacity skyline",
+    "distant skyscrapers",
+    "neon signs partially obscured by mist",
+    "industrial urban structures",
+    "rain-soaked cityscape"
+  ],
+
+  "OBJECTS": [
+    "metal railing",
+    "balcony edge",
+    "distant flying vehicles",
+    "holographic signs in the background"
+  ],
+
+  "POSES": [
+    "leaning against a railing",
+    "sitting quietly on a balcony",
+    "standing still overlooking the city",
+    "resting arms on a metal barrier"
+  ],
+
+  "EXPRESSIONS": [
+    "melancholic",
+    "introspective",
+    "emotionally distant",
+    "quietly contemplative"
+  ],
+
+  "CAMERA_ANGLES": [
+    "medium shot",
+    "side profile",
+    "back view",
+    "slightly low angle cinematic framing"
+  ],
+
+  "ATMOSPHERES": [
+    "lonely",
+    "quiet dystopia",
+    "neo-noir mood",
+    "rainy night silence",
+    "urban melancholy"
+  ],
+
+  "ACCESSORIES": [
+    "subtle cybernetic implants",
+    "minimal tech details",
+    "small glowing indicators",
+    "functional dystopian accessories"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "",
+    "1": "",
+    "2": ""
+  }
+}

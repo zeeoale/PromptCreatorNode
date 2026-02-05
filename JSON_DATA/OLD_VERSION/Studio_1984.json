@@ -1,0 +1,87 @@
+{
+  "EPOCHS": [
+    "1980s",
+    "retro-futurism",
+    "late cold war era",
+    "post-punk era"
+  ],
+  "OUTFITS": [
+    "synthwave suits",
+    "neon trench coats",
+    "cybernetic helmets",
+    "magenta faux fur coat with cropped black top",
+    "vinyl jackets",
+    "oversized shoulder pads"
+  ],
+  "LIGHTING": [
+    "neon lights",
+    "CRT glow",
+    "red-blue gradients",
+    "flickering monitors",
+    "fluorescent ambient"
+  ],
+  "BACKGROUNDS": [
+    "abandoned TV studios",
+    "foggy alleyways",
+    "underground clubs",
+    "data centers",
+    "desolate arcades"
+  ],
+  "OBJECTS": [
+    "cassette players",
+    "analog monitors",
+    "robotic cameras",
+    "typewriters",
+    "holographic posters"
+  ],
+  "POSES": [
+    "power pose with mic",
+    "leaning against synth",
+    "typing intensely",
+    "broadcasting to the void",
+    "smoking in silence"
+  ],
+  "EXPRESSIONS": [
+    "defiant",
+    "cynical",
+    "melancholic",
+    "intense stare",
+    "subtle smirk"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle",
+    "tight portrait",
+    "over-the-shoulder",
+    "Dutch tilt",
+    "close-up of expression"
+  ],
+  "ATMOSPHERES": [
+    "dystopian tension",
+    "cyber paranoia",
+    "media overload",
+    "nostalgic gloom",
+    "gritty broadcast"
+  ],
+  "ACCESSORIES": [
+    "mirrored sunglasses",
+    "wire headphones",
+    "glowing badges",
+    "tape reels",
+    "cybernetic implants"
+  ],
+  "HORROR_INTENSITY": {
+    "none": [],
+    "low": [
+      "flickering images on screens",
+      "strange feedback sounds"
+    ],
+    "medium": [
+      "faces in static",
+      "glitching reflections"
+    ],
+    "high": [
+      "possession through TV",
+      "surveillance entities"
+    ]
+  }
+}

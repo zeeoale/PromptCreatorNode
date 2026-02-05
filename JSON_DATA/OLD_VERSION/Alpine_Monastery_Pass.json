@@ -1,0 +1,55 @@
+{
+  "EPOCHS": [
+    "Medieval"
+  ],
+  "OUTFITS": [
+    "Monk robes",
+    "Wool cloak",
+    "Ranger leathers"
+  ],
+  "LIGHTING": [
+    "Overcast diffuse",
+    "Golden hour",
+    "Snow glare"
+  ],
+  "BACKGROUNDS": [
+    "Mountain pass",
+    "Monastery courtyard",
+    "Pine ridge",
+    "Snow path"
+  ],
+  "OBJECTS": [
+    "Lantern",
+    "Prayer beads",
+    "Map"
+  ],
+  "POSES": [
+    "Kneeling steady",
+    "Perched lookout",
+    "Crouched aim"
+  ],
+  "EXPRESSIONS": [
+    "Calm focus",
+    "Stoic",
+    "Determined"
+  ],
+  "CAMERA_ANGLES": [
+    "High vantage",
+    "Medium shot",
+    "Over-shoulder"
+  ],
+  "ATMOSPHERES": [
+    "Snowfall",
+    "Wind gusts",
+    "Silent dawn"
+  ],
+  "ACCESSORIES": [
+    "Cloak clasp",
+    "Leather gloves",
+    "Wool hood"
+  ],
+  "HORROR_INTENSITY": {
+    "none": "Quiet vigilance",
+    "mild": "Chapel murmurs in storm"
+  }
+}

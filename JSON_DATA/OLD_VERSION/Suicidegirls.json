@@ -1,0 +1,84 @@
+{
+  "EPOCHS": [
+    "Modern",
+    "Neo-punk",
+    "Cyber-Goth",
+    "Y2K"
+  ],
+  "OUTFITS": [
+    "Lingerie",
+    "Fishnet bodysuit",
+    "Leather harness",
+    "Crop top and underwear",
+    "Oversized T-shirt",
+    "Nothing but tattoos"
+  ],
+  "LIGHTING": [
+    "Soft pink glow",
+    "Red neon",
+    "Dark ambient",
+    "Spotlight from above",
+    "Blue cyberpunk hue"
+  ],
+  "BACKGROUNDS": [
+    "Industrial loft",
+    "Graffiti wall",
+    "Velvet curtains",
+    "Neon-lit room",
+    "Dark studio"
+  ],
+  "OBJECTS": [
+    "Guitar",
+    "Chains",
+    "Mirror",
+    "Roses"
+  ],
+  "POSES": [
+    "On all fours",
+    "Kneeling seductively",
+    "Leaning back",
+    "Sitting cross-legged",
+    "Hand in hair"
+  ],
+  "EXPRESSIONS": [
+    "Playful",
+    "Seductive",
+    "Defiant",
+    "Mysterious",
+    "Dreamy"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle",
+    "Close-up from above",
+    "Over-the-shoulder",
+    "Eye level",
+    "Tilted frame"
+  ],
+  "ATMOSPHERES": [
+    "Edgy",
+    "Rebellious",
+    "Dark sensuality",
+    "Empowered",
+    "Grunge intimacy"
+  ],
+  "ACCESSORIES": [
+    "Nose ring",
+    "Heavy eyeliner",
+    "Corset belt",
+    "Pierced lip",
+    "Choker with spikes"
+  ],
+  "HORROR_INTENSITY": {
+    "None": [],
+    "Subtle": [
+      "Dark lipstick smudged like blood"
+    ],
+    "Medium": [
+      "Vampire bite marks on neck"
+    ],
+    "Extreme": [
+      "Crimson tears",
+      "Body stitch tattoos"
+    ]
+  }
+}

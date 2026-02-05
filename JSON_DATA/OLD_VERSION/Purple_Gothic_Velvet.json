@@ -1,0 +1,76 @@
+{
+  "EPOCHS": [
+    "gothic romance",
+    "contemporary dark fantasy",
+    "neo-victorian",
+    "ethereal goth",
+    "modern alternative"
+  ],
+  "OUTFITS": [
+    "dark purple lace dress",
+    "black corset or bustier",
+    "victorian-style gown with ruffles",
+    "thigh-high lace stockings",
+    "velvet arm warmers or gloves"
+  ],
+  "LIGHTING": [
+    "dramatic moonlight",
+    "soft ethereal glow",
+    "dark purple ambient light",
+    "low-key atmospheric lighting",
+    "rim lighting from the moon"
+  ],
+  "BACKGROUNDS": [
+    "giant full moon",
+    "moody dark purple cloudscape",
+    "celestial night sky",
+    "starry expanse",
+    "abstract textured dark purple backdrop"
+  ],
+  "OBJECTS": [
+    "large moon",
+    "stylized clouds",
+    "intricate lace patterns",
+    "ornate jewelry"
+  ],
+  "POSES": [
+    "elegant seated pose",
+    "profile view with head tilted back",
+    "three-quarter view looking away",
+    "direct and confident gaze at camera",
+    "serene posture with eyes closed"
+  ],
+  "EXPRESSIONS": [
+    "serene and calm",
+    "mysterious and alluring",
+    "confident and poised",
+    "melancholic and pensive",
+    "ethereal detachment"
+  ],
+  "CAMERA_ANGLES": [
+    "medium close-up",
+    "waist-up shot",
+    "profile shot",
+    "three-quarter portrait",
+    "eye-level perspective"
+  ],
+  "ATMOSPHERES": [
+    "gothic romance",
+    "mysterious elegance",
+    "dark celestial fantasy",
+    "ethereal and dreamy",
+    "moonlit serenity"
+  ],
+  "ACCESSORIES": [
+    "ornate choker necklace",
+    "large gothic pendant",
+    "thigh garter with charm",
+    "long dangling earrings",
+    "layered dark necklaces"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Velvet night under a mystic moon.",
+    "1": "Elegant darkness where shadows whisper secrets.",
+    "2": "A haunting trance in a world of dark purple twilight."
+  }
+}

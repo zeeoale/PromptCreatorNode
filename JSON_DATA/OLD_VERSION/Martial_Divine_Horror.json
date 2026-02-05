@@ -1,0 +1,76 @@
+{
+    "EPOCHS": [
+        "Sanctified War Age",
+        "Divine Executioner Era",
+        "Ritual Dawn of Blades"
+    ],
+
+    "OUTFITS": [
+        "blood-red ceremonial hood and cloak",
+        "white ritual armor with sacred engravings",
+        "tattered divine war vestments",
+        "bandaged torso with hidden sigils beneath fabric"
+    ],
+
+    "LIGHTING": [
+        "radiant halo glow breaking through darkness",
+        "crimson divine beam from above",
+        "cold celestial white light",
+        "unholy sunburst with soft lens haze"
+    ],
+
+    "BACKGROUNDS": [
+        "void-like battlefield shrouded in holy smoke",
+        "temple ruins drenched in red fog",
+        "ritual chamber with floating shards of gold",
+        "dark sanctum with glowing inscriptions"
+    ],
+
+    "OBJECTS": [
+        "floating rose petals glowing faintly",
+        "levitating golden relic fragments",
+        "ethereal smoke spirals",
+        "shards of divine metal humming with light"
+    ],
+
+    "POSES": [
+        "gripping sword vertically like a sacred oath",
+        "kneeling warrior in ritual contemplation",
+        "standing still with blade lowered in judgment",
+        "hooded figure ready to strike with divine calm"
+    ],
+
+    "EXPRESSIONS": [
+        "cold unwavering resolve",
+        "haunted divine focus",
+        "quiet holy fury",
+        "transcendent, emotionless clarity"
+    ],
+
+    "CAMERA_ANGLES": [
+        "heroic frontal shot with rising fog",
+        "low angle emphasizing divine authority",
+        "tight portrait with halo flare",
+        "cinematic full-body shot with drifting smoke"
+    ],
+
+    "ATMOSPHERES": [
+        "holy dread",
+        "divine wrath in silence",
+        "ritual transcendence",
+        "martial sanctity with underlying unease"
+    ],
+
+    "ACCESSORIES": [
+        "halo of broken light",
+        "sacred sword with glowing engravings",
+        "petals or ashes orbiting slowly",
+        "soft film grain with sacred distortions"
+    ],
+
+    "HORROR_INTENSITY": {
+        "0": "calm divine solemnity",
+        "1": "holy menace and ritual dread",
+        "2": "transcendent terror with sacred judgment"
+    }
+}

@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "Ancient Forest",
+    "Pagan Times",
+    "Timeless Ritual"
+  ],
+  "OUTFITS": [
+    "leather corset with bone details",
+    "tribal dress with feathers",
+    "hooded cloak with fur trim",
+    "barefoot with anklets and ritual markings",
+    "metal bracers and bone necklace"
+  ],
+  "LIGHTING": [
+    "moonlight through trees",
+    "ritual fire glow",
+    "foggy dawn light"
+  ],
+  "BACKGROUNDS": [
+    "dense enchanted forest",
+    "ancient stone circle",
+    "sacred pagan altar",
+    "moss-covered ruins"
+  ],
+  "OBJECTS": [
+    "ritual dagger",
+    "totem made of bones and wood",
+    "potion vials",
+    "animal skulls",
+    "glowing runes on stones"
+  ],
+  "POSES": [
+    "arms raised in ritual",
+    "kneeling with head bowed",
+    "dancing around fire",
+    "casting a spell with hands extended"
+  ],
+  "EXPRESSIONS": [
+    "fierce gaze",
+    "mystic trance",
+    "serene focus",
+    "wild smile"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle with tree canopy",
+    "close-up on face and runes",
+    "wide shot of forest ritual",
+    "over-the-shoulder with altar view"
+  ],
+  "ATMOSPHERES": [
+    "misty forest",
+    "smoky firelit air",
+    "echoes of ancient chants",
+    "silent sacred dusk"
+  ],
+  "ACCESSORIES": [
+    "bone earrings",
+    "feathered circlet",
+    "runed staff",
+    "ritual tattoos on face and arms",
+    "animal pelts"
+  ],
+  "HORROR_INTENSITY": {
+    "low": [
+      "mystical ambiance",
+      "subtle runes",
+      "ancient energy"
+    ],
+    "medium": [
+      "blood ritual remnants",
+      "totems with dark energy"
+    ],
+    "high": [
+      "possessed eyes",
+      "forest spirits lurking",
+      "body horror transformation"
+    ]
+  }
+}

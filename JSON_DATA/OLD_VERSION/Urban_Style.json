@@ -1,0 +1,66 @@
+{
+  "EPOCHS": [
+    "Contemporary Urban",
+    "Street Style",
+    "Pop Culture Fashion",
+    "Modern Casual"
+  ],
+  "OUTFITS": [
+    "Graphic t-shirts with ironic prints",
+    "Distressed denim shorts",
+    "Casual streetwear",
+    "Crop tops and fitted tees"
+  ],
+  "LIGHTING": [
+    "Golden hour street lighting",
+    "Warm urban ambient light",
+    "Neon sign reflections",
+    "Natural daylight mixed with artificial lights"
+  ],
+  "BACKGROUNDS": [
+    "Narrow Asian city streets (Japan/Korea style)",
+    "Urban alleys with neon signs",
+    "Crowded pedestrian areas",
+    "Traditional shop fronts with modern signage"
+  ],
+  "OBJECTS": [
+    "Japanese/Chinese signage and characters",
+    "Neon lights and street lamps",
+    "Urban architecture",
+    "Street vendors and shops"
+  ],
+  "POSES": [
+    "Confident walking pose",
+    "Casual standing with hands in pockets",
+    "Direct gaze toward camera",
+    "Relaxed street photography poses"
+  ],
+  "EXPRESSIONS": [
+    "Cool and confident",
+    "Slightly smirking or playful",
+    "Direct and engaging",
+    "Casual and approachable"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level street photography",
+    "Medium shot focusing on outfit",
+    "Slight low angle for confidence",
+    "Portrait orientation"
+  ],
+  "ATMOSPHERES": [
+    "Urban and trendy",
+    "Pop culture references",
+    "Ironic and playful",
+    "Modern street fashion"
+  ],
+  "ACCESSORIES": [
+    "Sunglasses (various styles)",
+    "Baseball cap with skull logo",
+    "Small tattoos",
+    "Hoop earrings",
+    "Casual jewelry"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Very low; while some t-shirts feature skulls or dark imagery, the overall aesthetic is playful and ironic rather than genuinely frightening. The 'horror' elements are purely fashion-based and tongue-in-cheek."
+  }
+}

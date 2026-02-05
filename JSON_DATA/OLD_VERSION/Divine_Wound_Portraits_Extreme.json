@@ -1,0 +1,83 @@
+{
+  "EPOCHS": [
+    "Cursed Renaissance reliquary",
+    "Forgotten Inquisition tribunal",
+    "Divine Apocalypse omen-night",
+    "Plague era fever dream",
+    "Sanctified decay liturgy"
+  ],
+  "OUTFITS": [
+    "Cracked ceremonial porcelain mask veining like dried blood",
+    "Holy veil soaked in blood and incense smoke",
+    "Monastic hood with burnt embroidery and singed edges",
+    "Bone corset with gold inlays and hair-thin fractures",
+    "Obsidian ritual armor fused to exposed collarbones"
+  ],
+  "LIGHTING": [
+    "Extreme chiaroscuro on the face, carving the wounds into icon-like shapes",
+    "Harsh sidelight revealing cracks and scarred scripture",
+    "Infernal underglow pulsing from inside the chest cavity",
+    "Cold top-down cathedral beam cutting through incense fog"
+  ],
+  "BACKGROUNDS": [
+    "featureless black void with a few floating gilded fragments of broken halos; large-scale, non-repeating surface.",
+    "a smooth plaster wall with scattered paper talismans and hand-brushed cursed kanji sheets pinned irregularly; no wallpaper, no repeating motifs.",
+    "dark chapel wall with faded fresco ghosts and dripping candle wax trails, no repeating patterns.",
+    "velvet black abyss with distant halo echoes and soft, fog-like noise, avoiding tiled textures."
+  ],
+  "OBJECTS": [
+    "Wounds shaped like crosses",
+    "Burnt scriptures clinging to the skin",
+    "Cracked halos bleeding faint light",
+    "Rosaries fused to skin",
+    "Runes etched on the flesh",
+    "Kanji symbols painted across the face",
+    "Cursed ideograms carved into the skin",
+    "Sutra characters written with ink and ash",
+    "Elvish script drawn in blood",
+    "Korean ideograms inscribed like sacred wounds",
+    "Ancient glyphs forming bleeding symbols",
+    "Arcane letters emerging from torn skin",
+    "Forbidden alphabet scrawled across the face",
+    "Black thread stitching skin in sacred geometric patterns",
+    "Wax seals pressed over sealed wounds",
+    "Gold leaf fragments embedded along scarred calligraphy"
+  ],
+  "POSES": [
+    "Vertical frontal extreme close-up",
+    "Half-face tightly framed",
+    "Looking down in suffering, face almost filling the frame",
+    "Closed eyes with ashes falling in front of the lens",
+    "Direct gaze through symbolic tears, static like an icon"
+  ],
+  "EXPRESSIONS": [
+    "Silent agony held in absolute stillness",
+    "Religious ecstasy on the edge of collapse",
+    "Tranquil sorrow with faint, unreadable smile",
+    "Symbolic martyrdom, resigned and unwavering",
+    "Void gaze as if already beyond human pain"
+  ],
+  "CAMERA_ANGLES": [
+    "Hyper close-up from below, emphasizing carved symbols",
+    "Extreme close-up on face, cropping just above the chest"
+  ],
+  "ATMOSPHERES": [
+    "Iconic dread suspended in frozen time",
+    "Sacred rot emanating from every crack",
+    "Ritualized silence heavy like cathedral air",
+    "Divine hallucination in slow-motion",
+    "Apocalyptic vision contained in a single face"
+  ],
+  "ACCESSORIES": [
+    "Metallic cross fused with skin",
+    "Blood tears tracing printed scripture",
+    "Thorns crown with glowing symbols",
+    "Flesh-embedded relics framed like jewelry",
+    "Broken reliquary shards hovering around the head"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Sacral, iconic and mysterious, with subtle wounds and restrained symbolism.",
+    "1": "Visceral but composed, sacred elements clearly fused with flesh and scripture.",
+    "2": "Extremely disturbing sacred horror, intense flesh-symbol fusion and invasive ritual marks."
+  }
+}

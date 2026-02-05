@@ -1,0 +1,73 @@
+{
+  "EPOCHS": [
+    "Mythological Era",
+    "Storm Age",
+    "Post-Apocalyptic"
+  ],
+  "OUTFITS": [
+    "living lightning armor",
+    "plasma-threaded robe",
+    "storm-woven bodysuit",
+    "electrified battle gown",
+    "godlike energy shroud"
+  ],
+  "LIGHTING": [
+    "electric storm lighting",
+    "heaven-splitting bolts",
+    "underlit by thunder",
+    "bioluminescent glow",
+    "chaotic arc flashes"
+  ],
+  "BACKGROUNDS": [
+    "storm-scarred battlefield",
+    "floating above raging sea",
+    "torn sky with lightning webs",
+    "celestial storm clouds",
+    "shattered mountaintop"
+  ],
+  "OBJECTS": [
+    "crackling staff of thunder",
+    "orb of lightning memory",
+    "electric whip",
+    "storm crown",
+    "runic blade glowing with power"
+  ],
+  "POSES": [
+    "arms raised summoning the storm",
+    "sitting on a throne of ice and lightning",
+    "walking through tempest"
+  ],
+  "EXPRESSIONS": [
+    "divine wrath",
+    "calm fury",
+    "stormborn focus",
+    "rage of the skies",
+    "smoldering serenity"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle with electric sky backdrop",
+    "close-up with crackling energy",
+    "wide epic shot during thunderstorm",
+    "dynamic tilted frame with arcs",
+    "profile view with hair electrified"
+  ],
+  "ATMOSPHERES": [
+    "charged with divine power",
+    "crackling tension",
+    "voltaic fury",
+    "pre-apocalyptic silence",
+    "pure elemental chaos"
+  ],
+  "ACCESSORIES": [
+    "jewelry made of lightning strands",
+    "hovering electric sigils",
+    "storm-themed tattoos",
+    "arcane electricity runes",
+    "glowing eye marks"
+  ],
+  "HORROR_INTENSITY": {
+    "Low": "divine and majestic chaos",
+    "Medium": "wild energy and unstoppable force",
+    "High": "uncontrollable destruction and divine wrath"
+  }
+}

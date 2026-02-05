@@ -1,0 +1,79 @@
+{
+  "EPOCHS": [
+    "2077 Tokyo",
+    "Shibuya",
+    "Cybernetic Sakura Dynasty",
+    "Neon Edo Era",
+    "Kawaii Futurism"
+  ],
+  "OUTFITS": [
+    "Cyber Kimono with neon hieroglyphs",
+    "Soft pink latex bodysuit with sakura blossom patterns",
+    "Heart-shaped corset adorned with glowing cables",
+    "Holographic schoolgirl uniform with metallic accents",
+    "Dystopian kawaii Lolita dress with LED frills"
+  ],
+  "LIGHTING": [
+    "Neon pink city glow",
+    "Soft LED backlighting",
+    "Blinding Tokyo night billboards",
+    "Glowing sakura petals rain",
+    "Heart-shaped neon halo"
+  ],
+  "BACKGROUNDS": [
+    "Megacity skyscrapers shrouded in digital smog",
+    "Cybernetic shibuya crossing with holographic adverts",
+    "Post-apocalyptic Tokyo tower covered in glowing vines",
+    "Sakura blossoms blooming amidst ruins",
+    "Neon-lit dystopian alley with heart-shaped graffiti"
+  ],
+  "OBJECTS": [
+    "Holographic kawaii pet",
+    "Cybernetic sakura branch",
+    "Glowing heart-shaped lollipop",
+    "Futuristic fan with neon tassels",
+    "Robot companion with neon ribbon"
+  ],
+  "POSES": [
+    "Soft glance over shoulder",
+    "Innocently clutching cybernetic pet",
+    "Gazing at neon cityscape",
+    "Playfully twirling LED parasol",
+    "Holding heart-shaped lollipop to lips"
+  ],
+  "EXPRESSIONS": [
+    "Innocent smile with glowing eyes",
+    "Lost in cyberdream",
+    "Wide-eyed awe at neon lights",
+    "Touched by dystopian beauty",
+    "Soft surprise at holographic petals"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle with towering neon buildings",
+    "Close-up with soft pink lighting",
+    "Mid-angle with heart-shaped neon lights",
+    "High angle with sakura petals falling",
+    "Straight angle with cybernetic Tokyo backdrop"
+  ],
+  "ATMOSPHERES": [
+    "Soft dystopian romance",
+    "Bewildering cybernetic enchantment",
+    "Kawaii horror with pastel gothic undertones",
+    "Neon-lit innocence amidst chaos",
+    "Sakura-infused cyberpunk"
+  ],
+  "ACCESSORIES": [
+    "Neon ribbon hair tie",
+    "Glowing heart-shaped eye patch",
+    "Holographic sakura hair pin",
+    "Cybernetic kawaii choker",
+    "LED-lit lace gloves"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Mild dystopian kawaii with soft pink undertones",
+    "1": "Neon-lit innocence juxtaposed with cybernetic elements",
+    "2": "Surreal horror infused with pastel Tokyo cityscape",
+    "3": "Gothic kawaii with haunting neon lights",
+    "4": "Grotesque beauty in a dystopian cyberdream"
+  }
+}

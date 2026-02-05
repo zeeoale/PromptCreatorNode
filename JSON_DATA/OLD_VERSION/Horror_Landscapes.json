@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Modern ruins",
+    "Post-apocalyptic decay",
+    "19th-century gothic",
+    "Industrial wasteland"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "Lightning flashes",
+    "Flickering fluorescent lights",
+    "Pale moonlight through broken windows",
+    "Cold diffused fog light"
+  ],
+  "BACKGROUNDS": [
+    "Dense forest hiding the structure",
+    "Fog-covered urban ruins",
+    "Open field scattered with tombstones",
+    "Flooded basement with floating debris",
+    "Wall cracked with bleeding graffiti",
+    "Hallway with shadows dancing on walls"
+  ],
+  "OBJECTS": [
+    "Rusty wheelchairs",
+    "Blood-stained tiles",
+    "Fallen crosses",
+    "Open graves",
+    "Old chains hanging from ceilings",
+    "Puddles reflecting eerie lights",
+    "Broken religious statues",
+    "Rotting wooden doors"
+  ],
+  "POSES": [],
+  "EXPRESSIONS": [],
+  "CAMERA_ANGLES": [
+    "Wide shot with oppressive perspective",
+    "Low angle looking up through broken beams",
+    "High shot looking down into horror pit",
+    "Tilted angle through cracked windows",
+    "Distorted fisheye view of decaying corridor"
+  ],
+  "ATMOSPHERES": [
+    "Claustrophobic and decayed",
+    "Still and deathly quiet",
+    "Unnatural silence broken by creaks",
+    "Air thick with mold and dread",
+    "Echoes of past lives and whispers",
+    "Misty, murky, and unpredictable"
+  ],
+  "ACCESSORIES": [],
+  "HORROR_INTENSITY": {
+    "0": "abandoned but peaceful",
+    "1": "light gore and eerie signs",
+    "2": "blood trails, occult symbols, signs of violence"
+  }
+}

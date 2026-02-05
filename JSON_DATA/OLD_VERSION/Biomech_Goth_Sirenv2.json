@@ -1,0 +1,91 @@
+{
+  "EPOCHS": [
+    "Neo-Gothic Future",
+    "Cyberpunk",
+    "Post-Apocalypse",
+    "Biomech Renaissance",
+    "Retro-Futurism",
+    "Era of Dark Queens"
+  ],
+  "OUTFITS": [
+    "Biomech armor bodysuits",
+    "Chrome spike thigh-high boots",
+    "Glossy black latex bodysuits",
+    "Asymmetrical draped gowns",
+    "Studded corsets",
+    "Mesh and gothic lace overlays",
+    "Futuristic metallic sheaths"
+  ],
+  "LIGHTING": [
+    "Cyan/neon rim lighting",
+    "Dramatic contrast shadows",
+    "Blood-red backlight",
+    "Neutral cinematic fill",
+    "Electric blue LED shine",
+    "Cold metallic reflections"
+  ],
+  "BACKGROUNDS": [
+    "Red velvet drapery",
+    "Faded cyberpunk metropolis",
+    "Empty fog-filled room",
+    "Gothic-futurist skyline",
+    "Ethereal mist",
+    "Hi-tech hexagonal patterns"
+  ],
+  "OBJECTS": [
+    "Glossy metal spikes",
+    "Black biomech roses",
+    "Horned crowns and diadems",
+    "Organic mechanical grafts",
+    "Clawed heels",
+    "Segmented armored plates"
+  ],
+  "POSES": [
+    "Leg raised dominant stance",
+    "Kneeling regal pose",
+    "Aggressive seated position",
+    "Dramatic back arch",
+    "Hands on hips stance",
+    "Challenging upright posture"
+  ],
+  "EXPRESSIONS": [
+    "Enigmatic stare",
+    "Masked anonymity",
+    "Cold distant look",
+    "Raised eyebrow with chill",
+    "Slightly parted lips, menacing",
+    "Impassive, ethereal mood"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle heroic view",
+    "Macro shots on suit details",
+    "Tilted close-up",
+    "Upward dynamic view",
+    "Monumental vertical shot",
+    "Dramatic side capture"
+  ],
+  "ATMOSPHERES": [
+    "Sinister elegance",
+    "Icy allure",
+    "Futuristic suspense",
+    "Gothic ambiguity",
+    "Seductive darkness",
+    "Dreamlike surreal aura"
+  ],
+  "ACCESSORIES": [
+    "Metal horn diadems",
+    "Long latex gloves",
+    "Spiked biomech shoulderpads",
+    "Textured visors and masks",
+    "Chrome jewelry",
+    "Decorative harness belts"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward, no gore, clean chrome",
+    "1": "suggestive menace, faint red glows",
+    "2": "ritual accents, subtle blood tears",
+    "3": "jagged implants, cracked porcelain skin",
+    "4": "organic machinery, exposed sinew hints",
+    "5": "opulent dread—saintly yet monstrous, heavy biomech intrusion"
+  }
+}

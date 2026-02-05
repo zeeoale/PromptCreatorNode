@@ -1,0 +1,56 @@
+{
+  "EPOCHS": [
+    "Contemporary Alternative",
+    "Tattoo Culture",
+    "Dark Gothic",
+    "Urban Alternative"
+  ],
+  "OUTFITS": [],
+  "LIGHTING": [
+    "High-contrast dramatic lighting",
+    "Moody chiaroscuro effects",
+    "Strong directional light",
+    "Low-key portrait lighting with deep shadows"
+  ],
+  "BACKGROUNDS": [
+    "Dark, neutral backgrounds",
+    "Minimalist studio settings",
+    "Deep shadows and gradients"
+  ],
+  "OBJECTS": [
+    "Tattoo ink and artwork covering skin",
+    "Text and script tattoos",
+    "Artistic imagery and symbols in tattoos"
+  ],
+  "POSES": [
+    "Extreme close-up portrait",
+    "Intimate facial composition",
+    "Direct eye contact with camera"
+  ],
+  "EXPRESSIONS": [
+    "Intense and piercing gaze",
+    "Mysterious and seductive",
+    "Confident and defiant",
+    "Contemplative and introspective"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up",
+    "Tight framing on facial features"
+  ],
+  "ATMOSPHERES": [
+    "Intense and provocative",
+    "Dark and mysterious",
+    "Raw and authentic",
+    "Artistic and expressive"
+  ],
+  "ACCESSORIES": [
+    "Extensive facial and body tattoos",
+    "Nose rings and piercings",
+    "Multiple ear piercings",
+    "Dark earrings and metal jewelry",
+    "Studded/spiked accessories"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Very low; while the aesthetic is dark and alternative, it focuses on artistic expression and tattoo culture rather than horror. The intensity comes from the dramatic styling and personal expression rather than frightening elements."
+  }
+}

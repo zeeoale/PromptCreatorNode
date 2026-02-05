@@ -1,0 +1,65 @@
+{
+  "EPOCHS": [
+    "neo-samurai urban myth",
+    "modern mythic warrior era",
+    "contemporary cinematic red aesthetic"
+  ],
+  "OUTFITS": [
+    "red nylon windbreaker hoodie with sword belt",
+    "sleek body-armor jacket in scarlet gloss",
+    "minimal black top with vivid red lip and katana strap",
+    "street sports shoe with samurai motif and crimson jacket"
+  ],
+  "LIGHTING": [
+    "dramatic rim light with warm red glow",
+    "single key light from top-left with heavy shadow contrast",
+    "backlit red haze creating silhouette and subtle edge highlights",
+    "soft fill light to accent skin sheen and deep red tones"
+  ],
+  "BACKGROUNDS": [
+    "dark studio environment with red ambient mist",
+    "floor scattered with rose petals against muted red gradient",
+    "minimal backdrop with deep red fade and subtle particles",
+    "industrial urban corner lit by red spill and dim ambient light"
+  ],
+  "OBJECTS": [
+    "katana sword in hand or strapped at back",
+    "rose petals scattered on floor",
+    "hood up or tied hair bun referencing samurai topknot",
+    "subtle water droplets or sweating skin for intensity"
+  ],
+  "POSES": [
+    "crouched low, facing camera, katana angled forward",
+    "half-body portrait leaning forward, eyes locked on camera",
+    "standing slightly side-on, head turned toward viewer, sword behind shoulder",
+    "close up of face and upper torso, red jacket hood up, intense gaze"
+  ],
+  "EXPRESSIONS": [
+    "defiant calm stare",
+    "focused warrior intensity",
+    "quiet threat behind composed lips",
+    "bold vulnerability in strong posture"
+  ],
+  "CAMERA_ANGLES": [
+    "50 mm eye-level portrait, shallow depth of field",
+    "35 mm half-body at slightly low angle, dramatic silhouettes",
+    "85 mm close-up head and shoulders, tight framing",
+    "45° angle mid-body with sword visible and red haze behind"
+  ],
+  "ATMOSPHERES": [
+    "red-charged tension and controlled power",
+    "urban mythic solitude in crimson hush",
+    "silent battle readiness illuminated in red aura",
+    "sleek modern warrior ritual in scarlet light"
+  ],
+  "ACCESSORIES": [
+    "minimal gold earrings reflecting red light",
+    "subtle black gloves with red stitching",
+    "none — focus on bold red jacket and sword"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Stylised warrior portrait in bold red, cinematic and crisp.",
+    "1": "Intense stare and red ambient haze, edge of danger in the air.",
+    "2": "Violent red glow, katana poised, urban blood-ritual atmosphere."
+  }
+}

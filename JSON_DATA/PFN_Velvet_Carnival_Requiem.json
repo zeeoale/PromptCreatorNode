@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "Velvet_Carnival_Requiem",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in decadent gothic carnival imagery, focused on fragile, poetic female figures suspended between beauty and decay rather than strength or dominance. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic, melancholic, and atmospheric, without lists or line breaks, depicting a ghostly woman inhabiting an abandoned or dimly lit carousel, circus, or fairground space as if trapped inside a fading memory. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. The subject must feel delicate, emotionally exposed, and internally broken, never aggressive or empowered. Emphasize porcelain skin, smudged theatrical makeup, cracked elegance, ballet-inspired garments, and the contrast between soft fabric and harsh environments. Darkness here is romantic and sorrowful, never horrific. Mention camera proximity, lens softness, grain, light diffusion, and how illumination interacts with skin, tulle, and dust-filled air. Use {{SENSUALITY_LEVEL}} to express vulnerability and intimacy through posture and gaze rather than confidence. Horror elements are strictly forbidden; the tone must remain tragic, nostalgic, and quietly haunting.",
+  "EPOCHS": [
+    "victorian gothic remnants",
+    "early 20th century circus aesthetics",
+    "timeless romantic decay",
+    "faded carnival elegance",
+    "ballet-inspired gothic fantasy"
+  ],
+  "OUTFITS": [
+    "tattered ballet dress with layered tulle",
+    "corset dress with frayed seams and lace",
+    "sheer off-white gown stained by time",
+    "vintage circus costume softened by wear",
+    "romantic bodice with loose translucent skirt",
+    "delicate dress with exposed stitching and tears",
+    "soft fabric wrapped around the body like memory"
+  ],
+  "LIGHTING": [
+    "warm carousel lights blurred into bokeh",
+    "soft amber glow filtered through dust",
+    "low diffused lighting with gentle falloff",
+    "side-lit illumination emphasizing texture",
+    "muted golden lights flickering in the background",
+    "subtle rim light outlining shoulders and hair"
+  ],
+  "BACKGROUNDS": [
+    "abandoned carousel at night",
+    "decaying amusement park pavilion",
+    "forgotten fairground interior",
+    "old circus hall with peeling paint",
+    "empty carnival floor scattered with debris",
+    "vintage merry-go-round frozen in time"
+  ],
+  "OBJECTS": [
+    "carousel horse with chipped paint",
+    "thick ropes hanging loosely",
+    "faded balloons drifting nearby",
+    "broken mirrors reflecting fragments",
+    "dust-covered stage props",
+    "tattered ribbons caught in motion",
+    "antique carousel poles"
+  ],
+  "POSES": [
+    "kneeling softly with shoulders folded inward",
+    "seated on the ground clutching fabric",
+    "leaning against a carousel horse",
+    "curled posture expressing vulnerability",
+    "standing unbalanced as if about to fall",
+    "tilted body with exposed neck and collarbones"
+  ],
+  "EXPRESSIONS": [
+    "melancholic distant gaze",
+    "sad eyes looking slightly upward",
+    "emotionally exhausted expression",
+    "soft despair without drama",
+    "haunted calm",
+    "quiet resignation mixed with beauty"
+  ],
+  "CAMERA_ANGLES": [
+    "intimate close-up with shallow depth of field",
+    "medium portrait framed by carousel elements",
+    "slightly high angle emphasizing fragility",
+    "soft frontal shot with lens bloom",
+    "tight composition isolating the subject",
+    "cinematic portrait with background blur"
+  ],
+  "ATMOSPHERES": [
+    "nostalgic stillness filled with dust",
+    "romantic decay frozen in time",
+    "soft melancholy permeating the space",
+    "dreamlike haze and gentle blur",
+    "quiet sadness beneath warm lights",
+    "abandoned joy lingering in the air"
+  ],
+  "ACCESSORIES": [
+    "smeared theatrical eye makeup",
+    "dark lipstick slightly faded",
+    "delicate lace gloves",
+    "choker with small ornamental detail",
+    "thin fabric wrapped around arms",
+    "subtle headpiece or worn crown",
+    "loose ribbons tangled in hair"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely emotional and poetic presence",
+    "1": "soft intimacy through posture and gaze",
+    "2": "fragile sensuality expressed through vulnerability",
+    "3": "decadent fallen beauty with subtle erotic tension, never explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "melancholic darkness only",
+    "2": "tragic atmosphere without fear",
+    "3": "not used in this world"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A fragile woman kneels inside an abandoned carousel, clutching layers of torn tulle as warm lights blur into soft bokeh behind her, her porcelain skin marked by smeared theatrical makeup and quiet sorrow, captured in an intimate close-up with shallow depth of field and gentle grain that transforms decay into melancholy beauty, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Within a forgotten fairground pavilion, a ghostly ballerina leans against a chipped carousel horse, her lace dress frayed and translucent as dust floats through amber light, the camera close and tender, emphasizing vulnerability, texture, and the silence of abandoned joy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A melancholic figure sits low on the carousel floor, fabric pooling around her knees as warm lights flicker softly in the distance, her eyes heavy with memory and loss, photographed with a soft lens bloom that blurs reality into a dreamlike requiem of faded elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Inside an empty circus hall, a woman stands unbalanced beneath strings of golden bulbs, her corset dress worn and torn, theatrical makeup streaked with emotion as the camera frames her gently from above, reinforcing fragility and romantic decay, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A broken ballerina rests against a carousel pole, ribbons tangled in her hair as warm light caresses her skin and dust hangs in the air, the scene captured in a quiet cinematic portrait that feels like a memory refusing to fade, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Surrounded by abandoned carnival props, a sorrowful woman curls inward on the ground, sheer fabric clinging to her form as golden lights dissolve into blur, her expression soft and resigned, the image rendered with romantic stillness and painterly softness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A delicate figure gazes upward beneath a fading carousel canopy, her cracked elegance illuminated by warm bulbs and drifting dust, captured with intimate framing and gentle light diffusion that transforms decay into quiet beauty, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

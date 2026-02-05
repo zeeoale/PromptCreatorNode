@@ -1,0 +1,70 @@
+{
+  "EPOCHS": [
+    "forgotten age of forbidden knowledge",
+    "ancient sacrilegious times",
+    "crimson scripture era",
+    "era of bloodbound scribes"
+  ],
+  "OUTFITS": [
+    "tattered monk robes stained with ink and blood",
+    "hooded ceremonial vestments",
+    "sacred scribal garments with glowing runes",
+    "ancient script-covered linen",
+    "only ritual tattoos but naked",
+    "golden lingerie",
+    "tight and low-cutted ceremonial vestments"
+  ],
+  "LIGHTING": [
+    "flickering lanterns behind old scrolls",
+    "reddish ambient glow",
+    "mystical illumination from enchanted parchment"
+  ],
+  "BACKGROUNDS": [
+    "abandoned crypt library",
+    "underground temple of scriptures",
+    "cathedral of the blood book",
+    "scroll-filled cave with breathing walls"
+  ],
+  "OBJECTS": [
+    "floating cursed manuscripts",
+    "inking altars",
+    "scrolls with animated text",
+    "quills made of bone"
+  ],
+  "POSES": [
+    "chanting while transcribing",
+    "offering a glowing scripture",
+    "standing amidst circling scrolls",
+    "kneeling in front of a blood-lit tome"
+  ],
+  "EXPRESSIONS": [
+    "in a trance",
+    "possessed by knowledge",
+    "silent devotion",
+    "unblinking and focused"
+  ],
+  "CAMERA_ANGLES": [
+    "low angle from below the altar",
+    "close-up of face and scroll",
+    "over-the-shoulder of a writing scribe",
+    "top-down view of scrolls surrounding the figure"
+  ],
+  "ATMOSPHERES": [
+    "arcane and oppressive",
+    "ritualistic and unsettling",
+    "sacrilegious awe",
+    "claustrophobic and whispering"
+  ],
+  "ACCESSORIES": [
+    "rune-covered blindfolds",
+    "ink-dipped talismans",
+    "necklaces made of ancient bone scripts",
+    "scroll-bound cuffs"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "haunting ambient whispers, eerie peace",
+    "1": "floating scrolls and strange glyphs glowing",
+    "2": "bleeding books, whispers turning into screams",
+    "3": "scriptures screaming, walls pulsating with words"
+  }
+}

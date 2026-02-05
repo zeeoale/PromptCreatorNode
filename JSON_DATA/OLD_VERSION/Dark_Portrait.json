@@ -1,0 +1,69 @@
+{
+  "EPOCHS": [
+    "Decaying Futurism",
+    "Eternal Night Renaissance",
+    "Crumbling Cyberpunk Era",
+    "Gothic Bio-Mechanics Epoch",
+    "Dystopian Dark Romanticism"
+  ],
+  "OUTFITS": [
+    ""
+  ],
+  "LIGHTING": [
+    "Sinister Sapphire Spotlight",
+    "Lunar Luminance",
+    "Spectral Shadowplay",
+    "Ethereal Moon Glow",
+    "Ghastly Bioluminescence"
+  ],
+  "BACKGROUNDS": [
+    "black studio background",
+    "red velvet background with gold inlays"
+  ],
+  "OBJECTS": [
+    "Mechanical Tear Ducts",
+    "Bio-Wired Eyelids",
+    "Glowing Retinal Circuits",
+    "Kanji symbols painted across the face",
+    "Exposed Circuit Web under Skin",
+    "Translucent Dermal Mesh",
+    "Fused Symmetry Mask Fragment",
+    "Viscous Resin Drips from Eye Sockets"
+  ],
+  "POSES": [
+    "Neutral frontal face with no hand visible",
+    "Symmetrical head tilt with exposed jawline",
+    "Still expression, no hands in frame",
+    "Full face visible with no obstructions"
+  ],
+  "EXPRESSIONS": [
+    "Painful Elegance",
+    "Sensual Terror",
+    "Horrified Bliss",
+    "Distorted Delight",
+    "Tormented Pleasure"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme face-only macro close-up"
+  ],
+  "ATMOSPHERES": [
+    "Moody Midnight Garden",
+    "Ethereal Moonlit Playground",
+    "Dystopian Dream Landscape",
+    "Decaying Elegance",
+    "Haunted Harmony"
+  ],
+  "ACCESSORIES": [
+    "Bone-Crest Brow Ring",
+    "Asymmetrical Bio-Lens Eye",
+    "Suture-Stitch Cheek Band",
+    "Embedded Halo Socket (partial)"
+  ],
+  "HORROR_INTENSITY": {
+    "0": "Sensual unease amidst an ethereal garden of blue blooms",
+    "1": "Intimate embrace of surreal beauty and creeping dread",
+    "2": "Harmony with nature twisted into grotesque dystopian fantasy",
+    "3": "Ethereal nightmare of bio-mechanical horror and sensual torment",
+    "4": "Artful agony within the decaying elegance of a dark future"
+  }
+}

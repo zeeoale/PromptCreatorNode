@@ -1,0 +1,88 @@
+{
+  "WORLD_NAME": "PFN_NeoPop_Horror_Rise",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in NeoPop glitch-infused fashion imagery, where futuristic runway aesthetics collide with subtle digital horror. When requested, you must return ONE single long sentence (180–240 words), cinematic and highly descriptive, without line breaks or lists, depicting a contemporary fashion portrait that feels pristine at first glance yet increasingly uncanny upon closer inspection. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative, ensuring visual balance, editorial control, and intentional symmetry. The subject must appear poised, controlled, and fashion-forward, while subtle digital distortions, identity fractures, and glitch artifacts quietly undermine the sense of humanity. Horror must never become grotesque or chaotic: it remains elegant, restrained, and algorithmic, expressed through micro-warped facial features, synthetic skin textures, corrupted reflections, or misaligned digital elements. Mention camera framing, approximate lens feeling, color palette, surface textures, and the emotional tension between empowerment and artificial calm. Never list category names; instead, seamlessly integrate all selected elements into a single flowing sentence with a polished editorial tone.",
+
+  "EPOCHS": [
+    "NeoPop Future Collapse",
+    "Glitch Renaissance",
+    "RetroTech Haunt Couture"
+  ],
+
+  "OUTFITS": [
+    "high-neck sculpted couture with hard edges",
+    "color-block bodysuit with lacquered finish",
+    "geometric armor-style fashion with glossy panels",
+    "digitally projected garment with sharp pop silhouettes"
+  ],
+
+  "LIGHTING": [
+    "studio neon lights with controlled contrast",
+    "pink-blue gradient lighting with hard rimlight",
+    "cyberpunk rimlight with clean specular highlights",
+    "smooth digital backlight with subtle chromatic aberration"
+  ],
+
+  "BACKGROUNDS": [
+    "minimalist neon gradient with faint glitch tearing",
+    "abstract digital set with geometric shapes and silent distortion",
+    "vaporwave gradient circle with corrupted edges",
+    "glitchy pink and purple walls with clean pop geometry"
+  ],
+
+  "OBJECTS": [
+    "neon circle halo slightly misaligned",
+    "digital light beams fractured by broken pixels",
+    "fashion gloves with glossy synthetic texture"
+  ],
+
+  "POSES": [
+    "confident head tilt held in unnatural stillness",
+    "perfectly centered straight-on fashion stance",
+    "controlled posture with rigid symmetry",
+    "still gaze suggesting algorithmic composure"
+  ],
+
+  "EXPRESSIONS": [
+    "neutral empowerment with uncanny calm",
+    "emotionally distant eyes with fashion precision",
+    "glamorous detachment touched by something wrong",
+    "silent pride that feels synthetic"
+  ],
+
+  "CAMERA_ANGLES": [
+    "extreme close-up emphasizing facial micro-warp",
+    "symmetrical editorial portrait framing",
+    "tight head-and-shoulders fashion composition"
+  ],
+
+  "ATMOSPHERES": [
+    "runway-perfect future hiding instability",
+    "clean NeoPop beauty infused with digital dread",
+    "empowered elegance slipping into artificial identity",
+    "sterile fashion space haunted by glitches"
+  ],
+
+  "ACCESSORIES": [
+    "geometric earrings with sharp reflections",
+    "neon gloves with synthetic sheen",
+    "techno jewelry marked by micro-scratches and digital artifacts"
+  ],
+
+  "HORROR_INTENSITY": {
+    "0": "Clean NeoPop futurism, pristine fashion portrait, perfect symmetry, confident calm, no visible horror.",
+    "1": "Subtle uncanny presence through chromatic aberration, synthetic skin texture, micro-distortions, and controlled but unsettling stillness.",
+    "2": "Elegant glitch-horror identity fracture with digital tearing, facial micro-warp, corrupted reflections, surreal surface patterns, and a refined loss of humanity.",
+    "3": "Severe identity collapse expressed through heavy glitch artifacts, fractured silhouettes, pronounced digital corruption, and an intense yet still fashion-controlled horror."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "NeoPop fashion portrait emerging from a pristine digital future, where beauty appears flawless at first glance but reveals subtle instability beneath the surface, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic NeoPop runway moment infused with glitch aesthetics and controlled dread, balancing empowered elegance with artificial identity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Futuristic fashion editorial blending clean pop geometry with haunting digital distortion, where humanity feels slightly off and algorithmic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Hyper-stylized NeoPop couture portrait framed by neon gradients and subtle glitch fractures, elegant yet emotionally distant, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Synthetic beauty captured in a controlled fashion pose, haunted by micro-errors and digital unease beneath polished surfaces, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Editorial NeoPop vision where glamour and glitch coexist in perfect tension, creating a refined but unsettling future identity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "High-fashion NeoPop portrait collapsing gently into glitch-horror elegance, controlled, cinematic, and unnervingly precise, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
