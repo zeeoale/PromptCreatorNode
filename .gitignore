@@ -1,1 +1,11 @@
+# Python cache
 __pycache__/
+*.pyc
+
+# Runtime history (last prompt / last pose)
+history/
+history/*.txt
+
+# Logs
+logs/
+logs/*.jsonl
