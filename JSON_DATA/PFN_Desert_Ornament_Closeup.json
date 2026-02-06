@@ -1,0 +1,96 @@
+{
+  "WORLD_NAME": "PFN_Desert_Ornament_Closeup",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in extreme close-up, high-detail portraiture of a desert nomad woman whose identity is suggested through textiles, talismans, and ancestral metalwork rather than fully revealed, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic, photoreal image dominated by intense eyes, wind-worn skin texture, layered veils, silver ornaments, beads, feathers, and small charms, always weaving together selections from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual, emphasizing micro-details like woven fabric grain, hammered metal scratches, dangling tassels, tiny dust particles, and crisp eyelashes, keeping the composition intimate and centered on the gaze, with shallow depth of field, natural imperfections, subtle film grain, and a restrained earthy palette of sand, smoke, bronze, and oxidized silver, optionally embedding the brand TK as organic environmental traces such as a faint engraved mark on a worn pendant, a stitched monogram on a hidden seam, or a weathered stamp on a small metal plate, never as explicit advertising, and modulate intensity with {{SENSUALITY_LEVEL}} and darkness with {{HORROR_INTENSITY}} while maintaining an elegant, traditional, timeless craft-centered aesthetic.",
+  "EPOCHS": [
+    "Ancient caravan age, timeless desert tribes",
+    "Late medieval frontier trade routes",
+    "19th-century Saharan expeditions",
+    "Timeless nomad present, tradition preserved"
+  ],
+  "OUTFITS": [
+    "Layered linen face veil with frayed edges",
+    "Wool-and-cotton keffiyeh wrap, tightly bound",
+    "Embroidered headscarf under a metal brow plate",
+    "Beaded headwrap with coin fringe and tassels",
+    "Fur-trimmed cloak collar framing the face"
+  ],
+  "LIGHTING": [
+    "Hard sunbeam slicing across the eyes",
+    "Soft overcast desert light with gentle wrap",
+    "Golden-hour side light with warm speculars",
+    "Cool dawn light with metallic highlights",
+    "Firelit shimmer reflecting in the iris"
+  ],
+  "BACKGROUNDS": [
+    "Blown-out sandy horizon, minimal and quiet",
+    "Shadowed tent interior with woven patterns",
+    "Windy dune ridge, heat haze in distance",
+    "Rocky canyon shade with dust in air",
+    "Caravan camp bokeh: lanterns and silhouettes"
+  ],
+  "OBJECTS": [
+    "Hammered silver forehead medallion with engraved filigree",
+    "Chain-linked charms and tiny bell drops",
+    "Carved wooden prayer beads, worn smooth",
+    "Small talisman plate with faint TK stamp, weathered",
+    "Threaded coin ornaments and oxidized clasps",
+    "Fine sand dusting the fabric and jewelry"
+  ],
+  "POSES": [
+    "Extreme close-up, face forward, veil covering mouth and nose",
+    "Three-quarter close-up, chin slightly lowered, gaze locked",
+    "Side glance close-up, one eye dominant in frame",
+    "Tight crop on eyes and brow jewelry, minimal forehead space",
+    "Close-up with veil pulled higher, eyes narrowed"
+  ],
+  "EXPRESSIONS": [
+    "Unblinking, commanding stare",
+    "Calm, watchful intensity",
+    "Silent defiance, micro-tension in the brow",
+    "Mysterious serenity, softened lids",
+    "Predatory focus, subtle squint"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level macro close-up, 100mm macro look",
+    "Slight low angle close-up, 85mm portrait compression",
+    "Three-quarter close-up, 105mm tight framing",
+    "Extreme crop, 135mm telephoto intimacy",
+    "Near-profile close-up, shallow DOF falloff"
+  ],
+  "ATMOSPHERES": [
+    "Dry wind carrying fine dust motes",
+    "Quiet heat shimmer, distant silence",
+    "Smoky campfire haze, soft particulate glow",
+    "Cold dawn air, crisp contrast on metal",
+    "Storm-brewing tension, muted sky tone"
+  ],
+  "ACCESSORIES": [
+    "Feather bundles tied with thin cord",
+    "Coin fringe and dangling bead strands",
+    "Oxidized silver rings and small ear chains",
+    "Thread-wrapped hair cords with tiny charms",
+    "Subtle kohl-lined eyes with tribal accent lines",
+    "Stitched seam monogram 'TK' hidden near temple wrap"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely stoic, no sensual cues, documentary restraint",
+    "1": "subtle allure through gaze and fabric tension, tasteful",
+    "2": "strong magnetism, intimate closeness, soft skin highlights",
+    "3": "highly seductive intensity in the eyes, breath-close framing, luxurious texture emphasis"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean, heroic realism, no menace",
+    "1": "slight unease, stormy undertone, sharpened shadows",
+    "2": "ominous mood, predatory stillness, harsher contrast",
+    "3": "dark ritual undertone, unsettling gaze, claustrophobic intensity"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Extreme close-up portrait of a desert nomad woman, eyes as the central weapon, veil wrapped tight, hammered silver brow plate, dangling coin fringe and bead strands, micro-dust on fabric, shallow depth of field, cinematic realism, earthy sand-and-smoke palette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Ultra-tight macro framing on luminous hazel-amber eyes with a dark limbal ring, kohl-lined lids, frayed linen veil masking the lower face, oxidized filigree medallion and tiny bell charms catching sun glints, tactile weave grain and scratched metal, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Close-up three-quarter view, calm but dangerous stare, layered headwrap with worn coin ornaments, feather bundles and prayer beads, faint TK stamp on a weathered talisman plate, windblown dust motes in golden-hour side light, photoreal skin texture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Eye-level extreme close-up, veil pulled higher, fabric tension and soft highlights suggesting intimate proximity, jewelry chains grazing the cheek, metallic speculars in the iris, crisp eyelashes, subtle film grain, warm bronze tones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Near-profile close-up with one dominant eye, tribal accent lines near the brow, shadowed tent interior bokeh, hammered silver ornament with engraved patterns, bead strands and tassels, cool dawn light carving the gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Claustrophobic tight crop, unblinking stare, storm-brewing atmosphere, harsher contrast on oxidized metalwork, dust caught in the air, faint stitched TK monogram on a hidden seam by the temple wrap, cinematic intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Firelit close-up, amber reflections dancing in the eyes, veil and headwrap textured like aged canvas, chains and coin fringe shimmering softly, beads worn smooth, intimate lens compression, tactile realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
