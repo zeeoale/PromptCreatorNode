@@ -1,0 +1,102 @@
+{
+  "WORLD_NAME": "PFN_Rose_Mode",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in soft, editorial, high-fashion portraiture where the entire visual language is shifted toward refined rose and blush tones, expressing emotional warmth, vulnerability, and modern elegance without sweetness or naïveté, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic fashion image centered on a poised female figure dressed in powder pink, dusty rose, pale blush, muted coral, and soft mauve accents, featuring technical knitwear, fluid tailoring, mesh layers, and minimalist accessories, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive editorial vision, emphasizing smooth skin rendering, gentle fabric movement, restrained posture, emotional distance softened by color, and a fashion-film sensibility, with a palette dominated by rose gradients, pastel shadows, soft pink highlights, subtle pearlescent reflections, shallow-to-medium depth of field, clean studio lighting, gentle bloom, and a calm, intimate, contemporary finish, optionally integrating the brand TK as discreet tonal elements such as a rose-gold pendant, an embossed strap, a stitched monogram, or a matte metal accent, never overt or commercial, while modulating intimacy with {{SENSUALITY_LEVEL}} and tension with {{HORROR_INTENSITY}} without breaking the delicate yet disciplined mood.",
+  "EPOCHS": [
+    "Contemporary high-fashion editorial present",
+    "Near-future soft minimalism",
+    "Timeless modern couture space",
+    "Post-industrial calm utopia"
+  ],
+  "OUTFITS": [
+    "Powder pink technical jumpsuit with fluid silhouette",
+    "Dusty rose quilted monochrome suit with elastic cuffs",
+    "High-neck knitted bodysuit in soft blush tone",
+    "Layered mesh top over structured undergarment in pale pink",
+    "Minimal cardigan and cropped top ensemble in muted rose and mauve",
+    "Lightweight hooded wrap with seamless construction in soft coral"
+  ],
+  "LIGHTING": [
+    "Soft diffused studio light with warm pink temperature",
+    "Even frontal light with gentle pastel falloff",
+    "Subtle neon frame glow in pale rose hue",
+    "Delicate rim light with blush tint on edges",
+    "Controlled top light producing smooth highlights and tender shadows"
+  ],
+  "BACKGROUNDS": [
+    "Minimal studio room washed in blush gradients",
+    "Geometric light frame glowing in soft rose",
+    "Seamless cyclorama fading from pale pink to warm neutral",
+    "Sterile interior space with gentle pink reflections",
+    "Abstract architectural void, quiet and intimate"
+  ],
+  "OBJECTS": [
+    "Minimalist handbag with soft geometry in tonal pink",
+    "Transparent or lightly tinted eyewear catching rose reflections",
+    "Technical straps and fastenings with rose-gold accents",
+    "Subtle TK stitched tab on garment edge, tone-on-tone",
+    "Glossy or satin floor reflections with soft blush sheen"
+  ],
+  "POSES": [
+    "Standing tall, shoulders relaxed, gaze lifted",
+    "Walking pose with controlled stride",
+    "Seated wide stance, elbows resting loosely",
+    "Profile pose with chin raised",
+    "Frontal pose, arms crossed with restraint",
+    "Mid-step walk, one foot lifted, fabric in motion",
+    "Turned torso with head facing camera, subtle twist",
+    "Weight shifted on one hip, relaxed asymmetry",
+    "Hands adjusting collar or neckline, candid control",
+    "Arms slightly away from body, silhouette opened",
+    "Slow pivot movement, captured between poses",
+    "Seated lean forward, forearms resting on thighs",
+    "Standing with one shoulder advanced, dynamic balance"
+  ],
+  "EXPRESSIONS": [
+    "Soft detachment, introspective calm",
+    "Quiet confidence with relaxed lips",
+    "Editorial neutrality softened by warmth",
+    "Gentle vulnerability under control",
+    "Distant gaze, emotionally open yet reserved"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level fashion portrait, 85mm look",
+    "Slight low angle emphasizing elegance",
+    "Three-quarter view with clean framing",
+    "Centered frontal composition",
+    "Profile close-up with negative space"
+  ],
+  "ATMOSPHERES": [
+    "Quiet intimacy, controlled environment",
+    "Soft air, emotionally charged stillness",
+    "Muted rose neon hum in the background",
+    "Gentle chromatic pressure",
+    "Editorial calm with emotional warmth"
+  ],
+  "ACCESSORIES": [
+    "Minimal necklace with small rose-gold TK pendant",
+    "Thin chain resting lightly at collarbone level",
+    "Matte or brushed rose-gold finish",
+    "Pendant partially hidden by high-neck garment"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "pure editorial distance, emotional neutrality",
+    "1": "subtle intimacy through color and posture",
+    "2": "controlled softness, quiet attraction",
+    "3": "intimate presence, delicate rose-toned allure"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean editorial calm, pastel palette only",
+    "1": "subtle unease through empty softness",
+    "2": "emotional fragility, sterile stillness",
+    "3": "delicate alienation, oppressive tenderness"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Soft rose-toned fashion portrait with a poised female figure in powder pink technical knitwear, clean studio lighting and minimal background, emotional warmth and editorial restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Editorial studio scene washed in blush gradients, model dressed in layered mesh and quilted fabric, neutral expression, gentle pastel light and refined elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Walking pose in a pale pink minimalist environment, technical fashion silhouette, sculptural eyewear and clean lines, soft authority and emotional clarity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Seated fashion portrait framed by a glowing rose geometric light, monochrome outfit with quilted texture, calm posture and introspective gaze, intimate editorial mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Profile portrait with raised chin, blush knit bodysuit and mesh overlay, delicate rim light shaping the silhouette, refined softness and modern elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Front-facing minimalist fashion image, arms crossed, high-neck knitwear, soft rose neon rim light and calm atmosphere, emotional warmth and editorial distance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Clean futuristic studio portrait in rose-spectrum palette, smooth skin rendering, restrained emotion, subtle TK pendant or tonal stitched tab integrated into fabric, disciplined softness and intimate tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

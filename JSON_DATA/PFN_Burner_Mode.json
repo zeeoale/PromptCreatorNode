@@ -1,0 +1,102 @@
+{
+  "WORLD_NAME": "PFN_Burner_Mode",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in warm, minimal, high-fashion portraiture where the entire scene is pushed toward red spectrum tones, delivering disciplined editorial elegance with heated chromatic tension rather than literal fire, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic, ultra-clean fashion image centered on a poised female figure dressed in scarlet, crimson, deep burgundy, and muted rose accents, featuring technical knitwear, structured jumpsuits, mesh layers, and minimalist accessories, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing sharp silhouettes, fabric texture precision, smooth skin rendering, restrained emotion, and an editorial sense of distance, with a palette dominated by crimson gradients, oxblood shadows, soft warm highlights, and subtle red neon reflections, shallow-to-medium depth of field, clean studio lighting, gentle bloom, and a modern fashion-film finish, optionally integrating the brand TK as discreet design elements such as a tonal pendant, an embossed strap detail, a stitched monogram tab, or a laser-etched metal accent, never overt or commercial, while modulating elegance with {{SENSUALITY_LEVEL}} and tension with {{HORROR_INTENSITY}} without breaking the refined, controlled heat.",
+  "EPOCHS": [
+    "Near-future minimalist fashion era",
+    "Contemporary high-fashion editorial present",
+    "Post-industrial clean utopia",
+    "Timeless modernity, beyond trends"
+  ],
+  "OUTFITS": [
+    "Crimson technical jumpsuit with cinched waist",
+    "Oxblood quilted monochrome suit with elastic cuffs",
+    "High-neck knitted bodysuit in muted scarlet",
+    "Layered mesh top over structured undergarment in deep red tones",
+    "Minimal cardigan and cropped top ensemble in warm rose and burgundy",
+    "Sleek hooded wrap with seamless construction in dark wine colorway"
+  ],
+  "LIGHTING": [
+    "Soft overhead studio panel with warm temperature",
+    "Even diffused light with gentle warm falloff",
+    "Red neon frame backlight outlining the figure",
+    "Clean rim light with crimson tint on edges",
+    "Controlled top light with warm highlights and deep shadow roll-off"
+  ],
+  "BACKGROUNDS": [
+    "Minimal studio room washed in red gradients",
+    "Geometric light frame glowing in soft crimson",
+    "Seamless cyclorama with scarlet-to-burgundy fade",
+    "Sterile interior space with warm red reflections on hard edges",
+    "Abstract architectural void, quiet and heated"
+  ],
+  "OBJECTS": [
+    "Minimalist handbag with rigid geometry in tonal red",
+    "Transparent or smoke-tinted eyewear catching red reflections",
+    "Technical straps and fastenings with warm metallic accents",
+    "Subtle TK stitched tab on garment edge, tone-on-tone",
+    "Glossy floor reflections with crimson sheen beneath the model"
+  ],
+  "POSES": [
+    "Standing tall, shoulders relaxed, gaze lifted",
+    "Walking pose with controlled stride",
+    "Seated wide stance, elbows resting loosely",
+    "Profile pose with chin raised",
+    "Frontal pose, arms crossed with restraint",
+    "Mid-step walk, one foot lifted, fabric in motion",
+    "Turned torso with head facing camera, subtle twist",
+    "Weight shifted on one hip, relaxed asymmetry",
+    "Hands adjusting collar or neckline, candid control",
+    "Arms slightly away from body, silhouette opened",
+    "Slow pivot movement, captured between poses",
+    "Seated lean forward, forearms resting on thighs",
+    "Standing with one shoulder advanced, dynamic balance"
+  ],
+  "EXPRESSIONS": [
+    "Detached calm, emotion held back",
+    "Quiet confidence, neutral lips",
+    "Editorial seriousness, unfazed gaze",
+    "Controlled heat, minimal facial tension",
+    "Distant introspection, eyes slightly narrowed"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level fashion portrait, 85mm look",
+    "Slight low angle emphasizing authority",
+    "Three-quarter view with clean framing",
+    "Centered frontal composition",
+    "Profile close-up with negative space"
+  ],
+  "ATMOSPHERES": [
+    "Heated silence, almost clinical",
+    "Warm air, controlled environment",
+    "Soft red neon hum in the background",
+    "Chromatic pressure, no movement",
+    "Editorial stillness, temperature rising"
+  ],
+  "ACCESSORIES": [
+    "Minimal necklace with small metallic TK pendant, clean typography",
+    "Thin chain resting at collarbone level",
+    "Brushed steel or warm gunmetal finish",
+    "Pendant partially hidden by high-neck garment"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "pure fashion distance, no sensual intent",
+    "1": "subtle elegance through posture and fabric warmth",
+    "2": "controlled allure, heated magnetism under restraint",
+    "3": "intimate proximity without softness, crimson seduction"
+  },
+  "HORROR_INTENSITY": {
+    "0": "clean editorial calm, warm palette only",
+    "1": "slight unease through red-washed emptiness",
+    "2": "sterile tension, emotionally distant heat",
+    "3": "clinical alienation, oppressive crimson atmosphere"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Warm minimalist fashion portrait washed in crimson and scarlet tones, poised female figure in technical knitwear and structured jumpsuit, clean studio lighting and geometric background, controlled heat and editorial restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Editorial studio scene with a model dressed in deep red layered mesh and quilted fabric, neutral expression, soft overhead warm light, reflective floor and disciplined elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Walking pose in a minimal red-gradient environment, technical fashion silhouette, sculptural eyewear and clean lines, chromatic pressure and modern authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Seated fashion portrait framed by a glowing crimson geometric light, monochrome outfit with quilted texture, calm dominant posture and distant gaze, ultra-clean heated editorial mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Profile portrait with raised chin, scarlet knit bodysuit and mesh overlay, warm rim light carving the silhouette, refined tension and controlled heat, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Front-facing minimalist fashion image, arms crossed, high-neck knitwear, soft red neon rim light and sterile atmosphere, quiet authority and crimson allure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Clean futuristic studio portrait in red-spectrum palette, smooth skin rendering, restrained emotion, subtle TK pendant or tonal stitched tab integrated into fabric, disciplined elegance and rising temperature, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
