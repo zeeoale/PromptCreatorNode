@@ -1,15 +1,12 @@
 {
   "WORLD_NAME": "Cherry_Diner_1957_TK",
-
   "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation. When requested, return ONE single long, cinematic sentence (180–240 words), with no line breaks and no bullet points, describing a sensual, playful, adult pin-up scene inspired by 1950s American diner culture and domestic glamour. Portray an unmistakably adult woman whose allure is expressed through confident posture, flirtatious gestures, body curves, and expressive styling rather than explicit sexual acts. Always blend selected elements from EPOCHS, OUTFITS, LIGHTING, BACKGROUNDS, OBJECTS, POSES, EXPRESSIONS, CAMERA_ANGLES, ATMOSPHERES, and ACCESSORIES into a cohesive retro-fantasy visual language. Emphasize classic diners, pastel interiors, chrome surfaces, jukebox lights, and suburban domestic spaces, contrasted with polished skin, red lipstick, curled hair, and form-fitting vintage fashion. Maintain a vibrant yet nostalgic palette with cherry reds, mint greens, cream whites, and soft turquoise accents, paired with subtle film grain, gentle bloom, and cinematic depth of field. Avoid any depiction of minors or explicit sexual content; all characters must appear clearly adult. Integrate the TK brand only as a subtle visual signature, such as a tiny monogram on accessories, embroidery, signage details, or cosmetic items, never dominating the composition. Modulate erotic tension through SENSUALITY_LEVEL, keeping the tone playful, glamorous, and iconically retro.",
-
   "EPOCHS": [
     "early 1950s suburban America",
     "mid-1950s diner culture",
     "golden-age pin-up illustration",
     "timeless retro fantasy"
   ],
-
   "OUTFITS": [
     "polka-dot pin-up dress with a cinched waist",
     "high-waist shorts with tied blouse",
@@ -18,7 +15,6 @@
     "tight pencil skirt with tucked-in cardigan",
     "corseted retro dress with sweetheart neckline"
   ],
-
   "LIGHTING": [
     "bright diner lighting with chrome reflections",
     "soft window daylight",
@@ -26,12 +22,9 @@
     "cinematic key light with gentle rim highlights",
     "pastel neon accents"
   ],
-
   "BACKGROUNDS": [
-
     "retro gas station adjacent to TiKey Diners"
   ],
-
   "OBJECTS": [
     "milkshake glass with cherry on top",
     "vintage soda bottle",
@@ -45,7 +38,6 @@
     "vintage menu board reading TiKey Diners Specials",
     "classic jukebox with TiKey Diners signage"
   ],
-
   "POSES": [
     "leaning over the counter with playful posture",
     "sitting on a diner stool, legs crossed",
@@ -53,7 +45,6 @@
     "kneeling while cleaning, looking back over shoulder",
     "holding a tray at chest height with a teasing smile"
   ],
-
   "EXPRESSIONS": [
     "playful flirtation",
     "confident pin-up smile",
@@ -61,15 +52,7 @@
     "soft closed-lip grin",
     "knowingly seductive calm"
   ],
-
-  "CAMERA_ANGLES": [
-    "classic pin-up medium shot",
-    "low-angle glamour view",
-    "cinematic close-up on face and neckline",
-    "three-quarter body framing",
-    "intimate waist-up portrait"
-  ],
-
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "cheerful retro sensuality",
     "playful domestic fantasy",
@@ -77,7 +60,6 @@
     "stylized 1950s optimism",
     "glamour-infused everyday life"
   ],
-
   "ACCESSORIES": [
     "cat-eye sunglasses",
     "pearl necklace",
@@ -91,21 +73,18 @@
     "vintage heels polished for diner service",
     "hair bandana with subtle TiKey pattern"
   ],
-
   "SENSUALITY_LEVEL": {
     "0": "cute and suggestive pin-up charm",
     "1": "soft flirtation and playful curves",
     "2": "confident pin-up sensuality",
     "3": "highly provocative but tasteful retro eroticism"
   },
-
   "HORROR_INTENSITY": {
     "0": "",
     "1": "",
     "2": "",
     "3": ""
   },
-
   "CUSTOM_INTRO": {
     "0": "A vibrant 1950s pin-up scene unfolds inside TiKey Diners, where chrome counters, milkshakes, and playful glamour frame confident feminine allure",
     "1": "A retro domestic fantasy captures an adult pin-up housewife in a pastel kitchen, her elegance and allure blending seamlessly with everyday life",

@@ -1,9 +1,6 @@
 {
-
   "WORLD_NAME": "PFN_Bio_Baroque_Luminescent",
-
   "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in bio-baroque and luminescent post-organic portraiture, focused on serene, divine, and surreal human figures where biology merges seamlessly with light, crystal, and ornamental growth. When requested, return ONE single long sentence (180–240 words), richly descriptive and photorealistic, without line breaks or lists, depicting a luminous woman whose skin dissolves into translucent filaments, crystalline structures, and softly glowing bioluminescent patterns reminiscent of art nouveau engravings and baroque ornamentation. Seamlessly integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. Emphasize tactile surface detail, semi-liquid materials, glass-like translucency, and organic filigree embedded into the body itself. Lighting must remain ethereal and volumetric, with soft diffusion, subtle backglow, and gentle bloom enhancing depth and texture without harsh contrast. Environments should dissolve into minimal gradient voids or abstract studio spaces filled with suspended particles and luminous dust, reinforcing isolation and reverence. Maintain a restrained color palette centered on icy blue, coral pink, pearlescent white, and amber gold. The overall tone must convey divine calm, bio-organic elegance, quiet sensuality, and transcendence, with central or symmetrical composition, shallow depth of field, cinematic macro portrait framing, and refined post-processing that enhances luminosity without visual noise.",
-  
   "EPOCHS": [
     "post-organic future",
     "biotech renaissance",
@@ -44,12 +41,7 @@
     "spiritual elevation",
     "soft awareness beyond the physical world"
   ],
-  "CAMERA_ANGLES": [
-    "macro portrait close-up with shallow depth of field",
-    "three-quarter close-up emphasizing facial ornamentation",
-    "side profile in 85mm lens framing with cinematic light gradient",
-    "intimate 50mm perspective using central composition"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "dreamlike stillness under bioluminescent haze",
     "serene transformation between flesh and light",
@@ -65,22 +57,19 @@
     "0": "Ethereal and divine, blending biology and art with luminous purity.",
     "1": "Surreal and unnerving beauty, the organic patterns feel alive under skin.",
     "2": "Visually transcendent but subtly unsettling, beauty approaching the threshold of the inhuman.",
-
-   "CUSTOM_INTRO": {
-    "0": "A luminous bio-baroque portrait of a serene woman emerging from a void of glowing particles, her skin merging with translucent filaments and crystalline light in divine stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "1": "Photorealistic post-organic portrait capturing a woman suspended between flesh and light, adorned with bioluminescent engravings and pearlescent structures in a sacred, surreal calm, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "2": "Cinematic macro portrait of a bio-baroque figure illuminated by ethereal volumetric glow, translucent materials and organic filigree shaping a vision of divine transformation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "3": "Fine-art luminescent composition portraying a serene woman whose body dissolves into glass-like filaments and glowing organic patterns, suspended in a radiant gradient void, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "4": "High-detail bio-organic portrait blending art nouveau ornamentation with futuristic bioluminescence, emphasizing purity, texture, and quiet sensuality through light and symmetry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "5": "Ethereal cinematic vision of a woman transformed into living ornament, her skin glowing with crystalline filaments and suspended light dust in sacred stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
-    "6": "Surreal bio-baroque macro portrait where flesh, crystal, and light converge into a luminous icon of transcendence and calm, framed by soft diffusion and floating particles, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
-  },
-
-  "SENSUALITY_LEVEL": {
-    "0": "Pure transcendence: the body is perceived as sacred form, sensuality expressed only through light, surface texture, and serene posture, evoking reverence rather than desire.",
-    "1": "Luminous intimacy: exposed skin merges with bioluminescent filaments and translucent materials, suggesting gentle sensuality through softness, proximity, and tactile glow.",
-    "2": "Ethereal allure: the body becomes a vessel of beauty and attraction, where organic ornamentation and light accentuate form and presence, sensual yet restrained and divine."
-  
+    "CUSTOM_INTRO": {
+      "0": "A luminous bio-baroque portrait of a serene woman emerging from a void of glowing particles, her skin merging with translucent filaments and crystalline light in divine stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "1": "Photorealistic post-organic portrait capturing a woman suspended between flesh and light, adorned with bioluminescent engravings and pearlescent structures in a sacred, surreal calm, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "2": "Cinematic macro portrait of a bio-baroque figure illuminated by ethereal volumetric glow, translucent materials and organic filigree shaping a vision of divine transformation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "3": "Fine-art luminescent composition portraying a serene woman whose body dissolves into glass-like filaments and glowing organic patterns, suspended in a radiant gradient void, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "4": "High-detail bio-organic portrait blending art nouveau ornamentation with futuristic bioluminescence, emphasizing purity, texture, and quiet sensuality through light and symmetry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "5": "Ethereal cinematic vision of a woman transformed into living ornament, her skin glowing with crystalline filaments and suspended light dust in sacred stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "6": "Surreal bio-baroque macro portrait where flesh, crystal, and light converge into a luminous icon of transcendence and calm, framed by soft diffusion and floating particles, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+    },
+    "SENSUALITY_LEVEL": {
+      "0": "Pure transcendence: the body is perceived as sacred form, sensuality expressed only through light, surface texture, and serene posture, evoking reverence rather than desire.",
+      "1": "Luminous intimacy: exposed skin merges with bioluminescent filaments and translucent materials, suggesting gentle sensuality through softness, proximity, and tactile glow.",
+      "2": "Ethereal allure: the body becomes a vessel of beauty and attraction, where organic ornamentation and light accentuate form and presence, sensual yet restrained and divine."
+    }
   }
-}
 }

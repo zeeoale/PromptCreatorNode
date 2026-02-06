@@ -24,6 +24,7 @@
   ],
   "BACKGROUNDS": [
     "Minimal studio room washed in blush gradients",
+    "Soft blush gradient wall with a rose neon word sign reading 'TiKey', gentle halo and pearlescent reflections",
     "Geometric light frame glowing in soft rose",
     "Seamless cyclorama fading from pale pink to warm neutral",
     "Sterile interior space with gentle pink reflections",
@@ -49,7 +50,11 @@
     "Arms slightly away from body, silhouette opened",
     "Slow pivot movement, captured between poses",
     "Seated lean forward, forearms resting on thighs",
-    "Standing with one shoulder advanced, dynamic balance"
+    "Standing with one shoulder advanced, dynamic balance",
+    "reclining on an unmade bed",
+    "seated on the mattress with relaxed posture",
+    "leaning against the wall, shoulders soft",
+    "lying sideways with knees slightly drawn in"
   ],
   "EXPRESSIONS": [
     "Soft detachment, introspective calm",
@@ -58,13 +63,7 @@
     "Gentle vulnerability under control",
     "Distant gaze, emotionally open yet reserved"
   ],
-  "CAMERA_ANGLES": [
-    "Eye-level fashion portrait, 85mm look",
-    "Slight low angle emphasizing elegance",
-    "Three-quarter view with clean framing",
-    "Centered frontal composition",
-    "Profile close-up with negative space"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Quiet intimacy, controlled environment",
     "Soft air, emotionally charged stillness",
@@ -91,7 +90,7 @@
     "3": "delicate alienation, oppressive tenderness"
   },
   "CUSTOM_INTRO": {
-    "0": "Soft rose-toned fashion portrait with a poised female figure in powder pink technical knitwear, clean studio lighting and minimal background, emotional warmth and editorial restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "0": "Soft rose-toned fashion extreme close-up portrait with a poised female figure in powder pink technical knitwear, clean studio lighting and minimal background, emotional warmth and editorial restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "1": "Editorial studio scene washed in blush gradients, model dressed in layered mesh and quilted fabric, neutral expression, gentle pastel light and refined elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "2": "Walking pose in a pale pink minimalist environment, technical fashion silhouette, sculptural eyewear and clean lines, soft authority and emotional clarity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "3": "Seated fashion portrait framed by a glowing rose geometric light, monochrome outfit with quilted texture, calm posture and introspective gaze, intimate editorial mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",

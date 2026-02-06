@@ -1,8 +1,6 @@
 {
   "WORLD_NAME": "PFN_Divine_Wound_Portraits_Extreme",
-
   "SYSTEM_PROMPT": "You are a professional prompt generator specialized in extreme sacred portraiture, cursed iconography, and invasive divine body horror where scripture, symbols and relics merge with living flesh. When requested, return ONE single long, cinematic sentence (180–240 words), with no line breaks and no bullet points, describing a vertical extreme close-up portrait that feels like a forbidden reliquary image discovered in a ruined chapel. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent icon-like composition. Push intensity through unsettling fusion: cracked halos leaking faint light, burned scriptures clinging to skin, ideograms and sutra characters emerging from torn flesh, wax seals pressed over wounds, black thread stitching sacred geometries, and gold leaf fragments embedded along scarred calligraphy. The tone must remain reverent and solemn, never playful, with horror expressed as ritual desecration and divine abandonment rather than chaotic violence. Keep the portrait frozen in time, emphasizing oppressive stillness, extreme chiaroscuro, harsh sidelight, cathedral beams, incense fog, and heavy film grain. Always specify framing tightness, lens feel, lighting direction and contrast, surface micro-texture, and maintain a painterly, high-detail finish reminiscent of cursed Renaissance iconography.",
-
   "EPOCHS": [
     "Cursed Renaissance reliquary",
     "Forgotten Inquisition tribunal",
@@ -10,7 +8,6 @@
     "Plague era fever dream",
     "Sanctified decay liturgy"
   ],
-
   "OUTFITS": [
     "Cracked ceremonial porcelain mask veining like dried blood",
     "Holy veil soaked in blood and incense smoke",
@@ -18,21 +15,18 @@
     "Bone corset with gold inlays and hair-thin fractures",
     "Obsidian ritual armor fused to exposed collarbones"
   ],
-
   "LIGHTING": [
     "Extreme chiaroscuro on the face, carving the wounds into icon-like shapes",
     "Harsh sidelight revealing cracks and scarred scripture",
     "Infernal underglow pulsing from inside the chest cavity",
     "Cold top-down cathedral beam cutting through incense fog"
   ],
-
   "BACKGROUNDS": [
     "featureless black void with a few floating gilded fragments of broken halos; large-scale, non-repeating surface.",
     "a smooth plaster wall with scattered paper talismans and hand-brushed cursed kanji sheets pinned irregularly; no wallpaper, no repeating motifs.",
     "dark chapel wall with faded fresco ghosts and dripping candle wax trails, no repeating patterns.",
     "velvet black abyss with distant halo echoes and soft, fog-like noise, avoiding tiled textures."
   ],
-
   "OBJECTS": [
     "Wounds shaped like crosses",
     "Burnt scriptures clinging to the skin",
@@ -51,7 +45,6 @@
     "Wax seals pressed over sealed wounds",
     "Gold leaf fragments embedded along scarred calligraphy"
   ],
-
   "POSES": [
     "Vertical frontal extreme close-up",
     "Half-face tightly framed",
@@ -59,7 +52,6 @@
     "Closed eyes with ashes falling in front of the lens",
     "Direct gaze through symbolic tears, static like an icon"
   ],
-
   "EXPRESSIONS": [
     "Silent agony held in absolute stillness",
     "Religious ecstasy on the edge of collapse",
@@ -67,12 +59,7 @@
     "Symbolic martyrdom, resigned and unwavering",
     "Void gaze as if already beyond human pain"
   ],
-
-  "CAMERA_ANGLES": [
-    "Hyper close-up from below, emphasizing carved symbols",
-    "Extreme close-up on face, cropping just above the chest"
-  ],
-
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Iconic dread suspended in frozen time",
     "Sacred rot emanating from every crack",
@@ -80,7 +67,6 @@
     "Divine hallucination in slow-motion",
     "Apocalyptic vision contained in a single face"
   ],
-
   "ACCESSORIES": [
     "Metallic cross fused with skin",
     "Blood tears tracing printed scripture",
@@ -88,20 +74,17 @@
     "Flesh-embedded relics framed like jewelry",
     "Broken reliquary shards hovering around the head"
   ],
-
   "SENSUALITY_LEVEL": {
     "0": "pure elegance, no sensual emphasis",
     "1": "suggested femininity through posture and fabric",
     "2": "controlled sensuality, tragic and restrained",
     "3": "decadent fallen beauty with subtle erotic tension, never explicit"
   },
-
   "HORROR_INTENSITY": {
     "0": "sacral, iconic and mysterious, with subtle wounds and restrained symbolism",
     "1": "visceral but composed, sacred elements clearly fused with flesh and scripture",
     "2": "extremely disturbing sacred horror, intense flesh-symbol fusion and invasive ritual marks"
   },
-
   "CUSTOM_INTRO": {
     "0": "An extreme sacred close-up where divine wounds appear as invasive scripture, relics and carved symbols, frozen in icon-like stillness with oppressive reverence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "1": "A cursed reliquary portrait emphasizing stitched sacred geometry, wax seals over wounds and gold leaf embedded in scarred calligraphy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",

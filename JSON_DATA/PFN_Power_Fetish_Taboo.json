@@ -62,14 +62,7 @@
     "Tender gaze, vulnerability without weakness",
     "Composed, controlled, emotionally present"
   ],
-  "CAMERA_ANGLES": [
-    "Low angle hero shot, 50mm feel",
-    "Medium close-up, 85mm portrait compression",
-    "Top-down intimate framing, 35mm editorial",
-    "Over-the-shoulder, shallow depth of field",
-    "Wide environmental portrait, 28mm cinematic",
-    "Tight detail macro on fabric and accessories"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Velvet-dark elegance with red-black palette",
     "Noir tension, rain and bokeh hints",

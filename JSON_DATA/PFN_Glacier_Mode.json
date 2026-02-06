@@ -27,7 +27,8 @@
     "Geometric light frame floating behind subject",
     "Seamless cyclorama with icy gradient",
     "Sterile interior space with sharp edges",
-    "Abstract architectural void, quiet and clean"
+    "Abstract architectural void, quiet and clean",
+    "Cool blue studio wall with a pale cyan neon word sign reading 'TiKey', crisp edges and minimal glow halo"
   ],
   "OBJECTS": [
     "Minimalist handbag with rigid geometry",
@@ -36,22 +37,21 @@
     "Subtle TK embossed tag on fabric edge",
     "Glossy floor reflections beneath the model"
   ],
- "POSES": [
-  "Standing tall, shoulders relaxed, gaze lifted",
-  "Walking pose with controlled stride",
-  "Seated wide stance, elbows resting loosely",
-  "Profile pose with chin raised",
-  "Frontal pose, arms crossed with restraint",
-  "Mid-step walk, one foot lifted, fabric in motion",
-  "Turned torso with head facing camera, subtle twist",
-  "Weight shifted on one hip, relaxed asymmetry",
-  "Hands adjusting collar or neckline, candid control",
-  "Arms slightly away from body, silhouette opened",
-  "Slow pivot movement, captured between poses",
-  "Seated lean forward, forearms resting on thighs",
-  "Standing with one shoulder advanced, dynamic balance"
-]
-,
+  "POSES": [
+    "Standing tall, shoulders relaxed, gaze lifted",
+    "Walking pose with controlled stride",
+    "Seated wide stance, elbows resting loosely",
+    "Profile pose with chin raised",
+    "Frontal pose, arms crossed with restraint",
+    "Mid-step walk, one foot lifted, fabric in motion",
+    "Turned torso with head facing camera, subtle twist",
+    "Weight shifted on one hip, relaxed asymmetry",
+    "Hands adjusting collar or neckline, candid control",
+    "Arms slightly away from body, silhouette opened",
+    "Slow pivot movement, captured between poses",
+    "Seated lean forward, forearms resting on thighs",
+    "Standing with one shoulder advanced, dynamic balance"
+  ],
   "EXPRESSIONS": [
     "Detached calm, emotion held back",
     "Quiet confidence, neutral lips",
@@ -59,13 +59,7 @@
     "Cold elegance, minimal facial tension",
     "Distant introspection, eyes slightly narrowed"
   ],
-  "CAMERA_ANGLES": [
-    "Eye-level fashion portrait, 85mm look",
-    "Slight low angle emphasizing authority",
-    "Three-quarter view with clean framing",
-    "Centered frontal composition",
-    "Profile close-up with negative space"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Sterile silence, almost clinical",
     "Cold air, controlled environment",
@@ -74,10 +68,10 @@
     "Editorial stillness, time suspended"
   ],
   "ACCESSORIES": [
-   "Minimal necklace with small metallic TK pendant, clean typography",
-   "Thin chain resting at collarbone level",
-   "Matte silver or brushed steel finish",
-   "Pendant partially hidden by high-neck garment"
+    "Minimal necklace with small metallic TK pendant, clean typography",
+    "Thin chain resting at collarbone level",
+    "Matte silver or brushed steel finish",
+    "Pendant partially hidden by high-neck garment"
   ],
   "SENSUALITY_LEVEL": {
     "0": "pure fashion distance, no sensual intent",

@@ -50,13 +50,7 @@
     "Mysterious serenity, softened lids",
     "Predatory focus, subtle squint"
   ],
-  "CAMERA_ANGLES": [
-    "Eye-level macro close-up, 100mm macro look",
-    "Slight low angle close-up, 85mm portrait compression",
-    "Three-quarter close-up, 105mm tight framing",
-    "Extreme crop, 135mm telephoto intimacy",
-    "Near-profile close-up, shallow DOF falloff"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Dry wind carrying fine dust motes",
     "Quiet heat shimmer, distant silence",

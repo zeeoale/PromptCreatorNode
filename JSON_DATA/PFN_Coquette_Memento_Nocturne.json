@@ -63,14 +63,7 @@
     "seductive neutrality, poised and editorial",
     "sly side glance, subtle challenge"
   ],
-  "CAMERA_ANGLES": [
-    "tight cinematic close-up, macro-leaning crop",
-    "three-quarter portrait at eye level, shallow depth of field",
-    "low-angle fashion portrait with strong neck and jawline emphasis",
-    "waist-up framing with negative space and candle bokeh",
-    "full-body editorial with centered symmetry and soft vignette",
-    "over-the-shoulder crop with mirror reflection"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "incense haze with drifting dust particles",
     "muted olive fog with candle-amber bokeh",

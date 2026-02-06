@@ -1,8 +1,6 @@
 {
   "WORLD_NAME": "PFN_Tokyo_Street_Style",
-
   "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in Tokyo night street fashion, contemporary hip-hop styling, and urban editorial photography grounded in realism and cultural authenticity. When requested, return ONE single long sentence (180–240 words), cinematic and highly descriptive, without line breaks, narration, dialogue, or lists, depicting a confident subject immersed in Tokyo streets at night, surrounded by rain-slick asphalt, neon signage, vending-machine glow, narrow alleys, and reflective storefront glass. Always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, modulating tone through {{SENSUALITY_LEVEL}} and {{HORROR_INTENSITY}} while remaining platform-safe and fashion-forward. Emphasize fabric drape, layering, silhouette, and movement, allowing clothing to define attitude rather than explicit exposure. Lighting should feel practical and urban, mixing streetlamp sodium glow, cool ambient night light, and neon spill reflected on wet pavement, with soft falloff and controlled contrast. Maintain a contemporary color palette with muted ambers, asphalt gray, deep blacks, and neon accents. Specify camera angle, composition focus, and an approximate lens range between 35–50mm, favoring shallow depth of field and bokeh-rich city lights. Subtly allow urban TK elements to appear as part of the environment, such as worn pendants, street posters, or utility markings, integrated naturally without overt branding. Finish with refined post-processing cues like fine film grain, mild halation, soft bloom, vignette, and gentle chromatic aberration, keeping the look stylish, modern, authentic, and editorially restrained.",
-
   "EPOCHS": [
     "contemporary hip-hop streetwear",
     "late 90s to early 2000s urban revival",
@@ -10,18 +8,18 @@
     "anime-inspired urban fashion",
     "graphic novel street aesthetic"
   ],
- "OUTFITS": [
-  "open oversized zip hoodie worn loose over a minimal bralette",
-  "cropped hoodie left unzipped to reveal a satin or metallic bra top",
-  "soft bralette or triangle bra with subtle sheen, fashion editorial fit",
-  "low-rise jogger pants with relaxed street fit and visible waistband",
-  "loose sweatpants with gathered ankles and soft drape",
-  "sheer or semi-translucent hoodie layered over lingerie-style top",
-  "lightweight street jacket worn open, sleeves pushed up",
-  "hood pulled up loosely, framing the face without hiding expression",
-  "bare midriff styling with controlled exposure, high-fashion street look",
-  "coordinated street set in muted gold, amber, or warm neutral tones"
-],
+  "OUTFITS": [
+    "open oversized zip hoodie worn loose over a minimal bralette",
+    "cropped hoodie left unzipped to reveal a satin or metallic bra top",
+    "soft bralette or triangle bra with subtle sheen, fashion editorial fit",
+    "low-rise jogger pants with relaxed street fit and visible waistband",
+    "loose sweatpants with gathered ankles and soft drape",
+    "sheer or semi-translucent hoodie layered over lingerie-style top",
+    "lightweight street jacket worn open, sleeves pushed up",
+    "hood pulled up loosely, framing the face without hiding expression",
+    "bare midriff styling with controlled exposure, high-fashion street look",
+    "coordinated street set in muted gold, amber, or warm neutral tones"
+  ],
   "LIGHTING": [
     "overcast daylight with soft contrast and cool shadows",
     "late-afternoon golden rim light with muted fill",
@@ -63,13 +61,7 @@
     "focused intensity, street-editorial calm",
     "quiet self-assurance, no exaggeration"
   ],
-  "CAMERA_ANGLES": [
-    "full-body street shot, eye-level realism",
-    "low-angle hero framing, urban power pose",
-    "three-quarter shot with strong negative space",
-    "mid-shot with background texture emphasis",
-    "wide portrait framing with shallow depth of field"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "modern street cool with gritty realism",
     "youthful urban energy, grounded and authentic",
@@ -99,8 +91,7 @@
     "1": "slightly gritty urban edge, darker shadows and mood",
     "2": "moody cinematic undertone with grime, fog, and low-key lighting, without horror elements"
   },
-
-    "CUSTOM_INTRO": {
+  "CUSTOM_INTRO": {
     "0": "Tokyo night street fashion editorial, rain-slick pavement, neon signage, confident hip-hop attitude and layered silhouettes, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "1": "Modern Tokyo street style portrait with bokeh-rich city lights, wet asphalt reflections, and relaxed editorial confidence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "2": "Urban fashion scene in narrow Tokyo alley, streetlamp glow mixed with neon spill, cinematic realism and fabric-focused styling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",

@@ -1,14 +1,11 @@
 {
   "WORLD_NAME": "PFN_HongKong_Street_Alley_Cyberpunk",
-
   "SYSTEM_PROMPT": "You are a professional prompt generator specialized in street-level cyberpunk portraiture with a corrupted, fog-heavy, Blade Runner–inspired aesthetic. When requested, return ONE single long, multi-clause sentence (250–340 words), without lists, headings, or line breaks, depicting a young woman navigating or standing within narrow neon-lit streets and claustrophobic alleyways of a decaying megacity inspired by Hong Kong. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. The environment must feel oppressive and lived-in, with rain-soaked asphalt, leaking pipes, flickering signage, steam vents, tangled cables, and corroded metal surfaces enclosing the subject. Emphasize low-angle neon spill, harsh rim lights cutting through fog, mixed color temperatures, and reflections on wet skin, fabric, and pavement. The subject’s presence should convey quiet defiance and urban fatigue through posture, gaze, and silhouette rather than action or narrative. Maintain a restrained palette of dirty teal, sodium amber, industrial green, charcoal black, and toxic crimson accents. The camera should feel close and intrusive, typically using a 28–50mm lens with shallow depth of field, foreground obstructions, and tight mid-shot to three-quarter framing, often employing leading lines formed by alley walls or signage. Always mention film grain, soft bloom around neon, subtle halation, vignette, and faint chromatic aberration, preserving a corrupt, nocturnal, and emotionally heavy cyberpunk atmosphere without exposition or story.",
-
   "EPOCHS": [
     "near-future cyberpunk undercity",
     "retro-futuristic neon-noir streets",
     "timeless dystopian megacity night"
   ],
-
   "OUTFITS": [
     "worn cyberpunk streetwear soaked by rain",
     "cropped jackets layered over harnessed tops",
@@ -25,7 +22,6 @@
     "crop top with graphic logo and layered techwear pieces",
     "cyberpunk streetwear mix with straps, belts, and worn textures"
   ],
-
   "LIGHTING": [
     "low neon spill bleeding across wet pavement",
     "harsh rim light slicing through alley fog",
@@ -33,7 +29,6 @@
     "flickering signage casting unstable shadows",
     "ambient haze diffusing all light sources"
   ],
-
   "BACKGROUNDS": [
     "narrow alleyways packed with cables and pipes",
     "rain-soaked streets reflecting layered neon signs",
@@ -46,7 +41,6 @@
     "service doors and shutters corroded by moisture",
     "low street-level views framed by towering buildings"
   ],
-
   "OBJECTS": [
     "dripping pipes releasing constant steam",
     "neon signs with unreadable glyphs and symbols",
@@ -54,7 +48,6 @@
     "hanging cables swaying slightly in the fog",
     "discarded tech debris glowing faintly"
   ],
-
   "POSES": [
     "standing still in the middle of a narrow alley",
     "leaning against a damp wall beneath flickering neon",
@@ -62,7 +55,6 @@
     "paused under signage with rain dripping from hair",
     "half-turned posture as if sensing movement behind"
   ],
-
   "EXPRESSIONS": [
     "tired but defiant stare",
     "detached urban melancholy",
@@ -70,15 +62,7 @@
     "quiet resilience behind unreadable eyes",
     "subtle tension held beneath calm control"
   ],
-
-  "CAMERA_ANGLES": [
-    "eye-level street perspective with shallow depth",
-    "slightly low angle emphasizing towering walls",
-    "close mid-shot framed by foreground obstruction",
-    "three-quarter view through drifting steam",
-    "tight framing with neon bokeh in background"
-  ],
-
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "oppressive urban claustrophobia",
     "corrupted cyberpunk nightlife soaked in rain",
@@ -86,7 +70,6 @@
     "street-level dystopia humming with unseen life",
     "quiet danger lurking in confined spaces"
   ],
-
   "ACCESSORIES": [
     "black choker or cyberpunk collar with a small engraved TK plate",
     "arm and thigh tattoos partially visible with faint TK monograms hidden in the ink",
@@ -97,20 +80,17 @@
     "ear cuff etched with a barely visible TK mark",
     "cybernetic implant casing with microscopic TK serial engraving"
   ],
-
   "SENSUALITY_LEVEL": {
     "0": "purely atmospheric presence defined by silhouette and environment",
     "1": "subtle urban sensuality expressed through posture and damp fabric",
     "2": "intimate street-level allure conveyed by exposed skin, wet hair, and proximity",
     "3": "strong sensual charge through vulnerable framing and provocative stillness without explicit sexuality"
   },
-
   "HORROR_INTENSITY": {
     "0": "moody cyberpunk street scene with quiet solitude",
     "1": "unease introduced through fog, confinement, and urban decay",
     "2": "oppressive dystopian tension driven by claustrophobic framing and neon glare"
   },
-
   "CUSTOM_INTRO": {
     "0": "a corrupted cyberpunk street portrait unfolding in rain-soaked alleys beneath flickering neon, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "1": "a Blade Runner–inspired alleyway scene where fog, neon, and damp textures frame a solitary figure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",

@@ -1,8 +1,6 @@
 {
   "WORLD_NAME": "PFN_Divine_Wound_Portraits",
-
   "SYSTEM_PROMPT": "You are a professional prompt generator specialized in sacred portraiture, divine wounds, and iconographic body symbolism inspired by religious art, martyr imagery, and ritual suffering. When requested, return ONE single long, cinematic sentence (180–240 words), with no line breaks and no bullet points, describing an extreme close-up portrait where the human face becomes a living reliquary. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent, icon-like composition. Emphasize stillness, frontal composition, and symbolic suffering, where wounds take the form of scripture, glyphs, sacred geometry or ritual markings fused directly into flesh. Avoid action, movement, or narrative progression; the image must feel frozen in time, like a cursed painting or forbidden icon. The tone should remain solemn, mystical and reverent, never sensationalist, with horror emerging through symbolism, contrast and religious unease rather than gore. Always specify the framing intensity, lighting contrast, surface texture of skin and materials, grain or haze, and maintain a painterly, high-detail finish reminiscent of Renaissance chiaroscuro and apocalyptic religious visions.",
-
   "EPOCHS": [
     "Cursed Renaissance",
     "Forgotten Inquisition",
@@ -10,7 +8,6 @@
     "Plague era dream",
     "Sanctified decay"
   ],
-
   "OUTFITS": [
     "Cracked ceremonial porcelain mask",
     "Holy veil soaked in blood",
@@ -18,19 +15,16 @@
     "Bone corset with gold inlays",
     "Obsidian ritual armor"
   ],
-
   "LIGHTING": [
     "Extreme chiaroscuro on the face",
     "Harsh sidelight revealing cracks",
     "Infernal underglow",
     "Cold top-down cathedral beam"
   ],
-
   "BACKGROUNDS": [
     "featureless black void with floating gilded fragments of broken halos",
     "smooth plaster wall with scattered cursed talismans and hand-brushed kanji sheets"
   ],
-
   "OBJECTS": [
     "wounds shaped like crosses",
     "burnt scriptures fused to skin",
@@ -39,7 +33,6 @@
     "arcane glyphs carved into the face",
     "forbidden alphabets forming sacred scars"
   ],
-
   "POSES": [
     "vertical frontal extreme close-up",
     "half-face tightly framed",
@@ -47,7 +40,6 @@
     "closed eyes with falling ash",
     "direct icon-like gaze into the lens"
   ],
-
   "EXPRESSIONS": [
     "silent agony held in stillness",
     "religious ecstasy restrained",
@@ -55,12 +47,7 @@
     "symbolic martyrdom",
     "void-like sacred gaze"
   ],
-
-  "CAMERA_ANGLES": [
-    "extreme frontal close-up",
-    "hyper close-up cropping above the chest"
-  ],
-
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "iconic dread suspended in time",
     "ritualized silence",
@@ -68,20 +55,17 @@
     "divine hallucination",
     "apocalyptic stillness"
   ],
-
   "ACCESSORIES": [
     "metallic cross fused with skin",
     "blood tears tracing scripture",
     "thorn crown with glowing symbols",
     "flesh-embedded relics"
   ],
-
   "HORROR_INTENSITY": {
     "0": "sacral and mysterious, restrained symbolism",
     "1": "visceral but composed sacred fusion",
     "2": "disturbing sacred horror with invasive ritual marks"
   },
-
   "CUSTOM_INTRO": {
     "0": "A sacred portrait where divine wounds manifest as symbolic markings rather than violence, emphasizing icon-like stillness and religious unease, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
     "1": "A martyr-inspired close-up focused on scripture fused with flesh, solemn expression and frozen time, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",

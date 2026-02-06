@@ -27,7 +27,8 @@
     "Geometric light frame glowing in soft crimson",
     "Seamless cyclorama with scarlet-to-burgundy fade",
     "Sterile interior space with warm red reflections on hard edges",
-    "Abstract architectural void, quiet and heated"
+    "Abstract architectural void, quiet and heated",
+    "Red-washed studio wall with a thin crimson neon 'TiKey' word panel, controlled glow and sharp silhouette reflections"
   ],
   "OBJECTS": [
     "Minimalist handbag with rigid geometry in tonal red",
@@ -58,13 +59,7 @@
     "Controlled heat, minimal facial tension",
     "Distant introspection, eyes slightly narrowed"
   ],
-  "CAMERA_ANGLES": [
-    "Eye-level fashion portrait, 85mm look",
-    "Slight low angle emphasizing authority",
-    "Three-quarter view with clean framing",
-    "Centered frontal composition",
-    "Profile close-up with negative space"
-  ],
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "Heated silence, almost clinical",
     "Warm air, controlled environment",

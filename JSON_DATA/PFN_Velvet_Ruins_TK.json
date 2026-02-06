@@ -1,15 +1,12 @@
 {
   "WORLD_NAME": "Velvet_Ruins_TK",
-
   "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation. When requested, return ONE single long, cinematic sentence (180–240 words), with no line breaks and no bullet points, describing a sensual vintage-inspired portrait set in a ruined urban environment. Focus on provocative femininity expressed through posture, gaze, body tension, and revealing couture rather than explicit action. Always blend together the selected elements from EPOCHS, OUTFITS, LIGHTING, BACKGROUNDS, OBJECTS, POSES, EXPRESSIONS, CAMERA_ANGLES, ATMOSPHERES, and ACCESSORIES into a cohesive visual narrative. Maintain a refined, retro-noir aesthetic inspired by mid-20th-century photography, with monochrome or desaturated palettes, soft film grain, subtle vignette, and shallow depth of field. Emphasize abandoned streets, ruined buildings, rusted cars, and urban decay as a contrast to polished skin, elegant lingerie, and sculpted silhouettes. Avoid religious or ritual symbolism entirely; jewelry and accessories must remain secular, ornamental, or minimalist. Sensuality should feel confident, melancholic, and cinematic, balancing vulnerability and control. Integrate the TK brand only as a subtle design signature, such as a discreet monogram, jewelry engraving, or photographic mark, never overpowering the subject. Modulate erotic intensity using SENSUALITY_LEVEL and maintain an artistic, fashion-editorial tone at all times.",
-
   "EPOCHS": [
     "1930s urban noir",
     "1940s post-war ruins",
     "1950s cinematic glamour",
     "timeless vintage fantasy"
   ],
-
   "OUTFITS": [
     "black lace lingerie with sheer panels",
     "silk slip dress clinging to the body",
@@ -18,7 +15,6 @@
     "delicate mesh dress torn at the hem",
     "minimal velvet dress hugging the hips"
   ],
-
   "LIGHTING": [
     "soft overcast daylight",
     "cinematic side lighting",
@@ -26,7 +22,6 @@
     "diffused natural light through dust and haze",
     "moody backlight with gentle rim highlights"
   ],
-
   "BACKGROUNDS": [
     "abandoned city street filled with debris",
     "ruined buildings and broken windows",
@@ -34,7 +29,6 @@
     "post-war urban wasteland",
     "deserted alley with crumbling facades"
   ],
-
   "OBJECTS": [
     "broken pavement stones",
     "abandoned vintage automobile",
@@ -42,7 +36,6 @@
     "dust-covered street debris",
     "collapsed masonry fragments"
   ],
-
   "POSES": [
     "kneeling on the ground with arched back",
     "sitting on a ledge, legs together, shoulders bare",
@@ -51,7 +44,6 @@
     "standing still, hips tilted, chest forward",
     "seated on rubble, knees drawn in, gaze upward"
   ],
-
   "EXPRESSIONS": [
     "melancholic and distant",
     "quietly defiant",
@@ -59,11 +51,7 @@
     "soft closed-lip smile",
     "intimate, unbroken eye contact"
   ],
-
-  "CAMERA_ANGLES": [
-
-  ],
-
+  "CAMERA_ANGLES": [],
   "ATMOSPHERES": [
     "dust-filled air with soft haze",
     "vintage film grain and scratches",
@@ -71,7 +59,6 @@
     "quiet post-apocalyptic stillness",
     "fashion editorial mood"
   ],
-
   "ACCESSORIES": [
     "minimal choker necklace",
     "ornamental earrings without symbols",
@@ -79,7 +66,6 @@
     "lace gloves or wrist accents",
     "small metallic details engraved with TK"
   ],
-
   "CUSTOM_INTRO": {
     "0": "A cinematic vintage portrait emerges among ruined city streets, where sensual elegance contrasts with urban decay, the feminine figure poised with quiet confidence amid rubble and abandoned cars",
     "1": "In a desaturated noir atmosphere, a provocative yet refined silhouette inhabits a post-war wasteland, her presence transforming destruction into intimate fashion editorial beauty",
@@ -90,14 +76,12 @@
     "6": "An editorial-style portrait blends classic glamour and erotic tension, framed by broken streets and silent architecture, marked subtly by the TK aesthetic",
     "Random": "RANDOM"
   },
-
   "SENSUALITY_LEVEL": {
     "0": "suggestive",
     "1": "sensual",
     "2": "provocative",
     "3": "highly erotic but artistic"
   },
-
   "HORROR_INTENSITY": {
     "0": "none",
     "1": "atmospheric decay",
