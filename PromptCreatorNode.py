@@ -63,6 +63,7 @@ class PromptCreatorNode:
                 "sensuality_level": (["auto", "0", "1", "2", "3"],),
                 "pose_mode": (["random", "world_pick", "lock"], {"default": "random"}),
                 "pose_index": ("INT", {"default": 0, "min": 0, "max": 200, "step": 1}),
+                "show_pose_preview": ("BOOLEAN", {"default": True}),
                 "lora_triggers": ("STRING", {"default": ""}),
                 "subject_count": (["1", "2", "3"],),
                 "lock_last_prompt": (["no", "yes"], {"default": "no"}),
@@ -73,8 +74,8 @@ class PromptCreatorNode:
             }
         }
 
-    RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("prompt",)
+    RETURN_TYPES = ("STRING", "STRING")  # esempio
+    RETURN_NAMES = ("prompt", "pose_preview")
     FUNCTION = "generate_prompt"
     CATEGORY = "Prompt Creator"
 
@@ -530,7 +531,7 @@ class PromptCreatorNode:
 
 
     
-    def generate_prompt(self, json_name, camera_angle, use_enhancer, enhancer_mode, system_prompt_lock, add_symbols, seed, gender, identity_profile, external_identity, lock_identity, custom_intro, custom_intro_id, horror_intensity, sensuality_level, pose_mode, pose_index, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
+    def generate_prompt(self, json_name, camera_angle, use_enhancer, enhancer_mode, system_prompt_lock, add_symbols, seed, gender, identity_profile, external_identity, lock_identity, custom_intro, custom_intro_id, horror_intensity, sensuality_level, pose_mode, pose_index, show_pose_preview, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
 
@@ -550,7 +551,7 @@ class PromptCreatorNode:
                 node_version="1.5.0"
             )
             print("[PromptCreator] Prompt locked and loaded from history")
-            return (prompt,)
+            return (prompt, )
 
         try:
             with open(json_path, "r", encoding="utf-8") as f:
@@ -595,6 +596,17 @@ class PromptCreatorNode:
                 # --- POSE CONTROL ---
         poses = data.get("POSES") or data.get("poses") or []
         poses = poses if isinstance(poses, list) else []
+        pose_preview = ""
+        chosen_pose = ""
+       
+        if show_pose_preview and poses:
+            lines = [f"POSES ({len(poses)}):"]
+            for i, p in enumerate(poses):
+                marker = " ->" if (chosen_pose and str(p).strip() == chosen_pose) else "   "
+                lines.append(f"{marker} {i}: {p}")
+            pose_preview = "\n".join(lines)
+        elif show_pose_preview:
+            pose_preview = "POSES: (none found in this world JSON)"
 
         pose_path = os.path.join(base_path, "history", f"last_pose_{json_name}.txt")
 
@@ -604,7 +616,7 @@ class PromptCreatorNode:
             i = max(0, min(int(i), len(poses) - 1))
             return str(poses[i]).strip()
 
-        chosen_pose = ""
+        
 
         if pose_mode == "world_pick":
             chosen_pose = pick_pose_by_index(pose_index)
@@ -684,4 +696,4 @@ class PromptCreatorNode:
             source="generated",
                 node_version="1.5.0"
         )
-        return (prompt,)
+        return (prompt, pose_preview)
