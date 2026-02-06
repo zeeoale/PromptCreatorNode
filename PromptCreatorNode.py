@@ -48,7 +48,6 @@ class PromptCreatorNode:
             "required": {
                 "json_name": (sorted(json_files),),
                 "camera_angle": (camera_angle_list,),
-
                 "use_enhancer": (["none", "ollama","llamacpp", "openai", "cohere", "gemini"],),
                 "enhancer_mode": (enhancer_modes,),
                 "system_prompt_lock": (["auto", "external"], {"default": "auto"}),
@@ -62,6 +61,8 @@ class PromptCreatorNode:
                 "custom_intro_id": (["Random","0","1","2","3","4","5","6"], {"default":"Random"}),
                 "horror_intensity": (["auto"] + [str(i) for i in range(11)],),
                 "sensuality_level": (["auto", "0", "1", "2", "3"],),
+                "pose_mode": (["random", "world_pick", "lock"], {"default": "random"}),
+                "pose_index": ("INT", {"default": 0, "min": 0, "max": 200, "step": 1}),
                 "lora_triggers": ("STRING", {"default": ""}),
                 "subject_count": (["1", "2", "3"],),
                 "lock_last_prompt": (["no", "yes"], {"default": "no"}),
@@ -269,6 +270,7 @@ class PromptCreatorNode:
                     "system_prompt", "world_name",
                     "custom_intro",
                     "camera_angles", "camera_angle",
+                    "poses"
                 ]:
                     continue
                 if isinstance(values, list) and values:
@@ -528,7 +530,7 @@ class PromptCreatorNode:
 
 
     
-    def generate_prompt(self, json_name, camera_angle, use_enhancer, enhancer_mode, system_prompt_lock, add_symbols, seed, gender, identity_profile, external_identity, lock_identity, custom_intro, custom_intro_id, horror_intensity, sensuality_level, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
+    def generate_prompt(self, json_name, camera_angle, use_enhancer, enhancer_mode, system_prompt_lock, add_symbols, seed, gender, identity_profile, external_identity, lock_identity, custom_intro, custom_intro_id, horror_intensity, sensuality_level, pose_mode, pose_index, lora_triggers, subject_count, lock_last_prompt, multi_object_count, ollama_host, ollama_model):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
 
@@ -590,6 +592,40 @@ class PromptCreatorNode:
         prompt = self._build_prompt_from_json(
             data, gender, custom_intro, custom_intro_id, horror_intensity, sensuality_level, subject_count, multi_object_count, camera_angle_txt=camera_angle_txt
         )
+                # --- POSE CONTROL ---
+        poses = data.get("POSES") or data.get("poses") or []
+        poses = poses if isinstance(poses, list) else []
+
+        pose_path = os.path.join(base_path, "history", f"last_pose_{json_name}.txt")
+
+        def pick_pose_by_index(i):
+            if not poses:
+                return ""
+            i = max(0, min(int(i), len(poses) - 1))
+            return str(poses[i]).strip()
+
+        chosen_pose = ""
+
+        if pose_mode == "world_pick":
+            chosen_pose = pick_pose_by_index(pose_index)
+
+        elif pose_mode == "lock":
+            if os.path.exists(pose_path):
+                with open(pose_path, "r", encoding="utf-8") as f:
+                    chosen_pose = f.read().strip()
+            if not chosen_pose:
+                chosen_pose = pick_pose_by_index(pose_index)
+
+        else:  # random
+            if poses:
+                chosen_pose = random.choice(poses).strip()
+
+        if chosen_pose:
+            prompt = prompt + ", " + chosen_pose
+            os.makedirs(os.path.dirname(pose_path), exist_ok=True)
+            with open(pose_path, "w", encoding="utf-8") as f:
+                f.write(chosen_pose)
+        # --- END POSE CONTROL ---
 
         if identity_txt:
             prompt = prompt + ", " + identity_txt
