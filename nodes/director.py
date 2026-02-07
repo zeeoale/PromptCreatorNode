@@ -49,14 +49,29 @@ class DirectorNode:
                     "custom_intro",
                 ],),
 
-                # --- R8: Shot List ---
+                # R8: Shot List
                 "take_count": ("INT", {"default": 1, "min": 1, "max": 16}),
                 "take_seed_mode": (["keep", "increment", "randomize"],),
+
+                # R9: Best Take Picker
+                "pick_mode": (["off", "best_take"],),
+                "pick_rule": (["balanced", "closeup", "lowlight", "profile", "keyword"],),
+                "pick_keyword": ("STRING", {"default": "close-up"}),
             }
         }
 
-    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING", "INT", "STRING")
-    RETURN_NAMES = ("prompt", "system_prompt", "final_prompt", "director_notes", "next_seed", "shot_list")
+    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING", "INT", "STRING", "STRING", "STRING", "INT")
+    RETURN_NAMES = (
+        "prompt",
+        "system_prompt",
+        "final_prompt",
+        "director_notes",
+        "next_seed",
+        "shot_list",
+        "picked_final_prompt",
+        "picked_notes",
+        "picked_take_index",
+    )
     FUNCTION = "run"
     CATEGORY = "PFN/Director"
 
@@ -118,6 +133,55 @@ class DirectorNode:
             return random.randint(0, 2**31 - 1)
         return seed
 
+    def _score_take(
+        self,
+        rule: str,
+        keyword: str,
+        chosen: Dict[str, str],
+        final_prompt: str,
+    ) -> int:
+        rule = (rule or "balanced").lower().strip()
+        kw = (keyword or "").lower().strip()
+
+        cam = (chosen.get("camera") or "").lower()
+        light = (chosen.get("lighting") or "").lower()
+
+        def has_any(text: str, needles: List[str]) -> bool:
+            return any(n in text for n in needles)
+
+        score = 0
+
+        if rule == "closeup":
+            # euristica semplice ma efficace
+            if has_any(cam, ["close", "85mm", "105mm", "portrait", "tight"]):
+                score += 10
+            if "24mm" in cam:
+                score -= 2
+
+        elif rule == "lowlight":
+            if has_any(light, ["low", "dim", "candle", "noir", "shadow", "dark"]):
+                score += 10
+            if has_any(light, ["bright", "daylight", "high key"]):
+                score -= 3
+
+        elif rule == "profile":
+            if "profile" in cam:
+                score += 10
+            if has_any(cam, ["frontal", "centered frontal"]):
+                score -= 1
+
+        elif rule == "keyword":
+            if kw:
+                score += final_prompt.lower().count(kw) * 10
+
+        else:  # balanced
+            if has_any(cam, ["close", "portrait", "85mm", "105mm"]):
+                score += 5
+            if has_any(light, ["low", "shadow", "noir", "candle", "dim"]):
+                score += 5
+
+        return score
+
     def run(
         self,
         world: str,
@@ -139,12 +203,14 @@ class DirectorNode:
         change_one: str,
         take_count: int,
         take_seed_mode: str,
+        pick_mode: str,
+        pick_rule: str,
+        pick_keyword: str,
     ):
         w = WorldRegistry.get(world)
         if not w:
-            return ("(world not found)", "", "(world not found)", "", seed, "(world not found)")
+            return ("(world not found)", "", "(world not found)", "", seed, "(world not found)", "", "", -1)
 
-        # --- validate / normalize ---
         effective_seed = int(seed)
         take_count = int(take_count)
 
@@ -161,25 +227,29 @@ class DirectorNode:
         co = (change_one or "none").lower().strip()
         sep = self._make_separator(separator, custom_separator)
 
-        # --- generate N takes ---
-        shot_blocks: List[str] = []
-        current_seed = effective_seed
+        # best take tracking
+        best_score = -10**9
+        best_take_idx = -1
+        best_final_prompt = ""
+        best_notes = ""
 
+        # outputs (last take)
         last_prompt = ""
         last_system_prompt = ""
         last_final_prompt = ""
         last_notes = ""
-        last_next_seed = current_seed
+        last_next_seed = effective_seed
+
+        shot_blocks: List[str] = []
+        current_seed = effective_seed
 
         for i in range(take_count):
-            # freeze overrides (from memory) + change_one
             overrides: Optional[Dict[str, str]] = None
             applied_overrides: Dict[str, str] = {}
 
             if fm == "freeze" and self._last:
                 applied_overrides = self._filter_overrides(self._last, fs)
 
-                # change only one => remove that key from overrides
                 if co != "none" and co in applied_overrides:
                     applied_overrides.pop(co, None)
 
@@ -201,11 +271,10 @@ class DirectorNode:
                 overrides=overrides,
             )
 
-            # update memory logic
+            # update memory
             if fm in ("off", "refresh"):
                 self._last = dict(chosen)
             elif fm == "freeze" and co != "none":
-                # when changing one, the new take becomes the new base
                 self._last = dict(chosen)
 
             # final prompt
@@ -228,13 +297,21 @@ class DirectorNode:
             )
             notes_out = (header + director_notes).strip()
 
-            # save last outputs (for node outputs)
+            # best take picker
+            if (pick_mode or "off").lower().strip() == "best_take":
+                sc = self._score_take(pick_rule, pick_keyword, chosen, final_prompt)
+                if sc > best_score:
+                    best_score = sc
+                    best_take_idx = i + 1
+                    best_final_prompt = final_prompt
+                    best_notes = (notes_out + f"\nscore: {sc}").strip()
+
+            # save last outputs
             last_prompt = prompt
             last_system_prompt = sp_out
             last_final_prompt = final_prompt
             last_notes = notes_out
 
-            # shot list block
             shot_blocks.append(
                 "\n".join([
                     f"===== TAKE {i + 1}/{take_count} =====",
@@ -245,13 +322,26 @@ class DirectorNode:
                 ]).strip()
             )
 
-            # compute seed for next take
-            # (se lock=True, resta fermo; altrimenti segue take_seed_mode)
             current_seed = self._compute_next_seed(current_seed, lock, take_seed_mode)
 
-        # next_seed for node output should match the same rule of "control_after_generate"
+        # next_seed for node output
         last_next_seed = self._compute_next_seed(effective_seed, lock, control_after_generate)
-
         shot_list = "\n\n".join(shot_blocks).strip()
 
-        return (last_prompt, last_system_prompt, last_final_prompt, last_notes, last_next_seed, shot_list)
+        # if picker off, just mirror last take
+        if (pick_mode or "off").lower().strip() != "best_take":
+            best_final_prompt = last_final_prompt
+            best_notes = (last_notes + "\nscore: (picker off)").strip()
+            best_take_idx = take_count
+
+        return (
+            last_prompt,
+            last_system_prompt,
+            last_final_prompt,
+            last_notes,
+            last_next_seed,
+            shot_list,
+            best_final_prompt,
+            best_notes,
+            int(best_take_idx),
+        )

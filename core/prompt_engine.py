@@ -66,10 +66,8 @@ def build_prompt_from_world(
     """
     Returns: (prompt, system_prompt, director_notes, chosen)
 
-    overrides: if provided, keys like "camera","outfit","lighting","pose","expression","background","objects","atmosphere","accessory"
-              will be used instead of sampling.
+    overrides: keys like "camera","outfit","lighting","pose","expression","background","objects","atmosphere","accessory","custom_intro"
     """
-
     overrides = overrides or {}
 
     base_rng = random.Random(seed)
@@ -141,7 +139,6 @@ def build_prompt_from_world(
         f"lock_pose: {str(lock_pose).lower()}",
         f"overrides: {', '.join(sorted(overrides.keys())) if overrides else '(none)'}",
     ]
-
     director_notes = "\n".join([l for l in notes_lines if l.strip()]).strip()
 
     return (prompt.strip(), system_prompt, director_notes, chosen)
