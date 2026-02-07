@@ -24,14 +24,11 @@ class DirectorNode:
                 "include_system_prompt": ("BOOLEAN", {"default": True}),
                 "separator": (["\\n\\n", "\\n", " — ", " | ", ", "],),
                 "custom_separator": ("STRING", {"default": ""}),
-                "lock_camera": ("BOOLEAN", {"default": True}),
+                "director_preset": (["custom", "continuity", "exploration", "chaos"],),
                 "lock_camera": ("BOOLEAN", {"default": True}),
                 "lock_lighting": ("BOOLEAN", {"default": True}),
                 "lock_outfit": ("BOOLEAN", {"default": True}),
                 "lock_pose": ("BOOLEAN", {"default": False}),
-
-
-
             }
         }
 
@@ -51,24 +48,44 @@ class DirectorNode:
         include_system_prompt: bool,
         separator: str,
         custom_separator: str,
+        director_preset: str,
         lock_camera: bool,
         lock_lighting: bool,
         lock_outfit: bool,
         lock_pose: bool,
-        
-
     ):
         w = WorldRegistry.get(world)
         if not w:
-            return ("(world not found)", "", "(world not found)", seed)
+            return ("(world not found)", "", "(world not found)", "", seed)
 
         effective_seed = int(seed)
 
-        # Custom intro index valido solo in modalità index
+        # --- custom intro index valido solo se mode=index ---
         idx = None
         if (custom_intro_mode == "index") and (custom_intro_index is not None) and (int(custom_intro_index) >= 0):
             idx = int(custom_intro_index)
 
+        # --- preset (logica UI: qui è il posto giusto) ---
+        preset = (director_preset or "custom").lower().strip()
+
+        if preset != "custom":
+            if preset == "continuity":
+                lock_camera = True
+                lock_lighting = True
+                lock_outfit = True
+                lock_pose = False
+            elif preset == "exploration":
+                lock_camera = True
+                lock_lighting = False
+                lock_outfit = False
+                lock_pose = False
+            elif preset == "chaos":
+                lock_camera = False
+                lock_lighting = False
+                lock_outfit = False
+                lock_pose = False
+
+        # --- build prompt ---
         prompt, system_prompt, director_notes = build_prompt_from_world(
             w,
             seed=effective_seed,
@@ -80,9 +97,12 @@ class DirectorNode:
             lock_pose=lock_pose,
         )
 
+        # prepend preset to notes (sempre utile)
+        director_notes = f"preset: {preset}\n{director_notes}".strip() if director_notes else f"preset: {preset}"
+
+        # --- final prompt formatting ---
         if include_system_prompt:
             sp = system_prompt
-            # usa custom_separator se valorizzato, altrimenti preset
             sep_raw = custom_separator.strip() if custom_separator and custom_separator.strip() else separator
             sep = sep_raw.encode("utf-8").decode("unicode_escape")
             final_prompt = f"{system_prompt}{sep}{prompt}".strip() if system_prompt else prompt
@@ -90,8 +110,7 @@ class DirectorNode:
             sp = ""
             final_prompt = prompt
 
-
-        # Next seed (utile da collegare ad altri nodi)
+        # --- next seed ---
         if lock:
             next_seed = effective_seed
         else:
@@ -104,4 +123,3 @@ class DirectorNode:
                 next_seed = effective_seed
 
         return (prompt, sp, final_prompt, director_notes, next_seed)
-

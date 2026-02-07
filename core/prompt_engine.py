@@ -15,7 +15,7 @@ def _join_nonempty(parts: List[str]) -> str:
 
 
 def _seed_for(seed: int, tag: str) -> int:
-    # deterministico, stabile tra run (a differenza di hash() che può variare)
+    # deterministico e stabile (evitiamo hash() che può cambiare tra processi)
     h = 0
     for ch in tag:
         h = (h * 31 + ord(ch)) & 0x7FFFFFFF
@@ -64,16 +64,14 @@ def build_prompt_from_world(
     lock_outfit: bool = True,
     lock_pose: bool = False,
 ) -> Tuple[str, str, str]:
-
     """
     Returns: (prompt, system_prompt, director_notes)
 
-    lock_camera:
-      - True  => camera selection uses a deterministic RNG derived from seed
-      - False => camera selection uses the main RNG (varies with seed changes)
+    Selective locks:
+      - when a lock is True, that element uses a deterministic RNG derived from seed
+      - when False, it uses the base RNG (so it follows normal variation)
     """
 
-    # RNG principale per la maggior parte delle scelte
     base_rng = random.Random(seed)
 
     system_prompt = str(world.get("SYSTEM_PROMPT", "")).strip()
@@ -85,26 +83,22 @@ def build_prompt_from_world(
         index=custom_intro_index,
     )
 
-    # Outfit RNG
     outfit_rng = random.Random(_seed_for(seed, "outfit")) if lock_outfit else base_rng
-    outfit = _pick_with_rng(outfit_rng, world.get("OUTFITS"), "simple dark outfit")    
-# Lighting RNG
+    outfit = _pick_with_rng(outfit_rng, world.get("OUTFITS"), "simple dark outfit")
+
     lighting_rng = random.Random(_seed_for(seed, "lighting")) if lock_lighting else base_rng
-    lighting = _pick_with_rng(lighting_rng, world.get("LIGHTING"), "low ambient light")    
+    lighting = _pick_with_rng(lighting_rng, world.get("LIGHTING"), "low ambient light")
+
     background = _pick_with_rng(base_rng, world.get("BACKGROUNDS"), "intimate interior")
     objects = _pick_with_rng(base_rng, world.get("OBJECTS"), "personal items")
-    # Pose RNG (default False: di solito vuoi variazione nella posa)
+
     pose_rng = random.Random(_seed_for(seed, "pose")) if lock_pose else base_rng
     pose = _pick_with_rng(pose_rng, world.get("POSES"), "relaxed pose")
+
     expression = _pick_with_rng(base_rng, world.get("EXPRESSIONS"), "calm expression")
 
-    # Camera RNG separato (lock selettivo)
-    camera_list = world.get("CAMERA_ANGLES")
-    if lock_camera:
-        camera_rng = random.Random(_seed_for(seed, "camera"))
-    else:
-        camera_rng = base_rng
-    camera = _pick_with_rng(camera_rng, camera_list, "eye-level framing")
+    camera_rng = random.Random(_seed_for(seed, "camera")) if lock_camera else base_rng
+    camera = _pick_with_rng(camera_rng, world.get("CAMERA_ANGLES"), "eye-level framing")
 
     atmosphere = _pick_with_rng(base_rng, world.get("ATMOSPHERES"), "quiet cinematic mood")
     accessory = _pick_with_rng(base_rng, world.get("ACCESSORIES"), "")
@@ -123,7 +117,6 @@ def build_prompt_from_world(
     ])
 
     selections = {
-        "custom_intro": custom_intro,
         "lock_outfit": str(lock_outfit).lower(),
         "outfit": outfit,
         "lock_lighting": str(lock_lighting).lower(),
@@ -133,10 +126,10 @@ def build_prompt_from_world(
         "lock_pose": str(lock_pose).lower(),
         "pose": pose,
         "expression": expression,
+        "lock_camera": str(lock_camera).lower(),
         "camera": camera,
         "atmosphere": atmosphere,
         "accessory": accessory,
-        "lock_camera": str(lock_camera).lower(),
     }
 
     director_notes = "\n".join(
