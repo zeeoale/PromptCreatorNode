@@ -22,6 +22,9 @@ class DirectorNode:
                 "custom_intro_mode": (["auto", "index", "random"],),
                 "custom_intro_index": ("INT", {"default": -1, "min": -1, "max": 6}),
                 "include_system_prompt": ("BOOLEAN", {"default": True}),
+                "separator": (["\\n\\n", "\\n", " — ", " | ", ", "],),
+                "custom_separator": ("STRING", {"default": ""}),
+
             }
         }
 
@@ -39,6 +42,9 @@ class DirectorNode:
         custom_intro_mode: str,
         custom_intro_index: int,
         include_system_prompt: bool,
+        separator: str,
+        custom_separator: str,
+
     ):
         w = WorldRegistry.get(world)
         if not w:
@@ -60,10 +66,14 @@ class DirectorNode:
 
         if include_system_prompt:
             sp = system_prompt
-            final_prompt = f"{system_prompt}\n\n{prompt}".strip() if system_prompt else prompt
+            # usa custom_separator se valorizzato, altrimenti preset
+            sep_raw = custom_separator.strip() if custom_separator and custom_separator.strip() else separator
+            sep = sep_raw.encode("utf-8").decode("unicode_escape")
+            final_prompt = f"{system_prompt}{sep}{prompt}".strip() if system_prompt else prompt
         else:
             sp = ""
             final_prompt = prompt
+
 
         # Next seed (utile da collegare ad altri nodi)
         if lock:
