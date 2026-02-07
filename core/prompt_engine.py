@@ -48,12 +48,58 @@ def _select_custom_intro(
     return str(random.choice(values))
 
 
+from __future__ import annotations
+
+import random
+from typing import Any, Dict, List, Optional, Tuple
+
+
+def _pick(arr: Any, fallback: str = "") -> str:
+    if isinstance(arr, list) and arr:
+        return str(random.choice(arr))
+    return fallback
+
+
+def _join_nonempty(parts: List[str]) -> str:
+    return ", ".join([p.strip() for p in parts if p and p.strip()])
+
+
+def _select_custom_intro(
+    world: Dict[str, Any],
+    mode: str = "auto",
+    index: Optional[int] = None,
+) -> str:
+    ci = world.get("CUSTOM_INTRO")
+    if not isinstance(ci, dict) or not ci:
+        return ""
+
+    values = [str(v) for v in ci.values() if v is not None]
+    if not values:
+        return ""
+
+    mode = (mode or "auto").lower().strip()
+
+    if mode == "index":
+        if index is None:
+            return ""
+        k = str(index)
+        return str(ci.get(k, "")) if k in ci else ""
+
+    if mode == "random":
+        return str(random.choice(values))
+
+    for k in ["0", "1", "2", "3", "4", "5", "6"]:
+        if k in ci:
+            return str(ci[k])
+    return str(random.choice(values))
+
+
 def build_prompt_from_world(
     world: Dict[str, Any],
     seed: Optional[int] = None,
     custom_intro_mode: str = "auto",
     custom_intro_index: Optional[int] = None,
-) -> Tuple[str, str]:
+) -> Tuple[str, str, str]:
     if seed is not None:
         random.seed(seed)
 
@@ -65,27 +111,45 @@ def build_prompt_from_world(
         index=custom_intro_index,
     )
 
-    outfits = _pick(world.get("OUTFITS"), "simple dark outfit")
+    outfit = _pick(world.get("OUTFITS"), "simple dark outfit")
     lighting = _pick(world.get("LIGHTING"), "low ambient light")
-    backgrounds = _pick(world.get("BACKGROUNDS"), "intimate interior")
+    background = _pick(world.get("BACKGROUNDS"), "intimate interior")
     objects = _pick(world.get("OBJECTS"), "personal items")
-    poses = _pick(world.get("POSES"), "relaxed pose")
-    expressions = _pick(world.get("EXPRESSIONS"), "calm expression")
+    pose = _pick(world.get("POSES"), "relaxed pose")
+    expression = _pick(world.get("EXPRESSIONS"), "calm expression")
     camera = _pick(world.get("CAMERA_ANGLES"), "eye-level framing")
-    atmos = _pick(world.get("ATMOSPHERES"), "quiet cinematic mood")
-    accessories = _pick(world.get("ACCESSORIES"), "")
+    atmosphere = _pick(world.get("ATMOSPHERES"), "quiet cinematic mood")
+    accessory = _pick(world.get("ACCESSORIES"), "")
 
     prompt = _join_nonempty([
         custom_intro,
-        outfits,
+        outfit,
         lighting,
-        backgrounds,
+        background,
         objects,
-        poses,
-        expressions,
+        pose,
+        expression,
         camera,
-        atmos,
-        accessories,
+        atmosphere,
+        accessory,
     ])
 
-    return (prompt.strip(), system_prompt)
+    selections = {
+        "custom_intro": custom_intro,
+        "outfit": outfit,
+        "lighting": lighting,
+        "background": background,
+        "objects": objects,
+        "pose": pose,
+        "expression": expression,
+        "camera": camera,
+        "atmosphere": atmosphere,
+        "accessory": accessory,
+    }
+
+    director_notes = "\n".join(
+        [f"{k}: {v}" for k, v in selections.items() if v and str(v).strip()]
+    ).strip()
+
+    return (prompt.strip(), system_prompt, director_notes)
+

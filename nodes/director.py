@@ -28,8 +28,8 @@ class DirectorNode:
             }
         }
 
-    RETURN_TYPES = ("STRING", "STRING", "STRING", "INT")
-    RETURN_NAMES = ("prompt", "system_prompt", "final_prompt", "next_seed")
+    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING", "INT")
+    RETURN_NAMES = ("prompt", "system_prompt", "final_prompt", "director_notes", "next_seed")
     FUNCTION = "run"
     CATEGORY = "PFN/Director"
 
@@ -57,7 +57,7 @@ class DirectorNode:
         if (custom_intro_mode == "index") and (custom_intro_index is not None) and (int(custom_intro_index) >= 0):
             idx = int(custom_intro_index)
 
-        prompt, system_prompt = build_prompt_from_world(
+        prompt, system_prompt, director_notes = build_prompt_from_world(
             w,
             seed=effective_seed,
             custom_intro_mode=custom_intro_mode,
@@ -87,4 +87,5 @@ class DirectorNode:
             else:
                 next_seed = effective_seed
 
-        return (prompt, sp, final_prompt, next_seed)
+        return (prompt, sp, final_prompt, director_notes, next_seed)
+
