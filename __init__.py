@@ -5,13 +5,19 @@
 
 from .manifest import MANIFEST
 from .nodes.director import DirectorNode  # v2 only
+from .nodes.session_load import DirectorSessionLoad
+
 
 NODE_CLASS_MAPPINGS = {
-    "DirectorNode": DirectorNode
+    "DirectorNode": DirectorNode,
+    "DirectorSessionLoad": DirectorSessionLoad,
+
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "DirectorNode": "Director (0.1-dev)"
+    "DirectorNode": "Director (0.1-dev)",
+    "DirectorSessionLoad": "Director Session Load",
+
 }
 
 print(f"[PFN] v{'.'.join(map(str, MANIFEST['version']))} loaded (DirectorNode only, v2)")
