@@ -35,6 +35,7 @@ class DirectorNode:
                 "lock_outfit": ("BOOLEAN", {"default": True}),
                 "lock_pose": ("BOOLEAN", {"default": False}),
                 "freeze_mode": (["off", "freeze", "refresh"],),
+                "freeze_scope": (["all", "camera_lighting", "camera", "none"],),
             }
         }
 
@@ -42,6 +43,24 @@ class DirectorNode:
     RETURN_NAMES = ("prompt", "system_prompt", "final_prompt", "director_notes", "next_seed")
     FUNCTION = "run"
     CATEGORY = "PFN/Director"
+
+    def _filter_overrides(self, data: Dict[str, str], scope: str) -> Dict[str, str]:
+        """
+        Decide cosa freezare dalla memoria self._last, in base allo scope.
+        """
+        scope = (scope or "all").lower().strip()
+
+        if scope == "none":
+            return {}
+
+        if scope == "camera":
+            keys = {"camera"}
+        elif scope == "camera_lighting":
+            keys = {"camera", "lighting"}
+        else:  # "all"
+            keys = set(data.keys())
+
+        return {k: v for k, v in data.items() if k in keys and v and str(v).strip()}
 
     def run(
         self,
@@ -60,6 +79,7 @@ class DirectorNode:
         lock_outfit: bool,
         lock_pose: bool,
         freeze_mode: str,
+        freeze_scope: str,
     ):
         w = WorldRegistry.get(world)
         if not w:
@@ -71,7 +91,7 @@ class DirectorNode:
         if (custom_intro_mode == "index") and (custom_intro_index is not None) and (int(custom_intro_index) >= 0):
             idx = int(custom_intro_index)
 
-        # preset
+        # --- preset (UI logic) ---
         preset = (director_preset or "custom").lower().strip()
         if preset != "custom":
             if preset == "continuity":
@@ -90,14 +110,18 @@ class DirectorNode:
                 lock_outfit = False
                 lock_pose = False
 
-        # freeze overrides
+        # --- freeze overrides (Partial Freeze) ---
         fm = (freeze_mode or "off").lower().strip()
+        fs = (freeze_scope or "all").lower().strip()
+
         overrides: Optional[Dict[str, str]] = None
+        applied_overrides: Dict[str, str] = {}
 
         if fm == "freeze" and self._last:
-            overrides = dict(self._last)
+            applied_overrides = self._filter_overrides(self._last, fs)
+            overrides = dict(applied_overrides) if applied_overrides else None
         elif fm == "refresh":
-            overrides = None  # rigenera, poi aggiorniamo self._last
+            overrides = None  # rigenera e poi aggiorna memoria
         else:
             overrides = None  # off
 
@@ -113,14 +137,21 @@ class DirectorNode:
             overrides=overrides,
         )
 
-        # aggiorna memoria se non siamo in freeze (o se refresh)
+        # aggiorna memoria quando non stiamo "freezando"
         if fm in ("off", "refresh"):
             self._last = dict(chosen)
 
-        # note con intestazione
-        director_notes = f"preset: {preset}\nfreeze_mode: {fm}\n{director_notes}".strip()
+        # header note
+        applied_keys = ", ".join(sorted(applied_overrides.keys())) if applied_overrides else "(none)"
+        header = (
+            f"preset: {preset}\n"
+            f"freeze_mode: {fm}\n"
+            f"freeze_scope: {fs}\n"
+            f"applied_overrides: {applied_keys}\n"
+        )
+        director_notes = (header + director_notes).strip()
 
-        # final prompt
+        # --- final prompt ---
         if include_system_prompt:
             sp = system_prompt
             sep_raw = custom_separator.strip() if custom_separator and custom_separator.strip() else separator
@@ -130,7 +161,7 @@ class DirectorNode:
             sp = ""
             final_prompt = prompt
 
-        # next seed
+        # --- next seed ---
         if lock:
             next_seed = effective_seed
         else:
