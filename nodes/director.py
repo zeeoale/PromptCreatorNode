@@ -9,7 +9,6 @@ from ..core.prompt_engine import build_prompt_from_world
 
 class DirectorNode:
     def __init__(self):
-        # memoria delle ultime scelte
         self._last: Optional[Dict[str, str]] = None
 
     @classmethod
@@ -36,6 +35,19 @@ class DirectorNode:
                 "lock_pose": ("BOOLEAN", {"default": False}),
                 "freeze_mode": (["off", "freeze", "refresh"],),
                 "freeze_scope": (["all", "camera_lighting", "camera", "none"],),
+                "change_one": ([
+                    "none",
+                    "camera",
+                    "lighting",
+                    "outfit",
+                    "pose",
+                    "expression",
+                    "background",
+                    "objects",
+                    "atmosphere",
+                    "accessory",
+                    "custom_intro",
+                ],),
             }
         }
 
@@ -45,9 +57,6 @@ class DirectorNode:
     CATEGORY = "PFN/Director"
 
     def _filter_overrides(self, data: Dict[str, str], scope: str) -> Dict[str, str]:
-        """
-        Decide cosa freezare dalla memoria self._last, in base allo scope.
-        """
         scope = (scope or "all").lower().strip()
 
         if scope == "none":
@@ -80,6 +89,7 @@ class DirectorNode:
         lock_pose: bool,
         freeze_mode: str,
         freeze_scope: str,
+        change_one: str,
     ):
         w = WorldRegistry.get(world)
         if not w:
@@ -91,7 +101,7 @@ class DirectorNode:
         if (custom_intro_mode == "index") and (custom_intro_index is not None) and (int(custom_intro_index) >= 0):
             idx = int(custom_intro_index)
 
-        # --- preset (UI logic) ---
+        # preset
         preset = (director_preset or "custom").lower().strip()
         if preset != "custom":
             if preset == "continuity":
@@ -110,20 +120,25 @@ class DirectorNode:
                 lock_outfit = False
                 lock_pose = False
 
-        # --- freeze overrides (Partial Freeze) ---
         fm = (freeze_mode or "off").lower().strip()
         fs = (freeze_scope or "all").lower().strip()
+        co = (change_one or "none").lower().strip()
 
         overrides: Optional[Dict[str, str]] = None
         applied_overrides: Dict[str, str] = {}
 
         if fm == "freeze" and self._last:
             applied_overrides = self._filter_overrides(self._last, fs)
+
+            # Change only one: togli quell'override così viene rigenerato
+            if co != "none" and co in applied_overrides:
+                applied_overrides.pop(co, None)
+
             overrides = dict(applied_overrides) if applied_overrides else None
         elif fm == "refresh":
-            overrides = None  # rigenera e poi aggiorna memoria
+            overrides = None
         else:
-            overrides = None  # off
+            overrides = None
 
         prompt, system_prompt, director_notes, chosen = build_prompt_from_world(
             w,
@@ -137,21 +152,24 @@ class DirectorNode:
             overrides=overrides,
         )
 
-        # aggiorna memoria quando non stiamo "freezando"
+        # aggiorna memoria: off/refresh aggiornano sempre; freeze aggiorna SOLO se stai cambiando qualcosa
         if fm in ("off", "refresh"):
             self._last = dict(chosen)
+        elif fm == "freeze" and co != "none":
+            # in freeze con change_one, aggiorniamo la memoria così la nuova take diventa la base
+            self._last = dict(chosen)
 
-        # header note
         applied_keys = ", ".join(sorted(applied_overrides.keys())) if applied_overrides else "(none)"
         header = (
             f"preset: {preset}\n"
             f"freeze_mode: {fm}\n"
             f"freeze_scope: {fs}\n"
+            f"change_one: {co}\n"
             f"applied_overrides: {applied_keys}\n"
         )
         director_notes = (header + director_notes).strip()
 
-        # --- final prompt ---
+        # final prompt
         if include_system_prompt:
             sp = system_prompt
             sep_raw = custom_separator.strip() if custom_separator and custom_separator.strip() else separator
@@ -161,7 +179,7 @@ class DirectorNode:
             sp = ""
             final_prompt = prompt
 
-        # --- next seed ---
+        # next seed
         if lock:
             next_seed = effective_seed
         else:
