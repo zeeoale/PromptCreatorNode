@@ -25,6 +25,11 @@ class DirectorNode:
                 "separator": (["\\n\\n", "\\n", " — ", " | ", ", "],),
                 "custom_separator": ("STRING", {"default": ""}),
                 "lock_camera": ("BOOLEAN", {"default": True}),
+                "lock_camera": ("BOOLEAN", {"default": True}),
+                "lock_lighting": ("BOOLEAN", {"default": True}),
+                "lock_outfit": ("BOOLEAN", {"default": True}),
+                "lock_pose": ("BOOLEAN", {"default": False}),
+
 
 
             }
@@ -47,6 +52,9 @@ class DirectorNode:
         separator: str,
         custom_separator: str,
         lock_camera: bool,
+        lock_lighting: bool,
+        lock_outfit: bool,
+        lock_pose: bool,
         
 
     ):
@@ -67,6 +75,9 @@ class DirectorNode:
             custom_intro_mode=custom_intro_mode,
             custom_intro_index=idx,
             lock_camera=lock_camera,
+            lock_lighting=lock_lighting,
+            lock_outfit=lock_outfit,
+            lock_pose=lock_pose,
         )
 
         if include_system_prompt:

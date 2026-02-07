@@ -60,7 +60,11 @@ def build_prompt_from_world(
     custom_intro_mode: str = "auto",
     custom_intro_index: Optional[int] = None,
     lock_camera: bool = True,
+    lock_lighting: bool = True,
+    lock_outfit: bool = True,
+    lock_pose: bool = False,
 ) -> Tuple[str, str, str]:
+
     """
     Returns: (prompt, system_prompt, director_notes)
 
@@ -81,11 +85,17 @@ def build_prompt_from_world(
         index=custom_intro_index,
     )
 
-    outfit = _pick_with_rng(base_rng, world.get("OUTFITS"), "simple dark outfit")
-    lighting = _pick_with_rng(base_rng, world.get("LIGHTING"), "low ambient light")
+    # Outfit RNG
+    outfit_rng = random.Random(_seed_for(seed, "outfit")) if lock_outfit else base_rng
+    outfit = _pick_with_rng(outfit_rng, world.get("OUTFITS"), "simple dark outfit")    
+# Lighting RNG
+    lighting_rng = random.Random(_seed_for(seed, "lighting")) if lock_lighting else base_rng
+    lighting = _pick_with_rng(lighting_rng, world.get("LIGHTING"), "low ambient light")    
     background = _pick_with_rng(base_rng, world.get("BACKGROUNDS"), "intimate interior")
     objects = _pick_with_rng(base_rng, world.get("OBJECTS"), "personal items")
-    pose = _pick_with_rng(base_rng, world.get("POSES"), "relaxed pose")
+    # Pose RNG (default False: di solito vuoi variazione nella posa)
+    pose_rng = random.Random(_seed_for(seed, "pose")) if lock_pose else base_rng
+    pose = _pick_with_rng(pose_rng, world.get("POSES"), "relaxed pose")
     expression = _pick_with_rng(base_rng, world.get("EXPRESSIONS"), "calm expression")
 
     # Camera RNG separato (lock selettivo)
@@ -114,10 +124,13 @@ def build_prompt_from_world(
 
     selections = {
         "custom_intro": custom_intro,
+        "lock_outfit": str(lock_outfit).lower(),
         "outfit": outfit,
+        "lock_lighting": str(lock_lighting).lower(),
         "lighting": lighting,
         "background": background,
         "objects": objects,
+        "lock_pose": str(lock_pose).lower(),
         "pose": pose,
         "expression": expression,
         "camera": camera,
