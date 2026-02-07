@@ -1,7 +1,8 @@
 from __future__ import annotations
 
+import json
 import random
-from typing import Dict, Optional, List, Tuple
+from typing import Dict, Optional, List, Tuple, Any
 
 from ..core.world_registry import WorldRegistry
 from ..core.prompt_engine import build_prompt_from_world
@@ -57,10 +58,13 @@ class DirectorNode:
                 "pick_mode": (["off", "best_take"],),
                 "pick_rule": (["balanced", "closeup", "lowlight", "profile", "keyword"],),
                 "pick_keyword": ("STRING", {"default": "close-up"}),
+
+                # R10: JSON export
+                "json_pretty": ("BOOLEAN", {"default": True}),
             }
         }
 
-    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING", "INT", "STRING", "STRING", "STRING", "INT")
+    RETURN_TYPES = ("STRING", "STRING", "STRING", "STRING", "INT", "STRING", "STRING", "STRING", "INT", "STRING", "STRING")
     RETURN_NAMES = (
         "prompt",
         "system_prompt",
@@ -71,23 +75,22 @@ class DirectorNode:
         "picked_final_prompt",
         "picked_notes",
         "picked_take_index",
+        "shot_list_json",
+        "picked_json",
     )
     FUNCTION = "run"
     CATEGORY = "PFN/Director"
 
     def _filter_overrides(self, data: Dict[str, str], scope: str) -> Dict[str, str]:
         scope = (scope or "all").lower().strip()
-
         if scope == "none":
             return {}
-
         if scope == "camera":
             keys = {"camera"}
         elif scope == "camera_lighting":
             keys = {"camera", "lighting"}
-        else:  # "all"
+        else:
             keys = set(data.keys())
-
         return {k: v for k, v in data.items() if k in keys and v and str(v).strip()}
 
     def _apply_preset(
@@ -99,7 +102,6 @@ class DirectorNode:
         lock_pose: bool,
     ) -> Tuple[str, bool, bool, bool, bool]:
         preset = (director_preset or "custom").lower().strip()
-
         if preset != "custom":
             if preset == "continuity":
                 lock_camera = True
@@ -116,7 +118,6 @@ class DirectorNode:
                 lock_lighting = False
                 lock_outfit = False
                 lock_pose = False
-
         return preset, lock_camera, lock_lighting, lock_outfit, lock_pose
 
     def _make_separator(self, separator: str, custom_separator: str) -> str:
@@ -152,7 +153,6 @@ class DirectorNode:
         score = 0
 
         if rule == "closeup":
-            # euristica semplice ma efficace
             if has_any(cam, ["close", "85mm", "105mm", "portrait", "tight"]):
                 score += 10
             if "24mm" in cam:
@@ -182,6 +182,11 @@ class DirectorNode:
 
         return score
 
+    def _dump_json(self, obj: Any, pretty: bool) -> str:
+        if pretty:
+            return json.dumps(obj, ensure_ascii=False, indent=2)
+        return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+
     def run(
         self,
         world: str,
@@ -206,10 +211,11 @@ class DirectorNode:
         pick_mode: str,
         pick_rule: str,
         pick_keyword: str,
+        json_pretty: bool,
     ):
         w = WorldRegistry.get(world)
         if not w:
-            return ("(world not found)", "", "(world not found)", "", seed, "(world not found)", "", "", -1)
+            return ("(world not found)", "", "(world not found)", "", seed, "(world not found)", "", "", -1, "{}", "{}")
 
         effective_seed = int(seed)
         take_count = int(take_count)
@@ -232,15 +238,18 @@ class DirectorNode:
         best_take_idx = -1
         best_final_prompt = ""
         best_notes = ""
+        best_chosen: Dict[str, str] = {}
+        best_seed = effective_seed
 
-        # outputs (last take)
+        # last take outputs
         last_prompt = ""
         last_system_prompt = ""
         last_final_prompt = ""
         last_notes = ""
-        last_next_seed = effective_seed
 
         shot_blocks: List[str] = []
+        takes_json: List[Dict[str, Any]] = []
+
         current_seed = effective_seed
 
         for i in range(take_count):
@@ -249,10 +258,8 @@ class DirectorNode:
 
             if fm == "freeze" and self._last:
                 applied_overrides = self._filter_overrides(self._last, fs)
-
                 if co != "none" and co in applied_overrides:
                     applied_overrides.pop(co, None)
-
                 overrides = dict(applied_overrides) if applied_overrides else None
             elif fm == "refresh":
                 overrides = None
@@ -271,7 +278,7 @@ class DirectorNode:
                 overrides=overrides,
             )
 
-            # update memory
+            # memory update
             if fm in ("off", "refresh"):
                 self._last = dict(chosen)
             elif fm == "freeze" and co != "none":
@@ -285,28 +292,32 @@ class DirectorNode:
                 sp_out = ""
                 final_prompt = prompt
 
-            applied_keys = ", ".join(sorted(applied_overrides.keys())) if applied_overrides else "(none)"
+            applied_keys = sorted(applied_overrides.keys()) if applied_overrides else []
             header = (
                 f"preset: {preset}\n"
                 f"freeze_mode: {fm}\n"
                 f"freeze_scope: {fs}\n"
                 f"change_one: {co}\n"
-                f"applied_overrides: {applied_keys}\n"
+                f"applied_overrides: {', '.join(applied_keys) if applied_keys else '(none)'}\n"
                 f"take: {i + 1}/{take_count}\n"
                 f"seed: {current_seed}\n"
             )
             notes_out = (header + director_notes).strip()
 
-            # best take picker
-            if (pick_mode or "off").lower().strip() == "best_take":
-                sc = self._score_take(pick_rule, pick_keyword, chosen, final_prompt)
-                if sc > best_score:
-                    best_score = sc
-                    best_take_idx = i + 1
-                    best_final_prompt = final_prompt
-                    best_notes = (notes_out + f"\nscore: {sc}").strip()
+            # score
+            picker_on = (pick_mode or "off").lower().strip() == "best_take"
+            score = self._score_take(pick_rule, pick_keyword, chosen, final_prompt) if picker_on else None
 
-            # save last outputs
+            # best take
+            if picker_on and score is not None and score > best_score:
+                best_score = score
+                best_take_idx = i + 1
+                best_final_prompt = final_prompt
+                best_notes = (notes_out + f"\nscore: {score}").strip()
+                best_chosen = dict(chosen)
+                best_seed = current_seed
+
+            # save last
             last_prompt = prompt
             last_system_prompt = sp_out
             last_final_prompt = final_prompt
@@ -315,33 +326,82 @@ class DirectorNode:
             shot_blocks.append(
                 "\n".join([
                     f"===== TAKE {i + 1}/{take_count} =====",
-                    notes_out,
+                    notes_out + (f"\nscore: {score}" if score is not None else ""),
                     "----- FINAL PROMPT -----",
                     final_prompt,
                     "",
                 ]).strip()
             )
 
+            takes_json.append({
+                "take_index": i + 1,
+                "seed": current_seed,
+                "preset": preset,
+                "freeze_mode": fm,
+                "freeze_scope": fs,
+                "change_one": co,
+                "applied_overrides": applied_keys,
+                "chosen": dict(chosen),
+                "prompt": prompt,
+                "system_prompt": system_prompt if include_system_prompt else "",
+                "final_prompt": final_prompt,
+                "notes": notes_out,
+                "score": score,
+            })
+
             current_seed = self._compute_next_seed(current_seed, lock, take_seed_mode)
 
-        # next_seed for node output
-        last_next_seed = self._compute_next_seed(effective_seed, lock, control_after_generate)
+        # next seed for node output
+        next_seed = self._compute_next_seed(effective_seed, lock, control_after_generate)
+
         shot_list = "\n\n".join(shot_blocks).strip()
 
-        # if picker off, just mirror last take
-        if (pick_mode or "off").lower().strip() != "best_take":
+        # picker off => pick last
+        picker_on = (pick_mode or "off").lower().strip() == "best_take"
+        if not picker_on:
+            best_take_idx = take_count
             best_final_prompt = last_final_prompt
             best_notes = (last_notes + "\nscore: (picker off)").strip()
-            best_take_idx = take_count
+            best_chosen = takes_json[-1]["chosen"] if takes_json else {}
+            best_seed = takes_json[-1]["seed"] if takes_json else effective_seed
+
+        shot_list_json_obj = {
+            "world": world,
+            "take_count": take_count,
+            "seed_start": effective_seed,
+            "take_seed_mode": (take_seed_mode or "keep"),
+            "include_system_prompt": bool(include_system_prompt),
+            "separator": self._make_separator(separator, custom_separator),
+            "picker": {
+                "mode": (pick_mode or "off"),
+                "rule": (pick_rule or "balanced"),
+                "keyword": (pick_keyword or ""),
+            },
+            "takes": takes_json,
+        }
+
+        picked_json_obj = {
+            "picked_take_index": int(best_take_idx),
+            "picked_seed": int(best_seed),
+            "picked_score": (int(best_score) if picker_on else None),
+            "picked_chosen": best_chosen,
+            "picked_final_prompt": best_final_prompt,
+            "picked_notes": best_notes,
+        }
+
+        shot_list_json = self._dump_json(shot_list_json_obj, bool(json_pretty))
+        picked_json = self._dump_json(picked_json_obj, bool(json_pretty))
 
         return (
             last_prompt,
             last_system_prompt,
             last_final_prompt,
             last_notes,
-            last_next_seed,
+            int(next_seed),
             shot_list,
             best_final_prompt,
             best_notes,
             int(best_take_idx),
+            shot_list_json,
+            picked_json,
         )
