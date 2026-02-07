@@ -1,81 +1,15 @@
-# =========================
-# Prompt Creator Node Suite
-# =========================
+from .manifest import MANIFEST
 
-MANIFEST = {
-    "name": "Prompt Creator Node",
-    "version": (1, 9, 1),
-    "author": "TK-traumakom",
-    "project": "https://github.com/traumakom/PromptCreatorNode",
-    "description": (
-        "Dynamic prompt generator for ComfyUI using modular JSON worlds, "
-        "COLOR_REALM control, LoRA triggers, optional AI enhancement, "
-        "and a modular Identity Mixer for consistent character generation."
-    ),
-}
+# New-structure nodes (v2)
+try:
+    from .nodes.director import DirectorNode
+except Exception as e:
+    DirectorNode = None
+    print(f"[PFN] DirectorNode load failed: {e}")
 
-# Log version on load (very useful for debugging)
-print(
-    f"[PromptCreatorNode] "
-    f"v{'.'.join(map(str, MANIFEST['version']))} loaded"
-)
-def _print_promptcreator_banner():
-    banner = r"""
- ██████╗ ██████╗  ██████╗ ███╗   ███╗██████╗ ████████╗
- ██╔══██╗██╔══██╗██╔═══██╗████╗ ████║██╔══██╗╚══██╔══╝
- ██████╔╝██████╔╝██║   ██║██╔████╔██║██████╔╝   ██║   
- ██╔═══╝ ██╔══██╗██║   ██║██║╚██╔╝██║██╔═══╝    ██║   
- ██║     ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║        ██║   
- ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝        ╚═╝   
- -----------------------------------------------------
-                        1.9.1                         
- -----------------------------------------------------
+NODE_CLASS_MAPPINGS = {}
+NODE_DISPLAY_NAME_MAPPINGS = {}
 
-===========================================================
-PromptCreatorNode v1.9.1
-A modular cinematic prompt generator for ComfyUI
-
-Loaded nodes:
-  - Prompt Generator
-  - Identity Mixer (Parts)
-  - Prompt Replay
-  - Prompt Builder
-  - Promt Tags Extractor Node (create tags for galley uploader)
-
-Author: traumakom
-===========================================================
-"""
-    print(banner)
-
-_print_promptcreator_banner()
-
-# -------------------------
-# Node imports
-# -------------------------
-
-from .PromptCreatorNode import PromptCreatorNode
-from .IdentityMixerNode import IdentityMixerNode
-from .PromptReplayNode import PromptReplayNode
-from .PromptBuilderNode import PromptBuilderNode
-from .PromptTagsExtractorNode import PromptTagsExtractorNode
-
-# -------------------------
-# ComfyUI mappings
-# -------------------------
-
-NODE_CLASS_MAPPINGS = {
-    "PromptCreatorNode": PromptCreatorNode,
-    "IdentityMixerNode": IdentityMixerNode,
-    "PromptReplayNode": PromptReplayNode,
-    "PromptBuilderNode": PromptBuilderNode,
-    "PromptTagsExtractorNode": PromptTagsExtractorNode
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "PromptCreatorNode": "Prompt Generator",
-    "IdentityMixerNode": "Identity Mixer (Parts)",
-    "PromptReplayNode": "Prompt Replay",
-    "PromptBuilderNode": "Prompt Builder",
-    "PFN_PromptTagsExtractor": "PFN Prompt → Tags (Extractor)"
-
-}
+if DirectorNode is not None:
+    NODE_CLASS_MAPPINGS["DirectorNode"] = DirectorNode
+    NODE_DISPLAY_NAME_MAPPINGS["DirectorNode"] = "Director (0.1-dev)"
