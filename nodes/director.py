@@ -24,6 +24,8 @@ class DirectorNode:
                 "include_system_prompt": ("BOOLEAN", {"default": True}),
                 "separator": (["\\n\\n", "\\n", " — ", " | ", ", "],),
                 "custom_separator": ("STRING", {"default": ""}),
+                "lock_camera": ("BOOLEAN", {"default": True}),
+
 
             }
         }
@@ -44,6 +46,8 @@ class DirectorNode:
         include_system_prompt: bool,
         separator: str,
         custom_separator: str,
+        lock_camera: bool,
+        
 
     ):
         w = WorldRegistry.get(world)
@@ -62,6 +66,7 @@ class DirectorNode:
             seed=effective_seed,
             custom_intro_mode=custom_intro_mode,
             custom_intro_index=idx,
+            lock_camera=lock_camera,
         )
 
         if include_system_prompt:

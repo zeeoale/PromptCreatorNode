@@ -4,9 +4,9 @@ import random
 from typing import Any, Dict, List, Optional, Tuple
 
 
-def _pick(arr: Any, fallback: str = "") -> str:
+def _pick_with_rng(rng: random.Random, arr: Any, fallback: str = "") -> str:
     if isinstance(arr, list) and arr:
-        return str(random.choice(arr))
+        return str(rng.choice(arr))
     return fallback
 
 
@@ -14,7 +14,16 @@ def _join_nonempty(parts: List[str]) -> str:
     return ", ".join([p.strip() for p in parts if p and p.strip()])
 
 
+def _seed_for(seed: int, tag: str) -> int:
+    # deterministico, stabile tra run (a differenza di hash() che può variare)
+    h = 0
+    for ch in tag:
+        h = (h * 31 + ord(ch)) & 0x7FFFFFFF
+    return (seed ^ h) & 0x7FFFFFFF
+
+
 def _select_custom_intro(
+    rng: random.Random,
     world: Dict[str, Any],
     mode: str = "auto",
     index: Optional[int] = None,
@@ -23,10 +32,7 @@ def _select_custom_intro(
     if not isinstance(ci, dict) or not ci:
         return ""
 
-    # Normalizza keys/values in stringhe
-    keys = list(ci.keys())
-    values = [str(ci[k]) for k in keys if ci.get(k) is not None]
-
+    values = [str(v) for v in ci.values() if v is not None and str(v).strip()]
     if not values:
         return ""
 
@@ -39,87 +45,59 @@ def _select_custom_intro(
         return str(ci.get(k, "")) if k in ci else ""
 
     if mode == "random":
-        return str(random.choice(values))
+        return str(rng.choice(values))
 
     # auto: prova 0..6, altrimenti random
     for k in ["0", "1", "2", "3", "4", "5", "6"]:
         if k in ci:
             return str(ci[k])
-    return str(random.choice(values))
-
-
-from __future__ import annotations
-
-import random
-from typing import Any, Dict, List, Optional, Tuple
-
-
-def _pick(arr: Any, fallback: str = "") -> str:
-    if isinstance(arr, list) and arr:
-        return str(random.choice(arr))
-    return fallback
-
-
-def _join_nonempty(parts: List[str]) -> str:
-    return ", ".join([p.strip() for p in parts if p and p.strip()])
-
-
-def _select_custom_intro(
-    world: Dict[str, Any],
-    mode: str = "auto",
-    index: Optional[int] = None,
-) -> str:
-    ci = world.get("CUSTOM_INTRO")
-    if not isinstance(ci, dict) or not ci:
-        return ""
-
-    values = [str(v) for v in ci.values() if v is not None]
-    if not values:
-        return ""
-
-    mode = (mode or "auto").lower().strip()
-
-    if mode == "index":
-        if index is None:
-            return ""
-        k = str(index)
-        return str(ci.get(k, "")) if k in ci else ""
-
-    if mode == "random":
-        return str(random.choice(values))
-
-    for k in ["0", "1", "2", "3", "4", "5", "6"]:
-        if k in ci:
-            return str(ci[k])
-    return str(random.choice(values))
+    return str(rng.choice(values))
 
 
 def build_prompt_from_world(
     world: Dict[str, Any],
-    seed: Optional[int] = None,
+    seed: int = 0,
     custom_intro_mode: str = "auto",
     custom_intro_index: Optional[int] = None,
+    lock_camera: bool = True,
 ) -> Tuple[str, str, str]:
-    if seed is not None:
-        random.seed(seed)
+    """
+    Returns: (prompt, system_prompt, director_notes)
+
+    lock_camera:
+      - True  => camera selection uses a deterministic RNG derived from seed
+      - False => camera selection uses the main RNG (varies with seed changes)
+    """
+
+    # RNG principale per la maggior parte delle scelte
+    base_rng = random.Random(seed)
 
     system_prompt = str(world.get("SYSTEM_PROMPT", "")).strip()
 
     custom_intro = _select_custom_intro(
+        base_rng,
         world,
         mode=custom_intro_mode,
         index=custom_intro_index,
     )
 
-    outfit = _pick(world.get("OUTFITS"), "simple dark outfit")
-    lighting = _pick(world.get("LIGHTING"), "low ambient light")
-    background = _pick(world.get("BACKGROUNDS"), "intimate interior")
-    objects = _pick(world.get("OBJECTS"), "personal items")
-    pose = _pick(world.get("POSES"), "relaxed pose")
-    expression = _pick(world.get("EXPRESSIONS"), "calm expression")
-    camera = _pick(world.get("CAMERA_ANGLES"), "eye-level framing")
-    atmosphere = _pick(world.get("ATMOSPHERES"), "quiet cinematic mood")
-    accessory = _pick(world.get("ACCESSORIES"), "")
+    outfit = _pick_with_rng(base_rng, world.get("OUTFITS"), "simple dark outfit")
+    lighting = _pick_with_rng(base_rng, world.get("LIGHTING"), "low ambient light")
+    background = _pick_with_rng(base_rng, world.get("BACKGROUNDS"), "intimate interior")
+    objects = _pick_with_rng(base_rng, world.get("OBJECTS"), "personal items")
+    pose = _pick_with_rng(base_rng, world.get("POSES"), "relaxed pose")
+    expression = _pick_with_rng(base_rng, world.get("EXPRESSIONS"), "calm expression")
+
+    # Camera RNG separato (lock selettivo)
+    camera_list = world.get("CAMERA_ANGLES")
+    if lock_camera:
+        camera_rng = random.Random(_seed_for(seed, "camera"))
+    else:
+        camera_rng = base_rng
+    camera = _pick_with_rng(camera_rng, camera_list, "eye-level framing")
+
+    atmosphere = _pick_with_rng(base_rng, world.get("ATMOSPHERES"), "quiet cinematic mood")
+    accessory = _pick_with_rng(base_rng, world.get("ACCESSORIES"), "")
 
     prompt = _join_nonempty([
         custom_intro,
@@ -145,6 +123,7 @@ def build_prompt_from_world(
         "camera": camera,
         "atmosphere": atmosphere,
         "accessory": accessory,
+        "lock_camera": str(lock_camera).lower(),
     }
 
     director_notes = "\n".join(
@@ -152,4 +131,3 @@ def build_prompt_from_world(
     ).strip()
 
     return (prompt.strip(), system_prompt, director_notes)
-
