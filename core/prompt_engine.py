@@ -15,7 +15,6 @@ def _join_nonempty(parts: List[str]) -> str:
 
 
 def _seed_for(seed: int, tag: str) -> int:
-    # deterministico e stabile (evitiamo hash() che può cambiare tra processi)
     h = 0
     for ch in tag:
         h = (h * 31 + ord(ch)) & 0x7FFFFFFF
@@ -47,7 +46,6 @@ def _select_custom_intro(
     if mode == "random":
         return str(rng.choice(values))
 
-    # auto: prova 0..6, altrimenti random
     for k in ["0", "1", "2", "3", "4", "5", "6"]:
         if k in ci:
             return str(ci[k])
@@ -63,45 +61,43 @@ def build_prompt_from_world(
     lock_lighting: bool = True,
     lock_outfit: bool = True,
     lock_pose: bool = False,
-) -> Tuple[str, str, str]:
+    overrides: Optional[Dict[str, str]] = None,
+) -> Tuple[str, str, str, Dict[str, str]]:
     """
-    Returns: (prompt, system_prompt, director_notes)
+    Returns: (prompt, system_prompt, director_notes, chosen)
 
-    Selective locks:
-      - when a lock is True, that element uses a deterministic RNG derived from seed
-      - when False, it uses the base RNG (so it follows normal variation)
+    overrides: if provided, keys like "camera","outfit","lighting","pose","expression","background","objects","atmosphere","accessory"
+              will be used instead of sampling.
     """
+
+    overrides = overrides or {}
 
     base_rng = random.Random(seed)
-
     system_prompt = str(world.get("SYSTEM_PROMPT", "")).strip()
 
-    custom_intro = _select_custom_intro(
-        base_rng,
-        world,
-        mode=custom_intro_mode,
-        index=custom_intro_index,
+    custom_intro = overrides.get("custom_intro") or _select_custom_intro(
+        base_rng, world, mode=custom_intro_mode, index=custom_intro_index
     )
 
     outfit_rng = random.Random(_seed_for(seed, "outfit")) if lock_outfit else base_rng
-    outfit = _pick_with_rng(outfit_rng, world.get("OUTFITS"), "simple dark outfit")
+    outfit = overrides.get("outfit") or _pick_with_rng(outfit_rng, world.get("OUTFITS"), "simple dark outfit")
 
     lighting_rng = random.Random(_seed_for(seed, "lighting")) if lock_lighting else base_rng
-    lighting = _pick_with_rng(lighting_rng, world.get("LIGHTING"), "low ambient light")
+    lighting = overrides.get("lighting") or _pick_with_rng(lighting_rng, world.get("LIGHTING"), "low ambient light")
 
-    background = _pick_with_rng(base_rng, world.get("BACKGROUNDS"), "intimate interior")
-    objects = _pick_with_rng(base_rng, world.get("OBJECTS"), "personal items")
+    background = overrides.get("background") or _pick_with_rng(base_rng, world.get("BACKGROUNDS"), "intimate interior")
+    objects = overrides.get("objects") or _pick_with_rng(base_rng, world.get("OBJECTS"), "personal items")
 
     pose_rng = random.Random(_seed_for(seed, "pose")) if lock_pose else base_rng
-    pose = _pick_with_rng(pose_rng, world.get("POSES"), "relaxed pose")
+    pose = overrides.get("pose") or _pick_with_rng(pose_rng, world.get("POSES"), "relaxed pose")
 
-    expression = _pick_with_rng(base_rng, world.get("EXPRESSIONS"), "calm expression")
+    expression = overrides.get("expression") or _pick_with_rng(base_rng, world.get("EXPRESSIONS"), "calm expression")
 
     camera_rng = random.Random(_seed_for(seed, "camera")) if lock_camera else base_rng
-    camera = _pick_with_rng(camera_rng, world.get("CAMERA_ANGLES"), "eye-level framing")
+    camera = overrides.get("camera") or _pick_with_rng(camera_rng, world.get("CAMERA_ANGLES"), "eye-level framing")
 
-    atmosphere = _pick_with_rng(base_rng, world.get("ATMOSPHERES"), "quiet cinematic mood")
-    accessory = _pick_with_rng(base_rng, world.get("ACCESSORIES"), "")
+    atmosphere = overrides.get("atmosphere") or _pick_with_rng(base_rng, world.get("ATMOSPHERES"), "quiet cinematic mood")
+    accessory = overrides.get("accessory") or _pick_with_rng(base_rng, world.get("ACCESSORIES"), "")
 
     prompt = _join_nonempty([
         custom_intro,
@@ -116,24 +112,36 @@ def build_prompt_from_world(
         accessory,
     ])
 
-    selections = {
-        "lock_outfit": str(lock_outfit).lower(),
+    chosen: Dict[str, str] = {
+        "custom_intro": custom_intro,
         "outfit": outfit,
-        "lock_lighting": str(lock_lighting).lower(),
         "lighting": lighting,
         "background": background,
         "objects": objects,
-        "lock_pose": str(lock_pose).lower(),
         "pose": pose,
         "expression": expression,
-        "lock_camera": str(lock_camera).lower(),
         "camera": camera,
         "atmosphere": atmosphere,
         "accessory": accessory,
     }
 
-    director_notes = "\n".join(
-        [f"{k}: {v}" for k, v in selections.items() if v and str(v).strip()]
-    ).strip()
+    notes_lines = [
+        f"outfit: {outfit}",
+        f"lighting: {lighting}",
+        f"background: {background}",
+        f"objects: {objects}",
+        f"pose: {pose}",
+        f"expression: {expression}",
+        f"camera: {camera}",
+        f"atmosphere: {atmosphere}",
+        f"accessory: {accessory}",
+        f"lock_camera: {str(lock_camera).lower()}",
+        f"lock_lighting: {str(lock_lighting).lower()}",
+        f"lock_outfit: {str(lock_outfit).lower()}",
+        f"lock_pose: {str(lock_pose).lower()}",
+        f"overrides: {', '.join(sorted(overrides.keys())) if overrides else '(none)'}",
+    ]
 
-    return (prompt.strip(), system_prompt, director_notes)
+    director_notes = "\n".join([l for l in notes_lines if l.strip()]).strip()
+
+    return (prompt.strip(), system_prompt, director_notes, chosen)

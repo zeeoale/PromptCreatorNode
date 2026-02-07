@@ -1,12 +1,17 @@
 from __future__ import annotations
 
 import random
+from typing import Dict, Optional
 
 from ..core.world_registry import WorldRegistry
 from ..core.prompt_engine import build_prompt_from_world
 
 
 class DirectorNode:
+    def __init__(self):
+        # memoria delle ultime scelte
+        self._last: Optional[Dict[str, str]] = None
+
     @classmethod
     def INPUT_TYPES(cls):
         names = WorldRegistry.list_names()
@@ -29,6 +34,7 @@ class DirectorNode:
                 "lock_lighting": ("BOOLEAN", {"default": True}),
                 "lock_outfit": ("BOOLEAN", {"default": True}),
                 "lock_pose": ("BOOLEAN", {"default": False}),
+                "freeze_mode": (["off", "freeze", "refresh"],),
             }
         }
 
@@ -53,6 +59,7 @@ class DirectorNode:
         lock_lighting: bool,
         lock_outfit: bool,
         lock_pose: bool,
+        freeze_mode: str,
     ):
         w = WorldRegistry.get(world)
         if not w:
@@ -60,14 +67,12 @@ class DirectorNode:
 
         effective_seed = int(seed)
 
-        # --- custom intro index valido solo se mode=index ---
         idx = None
         if (custom_intro_mode == "index") and (custom_intro_index is not None) and (int(custom_intro_index) >= 0):
             idx = int(custom_intro_index)
 
-        # --- preset (logica UI: qui è il posto giusto) ---
+        # preset
         preset = (director_preset or "custom").lower().strip()
-
         if preset != "custom":
             if preset == "continuity":
                 lock_camera = True
@@ -85,8 +90,18 @@ class DirectorNode:
                 lock_outfit = False
                 lock_pose = False
 
-        # --- build prompt ---
-        prompt, system_prompt, director_notes = build_prompt_from_world(
+        # freeze overrides
+        fm = (freeze_mode or "off").lower().strip()
+        overrides: Optional[Dict[str, str]] = None
+
+        if fm == "freeze" and self._last:
+            overrides = dict(self._last)
+        elif fm == "refresh":
+            overrides = None  # rigenera, poi aggiorniamo self._last
+        else:
+            overrides = None  # off
+
+        prompt, system_prompt, director_notes, chosen = build_prompt_from_world(
             w,
             seed=effective_seed,
             custom_intro_mode=custom_intro_mode,
@@ -95,12 +110,17 @@ class DirectorNode:
             lock_lighting=lock_lighting,
             lock_outfit=lock_outfit,
             lock_pose=lock_pose,
+            overrides=overrides,
         )
 
-        # prepend preset to notes (sempre utile)
-        director_notes = f"preset: {preset}\n{director_notes}".strip() if director_notes else f"preset: {preset}"
+        # aggiorna memoria se non siamo in freeze (o se refresh)
+        if fm in ("off", "refresh"):
+            self._last = dict(chosen)
 
-        # --- final prompt formatting ---
+        # note con intestazione
+        director_notes = f"preset: {preset}\nfreeze_mode: {fm}\n{director_notes}".strip()
+
+        # final prompt
         if include_system_prompt:
             sp = system_prompt
             sep_raw = custom_separator.strip() if custom_separator and custom_separator.strip() else separator
@@ -110,7 +130,7 @@ class DirectorNode:
             sp = ""
             final_prompt = prompt
 
-        # --- next seed ---
+        # next seed
         if lock:
             next_seed = effective_seed
         else:
