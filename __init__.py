@@ -6,31 +6,30 @@
 from .manifest import MANIFEST
 from .nodes.director import DirectorNode  # v2 only
 from .nodes.session_load import DirectorSessionLoad
+from .nodes.session_merge import DirectorSessionMerge
+from .nodes.session_merge_dropdown import DirectorSessionMergeDropdown
+
+
 
 
 NODE_CLASS_MAPPINGS = {
     "DirectorNode": DirectorNode,
     "DirectorSessionLoad": DirectorSessionLoad,
+    "DirectorSessionMerge": DirectorSessionMerge,
+    "DirectorSessionMergeDropdown": DirectorSessionMergeDropdown,
+
+
 
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "DirectorNode": "Director (0.1-dev)",
     "DirectorSessionLoad": "Director Session Load",
+    "DirectorSessionMerge": "Director Session Merge",
+    "DirectorSessionMergeDropdown": "Director Session Merge (Dropdown)",
+
+
 
 }
 
-print(f"[PFN] v{'.'.join(map(str, MANIFEST['version']))} loaded (DirectorNode only, v2)")
 
-
-# --- ComfyUI mappings ---
-NODE_CLASS_MAPPINGS = {}
-NODE_DISPLAY_NAME_MAPPINGS = {}
-
-if DirectorNode is not None:
-    NODE_CLASS_MAPPINGS["DirectorNode"] = DirectorNode
-    NODE_DISPLAY_NAME_MAPPINGS["DirectorNode"] = "Director (0.1-dev)"
-else:
-    print(f"[PFN] DirectorNode failed to load: {_import_error}")
-
-print(f"[PFN] v{'.'.join(map(str, MANIFEST['version']))} loaded (DirectorNode only)")
