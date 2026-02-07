@@ -21,11 +21,12 @@ class DirectorNode:
                 "control_after_generate": (["keep", "increment", "randomize"],),
                 "custom_intro_mode": (["auto", "index", "random"],),
                 "custom_intro_index": ("INT", {"default": -1, "min": -1, "max": 6}),
+                "include_system_prompt": ("BOOLEAN", {"default": True}),
             }
         }
 
-    RETURN_TYPES = ("STRING", "STRING", "INT")
-    RETURN_NAMES = ("prompt", "system_prompt", "next_seed")
+    RETURN_TYPES = ("STRING", "STRING", "STRING", "INT")
+    RETURN_NAMES = ("prompt", "system_prompt", "final_prompt", "next_seed")
     FUNCTION = "run"
     CATEGORY = "PFN/Director"
 
@@ -37,12 +38,12 @@ class DirectorNode:
         control_after_generate: str,
         custom_intro_mode: str,
         custom_intro_index: int,
+        include_system_prompt: bool,
     ):
         w = WorldRegistry.get(world)
         if not w:
-            return ("(world not found)", "", seed)
+            return ("(world not found)", "", "(world not found)", seed)
 
-        # Seed effettivo per generare
         effective_seed = int(seed)
 
         # Custom intro index valido solo in modalità index
@@ -57,6 +58,13 @@ class DirectorNode:
             custom_intro_index=idx,
         )
 
+        if include_system_prompt:
+            sp = system_prompt
+            final_prompt = f"{system_prompt}\n\n{prompt}".strip() if system_prompt else prompt
+        else:
+            sp = ""
+            final_prompt = prompt
+
         # Next seed (utile da collegare ad altri nodi)
         if lock:
             next_seed = effective_seed
@@ -69,4 +77,4 @@ class DirectorNode:
             else:
                 next_seed = effective_seed
 
-        return (prompt, system_prompt, next_seed)
+        return (prompt, sp, final_prompt, next_seed)
