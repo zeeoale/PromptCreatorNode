@@ -13,6 +13,7 @@ FIELDS_ORDER = [
     "mouth",
     "hair",
     "hair_color",
+    "makeup",          # ✅ NEW
     "skin",
     "body_type",
     "expression_base",
@@ -54,13 +55,14 @@ def _get_traits_and_presets(data: dict):
                 norm[k] = []
         return norm, presets, True  # True = nuovo formato
 
-    # Legacy: colleziona valori da identità singole (come fai già ora)
+    # Legacy: colleziona valori da identità singole
     identities = data
     values = {k: set() for k in FIELDS_ORDER}
     for _, obj in identities.items():
         if not isinstance(obj, dict):
             continue
         for k in FIELDS_ORDER:
+            # ✅ supporta anche chiavi legacy in MAIUSCOLO, incl. MAKEUP
             v = obj.get(k) or obj.get(k.upper())
             if isinstance(v, str):
                 v = v.strip()
@@ -83,7 +85,6 @@ class IdentityMixerNode:
         opts = {}
         for k in FIELDS_ORDER:
             base = traits.get(k, [])
-            # opzionale: aggiungiamo (preset) solo se esistono preset e siamo nel nuovo formato
             specials = [SPECIAL_RANDOM]
             if is_new and presets:
                 specials.append(SPECIAL_PRESET)
@@ -91,8 +92,7 @@ class IdentityMixerNode:
 
             # ethnicity: aggiungi (none) sempre
             if k == "ethnicity":
-                specials.insert(1, SPECIAL_NONE)  # dopo (random)
-                # e se nel JSON c'è "None", lo tratto come voce normale; ma (none) è più comodo
+                specials.insert(1, SPECIAL_NONE)
 
             opts[k] = specials + (base if base else ["(no_values)"])
 
@@ -100,7 +100,6 @@ class IdentityMixerNode:
 
         return {
             "required": {
-                # preset è utile ma non obbligatorio: non cambia i dropdown, serve solo a dare un “bacino” quando scegli (preset)
                 "preset": (preset_list,),
                 "age": (opts["age"],),
                 "face_type": (opts["face_type"],),
@@ -110,6 +109,7 @@ class IdentityMixerNode:
                 "mouth": (opts["mouth"],),
                 "hair": (opts["hair"],),
                 "hair_color": (opts["hair_color"],),
+                "makeup": (opts["makeup"],),   # ✅ NEW
                 "skin": (opts["skin"],),
                 "body_type": (opts["body_type"],),
                 "expression_base": (opts["expression_base"],),
@@ -127,10 +127,14 @@ class IdentityMixerNode:
     FUNCTION = "mix"
     CATEGORY = "PromptCreator"
 
-    def mix(self, preset, age, face_type, eyes, eyes_color, nose, mouth, hair, hair_color, skin, body_type, expression_base, ethnicity,
-            random_seed, custom_intro_prefix, identities_file=None):
-
-
+    def mix(
+        self,
+        preset,
+        age, face_type, eyes, eyes_color, nose, mouth,
+        hair, hair_color, makeup, skin, body_type, expression_base, ethnicity,
+        random_seed, custom_intro_prefix,
+        identities_file=None
+    ):
         data = _load_json(identities_file) if identities_file else {}
         traits, presets, is_new = _get_traits_and_presets(data)
 
@@ -145,7 +149,6 @@ class IdentityMixerNode:
             if sel == SPECIAL_NONE:
                 return ""
             if sel == SPECIAL_PRESET:
-                # pesca dal preset se presente, altrimenti fallback su traits
                 pool = selected_preset.get(field, [])
                 if isinstance(pool, list) and pool:
                     return rng.choice(pool)
@@ -167,6 +170,7 @@ class IdentityMixerNode:
             ("mouth", mouth),
             ("hair", hair),
             ("hair_color", hair_color),
+            ("makeup", makeup),          # ✅ NEW
             ("skin", skin),
             ("body_type", body_type),
             ("expression_base", expression_base),

@@ -1,0 +1,130 @@
+{
+  "WORLD_NAME": "PFN_Velvet_Penthouse_Pool",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in contemporary luxury boudoir scenes set in private penthouses, rooftop terraces, and exclusive poolside environments. When requested, return ONE single long cinematic sentence of 180–240 words, without lists or line breaks, describing an adult woman alone in an upscale, private setting where sensuality emerges through posture, light, and atmosphere rather than explicit exposure. The environment must feel modern, minimal, and expensive: rooftop pools overlooking city skylines, penthouse bedrooms with glass walls, private terraces at dusk, sun loungers by infinity pools, and quiet hotel rooftops closed to the public. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize clean architecture, water reflections, stone and glass surfaces, warm skin tones against cool modern materials, and the contrast between open sky and private solitude. Sensuality must remain controlled, elegant, and intentional, avoiding vulgarity or exhibitionism. The final image should feel like a silent, private luxury moment suspended between city and sky, with cinematic depth of field, gentle film grain, and refined stillness inspired by classical boudoir aesthetics translated into contemporary high-end environments.",
+  "OUTFITS": [
+    "minimalist one-piece swimsuit with high-cut silhouette",
+    "sheer silk cover-up slipping from shoulders",
+    "wet-look swimsuit catching reflected light",
+    "open silk robe worn directly on bare skin",
+    "luxury bikini with clean architectural lines",
+    "translucent kaftan revealing silhouette",
+    "satin lingerie partially concealed by towel",
+    "tailored blazer draped over swimwear",
+    "linen shirt worn open over bare torso",
+    "minimal bandeau swimsuit with gold hardware",
+    "delicate silk slip dress clinging to damp skin",
+    "poolside loungewear in satin and cashmere",
+    "high-waisted bikini paired with sheer wrap",
+    "open-back swimsuit emphasizing posture",
+    "luxury resortwear dress with deep side slits"
+  ],
+  "LIGHTING": [
+    "golden hour sunlight reflecting off water surface",
+    "soft dusk light with cool blue shadows",
+    "city lights glowing beneath twilight sky",
+    "reflected pool caustics dancing across skin",
+    "muted overcast daylight softened by glass architecture",
+    "warm practical lights integrated into terrace design",
+    "nighttime rooftop lighting with subtle highlights"
+  ],
+  "BACKGROUNDS": [
+    "private rooftop infinity pool overlooking city skyline",
+    "penthouse terrace with glass railing and stone flooring",
+    "luxury rooftop lounge closed to the public",
+    "sun deck with modern loungers and folded towels",
+    "penthouse bedroom opening directly onto pool terrace",
+    "high-rise balcony with panoramic city view",
+    "exclusive hotel rooftop pool at night",
+    "modern outdoor shower with stone walls and water droplets"
+  ],
+  "OBJECTS": [
+    "sun lounger with crisp white cushions",
+    "folded towels neatly placed beside the pool",
+    "glass of chilled water with condensation",
+    "champagne flute resting on stone ledge",
+    "designer sunglasses reflecting skyline",
+    "a sculptural outdoor lamp casting soft gradients",
+    "sheer fabric moving slightly in evening breeze",
+    "a small tray with jewelry placed casually nearby",
+    "a luxury hotel keycard wallet on a side table",
+    "wet footprints on smooth stone flooring",
+    "minimalist speaker suggesting low ambient music",
+    "subtle TK-branded towel edge, discreet and lived-in",
+    "pool ladder catching highlights",
+    "reflections of water rippling across walls",
+    "a robe draped over the back of a lounger"
+  ],
+  "POSES": [
+    "reclining on a sun lounger with one knee raised",
+    "sitting at the pool edge, feet submerged in water",
+    "leaning back against glass railing, city behind",
+    "half-turned pose near the pool, shoulder exposed",
+    "lounging sideways, towel slipping from hips",
+    "standing under outdoor shower, water tracing skin",
+    "resting elbows on knees, relaxed poolside posture",
+    "slow stretch along the lounger, arms raised",
+    "seated on stone edge, legs crossed casually",
+    "lying back with eyes closed, sun warming skin",
+    "leaning on forearms at pool edge, back arched gently",
+    "kneeling softly on lounger, composed and calm",
+    "turning head over shoulder toward camera",
+    "standing barefoot on terrace tiles, weight shifted",
+    "relaxed slouch against cushion, effortless elegance"
+  ],
+  "EXPRESSIONS": [
+    "calm, sun-dazed expression",
+    "quiet confidence with softened gaze",
+    "introspective look toward the skyline",
+    "serene, unguarded calm",
+    "cool editorial composure",
+    "slow, relaxed half-smile"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level portrait, 85mm look, shallow depth of field",
+    "three-quarter view, 50mm look, cinematic framing",
+    "slight low angle emphasizing skyline and posture",
+    "profile close-up with water reflections, 105mm look",
+    "top-down angle capturing pool geometry, 24mm look",
+    "over-the-shoulder framing with city bokeh",
+    "wide composition balancing figure and architecture"
+  ],
+  "ATMOSPHERES": [
+    "private rooftop serenity",
+    "luxury solitude above the city",
+    "warm evening calm with cool urban contrast",
+    "sun-soaked stillness",
+    "quiet sensuality shaped by space and light",
+    "timeless boudoir intimacy translated to open air"
+  ],
+  "ACCESSORIES": [
+    "delicate gold jewelry",
+    "minimal sunglasses",
+    "silk hair ribbon",
+    "fine ankle bracelet",
+    "wet hair loosely tied",
+    "simple chain necklace",
+    "oversized towel wrapped loosely",
+    "sheer wrap tied casually"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric rooftop calm",
+    "1": "subtle poolside elegance",
+    "2": "intimate sensuality expressed through posture and light",
+    "3": "maximum boudoir tension in a luxury poolside context, elegant and non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "soft melancholic undertone",
+    "2": "nocturnal urban mood",
+    "3": "dark romantic rooftop atmosphere"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A cinematic rooftop pool scene unfolding in private luxury, city and sky framing a quiet, sensual moment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate penthouse poolside composition where water, glass, and skin interact in refined stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A contemporary luxury rooftop scene emphasizing solitude, elegance, and controlled desire above the city lights, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A soft-focus sunset moment by a private infinity pool, architectural lines framing classical boudoir restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A nocturnal penthouse pool scene illuminated by city glow and subtle reflections, capturing intimate modern luxury, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "An elegant rooftop lounge moment where water reflections and open sky shape understated sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A refined poolside boudoir composition suspended between city, water, and silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

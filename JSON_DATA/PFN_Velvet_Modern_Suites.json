@@ -1,0 +1,141 @@
+{
+  "WORLD_NAME": "PFN_Velvet_Modern_Suites",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in boudoir-inspired visual storytelling rooted in classical elegance, quiet intimacy, and contemporary luxury interiors. When requested, return ONE single long, cinematic sentence of 180–240 words, highly descriptive and atmospheric, without lists or line breaks. The scene must depict an adult woman alone in a private, refined space where sensuality is expressed through posture, fabric, light, and restraint rather than explicit display. The setting must feel modern and upscale: minimalist bedrooms, luxury suites, contemporary lounges with leather sofas, penthouse windows, design hotels, spa-like bathrooms, or a sun-lounger by a private pool, always private and tastefully composed. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive narrative. Keep the tone refined, intimate, and timeless, with modern materials (stone, glass, brushed metal) softened by textiles (silk, linen, velvet) and warm practical lights. Emphasize natural body language, subtle exposure, and emotional presence over provocation. Avoid vulgarity, explicit sexuality, or exhibitionism. The final image should feel like a private moment accidentally witnessed, lit with painterly softness, shallow depth of field, gentle film grain, and cinematic stillness that honors classical beauty, restraint, and quiet desire inside contemporary luxury.",
+  "OUTFITS": [
+    "black silk lingerie with lace trim",
+    "minimal satin lingerie set with clean lines",
+    "sheer mesh bodysuit under an open silk robe",
+    "soft satin chemise with modern cut",
+    "delicate nightgown slipping from shoulder",
+    "unbuttoned oversized white shirt worn without underlayers",
+    "open-front robe revealing bare torso",
+    "lingerie set with high-waisted briefs",
+    "translucent slip dress clinging to skin",
+    "fine mesh lingerie barely concealing form",
+    "ivory lace corset paired with bare legs",
+    "soft velvet wrap worn directly on skin",
+    "lingerie layered with loose stockings",
+    "delicate garter belt with silk stockings",
+    "silk camisole with exposed shoulders and minimalist straps",
+    "luxury loungewear set in satin and cashmere, worn loosely",
+    "tailored blazer draped over lingerie, modern editorial mood",
+    "linen shirt half-tucked, collar open, bare skin implied",
+    "swimsuit one-piece with high cut, covered by a sheer kaftan",
+    "poolside silk cover-up slipping at the shoulder",
+    "sheer fabric draped loosely across chest"
+  ],
+  "LIGHTING": [
+    "soft window light filtered through sheer curtains",
+    "low bedside lamp illumination with warm practical glow",
+    "golden hour light spilling across minimalist surfaces",
+    "moody LED strip accents softened by warm tungsten",
+    "muted shadows with gentle highlights and filmic roll-off",
+    "reflected pool caustics dancing on walls at dusk",
+    "citylight glow through floor-to-ceiling glass at night"
+  ],
+  "BACKGROUNDS": [
+    "modern minimalist bedroom with linen bedding and stone accents",
+    "luxury hotel suite with floor-to-ceiling windows and soft drapery",
+    "contemporary lounge with a black leather sofa and low coffee table",
+    "penthouse bedroom with sculptural furniture and quiet city skyline",
+    "spa-like bathroom with marble surfaces, fogged mirror, and warm light",
+    "private poolside deck with sun lounger, towels, and glass railings",
+    "modern reading corner with designer lamp and calm neutral palette",
+    "minimalist dressing area with full-height mirror and soft textiles"
+  ],
+  "OBJECTS": [
+    "silk robe loosely folded nearby",
+    "a modern perfume bottle with a heavy glass cap",
+    "champagne flute on a minimalist bedside table",
+    "a matte-black tray with jewelry and a small porcelain dish for rings",
+    "a soft velvet cushion on a leather sofa",
+    "a sculptural designer lamp casting warm gradients",
+    "sheer curtains catching warm light and slight movement",
+    "a phone face-down on linen sheets, screen dark",
+    "a leather-bound notebook with an ink pen resting on top",
+    "a half-open jewelry case with clean modern compartments",
+    "a brushed metal lighter beside a burning scented candle",
+    "a mirror catching a partial reflection and soft bokeh highlights",
+    "folded towels and a silk cover-up near the pool lounger",
+    "a glass of iced water with condensation on the table",
+    "a minimalist speaker with low ambient music implied",
+    "a throw blanket with a subtle 'TK' stitched label, lived-in and discreet",
+    "a small keycard wallet from a luxury hotel, slightly worn",
+    "sunglasses on a stone ledge, reflections of water in the lenses",
+    "a delicate chain necklace resting on skin",
+    "a simple hairpin and a few loose strands on the pillow"
+  ],
+  "POSES": [
+    "reclining on a leather sofa, legs gently crossed, one shoulder bare",
+    "sitting on bed edge, fabric gathered in hands, gaze lowered",
+    "resting back against pillows, slow breathing implied",
+    "lounging diagonally across linen sheets, robe open at the collarbone",
+    "half-reclined with arms raised above head, wrists relaxed",
+    "standing by a window, side profile, curtains brushing skin",
+    "leaning against a marble vanity, chin slightly lifted",
+    "turned away from camera, looking back over shoulder in soft light",
+    "kneeling softly on the bed, posture composed and quiet",
+    "seated sideways on a chaise, one leg tucked under body",
+    "slow stretch along the bedding, fingers grazing fabric",
+    "poolside on a sun lounger, one knee raised, towel slipping",
+    "sitting on a stone edge near the pool, cover-up sliding off shoulder",
+    "soft slouch against headboard, relaxed exposure, calm control",
+    "hands resting on thighs, composed but inviting"
+  ],
+  "EXPRESSIONS": [
+    "calm introspective gaze",
+    "half-lidded eyes in quiet thought",
+    "serene, inward-focused expression",
+    "gentle, unguarded look",
+    "subtle relaxed smile",
+    "cool editorial composure with softened warmth"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level portrait, 85mm look, shallow depth of field",
+    "three-quarter view, 50mm look, cinematic framing",
+    "slight low angle, 35mm look, elegant elongation",
+    "profile close-up, 105mm look, soft film grain",
+    "top-down framing, 24mm look, minimalist geometry",
+    "centered frontal composition, 70mm look, still and intimate",
+    "over-the-shoulder framing, 65mm look, reflected highlights"
+  ],
+  "ATMOSPHERES": [
+    "quiet, private, and contemplative",
+    "softly sensual without display",
+    "timeless elegance inside contemporary luxury",
+    "warm, intimate solitude",
+    "dreamlike stillness with modern minimalism",
+    "late-night city hush beyond glass, interior calm"
+  ],
+  "ACCESSORIES": [
+    "lace stockings",
+    "delicate jewelry",
+    "silk ribbons",
+    "fine chain necklace",
+    "minimal gold hoops",
+    "simple ankle bracelet",
+    "oversized sunglasses left nearby",
+    "silk hair ribbon loosely tied"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely atmospheric and contemplative",
+    "1": "subtle elegance and suggestion",
+    "2": "intimate sensuality through posture and fabric",
+    "3": "maximum Boudoir erotic tension, provocative fashion framing, intimate gaze, pronounced silhouette and fabric tension, still elegant and non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "slight melancholic undertone",
+    "2": "soft gothic mood",
+    "3": "dark romantic atmosphere"
+  },
+  "CUSTOM_INTRO": {
+    "0": "An intimate modern luxury suite scene captured in a timeless, painterly style, focusing on quiet elegance and restrained sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic portrayal of a private moment in a minimalist bedroom, where softness, fabric, and warm practical light define sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A refined contemporary interior emphasizing solitude, grace, and intimate beauty through subtle gestures and modern materials, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A quiet, elegant luxury lounge moment where sensuality is implied through posture and emotion rather than exposure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A soft-focus cinematic scene in a modern suite, citylight glow and minimalist geometry framing classical femininity and restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "An intimate visual narrative unfolding poolside at dusk, water reflections and quiet luxury shaping understated desire, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A delicate and introspective contemporary boudoir composition celebrating elegance, solitude, and controlled sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

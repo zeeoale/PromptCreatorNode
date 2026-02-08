@@ -1,0 +1,106 @@
+{
+  "WORLD_NAME": "PFN_Late_Night_Rides",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in neon-soaked late-night subway portraiture with modern alt-goth street fashion, where urban realism meets cinematic glow and subtle motion; when requested, return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a stylish young alternative woman photographed on an underground platform beside a passing train, always blending selected elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent scene without naming the categories, emphasizing teal-green fluorescent wash and magenta signage spill, glossy highlights on skin and metal, shallow depth of field, gentle halation, film grain, and occasional motion blur from the moving cars, with a fashion-forward but lived-in look (hoodies, oversized tees, chains, chokers, piercings, tattoos) and a calm, detached nocturnal attitude; incorporate the brand TK only as an ambient, non-commercial detail (a tiny monogram charm, a worn sticker on a pillar, a reflective tag on jewelry, a faint embroidery on fabric), keep sensuality stylish and editorial rather than explicit, and keep any darkness as atmosphere only (no gore, no body horror), finishing with precise camera language, lens feel, and a refined, high-resolution cinematic finish.",
+  "EPOCHS": [
+    "Early 2000s mall-goth revival",
+    "2010s underground streetwear era",
+    "Near-future metro noir",
+    "Contemporary city night (present day)",
+    "Late-90s urban film still mood"
+  ],
+  "OUTFITS": [
+    "Oversized black hoodie with subtle distressing",
+    "Baggy graphic tee with faded print and drop shoulders",
+    "Cropped long-sleeve top with clean lines and high-contrast seams",
+    "Mini skirt with soft pleats and a chain belt",
+    "Low-rise cargos with metal rings and strap details",
+    "Fishnet tights under layered black fabric",
+    "Chunky boots with scuffed toes and reflective edges"
+  ],
+  "LIGHTING": [
+    "Teal-green fluorescent overhead wash with soft halation",
+    "Magenta neon signage spill bouncing off brushed metal",
+    "Mixed cyan and violet practicals creating chromatic fringe",
+    "Hard rim glow from passing train windows",
+    "Soft bloom highlights on powdered skin and glossy lips",
+    "Low-key contrast with luminous reflections along the carriage"
+  ],
+  "BACKGROUNDS": [
+    "Subway platform with a silver train sliding past",
+    "Underground station corridor with repeating pillars and posters",
+    "Wet tiled floor reflecting neon bands",
+    "Metallic carriage doors and windows streaked by motion blur",
+    "Graffiti-scratched panels and worn safety line along the platform"
+  ],
+  "OBJECTS": [
+    "Flickering LED route sign casting magenta streaks",
+    "Old poster edges peeling from a tiled wall",
+    "Disposable coffee cup near a bench",
+    "Pocket chain glinting under fluorescent light",
+    "Small metro map board with smudged fingerprints",
+    "Phone screen glow catching a cheek highlight",
+    "Train headlights blooming into soft glare"
+  ],
+  "POSES": [
+    "Half-turn toward camera with shoulders relaxed, weight on one hip",
+    "Low-angle stance with chin slightly raised, calm dominance",
+    "Hands tucked into oversized sleeves, body leaning subtly toward the platform edge",
+    "One hand grazing collarbone while the other holds a strap or chain",
+    "Contrapposto pose with skirt or cargo straps shifting in the draft",
+    "Still posture while the train blurs behind, creating dynamic contrast"
+  ],
+  "EXPRESSIONS": [
+    "Heavy-lidded eyes with a faint smirk",
+    "Detached, midnight stare with soft confidence",
+    "Neutral lips slightly parted, cool and unbothered",
+    "Melancholic gaze with subtle challenge",
+    "Quiet intensity, eyes locked to lens",
+    "Dreamy expression under neon haze"
+  ],
+  "CAMERA_ANGLES": [
+    "Low-angle portrait emphasizing attitude and neon ceiling lines",
+    "Eye-level framing with train streaks as leading lines",
+    "Three-quarter close-up with shallow depth of field and soft bokeh",
+    "Wide-angle environmental portrait with mild edge distortion",
+    "Dutch tilt for kinetic metro energy",
+    "Over-shoulder angle catching signage reflections"
+  ],
+  "ATMOSPHERES": [
+    "Nocturnal metro hush with distant rumble and air draft",
+    "Cyan-violet haze with mild lens flare and halation",
+    "Rainy-night humidity reflected on metal and tile",
+    "Electric club-adjacent glow without the crowd",
+    "Soft grainy film texture, slightly dreamy finish",
+    "Urban solitude, stylish and cinematic"
+  ],
+  "ACCESSORIES": [
+    "Layered chain necklaces with mixed metals",
+    "Black choker with small charm clasp",
+    "Septum ring and subtle ear piercings",
+    "Rings catching neon reflections (include a tiny TK signet if chosen)",
+    "Hairpins and clips with a faint TK monogram (diegetic, understated)",
+    "Small shoulder bag with reflective tag and worn stitching",
+    "Fingerless gloves and lace details"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure street portrait, restrained and casual.",
+    "1": "Editorial allure through posture, fabric tension, and gaze.",
+    "2": "Confident, stylish sensuality with subtle skin highlights and silhouette emphasis.",
+    "3": "High-fashion provocation, still tasteful and non-explicit, focused on attitude and couture detail."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror, clean neon street realism.",
+    "1": "Mild unease from empty platform solitude and cold lighting.",
+    "2": "Stronger tension via shadows, motion blur, and industrial ambience.",
+    "3": "Heavy atmospheric dread (still no gore), oppressive metro noir tension."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A neon-drenched late-night subway portrait where teal fluorescents wash the scene and magenta signage bleeds across brushed steel, the subject’s alt-goth streetwear silhouette held sharp against a passing train’s motion blur, with glossy lip highlights, piercings catching specular glints, and a tiny TK detail hidden as a worn charm or sticker in the environment, photographed with shallow depth of field, gentle halation, and fine film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An underground platform fashion still framed like a cinematic music-video moment, cyan-violet practicals and soft highlight bloom shaping powdered skin and dark fabric textures, chains and chokers shimmering as the train streaks behind in smeared reflections, a diegetic TK monogram subtly embroidered or reflected on metal, captured with wide-angle energy, slight chromatic fringe, and a refined editorial finish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A low-angle metro noir portrait emphasizing attitude and ceiling light lines, teal-green wash mixing with pink neon spill on silver carriage panels, the subject’s heavy-lidded stare and relaxed contrapposto pose contrasted by kinetic train blur, microtexture visible in lace fray, velvet seams, and skin highlights, with a small TK signet ring or charm integrated as lived-in detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A dreamy late-night station scene with wet tiles reflecting cyan glow and magenta bands, soft bokeh and bloom around practical lights, the subject in oversized black streetwear and layered jewelry standing still as the background rushes, delicate film grain and halation adding analog nostalgia, a subtle TK sticker on a pillar or tag on jewelry placed naturally, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A close environmental portrait where passing train windows cast hard rim glow across the subject’s cheek and piercings, ink-black fabrics absorbing light while metal chains sparkle, motion blur streaks form leading lines toward the face, color palette locked to teal and violet with magenta accents, and a faint TK monogram hairpin appears as a quiet diegetic signature, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A kinetic subway fashion frame with a slight dutch tilt, fluorescent ceiling tubes flaring into soft haze, the subject’s calm, unbothered gaze holding center while the train smears into luminous streaks, tactile details in seam tension, gloss highlights, and worn metal surfaces, plus a subtle TK charm clasp blending into layered accessories, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A modern alt-goth metro portrait balancing gritty realism and polished editorial style, teal-green ambience and magenta reflections sculpting the face, shallow depth of field isolating the subject from station clutter, soft grain and bloom lending nostalgia, jewelry and piercings catching bright pinpoints, with TK integrated only as a tiny reflective tag or ring seal, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

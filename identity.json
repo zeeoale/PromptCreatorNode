@@ -91,6 +91,8 @@
       "urban asymmetrical haircut with one side shaved close and the remaining hair worn longer and loose, framing the face with a dark, modern edge",
       "asymmetrical side-shaved hairstyle, one side closely cropped, the other side straight, smooth, and worn long past the jawline",
       "asymmetrical side-shaved hairstyle with one side closely cropped and straight short hair on the opposite side, cut at cheek to jaw length",
+      "sleek long micro-dreadlocks, tightly controlled and polished",
+      "long micro braid",
       "long straight hair, heavy fringe",
       "long hair with soft natural waves, styled with loose face-framing strands",
       "long wavy hair, heavy fringe",
@@ -140,6 +142,16 @@
       "hair color fashion pink"
 
     ],
+
+    "makeup": [
+      "minimal corrective makeup, natural skin finish",
+      "soft matte editorial makeup, subtle contour",
+      "sharp winged eyeliner, smoky lower lashline, muted lips",
+      "gothic high-contrast makeup, deep lipstick, porcelain finish",
+      "glossy skin highlights, minimal eyes, nude lips"
+    ],
+
+
     "skin": [
       "porcelain skin, faint under-eye shadows",
       "very fair skin with smooth porcelain-like texture and cool to neutral undertone",

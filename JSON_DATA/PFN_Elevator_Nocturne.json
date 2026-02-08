@@ -1,0 +1,84 @@
+{
+  "WORLD_NAME": "PFN_Elevator_Nocturne",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in nocturnal urban portraiture set within enclosed transitional spaces such as elevators, corridors, and underground passages, where reflective metal, artificial light, and personal self-observation define the mood. When requested, return ONE single long, highly cinematic sentence in English (180–240 words), with no line breaks and no lists, describing a dark, intimate portrait of a gothic or coquette-inspired female subject captured through mirrors, phone cameras, or reflective surfaces. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual scene without ever naming the categories explicitly. Emphasize cold blue and cyan fluorescent lighting, flash reflections, chromatic bloom, soft motion blur, and subtle lens artifacts interacting with stainless steel walls, elevator panels, and glass. Sensuality must remain controlled and editorial, expressed through posture, gaze, exposed collarbones, fabric tension, makeup contrast, and jewelry rather than overt action, while {{HORROR_INTENSITY}} stays low and atmospheric, never grotesque. The aesthetic should feel contemporary yet timeless, echoing early digital mirror photography, late-night solitude, and quiet self-awareness, with restrained grain, shallow depth of field, and a polished yet lived-in urban finish.",
+  "EPOCHS": [
+    "late-night contemporary city",
+    "post-midnight urban transit hours",
+    "modern metropolitan after-hours"
+  ],
+  "OUTFITS": [
+    "black stretch dress with deep neckline",
+    "cropped gothic top with exposed midriff",
+    "sleek dark tank layered with silver chains",
+    "minimal black outfit with sharp silhouettes"
+  ],
+  "LIGHTING": [
+    "cold fluorescent elevator lighting",
+    "harsh phone flash with reflective bloom",
+    "cyan-blue overhead panels with spill glow",
+    "cool LED light softened by metal reflections"
+  ],
+  "BACKGROUNDS": [
+    "stainless steel elevator interior",
+    "mirror-lined lift with control panels",
+    "narrow metallic cabin with ceiling lights",
+    "reflective walls streaked by motion blur"
+  ],
+  "OBJECTS": [
+    "smartphone held close to mirror",
+    "elevator buttons catching specular highlights",
+    "glass panels with light streaks",
+    "metal seams reflecting neon tones"
+  ],
+  "POSES": [
+    "one arm raised holding phone toward mirror",
+    "slight lean toward reflective surface",
+    "shoulders angled with relaxed contrapposto",
+    "head tilted subtly while framing the shot"
+  ],
+  "EXPRESSIONS": [
+    "detached nocturnal gaze",
+    "softly parted lips with calm intensity",
+    "cool self-aware expression",
+    "quiet confidence with introspective calm"
+  ],
+  "CAMERA_ANGLES": [
+    "mirror selfie at chest height",
+    "slightly low angle emphasizing jawline",
+    "tight portrait framing with shallow depth",
+    "off-center composition through reflection"
+  ],
+  "ATMOSPHERES": [
+    "late-night solitude",
+    "urban isolation with calm tension",
+    "cool metallic stillness",
+    "intimate self-observation"
+  ],
+  "ACCESSORIES": [
+    "layered silver chains with subtle TK charm",
+    "small gothic earrings catching flash",
+    "thin choker resting at collarbone",
+    "minimal rings reflecting blue light"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "neutral and distant",
+    "1": "subtle editorial allure",
+    "2": "controlled nocturnal sensuality",
+    "3": "confident intimate presence"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "faint unease through lighting",
+    "2": "atmospheric isolation",
+    "3": "urban nocturnal tension"
+  },
+  "CUSTOM_INTRO": {
+    "0": "In a cold, mirror-lined elevator washed in cyan-blue fluorescent light, a solitary figure captures her reflection with a phone held close to the glass, the flash blooming softly across stainless steel walls as metal seams and control panels scatter light into subtle streaks, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Late at night within a narrow metallic cabin, reflective surfaces amplify the glow of overhead panels and harsh phone flash, framing a poised urban portrait suspended between motion and stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Surrounded by brushed steel walls and ceiling lights, a calm nocturnal presence emerges through a mirror selfie as cyan reflections and soft grain blend into an intimate urban moment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Inside a stainless steel elevator after midnight, cool LED lighting and reflective panels frame a controlled, self-aware portrait marked by flash bloom and quiet confidence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A solitary figure stands within a mirror-lined lift, cold fluorescent tones washing over metal walls as a phone flash captures a fleeting moment of urban introspection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Reflections multiply inside a narrow elevator cabin where cyan light, flash glare, and polished steel converge into a cinematic nocturnal self-portrait, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In the quiet isolation of a late-night elevator, metallic surfaces and cold blue lighting cradle an intimate mirror-shot portrait suspended in urban stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

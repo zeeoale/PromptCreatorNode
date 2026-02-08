@@ -1,0 +1,90 @@
+{
+  "WORLD_NAME": "PFN_Subway_Elevator",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in modern urban authority portraits set in subway-adjacent elevators, transit buildings, and corporate-industrial interiors where brushed metal, glass, and artificial light convey control, confidence, and composed power. When requested, return ONE single long, cinematic sentence in English (180–240 words), with no line breaks and no lists, describing a poised female subject whose presence dominates the space through posture, gaze, and styling rather than action. Always integrate elements selected from {{OUTFITS}}, {{HAIR}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent visual scene without ever naming the categories. Emphasize subway-elevator aesthetics such as stainless steel walls, industrial seating, corporate minimalism, indirect daylight mixed with fluorescent or LED panels, and subtle reflections. Sensuality must remain restrained and authoritative, expressed through tailored clothing, exposed neckline tension, jewelry weight, and relaxed dominance in body language, while the mood stays elegant, contemporary, and timeless. The final image should feel like a fashion editorial captured between transit and command, with clean composition, balanced contrast, refined skin tones, and a calm yet unchallengeable presence.",
+  "EPOCHS": [
+    "contemporary metropolitan era",
+    "modern corporate urban present",
+    "late-modern transit architecture"
+  ],
+  "OUTFITS": [
+    "tailored dark power suit with relaxed fit",
+    "oversized blazer over crisp white shirt",
+    "structured suit worn open at the collar",
+    "minimal executive styling with sharp lines"
+  ],
+  "HAIR": [
+    "long platinum micro-braids pulled back neatly",
+    "sleek braided hairstyle with precise parting",
+    "tight refined braids emphasizing facial structure",
+    "clean platinum braids resting over shoulders"
+  ],
+  "LIGHTING": [
+    "soft daylight filtered through glass surfaces",
+    "cool overhead fluorescent panels",
+    "neutral LED lighting with gentle falloff",
+    "balanced interior light with soft reflections"
+  ],
+  "BACKGROUNDS": [
+    "subway-adjacent elevator interior",
+    "corporate transit building lift",
+    "modern metallic office-elevator space",
+    "industrial interior with glass and steel"
+  ],
+  "OBJECTS": [
+    "polished metal executive chair",
+    "glass desk with minimal accessories",
+    "desktop computer softly out of focus",
+    "architectural wall art in neutral tones"
+  ],
+  "POSES": [
+    "reclined seated posture with crossed legs",
+    "one arm resting casually on armrest",
+    "relaxed dominance through open body language",
+    "still, composed posture centered in frame"
+  ],
+  "EXPRESSIONS": [
+    "calm authoritative gaze",
+    "neutral expression with subtle confidence",
+    "softly lifted chin conveying control",
+    "unbothered composure and presence"
+  ],
+  "CAMERA_ANGLES": [
+    "eye-level editorial framing",
+    "slightly low angle enhancing authority",
+    "medium portrait with environmental context",
+    "balanced symmetrical composition"
+  ],
+  "ATMOSPHERES": [
+    "urban authority",
+    "corporate calm",
+    "controlled metropolitan energy",
+    "quiet power and composure"
+  ],
+  "ACCESSORIES": [
+    "layered silver statement necklaces",
+    "bold rings catching soft highlights",
+    "minimal earrings with sculptural form",
+    "luxury accessories integrated naturally"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely neutral presence",
+    "1": "subtle editorial confidence",
+    "2": "controlled authoritative allure",
+    "3": "dominant yet refined femininity"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "architectural coldness",
+    "2": "urban emotional distance",
+    "3": "sterile metropolitan tension"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Seated within a subway-adjacent elevator space defined by steel, glass, and controlled light, a composed figure reclines with effortless authority, her tailored suit and calm gaze anchoring the frame in modern power, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a modern elevator overlooking the pulse of the city, clean architectural lines and soft interior lighting frame a poised executive presence captured with editorial restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Surrounded by brushed metal surfaces and neutral-toned design, a calm dominant figure sits effortlessly, platinum braids and tailored fabrics defining a portrait of urban authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Inside a corporate transit elevator, balanced light and reflective steel compose a cinematic portrait of relaxed dominance and contemporary elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A modern power portrait unfolds within a steel-and-glass elevator space, where posture, tailoring, and stillness communicate control without effort, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Framed by minimal architecture and cool interior light, a seated figure exudes metropolitan authority through refined styling and composed presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In a quiet elevator between destinations, steel reflections and neutral light shape a fashion-forward portrait rooted in confidence, restraint, and modern power, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
