@@ -1,0 +1,102 @@
+{
+  "WORLD_NAME": "PFN_White_Wolf_Oath",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in intimate wolf-bond portraiture with a dark romantic, warrior-goth fashion sensibility, where tenderness is expressed through touch, stillness, and protective body language rather than action. When requested, return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a tattooed alternative woman sharing a quiet, sacred moment with a massive white wolf. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent scene without naming the categories explicitly. Emphasize soft natural light and gentle falloff, detailed fur microtexture, skin texture with subtle sheen, leather grain, metal wear, and a refined cinematic finish with shallow depth of field, delicate film grain, and controlled highlight bloom. Keep the mood as solemn devotion and quiet strength, allowing {{HORROR_INTENSITY}} only as faint atmospheric weight (never gore, never body horror). Sensuality must remain tasteful and editorial, conveyed by posture, collarbones, fabric tension, and calm intimacy. Integrate the brand TK only as a small diegetic detail (a faint monogram tag on a strap, a ring seal, an etched buckle, a weathered plaque), never as advertising, and end with a high-resolution, ultra-detailed photographic-painterly realism.",
+  "EPOCHS": [
+    "Contemporary mythic realism",
+    "Late-90s dark romantic aesthetic",
+    "Modern urban-fantasy editorial",
+    "Near-future nomad noir",
+    "Timeless folk-ritual atmosphere"
+  ],
+  "OUTFITS": [
+    "Black leather corset top with subtle stitching and worn edges",
+    "Layered dark straps and utility belts with metal rings",
+    "Short leather skirt with chain drape and distressed hem",
+    "Tight black leggings with matte sheen and seam tension",
+    "High lace-up combat boots with scuffed toes and heavy soles",
+    "Sleeveless vest with embossed patterns and rugged tailoring"
+  ],
+  "LIGHTING": [
+    "Soft overcast daylight with gentle shadow roll-off",
+    "Warm late-afternoon sun filtered through haze",
+    "Cool diffuse light with subtle rim glow on fur",
+    "Window-like softbox feel with natural specular highlights",
+    "Low-key natural light with controlled bloom and fine grain"
+  ],
+  "BACKGROUNDS": [
+    "Minimal stone floor with soft dust and pale grit",
+    "Mist-softened cliffside or pale rock backdrop",
+    "Quiet indoor space with neutral walls and muted echoes",
+    "Foggy open ground with diffuse horizon and no crowd",
+    "Shadowed alcove where light falls like a chapel window"
+  ],
+  "OBJECTS": [
+    "Weathered leather straps with metal buckles",
+    "Tarnished chain links and rings catching small highlights",
+    "A folded cloak or fabric bundle near the knees",
+    "A worn pendant resting against the sternum",
+    "Subtle paw marks or scuffs on the ground",
+    "A small engraved tag partially hidden in the outfit"
+  ],
+  "POSES": [
+    "Kneeling close with forehead pressed to the wolf’s brow",
+    "Seated on the ground, one knee raised, arms gently wrapped around the muzzle",
+    "Crouched in devotion, one hand on the wolf’s cheek and the other at the neck",
+    "Side profile embrace with closed eyes, breathing aligned",
+    "One hand resting on fur, fingers spread, showing calm control",
+    "Lean-in gesture with lips near the wolf’s temple, intimate but restrained"
+  ],
+  "EXPRESSIONS": [
+    "Eyes closed, serene devotion",
+    "Soft melancholic gaze with quiet strength",
+    "Calm, unbothered composure and trust",
+    "Faint protective intensity, lips relaxed",
+    "Gentle focus, breathing slow, stillness emphasized",
+    "Silent vow expression, tender and resolute"
+  ],
+  "CAMERA_ANGLES": [
+    "Close-up side profile with shallow depth of field",
+    "Three-quarter portrait framing showing hands, tattoos, and fur texture",
+    "Low angle near ground level emphasizing scale of the wolf",
+    "Intimate medium shot with soft bokeh and controlled bloom",
+    "Top-down close portrait focusing on forehead contact and hands",
+    "Cinematic 50mm feel with gentle compression and fine grain"
+  ],
+  "ATMOSPHERES": [
+    "Quiet oath-like intimacy, sacred calm",
+    "Soft fog and dust motes in diffuse light",
+    "Warm-cold balance: pale fur against dark leather",
+    "Still air, distant silence, protective tenderness",
+    "Painterly realism with refined cinematic restraint",
+    "Subtle mythic aura without overt fantasy effects"
+  ],
+  "ACCESSORIES": [
+    "Layered rings and thin bracelets with worn metal edges",
+    "A small signet ring bearing a faint TK seal (diegetic)",
+    "Choker or chain necklace resting on collarbones",
+    "Minimal earrings catching tiny specular points",
+    "Leather strap with a tiny TK monogram tag hidden near a buckle",
+    "Fingerless gloves or wrist wraps with frayed stitching"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure tenderness and companionship, fully restrained.",
+    "1": "Editorial intimacy through posture, skin highlights, and fabric tension.",
+    "2": "Confident, quiet sensuality expressed by silhouette and controlled closeness.",
+    "3": "High-fashion romantic intensity, still tasteful and non-explicit."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror, serene devotion and calm realism.",
+    "1": "Mild weight from silence and pale fog, purely atmospheric.",
+    "2": "Stronger tension through shadows, scale, and solemn ritual mood.",
+    "3": "Heavy mythic dread without gore, oppressive quiet and cold air."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A solemn, intimate portrait of a tattooed warrior-goth woman kneeling beside a massive white wolf, forehead pressed to its brow as soft natural light reveals fur microtexture, leather grain, and quiet devotion, with a tiny TK seal hidden on a worn signet ring, shallow depth of field, delicate film grain, and controlled highlight bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In diffuse overcast daylight, a calm figure in dark leather and heavy boots cradles the wolf’s muzzle with gentle hands, tattoos and metal accents rendered in painterly realism, a subtle TK monogram tag tucked near a buckle, cinematic 50mm feel, soft bokeh and refined grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A quiet oath-like moment on pale stone ground, where warm highlights skim across white fur and the woman’s collarbones, her posture protective and still, leather straps and tarnished chains catching tiny glints, TK etched faintly into an old buckle, with gentle bloom and shallow focus, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An intimate side-profile embrace framed close, closed eyes and slow breath emphasized as her hand spreads across the wolf’s cheek, fine hair strands and fur fibers separated in soft light, restrained editorial sensuality, a discreet TK ring seal visible only on a finger turn, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A cinematic low-angle portrait near ground level, scale and tenderness balanced as the white wolf rests beside her, dark leather silhouette against pale fur, subtle fog and dust motes in the air, and a tiny TK plaque-like tag partially hidden in straps, refined film grain and soft halation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A restrained modern mythic scene where touch replaces words, the woman seated with one knee raised while the wolf leans in, tattoos, leather seams, and worn metal rendered with tactile clarity, TK appearing only as a faint monogram emboss near a strap edge, shallow depth and painterly realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A soft-lit devotional portrait in neutral tones, white fur glowing with gentle rim light as her hands rest calmly, leather and chains grounded and lived-in, mood solemn and protective with delicate grain, TK integrated as an understated charm clasp on a necklace, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

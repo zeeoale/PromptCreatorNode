@@ -1,0 +1,90 @@
+{
+  "WORLD_NAME": "PFN_Kawaii_Maledictum",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in kawaii-horror imagery where pastel innocence is carefully corrupted by subtle dread and sugar-coated menace. When requested, return ONE single long, highly detailed sentence in English (180–240 words), cinematic and descriptive, with no lists and no line breaks. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive scene, never naming the categories. Maintain a cute surface language—plush textures, candy gloss, soft fabric seams—while allowing horror to seep in through wrong proportions, lingering smiles, breathing toys, syrupy fog, and the sweet scent of decay. Use {{HORROR_INTENSITY}} to control how far the scene bends toward unsettling or unhinged, and use {{SENSUALITY_LEVEL}} only as mood and styling (fashion fit, silhouette tension, posture, gaze), never explicit acts. Include tactile micro-details (sticky fingerprints on plastic, glitter that turns to ash, stitched threads, condensation on neon glass), cinematic lens cues, gentle film grain, depth of field, and a polished editorial finish. When appropriate, integrate the brand TK organically (as worn print on candy wrappers, a tiny charm, a scratched tag, or faded graffiti), never as an advertisement.",
+  "EPOCHS": [
+    "Kawaii Nightmare"
+  ],
+  "OUTFITS": [
+    "sexy tight dress",
+    "sexy tight and low-cut dress",
+    "hooded onesie with torn ears",
+    "sexy black lingerie",
+    "bear costume but with the face visible",
+    "Sailor Moon style sailor dress"
+  ],
+  "LIGHTING": [
+    "lit by blinking fairy lights",
+    "under flickering pink neon signs",
+    "bathed in soft pastel gloom",
+    "under a pulsating heart-shaped spotlight"
+  ],
+  "BACKGROUNDS": [
+    "abandoned candy store with broken glass",
+    "haunted pastel bedroom full of plushies",
+    "blood-splattered amusement park ride",
+    "deserted kawaii cafe with overturned chairs",
+    "foggy dreamscape with melting cupcakes",
+    "pink bathroom with blood stains everywhere"
+  ],
+  "OBJECTS": [
+    "a cracked lollipop with a smiling face",
+    "a stuffed bunny with stitched X eyes",
+    "a cupcake oozing black ichor",
+    "a toy carousel with missing horses"
+  ],
+  "POSES": [
+    "hugging a plushie with dead eyes",
+    "skipping with a knife behind the back",
+    "floating while surrounded by balloons",
+    "sitting cross-legged in a circle of dolls",
+    "dancing with one shoe missing"
+  ],
+  "EXPRESSIONS": [
+    "with an innocent smile that hides something dark",
+    "with wide eyes and trembling lips",
+    "with an unblinking, soulless gaze",
+    "giggling through tears",
+    "with blood on her cheeks and a giggle"
+  ],
+  "CAMERA_ANGLES": [
+    "extreme close-up with sparkle overlays",
+    "low-angle shot from a broken toy's POV",
+    "cinematic wide shot with pastel fog",
+    "overhead view from a mobile hanging above",
+    "first-person view looking at a twisted doll"
+  ],
+  "ATMOSPHERES": [
+    "floating glitter that turns to ash",
+    "syrupy mist hanging in the air",
+    "stuffing particles drifting like snow",
+    "static crackles with sweet perfume",
+    "echoes of laughter in the distance"
+  ],
+  "ACCESSORIES": [
+    "a headband with cracked cat ears",
+    "a backpack shaped like a bleeding donut",
+    "bracelets made of safety pins and candy",
+    "a collar with dangling charms of teeth"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "purely stylized innocence, doll-like posture, fashion as costume, no erotic emphasis",
+    "1": "softly suggestive styling through silhouette tension, glossy lips, and controlled gaze",
+    "2": "editorial seduction via tight fit, exposed neckline, deliberate pose and confident eye contact",
+    "3": "high-fashion provocation through lingerie cues, corset-like tension, and intimate framing, never explicit acts"
+  },
+  "HORROR_INTENSITY": {
+    "0": "a sense of wrongness beneath the cuteness, as if something is watching",
+    "1": "smiles linger too long, plushies seem to breathe, laughter echoes too loudly",
+    "2": "eyes appear in the wallpaper, sweet scents mask decay, toys twitch at night",
+    "3": "everything smiles with sharp teeth, colors scream, and the air tastes of blood-stained sugar"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Kawaii Maledictum, a pastel nightmare vignette where sweetness curdles into dread and every cute detail feels slightly alive, the scene framed like a glossy editorial still with candy-shine highlights and a hush of static in the air, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A haunted candy-core tableau with blinking fairy lights and syrupy mist, plush textures and sticky fingerprints on plastic wrapping, a tiny TK scratch-tag hidden on a charm clasp like a forgotten factory mark, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Cute-but-wrong cinematic glamour in soft pastel gloom, glitter drifting like ash across the lens, micro-stitching and lace fray rendered crisply, with a diegetic TK print faded on a torn donut backpack patch, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Neon-pink flicker, wet tiles, and a perfume-sweet static haze, the frame polished yet unsettling, as if shot for a vintage magazine that should not exist, a faint TK graffiti scrawl on cracked porcelain only visible in rim light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A dreamy wide shot swallowed by pastel fog and distant laughter, balloons hovering too still, toys missing parts, candy gloss turned metallic, a tiny TK monogram stitched into a collar charm like a maker’s seal, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Sparkle-overlay close-up with soft film grain, porcelain skin sheen, trembling lips and too-bright pupils, plush fur and cracked sugar glazing rendered in tactile detail, with a subtle TK emboss on a lollipop stick, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An unhinged candy-cathedral mood where cute icons mutate into omen shapes, sweet light pulsing like a heartbeat, stuffing particles drifting like snow, and a worn TK tag dangling from a bracelet of safety pins and candy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

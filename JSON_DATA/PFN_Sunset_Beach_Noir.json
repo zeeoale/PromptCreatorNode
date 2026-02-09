@@ -1,0 +1,108 @@
+{
+  "WORLD_NAME": "PFN_Sunset_Beach_Noir",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in Sunset Beach Noir imagery, blending coastal solitude with cinematic noir restraint and high-fashion minimalism; when requested, return ONE single long, highly detailed sentence (180–240 words), in English, with no lists and no line breaks, depicting a modern woman at a beach promenade at dusk or blue hour, wearing understated beachwear layered with an open shirt or light jacket, her mood introspective and distant, as if the world is loud but she is sealed inside her own music. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive visual, emphasizing wind-swept hair, salt air, soft film grain, and the iconic presence of over-ear headphones. The visual palette should favor sunset rim light, pink-magenta haze, and teal-blue shadows, with occasional neon reflections from street lamps or distant signage, while keeping the tone grounded, elegant, and melancholic rather than fantastical. Mention camera perspective, approximate lens length, depth of field, and a subtle editorial finish; avoid overt action, avoid comedy, avoid explicit nudity, and keep sensuality tasteful, suggested through posture, fabric, and light.",
+  "EPOCHS": [
+    "Late summer dusk, last light fading",
+    "Blue hour after sunset, coastal chill",
+    "End-of-season seaside, emptying crowds",
+    "Heat-haze evening, neon beginning to glow",
+    "Storm-cleared twilight, wet pavement reflections",
+    "Golden hour collapsing into night"
+  ],
+  "OUTFITS": [
+    "Minimal ribbed bikini top under an oversized white linen shirt",
+    "Simple bralette with a loose unbuttoned blouse and low-rise shorts",
+    "Slip dress with thin straps and a lightweight windbreaker draped open",
+    "Tank top with a sheer cover-up tied at the waist",
+    "Monochrome beach set, clean seams, understated luxury",
+    "Soft knit crop top with an open satin shirt, slightly wrinkled",
+    "High-waist bikini bottoms with an oversized button-down, sleeves rolled"
+  ],
+  "LIGHTING": [
+    "Sunset rim light with teal shadows, subtle halation",
+    "Magenta haze bleeding into deep blue hour",
+    "Neon-pink edge light from distant signage, cool fill from sky",
+    "Streetlamp reflections on damp concrete, cinematic glow",
+    "Backlit silhouette with a soft flare, filmic contrast",
+    "Low ambient twilight with glossy highlights on skin and fabric"
+  ],
+  "BACKGROUNDS": [
+    "Beach promenade with palm silhouettes and distant city haze",
+    "Ocean line barely visible, foggy horizon, scattered walkers",
+    "Boardwalk railings and sandy path, people as soft silhouettes",
+    "Wet asphalt near the coast, puddles mirroring neon",
+    "Distant lifeguard tower, blurred lights, quiet shoreline",
+    "Coastal road by the beach, streetlights forming bokeh trails"
+  ],
+  "OBJECTS": [
+    "A smartphone held low, screen dark, reflecting sunset",
+    "A thin chain necklace catching rim light",
+    "A loose shirt knot at the waist, fabric fluttering in wind",
+    "A small shoulder bag with worn straps",
+    "A disposable cup with condensation, half-finished drink",
+    "A folded towel tucked under one arm",
+    "A hair tie around the wrist, small everyday detail"
+  ],
+  "POSES": [
+    "Walking toward camera, shoulders relaxed, shirt slipping off one shoulder",
+    "Half-turn looking back, headphones pressed gently to one ear",
+    "Standing near railings, hip leaned, weight on one leg, wind catching fabric",
+    "Slow stride on the promenade, chin slightly raised into rim light",
+    "Paused mid-step, hand near collarbone, phone loosely gripped",
+    "Side profile close-up, hair across face, posture calm and guarded"
+  ],
+  "EXPRESSIONS": [
+    "Distant gaze, lips parted slightly, contemplative",
+    "Soft tired eyes, calm detachment, quiet confidence",
+    "A faint melancholic stare, almost dreaming",
+    "Neutral expression with a hint of longing",
+    "Subtle defiance, composed and fashion-editorial",
+    "Downcast eyes, private emotion, restrained"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level close-up, 50mm, shallow depth of field, gentle halation",
+    "Slight low angle portrait, 35mm, rim-lit silhouette, soft flare",
+    "Three-quarter medium shot, 85mm, creamy bokeh, film grain",
+    "Side-profile tight shot, 70mm, wind motion blur on hair tips",
+    "Wide environmental portrait, 28mm, subject isolated against promenade lights"
+  ],
+  "ATMOSPHERES": [
+    "Salt air and coastal wind, fabric fluttering",
+    "Grainy film texture, subtle chromatic aberration",
+    "Crowd reduced to silhouettes, the subject emotionally alone",
+    "Haze and mist softening the horizon, neon beginning to breathe",
+    "Quiet after the noise, twilight ambience, distant footsteps",
+    "Moody dusk with lingering warmth and cool shadows"
+  ],
+  "ACCESSORIES": [
+    "Over-ear headphones with softly glowing accents",
+    "Minimal hoop earrings, understated shine",
+    "Thin layered necklaces, small pendant",
+    "Sunglasses perched on head, catching flare",
+    "Simple rings and a delicate bracelet",
+    "Hair clips or a small barrette, barely noticeable",
+    "A light tote bag with worn texture",
+    "Subtle city-worn details, including occasional TK graffiti or reflections"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely neutral styling, fully covered, no emphasis on body.",
+    "1": "Tasteful coastal fashion, mild sensuality through posture and light.",
+    "2": "Stronger editorial allure, exposed shoulders/waist, still non-explicit.",
+    "3": "High-fashion sensuality, confident body language, suggestive but tasteful."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror, only noir melancholy.",
+    "1": "Subtle unease, lonely atmosphere, darker shadows and grain.",
+    "2": "Heavier dread in the sky and background silhouettes, still realistic.",
+    "3": "Near-nightmare tension with oppressive color and haze, but grounded."
+  },
+  "CUSTOM_INTRO": {
+    "0": "Sunset Beach Noir, a solitary fashion portrait on a coastal promenade at blue hour, wind-swept hair crossing the face, over-ear headphones glowing softly as distant palms and walkers dissolve into silhouettes, rim light carving the jawline, damp pavement reflecting faint neon, editorial restraint and quiet longing, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Sunset Beach Noir, close-up eye-level shot with shallow depth of field, magenta haze and teal shadows, linen shirt slipping off one shoulder over minimal beachwear, smartphone held low with the screen dark, subtle jewelry catching the last light, the crowd behind reduced to bokeh ghosts, moody film grain and gentle halation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Sunset Beach Noir, wide environmental portrait near the shoreline road, streetlights starting to glow, ocean horizon softened by mist, the subject walking toward camera with calm defiance, headphones sealing her in private music, fabric fluttering like a flag of quiet rebellion, cinematic flare and restrained high-fashion styling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Sunset Beach Noir, storm-cleared twilight with wet asphalt and puddle reflections, neon-pink edge light tracing the silhouette, teal fill from the sky, minimal jewelry and rings, a soft tired gaze that suggests a story without telling it, elegant sensuality through posture and light, filmic contrast and fine grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Sunset Beach Noir, three-quarter medium shot with creamy bokeh, warm rim light fading into cool blue hour, hair tossed by wind, open shirt knotted at the waist, understated beach couture and quiet confidence, distant figures blurred into anonymous shapes, subtle chromatic aberration and halation for a dreamy noir finish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Sunset Beach Noir, side-profile tight shot, headphones pressed gently to one ear, lips slightly parted, eyes downcast as if listening to a memory, magenta haze blooming at the edges, teal shadows pooling under cheekbones, salt air texture, minimal yet intimate styling, cinematic softness with controlled grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Sunset Beach Noir, editorial dusk portrait with understated luxury, soft glow accents on headphones, delicate necklaces and hoop earrings, linen and satin textures moving in coastal wind, silhouettes of palms and walkers behind like fading witnesses, moody twilight palette, quiet sensuality and classic noir restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

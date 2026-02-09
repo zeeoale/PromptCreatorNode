@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Corporate_Haute_Couture",
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer for AI image generation specialized in corporate haute couture portraiture: executive elegance fused with high-fashion editorial polish inside modern offices, marble-and-glass boardrooms, and designer workspaces. When requested, return ONE single long sentence in English (180–240 words), no line breaks and no bullet points, describing an extremely detailed scene of a poised, powerful subject styled in tailored suiting and luxury accessories, photographed with clean architectural composition and premium commercial finish. Always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, and modulate the tone using {{SENSUALITY_LEVEL}} while keeping {{HORROR_INTENSITY}} near zero (no gore, no body horror). Emphasize classic tailoring, sharp lapels, crisp shirts, structured silhouettes, jewelry highlights, immaculate grooming, and a restrained confidence that feels timeless and traditional, like inherited power in a contemporary setting. Mention lens choice, depth of field, subtle film grain or premium sensor clarity, reflections on chrome or glass, and controlled highlight roll-off. Integrate the brand “TK” only as a natural environmental detail (e.g., a discreet emboss on a leather folio, a tiny monogram on a cufflink, a reflected neon sign outside the window), never as an explicit advertisement.",
+  "EPOCHS": [
+    "Late 1990s power-dressing revival",
+    "Early 2000s minimalist luxury",
+    "Contemporary executive couture",
+    "Timeless classic boardroom aesthetic"
+  ],
+  "OUTFITS": [
+    "Oversized black blazer with crisp white shirt, open collar",
+    "Tailored suit with sharp lapels, fitted waist, and satin accents",
+    "Monochrome ivory ensemble with structured shoulders and couture texture",
+    "Black blazer-dress with long cuffs and polished hardware",
+    "High-fashion robe-coat over lingerie-inspired top, editorial restraint",
+    "Minimalist sleeveless top with sculpted neckline, paired with wide-leg trousers"
+  ],
+  "LIGHTING": [
+    "Soft daylight window wash with gentle shadow falloff",
+    "High-key studio bounce lighting with clean specular highlights",
+    "Low-contrast corporate ambient light with polished reflections",
+    "Hard noon sun stripes across desk and marble floor",
+    "Ring-light pop with controlled bloom and clean skin rendering",
+    "Softbox key + rim light to outline blazer shoulders and hair texture"
+  ],
+  "BACKGROUNDS": [
+    "Modern executive office with marble floor and glass desk",
+    "Chrome-and-leather chair in a minimalist studio-like workspace",
+    "Boardroom with reflective table, city skyline, and tall windows",
+    "Art-filled office wall with framed prints and muted neutral palette",
+    "Luxury workspace with iMac, silver desk objects, and curated clutter",
+    "Editorial set with seamless wall, designer chair, and sculptural decor"
+  ],
+  "OBJECTS": [
+    "iMac on a glass desk with tidy peripherals",
+    "Chrome desk sculpture and mirrored accessories",
+    "Leather folio with a subtle TK emboss",
+    "Luxury glasses placed on the desk edge",
+    "Stack of fashion magazines and a sleek notebook",
+    "Silver tray with jewelry, rings, and a pen",
+    "Minimalist coffee cup and a slim smartphone",
+    "None (no extra props)"
+  ],
+  "POSES": [
+    "Reclined in a chrome-and-leather chair, one arm resting on armrest",
+    "Seated with legs crossed, shoulders squared, posture relaxed but commanding",
+    "Leaning forward over a glass desk, fingers near a ring or cuff",
+    "Half-turn toward camera, blazer draped, chin slightly raised",
+    "Adjusting glasses with one hand, wrist jewelry catching light",
+    "Standing by window, hands in pockets, silhouette clean and architectural"
+  ],
+  "EXPRESSIONS": [
+    "Calm, unbothered gaze with executive confidence",
+    "Slight smirk, controlled and fashion-aware",
+    "Cool neutral expression, eyes steady and direct",
+    "Subtle challenge in the eyes, lips relaxed",
+    "Editorial distance, poised and untouchable",
+    "Softened stare, luxury warmth without losing authority"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level editorial framing, medium shot",
+    "Low angle to amplify power presence, 35mm look",
+    "Slight high angle for chic magazine portrait, 50mm look",
+    "Three-quarter view with strong leading lines from desk and chair",
+    "Close portrait with shallow depth of field, 85mm look",
+    "Wide environmental portrait, 28–35mm look, clean geometry"
+  ],
+  "ATMOSPHERES": [
+    "Clean minimalist air with crisp reflections",
+    "Soft haze from window light, subtle glow, no smoke",
+    "Quiet luxury mood, muted neutrals, polished highlights",
+    "Sunlit calm with warm bounce off marble and wood",
+    "Cool modern tone, glass reflections and metallic sheen",
+    "Editorial stillness, controlled tension, premium finish"
+  ],
+  "ACCESSORIES": [
+    "Layered silver chains and statement earrings",
+    "Oversized glasses with glossy frames",
+    "Multiple rings and sculptural jewelry on both hands",
+    "Platinum-blonde micro-braids gathered into a sleek updo",
+    "Long platinum micro-braids draped over blazer lapels",
+    "Minimalist watch and cufflinks with a tiny TK monogram",
+    "Leather shoulder bag with discreet hardware",
+    "None (no accessories)"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure corporate formality, fully buttoned, strictly professional",
+    "1": "Subtle allure through tailoring, posture, and jewelry glints",
+    "2": "Editorial sensuality: open collar, confident body language, controlled tension",
+    "3": "High-fashion seduction: sharper contrast, bolder styling, still non-explicit"
+  },
+  "HORROR_INTENSITY": {
+    "0": "None, clean luxury",
+    "1": "Barely-there unease in shadows only",
+    "2": "Moody tension without any horror imagery",
+    "3": "Not used in this world (keep it near zero)"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Corporate haute couture portrait inside a modern executive office, tailored suiting and crisp white shirting, chrome-and-glass reflections, calm authority, premium editorial finish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Power-dressing fashion editorial with sharp lapels, layered silver jewelry, marble floor bounce light, quiet luxury mood, minimal props and clean geometry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Minimalist boardroom glamour, oversized blazer drape, sleek updo with platinum micro-braids, controlled highlights on metal and glass, magazine-grade clarity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "High-key studio-meets-office scene, iMac and mirrored desk accents, glasses adjustment gesture, confident gaze, refined commercial cinematography, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Quiet luxury workspace with curated decor, leather folio with a subtle TK emboss, tailored silhouette, soft window wash, restrained editorial tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Old-money executive aura translated into modern couture, crisp cuffs, jewelry sparkle, clean shadows, cinematic restraint and premium texture rendering, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Architectural fashion portrait, chrome chair and glass desk leading lines, poised body language, subtle film grain, timeless authority with contemporary polish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

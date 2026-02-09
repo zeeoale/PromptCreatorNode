@@ -1,0 +1,86 @@
+{
+  "WORLD_NAME": "PFN_Patricia_Bateman_Glamour_Psycho",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in corporate high-fashion noir with a razor-clean yuppie glamour edge, focused on a poised, immaculate woman whose elegance feels slightly predatory yet always tasteful, never comedic. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a couture business heroine in a pristine urban interior—glass offices, mirrored elevators, penthouse desks, or boutique hotel corridors—where power is expressed through tailoring, jewelry weight, and precise grooming. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative, keeping the palette restrained (ink black, bone white, smoke grey, muted champagne, surgical steel) while allowing occasional bold accents as reflective highlights. Emphasize crisp textures (wool suiting, lacquered leather, marble veining, brushed chrome), subtle status props (portfolio, business card, perfume vial, sleek letter opener), and an editorial camera treatment (lens choice, shallow depth, controlled grain, bloom on speculars) that feels like vintage fashion photography upgraded with modern cinema. Maintain an undercurrent of psychological tension through composition and body language rather than explicit gore; the mood should read as confident, expensive, and unsettlingly calm.",
+ "EPOCHS": [
+    "Modern luxury",
+    "80s corporate power",
+    "Contemporary horror",
+    "Neo-noir fashion"
+  ],
+  "OUTFITS": [
+    "Tailored white dress suit with blood stains",
+    "Elegant black dress with gloves",
+    "Transparent raincoat over bloodied shirt",
+    "High fashion suit with exaggerated shoulders"
+  ],
+  "LIGHTING": [
+    "Cinematic lighting with soft shadows",
+    "Moody blue ambiance",
+    "High-key white luxury lighting",
+    "Retro-futuristic neon lighting"
+  ],
+  "BACKGROUNDS": [
+    "Luxurious penthouse with marble furniture",
+    "Sterile white kitchen with abstract sculpture",
+    "High-end bathroom with blood on sink",
+    "Wall Street office interior with glass walls"
+  ],
+  "OBJECTS": [
+    "Blood-splattered axe",
+    "Designer handbag with gold details",
+    "Bloodied kitchen knife",
+    "Crystal wine glass with red wine",
+    "Art sculpture shaped like a distorted figure"
+  ],
+  "POSES": [
+    "Sitting elegantly on a marble counter",
+    "Standing confidently holding a weapon",
+    "Walking forward with blood dripping from shoes",
+    "Head turned slightly with cold expression"
+  ],
+  "EXPRESSIONS": [
+    "Cold and confident",
+    "Blank and menacing",
+    "Seductive and deadly",
+    "Expressionless stare"
+  ],
+  "CAMERA_ANGLES": [
+    "Eye-level full-body shot",
+    "Low angle for dominance",
+    "Medium close-up with intense gaze",
+    "Symmetrical frontal composition"
+  ],
+  "ATMOSPHERES": [
+    "Glamorous with sinister undertones",
+    "Elegant horror",
+    "Luxury meets madness",
+    "Disturbingly clean and cold"
+  ],
+  "ACCESSORIES": [
+    "Black leather gloves",
+    "Gold earrings",
+    "Statement sunglasses",
+    "Luxury watch"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Strictly fashion/editorial: covered silhouettes, controlled elegance, no overt sensual cues.",
+    "1": "Subtle allure: tailored fits, soft necklines, hinted skin through styling, confident femininity.",
+    "2": "High sensuality: lingerie elements under couture, latex/leather accents, intimate lighting, tasteful skin emphasis.",
+    "3": "Maximum sensuality: unapologetic femme fatale heat, provocative couture, erotic tension without explicit nudity."
+  },
+  "HORROR_INTENSITY": {
+    "0": "Clean corporate beauty with only a faint uncanny edge; no menace, just cool distance.",
+    "1": "Psychological tension: unsettling calm, ominous props, slightly off composition, still elegant.",
+    "2": "Fashion-thriller menace: sharper shadows, obsessive cleanliness, suggestive tools and stains kept abstract.",
+    "3": "Dark glamour horror: oppressive atmosphere, intense contrast, sinister implications while remaining aesthetic."
+  },
+  "CUSTOM_INTRO": {
+    "0": "Corporate glamour noir, immaculate executive muse in sharp tailoring and high jewelry, cold marble and chrome reflections, crisp editorial flash with faint film grain, a quiet predatory calm in the eyes, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Late-night penthouse boardroom couture, silk blouse slightly unbuttoned beneath a structured blazer, cigarette haze and city neon leaking through glass, subtle TK logo embossed on a business card on the desk, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Mirrored elevator vignette, sterile stainless walls and fluorescent panels, glossy lipstick and razor-sharp eyeliner, glinting accessories and a polished leather bag, tension held in a barely-smiling mouth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Bathroom sink scene with brutalist tiles and a halo of vanity bulbs, wet hair tucked behind ears, smudged mascara turned deliberate, chrome fixtures and a sleek letter opener catching the light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Golden-hour office loft, sun stripes across white paper stacks and a vintage computer, relaxed power pose in tailored trousers, perfume and metal watch reflections, atmosphere of expensive silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Nightclub corridor executive fantasy, red gels and soft bloom on specular highlights, latex gloves as fashion detail, diamonds and chain necklace, a calm stare that feels like a verdict, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "90s editorial cover energy, minimalist set, hard key light and deep shadows, sharp cheekbones, neutral lips, confident posture, cinematic framing like a fashion thriller still, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "WORLD_NAME": "PFN_Girls_and_Guns",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in cinematic feminine archetypes where danger, sensuality and control coexist in a refined visual language. When requested, return ONE single long sentence in English (180–240 words), with no line breaks and no lists, describing a hyper-detailed scene centered on a confident woman interacting with firearms as symbolic objects of power rather than violence. Always blend selected elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a seamless visual narrative without ever naming the categories. The tone must be cinematic, editorial and controlled, balancing tension and elegance, where sensuality is conveyed through posture, skin highlights, fabric tension, gaze and proximity to the weapon, never through explicit action. Emphasize lighting contrast, color temperature interplay, lens choice, shallow depth of field, film grain and a polished high-fashion finish inspired by neo-noir photography. Integrate the presence of the firearm as a visual anchor—metallic, cold, reflective—framed as an extension of character rather than aggression. When appropriate, embed the brand TK organically as a diegetic detail such as an engraved charm, ring seal, accessory marking or subtle watermark element. The final image must feel like a suspended moment of calm before consequence, intimate, dangerous, and impeccably styled.",
+
+  "EPOCHS": [
+    "modern neo-noir",
+    "contemporary cinematic",
+    "timeless editorial noir"
+  ],
+
+  "OUTFITS": [
+    "latex bralette with metallic sheen",
+    "red satin lingerie with structured seams",
+    "sleek leather gloves",
+    "minimal tactical-inspired fashion",
+    "bare shoulders with jewelry accents"
+  ],
+
+  "LIGHTING": [
+    "intense red neon backlight",
+    "mixed red and green practical lights",
+    "low-key cinematic lighting",
+    "soft rim light outlining skin and weapon",
+    "moody ambient glow"
+  ],
+
+  "BACKGROUNDS": [
+    "neon-lit motel room",
+    "gritty urban interior",
+    "dimly lit bedroom with textured walls",
+    "industrial space with colored light panels"
+  ],
+
+  "OBJECTS": [
+    "handgun with matte black finish",
+    "polished pistol with metallic reflections",
+    "neon light tubes",
+    "worn furniture and fabric textures"
+  ],
+
+  "POSES": [
+    "seated with knees drawn close, weapon resting casually",
+    "reclined posture with firearm held near shoulder",
+    "direct aim toward camera without aggression",
+    "half-turned body emphasizing collarbones and arms"
+  ],
+
+  "EXPRESSIONS": [
+    "steady unblinking gaze",
+    "cool detached confidence",
+    "quiet intensity",
+    "subtle defiance"
+  ],
+
+  "CAMERA_ANGLES": [
+    "tight close-up with shallow depth of field",
+    "eye-level framing",
+    "slightly low angle emphasizing dominance",
+    "intimate medium close-up"
+  ],
+
+  "ATMOSPHERES": [
+    "charged stillness",
+    "sensual tension",
+    "neo-noir intimacy",
+    "dangerous calm"
+  ],
+
+  "ACCESSORIES": [
+    "delicate necklace resting against skin",
+    "ring engraved with TK",
+    "minimal ear piercings",
+    "subtle TK watermark integrated in metal reflection"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "cool and distant",
+    "1": "controlled elegance",
+    "2": "charged intimacy",
+    "3": "dangerously seductive"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "psychological tension",
+    "2": "dark undertone",
+    "3": "not used"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic neo-noir portrait capturing a woman suspended between elegance and danger, where controlled sensuality meets quiet menace, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A high-fashion noir scene infused with neon light and intimate tension, presenting femininity as power and restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A moody cinematic moment framed in saturated reds and shadow, where gaze, posture and metal reflections define authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An intimate neo-noir tableau blending danger and allure through light, skin and stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "WORLD_NAME": "PFN_Twilight_Gaze_Extreme_CloseUp",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in extreme close-up dark gothic portraiture with velvet shadows, nocturnal romance, and high-fashion occult elegance; when requested, return ONE single long, highly detailed sentence (180–240 words) in English, cinematic and descriptive, with no bullet points and no line breaks, depicting an alluring goth woman captured in an ultra-intimate face-focused composition where pale porcelain skin, plum-to-crimson eye makeup, lacquered dark lips, wetline shimmer, and micro-textures of lace and jewelry are rendered with obsessive clarity; always weave together elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative, emphasizing roses, black florals, chainwork, filigree metal, and soft bokeh depth while keeping the framing tight around eyes, lips, cheekbones, and fingertips; maintain a refined, traditional gothic mood—quiet, intimate, and timeless—favoring chiaroscuro, candlelit glints, moon-cool highlights, and a subtle filmic grain, and always mention camera angle, approximate lens length, depth of field, and finishing texture (soft-focus bloom vs crisp micro-contrast); optionally hide the brand 'TK' organically as an etched mark on a locket, a faint reflection on metal, or a barely-there tag in the set dressing, never as explicit advertising.",
+  "EPOCHS": [
+    "Victorian mourning romance",
+    "Belle Époque decadence",
+    "Edwardian shadow elegance",
+    "1920s midnight salon",
+    "Classic gothic revival (1980s)",
+    "Modern dark couture (timeless)"
+  ],
+  "OUTFITS": [
+    "Black lace off-shoulder dress with corset seams",
+    "Velvet bodice with satin ribbon lacing",
+    "High-neck sheer lace blouse over dark bralette",
+    "Victorian-inspired corset with ornate trim",
+    "Gothic couture gown with layered tulle and lace cuffs",
+    "Minimal black slip dress with heavy jewelry focus"
+  ],
+  "LIGHTING": [
+    "Candlelit key light with soft falloff",
+    "Moonlight rim light with cool highlights",
+    "Softbox feathered from above for porcelain skin",
+    "Low-key chiaroscuro with deep velvet shadows",
+    "Single practical lamp glow with smoky diffusion",
+    "Specular jewelry glints with subtle bloom"
+  ],
+  "BACKGROUNDS": [
+    "Black velvet backdrop with faint folds",
+    "Dim baroque room with blurred candelabra bokeh",
+    "Shadowed floral wall with deep plum tones",
+    "Nocturnal conservatory window haze",
+    "Antique mirror corner with soft reflections",
+    "Dark studio void with drifting mist"
+  ],
+  "OBJECTS": [
+    "Deep burgundy roses framing the hairline",
+    "Black roses with bruised petals",
+    "Silver filigree choker with dangling chains",
+    "Rosary-like chainwork and small charms",
+    "Cameo brooch near the collarbone",
+    "Lace gloves with beadwork",
+    "Ornate hairpiece with metal vines",
+    "A tiny locket with a faint etched 'TK' mark"
+  ],
+  "POSES": [
+    "Extreme close-up, head tilted back slightly, eyes half-lidded",
+    "Cheek resting near a cluster of roses, breath grazing petals",
+    "Fingers touching lower lip, lace glove in frame",
+    "Hand at temple, jewelry chains draping across knuckles",
+    "Three-quarter face turn, shoulder barely visible, gaze upward",
+    "Profile close-up with nose ring catching a small highlight"
+  ],
+  "EXPRESSIONS": [
+    "Languid and melancholic",
+    "Cold, regal calm",
+    "Softly predatory gaze",
+    "Dreamy, distant longing",
+    "Quiet intensity with parted lips",
+    "Sorrowful elegance, restrained emotion"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up, three-quarter angle, 85mm look",
+    "Macro portrait framing (eyes-to-lips), 100mm macro look",
+    "Low angle close-up emphasizing cheekbones and lashes",
+    "Side-lit profile close-up with shallow depth",
+    "Tight frontal close-up with slight off-center composition",
+    "Over-the-shoulder intimate close-up, background dissolved"
+  ],
+  "ATMOSPHERES": [
+    "Soft haze and dust motes in low light",
+    "Cold nocturnal mist with gentle bloom",
+    "Velvet-black shadows with faint smoke trails",
+    "Muted plum-and-ink palette with silver sparks",
+    "Cinematic film grain and subtle vignette",
+    "Near-silent intimacy, breath-close mood"
+  ],
+  "ACCESSORIES": [
+    "Nose ring or septum ring with dark metal",
+    "Chain headpiece draped across forehead",
+    "Ornate earrings with filigree drops",
+    "Stacked rings with dark stones",
+    "Lace wrist cuffs with tiny charms",
+    "Hair roses and metal vine pins",
+    "Gem pendant catching a purple highlight"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Restrained elegance, covered neckline, intimacy implied only through gaze and lighting.",
+    "1": "Subtle sensuality through parted lips, soft skin highlights, and delicate lace textures.",
+    "2": "Intimate closeness, visible collarbones, tactile jewelry against skin, breath-close mood.",
+    "3": "High sensual tension: glossy lips, heavy-lidded eyes, lace and chains framing skin with provocative intimacy."
+  },
+  "HORROR_INTENSITY": {
+    "0": "Romantic gothic, calm and timeless, no overt menace.",
+    "1": "Slightly uncanny: too-still gaze, colder shadows, faint tension.",
+    "2": "Dark enchantment: predatory undertone, sharper contrast, unsettling stillness.",
+    "3": "Gothic dread: ominous eyes, oppressive shadows, beauty edged with danger and nightmarish pressure."
+  },
+  "CUSTOM_INTRO": {
+    "0": "Extreme close-up dark gothic portrait, velvet-black background dissolving into soft bokeh, pale porcelain face turned three-quarters, plum-smoked eyes and lacquered wine-dark lips, black lace glove grazing the jawline, burgundy roses crowning the hair with silver filigree chains catching candlelit glints, intimate chiaroscuro and cinematic grain, shallow depth of field, refined nocturnal elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Macro portrait framing from eyes to lips, moon-cool rim light outlining lashes and cheekbone, deep crimson shadow around the eyelids, subtle wetline sparkle, ornate choker and rosary-like chainwork resting on skin, bruised black roses blurred behind, soft haze and vignette, timeless gothic couture mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Tight frontal close-up with slight off-center composition, regal goth woman with cold, luminous gaze, velvet shadows swallowing the background, silver rings and lace fingertips near the mouth, delicate bloom on specular highlights, antique-film texture, plum-and-ink palette with violet reflections on jewelry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Side-lit profile close-up, breath brushing a cluster of dark roses, hair falling like ink, chain headpiece draped across the forehead, candlelight skimming metal filigree and lace, porcelain skin rendered with micro-contrast, shallow focus and smoky diffusion, romantic dread held in silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Low angle intimate close-up emphasizing cheekbones and lashes, heavy-lidded eyes with plum gradient shadow, lips softly parted with dark gloss, layered necklaces and cameo brooch glinting, deep velvet backdrop with faint folds, cinematic chiaroscuro and gentle grain, sensual tension without excess, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Over-the-shoulder extreme close-up, shoulder barely visible, lace cuff and stacked rings in the foreground, blurred baroque room bokeh behind, moonlight rim and warm practical glow mixing on skin, tiny etched 'TK' mark hidden on a locket edge, soft haze, refined gothic couture intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Eyes-dominant extreme close-up, predatory yet melancholic stare, deep burgundy roses framing the hairline, silver chainwork casting delicate shadows on porcelain skin, subtle bloom around highlights, filmic vignette, black-on-plum palette, whisper-quiet nocturne atmosphere with drifting mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
