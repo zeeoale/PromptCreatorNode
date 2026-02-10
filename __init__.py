@@ -4,9 +4,9 @@
 
 MANIFEST = {
     "name": "Prompt Creator Node",
-    "version": (1, 19, 0),
+    "version": (1, 11, 0),
     "author": "TK-traumakom",
-    "project": "https://github.com/traumakom/PromptCreatorNode",
+    "project": "https://github.com/zeeoale/PromptCreatorNode",
     "description": (
         "Dynamic prompt generator for ComfyUI using modular JSON worlds, "
         "COLOR_REALM control, LoRA triggers, optional AI enhancement, "
@@ -21,12 +21,11 @@ print(
 )
 def _print_promptcreator_banner():
     banner = r"""
-██████  ██████   ██████  ███    ███ ██████  ████████      
-██   ██ ██   ██ ██    ██ ████  ████ ██   ██    ██         
-██████  ██████  ██    ██ ██ ████ ██ ██████     ██         
-██      ██   ██ ██    ██ ██  ██  ██ ██         ██         
-██      ██   ██  ██████  ██      ██ ██         ██         
-                                                          
+   ██████  ██████   ██████  ███    ███ ██████  ████████      
+   ██   ██ ██   ██ ██    ██ ████  ████ ██   ██    ██         
+   ██████  ██████  ██    ██ ██ ████ ██ ██████     ██         
+   ██      ██   ██ ██    ██ ██  ██  ██ ██         ██         
+   ██      ██   ██  ██████  ██      ██ ██         ██         
                                                           
  ██████ ██████  ███████  █████  ████████  ██████  ██████  
 ██      ██   ██ ██      ██   ██    ██    ██    ██ ██   ██ 
@@ -34,18 +33,17 @@ def _print_promptcreator_banner():
 ██      ██   ██ ██      ██   ██    ██    ██    ██ ██   ██ 
  ██████ ██   ██ ███████ ██   ██    ██     ██████  ██   ██ 
                                                           
-                                                          
-███    ██  ██████  ██████  ███████                        
-████   ██ ██    ██ ██   ██ ██                             
-██ ██  ██ ██    ██ ██   ██ █████                          
-██  ██ ██ ██    ██ ██   ██ ██                             
-██   ████  ██████  ██████  ███████  
+          ███    ██  ██████  ██████  ███████                        
+          ████   ██ ██    ██ ██   ██ ██                             
+          ██ ██  ██ ██    ██ ██   ██ █████                          
+          ██  ██ ██ ██    ██ ██   ██ ██                             
+          ██   ████  ██████  ██████  ███████  
  -----------------------------------------------------
-                        1.10.0                         
+                        1.11.0                         
  -----------------------------------------------------
 
 ===========================================================
-PromptCreatorNode v1.10.0
+PromptCreatorNode v1.11.0
 A modular cinematic prompt generator for ComfyUI
 
 Loaded nodes:

@@ -57,6 +57,16 @@
       "eyes color green-toned brown",
       "eyes color silver-white"
     ],
+
+    "eye_makeup": [
+      "soft kohl lining, smudged outer corner, low-contrast",
+      "sharp winged eyeliner, clean upper line, minimal lower lashline",
+      "deep plum smoky eyeshadow, soft blur under-eye",
+      "gothic high-contrast eyes, heavy lashes, dark waterline",
+      "metallic highlight on inner corner, otherwise muted",
+      "editorial matte eyeshadow, defined crease, restrained shimmer"
+    ],
+
     "nose": [
       "straight delicate nose",
       "small straight nose with a narrow bridge and softly rounded tip",
@@ -81,11 +91,21 @@
       "pouty lips, soft gradient tint",
       "matte lips, crisp outline",
       "natural lips, minimal makeup look",
-      "Soft, subtle, closed‑lip smile; calm, warm, confident.",
+      "Soft, subtle, closed-lip smile; calm, warm, confident.",
       "heart-shaped lips, delicate corners",
       "balanced lips, natural volume, soft edges with dark/black lipstick",
       "slightly parted lips, calm expression"
     ],
+
+    "lip_makeup": [
+      "deep wine lipstick, satin finish, crisp outline",
+      "black lipstick, matte finish, sharp cupid bow",
+      "dark plum gradient tint, softened edges",
+      "muted rose lips, soft matte, understated",
+      "glossy burgundy lips, wet shine highlight",
+      "neutral nude lips, minimal tint, natural finish"
+    ],
+
     "hair": [
       "asymmetrical side-shaved hairstyle with one side closely cropped, the opposite side featuring longer flowing hair that falls past the jawline, creating a soft yet edgy silhouette",
       "urban asymmetrical haircut with one side shaved close and the remaining hair worn longer and loose, framing the face with a dark, modern edge",
@@ -139,9 +159,8 @@
       "hair color macha green",
       "hair color acid green",
       "hair color smoky purple",
-      "hair color rainbow", 
+      "hair color rainbow",
       "hair color fashion pink"
-
     ],
 
     "makeup": [
@@ -151,7 +170,6 @@
       "gothic high-contrast makeup, deep lipstick, porcelain finish",
       "glossy skin highlights, minimal eyes, nude lips"
     ],
-
 
     "skin": [
       "porcelain skin, faint under-eye shadows",
@@ -167,19 +185,16 @@
       "porcelain skin, soft matte finish, minimal blemishes",
       "deep brown skin tone, rich natural texture with luminous highlights"
     ],
-    
     "body_type": [
-    "slender delicate build, narrow shoulders, subtle curves",
-    "petite frame, soft curves, narrow waist",
-    "balanced natural proportions, gentle curves, relaxed posture",
-    "curvy build, pronounced hips, fuller chest, elegant silhouette",
-    "athletic toned physique, defined legs and shoulders, strong lines",
-    "tall lean build, long limbs, subtle curves",
-    "rounded editorial silhouette with visible softness through clothing, relaxed waist definition, and natural volume distribution",
-    "soft fuller figure, natural volume, smooth silhouette"
+      "slender delicate build, narrow shoulders, subtle curves",
+      "petite frame, soft curves, narrow waist",
+      "balanced natural proportions, gentle curves, relaxed posture",
+      "curvy build, pronounced hips, fuller chest, elegant silhouette",
+      "athletic toned physique, defined legs and shoulders, strong lines",
+      "tall lean build, long limbs, subtle curves",
+      "rounded editorial silhouette with visible softness through clothing, relaxed waist definition, and natural volume distribution",
+      "soft fuller figure, natural volume, smooth silhouette"
     ],
-
-
     "expression_base": [
       "detached melancholic calm",
       "cold confident stare",
@@ -217,107 +232,53 @@
       "African (East African)"
     ]
   },
+
   "PRESETS": {
     "Fallen_Helly": {
-      "age": [
-        "mid 20s"
-      ],
-      "face_type": [
-        "heart-shaped face, high cheekbones, narrow jaw"
-      ],
-      "eyes": [
-        "almond eyes, heavy lashes"
-      ],
-      "eyes_color": [
-        "icy gray",
-        "pale blue"
-      ],
-      "nose": [
-        "straight delicate nose"
-      ],
-      "mouth": [
-        "soft full lips, slight cupid bow"
-      ],
-      "hair": [
-        "long straight hair, heavy fringe"
-      ],
-      "hair_color": [
-        "platinum-white",
-        "silver-white"
-      ],
-      "skin": [
-        "porcelain skin, faint under-eye shadows"
-      ],
-      "expression_base": [
-        "detached melancholic calm"
-      ],
-      "ethnicity": [
-        "East Asian (Japanese/Korean)",
-        "None"
-      ]
+      "age": ["mid 20s"],
+      "face_type": ["heart-shaped face, high cheekbones, narrow jaw"],
+      "eyes": ["almond eyes, heavy lashes"],
+      "eyes_color": ["icy gray", "pale blue"],
+      "eye_makeup": ["deep plum smoky eyeshadow, soft blur under-eye", "gothic high-contrast eyes, heavy lashes, dark waterline"],
+      "nose": ["straight delicate nose"],
+      "mouth": ["soft full lips, slight cupid bow"],
+      "lip_makeup": ["deep wine lipstick, satin finish, crisp outline", "dark plum gradient tint, softened edges"],
+      "hair": ["long straight hair, heavy fringe"],
+      "hair_color": ["platinum-white", "silver-white"],
+      "skin": ["porcelain skin, faint under-eye shadows"],
+      "expression_base": ["detached melancholic calm"],
+      "ethnicity": ["East Asian (Japanese/Korean)", "None"]
     },
+
     "Kira_Goth": {
-      "age": [
-        "early 20s",
-        "mid 20s"
-      ],
+      "age": ["early 20s", "mid 20s"],
       "face_type": [
         "soft angular face, sculpted cheekbones, tapered chin",
         "oval face, soft jawline, balanced proportions"
       ],
-      "eyes": [
-        "cat-like eyes, sharp outer corners",
-        "deep-set eyes, intense gaze"
-      ],
-      "eyes_color": [
-        "icy gray",
-        "violet",
-        "steel blue"
-      ],
-      "nose": [
-        "narrow nose bridge, refined tip",
-        "straight delicate nose"
-      ],
-      "mouth": [
-        "matte lips, crisp outline",
-        "plush lower lip, subtle upper lip"
-      ],
+      "eyes": ["cat-like eyes, sharp outer corners", "deep-set eyes, intense gaze"],
+      "eyes_color": ["icy gray", "violet", "steel blue"],
+      "eye_makeup": ["sharp winged eyeliner, clean upper line, minimal lower lashline", "gothic high-contrast eyes, heavy lashes, dark waterline"],
+      "nose": ["narrow nose bridge, refined tip", "straight delicate nose"],
+      "mouth": ["matte lips, crisp outline", "plush lower lip, subtle upper lip"],
+      "lip_makeup": ["black lipstick, matte finish, sharp cupid bow", "glossy burgundy lips, wet shine highlight"],
       "hair": [
         "high twin buns (space buns), straight fringe, face-framing strands",
         "high twin-tails, straight fringe, long flowing lengths"
       ],
-      "hair_color": [
-        "cobalt-blue",
-        "midnight blue",
-        "blue-black"
-      ],
+      "hair_color": ["cobalt-blue", "midnight blue", "blue-black"],
       "skin": [
         "porcelain skin, soft matte finish, minimal blemishes",
         "alabaster skin, high contrast, delicate blush"
       ],
-      "expression_base": [
-        "quiet intensity, unwavering eye contact",
-        "mysterious composure, minimal emotion"
-      ],
-      "ethnicity": [
-        "None",
-        "East Asian (Japanese/Korean)",
-        "Slavic"
-      ]
+      "expression_base": ["quiet intensity, unwavering eye contact", "mysterious composure, minimal emotion"],
+      "ethnicity": ["None", "East Asian (Japanese/Korean)", "Slavic"]
     },
+
     "Neutral_Studio": {
-      "age": [
-        "early 20s",
-        "mid 20s",
-        "late 20s"
-      ],
-      "expression_base": [
-        "soft neutral expression",
-        "calm elegance, relaxed facial muscles"
-      ],
-      "ethnicity": [
-        "None"
-      ]
+      "age": ["early 20s", "mid 20s", "late 20s"],
+      "expression_base": ["soft neutral expression", "calm elegance, relaxed facial muscles"],
+      "ethnicity": ["None"]
     }
   }
 }
