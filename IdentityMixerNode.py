@@ -3,17 +3,18 @@ import json
 import random
 import hashlib
 
-# nuovi campi
+# ✅ v1.11.0: split makeup -> eye_makeup + lip_makeup
 FIELDS_ORDER = [
     "age",
     "face_type",
     "eyes",
     "eyes_color",
+    "eye_makeup",      # ✅ NEW
     "nose",
     "mouth",
+    "lip_makeup",      # ✅ NEW
     "hair",
     "hair_color",
-    "makeup",          # ✅ NEW
     "skin",
     "body_type",
     "expression_base",
@@ -22,8 +23,8 @@ FIELDS_ORDER = [
 
 SPECIAL_RANDOM = "(random)"
 SPECIAL_EMPTY = "(empty)"
-SPECIAL_NONE = "(none)"   # per ethnicity o altri campi
-SPECIAL_PRESET = "(preset)"  # opzionale: scegli da preset quando disponibile
+SPECIAL_NONE = "(none)"       # per ethnicity o altri campi
+SPECIAL_PRESET = "(preset)"   # scegli da preset quando disponibile
 
 def _load_json(path: str) -> dict:
     if path and os.path.exists(path):
@@ -35,39 +36,106 @@ def _load_json(path: str) -> dict:
             return {}
     return {}
 
+def _norm_list(vals):
+    if isinstance(vals, list):
+        return [str(v).strip() for v in vals if str(v).strip()]
+    if isinstance(vals, str):
+        s = vals.strip()
+        return [s] if s else []
+    return []
+
+def _merge_unique(*lists):
+    seen = set()
+    out = []
+    for lst in lists:
+        for v in (lst or []):
+            vv = str(v).strip()
+            if vv and vv not in seen:
+                seen.add(vv)
+                out.append(vv)
+    return out
+
 def _get_traits_and_presets(data: dict):
     """
     Supporta due formati:
     - Nuovo: {"TRAITS": {...}, "PRESETS": {...}}
     - Legacy: {"IdentityName": {...}, "IdentityName2": {...}}
+
+    ✅ v1.11.0: retro-compat per vecchio campo "makeup":
+      - se in TRAITS esiste solo "makeup", lo usa come fallback per eye_makeup & lip_makeup
+      - se nei PRESETS esiste "makeup", lo usa come fallback per eye_makeup & lip_makeup
     """
-    traits = data.get("TRAITS")
+    traits_raw = data.get("TRAITS")
     presets = data.get("PRESETS") if isinstance(data.get("PRESETS"), dict) else {}
 
-    if isinstance(traits, dict):
-        # Normalizza: assicura che ogni trait sia una lista di stringhe
+    if isinstance(traits_raw, dict):
+        # Normalizza tutti i campi "nuovi"
         norm = {}
         for k in FIELDS_ORDER:
-            vals = traits.get(k, [])
-            if isinstance(vals, list):
-                norm[k] = [str(v).strip() for v in vals if str(v).strip()]
+            norm[k] = _norm_list(traits_raw.get(k, []))
+
+        # ✅ fallback: vecchio "makeup" -> eye_makeup & lip_makeup
+        legacy_makeup = _norm_list(traits_raw.get("makeup", []))
+        if legacy_makeup:
+            if not norm.get("eye_makeup"):
+                norm["eye_makeup"] = legacy_makeup[:]
             else:
-                norm[k] = []
+                norm["eye_makeup"] = _merge_unique(norm["eye_makeup"], legacy_makeup)
+
+            if not norm.get("lip_makeup"):
+                norm["lip_makeup"] = legacy_makeup[:]
+            else:
+                norm["lip_makeup"] = _merge_unique(norm["lip_makeup"], legacy_makeup)
+
+        # ✅ normalizza anche presets: se manca eye/lip ma c'è makeup, lo distribuisce
+        if isinstance(presets, dict) and presets:
+            fixed_presets = {}
+            for pname, pobj in presets.items():
+                if not isinstance(pobj, dict):
+                    continue
+                p = dict(pobj)
+
+                p_makeup = _norm_list(p.get("makeup", []))
+                if p_makeup:
+                    if not _norm_list(p.get("eye_makeup", [])):
+                        p["eye_makeup"] = p_makeup[:]
+                    else:
+                        p["eye_makeup"] = _merge_unique(_norm_list(p.get("eye_makeup", [])), p_makeup)
+
+                    if not _norm_list(p.get("lip_makeup", [])):
+                        p["lip_makeup"] = p_makeup[:]
+                    else:
+                        p["lip_makeup"] = _merge_unique(_norm_list(p.get("lip_makeup", [])), p_makeup)
+
+                fixed_presets[pname] = p
+            presets = fixed_presets
+
         return norm, presets, True  # True = nuovo formato
 
     # Legacy: colleziona valori da identità singole
     identities = data
     values = {k: set() for k in FIELDS_ORDER}
+
+    # In legacy non esistono eye_makeup/lip_makeup: se trovi MAKEUP lo mettiamo su entrambi.
     for _, obj in identities.items():
         if not isinstance(obj, dict):
             continue
+
+        # legge makeup legacy (sia "makeup" che "MAKEUP")
+        legacy_m = obj.get("makeup") or obj.get("MAKEUP")
+
         for k in FIELDS_ORDER:
-            # ✅ supporta anche chiavi legacy in MAIUSCOLO, incl. MAKEUP
-            v = obj.get(k) or obj.get(k.upper())
+            if k in ("eye_makeup", "lip_makeup"):
+                # fallback
+                v = legacy_m
+            else:
+                v = obj.get(k) or obj.get(k.upper())
+
             if isinstance(v, str):
                 v = v.strip()
                 if v:
                     values[k].add(v)
+
     legacy_traits = {k: sorted(list(vals)) for k, vals in values.items()}
     return legacy_traits, {}, False
 
@@ -101,19 +169,27 @@ class IdentityMixerNode:
         return {
             "required": {
                 "preset": (preset_list,),
+
                 "age": (opts["age"],),
                 "face_type": (opts["face_type"],),
+
                 "eyes": (opts["eyes"],),
                 "eyes_color": (opts["eyes_color"],),
+                "eye_makeup": (opts["eye_makeup"],),   # ✅ NEW
+
                 "nose": (opts["nose"],),
+
                 "mouth": (opts["mouth"],),
+                "lip_makeup": (opts["lip_makeup"],),   # ✅ NEW
+
                 "hair": (opts["hair"],),
                 "hair_color": (opts["hair_color"],),
-                "makeup": (opts["makeup"],),   # ✅ NEW
+
                 "skin": (opts["skin"],),
                 "body_type": (opts["body_type"],),
                 "expression_base": (opts["expression_base"],),
                 "ethnicity": (opts["ethnicity"],),
+
                 "random_seed": ("INT", {"default": 123456, "min": 0, "max": 2147483647}),
                 "custom_intro_prefix": ("STRING", {"default": "", "multiline": True}),
             },
@@ -130,8 +206,12 @@ class IdentityMixerNode:
     def mix(
         self,
         preset,
-        age, face_type, eyes, eyes_color, nose, mouth,
-        hair, hair_color, makeup, skin, body_type, expression_base, ethnicity,
+        age, face_type,
+        eyes, eyes_color, eye_makeup,
+        nose,
+        mouth, lip_makeup,
+        hair, hair_color,
+        skin, body_type, expression_base, ethnicity,
         random_seed, custom_intro_prefix,
         identities_file=None
     ):
@@ -149,8 +229,8 @@ class IdentityMixerNode:
             if sel == SPECIAL_NONE:
                 return ""
             if sel == SPECIAL_PRESET:
-                pool = selected_preset.get(field, [])
-                if isinstance(pool, list) and pool:
+                pool = _norm_list(selected_preset.get(field, []))
+                if pool:
                     return rng.choice(pool)
                 pool = traits.get(field, [])
                 return rng.choice(pool) if pool else ""
@@ -161,16 +241,23 @@ class IdentityMixerNode:
                 return ""
             return sel
 
+        # ✅ ordine coerente con FIELDS_ORDER
         for field, sel in [
             ("age", age),
             ("face_type", face_type),
+
             ("eyes", eyes),
             ("eyes_color", eyes_color),
+            ("eye_makeup", eye_makeup),
+
             ("nose", nose),
+
             ("mouth", mouth),
+            ("lip_makeup", lip_makeup),
+
             ("hair", hair),
             ("hair_color", hair_color),
-            ("makeup", makeup),          # ✅ NEW
+
             ("skin", skin),
             ("body_type", body_type),
             ("expression_base", expression_base),
