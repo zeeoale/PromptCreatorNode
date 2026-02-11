@@ -1,0 +1,120 @@
+{
+  "WORLD_NAME": "PFN_Corporate_Goth",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in modern corporate gothic imagery rooted in contemporary power aesthetics rather than fantasy archetypes. When requested, return ONE single long, cohesive, cinematic sentence of approximately 180–240 words, without line breaks or lists, describing a refined gothic subject whose presence blends corporate authority, dark academia restraint, and subtle urban supernatural undertones. Always weave together elements drawn organically from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a unified visual narrative. Emphasize sharp tailoring, black fabrics, leather and velvet textures, restrained fetish details integrated into formal wear, and a controlled sensuality expressed through posture, gaze, and composure rather than overt sexuality. The subject may interact naturally with symbolic animal companions as manifestations of instinct, dominance, or silent power. Define clear foreground, midground, and background depth using minimalist dark interiors, modern gothic offices, or shadowed urban spaces. Describe fine-art lighting with high contrast, sculpted shadows, rim light, and facial contour emphasis. Maintain a limited color palette of deep black charcoal silver muted crimson. Convey an atmosphere of cold luxury, silent authority, corporate menace, and seductive restraint, favoring cinematic editorial fashion photography and chiaroscuro mood while avoiding fantasy clichés.",
+
+  "EPOCHS": [
+    "Corporate Goth",
+    "Dark Academia",
+    "Neo-Gothic Contemporary",
+    "Urban Supernatural",
+    "Modern Occult Minimalism"
+  ],
+
+  "OUTFITS": [
+  "Tailored black blazer",
+  "Plaid/tartan patterned vest",
+  "White collared dress shirt",
+  "Black necktie",
+  "Fitted black turtleneck in fine knit",
+  "Long black trench coat with sharp lapels",
+  "Structured waistcoat with subtle occult embroidery",
+  "Black silk blouse with high collar",
+  "Slim-cut black trousers with polished finish",
+  "Leather harness worn over formal shirt",
+  "Modern corset belt integrated into suit tailoring",
+  "Black cashmere overcoat with minimalist design",
+  "Sheer black mesh top layered under blazer",
+  "Dark velvet blazer with clean modern cut",
+  "High-waisted tailored trousers with gothic elegance",
+  "Asymmetric black jacket with architectural lines"
+  ],
+
+  "LIGHTING": [
+    "High-contrast studio lighting",
+    "Low-key lighting with sculpted shadows",
+    "Rim light outlining jawline and hair",
+    "Side lighting emphasizing cheekbones",
+    "Subtle cold accent light"
+  ],
+
+  "BACKGROUNDS": [
+    "Modern gothic corporate office",
+    "Minimalist black interior",
+    "Dark marble architectural space",
+    "Shadowed urban high-rise interior",
+    "Abstract dark studio backdrop"
+  ],
+
+  "OBJECTS": [
+    "Silver occult brooch",
+    "Leather-bound notebook",
+    "Glass of dark wine",
+    "Minimalist silver cane",
+    "Architectural desk elements"
+  ],
+
+  "POSES": [
+    "Upper body portrait with controlled posture",
+    "Direct gaze toward camera",
+    "Head slightly lowered eyes lifted",
+    "One hand adjusting collar or cuff",
+    "Seated with composed dominance",
+    "Standing with subtle weight shift"
+  ],
+
+  "EXPRESSIONS": [
+    "Cold and confident gaze",
+    "Restrained seduction",
+    "Detached authority",
+    "Subtle predatory calm",
+    "Silent superiority"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Eye-level editorial portrait",
+    "Slight low-angle emphasizing dominance",
+    "Medium close-up with shallow depth of field",
+    "Tight close-up on eyes and makeup"
+  ],
+
+  "ATMOSPHERES": [
+    "Cold corporate luxury",
+    "Modern gothic elegance",
+    "Silent menace",
+    "Urban supernatural restraint",
+    "Controlled sensual power"
+  ],
+
+  "ACCESSORIES": [
+    "Minimalist black choker",
+    "Silver gothic rings",
+    "Subtle leather harness under jacket",
+    "Dark eye makeup",
+    "Muted lipstick tones"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely formal presence with no sensual cues, emphasis on authority and restraint",
+    "1": "Subtle sensual undertone expressed through gaze posture and fabric tension",
+    "2": "Controlled erotic tension integrated into corporate elegance and body language",
+    "3": "Explicitly seductive presence conveyed through dominant gaze restrained fetish details and intimate proximity"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, atmosphere remains elegant and corporate",
+    "1": "Very subtle unsettling undertones expressed through shadow and silence",
+    "2": "Noticeable gothic menace suggested through expression lighting and environment",
+    "3": "Strong oppressive presence with predatory authority and dark psychological tension"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "corporate gothic portrait rooted in modern authority and restrained sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "dark academia corporate elegance with occult undertones and controlled dominance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "modern gothic executive presence expressed through gaze posture and tailoring, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "urban supernatural authority blended with minimalist corporate fashion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "cold luxury corporate goth portrait with cinematic chiaroscuro lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "editorial gothic fashion portrait driven by power restraint and silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "modern corporate gothic icon defined by presence control and dark elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
