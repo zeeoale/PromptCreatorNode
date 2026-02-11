@@ -1,0 +1,119 @@
+{
+  "WORLD_NAME": "PFN_Japan_Only_Bold",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in sensual modern Japan imagery that blends neon-night intimacy with refined traditional elegance. When requested, return ONE single long, cohesive sentence (180–240 words) in English, no line breaks and no lists, describing an intensely detailed cinematic portrait that balances bold erotic suggestion with tasteful composition. Always weave together elements drawn organically from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, modulating the tone using {{SENSUALITY_LEVEL}} and optionally {{HORROR_INTENSITY}} without ever naming the category labels. Emphasize silk tension, robe layering, subtle transparency, and the contrast of controlled posture with intimate vulnerability, keeping the mood adult, confident, and fashion-aware. Define clear foreground, midground, and background depth through ryokan interiors, neon alleys, steamy onsen glow, or rooftop night air; include fine-art lighting such as paper lantern warmth, neon pink and purple spill, soft red interior lighting, rim light, and sculpted shadows across cheekbones and collarbones. Mention camera framing, lens feel, shallow depth of field, skin detail, and a restrained palette of black charcoal muted crimson neon magenta warm lantern amber. If present, add a subtle “TK” mark as a small urban sticker reflection or etched metal tag within the environment, never as advertising.",
+
+  "EPOCHS": [
+    "modern japan",
+    "tokyo nightlife",
+    "neo-geisha era"
+  ],
+
+    "OUTFITS": [
+    "revealing silk kimono",
+    "off-shoulder yukata",
+    "lace lingerie under robe",
+    "transparent floral haori",
+    "modern kimono with thigh slit",
+    "loosely tied kimono exposing collarbone and nape",
+    "short silk yukata worn open over bare legs",
+    "sheer kimono layered over minimal lingerie",
+    "traditional kimono slipped low on the shoulders",
+    "modern sleeveless kimono dress with open back",
+    "black lace bodysuit partially hidden beneath silk layers",
+    "thin cotton yukata clinging to damp skin",
+    "open-front kimono revealing waist and hip line",
+    "asymmetrical kimono styling with one sleeve fallen",
+    "luxury satin robe inspired by geisha silhouettes",
+    "kimono-style wrap dress with deep neckline",
+    "delicate mesh underlayer visible through translucent fabric",
+    "modern Japanese nightwear with erotic minimalism"
+    ],
+
+  "LIGHTING": [
+    "steamy bathhouse glow",
+    "neon pink and purple",
+    "paper lantern light",
+    "late night urban moody light",
+    "soft red interior lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "intimate ryokan room",
+    "small neon-lit alley",
+    "steamy onsen bath",
+    "luxury geisha parlor",
+    "urban rooftop at night"
+  ],
+
+  "OBJECTS": [
+    "sake cup in hand",
+    "open parasol",
+    "scattered cherry petals",
+    "silk sheets"
+  ],
+
+  "POSES": [
+    "seductive close-up",
+    "confident half-body pose",
+    "lying sideways with direct gaze",
+    "kneeling with exposed shoulder",
+    "hand near lips in thought"
+  ],
+
+  "EXPRESSIONS": [
+    "provocative gaze",
+    "biting lip",
+    "confident smirk",
+    "gentle yet daring smile",
+    "flushed cheeks with sultry look"
+  ],
+
+  "CAMERA_ANGLES": [
+    "portrait close-up",
+    "upper-body from below",
+    "diagonal angle with focus on eyes",
+    "soft profile close-up",
+    "intimate eye-level shot"
+  ],
+
+  "ATMOSPHERES": [
+    "sensual tension",
+    "forbidden elegance",
+    "mystery and allure",
+    "temptation in the air",
+    "intimate and dreamy"
+  ],
+
+  "ACCESSORIES": [
+    "red lipstick",
+    "ink tattoos under silk",
+    "ornamental hairpins",
+    "silk blindfold",
+    "earring with dangling pearl"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Soft romantic suggestion, modest styling, minimal exposure, intimacy expressed through gaze and lighting only",
+    "1": "Tasteful sensuality with subtle transparency, silk tension, exposed shoulder, flirtatious eye contact, controlled body language",
+    "2": "Bold seductive energy with lingerie glimpses under robe, confident teasing gestures, flushed skin, intimate proximity, provocative framing",
+    "3": "Explicit erotic tension, dominant sultry presence, deliberate exposure and fetish accents integrated into elegant styling, highly intimate close-up focus"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, purely sensual elegance and cinematic romance",
+    "1": "Very subtle unease in shadows and silence, a faint nocturnal menace without changing the sensual tone",
+    "2": "Noticeable dark undertone, oppressive neon alley mood, sharper contrast, hints of danger in environment and expression",
+    "3": "Strong psychological tension with predatory atmosphere, claustrophobic framing, heavy shadows, unsettling intimacy while staying grounded and non-fantasy"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "tokyo nightlife sensual portrait with silk tension and neon lantern glow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "neo-geisha elegance in an intimate ryokan room with cherry petals and sake, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "steamy onsen close-up with wet skin highlights and paper lantern warmth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "bold modern kimono styling with thigh slit and controlled dominant gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "neon-lit alley intimacy with soft red interior spill and rim-lit hairpins, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "luxury geisha parlor mood with velvet shadows, pearls, and forbidden elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "urban rooftop night air with cinematic close-up eyes and whisper-soft temptation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
