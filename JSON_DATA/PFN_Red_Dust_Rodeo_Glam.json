@@ -1,0 +1,93 @@
+{
+  "WORLD_NAME": "PFN_Red_Dust_Rodeo_Glam",
+  "SYSTEM_PROMPT": "You are a cinematic prompt composer specialized in high-fashion western editorial imagery. When requested, return ONE single long, highly detailed sentence (180–240 words), written in refined, cinematic English without line breaks or lists, portraying a confident cowgirl figure inside a Texas rodeo arena at golden hour. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive and visually immersive narrative. Emphasize sun-warmed skin tones, wind-touched hair, subtle fabric movement, and fine dust particles illuminated by backlight. The tone must remain editorial, fashion-forward, and sensual without vulgarity, highlighting silhouette, posture, texture of denim and leather, polished belt buckles, and the interplay between strength and elegance. Mention lens characteristics, depth of field, color grading palette, and subtle cinematic grain when appropriate. The environment should evoke authentic Texas rodeo heritage—wooden fences, distant grandstands, sun-faded banners—while keeping the focus on the cowgirl’s commanding presence and poised femininity under the vast open sky. Subtle environmental branding such as hand-painted wooden signage may appear naturally integrated into the rodeo setting.",
+  "EPOCHS": [
+    "Modern Texas Rodeo",
+    "Contemporary Western Fashion",
+    "Neo-Western Editorial 2020s"
+  ],
+  "OUTFITS": [
+    "Fitted white western shirt slightly unbuttoned at collar",
+    "High-waist denim shorts with subtle distressing",
+    "Slim-fit denim jeans tucked into tall leather boots",
+    "Tailored suede western jacket over crop top"
+  ],
+  "LIGHTING": [
+    "Golden hour backlight with warm rim glow",
+    "Soft sunset side lighting with long shadows",
+    "Dust-filtered sunlight with glowing particles"
+  ],
+  "BACKGROUNDS": [
+    "Open-air Texas rodeo arena",
+    "Wooden arena fence with blurred grandstands",
+    "Sunlit dusty corral under vast sky",
+    "Sun-faded wooden sign reading 'TiKey Rodeo' above the arena gate",
+    "Vintage painted arena banner with 'TiKey Rodeo' lettering",
+    "Rustic entrance arch with subtle 'TiKey Rodeo' branding"
+
+  ],
+    "OBJECTS": [
+    "Coiled lasso resting on fence",
+    "Polished championship belt buckle",
+    "Leather saddle placed nearby",
+    "Worn cowboy hat casting soft shadow",
+    "Strong rodeo horse with glossy coat",
+    "Mechanical bull inside illuminated arena",
+    "Hand-painted wooden rodeo sign with 'TiKey Rodeo'",
+    "Weathered metal arena plate engraved with 'TiKey Rodeo'"
+
+  ],
+    "POSES": [
+    "One hand tipping hat against the wind",
+    "Leaning confidently on wooden fence",
+    "Standing centered with hips slightly angled",
+    "Seated casually on arena railing with crossed legs",
+    "Riding a calm horse across the dusty arena",
+    "Gently stroking a horse’s neck with confident posture",
+    "Balanced playfully on a mechanical bull under arena lights"
+  ],
+  "EXPRESSIONS": [
+    "Confident half-smile",
+    "Direct and fearless gaze",
+    "Subtle teasing smirk",
+    "Calm and self-assured expression"
+  ],
+  "CAMERA_ANGLES": [
+    "Low angle emphasizing presence",
+    "Waist-up cinematic portrait",
+    "Three-quarter fashion pose",
+    "Full-body vertical editorial frame"
+  ],
+  "ATMOSPHERES": [
+    "Warm desert haze",
+    "Slow drifting red dust",
+    "Quiet tension before the rodeo begins"
+  ],
+  "ACCESSORIES": [
+    "Large engraved Texas-style belt buckle",
+    "Stacked silver rings",
+    "Minimal leather choker",
+    "Delicate sun-kissed makeup glow"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely fashion editorial, minimal sensual emphasis.",
+    "1": "Softly feminine with subtle neckline or posture emphasis.",
+    "2": "Confident sensuality through silhouette and body language.",
+    "3": "Bold glamour with accentuated curves and assertive pose."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements.",
+    "1": "Barely perceptible atmospheric tension.",
+    "2": "Slight dramatic contrast in lighting and mood.",
+    "3": "High contrast shadows with intense cinematic drama."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A high-fashion Texas rodeo editorial portrait of a confident cowgirl standing in a sunlit dusty arena at golden hour, wind lifting her hair and warm rim light outlining her silhouette, cinematic depth of field, rich desert tones and polished leather textures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A glamorous western cowgirl posing confidently against a wooden arena fence under a glowing Texas sunset, red dust drifting through backlight and denim catching warm highlights, cinematic framing and refined editorial mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A bold rodeo-inspired fashion portrait of a sun-kissed cowgirl with a tilted Stetson and polished belt buckle, golden light illuminating floating dust particles and soft wind shaping her silhouette, cinematic color grading and shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An elegant neo-western editorial scene capturing a poised cowgirl in a Texas arena at sunset, subtle denim textures, leather boots dusted by red sand and glowing rim light outlining her confident stance, cinematic warmth and refined glamour atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A sunset rodeo glamour portrait of a strong yet feminine cowgirl framed in golden backlight, dust swirling gently around her boots and soft shadows enhancing her confident posture, fashion-forward western styling with cinematic clarity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A contemporary Texas cowgirl fashion scene set in a glowing arena at dusk, warm amber tones, subtle film grain and wind-touched hair accentuating her elegant silhouette against drifting dust clouds, cinematic editorial composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A refined western glamour portrait of a confident rodeo cowgirl beneath a vast Texas sky, golden haze wrapping around denim and leather textures while rim lighting defines her poised stance in the arena, cinematic depth and vibrant sunset palette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
