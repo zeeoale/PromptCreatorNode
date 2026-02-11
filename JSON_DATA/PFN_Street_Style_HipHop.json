@@ -1,0 +1,124 @@
+{
+  "WORLD_NAME": "PFN_Street_Style_HipHop",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in modern hip-hop streetwear editorial photography rooted in authentic urban culture rather than caricature or fantasy. When requested, return ONE single long, cohesive sentence of approximately 180–240 words in English, with no line breaks or lists, describing a stylish urban scene built organically from elements selected within {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}. Subtly modulate attitude and presence using {{SENSUALITY_LEVEL}} while keeping the subject fully clothed, platform-safe, and fashion-forward at all times. Emphasize relaxed confidence, controlled exposure through layering, silhouette, and posture rather than nudity or explicit sexuality. Mention camera framing, approximate lens feel, depth of field, color palette, film grain or halation choices, and an editorial street-photography finish inspired by contemporary magazines and documentary realism. Define clear foreground, midground, and background depth through real urban textures such as graffiti walls, concrete structures, wet pavement, signage, and street clutter. Maintain an authentic street mood with grounded body language, natural fabric movement, and unforced expressions. The overall tone should convey modern hip-hop cool, youthful urban energy, and confident self-assurance, avoiding exaggeration, parody, or fantasy tropes while remaining cinematic and visually precise.",
+
+  "EPOCHS": [
+    "contemporary hip-hop streetwear",
+    "late 90s to early 2000s urban revival",
+    "modern street photography editorial",
+    "anime-inspired urban fashion",
+    "graphic novel street aesthetic"
+  ],
+
+  "OUTFITS": [
+    "open oversized zip hoodie worn loose over a minimal bralette",
+    "cropped hoodie left unzipped to reveal a satin or metallic bra top",
+    "soft bralette or triangle bra with subtle sheen, fashion editorial fit",
+    "low-rise jogger pants with relaxed street fit and visible waistband",
+    "loose sweatpants with gathered ankles and soft drape",
+    "sheer or semi-translucent hoodie layered over lingerie-style top",
+    "lightweight street jacket worn open, sleeves pushed up",
+    "hood pulled up loosely, framing the face without hiding expression",
+    "bare midriff styling with controlled exposure, high-fashion street look",
+    "coordinated street set in muted gold amber or warm neutral tones"
+  ],
+
+  "LIGHTING": [
+    "overcast daylight with soft contrast and cool shadows",
+    "late-afternoon golden rim light with muted fill",
+    "urban shade lighting with soft bounce and gentle falloff",
+    "streetlamp sodium glow mixed with cool ambient night",
+    "neon spill reflections on wet pavement with low-key mood"
+  ],
+
+  "BACKGROUNDS": [
+    "graffiti-covered alley wall with layered tags",
+    "concrete underpass with posters stickers and grime",
+    "street corner with a bright utility box and scattered urban clutter",
+    "subway entrance with tiled walls and muted signage",
+    "brick facade with metal shutters and worn paint textures",
+    "backstreet courtyard with an orange folding chair and street debris"
+  ],
+
+  "OBJECTS": [
+    "boombox or small portable speaker",
+    "headphones held at the temples",
+    "skateboard resting at the side",
+    "spray paint can on the ground with closed cap",
+    "chain-link fence texture in the background",
+    "street poster collage and torn paper layers",
+    "utility box with paint splashes",
+    "silver pendant subtly marked with TK"
+  ],
+
+  "POSES": [
+    "body lowered with bent knees maintaining balance",
+    "wide stance with one knee slightly bent confident street posture",
+    "casual lean against a graffiti wall shoulders dropped",
+    "half-turn three-quarter pose chin slightly down eyes up",
+    "walking mid-step with natural fabric movement",
+    "crouched pose with elbows resting on knees calm presence"
+  ],
+
+  "EXPRESSIONS": [
+    "cool and composed",
+    "confident direct gaze",
+    "playful smirk with restraint",
+    "focused intensity with street-editorial calm",
+    "quiet self-assurance without exaggeration"
+  ],
+
+  "CAMERA_ANGLES": [
+    "full-body street shot at eye level",
+    "low-angle hero framing emphasizing urban power",
+    "three-quarter shot with strong negative space",
+    "mid-shot emphasizing background texture",
+    "wide portrait framing with shallow depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "modern street cool with gritty realism",
+    "youthful urban energy grounded and authentic",
+    "editorial hip-hop styling with cinematic restraint",
+    "moody city textures and muted palette",
+    "clean street-fashion look with subtle edge"
+  ],
+
+  "ACCESSORIES": [
+    "baseball cap or fitted cap",
+    "beanie layered under a cap",
+    "over-ear headphones",
+    "chunky sneakers",
+    "layered chain necklace",
+    "cross pendant",
+    "stacked bracelets",
+    "simple hoop earrings",
+    "waist-tied plaid flannel",
+    "small shoulder bag or crossbody sling"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Composed streetwear confidence with no sensual emphasis",
+    "1": "Subtle allure through posture layering and gaze while fully clothed",
+    "2": "Quiet sensual tension expressed through silhouette fabric drape and body language without exposure",
+    "3": "High-fashion provocative attitude conveyed through styling confidence and controlled presence never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Purely aesthetic street mood clean and stylish",
+    "1": "Slightly gritty urban edge with darker shadows and mood",
+    "2": "Moody cinematic undertone using grime fog and low-key lighting without horror elements",
+    "3": "Not applicable extreme horror intentionally avoided in this world"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "modern hip-hop streetwear editorial with authentic urban attitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "late 90s inspired street fashion revival with cinematic city textures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "editorial street portrait with relaxed confidence and layered urban styling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "moody city alley fashion shoot with neon reflections and grit, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "urban documentary-inspired fashion scene with soft daylight and texture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "cinematic street photography capturing movement posture and attitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "clean modern hip-hop editorial look with confident youth energy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

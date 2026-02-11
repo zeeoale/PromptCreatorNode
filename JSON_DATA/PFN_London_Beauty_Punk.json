@@ -1,0 +1,124 @@
+{
+  "WORLD_NAME": "PFN_London_Beauty_Punk",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in bold London punk beauty aesthetics rooted in underground culture rather than commercial fashion photography. When requested, return ONE single long cohesive sentence (180–240 words) in English, without line breaks or lists, describing an intense urban beauty portrait that blends raw punk rebellion with stylized editorial exaggeration. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a unified visual narrative. Focus on graphic contrast, smeared eyeliner, bold lipstick, shaved or chaotic hair, metallic piercings, torn fabrics, safety pins, and street attitude expressed through posture and gaze. Avoid realistic photography references and instead describe painterly texture, poster-like composition, mixed media layers, ink splashes, grunge overlays, and high-contrast color blocking. Define strong foreground subject emphasis with abstracted or stylized London urban backdrops such as underground tunnels, brick walls, graffiti layers, and rain-soaked pavements rendered in graphic or illustrative style. Maintain a bold color palette of black charcoal deep red electric pink dirty white. Convey rebellion, youth energy, defiance, raw beauty, and unapologetic individuality without fantasy clichés or glamour polish.",
+  
+  "EPOCHS": [
+    "1970s london punk",
+    "camden underground scene",
+    "modern alternative london",
+    "soho night culture",
+    "neo-punk editorial revival"
+  ],
+
+  "OUTFITS": [
+    "ripped fishnet top layered over bralette",
+    "oversized leather jacket covered in patches",
+    "torn band t-shirt with safety pins",
+    "vinyl mini skirt with metal hardware",
+    "studded leather pants",
+    "sheer mesh top with graphic print",
+    "cropped plaid jacket with frayed edges",
+    "corset layered over distressed shirt"
+  ],
+
+  "LIGHTING": [
+    "harsh graphic contrast",
+    "neon backlight glow",
+    "flat poster-style lighting",
+    "acid green rim glow",
+    "deep red shadow wash"
+  ],
+
+  "BACKGROUNDS": [
+    "graffiti layered brick wall",
+    "london underground tunnel illustration",
+    "rain-slick pavement with reflection textures",
+    "collaged newspaper poster backdrop",
+    "abstracted camden street scene",
+    "Tower Bridge at dusk",
+    "Camden Market at night",
+    "Soho side street with neon signs",
+    "Brick Lane graffiti wall",
+    "Southbank underpass near Waterloo",
+    "Shoreditch street art district",
+    "Notting Hill back alley",
+    "Leake Street graffiti tunnel",
+    "London Underground platform",
+    "Industrial rooftop overlooking the Thames"
+  ],
+
+  "OBJECTS": [
+    "safety pins scattered across fabric",
+    "spray paint drips",
+    "torn concert posters",
+    "chain accessories hanging loose",
+    "old boombox with scratched surface"
+  ],
+
+  "POSES": [
+    "chin lifted in defiance",
+    "shoulders forward confrontational stance",
+    "leaning against wall with crossed arms",
+    "one hand pulling jacket collar",
+    "messy hair brushed away from face"
+  ],
+
+  "EXPRESSIONS": [
+    "smudged eyeliner glare",
+    "crooked rebellious smile",
+    "intense direct stare",
+    "half-open lips with attitude",
+    "bored defiant look"
+  ],
+
+  "CAMERA_ANGLES": [
+    "tight beauty close-up",
+    "slightly low angle power framing",
+    "off-center graphic composition",
+    "cropped face with negative space",
+    "bold symmetrical poster framing"
+  ],
+
+  "ATMOSPHERES": [
+    "raw underground rebellion",
+    "youthful chaos and beauty",
+    "urban defiance",
+    "gritty london night energy",
+    "stylized punk attitude"
+  ],
+
+  "ACCESSORIES": [
+    "multiple ear piercings",
+    "nose ring",
+    "choker with metal ring",
+    "heavy chain necklace",
+    "dark smeared lipstick",
+    "graphic eye makeup",
+    "bleached brows"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure rebellious style with no sensual emphasis",
+    "1": "Subtle beauty edge through gaze and posture",
+    "2": "Confident provocative attitude expressed through styling and expression without explicit exposure",
+    "3": "Bold erotic tension conveyed through body language and confrontational intimacy while remaining fully clothed"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, purely punk aesthetic",
+    "1": "Slightly unsettling urban grit through shadow and smudged textures",
+    "2": "Strong gritty darkness with chaotic overlays and harsh contrast",
+    "3": "Intense oppressive mood using distortion heavy shadows and aggressive graphic treatment"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "london punk beauty portrait with smeared eyeliner and graphic contrast, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "camden underground style with ripped fabrics and neon rim glow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "raw punk editorial with poster collage textures and bold color blocking, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "neo london beauty rebellion with and deep red palette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "gritty underground portrait with chain accessories and defiant stare, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "stylized punk beauty with mixed media ink splashes and urban chaos, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "modern alternative london aesthetic with rebellious beauty focus, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
