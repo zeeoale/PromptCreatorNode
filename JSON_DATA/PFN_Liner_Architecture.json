@@ -1,0 +1,84 @@
+{
+  "WORLD_NAME": "PFN_Liner_Architecture",
+  "SYSTEM_PROMPT": "You are a cinematic beauty prompt architect specialized in extreme close-up portraiture where structural eyeliner, precise facial symmetry, and controlled studio lighting reveal the full power of identity definition. When requested, return ONE single long, highly detailed sentence (220–280 words) in refined cinematic English, without line breaks or bullet points, describing an intense beauty close-up where makeup functions as architectural design rather than decoration. Always integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, technically controlled visual narrative. Emphasize sharp, symmetrical eyeliner with precise wing extension, defined inner corner flick, lower lash structure, clean brow shaping, balanced contour placement, and realistic skin micro-texture with visible pores and natural undertone transitions. Mention lens behavior such as an 85mm or 105mm portrait lens with shallow depth of field isolating the eyes and lips, ensuring accurate pupil alignment and anatomical coherence. Maintain studio-grade lighting discipline with controlled highlight roll-off and soft shadow sculpting across cheekbones and jawline. Sensuality must emerge through gaze precision, lip definition, and compositional tension rather than exposure. When appropriate, integrate subtle TK presence organically as a reflective detail in gloss, eyeliner packaging, or faint studio surface reflections without overt branding.",
+  "EPOCHS": [
+    "Contemporary Beauty Editorial",
+    "Modern High-Fashion Studio",
+    "Minimalist Noir Portraiture"
+  ],
+  "OUTFITS": [
+    "Minimal black top with clean neckline",
+    "Bare shoulders with subtle collar accent",
+    "Structured dark fabric framing the jawline",
+    "Neutral studio wrap emphasizing facial focus"
+  ],
+  "LIGHTING": [
+    "Large frontal softbox with controlled shadow falloff",
+    "Beauty dish with subtle contrast and skin definition",
+    "High-contrast studio lighting emphasizing eyeliner edges",
+    "Soft key light with delicate rim accent on cheekbone"
+  ],
+  "BACKGROUNDS": [
+    "Matte charcoal seamless backdrop",
+    "Soft gradient studio gray background",
+    "Minimal black velvet texture out of focus",
+    "Neutral studio wall with faint painterly depth"
+  ],
+  "OBJECTS": [
+    "Minimal eyeliner brush placed subtly near frame edge",
+    "Gloss applicator catching a highlight reflection",
+    "Compact mirror reflecting a faint eye detail",
+    "Subtle reflective surface hinting at studio presence"
+  ],
+  "POSES": [
+    "Extreme close-up frontal symmetry with centered gaze",
+    "Three-quarter close-up with chin slightly lowered",
+    "Tight crop focusing on one eye and wing detail",
+    "Head tilted subtly to emphasize eyeliner geometry"
+  ],
+  "EXPRESSIONS": [
+    "Calm dominant gaze with eyelid precision",
+    "Slightly parted lips with controlled tension",
+    "Cold observational stare with restrained emotion",
+    "Neutral expression highlighting structural makeup"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait emphasizing eyes and lips",
+    "Tight head-and-shoulders framing with shallow depth of field",
+    "Macro-inspired crop focusing on eyeliner symmetry",
+    "Front-facing symmetrical beauty composition"
+  ],
+  "ATMOSPHERES": [
+    "Studio intimacy with technical precision",
+    "High-fashion beauty discipline with controlled tension",
+    "Minimalist noir clarity with sharp edge definition",
+    "Architectural makeup focus with cinematic restraint"
+  ],
+  "ACCESSORIES": [
+    "Minimal choker accent framing jawline",
+    "Subtle ear stud reflecting studio light",
+    "Fine satin ribbon detail near collarbone",
+    "Delicate reflective element subtly echoing TK presence"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure beauty editorial focus with no sensual emphasis, centered entirely on makeup precision and facial structure.",
+    "1": "Subtle sensuality expressed through lip softness and calm gaze without provocative intent.",
+    "2": "Clear sensual tension conveyed through defined lips, intense eye contact, and structural eyeliner emphasis.",
+    "3": "Strong erotic noir tension driven by piercing gaze, lacquered lips, and razor-sharp makeup geometry."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, clean and refined beauty aesthetic.",
+    "1": "Slightly darker shadow dominance with subtle dramatic undertone.",
+    "2": "High-contrast chiaroscuro with intensified gaze and heavier shadow control.",
+    "3": "Deep noir intensity with oppressive shadow framing and dramatic facial isolation."
+  },
+  "CUSTOM_INTRO": {
+    "0": "An extreme beauty close-up where sharp structural eyeliner defines the gaze with architectural precision under controlled studio lighting, pores visible and lips softly sculpted in balanced symmetry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A high-fashion close-up portrait focused on razor-sharp winged liner and clean brow geometry, shallow depth of field isolating eyes and lips against a matte studio backdrop, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A minimalist noir beauty composition emphasizing eyeliner symmetry, skin micro-texture, and precise pupil alignment within a disciplined studio lighting setup, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An intimate studio close-up where defined inner-corner flick and extended wing create architectural tension around a calm dominant gaze, lips softly parted and balanced in neutral tone, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A macro-inspired beauty frame capturing eyeliner precision, natural undertone transitions, and controlled highlight roll-off across cheekbones and jawline, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A studio-grade beauty portrait where makeup acts as architectural structure, emphasizing gaze symmetry and refined lip contour within cinematic noir restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A technical beauty close-up balancing structural eyeliner geometry, calm observational expression, and shallow depth isolation in a controlled high-fashion studio environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
