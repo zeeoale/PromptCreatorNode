@@ -1,0 +1,79 @@
+{
+  "WORLD_NAME": "PFN_Crimson_Sovereign_Closeup",
+  "SYSTEM_PROMPT": "You are a cinematic portrait composer specialized in regal, intimate close-up female iconography where the face is the absolute focal point. When requested, return ONE single long, highly detailed sentence (240–280 words), written in refined cinematic English without line breaks or lists, portraying an ethereal queen-like female figure captured in an extreme close-up portrait. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize flawless skin texture, subtle lip moisture, micro-expressions, eye intensity, and the interplay between fabric and facial contours. The composition must feel symmetrical, iconographic, almost sacred, with radial crown geometry framing the head. Mention lens characteristics, shallow depth of field, color grading focused on deep crimson and antique gold tones, and subtle cinematic grain. The sensuality must be conveyed exclusively through gaze, breath, and facial presence rather than body exposure, maintaining elegance, power, and quiet dominance.",
+  "EPOCHS": [
+    "Neo-Baroque Fantasy",
+    "Timeless Sacred Royalty",
+    "Contemporary Editorial Iconography"
+  ],
+  "OUTFITS": [
+    "Deep crimson lace veil draped around the face",
+    "Layered silk headscarf framing the cheekbones",
+    "Translucent embroidered fabric wrapping the shoulders",
+    "Velvet mantle enveloping the neck and collar"
+  ],
+  "LIGHTING": [
+    "Soft diffused frontal light with golden undertone",
+    "Gentle Rembrandt side lighting enhancing cheekbones",
+    "Backlit halo glow outlining crown silhouette"
+  ],
+  "BACKGROUNDS": [
+    "Muted textured renaissance backdrop",
+    "Softly blurred cathedral-toned interior",
+    "Neutral painterly canvas with warm patina"
+  ],
+  "OBJECTS": [
+    "Ornate golden spiked crown with radial symmetry",
+    "Antique filigree diadem",
+    "Subtle halo-like ornamental frame"
+  ],
+  "POSES": [
+    "Centered symmetrical close-up portrait",
+    "Head slightly tilted downward with eyes lifted",
+    "Profile close-up with lowered gaze",
+    "Still frontal composition with relaxed parted lips"
+  ],
+  "EXPRESSIONS": [
+    "Calm and commanding gaze",
+    "Subtle sensual parted lips",
+    "Soft contemplative expression",
+    "Intense direct eye contact"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait",
+    "Tight head-and-shoulders framing",
+    "Centered symmetrical vertical portrait",
+    "Slight three-quarter intimate angle"
+  ],
+  "ATMOSPHERES": [
+    "Sacred and solemn ambiance",
+    "Dreamlike suspended stillness",
+    "Quiet regal dominance"
+  ],
+  "ACCESSORIES": [
+    "Intricate golden crown with elongated spikes",
+    "Fine lace texture around forehead",
+    "Soft crimson fabric folds framing the jawline"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely regal and iconographic without sensual emphasis.",
+    "1": "Subtle elegance conveyed through gaze and posture.",
+    "2": "Sensuality expressed through lips, eyes, and facial micro-expressions.",
+    "3": "Intense magnetic presence with bold eye contact and delicate parted lips."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements.",
+    "1": "Slightly dramatic shadow contrast.",
+    "2": "Deep chiaroscuro tones with moody atmosphere.",
+    "3": "Dark gothic undertones with strong shadow depth."
+  },
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up portrait of a regal crimson-veiled queen framed by an ornate golden spiked crown, symmetrical composition, flawless skin texture and soft diffused lighting highlighting her intense gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A sacred iconographic close-up of a mysterious red-veiled sovereign with antique gold crown geometry radiating behind her head, shallow depth of field and subtle cinematic grain emphasizing lips and eyes, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A baroque-inspired extreme close-up of a crimson-draped queen with delicate lace framing her face and golden halo crown encircling her head, soft warm lighting enhancing micro-expressions and luminous skin, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A symmetrical editorial portrait of a red-veiled monarch captured in intimate close-up, subtle parted lips and commanding gaze beneath intricate gold spikes forming a radiant halo, cinematic depth and refined color grading, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A timeless sacred close-up of a crimson sovereign wrapped in layered silk and crowned with antique gold filigree, soft Rembrandt lighting sculpting cheekbones and lips in a refined editorial composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "An intimate cinematic portrait of a regal red queen with halo-like crown symmetry and delicate fabric textures framing her face, warm muted tones and shallow depth of field amplifying her magnetic gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A dramatic neo-baroque extreme close-up of a crimson-veiled empress crowned in radiant gold spikes, luminous skin and softly parted lips captured in a sacred symmetrical composition with refined cinematic finish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

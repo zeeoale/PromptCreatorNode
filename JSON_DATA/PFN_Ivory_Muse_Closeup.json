@@ -1,0 +1,79 @@
+{
+  "WORLD_NAME": "PFN_Ivory_Muse_Closeup",
+  "SYSTEM_PROMPT": "You are a cinematic portrait composer specialized in luminous, minimalistic close-up iconography where the female face becomes a study of light, texture, and subtle emotional presence. When requested, return ONE single long, highly detailed sentence (220–280 words), written in refined cinematic English without line breaks or lists, portraying an ethereal muse captured in an extreme close-up portrait dominated by ivory, alabaster, and soft neutral tones. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize porcelain skin with delicate natural texture, faint subsurface glow, barely perceptible freckles, and gentle shadow transitions along cheekbones and jawline. The composition must feel calm, symmetrical or softly centered, with fabric or hair subtly framing the face without overpowering it. Mention portrait lens characteristics such as 85mm or 105mm focal length, shallow depth of field isolating the subject from a softly diffused background, and subtle cinematic grain to preserve realism. The sensuality must be expressed through micro-expressions, breath-like stillness, and the softness of slightly parted lips rather than dramatic makeup or contrast, maintaining elegance, restraint, and timeless refinement within a luminous, high-key atmosphere.",
+  "EPOCHS": [
+    "Timeless Classical Portraiture",
+    "Contemporary Minimal Editorial",
+    "Soft Neo-Renaissance Study"
+  ],
+  "OUTFITS": [
+    "Ivory silk veil lightly framing the face",
+    "Soft off-white linen drapery around shoulders",
+    "Minimal cream fabric wrapping the neckline",
+    "Bare shoulders with subtle natural elegance"
+  ],
+  "LIGHTING": [
+    "Soft high-key studio lighting with gentle diffusion",
+    "Natural window light filtered through sheer curtains",
+    "Even frontal light with minimal shadow contrast"
+  ],
+  "BACKGROUNDS": [
+    "Muted ivory painterly backdrop",
+    "Soft neutral studio gradient",
+    "Minimal blurred interior with warm cream tones"
+  ],
+  "OBJECTS": [
+    "Delicate minimalist headpiece in pale gold",
+    "Subtle halo-like circular frame in soft focus",
+    "Fine translucent fabric catching light"
+  ],
+  "POSES": [
+    "Centered symmetrical extreme close-up",
+    "Head slightly tilted with calm upward gaze",
+    "Still frontal portrait with relaxed shoulders",
+    "Gentle three-quarter close-up with soft jawline definition"
+  ],
+  "EXPRESSIONS": [
+    "Soft contemplative gaze",
+    "Barely parted lips with serene composure",
+    "Calm neutral expression with subtle warmth",
+    "Quiet introspective presence"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait",
+    "Tight head-and-shoulders framing",
+    "Centered vertical editorial composition",
+    "Subtle three-quarter intimate angle"
+  ],
+  "ATMOSPHERES": [
+    "Luminous stillness",
+    "Soft ethereal calm",
+    "Refined minimalist elegance"
+  ],
+  "ACCESSORIES": [
+    "Fine pale gold diadem",
+    "Soft translucent fabric layers",
+    "Minimal natural makeup finish"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely classical and neutral without sensual emphasis.",
+    "1": "Subtle elegance conveyed through gaze and softness.",
+    "2": "Sensuality expressed through lips and delicate micro-expressions.",
+    "3": "Intimate magnetic presence through refined eye contact and breath-like stillness."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements.",
+    "1": "Very light shadow depth for gentle contrast.",
+    "2": "Soft tonal drama without breaking luminosity.",
+    "3": "Stronger tonal contrast while preserving high-key atmosphere."
+  },
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up portrait of an ivory muse bathed in soft diffused light, porcelain skin glowing gently against a neutral backdrop with serene symmetrical composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A luminous minimalist close-up of a pale muse framed by ivory silk and delicate pale gold accents, shallow depth of field and soft high-key lighting emphasizing micro-expressions, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A classical editorial portrait of a porcelain-skinned muse captured in tight framing, gentle frontal light revealing subtle freckles and soft lip definition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A refined ivory close-up dominated by soft neutral tones and calm symmetrical composition, minimal makeup and breath-like stillness enhancing her serene gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A high-key portrait study of a luminous muse with alabaster skin and subtle natural texture, diffused lighting sculpting her features with quiet elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A softly centered close-up of an ivory sovereign framed by translucent fabric and pale gold details, cinematic clarity and shallow depth isolating her contemplative expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An ethereal extreme close-up portrait of a pale muse in luminous high-key atmosphere, porcelain skin and subtle lip softness captured with refined minimal elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

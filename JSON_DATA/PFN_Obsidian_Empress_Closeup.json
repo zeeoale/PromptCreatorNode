@@ -1,0 +1,79 @@
+{
+  "WORLD_NAME": "PFN_Obsidian_Empress_Closeup",
+  "SYSTEM_PROMPT": "You are a cinematic portrait composer specialized in dark regal close-up iconography where the female face becomes a symbol of silent authority and refined power. When requested, return ONE single long, highly detailed sentence (220–280 words), written in refined cinematic English without line breaks or lists, portraying an ethereal empress captured in an extreme close-up portrait dominated by deep obsidian tones and antique gold accents. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize flawless skin texture with subtle cool undertones, controlled lip moisture, faint shadow gradients along cheekbones, and the magnetic stillness of unwavering eye contact. The composition must feel symmetrical or near-symmetrical, almost sculptural, with dark veils or velvet fabrics framing the face and creating depth around the jawline and temples. Mention lens characteristics such as an 85mm or 105mm portrait lens, shallow depth of field isolating the subject from a softly blurred dark backdrop, refined chiaroscuro lighting that sculpts facial structure, and delicate cinematic grain. The sensuality must be conveyed exclusively through gaze intensity, micro-expression, and quiet dominance rather than physical exposure, maintaining elegance, restraint, and aristocratic presence within a moody, high-contrast atmosphere.",
+  "EPOCHS": [
+    "Neo-Baroque Dark Royalty",
+    "Timeless Gothic Sovereignty",
+    "Contemporary High-Fashion Noir"
+  ],
+  "OUTFITS": [
+    "Black velvet veil softly framing the face",
+    "Layered obsidian silk headwrap with subtle sheen",
+    "Dark lace drapery contouring the neckline",
+    "Structured black mantle with minimal folds"
+  ],
+  "LIGHTING": [
+    "Controlled Rembrandt lighting with deep shadow falloff",
+    "Soft top light creating subtle eye reflections",
+    "Low-key studio lighting with sculpted contrast"
+  ],
+  "BACKGROUNDS": [
+    "Matte charcoal painterly backdrop",
+    "Softly textured dark studio background",
+    "Muted gothic interior blurred into darkness"
+  ],
+  "OBJECTS": [
+    "Antique gold spiked crown with restrained geometry",
+    "Minimal filigree diadem in brushed gold",
+    "Subtle halo-like metallic frame partially obscured by shadow"
+  ],
+  "POSES": [
+    "Centered symmetrical extreme close-up",
+    "Head slightly lowered with eyes lifted upward",
+    "Still frontal composition with calm intensity",
+    "Subtle three-quarter close-up with defined cheekbone shadow"
+  ],
+  "EXPRESSIONS": [
+    "Unwavering direct gaze",
+    "Calm, controlled dominance",
+    "Subtle parted lips with composed expression",
+    "Emotionless aristocratic stare"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait",
+    "Tight head-and-shoulders framing",
+    "Centered vertical iconographic composition",
+    "Slight three-quarter sculptural angle"
+  ],
+  "ATMOSPHERES": [
+    "Moody chiaroscuro tension",
+    "Quiet gothic solemnity",
+    "Controlled cinematic darkness"
+  ],
+  "ACCESSORIES": [
+    "Antique gold crown with elongated minimal spikes",
+    "Black lace detailing around forehead",
+    "Velvet texture visible along fabric edges"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely regal and austere without sensual emphasis.",
+    "1": "Subtle magnetism conveyed through gaze and posture.",
+    "2": "Sensuality expressed through lips, eyes, and controlled micro-expressions.",
+    "3": "Intense magnetic dominance through direct eye contact and softly parted lips."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements.",
+    "1": "Light shadow depth for subtle drama.",
+    "2": "Strong chiaroscuro contrast with moody undertones.",
+    "3": "Deep gothic shadow dominance and dramatic tension."
+  },
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up portrait of a dark obsidian empress framed by black velvet and crowned in antique gold, symmetrical composition with sculpted chiaroscuro lighting and unwavering gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A gothic high-fashion close-up of a black-veiled empress with restrained golden crown geometry and calm aristocratic expression, shallow depth of field and refined cinematic contrast, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A sculptural obsidian sovereign captured in tight portrait framing, soft top light reflecting in her eyes while deep shadows contour her cheekbones and lips, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A symmetrical noir portrait of a velvet-draped empress with antique gold diadem and controlled parted lips, cinematic depth and moody tonal range, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A timeless dark royal close-up dominated by black fabric textures and minimal golden crown spikes, shallow focus isolating her intense gaze in a chiaroscuro atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A high-contrast gothic editorial portrait of an obsidian empress, velvet shadows sculpting her face while antique gold details glow subtly in the darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An aristocratic noir extreme close-up of a black-veiled sovereign with magnetic eye contact and refined shadow gradients defining her features, cinematic stillness and controlled elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
