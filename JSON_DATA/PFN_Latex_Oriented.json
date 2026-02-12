@@ -1,0 +1,87 @@
+{
+  "WORLD_NAME": "PFN_Latex_Oriented",
+  "SYSTEM_PROMPT": "You are a cinematic prompt composer specialized in latex-oriented fashion imagery, where glossy black materials, controlled studio lighting, and erotic noir elegance define the scene without vulgarity. When requested, return ONE single long, highly detailed sentence (220–280 words) in refined cinematic English, with no line breaks and no bullet points, describing a striking female subject in a latex-focused editorial aesthetic that balances full-body allure with intimate face-driven close-ups. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. Emphasize the material truth of latex and patent textures through crisp specular highlights, subtle surface ripples, seam lines, tension points, and realistic reflections that follow body curvature and pose. Maintain a dark, studio-noir mood with high contrast, precise shadow control, and cinematic grain, while preserving clean anatomy, elegant proportions, and fashion-forward styling. Mention camera intent and lens behavior such as an 85mm or 105mm portrait lens for close-ups and a 50mm or 35mm for full-body frames, with shallow depth of field separating the subject from the background. Sensuality must be expressed through poise, gaze, lips, posture, and the tactile sheen of latex rather than explicit exposure. When appropriate, integrate subtle environmental “TK” traces organically as reflections, embossed details, stitched tags, or faint signage within the scene, never as overt advertising.",
+  "EPOCHS": [
+    "Contemporary Latex Editorial Noir",
+    "Neo-Goth Fetish Studio",
+    "Timeless Black Glamour"
+  ],
+  "OUTFITS": [
+    "Glossy black latex catsuit with sculpted seams and high collar",
+    "Shiny patent high-waist pants paired with a latex bralette",
+    "Latex bodycon dress with minimal straps and precise tailoring",
+    "Black latex corset with subtle boning and satin-like sheen"
+  ],
+  "LIGHTING": [
+    "Hard rim light defining latex edges with crisp highlights",
+    "Large softbox key light with controlled falloff and deep shadows",
+    "Low-key studio lighting with specular highlight management",
+    "Spotlight bloom grazing the latex surface for reflective depth"
+  ],
+  "BACKGROUNDS": [
+    "Matte charcoal seamless studio backdrop with soft gradient",
+    "Dark velvet curtain backdrop with subtle texture",
+    "Smoky black studio space with faint haze and depth",
+    "Minimal industrial interior blurred into darkness"
+  ],
+  "OBJECTS": [
+    "Black latex choker with a small embossed detail",
+    "Antique-style earrings catching the rim light",
+    "A reflective mirror panel creating controlled reflections",
+    "Delicate chain accessory resting against glossy fabric"
+  ],
+  "POSES": [
+    "Full-body standing pose with crossed legs and relaxed shoulders",
+    "Three-quarter stance with one hand near collarbone and chin lowered",
+    "Seated pose with arched back, latex tension visible at the waist",
+    "Close-up pose with head tilted and hair framing one eye",
+    "Half-turn pose emphasizing silhouette, one arm raised behind head",
+    "Slow, deliberate lean toward camera, hands lightly clasped"
+  ],
+  "EXPRESSIONS": [
+    "Cold confident gaze with subtle eyelid heaviness",
+    "Slightly parted lips with controlled composure",
+    "Predatory stare softened by elegant restraint",
+    "Downcast eyes with quiet dominance and calm tension"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait focusing on eyes, lips, and skin texture",
+    "Tight head-and-shoulders framing with shallow depth of field",
+    "Medium shot emphasizing latex sheen across torso and arms",
+    "Full-body fashion frame with elongated silhouette and negative space",
+    "Low-angle editorial shot enhancing dominance and posture"
+  ],
+  "ATMOSPHERES": [
+    "High-fashion erotic noir with controlled darkness",
+    "Studio intimacy with glossy reflections and cinematic grain",
+    "Minimalist shadow play with dramatic contrast",
+    "Smoky fetish editorial mood, elegant and restrained"
+  ],
+  "ACCESSORIES": [
+    "Black patent stilettos with sharp reflections",
+    "Latex gloves with subtle creases and finger highlights",
+    "Minimal collar or ribbon tie accent at the neck",
+    "Tiny reflective detail suggesting a faint TK trace in the environment"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure fashion editorial focus with minimal sensual cues, emphasizing lighting, texture, and composition.",
+    "1": "Subtle sensuality through posture, gaze, and elegant latex sheen without provocative emphasis.",
+    "2": "Clear sensual tension through close-up lip detail, confident eye contact, and body-hugging latex reflections.",
+    "3": "Intense erotic noir presence conveyed through dominant gaze, breath-like stillness, and high-gloss latex tension."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, clean studio noir aesthetic.",
+    "1": "Slightly darker shadows and moodier atmosphere with subtle unease.",
+    "2": "Strong chiaroscuro with oppressive darkness and heavier grain, still fashion-forward.",
+    "3": "Deep shadow dominance with ominous tension, surreal noir intensity without gore."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A latex-oriented fashion portrait in a dark studio noir, glossy black textures sculpted by hard rim light and softbox falloff, the model poised between full-body elegance and extreme close-up intensity, with controlled reflections and cinematic grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A high-fashion fetish editorial frame featuring a glossy black latex outfit and precise shadow control, close-up gaze and lips rendered with shallow depth of field while patent highlights trace the silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A studio-black glamour scene where latex sheen forms crisp specular lines across tailored seams, the subject’s calm dominance captured in tight framing and balanced by a full-body fashion stance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An erotic noir latex close-up with immaculate skin texture and controlled lip softness, rim-lit hair and a minimal choker catching highlights, set against a matte charcoal backdrop with subtle haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A glossy latex editorial composition combining a sculptural full-body silhouette and intimate head-and-shoulders framing, deep shadows, reflective depth, and refined cinematic grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A neo-goth studio fashion portrait dominated by black patent and latex textures, precise light reflections, and a predatory yet restrained expression, with a faint environmental TK trace integrated as a subtle reflection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A minimalist latex-oriented noir scene where the subject’s posture and gaze carry the sensual tension, with sharp specular highlights, shadow falloff, and a clean editorial silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
