@@ -1,0 +1,109 @@
+{
+  "WORLD_NAME": "PFN_Tokyo_Dance_Crew_Studio",
+
+  "SYSTEM_PROMPT": "You are a professional prompt enhancer specialized in contemporary Tokyo-inspired dance crew studio aesthetics. When requested, return ONE single long, highly detailed cinematic sentence (220–280 words), without lists or line breaks, describing a dynamic female dance performer or synchronized dance crew captured in a clean white studio environment. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive high-energy visual narrative. Emphasize movement, choreography precision, street-fashion layering, oversized silhouettes, sporty textures, and bold urban styling. The environment must feel like a professional dance studio with seamless white background, soft grounded shadows, and high-key lighting that enhances fabric motion and body dynamics. Describe fabric flow, stance stability, athletic posture, and coordinated group positioning when relevant. Mention camera lens choice, framing style, and subtle depth cues while maintaining a crisp, modern performance aesthetic. The tone must remain confident, youth-driven, fashion-aware, and editorial rather than chaotic. Avoid horror or dark gothic atmosphere. Focus on rhythm, motion clarity, and contemporary Tokyo street dance identity.",
+
+  "EPOCHS": [
+    "Modern Tokyo street culture",
+    "Y2K urban revival",
+    "Contemporary K-pop inspired studio performance",
+    "2020s global dance crew aesthetic"
+  ],
+
+  "OUTFITS": [
+    "oversized sports jersey worn as mini dress",
+    "boxy cropped tank with graphic print and visible layering",
+    "wide-leg denim shorts reaching below the knee",
+    "low-rise cargo pants with side pockets and chain detail",
+    "baggy skate jeans with belt and hanging bandana",
+    "athletic varsity-style jacket with bold color blocking",
+    "loose basketball shorts paired with fitted crop top",
+    "color-pop windbreaker worn open over minimal top",
+    "ribbed knee-high socks with chunky white sneakers",
+    "layered street set mixing jersey fabric and denim textures"
+  ],
+
+  "LIGHTING": [
+    "high-key studio lighting with soft shadow grounding",
+    "even diffused softbox lighting enhancing motion clarity",
+    "bright seamless backdrop illumination",
+    "clean commercial studio light with subtle floor reflections"
+  ],
+
+  "BACKGROUNDS": [
+    "minimal white seamless studio background",
+    "infinite white cyclorama wall",
+    "clean studio space with soft grounded shadows",
+    "bright neutral performance backdrop"
+  ],
+
+  "OBJECTS": [
+    "subtle floor reflection beneath sneakers",
+    "studio floor texture faintly visible",
+    "light motion blur traces from fast choreography",
+    "minimalistic shadow outlines enhancing stance"
+  ],
+
+  "POSES": [
+    "mid-choreography freeze frame with one arm raised",
+    "dynamic hip-hop step captured in motion",
+    "wide stance with hands framing the face",
+    "crew formation pose with forward lean",
+    "one foot lifted mid-dance transition",
+    "confident walk toward camera with synchronized energy"
+  ],
+
+  "EXPRESSIONS": [
+    "focused performance gaze",
+    "playful confident smirk",
+    "intense synchronized expression",
+    "energetic stage-ready attitude"
+  ],
+
+  "CAMERA_ANGLES": [
+    "full-body centered framing with slight low angle",
+    "mid-shot performance crop emphasizing upper body motion",
+    "dynamic diagonal framing enhancing movement",
+    "wide crew formation shot with balanced composition"
+  ],
+
+  "ATMOSPHERES": [
+    "clean studio dance aesthetic with high-key lighting",
+    "minimal white seamless environment with strong visual contrast",
+    "youth dance crew energy with synchronized attitude",
+    "editorial street performance captured in studio clarity"
+  ],
+
+  "ACCESSORIES": [
+    "chunky chain necklace",
+    "layered silver bracelets",
+    "street belt with metal hardware",
+    "bandana tied at hip",
+    "sporty hair clips",
+    "minimal stage mic headset"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure athletic performance focus",
+    "1": "subtle confident styling",
+    "2": "fashion-forward bold attitude",
+    "3": "editorial high-impact street glamour"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "no horror elements",
+    "2": "no horror elements",
+    "3": "no horror elements"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A high-energy Tokyo dance crew performance captured in a pristine white seamless studio, emphasizing dynamic street choreography and layered oversized silhouettes in motion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A synchronized female street dance formation in a bright cyclorama studio, showcasing athletic stance precision, oversized sporty layering, and confident youth-driven rhythm, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A modern Tokyo-inspired studio dance scene with bold Y2K street fashion, crisp high-key lighting, and dynamic mid-motion freeze framing, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A contemporary urban dance editorial set in a minimal white studio, highlighting fabric motion, grounded sneaker stance, and synchronized crew energy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A performance-focused Tokyo street dance portrait with oversized jersey silhouettes and athletic posture framed in clean studio clarity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A bold youth-driven choreography scene blending sporty layering and synchronized crew confidence in a bright seamless studio environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A fashion-forward Tokyo dance crew editorial emphasizing rhythm, motion precision, and oversized street textures under commercial studio lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

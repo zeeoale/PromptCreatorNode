@@ -1,0 +1,102 @@
+{
+  "WORLD_NAME": "PFN_Obscura_Icon",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in sculptural dark editorial close-up portraiture where the human face becomes an architectural icon suspended in controlled shadow. When requested, return ONE single long, highly detailed sentence (220–280 words), cinematic and cohesive, without line breaks or lists, describing a vertically framed 4:5 close-up portrait focused on structural presence rather than narrative action. Always integrate selected elements from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, blending them seamlessly into a unified visual composition. The subject must appear centered, dominant, and sculptural, with long, disciplined hair, controlled skin texture, and makeup treated as graphic structure rather than decoration. Emphasize symmetry, negative space, material contrast between matte skin and gloss-black elements, and precise lighting falloff. Mention camera angle, approximate lens choice (85mm–105mm portrait lens), depth of field behavior, subtle film grain, and tonal control. Avoid chaotic fantasy or overt storytelling; instead focus on high-fashion austerity, chiaroscuro control, and iconic stillness. The overall atmosphere should evoke modern gothic minimalism fused with timeless portrait tradition, where darkness is not emptiness but material presence and the face becomes a contemporary monument.",
+
+  "EPOCHS": [
+    "Contemporary high-fashion editorial",
+    "Neo-gothic modernity",
+    "Post-modern sacred iconography",
+    "Minimalist avant-garde couture"
+  ],
+
+  "OUTFITS": [
+    "High-collar black latex bodysuit",
+    "Matte structured velvet mantle",
+    "Gloss-black leather zip suit",
+    "Architectural collar with rigid symmetry",
+    "Minimal obsidian silk drape"
+  ],
+
+  "LIGHTING": [
+    "Controlled Rembrandt lighting with deep shadow falloff",
+    "Top-down sculptural light carving cheekbones",
+    "Low-key studio lighting with narrow key source",
+    "Chiaroscuro contrast with soft background fade",
+    "Subtle rim light separating hair from darkness"
+  ],
+
+  "BACKGROUNDS": [
+    "Matte charcoal studio backdrop",
+    "Deep graphite gradient void",
+    "Soft dark painterly canvas",
+    "Neutral shadow-dissolving background",
+    "Minimal black seamless backdrop"
+  ],
+
+  "OBJECTS": [
+    "Structured halo frame with subtle spikes",
+    "Gloss-black visor mask",
+    "Minimalist metallic diadem",
+    "Abstract sculptural headpiece",
+    "Symmetrical crown-like arc"
+  ],
+
+  "POSES": [
+    "Centered frontal stillness",
+    "Slight chin lift with controlled posture",
+    "Subtle side angle maintaining dominance",
+    "Head slightly tilted downward with intense gaze",
+    "Upward gaze with elongated neck line"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm authoritarian gaze",
+    "Controlled neutral expression",
+    "Detached observational stare",
+    "Quiet dominance with relaxed tension",
+    "Minimal emotional shift, sculptural stillness"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Severe gothic minimalism",
+    "High-fashion editorial austerity",
+    "Cold sculptural silence",
+    "Iconic contemporary monumentality",
+    "Dark refined elegance"
+  ],
+
+  "ACCESSORIES": [
+    "Black lacquered spikes arranged symmetrically",
+    "Minimal brushed metal accents",
+    "Fine black lace forehead detailing",
+    "Sleek structured headband",
+    "Obsidian-like reflective surfaces"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure sculptural iconography, no sensual undertones.",
+    "1": "Subtle tension through posture and silhouette.",
+    "2": "Controlled elegance with restrained sensual energy.",
+    "3": "Dominant high-fashion sensuality expressed through structure and gaze."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror, purely editorial.",
+    "1": "Slightly unsettling stillness.",
+    "2": "Dark, oppressive visual tension.",
+    "3": "Intense gothic severity with imposing presence."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A dark sculptural close-up portrait where the face emerges from controlled shadow like a contemporary monument carved in obsidian light,",
+    "1": "A vertically framed 4:5 editorial icon dominated by black structural elements and severe symmetry,",
+    "2": "A high-fashion gothic close-up suspended in minimal darkness with material contrast between matte skin and gloss-black surfaces,",
+    "3": "A neo-sacred modern portrait where the subject stands as a living statue framed by structured black architecture,",
+    "4": "A severe minimalist close-up defined by sculptural lighting and disciplined silhouette control,",
+    "5": "An austere dark editorial portrait where iconic stillness replaces movement and narrative,",
+    "6": "A monumental contemporary gothic icon rendered in deep chiaroscuro with controlled cinematic grain,"
+  }
+}

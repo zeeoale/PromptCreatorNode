@@ -1,0 +1,102 @@
+{
+  "WORLD_NAME": "PFN_Luminaria_Icon",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in luminous sculptural close-up portraiture where light becomes architectural structure rather than simple illumination. When requested, return ONE single long, highly detailed sentence (220–280 words), cinematic and cohesive, without line breaks or lists, describing a vertically framed 4:5 close-up portrait focused on radiance, symmetry, and material contrast between diffused light and refined skin texture. Always integrate selected elements from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, blending them seamlessly into a unified visual composition. The subject must appear centered, serene, and monumentally calm, with long disciplined hair, luminous skin finish, and makeup designed to amplify reflected light rather than darken structure. Emphasize glass-like skin with controlled highlight placement on cheekbones and temples, pearlescent or champagne-toned eyeshadow catching inner-corner glow, refined gloss or satin lips, and perfectly balanced undertones. Mention camera angle, approximate lens choice (85mm–105mm portrait lens), shallow depth of field behavior, subtle cinematic grain, and tonal harmony. Avoid fantasy exaggeration or pastel chaos; instead focus on high-fashion luminosity, sculpted diffusion, and timeless portrait discipline. The atmosphere should evoke sacred minimalism and modern editorial refinement, where light defines the face as a living marble sculpture.",
+
+  "EPOCHS": [
+    "Contemporary luminous editorial",
+    "Modern sacred minimalism",
+    "Neo-classical portrait revival",
+    "High-fashion radiance study"
+  ],
+
+  "OUTFITS": [
+    "Ivory silk draped collar",
+    "Structured pearl-toned mantle",
+    "Minimal white satin bodice",
+    "Soft translucent chiffon framing the shoulders",
+    "Architectural high-neck ivory garment"
+  ],
+
+  "LIGHTING": [
+    "Large diffused frontal softbox with gentle shadow control",
+    "High-key sculptural lighting with controlled highlight roll-off",
+    "Soft top light enhancing temple and cheekbone glow",
+    "Balanced beauty dish illumination with luminous diffusion",
+    "Natural window light filtered through sheer fabric"
+  ],
+
+  "BACKGROUNDS": [
+    "Soft ivory gradient backdrop",
+    "Muted pearl-toned studio wall",
+    "Minimal white seamless with subtle shadow fade",
+    "Light marble-textured painterly background",
+    "Neutral warm-beige editorial backdrop"
+  ],
+
+  "OBJECTS": [
+    "Minimal pearl halo frame",
+    "Subtle metallic silver arc behind the head",
+    "Fine translucent veil catching light",
+    "Soft reflective surface echoing facial glow",
+    "Delicate headpiece with pale metallic accents"
+  ],
+
+  "POSES": [
+    "Centered frontal stillness",
+    "Chin slightly lifted toward light",
+    "Soft upward gaze with elongated neck line",
+    "Three-quarter angle maintaining symmetry",
+    "Subtle head tilt enhancing highlight reflection"
+  ],
+
+  "EXPRESSIONS": [
+    "Serene contemplative gaze",
+    "Softly parted lips with calm composure",
+    "Neutral expression with luminous presence",
+    "Quiet grace with controlled breath-like stillness",
+    "Gentle authoritative calm"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Sacred luminous minimalism",
+    "High-fashion radiance with disciplined balance",
+    "Marble-like stillness in soft light",
+    "Modern iconography of light",
+    "Refined editorial purity"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal pearl accents",
+    "Subtle silver reflective detailing",
+    "Fine translucent fabric layers",
+    "Soft metallic hairline ornament",
+    "Light-catching satin ribbon"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure sculptural elegance without sensual emphasis.",
+    "1": "Subtle softness conveyed through lip gloss and gaze.",
+    "2": "Refined luminous sensuality expressed through highlight placement and calm eye contact.",
+    "3": "Strong editorial magnetism driven by gloss, gaze intensity, and radiant skin."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No darkness, purely luminous aesthetic.",
+    "1": "Light shadow depth for sculptural contrast.",
+    "2": "Controlled tonal tension within high-key environment.",
+    "3": "Stronger contrast while preserving luminous dominance."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A luminous sculptural close-up portrait where diffused light defines the face like living marble,",
+    "1": "A vertically framed 4:5 editorial icon bathed in soft radiance and disciplined symmetry,",
+    "2": "A high-fashion luminous portrait emphasizing glass-like skin and reflective eye highlights,",
+    "3": "A sacred minimalist close-up where pearl-toned light sculpts serene facial structure,",
+    "4": "A radiant editorial study balancing matte undertones and strategic gloss reflection,",
+    "5": "A marble-inspired contemporary portrait suspended in soft luminous atmosphere,",
+    "6": "A serene icon of light rendered in diffused high-key harmony with cinematic clarity,"
+  }
+}
