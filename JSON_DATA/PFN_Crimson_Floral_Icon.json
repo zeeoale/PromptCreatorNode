@@ -1,0 +1,99 @@
+{
+  "WORLD_NAME": "PFN_Crimson_Floral_Icon",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in ultra-detailed painterly close-up portraits centered on classical feminine iconography surrounded by deep red florals. When requested, return ONE single long, highly descriptive cinematic sentence (240–320 words), without lists or line breaks, focused on an intimate close-up or extreme close-up portrait of a woman framed by crimson roses, aged gold embroidery, and layered veils. The composition must prioritize facial structure, skin texture, eyes, lips, and delicate micro-details such as freckles, tear gloss, subtle pores, and natural asymmetry. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative. The aesthetic must evoke old master oil paintings, chiaroscuro lighting, baroque restraint, and romantic melancholy, with rich burgundy, deep carmine, antique gold, and muted shadow tones. Mention lens feeling (85mm or 100mm portrait compression), shallow depth of field, soft falloff around the veil edges, painterly texture, and subtle grain. Avoid modern fashion references, avoid futuristic elements, avoid street style. Keep the tone timeless, dignified, intimate, and emotionally charged, as if the portrait belongs to a forgotten aristocratic relic rediscovered in a silent chapel.",
+
+  "EPOCHS": [
+    "Baroque devotional portrait",
+    "Renaissance-inspired sacred icon",
+    "19th century romantic oil painting",
+    "Timeless aristocratic relic"
+  ],
+
+  "OUTFITS": [
+    "Deep crimson velvet veil with antique gold embroidery",
+    "Layered burgundy silk drapery",
+    "Black lace high collar beneath veil",
+    "Aged textured shawl with gold thread filigree"
+  ],
+
+  "LIGHTING": [
+    "Soft chiaroscuro side lighting",
+    "Candlelit warm glow with shadow falloff",
+    "Low-key studio darkness with subtle rim light",
+    "Muted golden highlights against deep shadow"
+  ],
+
+  "BACKGROUNDS": [
+    "Dark painterly textured backdrop",
+    "Faded cathedral wall tones",
+    "Muted oil-painted shadow gradient",
+    "Obscure baroque frame suggestion"
+  ],
+
+  "OBJECTS": [
+    "Cluster of deep red roses near collarbone",
+    "Single rose held close to chest",
+    "Scattered petals resting on veil",
+    "Delicate gold leaf fragments on fabric"
+  ],
+
+  "POSES": [
+    "Centered frontal close-up gaze",
+    "Slight three-quarter turn with lowered chin",
+    "Profile close-up with eyes closed",
+    "Head gently tilted downward"
+  ],
+
+  "EXPRESSIONS": [
+    "Soft melancholic gaze",
+    "Quiet devotional serenity",
+    "Subtle sorrow in the eyes",
+    "Calm dignified stillness"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait framing",
+    "Tight 85mm portrait crop",
+    "Intimate face-centered composition",
+    "Classic painterly bust framing"
+  ],
+
+  "ATMOSPHERES": [
+    "Romantic baroque melancholy",
+    "Sacred floral solemnity",
+    "Intimate devotional silence",
+    "Timeless aristocratic mystique"
+  ],
+
+  "ACCESSORIES": [
+    "Rose crown integrated into veil",
+    "Gold leaf detailing across fabric",
+    "Subtle tear gloss under eye",
+    "Fine embroidered edge highlights"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely devotional and solemn",
+    "1": "Subtle romantic presence",
+    "2": "Intimate gaze and soft lips",
+    "3": "Intense emotional closeness and magnetic eye focus"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements",
+    "1": "Mild melancholic undertone",
+    "2": "Somber dramatic darkness",
+    "3": "Heavy oppressive shadow atmosphere"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "An ultra-detailed painterly close-up portrait of a woman framed by deep crimson roses and antique gold embroidery, her veil cascading softly around her face, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate baroque-inspired extreme close-up of a solemn woman surrounded by red roses and aged golden textures, soft chiaroscuro shaping her delicate features, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dramatic oil-painting style close-up portrait of a veiled woman crowned with crimson roses and subtle gold leaf fragments, her gaze quiet and emotionally intense, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An extreme close-up devotional portrait of a rose-adorned woman wrapped in burgundy velvet and antique embroidery, cinematic depth and painterly softness surrounding her luminous face, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A romantic renaissance-inspired tight portrait of a woman in a crimson veil, framed by velvety roses and warm golden accents, intimate and emotionally restrained, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A sacred floral icon-style close-up of a solemn veiled woman, deep red petals and antique gold textures embracing her face in soft shadow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An aristocratic relic-like extreme close-up of a woman crowned in roses and wrapped in embroidered crimson silk, her expression timeless and dignified in candlelit darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

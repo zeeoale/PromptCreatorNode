@@ -1,0 +1,100 @@
+{
+  "WORLD_NAME": "PFN_Sacred_Summer_Silence_Night",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in psychologically unsettling midsummer portraiture set in quiet Scandinavian nights. When requested, return ONE single long cinematic sentence (180–240 words), without lists or line breaks, describing a half-body environmental portrait of a woman in a rural Nordic landscape at night, framed from waist or mid-torso upward so the surrounding field and distant shapes remain readable. The mood must stay calm and beautiful while carrying subtle interior unease, expressed through stillness, symmetry, and emotionally ambiguous calm rather than spectacle. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a grounded, realistic composition. Emphasize either warm, imperfect bonfire light as a secondary accent against night air, or cool full-moon illumination with soft silver highlights and deep gentle shadows; keep lighting physically plausible, avoiding dramatic fantasy contrast and avoiding glowing effects. Mention a mid-range lens feeling (50mm or 65mm), moderate depth of field that keeps both subject and environment legible, subtle smoke or night haze when appropriate, natural wind movement in hair and fabric, and a painterly yet realistic finish with restrained grain. Avoid magical artifacts, avoid heroic props, avoid theatrical occult clichés. The night should feel communal, rural, and quietly irreversible, as if tradition is being followed without explanation.",
+
+  "EPOCHS": [
+    "Pre-Christian midsummer tradition",
+    "Timeless rural Scandinavian night",
+    "Folkloric seasonal gathering",
+    "Ancestral communal custom"
+  ],
+
+  "OUTFITS": [
+    "White embroidered linen dress",
+    "Simple natural-fiber shawl",
+    "Handwoven belt with subtle stitched motifs",
+    "Loose earth-toned outer layer for night air"
+  ],
+
+  "LIGHTING": [
+    "Soft full-moon illumination with silver highlights",
+    "Cool moonlit ambient light with gentle shadow depth",
+    "Warm imperfect bonfire light as a secondary accent",
+    "Mixed moonlight and firelight, physically plausible and restrained"
+  ],
+
+  "BACKGROUNDS": [
+    "Quiet meadow under a full moon and pale clouds",
+    "Open field with distant tree line in darkness",
+    "Rural clearing with a small communal bonfire in the distance",
+    "Soft silhouettes of people far behind, barely readable"
+  ],
+
+  "OBJECTS": [
+    "Bouquet of wildflowers held close to chest",
+    "Simple flower crown slightly wilted by night air",
+    "Wooden bench or rough log near the fire",
+    "Scattered petals and trampled grass near the gathering"
+  ],
+
+  "POSES": [
+    "Standing upright, centered and still",
+    "Half-turn toward the distant fire or horizon",
+    "Hands calmly holding a small bouquet at midsection",
+    "Quiet posture with minimal movement"
+  ],
+
+  "EXPRESSIONS": [
+    "emotionally detached calm",
+    "serene neutrality, emotionally unreadable",
+    "mysterious composure, minimal emotion",
+    "soft neutral expression with distant eyes",
+    "quiet intensity, restrained and controlled"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Waist-up environmental portrait",
+    "Mid-torso framing with landscape breathing room",
+    "Balanced symmetrical composition",
+    "50mm perspective with moderate depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "Quiet midsummer night stillness",
+    "Beautiful calm with subtle psychological unease",
+    "Rural communal presence at a distance",
+    "Soft night haze and restrained tension"
+  ],
+
+  "ACCESSORIES": [
+    "Wildflower crown",
+    "Braided hair with loose strands catching moonlight",
+    "Minimal wooden pendant, unadorned",
+    "Simple woven ribbon details"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely ceremonial and symbolic",
+    "1": "Natural grounded femininity",
+    "2": "Soft emotional intimacy",
+    "3": "Intense psychological closeness through proximity"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No visible horror",
+    "1": "Mild psychological tension",
+    "2": "Subtle unsettling undertone",
+    "3": "Strong interior unease beneath calm beauty"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A waist-up portrait of a woman in a quiet Scandinavian meadow at night, cool full-moon light tracing her face while distant silhouettes remain barely visible, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A calm midsummer night portrait of a flower-crowned woman in embroidered linen, framed mid-torso with a soft moonlit landscape behind her and restrained grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A Scandinavian nocturnal environmental portrait of a woman holding wildflowers, a small distant bonfire adding warm imperfect accent light without spectacle, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A psychologically restrained night portrait of a serene woman in a rural clearing, moonlight and subtle firelight mixing naturally across her composed, unreadable expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A balanced waist-up midsummer night portrait with calm symmetry, cool moonlit haze and faint warm fire glow in the distance, her gaze distant and emotionally unreachable, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A quiet rural Scandinavian night gathering scene, mid-torso framing keeping meadow and distant figures readable while the subject remains still and composed, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A serene yet subtly unsettling midsummer night portrait of a flower-crowned woman, cool moonlight defining her features as the landscape rests in calm darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

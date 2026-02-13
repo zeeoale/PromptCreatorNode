@@ -1,0 +1,99 @@
+{
+  "WORLD_NAME": "PFN_Sacred_Summer_Silence",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in psychologically unsettling ritual portraiture set in bright Scandinavian summer landscapes. When requested, return ONE single long cinematic sentence (180–240 words), without lists or line breaks, describing a half-body environmental portrait of a woman participating in a luminous midsummer rite. The composition must frame her from waist or mid-torso upward, allowing open Nordic meadows, pale skies, distant hills, or symbolic structures to remain clearly visible. Emphasize bright diffused daylight, natural color balance, floral crowns, embroidered linen garments, and ritual geometry subtly integrated into the environment. The mood must remain calm, symmetrical, and aesthetically beautiful while carrying a subtle psychological tension beneath the surface. The woman’s expression should be serene yet emotionally ambiguous, with a faint sense of detachment or interior conflict. Mention balanced 50mm portrait perspective, moderate depth of field keeping both subject and landscape readable, soft wind movement in flowers and fabric, and a painterly yet realistic finish. Avoid gore, avoid explicit horror, avoid exaggerated darkness. The unease must emerge through stillness, symmetry, and restrained emotional ambiguity, as if the ritual feels ancient, beautiful, and quietly irreversible.",
+
+  "EPOCHS": [
+    "Ancient Nordic midsummer rite",
+    "Pre-Christian Scandinavian folklore",
+    "Seasonal ancestral gathering",
+    "Mythic pastoral ceremony"
+  ],
+
+  "OUTFITS": [
+    "White embroidered linen ceremonial dress",
+    "Loose natural-fiber ritual garment",
+    "Handwoven belt with subtle runic stitching",
+    "Soft wool shawl draped over shoulders"
+  ],
+
+  "LIGHTING": [
+    "Bright diffused Scandinavian daylight",
+    "Soft overcast pale sky illumination",
+    "Even natural meadow light",
+    "High-key summer glow without harsh shadows"
+  ],
+
+  "BACKGROUNDS": [
+    "Wide wildflower meadow under pale sky",
+    "Rolling green hills stretching into horizon",
+    "Minimalist wooden ritual structure in distance",
+    "Stone circle partially visible behind her"
+  ],
+
+  "OBJECTS": [
+    "Large wildflower crown",
+    "Braided wreath held gently in hands",
+    "Carved wooden talisman hanging at waist",
+    "Subtle geometric floral arrangement on ground"
+  ],
+
+  "POSES": [
+    "Standing upright centered in frame",
+    "Half-turn toward horizon",
+    "Hands calmly resting at midsection",
+    "Still posture with slight wind movement"
+  ],
+
+  "EXPRESSIONS": [
+    "Soft serene smile with distant eyes",
+    "Emotionally ambiguous calm",
+    "Composed but slightly vacant gaze",
+    "Quiet internal tension behind neutral face"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Waist-up environmental portrait",
+    "Balanced symmetrical framing",
+    "Mid-range 50mm perspective",
+    "Centered ritual composition"
+  ],
+
+  "ATMOSPHERES": [
+    "Luminous pastoral stillness",
+    "Sacred seasonal calm with subtle unease",
+    "Psychological ritual tension",
+    "Beautiful yet quietly unsettling harmony"
+  ],
+
+  "ACCESSORIES": [
+    "Intricate floral crown of white and yellow blossoms",
+    "Braided hair interwoven with wildflowers",
+    "Minimal carved wooden pendant",
+    "Subtle embroidered symbolic motifs"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely ritualistic and symbolic",
+    "1": "Natural grounded femininity",
+    "2": "Soft emotional intimacy",
+    "3": "Intense psychological closeness"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No visible horror",
+    "1": "Mild psychological tension",
+    "2": "Subtle unsettling atmosphere",
+    "3": "Strong interior unease beneath beauty"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A luminous waist-up portrait of a woman standing in a bright Scandinavian wildflower meadow, wearing a ceremonial floral crown beneath a pale summer sky, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A serene midsummer ritual portrait of a woman in embroidered white linen, framed symmetrically against rolling Nordic hills and open sky, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A bright pastoral ceremonial portrait of a flower-crowned woman standing calmly in a Scandinavian meadow, her expression beautiful yet emotionally ambiguous, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A balanced environmental midsummer portrait of a woman in white ritual garments, pale daylight illuminating both her figure and the distant landscape, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A symmetrically framed Scandinavian summer rite portrait, waist-up composition allowing meadow and sky to breathe around a calm yet distant floral-crowned woman, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A luminous Nordic ceremonial portrait of a woman holding a braided wreath, bright daylight contrasting with the subtle tension in her composed gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A psychologically restrained midsummer ritual portrait of a serene woman framed waist-up within a wide Scandinavian meadow under pale sky, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

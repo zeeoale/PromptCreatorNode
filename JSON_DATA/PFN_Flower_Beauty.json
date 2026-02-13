@@ -1,0 +1,94 @@
+{
+  "WORLD_NAME": "PFN_Flower_Beauty",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt composer specialized in extreme close-up botanical portraiture focused on natural feminine beauty and tactile skin realism. When requested, return ONE single long, highly detailed sentence (240–320 words), cinematic and cohesive, without lists or line breaks, describing an intimate extreme close-up portrait where facial identity details are the absolute focal point. Always integrate selected elements from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a harmonious composition. Emphasize natural skin texture, visible pores, soft freckles, subtle blush gradients, realistic lip texture, and detailed irises with reflective catchlights. The scene must feel organic and tactile, with flowers partially framing the face, petals softly touching the skin or woven into hair. Lighting should be soft, directional, and painterly, enhancing translucency and warm undertones without flattening facial structure. Avoid heavy fashion styling or artificial glamour; prioritize authenticity, quiet elegance, botanical softness, and emotional intimacy. The camera must feel extremely close, using shallow depth of field to isolate the face while allowing floral elements to softly blur in foreground or background, creating a timeless, painterly natural portrait aesthetic.",
+
+  "EPOCHS": [
+    "timeless natural portrait",
+    "romantic painterly realism",
+    "modern botanical editorial",
+    "renaissance-inspired soft light"
+  ],
+
+  "OUTFITS": [
+    "bare shoulders with soft linen drape",
+    "neutral knit collar near chin",
+    "off-shoulder ivory fabric",
+    "minimal natural styling"
+  ],
+
+  "LIGHTING": [
+    "soft window light from the side",
+    "golden hour warm glow",
+    "diffused natural daylight",
+    "subtle backlit rim glow through petals"
+  ],
+
+  "BACKGROUNDS": [
+    "deep forest green blur",
+    "soft olive gradient backdrop",
+    "muted botanical darkness",
+    "creamy painterly background"
+  ],
+
+  "OBJECTS": [
+    "white daisies framing the face",
+    "wildflower crown resting gently on hair",
+    "petals brushing against cheek",
+    "delicate floral composition surrounding forehead"
+  ],
+
+  "POSES": [
+    "direct gaze into camera",
+    "slight head tilt with soft eye contact",
+    "profile extreme close-up highlighting freckles",
+    "eyes gently lowered, lashes casting shadow"
+  ],
+
+  "EXPRESSIONS": [
+    "calm contemplative stillness",
+    "subtle melancholic softness",
+    "serene natural confidence",
+    "quiet introspective beauty"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "intimate botanical quiet",
+    "romantic natural softness",
+    "ethereal organic calm",
+    "delicate spring aura"
+  ],
+
+  "ACCESSORIES": [
+    "floral crown with pale roses",
+    "single daisy tucked behind ear",
+    "fine loose strands of hair across cheek",
+    "soft braided hair detail"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure natural innocence",
+    "1": "subtle feminine softness",
+    "2": "gentle romantic allure",
+    "3": "intimate skin-focused closeness"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "none",
+    "2": "none",
+    "3": "none"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up botanical portrait where delicate freckles scatter naturally across luminous fair skin and detailed irises catch soft directional daylight while pale flowers frame her face in gentle painterly harmony, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A hyper-detailed extreme close-up of a freckled feminine face partially framed by wildflowers, warm golden light grazing natural skin texture and realistic lips with subtle moisture and depth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "An intimate botanical close-up where floral elements softly brush her cheek and strands of hair fall naturally across her face while shallow depth of field isolates her expressive eyes and organic complexion, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A painterly natural portrait in extreme proximity, delicate freckles, soft blush gradients and translucent skin illuminated by diffused window light while white petals frame her serene expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "An ultra-detailed floral beauty portrait focused entirely on skin realism, iris detail and subtle natural lip texture, surrounded by softly blurred botanical forms in warm romantic light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A cinematic extreme close-up botanical composition with shallow depth of field isolating a freckled face framed by soft spring flowers and organic strands of hair, illuminated by warm natural daylight, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An intimate flower-framed extreme close-up portrait emphasizing natural skin translucency, visible pores, subtle warmth and detailed reflective eyes in a soft painterly atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
