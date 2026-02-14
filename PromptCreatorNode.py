@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class PromptCreatorNode:
-    NODE_VERSION = "1.11.0"
+    NODE_VERSION = "1.12.1"
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -257,6 +257,9 @@ class PromptCreatorNode:
         if isinstance(daytime_txt, str) and daytime_txt.strip():
             parts.append(daytime_txt.strip())
 
+        # ✅ FIX: if camera_light is active, world LIGHTING must be ignored
+        camera_light_active = isinstance(camera_light_txt, str) and camera_light_txt.strip()
+
         # 2) Gender / intro
         if gender == "custom":
             ci = (custom_intro or "").strip()
@@ -325,6 +328,10 @@ class PromptCreatorNode:
         # Pick values according to realm or flat lists
         if color_realm_value and isinstance(data, dict):
             for key in ["OUTFITS", "LIGHTING", "BACKGROUNDS", "OBJECTS", "ACCESSORIES", "ATMOSPHERES"]:
+                # ✅ FIX: skip world LIGHTING if director camera_light is active
+                if key == "LIGHTING" and camera_light_active:
+                    continue
+
                 values_by_realm = data.get(key, {}).get(color_realm_value, [])
                 if isinstance(values_by_realm, list) and values_by_realm:
                     if key in multi_keys:
@@ -346,6 +353,11 @@ class PromptCreatorNode:
                         "poses"
                     ]:
                         continue
+
+                    # ✅ FIX: skip world LIGHTING if director camera_light is active
+                    if key == "LIGHTING" and camera_light_active:
+                        continue
+
                     if isinstance(values, list) and values:
                         if key in multi_keys:
                             sampled = random.sample(values, min(multi_object_count, len(values)))
@@ -557,7 +569,7 @@ class PromptCreatorNode:
         lora_triggers,
         final_prompt,
         source="generated",
-        node_version="1.11.0",
+        node_version="1.12.1",
     ):
         log_dir = os.path.join(os.path.dirname(__file__), "logs")
         os.makedirs(log_dir, exist_ok=True)
