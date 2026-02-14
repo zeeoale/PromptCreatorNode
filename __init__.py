@@ -4,7 +4,7 @@
 
 MANIFEST = {
     "name": "Prompt Creator Node",
-    "version": (1, 11, 0),
+    "version": (1, 12, 0),
     "author": "TK-traumakom",
     "project": "https://github.com/zeeoale/PromptCreatorNode",
     "description": (
@@ -39,11 +39,11 @@ def _print_promptcreator_banner():
           ██  ██ ██ ██    ██ ██   ██ ██                             
           ██   ████  ██████  ██████  ███████  
  -----------------------------------------------------
-                        1.11.0                         
+                        1.12.0                         
  -----------------------------------------------------
 
 ===========================================================
-PromptCreatorNode v1.11.0
+PromptCreatorNode v1.12.0
 A modular cinematic prompt generator for ComfyUI
 
 Loaded nodes:

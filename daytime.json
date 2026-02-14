@@ -1,0 +1,20 @@
+{
+  "ids": [
+    "dawn",
+    "morning",
+    "midday",
+    "golden_hour",
+    "blue_hour",
+    "night",
+    "overcast"
+  ],
+  "map": {
+    "dawn": "early dawn, pale sky, cool low-angle light and quiet haze",
+    "morning": "clear morning light, fresh air, gentle contrast and clean highlights",
+    "midday": "bright midday light, neutral balance, minimal long shadows and crisp clarity",
+    "golden_hour": "golden hour, warm low sun, long soft shadows and gentle glow",
+    "blue_hour": "blue hour twilight, cool ambient tones, soft silhouettes and calm atmosphere",
+    "night": "deep night, low ambient visibility, restrained highlights and quiet darkness",
+    "overcast": "overcast daylight, diffused soft illumination, muted contrast and subdued palette"
+  }
+}

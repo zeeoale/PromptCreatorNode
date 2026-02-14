@@ -1,0 +1,22 @@
+{
+  "ids": [
+    "soft_key",
+    "hard_key",
+    "rim_light",
+    "top_light",
+    "practical_mixed",
+    "moonlit_ambient",
+    "firelight_accent",
+    "soft_bloom_diffusion"
+  ],
+  "map": {
+    "soft_key": "soft diffused key light, gentle falloff and natural skin rolloff",
+    "hard_key": "hard directional key light, crisp shadows and high micro-contrast",
+    "rim_light": "thin rim light separating subject from background, subtle edge highlights",
+    "top_light": "soft top light shaping forehead and cheekbones, controlled shadow depth",
+    "practical_mixed": "mixed practical lighting, imperfect and realistic, subtle uneven exposure",
+    "moonlit_ambient": "cool moonlit ambient illumination, minimal catchlight, restrained contrast",
+    "firelight_accent": "warm firelight as secondary accent, physically plausible flicker and soft bloom",
+    "soft_bloom_diffusion": "cinematic diffusion with restrained bloom, highlights softened without fantasy glow"
+  }
+}
