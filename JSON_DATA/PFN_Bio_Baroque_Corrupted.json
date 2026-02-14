@@ -1,0 +1,88 @@
+{
+  "WORLD_NAME": "PFN_Bio_Baroque_Corrupted",
+  "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in bio-organic corruption portraiture, where elegance and decay coexist within the same human figure. When requested, return ONE single long sentence (180–240 words), richly descriptive and photorealistic, without line breaks or lists, depicting a woman whose skin is subtly overtaken by dark organic growths resembling living filaments, branching subdermal veins, and symbiotic patterns spreading beneath translucent flesh. Seamlessly integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. Emphasize tactile realism: matte-black tendrils fused to skin, faint vein-maps under the epidermis, cracked porcelain undertones, dry biological layering, micro-texture, and subtle wet sheen only where physically plausible. Lighting must be restrained and directional, avoiding magical glow and comic-book spectacle; favor low-key contrast, cool ambient shadow, selective highlights, and controlled bloom that reveals texture without turning it into fantasy. Environments should remain minimal, abstract, or studio-like, keeping the figure isolated and psychologically exposed; incorporate lived-in details sparingly, such as a worn label or faint stencil reading TK on a background panel or equipment tag, never as advertising. Maintain a muted palette of charcoal black, desaturated blue-grey, pallid flesh tones, bruised undertones, and occasional oxidized metallic reflections. The tone must feel intimate, unsettling, and psychologically invasive rather than violent, with close macro portrait framing, shallow depth of field, and refined cinematic realism free from exaggeration.",
+  "EPOCHS": [
+    "post-organic future",
+    "biotech decay era",
+    "neo-baroque body relic",
+    "late-stage symbiotic drift"
+  ],
+  "OUTFITS": [
+    "skin-integrated organic filigree replacing jewelry",
+    "semi-liquid bioplastic collar partially hardened into matte plates",
+    "tattered translucent membrane drape over shoulders",
+    "bio-sculpted patterns forming a corrupted lace-like bodice"
+  ],
+  "LIGHTING": [
+    "low-key cool rim light with restrained highlights",
+    "soft directional top light with deep shadow falloff",
+    "cold studio ambience with selective specular accents",
+    "muted dual-tone lighting, cool shadows with faint warm reflections"
+  ],
+  "BACKGROUNDS": [
+    "abstract dark studio with subtle haze and suspended dust",
+    "void-like gradient with faint particulate drift",
+    "minimal industrial panel backdrop with a worn TK stencil barely visible",
+    "soft-focus corrosion-toned environment, indistinct and isolating"
+  ],
+  "OBJECTS": [
+    "matte-black organic filaments fused into neck and jawline",
+    "subdermal vein-like branching visible under pallid skin",
+    "thin membrane strands clinging to cheekbones like dried lacquer",
+    "oxidized micro-beads embedded along corrupted pathways"
+  ],
+  "POSES": [
+    "front-facing stillness, shoulders relaxed, head slightly lowered",
+    "three-quarter close portrait, chin subtly turned toward shadow",
+    "profile close-up with calm posture, corruption tracing the neck",
+    "quiet lean forward as if drawn toward the lens"
+  ],
+  "EXPRESSIONS": [
+    "serene neutrality, emotionally unreadable",
+    "calm exterior masking internal tension",
+    "detached melancholic calm",
+    "soft vacant gaze with subtle unease",
+    "quiet intensity, unwavering eye contact",
+    "composed acceptance, faintly dissociated",
+    "minimal emotion, restrained breathing implied"
+  ],
+  "CAMERA_ANGLES": [
+    "macro close-up portrait framing",
+    "tight 85mm portrait crop",
+    "three-quarter cinematic close portrait",
+    "centered symmetrical composition with shallow depth of field"
+  ],
+  "ATMOSPHERES": [
+    "intimate invasive silence",
+    "clinical dread beneath beauty",
+    "quiet transformation without spectacle",
+    "subdermal corruption under controlled calm"
+  ],
+  "ACCESSORIES": [
+    "none — ornamentation is integrated into the body",
+    "oxidized metallic traces along bio-growth edges",
+    "fine particulate dust clinging to wet micro-highlights",
+    "a worn equipment tag with faint TK letters, out of focus"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely clinical and detached: the body is observed as form and texture, with no erotic cues, only quiet stillness.",
+    "1": "Subtle intimacy: closeness and skin realism create a gentle vulnerability, restrained and dignified.",
+    "2": "Dark allure: the corrupted ornamentation accentuates silhouette and gaze, sensuality expressed through proximity and tension.",
+    "3": "Intense invasive intimacy: the portrait feels uncomfortably close, beauty and corruption intertwined through skin detail and eye contact."
+  },
+  "HORROR_INTENSITY": {
+    "0": "Minimal unease: elegant bio-ornament appears unusual but controlled, more surreal than frightening.",
+    "1": "Psychological intrusion: the patterns feel alive beneath skin, unsettling through subtle invasion and calm acceptance.",
+    "2": "Strong uncanny corruption: matte tendrils, vein branching, and dry biological layering suggest irreversible takeover without gore.",
+    "3": "Oppressive invasive dread: the corruption dominates the portrait, shadow and texture press inward, intimate and inhuman."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A photorealistic bio-baroque close-up portrait of a woman in low-key studio light, her pallid skin quietly overtaken by matte-black symbiotic filaments and subdermal vein-like branching, calm and emotionally unreadable, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic macro portrait of a serene woman whose face and neck show invasive organic corruption beneath translucent skin, cracked porcelain undertones and oxidized micro-details revealed by restrained directional highlights, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A tight 85mm portrait crop of a composed woman in cool ambient shadow, matte-black tendrils fused along cheekbones and collarbones like living ornament, subtle wet sheen only where plausible, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Fine-art close portrait of a woman with quiet dissociated calm, desaturated blue-grey palette and low-key contrast, subdermal patterns spreading like a silent symbiotic map under the skin, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "High-detail bio-organic corruption portrait where elegant facial features remain pristine while matte-black growths and vein branching creep across the neck and jawline, isolated against a minimal abstract backdrop, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A restrained cinematic close-up of a woman in a dark studio haze, selective highlights revealing dry biological layering and oxidized traces along symbiotic filaments, her gaze steady and unflinching, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Surreal yet realistic macro portrait of a calm woman whose skin is subtly invaded by matte-black symbiotic ornamentation, desaturated tones and controlled bloom emphasizing texture without fantasy spectacle, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
