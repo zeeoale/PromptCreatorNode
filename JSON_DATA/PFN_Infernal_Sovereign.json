@@ -1,0 +1,106 @@
+{
+  "WORLD_NAME": "PFN_Infernal_Sovereign",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in dark sacred portraiture and demonic high-fashion iconography. When requested, return ONE single long cinematic sentence (180–240 words), without lists or line breaks, describing a full-body or three-quarter portrait of a demonic feminine sovereign rendered with sculptural elegance and restrained sensuality. The composition must feel symmetrical, monumental, and ritualistic, emphasizing posture, silhouette, negative space, and symbolic authority rather than fantasy action. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, grounded, high-detail composition. Emphasize marble-like skin texture, controlled chiaroscuro, and restrained highlights tracing large anatomical bat wings made of stretched membranous skin between elongated finger-like bones, with subtle leathery grain and faint organic veining, sometimes showing minimal translucency near the edges under rim light. Avoid feathered wings, avoid angelic aesthetics, avoid videogame visuals, avoid exaggerated magical glow effects, and avoid chaotic spell energy. The mood must feel timeless, liturgical, sovereign, seductive yet disciplined, as if she is an eternal fallen icon rather than a creature of fantasy.",
+
+  "EPOCHS": [
+    "Timeless infernal iconography",
+    "Baroque sacred darkness",
+    "Mythic fallen sovereignty",
+    "Eternal gothic archetype"
+  ],
+
+  "OUTFITS": [
+    "Black sculpted bodice with antique gold filigree",
+    "Minimal draped silk fabric flowing from hips",
+    "Ornamental metallic chestpiece with aged gilded finish",
+    "Dark high-fashion infernal lingerie with structured couture lines",
+    "Severe corset silhouette with subtle engraved ornament",
+    "Ceremonial black-and-gold harness with baroque detailing"
+  ],
+
+  "LIGHTING": [
+    "Controlled studio chiaroscuro with deep shadow falloff",
+    "Subtle overhead halo glow, restrained intensity",
+    "Thin rim light outlining horns and membranous wings",
+    "Muted directional key light with low-key contrast",
+    "Soft lens bloom on metallic highlights only",
+    "Gentle edge backlight revealing slight wing translucency"
+  ],
+
+  "BACKGROUNDS": [
+    "Neutral dark gradient studio backdrop",
+    "Stone-textured minimalist background in ash-gray",
+    "Cathedral-inspired shadowed void, barely readable",
+    "Muted seamless background with faint smoke haze",
+    "Cold desaturated studio space with negative space dominance"
+  ],
+
+  "OBJECTS": [
+    "Ornamental golden halo ring hovering behind the head",
+    "Subtle infernal sigil etched beneath her feet",
+    "Minimal ceremonial platform with worn stone texture",
+    "Fine atmospheric smoke layer drifting upward",
+    "Aged gilded circlet integrated into the halo structure"
+  ],
+
+  "POSES": [
+    "Standing upright in sovereign symmetry, shoulders squared",
+    "Hands gently lowered with elongated fingers, controlled stillness",
+    "Arms slightly extended as if presenting silent authority",
+    "Still monumental posture facing forward, minimal movement",
+    "One hip subtly shifted while maintaining strict composure"
+  ],
+
+  "EXPRESSIONS": [
+    "calm predatory composure",
+    "cold sovereign gaze, emotionally unreadable",
+    "sensual restraint with slightly parted lips",
+    "controlled dominance, minimal emotion",
+    "quiet intensity, unwavering eye contact"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Centered full-body composition with strict symmetry",
+    "Three-quarter sculptural framing, statue-like presence",
+    "Slightly low angle emphasizing authority and monumentality",
+    "Balanced studio perspective with negative space",
+    "Vertical editorial portrait framing, wings readable"
+  ],
+
+  "ATMOSPHERES": [
+    "Sacred infernal elegance",
+    "Timeless ritual authority",
+    "Disciplined sensual tension",
+    "Monumental dark serenity",
+    "Liturgical silence with oppressive calm"
+  ],
+
+  "ACCESSORIES": [
+    "Curved matte black horns with subtle ridges and natural wear"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely symbolic and monumental",
+    "1": "Subtle aesthetic sensuality",
+    "2": "Refined seductive presence",
+    "3": "Intense infernal magnetism"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror, purely iconic",
+    "1": "Mild dark undertone",
+    "2": "Strong infernal atmosphere",
+    "3": "Oppressive sacred darkness"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A monumental full-body studio portrait of a demonic sovereign woman standing in perfect symmetry, curved matte horns and an antique gold halo ring framing her pale marble skin while large anatomical bat wings spread behind her with stretched membranous skin and visible finger-like bones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A liturgical infernal icon portrait in controlled chiaroscuro, a pale sovereign figure with curved horns and leathery membranous bat wings showing faint organic veining and subtle edge translucency under a thin rim light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dark sacred high-fashion portrait of a demonic feminine archetype rendered with sculptural elegance, her antique gold ornamentation catching restrained highlights as large bat wings of stretched membrane and skeletal structure dominate the negative space behind her, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An infernal baroque sovereign icon standing upright with monumental membranous bat wings and aged gilded halo spikes, marble-like skin texture and disciplined sensual tension emphasized by muted directional light and deep shadow falloff, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A three-quarter sculptural portrait of a fallen queen with pale marble skin and cold sovereign gaze, framed by leathery bat wings with visible finger-bone anatomy and faint veining, minimal smoke haze and antique gold accents kept restrained, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A centered infernal sovereign editorial portrait blending gothic couture and sacred iconography, curved matte horns and an antique halo forming a strict silhouette while membranous bat wings stretch behind her with subtle grain and edge translucency under rim light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A timeless demonic feminine icon rendered with disciplined sensuality and monumental symmetry, her black-and-gold couture and pale marble skin contrasted against large anatomical bat wings of stretched membrane and visible skeletal structure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
