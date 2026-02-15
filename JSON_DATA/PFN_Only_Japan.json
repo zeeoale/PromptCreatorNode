@@ -1,0 +1,121 @@
+{
+  "WORLD_NAME": "PFN_Only_Japan",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in Japan-centered cinematic portraiture that feels real, grounded, and culturally respectful, blending tradition and modernity without turning into anime, videogame, or flashy fantasy. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a solitary feminine subject placed within an unmistakably Japanese environment—bamboo groves, torii gates, lantern alleys, Kyoto streets, zen gardens, onsen villages, or modern Shibuya—where atmosphere and texture carry the emotion. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, photographic composition. Emphasize tactile realism: fabric weave of kimono or yukata, lacquered wood, stone path moisture, paper lantern glow, sakura petals in shallow focus, and subtle weather like mist or snowfall; keep any spiritual hint purely suggestive—an uncanny stillness, a distant shape in fog, a quiet symbolic mask—never glowing magic or spectacle. Mention a clear camera approach (35–85mm), depth of field that keeps subject sharp while the environment remains readable, and restrained post-process cues such as fine film grain, gentle halation, micro-contrast, and a soft vignette. Avoid neon overload and avoid stereotypes; the mood must feel intimate, quiet, and timeless, like a cinematic still captured in Japan.",
+
+  "EPOCHS": [
+    "Feudal Japan",
+    "Edo Period",
+    "Samurai Era",
+    "Post-war Showa Period",
+    "Modern Japan",
+    "Future Tokyo"
+  ],
+
+  "OUTFITS": [
+    "black and gold kimono",
+    "white yukata with sakura patterns",
+    "traditional haori and hakama",
+    "shrine maiden robes",
+    "onna-bugeisha attire",
+    "modern casual wear with Japanese motifs",
+    "Cyberpunk streetwear with subtle neon accents",
+    "a very low-cut sexy kimono",
+    "sexy black and golden lingerie"
+  ],
+
+  "LIGHTING": [
+    "soft sakura-filtered sunlight",
+    "glow of paper lanterns",
+    "moonlight through temple gates",
+    "dappled forest shade",
+    "restrained neon reflections in wet streets"
+  ],
+
+  "BACKGROUNDS": [
+    "bamboo forest",
+    "torii gate at dawn",
+    "mountain shrine in the mist",
+    "quiet zen garden",
+    "cherry blossom hill",
+    "snowy onsen village",
+    "ancient Kyoto street at night",
+    "paper lantern-lit alleyway",
+    "sacred Shinto shrine",
+    "Modern Tokyo (Shibuya)",
+    "Future Tokyo with restrained signage"
+  ],
+
+  "OBJECTS": [
+    "japanese parasol resting beside her",
+    "paper fan with kanji characters",
+    "bento box unopened",
+    "wooden geta sandals",
+    "shamisen lying in the grass"
+  ],
+
+  "POSES": [
+    "kneeling in a tea ceremony",
+    "standing under falling cherry blossoms",
+    "holding a katana with grace",
+    "meditating on a rock by a stream",
+    "walking slowly through a lantern-lit alley, shoulders relaxed"
+  ],
+
+  "EXPRESSIONS": [
+    "serene and composed",
+    "gentle smile of peace",
+    "focused warrior gaze",
+    "dreamy and distant",
+    "quiet introspective calm"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low-angle with cherry petals in foreground",
+    "side profile under lantern light",
+    "front view with temple in background",
+    "top-down shot with rock garden symmetry",
+    "three-quarter portrait with environment depth"
+  ],
+
+  "ATMOSPHERES": [
+    "falling sakura petals",
+    "torii gate shrouded in mist",
+    "tatami texture in the air",
+    "quiet snowfall over warm lantern light",
+    "rain-slick street reflections in Tokyo"
+  ],
+
+  "ACCESSORIES": [
+    "kitsune mask carried in hand, not worn",
+    "japanese parasol",
+    "paper fan with kanji",
+    "koi fish tattoo, subtle and realistic",
+    "wooden geta sandals",
+    "shamisen instrument"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely cultural portrait: modest styling, respectful, symbolic mood only.",
+    "1": "Subtle elegance: gentle neckline, refined posture, intimacy through light and fabric.",
+    "2": "Controlled allure: confident presence, tasteful sensuality expressed via silhouette and gaze.",
+    "3": "High-fashion provocative restraint: erotic tension without explicitness, still grounded and realistic."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "as if unseen spirits pass silently through bamboo groves, only stillness and breath",
+    "1": "the air carries echoes of ancient swords and sorrowful vows, subtle unease in the fog",
+    "2": "beauty laced with melancholy, as if haunted by forgotten love, quiet dread without spectacle",
+    "3": "oppressive sacred unease: ritual silence, heavy mist, and an irreversible feeling beneath beauty"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic portrait in a bamboo forest, soft sakura-filtered sunlight and shallow depth of field capturing kimono fabric weave and quiet stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A lantern-lit Kyoto alley portrait at night, paper lantern glow shaping a serene face while wet stone reflects restrained highlights with fine film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A torii gate at dawn in mountain mist, a woman standing composed with a parasol beside her, atmosphere quiet and real, no fantasy effects, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A zen garden top-down symmetry shot, tatami-like calm in the air, subtle halation on highlights and micro-contrast on stone textures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A snowy onsen village portrait with warm lantern light and drifting steam, yukata textures rendered realistically as the subject holds a paper fan, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A Modern Tokyo Shibuya night portrait with rain-slick reflections and restrained neon, modern streetwear kept realistic and quiet, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A ceremonial tea moment in soft forest shade, subtle melancholy and silence as a kitsune mask rests in hand like a symbol, never glowing, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
