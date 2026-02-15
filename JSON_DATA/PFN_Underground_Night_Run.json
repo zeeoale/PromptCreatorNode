@@ -1,0 +1,112 @@
+{
+  "WORLD_NAME": "PFN_Underground_Night_Run",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in cinematic underground street racing portraiture set in nocturnal Tokyo environments. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, describing a half-body or three-quarter portrait of a confident woman standing beside a high-performance sports car moments before an illegal night run. The composition must balance the subject and the vehicle, allowing wet asphalt, neon signage, industrial structures, and subtle urban depth to remain visible. Emphasize reflections on polished bodywork, soft tire smoke lingering in humid air, sodium vapor streetlights mixing with cool neon blues and magentas, and realistic urban textures such as concrete, metal, and rain-slick pavement. Always blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive cinematic composition. Mention lens choice (35mm or 50mm), shallow to moderate depth of field, subtle motion blur in distant headlights, controlled highlights on skin and car surfaces, and a grounded photographic realism. Avoid arcade aesthetics, avoid exaggerated visual effects, avoid cartoonish drift smoke. The mood must feel tense, intimate, modern, and ritualistic, as if the night race is a private ceremony governed by speed, control, and unspoken hierarchy.",
+
+  "EPOCHS": [
+    "Contemporary Tokyo underground scene",
+    "Modern illegal night racing culture",
+    "Industrial dockside midnight gathering",
+    "Urban neon-lit after-hours district"
+  ],
+
+    "OUTFITS": [
+    "Black leather jacket over minimal crop top",
+    "Tight racing-inspired bodysuit with subtle reflective panels",
+    "Oversized bomber jacket with urban streetwear accents",
+    "Fitted dark top with high-waisted leather pants",
+    "Minimalist black dress paired with combat boots",
+    "Oversized street-pop hoodie with cropped fit and layered chains",
+    "High-waisted cargo pants with fitted street tank top",
+    "Baggy hip-hop streetwear set with statement sneakers",
+    "Urban street-pop tracksuit with glossy fabric texture",
+    "Layered street-style outfit with mesh top and wide-leg pants",
+    "Cropped varsity jacket with graphic street insignia",
+    "Edgy Tokyo hip-hop ensemble with bold silhouettes and subtle metallic accents"
+    ],
+
+  "LIGHTING": [
+    "Neon blue and magenta reflections on wet asphalt",
+    "Warm sodium vapor streetlight mixed with cool ambient glow",
+    "Soft bloom from distant headlights",
+    "Low-key cinematic night lighting with controlled highlights"
+  ],
+
+  "BACKGROUNDS": [
+    "Wet Tokyo alley lined with neon signage",
+    "Industrial warehouse district with parked performance cars",
+    "Elevated highway pillars under midnight sky",
+    "Harbor dockside with distant city skyline lights"
+  ],
+
+  "OBJECTS": [
+    "Modified Japanese sports car with polished bodywork",
+    "Subtle tire smoke drifting across pavement",
+    "Neon reflections across chrome rims",
+    "Distant headlights approaching in soft blur"
+  ],
+
+    "POSES": [
+    "Leaning lightly against the car door with controlled posture",
+    "Standing beside the front hood, one hand resting on metal surface",
+    "Three-quarter stance facing camera with car visible behind",
+    "Casually crossing arms while looking over shoulder toward rival car",
+    "Seated on the car hood with one leg bent, posture relaxed yet dominant",
+    "Sitting on the front hood with hands resting beside her hips, neon reflections tracing her silhouette",
+    "Perched confidently on the polished hood, legs angled toward camera, gaze steady and unflinching",
+    "Seated at the edge of the hood, shoulders back, chin slightly raised in quiet authority"
+    ],
+
+  "EXPRESSIONS": [
+    "cold confident stare",
+    "quiet intensity, unwavering eye contact",
+    "subtle closed-lip smile, controlled confidence",
+    "mysterious composure, minimal emotion",
+    "calm observational gaze, relaxed facial tension"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Three-quarter portrait with car partially visible",
+    "Low-angle cinematic framing enhancing dominance",
+    "35mm urban environmental perspective",
+    "50mm balanced portrait with shallow depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "Tense pre-race silence",
+    "Humid neon-lit night air",
+    "Urban ritual before acceleration",
+    "Modern asphalt noir elegance"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal metal jewelry catching neon reflections",
+    "Fingerless leather gloves",
+    "Subtle racing patches or insignia",
+    "Small clutch or helmet resting nearby"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely urban portrait, no sensual emphasis",
+    "1": "Subtle street elegance",
+    "2": "Confident body language and quiet allure",
+    "3": "Dominant and provocative urban presence"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror, purely urban tension",
+    "1": "Mild nocturnal unease",
+    "2": "Strong psychological tension before race",
+    "3": "Oppressive urban intensity beneath neon light"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic three-quarter portrait of a confident woman standing beside a modified Japanese sports car on rain-slick Tokyo asphalt, neon lights reflecting across metal and skin, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A neon-lit underground street racing portrait set in midnight Tokyo, a poised woman leaning against polished bodywork as tire smoke drifts through humid air, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A tense pre-race urban portrait in a wet Tokyo alley, a cold and confident woman framed by glowing signage and distant headlights, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A modern asphalt noir scene in neon Tokyo, a dominant street queen standing beside her performance car moments before acceleration, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "An underground night run portrait capturing urban ritual and silent hierarchy, reflections of blue and magenta neon dancing across wet pavement and polished chrome, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A cinematic Tokyo midnight racing scene, three-quarter framing balancing a poised woman and her car under sodium vapor streetlights and neon haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A high-fashion underground street racing portrait blending tension, speed, and controlled sensuality in a neon-drenched Tokyo district, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
