@@ -1,0 +1,99 @@
+{
+  "WORLD_NAME": "PFN_Bone_Garden",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in gothic bone-garden portraiture, blending elegant decay, floral mourning, and sacred grief into cinematic imagery. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a solitary feminine figure within a garden of bones and thorns where beauty and mortality coexist. Always weave together elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}}, and modulate the tone using {{HORROR_INTENSITY}} while keeping the scene poetic, tactile, and visually grounded. Emphasize delicate textures—tattered lace, velvet, brittle petals, aged stone, wet soil, and pale bone—alongside restrained cinematic lighting such as eerie twilight or soft moonlight with gentle haze and controlled contrast. Mention a clear camera perspective (close-up from below, three-quarter profile, frontal depth, or dramatic overhead) and a believable lens feeling (35mm–85mm), with moderate depth of field that keeps both the subject and the bone-garden environment readable. Avoid videogame/fantasy spectacle and avoid overt magical effects; the horror should feel ceremonial and intimate rather than explosive. Optionally include a faint environmental detail like a worn metal tag or stencil reading TK on a lantern bracket or an antique mirror frame, never as advertising.",
+
+  "EPOCHS": [
+    "Victorian",
+    "Baroque",
+    "Post-Apocalyptic",
+    "Dark Fantasy"
+  ],
+
+  "OUTFITS": [
+    "tattered lace dress",
+    "velvet cloak with bone jewelry",
+    "ceremonial robe with stitched petals",
+    "corset with thorn embroidery"
+  ],
+
+  "LIGHTING": [
+    "eerie twilight",
+    "moody ambient glow",
+    "soft moonlight"
+  ],
+
+  "BACKGROUNDS": [
+    "overgrown graveyard",
+    "garden of bones and thorns",
+    "ruined cathedral garden",
+    "misty forest with skeletal trees"
+  ],
+
+  "OBJECTS": [
+    "bone staff",
+    "wilted rose bouquet",
+    "crow perched on skull",
+    "hanging lanterns",
+    "antique mirror"
+  ],
+
+  "POSES": [
+    "kneeling in the flowers",
+    "gazing at a skull",
+    "standing among bones",
+    "touching a dying flower"
+  ],
+
+  "EXPRESSIONS": [
+    "melancholic",
+    "serene",
+    "mysterious smile",
+    "tearful gaze"
+  ],
+
+  "CAMERA_ANGLES": [
+    "close-up from below",
+    "three-quarter profile",
+    "frontal with depth",
+    "overhead dramatic view"
+  ],
+
+  "ATMOSPHERES": [
+    "mystical sorrow",
+    "elegant decay",
+    "timeless silence",
+    "sacred grief"
+  ],
+
+  "ACCESSORIES": [
+    "bone earrings",
+    "thorn crown",
+    "veil of petals",
+    "lace gloves with skeletal fingers"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure mourning presence: solemn, symbolic, no sensual emphasis, only devotional stillness and texture.",
+    "1": "Subtle intimacy: gentle closeness through fabric tension, soft breath, and quiet vulnerability without display.",
+    "2": "Dark allure: controlled elegance and confident posture, sensuality expressed through gaze and silhouette, still restrained.",
+    "3": "Intense intimate magnetism: uncomfortably close portrait tension where beauty and decay intertwine through skin, lace, and eye contact."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "delicate skulls among roses, subtle bone motifs, petals covering skeletal hands",
+    "1": "visible ribcages entwined with vines, half-decomposed statues, skeletons posing serenely",
+    "2": "fleshless faces adorned with jewels, open graves blooming flowers, ritual scenes among bones",
+    "3": "oppressive funerary tableau: dense bone piles and thorn lattices, cracked effigies, intimate ceremonial dread without gore"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A gothic portrait in a bone garden of thorns and wilted roses, a woman in tattered lace kneeling in damp soil under eerie twilight, skulls half-buried among petals, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic three-quarter profile of a serene woman in a velvet cloak with bone jewelry, soft moonlight grazing her face as an overgrown graveyard fades into mist behind hanging lanterns, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A frontal portrait with depth inside a ruined cathedral garden, thorn embroidery and stitched petals catching moody ambient glow while an antique mirror reflects pale bones and drifting haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An overhead dramatic view of a woman touching a dying flower amid scattered skulls and vine-wrapped ribcages, the atmosphere filled with sacred grief and elegant decay under cold twilight, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A close-up from below of a melancholic woman crowned with thorns, lace gloves like skeletal fingers near her lips, a crow perched on a skull behind her in soft moonlit haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A ritualistic bone-garden portrait framed by skeletal trees and drifting mist, a woman gazing at a skull while lantern light flickers across wet stone and brittle petals, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A sacred grief tableau in a garden of bones and thorns, controlled chiaroscuro shaping a woman in a ceremonial robe with stitched petals as roses wilt beside pale bone relics, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
