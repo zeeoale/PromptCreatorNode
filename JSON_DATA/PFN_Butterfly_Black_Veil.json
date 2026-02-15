@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_Black_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in mystical-yet-real portrait photography where veils, butterflies, and botanical details create a believable surreal elegance. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a close-up or medium close-up portrait of a woman wearing a black veil and couture styling in a nocturnal natural or architectural setting. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent, grounded composition that reads as real photography with controlled artistic direction. Emphasize tactile realism—skin pores, soft freckles or blush, veil embroidery threads, satin sheen, pearl luster, and the fragile paper-like wings of butterflies—while keeping the “mystic” feeling through composition, symbolism, and atmosphere rather than supernatural effects. Mention lens choice (50mm or 85mm), shallow to moderate depth of field, gentle haze, restrained bloom on highlights, and believable moonlit or backlit lighting that shapes the face and veil. Avoid videogame aesthetics, avoid glowing spell energy, avoid cartoon colors; if bioluminescent elements appear, keep them subtle and physically plausible. The mood must feel romantic, quiet, and slightly uncanny, like a sacred fashion editorial shot in the real world.",
+  "EPOCHS": ["Timeless", "Modern Fantasy", "Victorian", "Futuristic Dream"],
+  "OUTFITS": ["Black silk gown", "Black lace veil", "Black mystical robe", "Black petal-woven dress", "Black stardust-infused cape", "Black sexy lingerie", "Black sexy low-cut latex dress"],
+  "LIGHTING": ["Moonlit", "Bioluminescent glow", "Soft black haze", "Backlit with stardust"],
+  "BACKGROUNDS": ["Deep forest at dusk", "Floating petals in mist", "Starry night sky", "Ancient mirror hall", "Enchanted garden with black flowers"],
+  "OBJECTS": ["Butterflies", "Black roses", "Floating lights", "Crystals", "Feathers", "Lanterns", "Pearls"],
+  "POSES": ["Close-up with closed eyes", "Face partially hidden by veil", "Looking over shoulder", "Head surrounded by flowers", "Profile with butterfly on lips"],
+  "EXPRESSIONS": ["Serene", "Enigmatic", "Melancholic", "Ethereal", "Dreamlike"],
+  "CAMERA_ANGLES": ["Close-up portrait", "eye-level medium close-up"],
+  "ATMOSPHERES": ["Mystical", "Romantic surrealism", "Melancholy elegance", "Harmonic fantasy", "Silent wonder"],
+  "ACCESSORIES": ["Butterfly crown", "Crystal necklace", "Veil with embroidery", "Star earrings", "Luminous forehead gem"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure editorial mystique: modest styling, symbolic beauty, no sensual emphasis.",
+    "1": "Subtle allure: gentle neckline, soft gaze, sensuality implied through fabric and light.",
+    "2": "Refined seduction: confident posture and controlled intimacy, still tasteful and realistic.",
+    "3": "Intense magnetic tension: provocative styling without explicitness, high-fashion erotic restraint."
+  },
+  "HORROR_INTENSITY": {
+    "0": "pure romantic surreal portrait, calm butterflies and veil detail",
+    "1": "slight uncanny stillness, frozen butterflies, mirror-like reflections feel too perfect",
+    "2": "strong psychological unease, butterflies hovering unnaturally close, expression too serene",
+    "3": "oppressive uncanny ritual mood, heavy haze and silent dread without gore or fantasy effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A close-up portrait of a woman in a black lace veil, moonlit and softly backlit, butterflies hovering near her lips with delicate realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An eye-level medium close-up in an ancient mirror hall, black silk gown and embroidered veil catching restrained highlights as lanterns glow in soft haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A serene nocturnal fashion portrait in a deep forest at dusk, black roses and crystals framing a dreamlike gaze beneath a veil, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A romantic surreal portrait under a starry night sky, face partially hidden by a black veil as butterflies drift through misty petals, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A profile close-up with a butterfly near the lips, black stardust cape and pearl accents rendered as believable photography with gentle bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A melancholic editorial portrait in an enchanted garden of black flowers, veil embroidery threads and satin sheen captured in shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A dreamlike close-up framed by floating feathers and subtle crystals, black veil and butterfly crown creating quiet uncanny elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

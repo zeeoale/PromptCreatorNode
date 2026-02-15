@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_Yellow_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in warm radiant portraiture where yellow veils, butterflies, and floral details create a mystical yet believable editorial realism. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a close-up or medium close-up portrait of a woman in yellow couture with delicate veil elements, surrounded by petals and soft mist in a forest or garden at dusk. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent composition that remains grounded in real textures and plausible lighting. Emphasize golden color harmony, realistic skin detail, lace fibers, silk folds, and butterfly wing micro-patterns, with backlight through mist and restrained bloom on highlights that never becomes magical. Mention lens choice (50mm or 85mm), shallow depth of field, warm haze, and controlled contrast shaping cheekbones and lips while the garden melts into bokeh. Avoid videogame fantasy and avoid overt supernatural effects; the mystic feeling should come from quiet symbolism and radiant stillness, like a high-end botanical editorial captured in the real world.",
+  "EPOCHS": ["Timeless fantasy", "Surreal dreamscape", "Mystic era"],
+  "OUTFITS": ["flowing yellow dress adorned with lace", "yellow silk robe with embroidered patterns", "yellow gown with delicate semi-transparent layers"],
+  "LIGHTING": ["soft yellow glow", "backlight through mist"],
+  "BACKGROUNDS": ["enchanted forest at dusk", "mystical floral garden", "surreal dream world in yellow hues"],
+  "OBJECTS": ["golden butterflies", "yellow flowers", "falling petals", "sparkling dust particles", "floating crystals"],
+  "POSES": ["portrait close-up with serene expression", "head slightly tilted, eyes closed", "gazing directly at the viewer"],
+  "EXPRESSIONS": ["enigmatic calm", "ethereal serenity", "gentle melancholy"],
+  "CAMERA_ANGLES": ["Close-up portrait", "eye-level medium close-up"],
+  "ATMOSPHERES": ["warm and radiant and surreal", "harmonious and magical", "delicate and elegant"],
+  "ACCESSORIES": ["butterfly headpiece", "petal earrings", "veil with embedded sparkles", "yellow crystal pendant"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure radiant calm: symbolic beauty, no sensual emphasis.",
+    "1": "Soft natural intimacy: veil framing and gentle warmth, tasteful realism.",
+    "2": "Refined allure: confident closeness and controlled silhouette, elegant and calm.",
+    "3": "Intense intimate magnetism: sensual tension expressed through gaze and texture, never explicit."
+  },
+  "HORROR_INTENSITY": {
+    "0": "warm radiant surreal portrait, calm butterflies and soft haze",
+    "1": "subtle uncanny stillness, butterflies suspended too neatly, expression too composed",
+    "2": "strong psychological unease, frozen petals and heavy mist, uncanny closeness",
+    "3": "oppressive silent dread beneath warmth, ritual calm and darkened garden edges, no gore or magic effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A close-up botanical portrait of a woman in a yellow lace gown and delicate veil, backlit through mist as golden butterflies drift nearby, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An eye-level medium close-up in an enchanted forest at dusk, soft yellow glow shaping her serene face as petals fall into bokeh, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dreamy garden portrait with yellow flowers and floating crystals, veil embroidery and silk folds captured in believable shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A serene close-up with eyes closed, yellow veil with embedded sparkles and a crystal pendant rendered as real photography in soft haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A calm direct gaze framed by a butterfly headpiece, warm misty backlight and restrained bloom keeping the face crisp against a yellow dreamscape, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A gentle melancholy portrait in a mystical floral garden, falling petals and soft yellow glow creating quiet surreal elegance without fantasy effects, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A harmonious surreal botanical editorial close-up, yellow silk robe and veil textures captured in ultra-detailed realism as butterflies hover in warm mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

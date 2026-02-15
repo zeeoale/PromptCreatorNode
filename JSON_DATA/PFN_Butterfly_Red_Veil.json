@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_Red_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in mystical-yet-real portrait photography where red veils, butterflies, and floral elements create a believable surreal drama. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a close-up or medium close-up portrait of a woman in red couture with a delicate veil, surrounded by petals and soft mist in a forest or garden at dusk. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive composition that remains grounded in real textures and plausible lighting. Emphasize crimson color harmony, realistic skin texture, lace threads, silk folds, and the fragile micro-patterns of butterfly wings, with backlight through mist and restrained bloom on highlights that never becomes magical. Mention lens choice (50mm or 85mm), shallow depth of field, gentle haze, and controlled contrast shaping cheekbones and lips. Avoid videogame fantasy, avoid spell effects, avoid neon magic beams; the mystic feeling should come from symbolism and atmosphere, like a high-end fashion editorial captured in the real world, romantic yet unsettling in its stillness.",
+  "EPOCHS": ["Timeless fantasy", "Surreal dreamscape", "Mystic era"],
+  "OUTFITS": ["flowing red dress adorned with lace", "red silk robe with embroidered patterns", "red gown with delicate semi-transparent layers"],
+  "LIGHTING": ["soft red glow", "backlight through mist"],
+  "BACKGROUNDS": ["enchanted forest at dusk", "mystical floral garden", "surreal dream world in red hues"],
+  "OBJECTS": ["crimson butterflies", "red flowers", "falling petals", "sparkling dust particles", "floating crystals"],
+  "POSES": ["portrait close-up with serene expression", "head slightly tilted, eyes closed", "gazing directly at the viewer"],
+  "EXPRESSIONS": ["enigmatic calm", "ethereal serenity", "gentle melancholy"],
+  "CAMERA_ANGLES": ["Close-up portrait", "eye-level medium close-up"],
+  "ATMOSPHERES": ["mysterious and surreal", "harmonious and magical", "delicate and elegant"],
+  "ACCESSORIES": ["butterfly headpiece", "petal earrings", "veil with embedded sparkles", "red crystal pendant"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure ceremonial elegance: symbolic red palette, no sensual emphasis.",
+    "1": "Soft romantic tension: gentle veil framing and subtle intimacy, tasteful realism.",
+    "2": "Refined allure: confident gaze and controlled silhouette, elegant and calm.",
+    "3": "Intense seductive magnetism: provocative styling without explicitness, still photographic."
+  },
+  "HORROR_INTENSITY": {
+    "0": "romantic red-dusk portrait, calm butterflies and petals",
+    "1": "subtle uncanny stillness, heavy mist, expression too serene",
+    "2": "strong psychological unease, frozen petals and too-perfect symmetry",
+    "3": "oppressive silent dread, darkened garden and ritual calm, no gore or magic effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A close-up portrait of a woman in a red lace gown and delicate veil, backlit through mist as crimson butterflies hover in realistic detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An eye-level medium close-up in an enchanted forest at dusk, soft red glow shaping her serene face as petals fall into bokeh, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dreamy garden portrait with red flowers and floating crystals, veil embroidery and silk folds captured in believable shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A serene close-up with eyes closed, red veil with embedded sparkles and a crystal pendant rendered as real photography in soft haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A calm direct gaze framed by a butterfly headpiece, warm misty backlight and restrained bloom keeping the face crisp against a red dreamscape, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A gentle melancholy portrait in a mystical floral garden, falling petals and soft red glow creating quiet surreal elegance without fantasy effects, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A harmonious surreal botanical editorial close-up, red silk robe and veil textures captured in ultra-detailed realism as butterflies hover in soft mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

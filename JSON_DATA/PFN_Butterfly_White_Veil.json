@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_White_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in luminous ceremonial portraiture where white fabrics, pearls, and butterflies create a mystical yet believable editorial realism. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a medium close-up or centered portrait of a woman in ivory-white couture with veil elements, pearl ornamentation, and delicate butterfly motifs. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive composition that reads as real photography with stage-like control. Emphasize fabric micro-texture, feather or crystal detailing, pearl luster, skin realism, and subtle shadow shaping under a heavenly spotlight or soft stage lighting, keeping highlights controlled and bloom restrained. Mention lens choice (50mm or 85mm), shallow to moderate depth of field, clean centered framing, and a gentle atmospheric mist that feels like theatrical haze rather than magic. Avoid videogame aesthetics and avoid overt supernatural effects; the “mystical” impression should come from symmetry, silence, and ceremonial elegance, like frozen time in a high-end portrait studio with faint baroque echoes.",
+  "EPOCHS": ["Neo-Baroque", "Ethereal Renaissance", "Digital Rococò"],
+  "OUTFITS": ["Ivory feather gown", "Pearl-encrusted robe", "Crystal ceremonial cape"],
+  "LIGHTING": ["Heavenly spotlight", "Soft stage lighting", "Luminous background aura"],
+  "BACKGROUNDS": ["Subtle theatrical drape", "Gold-framed backdrop", "Celestial mist"],
+  "OBJECTS": ["Floating butterfly", "Rose petals", "Jewelled mask"],
+  "POSES": ["One hand near lips", "Facing forward with intense gaze", "Three-quarter turn with veiled eyes"],
+  "EXPRESSIONS": ["Calm divinity", "Seductive mystery", "Silent command"],
+  "CAMERA_ANGLES": ["Medium close-up", "Centered frontal portrait", "Elegant slight tilt"],
+  "ATMOSPHERES": ["Mystical elegance", "Divine silence", "Frozen time"],
+  "ACCESSORIES": ["Butterfly crown", "Halo of pearls", "Dangling crystal earrings"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure ceremonial divinity: modest styling, symbolic elegance, no sensual emphasis.",
+    "1": "Soft intimacy: gentle veil framing and quiet closeness, tasteful realism.",
+    "2": "Refined allure: confident gaze and controlled silhouette, elegant and restrained.",
+    "3": "Intense high-fashion tension: seductive presence without explicitness, still photographic."
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror, pure divine aesthetic and clean ceremonial light",
+    "1": "slight uncanny distortion, stillness feels too perfect, frozen butterflies",
+    "2": "strong uncanny vibe, expression unnaturally serene, butterflies suspended too precisely",
+    "3": "oppressive sacred unease, heavy silence and cold spotlight, no gore or fantasy effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A centered medium close-up of a woman in ivory couture with a pearl halo and butterfly crown, heavenly spotlight shaping her calm divinity in clean ceremonial realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A three-quarter turn with veiled eyes, pearl-encrusted robe and dangling crystal earrings catching restrained highlights against a gold-framed backdrop, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A luminous studio portrait with subtle theatrical haze, floating butterfly and rose petals framed like sacred ornamentation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A medium close-up under soft stage lighting, crystal ceremonial cape shimmering with controlled bloom as the expression remains silently commanding, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A centered frontal portrait with calm divinity, pearl halo and butterfly motifs rendered with photographic skin texture and frozen time stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A ceremonial fashion portrait with a jeweled mask held nearby, celestial mist and gold frame creating restrained mystical elegance without supernatural effects, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A divine silence tableau in neo-baroque styling, pearls and crystals catching gentle highlights as a butterfly hovers in subtle theatrical haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

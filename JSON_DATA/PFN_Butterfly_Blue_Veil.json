@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_Blue_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in mystical-yet-real portrait photography where veils, butterflies, and botanical details create a believable surreal elegance. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a close-up or medium close-up portrait of a woman wearing a blue veil and couture styling in a twilight natural or architectural setting. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a coherent, grounded composition that reads as real photography with controlled artistic direction. Emphasize tactile realism—skin texture, veil lace fibers, satin sheen, crystal facets, pearl luster, and butterfly wing micro-patterns—while keeping the mystic feeling through color harmony, quiet symbolism, and atmosphere rather than supernatural effects. Mention lens choice (50mm or 85mm), shallow depth of field, subtle haze, controlled bloom on highlights, and moonlit or stardust backlight that outlines veil edges. Avoid videogame aesthetics, avoid neon magic beams; keep any bioluminescent detail subdued and physically plausible. The mood must feel calm, oceanic, and introspective, like a fashion editorial shot at blue hour in the real world.",
+  "EPOCHS": ["Timeless", "Modern Fantasy", "Victorian", "Futuristic Dream"],
+  "OUTFITS": ["Blue silk gown", "blue Lace veil", "blue Mystical robe", "blue Petal-woven dress", "blue Stardust-infused cape", "blue sexy lingerie", "blue sexy low-cut latex dress"],
+  "LIGHTING": ["Moonlit", "Bioluminescent glow", "Soft blue haze", "Backlit with stardust"],
+  "BACKGROUNDS": ["Deep forest at dusk", "Floating petals in mist", "Starry night sky", "Ancient mirror hall", "Enchanted garden"],
+  "OBJECTS": ["Butterflies", "Blue roses", "Floating lights", "Crystals", "Feathers", "Lanterns", "Pearls"],
+  "POSES": ["Close-up with closed eyes", "Face partially hidden by veil", "Looking over shoulder", "Head surrounded by flowers", "Profile with butterfly on lips"],
+  "EXPRESSIONS": ["Serene", "Enigmatic", "Melancholic", "Ethereal", "Dreamlike"],
+  "CAMERA_ANGLES": ["Close-up portrait", "eye-level medium close-up"],
+  "ATMOSPHERES": ["Mystical", "Romantic surrealism", "Melancholy elegance", "Harmonic fantasy", "Silent wonder"],
+  "ACCESSORIES": ["Butterfly crown", "Crystal necklace", "Veil with embroidery", "Star earrings", "Luminous forehead gem"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure calm editorial mood: modest styling, serene and symbolic.",
+    "1": "Soft intimacy: gentle veil framing and quiet vulnerability, tasteful realism.",
+    "2": "Refined allure: confident gaze and controlled silhouette, elegant and restrained.",
+    "3": "High-fashion erotic tension: provocative styling without explicitness, still photographic."
+  },
+  "HORROR_INTENSITY": {
+    "0": "dreamlike blue-hour portrait, calm butterflies and soft haze",
+    "1": "slight uncanny stillness, reflections too clean, butterflies hovering too close",
+    "2": "strong psychological unease, frozen petals, unnaturally serene expression",
+    "3": "oppressive silent dread, heavy haze and cold moonlight, no gore or magic effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A blue-hour close-up portrait of a woman in a blue lace veil, moonlit and softly backlit, blue butterflies hovering with realistic wing detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An eye-level medium close-up in an ancient mirror hall, blue silk gown and embroidered veil catching restrained highlights through soft blue haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A serene forest-at-dusk editorial portrait, blue roses and crystals framing a dreamlike gaze beneath a veil with stardust backlight, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A romantic surreal portrait under a starry sky, face partially hidden by a blue veil as petals drift through mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A profile close-up with a butterfly near the lips, blue cape and pearl accents rendered as believable photography with gentle bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A melancholic editorial portrait in an enchanted garden, veil embroidery fibers and crystal facets captured in shallow depth of field and soft haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A dreamlike close-up framed by floating feathers and subtle lantern light, blue veil and butterfly crown creating quiet oceanic elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

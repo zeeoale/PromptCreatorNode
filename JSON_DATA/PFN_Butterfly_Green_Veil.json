@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Butterfly_Green_Veil",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in mystical-yet-real portraiture set in verdant dreamlike environments where veils and butterflies feel tangible and photographic. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a close-up or medium close-up portrait of a woman in green couture with a delicate veil, surrounded by flowers and soft mist. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive composition that remains grounded in real-world texture and believable lighting. Emphasize leaf-green color harmony, natural skin realism, lace threads, silk folds, and the micro-structure of butterfly wings, with backlight through mist and controlled highlight bloom that never becomes magical. Mention lens choice (50mm or 85mm), shallow depth of field, soft atmospheric haze, and gentle contrast that keeps the face crisp while the garden dissolves into bokeh. Avoid videogame fantasy, avoid spell effects, avoid glowing energy beams; keep the mystic feeling quiet, organic, and intimate, as if captured for a high-end botanical editorial with a slight uncanny calm.",
+  "EPOCHS": ["Timeless fantasy", "Surreal dreamscape", "Mystic era"],
+  "OUTFITS": ["flowing green dress adorned with lace", "green silk robe with embroidered patterns", "green gown with delicate semi-transparent layers"],
+  "LIGHTING": ["soft green glow", "backlight through mist"],
+  "BACKGROUNDS": ["enchanted forest at dusk", "mystical floral garden", "surreal dream world in green hues"],
+  "OBJECTS": ["golden butterflies", "green flowers", "falling petals", "sparkling dust particles", "floating crystals"],
+  "POSES": ["portrait close-up with serene expression", "head slightly tilted, eyes closed", "gazing directly at the viewer"],
+  "EXPRESSIONS": ["enigmatic calm", "ethereal serenity", "gentle melancholy"],
+  "CAMERA_ANGLES": ["Close-up portrait", "eye-level medium close-up"],
+  "ATMOSPHERES": ["warm and radiant and surreal", "harmonious and magical", "delicate and elegant"],
+  "ACCESSORIES": ["butterfly headpiece", "petal earrings", "veil with embedded sparkles", "green crystal pendant"],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure botanical serenity: symbolic beauty, no sensual emphasis.",
+    "1": "Soft natural intimacy: gentle shoulders and veil framing, tasteful realism.",
+    "2": "Refined allure: confident closeness and controlled silhouette, elegant and calm.",
+    "3": "Intense intimate magnetism: sensual tension expressed through gaze and texture, never explicit."
+  },
+  "HORROR_INTENSITY": {
+    "0": "gentle surreal calm, believable garden portrait",
+    "1": "subtle uncanny stillness, butterflies too still, expression too composed",
+    "2": "strong psychological unease, frozen petals and heavy mist, uncanny closeness",
+    "3": "oppressive silent dread, darkened foliage and ritual-like calm, no gore or magic effects"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A close-up botanical portrait of a woman in a green lace gown and delicate veil, backlit through mist as golden butterflies drift nearby, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An eye-level medium close-up in an enchanted forest at dusk, soft green glow shaping her serene face as petals fall into bokeh, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A dreamy garden portrait with green flowers and floating crystals, veil embroidery and silk folds captured in realistic shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A serene close-up with eyes closed, green veil with embedded sparkles and a crystal pendant rendered as believable photography in soft haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A calm direct gaze framed by a butterfly headpiece, warm misty backlight and subtle bloom keeping the face crisp against a green dreamscape, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A gentle melancholy portrait in a mystical floral garden, falling petals and soft green glow creating quiet surreal elegance without fantasy effects, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A harmonious surreal botanical editorial close-up, green silk robe and veil textures captured in ultra-detailed realism as butterflies hover in soft mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
