@@ -82,8 +82,8 @@
     "shamisen instrument"
   ],
   "HORROR_INTENSITY": {
-    "Whispered Shadows": "as if unseen spirits pass silently through bamboo groves",
-    "Silent Ancestry": "the air carries echoes of ancient swords and sorrowful vows",
-    "Haunting Elegance": "beauty laced with melancholy, as if haunted by forgotten love"
+    "0": "as if unseen spirits pass silently through bamboo groves",
+    "1": "the air carries echoes of ancient swords and sorrowful vows",
+    "2": "beauty laced with melancholy, as if haunted by forgotten love"
   }
 }
