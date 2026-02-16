@@ -1,0 +1,94 @@
+{
+  "WORLD_NAME": "PFN_Feline_Whisper_Closeup",
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in intimate, photorealistic close-up portraiture featuring a woman and her black cat with orange eyes in a quiet, tactile moment. When requested, return ONE single long cinematic sentence (180–240 words), without lists or line breaks, describing an extreme close-up or tight close-up composition where the black cat with orange eyes’s face presses near the woman’s cheek, with both sets of eyes readable and emotionally present. Keep the female subject intentionally generic and identity-neutral: avoid freckles, distinctive scars, unusual facial markings, or highly specific ethnicity cues unless the user explicitly provides them elsewhere; focus instead on clean skin realism, subtle pores, natural lips, soft under-eye texture, and restrained makeup. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, grounded image. Emphasize tactile fur detail, whisker sharpness, moist eye reflections, micro-contrast, and gentle depth of field that keeps both faces intimate and clear. Mention lens choice (85–105mm macro portrait feel), soft roll-off highlights, fine film grain, and a calm, domestic silence; no fantasy glow, no cartoon styling, no melodrama. Optionally include a subtle, non-commercial environmental trace of “TK” as a worn sticker, embossed tag, or faint reflection.",
+  "EPOCHS": [
+    "Timeless modern editorial portrait",
+    "Contemporary quiet domestic realism",
+    "Analog-inspired fine-art photography",
+    "Minimalist intimate portrait study"
+  ],
+  "OUTFITS": [
+    "Neutral linen top with soft folds",
+    "Simple cotton shirt with open collar",
+    "Bare shoulders with minimal fabric edge",
+    "Muted knit cardigan partially visible",
+    "Plain dark turtleneck framing the jawline"
+  ],
+  "LIGHTING": [
+    "Soft window light with gentle falloff",
+    "Overcast daylight diffusion, low contrast",
+    "Warm late-afternoon natural light, restrained",
+    "Cool indoor ambient with subtle bounce",
+    "Single soft key light, minimal fill"
+  ],
+  "BACKGROUNDS": [
+    "Muted neutral backdrop in soft focus",
+    "Quiet interior wall with subtle texture",
+    "Minimal curtain haze near window",
+    "Soft bedding tones, barely readable",
+    "Shadowed corner with gentle negative space"
+  ],
+  "OBJECTS": [
+    "Calm long-haired black cat with orange eyes pressed to cheek",
+    "Faint dust motes in shallow light beam",
+    "Worn fabric edge near the frame",
+    "Soft blanket texture under chin line",
+    "Small TK sticker on a distant surface"
+  ],
+  "POSES": [
+    "Cheek pressed gently to the black cat with orange eyes’s fur, stillness",
+    "Half-profile close-up with black cat with orange eyes filling foreground",
+    "Nose-to-fur contact, slow breath implied",
+    "Tight framing with the black cat with orange eyes’s face aligned beside hers",
+    "Hands out of frame to keep intimacy pure"
+  ],
+  "EXPRESSIONS": [
+    "Quiet tenderness, restrained",
+    "Neutral calm gaze, introspective",
+    "Soft protective focus on the black cat with orange eyes",
+    "Subtle melancholy without drama",
+    "Serene stillness, near-silent presence"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up, both faces filling frame",
+    "Tight close-up with shallow depth of field",
+    "Three-quarter close-up, black cat with orange eyes in near foreground",
+    "Macro-portrait perspective, 85–105mm feel",
+    "Eye-level intimacy, minimal background"
+  ],
+  "ATMOSPHERES": [
+    "Hushed domestic silence",
+    "Warm tactile closeness",
+    "Soft melancholic calm",
+    "Minimal, intimate realism",
+    "Quiet protective bond"
+  ],
+  "ACCESSORIES": [
+    "Minimal small hoop earring barely visible",
+    "Simple thin chain necklace, understated",
+    "Natural hair strands crossing the cheek",
+    "Soft matte lip tint, restrained",
+    "No heavy jewelry, no loud styling"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Purely tender and platonic intimacy",
+    "1": "Soft closeness, gentle warmth",
+    "2": "Intimate proximity, emotional charge",
+    "3": "Deep, private closeness without explicitness"
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror, calm realism",
+    "1": "Slight unease through silence only",
+    "2": "Low, psychological tension in the gaze",
+    "3": "Oppressive stillness, but grounded and real"
+  },
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up where a calm long-haired black cat with orange eyes presses its face against a generic, identity-neutral woman’s cheek, both sets of eyes crisp with moist reflections and fine whisker detail, the background dissolving into muted softness as window light wraps the skin and fur in tactile realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A tight intimate portrait with the black cat with orange eyes’s muzzle and whiskers filling the foreground beside the woman’s serene face, clean skin realism and restrained makeup kept neutral for identity mixing, shallow depth of field holding both eyes readable, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A macro-portrait close-up of a woman and her black cat with orange eyes in near-silent contact, fur strands and pores rendered with micro-contrast, soft overcast diffusion and fine film grain, no drama, only quiet bond, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An eye-level extreme close-up capturing a protective calm as the black cat with orange eyes’s face aligns beside the woman’s, gentle highlight roll-off, subtle black cat with orange eyeschlights, and a neutral minimal background that keeps the moment grounded and real, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A quiet fine-art close-up with the black cat with orange eyes’s fur brushing the woman’s lips and cheek, identity-neutral features kept clean for downstream mixing, 85–105mm macro feel, shallow depth of field, and restrained tonal palette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A tactile close-up where the black cat with orange eyes’s amber eyes and the woman’s calm gaze share the frame, subtle window bounce, minimal accessories, and a faint TK trace in the far background as a worn sticker, kept non-commercial and lived-in, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An intimate close-up portrait study focused on realism: whiskers, fur softness, skin texture, quiet breath, and a neutral face designed for identity mixing, captured with gentle diffusion and fine grain in a calm domestic silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

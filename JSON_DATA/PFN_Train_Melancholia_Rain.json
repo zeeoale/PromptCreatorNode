@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Train_Melancholia_Rain",
+  "SYSTEM_PROMPT": "You are a cinematic prompt architect specialized in intimate emotional realism set inside moving trains during rainfall. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, portraying a young woman seated inside a train carriage while rain streaks across the window beside her. The emotional core must revolve around introspection, quiet melancholy, and the sensation of time passing. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive scene without naming the categories explicitly. Emphasize reflections on wet glass, double exposure effects between her face and the blurred outside world, motion streaks from passing lights, shallow depth of field, cinematic grain, and natural skin texture. The subject must remain visually neutral and adaptable, avoiding fixed facial traits so identity can be defined externally. Include lens suggestion, framing style, light temperature, and overall color grading. The tone must feel authentic, restrained, and emotionally grounded rather than theatrical.",
+  
+  "EPOCHS": [
+    "modern contemporary train interior",
+    "late 90s European regional train",
+    "minimalist Scandinavian commuter train",
+    "vintage upholstered carriage with worn textures"
+  ],
+
+  "OUTFITS": [
+    "oversized wool coat over soft knit sweater",
+    "minimal black turtleneck and tailored trousers",
+    "casual hoodie layered under structured coat",
+    "simple cotton dress with light cardigan"
+  ],
+
+  "LIGHTING": [
+    "cool diffused daylight filtered through rain-covered glass",
+    "moody overcast ambient light with soft window glow",
+    "cold bluish morning light with muted contrast",
+    "subtle warm interior cabin lights contrasting grey exterior"
+  ],
+
+    "BACKGROUNDS": [
+    "blurred countryside dissolving into streaks of green and grey",
+    "industrial outskirts with passing warehouses and wet tracks",
+    "empty platforms fading into motion blur",
+    "distant city lights distorted by rainfall",
+    "stormy coastline glimpsed through rain-streaked glass",
+    "vast open fields under a pale overcast sky",
+    "mist-covered mountains sliding past in layered silhouettes",
+    "snow-covered forests softened by winter haze",
+    "lonely rural stations surrounded by quiet farmland",
+    "dark pine woods under low heavy clouds",
+    "frozen lakes reflecting a muted grey sky",
+    "rocky cliffs disappearing into coastal fog"
+    ],
+
+  "OBJECTS": [
+    "raindrops sliding slowly down the window",
+    "fogged glass with faint finger marks",
+    "a folded train ticket resting on her lap",
+    "a small travel bag placed beside the seat",
+    "condensation halo around the window edges"
+  ],
+
+  "POSES": [
+    "side profile close to the window, forehead almost touching the glass",
+    "slightly turned toward the rain-streaked window, hands resting quietly",
+    "leaning back into the seat, gaze drifting outside",
+    "subtle forward lean, elbows resting gently on knees"
+  ],
+
+  "EXPRESSIONS": [
+    "distant contemplative gaze",
+    "subtle sadness softened by calm acceptance",
+    "emotionally restrained introspection",
+    "quiet reflective stillness"
+  ],
+
+  "CAMERA_ANGLES": [
+    "intimate close-up through rain-covered glass",
+    "tight side-profile framing with reflection overlay",
+    "medium shot with shallow depth of field and heavy foreground bokeh",
+    "cinematic 50mm eye-level perspective with soft compression"
+  ],
+
+  "ATMOSPHERES": [
+    "late autumn melancholy",
+    "rain-soaked solitude",
+    "silent departure mood",
+    "quiet emotional transition"
+  ],
+
+  "ACCESSORIES": [
+    "minimal silver ring catching window light",
+    "thin scarf loosely wrapped around neck",
+    "earbuds resting unused in her hand",
+    "small leather journal partially visible"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "completely neutral and modest presentation",
+    "1": "subtle elegance through posture and framing",
+    "2": "soft intimate mood without exposure",
+    "3": "emotionally intimate but never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "faint existential undertone",
+    "2": "melancholic unease",
+    "3": "deep emotional isolation atmosphere"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A cinematic rainy train interior portrait of a young woman seated beside a rain-streaked window, her reflection softly blending with the blurred passing landscape outside, quiet melancholy filling the narrow carriage as cool daylight filters through wet glass, subtle film grain, shallow depth of field, muted grey-blue palette, natural skin tones, emotionally restrained atmosphere, 50mm lens perspective, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate close-up through rain-covered train glass, droplets sliding slowly as the woman’s face overlaps with distant motion-blurred countryside, cinematic natural lighting, cool diffused tones, soft reflections layering interior and exterior worlds, contemplative stillness, subtle analog grain texture, shallow focus portrait, emotional realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A moody train carriage scene during rainfall, the subject leaning toward the window with quiet introspection while city lights smear into luminous streaks beyond the wet glass, soft cabin glow mixing with cold exterior light, cinematic framing, restrained color grading, emotionally grounded composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Rain sliding down a train window as a solitary young woman sits in silence, her reflection layered over industrial outskirts dissolving into motion blur, cool autumn palette, soft shadows, intimate close framing, natural skin texture, subtle film grain, emotionally immersive mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A melancholic commuter train portrait captured through wet glass, droplets refracting dim daylight while the woman’s distant gaze merges with passing blurred landscapes, cinematic realism, muted tones, soft depth compression, quiet emotional tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Inside a rain-soaked train carriage, the young woman remains still as reflections shimmer across her face, blurred countryside streaking past in soft green-grey motion, shallow depth of field, cool overcast lighting, restrained cinematic atmosphere, emotional authenticity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A quiet autumn train journey under steady rain, close framing capturing condensation, reflections and subtle facial emotion as interior and exterior worlds merge across wet glass, cinematic 50mm realism, natural color grading, introspective solitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
