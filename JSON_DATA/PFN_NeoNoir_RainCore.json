@@ -1,0 +1,92 @@
+{
+  "WORLD_NAME": "PFN_NeoNoir_RainCore",
+
+  "SYSTEM_PROMPT": "You are a visual prompt composer specialized in atmospheric cyberpunk and neo-noir imagery focused on solitude, human fragility, urban decay, and restrained futurism. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, describing a believable cinematic scene that feels like a lost cyberpunk film still. Favor muted color grading, wet surfaces, fog, rain streaks, and silence over spectacle; avoid flashy aesthetics, exaggerated technology, neon overload, and anime influences. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, grounded composition where the character feels intimate and real, framed against a rain-soaked cityscape with distant skyscrapers and signage partially swallowed by mist. Emphasize tactile realism: damp fabric clinging subtly, condensation on metal railings, soft reflections on puddles, and low-key lighting shaped by diffused city glow with a restrained rim light. Mention a clear camera intent (medium shot, side profile, back view, or slightly low cinematic framing) and a plausible lens feel (35–85mm) with shallow to moderate depth of field, plus subtle post-process cues like fine film grain, gentle halation on highlights, micro-contrast, and a restrained vignette. Keep any tech details minimal—small indicators or subtle implants—never dominant; optionally include a faint environmental TK stencil on a wet wall or railing tag as a natural urban detail, not advertising.",
+
+  "EPOCHS": [
+    "near-future dystopia",
+    "late 21st century",
+    "cyberpunk neo-noir era"
+  ],
+  "OUTFITS": [
+    "loose cyberpunk jacket slipping from shoulders",
+    "simple tank top",
+    "minimal urban streetwear",
+    "worn fabric clothing",
+    "functional dystopian attire"
+  ],
+  "LIGHTING": [
+    "soft neon backlight",
+    "diffused city glow",
+    "low-key lighting",
+    "subtle rim light",
+    "ambient urban illumination"
+  ],
+  "BACKGROUNDS": [
+    "foggy megacity skyline",
+    "distant skyscrapers",
+    "neon signs partially obscured by mist",
+    "industrial urban structures",
+    "rain-soaked cityscape"
+  ],
+  "OBJECTS": [
+    "metal railing",
+    "balcony edge",
+    "distant flying vehicles",
+    "holographic signs in the background"
+  ],
+  "POSES": [
+    "leaning against a railing",
+    "sitting quietly on a balcony",
+    "standing still overlooking the city",
+    "resting arms on a metal barrier"
+  ],
+  "EXPRESSIONS": [
+    "melancholic",
+    "introspective",
+    "emotionally distant",
+    "quietly contemplative"
+  ],
+  "CAMERA_ANGLES": [
+    "medium shot",
+    "side profile",
+    "back view",
+    "slightly low angle cinematic framing"
+  ],
+
+  "ATMOSPHERES": [
+    "lonely",
+    "quiet dystopia",
+    "neo-noir mood",
+    "rainy night silence",
+    "urban melancholy"
+  ],
+  "ACCESSORIES": [
+    "subtle cybernetic implants",
+    "minimal tech details",
+    "small glowing indicators",
+    "functional dystopian accessories"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure realism: no sensual emphasis, only quiet human presence in rain and fog.",
+    "1": "Subtle intimacy: closeness through damp fabric, softened light on skin, restrained vulnerability.",
+    "2": "Refined allure: calm confidence and controlled silhouette, tasteful and grounded.",
+    "3": "Intense psychological closeness: charged eye contact and body language without explicitness, still realistic."
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror, only solitude and rain-soaked melancholy",
+    "1": "mild unease: deeper shadows, emptier streets, distant siren glow implied",
+    "2": "strong psychological pressure: oppressive fog, surveillance-like distance, silence feels heavy",
+    "3": "oppressive noir dread: claustrophobic framing, harsh low-key contrast, urban decay feels irreversible"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A medium-shot neo-noir portrait on a rain-soaked balcony, a lone figure leaning against a wet metal railing as fog swallows distant skyscrapers and muted city glow reflects in puddles, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A side-profile cinematic frame in heavy rain, loose jacket and worn fabric catching diffused city illumination while neon signage fades behind mist and industrial structures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A back-view urban silhouette overlooking a foggy megacity skyline, subtle rim light tracing damp shoulders as distant headlights smear softly through rainfall, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A quiet dystopian medium close-up with low-key lighting, condensation on a balcony edge and small glowing indicators kept minimal while silence dominates the rainy night, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A slightly low-angle neo-noir framing with restrained halation on wet highlights, the subject resting arms on a metal barrier as fog and rain reduce the city into muted bokeh, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A solitary cyberpunk film-still portrait with minimal tech detail and subtle implants, soft neon backlight and diffused city glow shaping a melancholic expression against rain-streaked concrete, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A calm contemplative scene in rainy night silence, muted colors and fine film grain over wet asphalt reflections and mist-obscured holographic signs, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

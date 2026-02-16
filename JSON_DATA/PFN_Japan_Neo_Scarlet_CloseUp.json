@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Japan_Neo_Scarlet_CloseUp",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt composer specialized in modern Japanese close-up portraiture blending traditional symbolism with contemporary urban nightlife aesthetics. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and visually coherent, without lists or line breaks. Focus on an extreme close-up portrait of a Japanese woman where facial features, skin texture, and expression dominate the frame while subtle environmental cues hint at Tokyo nightlife, red neon interiors, lacquered wood, shoji shadows, or dragon-patterned textiles. Always weave together elements from {{OUTFITS}}, {{LIGHTING}}, {{DAYTIME}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, {{ACCESSORIES}}, and {{COLOR_REALM}} without naming the categories. Emphasize realistic skin texture, subtle makeup glow, controlled sensuality, soft specular highlights, and shallow depth of field. Avoid anime exaggeration or fantasy distortions; maintain grounded realism with a modern editorial fashion tone. Lighting must feel intentional and cinematic, with strong red accents balanced by shadow. The result should feel like a high-end contemporary Tokyo portrait photograph captured in 4K with restrained color grading and atmospheric depth.",
+
+  "EPOCHS": [
+    "Contemporary Tokyo nightlife",
+    "Modern urban Japan",
+    "Neo-traditional fusion aesthetic"
+  ],
+
+  "OUTFITS": [
+    "Modern red silk kimono with golden dragon embroidery",
+    "Black lace qipao-inspired dress with Japanese detailing",
+    "Minimalist black satin robe with subtle oriental motifs",
+    "Sheer red fabric layered over structured bodice",
+    "Contemporary street-lux kimono jacket over sleek black top"
+  ],
+
+  "LIGHTING": [
+    "Deep red neon side lighting with soft shadow falloff",
+    "Scarlet rim light outlining hair and jawline",
+    "Low-key moody lighting with selective facial highlight",
+    "Warm tungsten glow against red ambient background",
+    "Soft bloom over glossy lips and cheekbones"
+  ],
+
+  "DAYTIME": [
+    "Midnight",
+    "Late night interior",
+    "Rain-soaked urban evening",
+    "Neon-lit Tokyo night"
+  ],
+
+  "BACKGROUNDS": [
+    "Red neon interior with blurred light streaks",
+    "Lacquered wooden walls with dragon tapestry",
+    "Shoji panels partially lit by crimson glow",
+    "Minimal dark studio with red accent light"
+  ],
+
+  "OBJECTS": [
+    "Subtle neon tube light behind subject",
+    "Dragon-pattern silk backdrop",
+    "Hanging paper lantern out of focus",
+    "Glossy lacquered wall reflections"
+  ],
+
+  "POSES": [
+    "Three-quarter close-up with chin slightly lowered",
+    "Head tilted gently toward camera with intense gaze",
+    "Shoulder turned subtly toward lens",
+    "Direct eye contact with controlled posture"
+  ],
+
+  "EXPRESSIONS": [
+    "Cold confident gaze",
+    "Soft parted lips with restrained sensuality",
+    "Subtle enigmatic half-smile",
+    "Emotionally composed yet seductive expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait",
+    "Tight 85mm lens framing",
+    "Shallow depth of field isolating face",
+    "Eye-level cinematic composition"
+  ],
+
+  "ATMOSPHERES": [
+    "Modern neo-noir intimacy",
+    "Luxurious nocturnal tension",
+    "Controlled sensual elegance",
+    "Urban mystique"
+  ],
+
+  "ACCESSORIES": [
+    "Delicate gold layered necklace",
+    "Long dangling gold earrings",
+    "Subtle neck tattoo partially visible",
+    "Minimal ear cuff jewelry"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Composed and elegant portraiture",
+    "1": "Subtle sensual undertones",
+    "2": "Noticeably seductive close-up emphasis",
+    "3": "Intense controlled sensuality focused on lips, gaze and neckline"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements",
+    "1": "Slight psychological tension",
+    "2": "Dark emotional undertone",
+    "3": "Strong oppressive nocturnal mood"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "An ultra-detailed extreme close-up portrait of a modern Japanese woman illuminated by deep red neon light, her flawless skin rendered with visible pores and subtle blush gradients as golden accessories glint softly against the surrounding darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic tight close-up capturing the sensual tension of a Japanese woman framed by scarlet glow and dragon-pattern silk, her glossy lips and steady gaze dominating the frame in modern neo-noir elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A hyper-realistic close-up portrait of a Tokyo nightlife muse bathed in crimson neon reflections, her black hair absorbing light while gold jewelry flickers softly against lacquered shadows, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An intimate scarlet-toned portrait where red ambient glow and controlled shadow sculpt a Japanese woman’s delicate features into a modern editorial masterpiece of restrained sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A high-end cinematic close-up blending traditional dragon motifs and contemporary neon light, her expression calm yet piercing beneath soft specular highlights and shallow depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A modern Tokyo night portrait rendered in deep ruby tones, her face framed by shadow and gold details while subtle bloom enhances lips and cheekbones in ultra-detailed realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "An extreme close-up of a contemporary Japanese beauty immersed in scarlet neon atmosphere, where controlled sensuality, glossy textures and cinematic lighting converge into a refined nocturnal vision, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "WORLD_NAME": "PFN_Only_Japan_Close",
+
+  "SYSTEM_PROMPT": "You are a professional prompt generator specialized in intimate extreme close-up portraiture set within authentic Japanese environments. When requested, return ONE single long cinematic sentence (180–240 words), without lists or line breaks, describing an extreme close-up portrait where the face dominates the frame while a clearly identifiable Japanese setting remains softly readable in the background—torii gates, bamboo forests, lantern-lit Kyoto alleys, shrine corridors, Shibuya rain reflections, zen gardens, or onsen steam. The subject must feel grounded, realistic, culturally respectful, and never anime-stylized or exaggerated. Emphasize tactile realism: visible skin texture, subtle breath in cold air, delicate kimono collar folds near the jawline, lacquered wood reflections, sakura petals drifting in shallow depth, rain beads clinging to lashes, and soft lantern diffusion shaping cheekbones. Lighting must remain cinematic and restrained: warm lantern glow, diffused moonlight, mist-filtered daylight, or muted rain-reflected neon. Mention lens choice (85mm portrait compression or tight 50mm), shallow depth of field isolating the eyes while preserving environmental readability, fine film grain, micro-contrast on skin, subtle halation on highlights, and restrained vignette. Avoid fantasy glow, avoid magical effects; mysticism must remain psychological and atmospheric through stillness, silence, and gaze.",
+
+  "EPOCHS": [
+    "Feudal Japan",
+    "Edo Period",
+    "Samurai Era",
+    "Post-war Showa Period",
+    "Modern Japan",
+    "Future Tokyo (restrained and realistic)"
+  ],
+
+  "OUTFITS": [
+    "White silk kimono with subtle sakura embroidery",
+    "Black and gold kimono with structured obi",
+    "Simple yukata with floral detailing",
+    "Modern minimalist black streetwear with subtle Japanese motifs",
+    "Traditional haori over neutral inner layers",
+    "Soft linen shrine maiden robe"
+  ],
+
+  "LIGHTING": [
+    "Warm lantern glow shaping facial structure",
+    "Soft moonlight with mist diffusion",
+    "Filtered bamboo forest daylight",
+    "Rain-reflected muted neon",
+    "Overcast shrine courtyard softness"
+  ],
+
+  "BACKGROUNDS": [
+    "Torii gate blurred in atmospheric depth",
+    "Lantern-lit Kyoto alley in soft focus",
+    "Bamboo forest fading into green haze",
+    "Rain-soaked Shibuya street with diffused signage",
+    "Mountain shrine wrapped in early morning mist",
+    "Snow-covered temple courtyard"
+  ],
+
+  "OBJECTS": [
+    "Paper fan partially visible near chin",
+    "Delicate parasol resting behind shoulder",
+    "Wooden prayer tablet (ema) held gently",
+    "Minimal carved wooden pendant",
+    "Subtle incense smoke drifting upward"
+  ],
+
+  "POSES": [
+    "Extreme close-up frontal stillness",
+    "Three-quarter close-up with lowered eyelids",
+    "Side profile close-up with subtle breath visible",
+    "Direct eye contact with restrained composure"
+  ],
+
+  "EXPRESSIONS": [
+    "Serene introspection",
+    "Quiet emotional ambiguity",
+    "Subtle melancholic calm",
+    "Focused composed gaze",
+    "Soft restrained vulnerability"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Tight 85mm portrait compression",
+    "Centered icon composition",
+    "Three-quarter shallow depth portrait",
+    "Eye-level cinematic close-up"
+  ],
+
+  "ATMOSPHERES": [
+    "Lantern haze and quiet snowfall",
+    "Soft drifting sakura petals",
+    "Rain mist suspended in air",
+    "Cold breath visible in moonlight",
+    "Still shrine silence at dawn"
+  ],
+
+  "ACCESSORIES": [
+    "Kitsune mask carried in hand, never glowing",
+    "Minimal wooden prayer beads",
+    "Traditional obi knot detail visible near collar",
+    "Subtle koi tattoo partially hidden beneath fabric"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely cultural and respectful portrait with modest framing.",
+    "1": "Subtle elegance through neckline and gaze.",
+    "2": "Controlled intimacy expressed via proximity and eye contact.",
+    "3": "High-fashion tension, restrained and realistic, never explicit."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Pure calm shrine stillness.",
+    "1": "Subtle unease in mist and silence.",
+    "2": "Psychological tension beneath composed beauty.",
+    "3": "Oppressive sacred stillness, ritual weight without spectacle."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "An extreme close-up Japanese portrait with lantern glow shaping alabaster skin while a torii gate remains blurred behind in atmospheric depth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A tight 85mm close-up capturing rain beads on lashes as muted Shibuya reflections blur behind in restrained neon haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "An intimate shrine portrait with soft snowfall drifting past shallow depth compression and subtle film grain over delicate kimono textures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A moonlit close-up beneath bamboo shadows with breath visible in cold air and temple forms fading softly behind, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A Kyoto alley close-up with paper lantern bokeh illuminating refined skin texture and restrained emotional stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A sakura-framed extreme close-up with petals drifting across shallow focus and micro-contrast emphasizing lifelike skin realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A zen garden close-up portrait with atmospheric dawn mist softening temple structures while eyes remain sharply defined in cinematic compression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "WORLD_NAME": "PFN_Biomech_Goth_Siren",
+
+  "SYSTEM_PROMPT": "You are a biomechanical couture art director. When requested, return ONE single long, multi-clause sentence (180–240 words), without lists or line breaks, depicting a fashion-forward biomechanical gothic siren whose silhouette fuses high-couture tailoring with hard sci-fi armor, specifying tactile materials such as glossy black latex, reflective enamel, brushed gunmetal, carbon-fiber inlays, polished chrome thorns, bio-organically ribbed plates, and tiny micro-LED runes etched like surgical sigils. Maintain a palette dominated by gunmetal, carbon black, cold cyan, and surgical white, with a single controlled accent of neon magenta or hazard red, never turning the scene into neon chaos. Define lighting precisely as cold rim light plus faint underlight, with tight flagging, crisp specular bloom, and a stated intensity feel, while the atmosphere remains minimal—sterile haze or near-void negative space with a clean cinematic finish. Always blend elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive, grounded fashion image that feels photographed, not illustrated. Mention camera and composition: 50–85mm lens, low three-quarter or heroic eye-level perspective, centered icon or triangular structure, and include 3–5 post-process cues such as micro-contrast, subtle chromatic shift, fine film grain, restrained vignette, and controlled specular bloom. Avoid videogame aesthetics, avoid fantasy magic effects, avoid narrative story beats.",
+
+  "EPOCHS": [
+    "Neo-Gothic Future",
+    "Cyberpunk",
+    "Post-Apocalypse",
+    "Biomech Renaissance",
+    "Retro-Futurism",
+    "Era of Dark Queens"
+  ],
+
+  "OUTFITS": [
+    "Biomech armor bodysuits",
+    "Glossy black latex bodysuits",
+    "Futuristic metallic sheaths",
+    "Asymmetrical draped gowns over armored underlayer",
+    "Studded corsets with carbon-fiber inlays",
+    "Mesh and gothic lace overlays on ribbed plates",
+    "Chrome spike thigh-high boots"
+  ],
+
+  "LIGHTING": [
+    "Cyan/neon rim lighting",
+    "Cold metallic reflections",
+    "Electric blue LED shine",
+    "Blood-red backlight as a single accent",
+    "Neutral cinematic fill with tight flagging",
+    "Dramatic contrast shadows"
+  ],
+
+  "BACKGROUNDS": [
+    "Empty fog-filled room with sterile haze",
+    "Hi-tech hexagonal patterns fading into void",
+    "Gothic-futurist skyline under cold cyan",
+    "Red velvet drapery as a controlled baroque accent",
+    "Ethereal mist and negative space"
+  ],
+
+  "OBJECTS": [
+    "Segmented armored plates with ribbed bio-structure",
+    "Glossy metal spikes and chrome thorns",
+    "Organic mechanical grafts along collarbone",
+    "Black biomech roses with carbon sheen",
+    "Horned crowns and diadems in brushed gunmetal",
+    "Clawed heels and polished enamel details"
+  ],
+
+  "POSES": [
+    "Challenging upright posture, shoulders squared",
+    "Hands on hips stance, controlled dominance",
+    "Aggressive seated position with sculptural stillness",
+    "Leg raised dominant stance, balanced and iconic",
+    "Kneeling regal pose, ceremonial calm",
+    "Subtle back arch, couture tension without exaggeration"
+  ],
+
+  "EXPRESSIONS": [
+    "Enigmatic stare",
+    "Cold distant look",
+    "Masked anonymity",
+    "Raised eyebrow with chill",
+    "Impassive, ethereal mood",
+    "Slightly parted lips, controlled menace"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Low angle heroic view, 85mm feel",
+    "Heroic eye-level three-quarter, 50mm feel",
+    "Monumental vertical shot with negative space",
+    "Tilted close-up on face and visor",
+    "Macro shot on suit details and chrome thorns",
+    "Dramatic side capture emphasizing silhouette"
+  ],
+
+  "ATMOSPHERES": [
+    "Sinister elegance",
+    "Icy allure",
+    "Futuristic suspense",
+    "Gothic ambiguity",
+    "Seductive darkness",
+    "Dreamlike surreal aura"
+  ],
+
+  "ACCESSORIES": [
+    "Metal horn diadems in brushed gunmetal",
+    "Textured visors and masks with micro-LED runes",
+    "Spiked biomech shoulderpads with chrome edges",
+    "Long latex gloves with enamel shine",
+    "Chrome jewelry with a single neon accent",
+    "Decorative harness belts with carbon-fiber inlays"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure couture armor: strictly fashion-tech, no sensual emphasis beyond silhouette and materials.",
+    "1": "Subtle allure: restrained body language, gentle highlights on latex and skin, tasteful closeness.",
+    "2": "Refined seduction: confident stance and controlled tension, sensuality expressed through couture fit and gaze.",
+    "3": "High-voltage magnetism: provocative dominance without explicitness, erotic charge carried by posture, shine, and eye contact."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "fashion-forward and clean: no gore, pristine chrome, sterile haze, controlled menace only",
+    "1": "suggestive threat: faint red accent glows, sharper shadows, slightly oppressive stillness",
+    "2": "ritual-biomech unease: subtle blood-tear makeup or porcelain cracking hints, invasive graft details kept elegant",
+    "3": "opulent dread: jagged implants and heavy biomech intrusion implied through texture and silhouette, monstrous sanctity without gore"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A monumental biomechanical couture portrait of a gothic siren in glossy black latex and brushed gunmetal, cold cyan rim light carving chrome thorns and micro-LED runes in sterile haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A heroic eye-level three-quarter fashion shot of a biomech goth queen, carbon-fiber inlays and polished enamel catching controlled specular bloom with one neon magenta accent, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A low-angle iconic portrait emphasizing silhouette and negative space, ribbed bio-plates and chrome spikes outlined by cold rim and faint underlight with tight flagging, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A tilted close-up with visor and mask textures, micro-LED runes etched like surgical sigils as sterile haze softens the background into near-void, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A macro-focused couture detail shot of chrome thorns, carbon weave, and glossy latex tension, cyan rim light and subtle underlight shaping specular bloom with fine film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A ceremonial biomech renaissance tableau with horn diadem and black biomech roses, controlled red accent backlight and cold cyan rim keeping the scene photographic and severe, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A vertical monumental fashion portrait of a cyber-goth siren, latex sheen and brushed gunmetal plates rendered ultra-real with micro-contrast, subtle chromatic shift, and restrained vignette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
