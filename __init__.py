@@ -8,6 +8,8 @@ from .nodes.director import DirectorNode  # v2 only
 from .nodes.session_load import DirectorSessionLoad
 from .nodes.session_merge import DirectorSessionMerge
 from .nodes.session_merge_dropdown import DirectorSessionMergeDropdown
+from .nodes.prompt_enhancer import PromptEnhancerNode
+
 
 
 
@@ -17,6 +19,8 @@ NODE_CLASS_MAPPINGS = {
     "DirectorSessionLoad": DirectorSessionLoad,
     "DirectorSessionMerge": DirectorSessionMerge,
     "DirectorSessionMergeDropdown": DirectorSessionMergeDropdown,
+    "PromptEnhancerNode": PromptEnhancerNode,
+
 
 
 
@@ -27,6 +31,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "DirectorSessionLoad": "Director Session Load",
     "DirectorSessionMerge": "Director Session Merge",
     "DirectorSessionMergeDropdown": "Director Session Merge (Dropdown)",
+    "PromptEnhancerNode": "PFN Prompt Enhancer",
+
 
 
 

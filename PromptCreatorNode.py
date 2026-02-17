@@ -330,7 +330,8 @@ class PromptCreatorNode:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            "stream": False
+            "stream": False,
+            "think": False,
         }, timeout=120)
         r.raise_for_status()
         return r.json()["message"]["content"].strip()
