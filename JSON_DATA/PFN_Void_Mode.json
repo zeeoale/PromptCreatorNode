@@ -1,0 +1,117 @@
+{
+  "WORLD_NAME": "PFN_Void_Mode",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in ultra-minimal, total-black, high-fashion portraiture set in controlled void-like environments where darkness becomes structure rather than absence, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic fashion image centered on a poised female figure dressed in layered black textiles, matte fabrics, sheer mesh, structured tailoring, latex accents, and sculptural silhouettes, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing negative space, controlled highlights, texture separation within black tones, subtle skin luminosity, and disciplined editorial tension, with a palette dominated by deep black, charcoal, graphite, muted obsidian, and restrained specular reflections, shallow-to-medium depth of field, precise rim lighting, cinematic low-key exposure, soft bloom on highlights, and a modern fashion-film finish, optionally integrating the brand TK as discreet tonal embossing or minimal metallic accent emerging subtly from shadow, never overt or commercial, while modulating intensity with {{SENSUALITY_LEVEL}} and tension with {{HORROR_INTENSITY}} without breaking the silent void atmosphere.",
+
+  "EPOCHS": [
+    "Contemporary high-fashion editorial present",
+    "Timeless modern minimalism",
+    "Post-industrial shadow architecture",
+    "Near-future monochrome couture"
+  ],
+
+  "OUTFITS": [
+    "Matte black tailored bodysuit with sculpted seams",
+    "Structured long black coat with sharp shoulders",
+    "Sheer mesh top layered over tonal bralette",
+    "Latex-accented fitted dress in deep obsidian",
+    "High-neck ribbed knit in charcoal black",
+    "Asymmetric draped black gown with minimal detailing",
+    "Black cropped jacket over fitted graphite trousers",
+    "Layered translucent organza over matte underlayer",
+    "Minimal harness detail over monochrome ensemble",
+    "Wide-leg tailored trousers in textured black wool",
+    "Sleek sleeveless turtleneck in jet black",
+    "Monochrome suit with elongated silhouette"
+  ],
+
+  "LIGHTING": [
+    "Sharp rim light carving silhouette from darkness",
+    "Low-key studio lighting with controlled highlights",
+    "Single top spotlight with deep shadow falloff",
+    "Minimal side light revealing fabric texture",
+    "Soft backlight emerging from black background"
+  ],
+
+  "BACKGROUNDS": [
+    "Total black seamless void",
+    "Matte black cyclorama with faint gradient",
+    "Architectural shadowed interior with invisible edges",
+    "Dark studio space with subtle floor reflection",
+    "Deep charcoal backdrop absorbing light"
+  ],
+
+  "OBJECTS": [
+    "Minimal metallic accessory catching a single highlight",
+    "Glossy black platform beneath the model",
+    "Subtle reflective floor surface",
+    "Thin black chair partially merging with background",
+    "Discrete tonal TK embossed detail emerging from shadow"
+  ],
+
+  "POSES": [
+    "Standing tall, arms relaxed, silhouette defined by rim light",
+    "Seated on low platform, posture composed and restrained",
+    "Profile pose with chin slightly lowered into shadow",
+    "Arms crossed, shoulders squared, controlled tension",
+    "Half-turn toward camera, body partially concealed by darkness",
+    "Hands resting along thighs, subtle forward lean",
+    "Standing with legs slightly apart, grounded presence",
+    "Seated upright with spine straight, quiet authority",
+    "Head tilted slightly downward, gaze upward from shadow",
+    "One shoulder advanced, sculptural balance",
+    "Knees bent while seated, silhouette sharply defined",
+    "Slow step forward emerging from darkness",
+    "Hands behind back, posture rigid and architectural",
+    "Leaning lightly against unseen wall, negative space emphasized",
+    "Torso angled while face remains frontal"
+  ],
+
+  "EXPRESSIONS": [
+    "Neutral gaze, emotionally unreadable",
+    "Quiet dominance, minimal facial movement",
+    "Detached calm with shadowed eyes",
+    "Subtle intensity beneath controlled exterior",
+    "Serious editorial expression with restrained tension"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Absolute silence, suspended in darkness",
+    "Low ambient hum in a shadowed studio",
+    "Still air, tension held in negative space",
+    "Monochrome stillness with subtle pressure",
+    "Void-like calm with cinematic weight"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal black choker in matte finish",
+    "Thin metallic pendant barely catching light",
+    "Graphite chain resting at collarbone",
+    "Subtle black gloves integrated into silhouette"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure editorial restraint, no sensual intent",
+    "1": "subtle presence through silhouette and fabric tension",
+    "2": "controlled magnetism emerging from shadow",
+    "3": "intimate proximity defined by contrast and darkness"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean minimal darkness",
+    "1": "slight unease through shadow depth",
+    "2": "oppressive negative space tension",
+    "3": "near-void alienation with psychological weight"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Ultra-minimal black fashion portrait in total void environment, poised female figure in layered monochrome textures, sharp rim light carving silhouette, silent editorial tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic low-key fashion scene dominated by deep black tones, structured tailoring and sheer mesh details, controlled highlights and disciplined atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Seated silhouette emerging from darkness, matte black outfit with subtle latex accents, minimal lighting defining edges and negative space, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Editorial portrait framed by absolute black background, sculptural posture and sharp rim light separating figure from void, controlled intensity and silent dominance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Profile silhouette partially swallowed by shadow, charcoal textures and refined highlights, cinematic minimalism and disciplined tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Front-facing minimalist black fashion image, negative space dominating composition, subtle metallic detail catching light, quiet authority in darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Clean void-inspired studio portrait in deep monochrome palette, smooth skin rendering against matte black textiles, restrained emotion and architectural silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
