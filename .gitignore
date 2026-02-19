@@ -9,3 +9,6 @@ history/*.txt
 # Logs
 logs/
 logs/*.jsonl
+
+#vscode
+.vscode/
