@@ -1,0 +1,112 @@
+{
+  "WORLD_NAME": "PFN_Void_Mode_V2",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in architectural void fashion portraiture where total black becomes spatial structure and geometric form rather than mere background, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic high-fashion image centered on a poised female figure emerging from sculptural black geometry, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing layered black tonal separation, subtle material contrast between matte, satin, velvet and structured fabrics, sharp geometric negative space, directional highlights carving planes in darkness, restrained specular reflections, controlled depth of field, disciplined low-key exposure, and monolithic compositional balance, optionally integrating TK as minimal tonal engraving or subtle metallic micro-detail barely visible in shadow, never commercial or intrusive, while modulating presence with {{SENSUALITY_LEVEL}} and psychological weight with {{HORROR_INTENSITY}} without breaking the silent architectural void atmosphere.",
+
+  "EPOCHS": [
+    "Contemporary sculptural couture",
+    "Modern monolithic minimalism",
+    "Neo-brutalist fashion environment",
+    "Timeless geometric austerity"
+  ],
+
+  "OUTFITS": [
+    "Long structured black robe with architectural folds",
+    "Sleeveless high-collar dress in deep velvet black",
+    "Minimal wrap-style black garment with clean lines",
+    "Textured matte black jumpsuit with angular seams",
+    "Layered black pleated skirt with rigid upper bodice",
+    "Sharp-shouldered cropped blazer with fluid lower silhouette",
+    "Black asymmetric tunic over fitted tonal underlayer",
+    "Velvet long-sleeve gown absorbing most highlights",
+    "Minimal column dress in dense matte black fabric",
+    "Structured corset-inspired top with clean geometric lines"
+  ],
+
+  "LIGHTING": [
+    "Narrow overhead strip light defining facial planes",
+    "Split lighting with one side dissolving into darkness",
+    "Hard edge light revealing geometric contours",
+    "Subtle underlighting creating sculptural shadows",
+    "Directional backlight outlining angular silhouettes"
+  ],
+
+  "BACKGROUNDS": [
+    "Total black void interrupted by massive black cubic forms",
+    "Matte black geometric panels forming abstract architecture",
+    "Angular shadow corridors in pure monochrome",
+    "Monolithic black slabs partially intersecting space",
+    "Black triangular structures emerging from darkness",
+    "Void space with sharp rectangular light cut barely visible"
+  ],
+
+  "OBJECTS": [
+    "Matte black pedestal with hard edges",
+    "Floating black geometric block near frame edge",
+    "Thin vertical black monolith behind subject",
+    "Subtle reflective black plane at floor level",
+    "Discrete tonal TK engraving on a geometric surface"
+  ],
+
+  "POSES": [
+    "Standing centered between two black monoliths",
+    "Seated on sharp-edged cube, posture rigid and composed",
+    "Half-profile framed by geometric negative space",
+    "Hands resting lightly on black pedestal edge",
+    "Standing with arms aligned to body creating vertical symmetry",
+    "Leaning subtly against angular black surface",
+    "Kneeling pose with structured spine and lowered chin",
+    "Direct frontal stance, shoulders squared and immobile",
+    "Head slightly tilted while body remains architecturally aligned",
+    "Slow step emerging from between black panels"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm, controlled detachment",
+    "Severe editorial composure",
+    "Measured intensity with minimal emotion",
+    "Cold stillness beneath subtle tension",
+    "Silent authority without aggression"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Architectural silence suspended in darkness",
+    "Monolithic stillness with geometric pressure",
+    "Controlled void with sculptural depth",
+    "Black-on-black tension with spatial discipline",
+    "Minimalist austerity with cinematic weight"
+  ],
+
+  "ACCESSORIES": [
+    "Thin matte black collar integrated into garment",
+    "Minimal metallic cuff with brushed graphite finish",
+    "Subtle geometric black earrings barely visible",
+    "Slim tonal belt merging with silhouette"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure structural editorial presence",
+    "1": "subtle elegance through silhouette",
+    "2": "controlled magnetism within geometry",
+    "3": "intimate proximity shaped by darkness and form"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean architectural void",
+    "1": "mild spatial unease through shadow contrast",
+    "2": "oppressive geometric tension",
+    "3": "monolithic psychological weight bordering abstraction"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Architectural black fashion portrait framed by massive geometric void structures, poised female figure in sculptural matte textures, directional lighting carving planes from darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Monolithic void environment with angular black panels surrounding a composed female silhouette, velvet and matte fabric absorbing light with disciplined precision, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "High-fashion minimalism set within intersecting black monoliths, structured garment and geometric negative space defining the composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Severe editorial portrait emerging between dark architectural forms, sharp light outlining planes in absolute black atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Cinematic void scene dominated by angular black slabs and disciplined silhouette, refined tonal separation within deep monochrome palette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Minimal geometric black environment with poised monastic presence, matte textures and hard-edged shadows sculpting the frame, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Sculptural void portrait defined by architectural symmetry and black-on-black contrast, controlled highlights and silent intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

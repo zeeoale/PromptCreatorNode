@@ -1,0 +1,100 @@
+{
+  "WORLD_NAME": "PFN_Void_Monastic_Mode",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in restrained, minimal, monastic-inspired fashion portraiture set in a pure black environment. Return ONE single long, highly detailed sentence (180-240 words), cinematic and cohesive, without lists or line breaks, describing a composed female figure immersed in a controlled void atmosphere where darkness is structural rather than dramatic. Emphasize stillness, discipline, architectural posture, matte textures, and sculpted light shaping the face and silhouette without gloss or theatrical shine. The subject must appear calm, self-contained, introspective, and emotionally unreadable, avoiding overt sensuality or dynamic motion. Integrate selected elements from {{OUTFITS}}, {{LIGHTING}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, and {{ACCESSORIES}} into a unified visual narrative. The lighting should remain soft yet precise, with subtle rim separation and deep shadow falloff into black, preserving clean contrast and negative space without exaggerated bloom. The overall tone must feel disciplined, silent, and timeless, like a contemporary monastic fashion study executed with aesthetic restraint and visual control.",
+
+  "OUTFITS": [
+    "high-neck structured matte black dress",
+    "long minimal monastic tunic in deep black fabric",
+    "asymmetrical draped garment with clean silhouette",
+    "tailored matte black coat with architectural shoulders",
+    "wrapped waist sash over structured long dress",
+    "floor-length minimal gown with zero shine texture",
+    "long sleeve fitted garment with clean seam lines",
+    "layered monk-inspired silhouette with restrained tailoring"
+  ],
+
+  "LIGHTING": [
+    "soft top light sculpting forehead and cheekbones",
+    "subtle rim light gently separating subject from black background",
+    "controlled shadow depth with precise falloff",
+    "low contrast but defined facial structure lighting",
+    "minimal overhead illumination creating calm symmetry",
+    "soft directional key light with restrained micro-contrast",
+    "matte skin rolloff without highlight bloom",
+    "deep black background absorbing excess light"
+  ],
+
+  "POSES": [
+    "standing upright with composed posture",
+    "hands calmly folded at waist",
+    "seated straight with shoulders relaxed",
+    "chin slightly lowered, gaze steady",
+    "side profile with quiet presence",
+    "still pose with minimal body movement",
+    "arms resting naturally without tension",
+    "balanced stance with symmetrical alignment"
+  ],
+
+  "EXPRESSIONS": [
+    "neutral and unreadable expression",
+    "quiet intensity without aggression",
+    "calm introspective gaze",
+    "emotionally restrained face",
+    "steady direct eye contact",
+    "soft but serious composure",
+    "detached serenity",
+    "minimal facial tension"
+  ],
+
+  "CAMERA_ANGLES": [
+    "centered eye-level portrait framing",
+    "slightly lower angle emphasizing presence",
+    "tight vertical composition",
+    "controlled close-up with black margins",
+    "medium portrait with symmetrical balance",
+    "half-body portrait with architectural framing"
+  ],
+
+  "ATMOSPHERES": [
+    "pure black void environment",
+    "deep silent studio darkness",
+    "minimal contemporary monastic mood",
+    "controlled negative space around subject",
+    "timeless restrained aesthetic",
+    "architectural stillness in darkness"
+  ],
+
+  "ACCESSORIES": [
+    "minimal thin metallic ring",
+    "subtle matte black bracelet",
+    "small understated pendant",
+    "no visible accessories",
+    "thin structured belt matching garment",
+    "discreet metallic accent with low reflectivity"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully restrained, no sensual emphasis",
+    "1": "subtle elegance without exposure",
+    "2": "slight body contour visibility",
+    "3": "defined silhouette but emotionally controlled"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "slight dramatic tension in lighting",
+    "2": "mild atmospheric darkness",
+    "3": "deep shadow intensity without fear cues"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A monastic-inspired fashion portrait set in absolute darkness, featuring a composed female figure standing in disciplined stillness, matte black garments sculpting her silhouette with architectural precision, soft top lighting shaping cheekbones and collarbones while shadows dissolve quietly into a pure black void, her expression calm, unreadable, and self-contained, atmosphere restrained and timeless, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a silent black studio environment, a poised female subject stands upright in a high-neck matte black dress, subtle rim light tracing her silhouette while soft overhead illumination defines her facial structure, the composition centered and symmetrical, mood contemplative and controlled, absence of gloss emphasizing discipline and restraint, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A contemporary monastic portrait emerging from deep blackness, the subject framed in architectural stillness, long structured garment absorbing light, calm gaze unwavering, soft sculpted lighting defining her presence without theatrical contrast, atmosphere silent and refined, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Minimalist fashion study inside a pure void, featuring a composed woman in a structured matte black coat, shadows falling cleanly into darkness, expression neutral and detached, posture balanced and centered, lighting restrained and precise, emphasizing form over drama, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A disciplined portrait set against deep absorbing black, long monastic-inspired silhouette and subtle metallic accents barely catching the light, soft top illumination sculpting features while negative space surrounds her in silence, atmosphere timeless and austere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Centered, controlled, and silent, a matte black garment defines the subject’s form within a minimal void, rim light gently separating her from darkness while her gaze remains calm and unreadable, composition architectural and balanced, mood restrained and introspective, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In a timeless black studio setting, a still female figure stands in composed alignment, high-neck structured attire absorbing light, subtle shadow sculpting and disciplined posture creating an austere monastic mood, emotion contained and presence defined by silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

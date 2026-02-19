@@ -1,0 +1,109 @@
+{
+  "WORLD_NAME": "PFN_Witch_And_BlackCat",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt generator specialized in dark gothic fantasy portraits centered on the intimate bond between a mysterious woman and her black cat familiar. When invoked, produce ONE single, highly detailed sentence (180–240 words), fluid and atmospheric, without lists or line breaks, blending selected elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, and {{ACCESSORIES}} into a cohesive visual scene. The woman must feel enigmatic, powerful, and emotionally layered, never caricatured, grounded in refined gothic aesthetics rather than theatrical fantasy excess. The black cat is not decorative but symbolic — a silent witness, a guardian, a familiar presence radiating subtle intelligence. Emphasize chiaroscuro lighting, textured fabrics, delicate skin realism, controlled shadows, and cinematic depth. The atmosphere should oscillate between occult intimacy and dark romantic elegance, where moonlight, mist, arcane symbols, and silent architecture frame the scene. Maintain visual sophistication, restraint, and aesthetic discipline, avoiding kitsch magic tropes, exaggerated fantasy clichés, or chaotic visual noise. The tone must remain poetic, controlled, and visually immersive, as if captured in a timeless gothic fine art photograph.",
+
+  "EPOCHS": [
+    "Gothic era",
+    "Victorian age",
+    "Dark fantasy realm",
+    "Modern urban night",
+    "Ancient occult ritual"
+  ],
+
+  "OUTFITS": [
+    "Black velvet gown with high collar",
+    "Lace corset with sheer sleeves",
+    "Minimal black silk dress",
+    "Structured gothic coat",
+    "Dark ritual robe with subtle embroidery"
+  ],
+
+  "LIGHTING": [
+    "Moonlit shadows",
+    "Streetlight neon haze",
+    "Cold blue mist",
+    "Golden twilight aura",
+    "Single candle illumination"
+  ],
+
+  "BACKGROUNDS": [
+    "Abandoned cathedral ruins",
+    "Misty graveyard",
+    "Dark alleyway",
+    "Enchanted forest at night",
+    "Room filled with arcane books"
+  ],
+
+  "OBJECTS": [
+    "Ancient grimoire",
+    "Broken mirror",
+    "Floating orbs of light",
+    "Wax-sealed letter",
+    "Old brass candlestick"
+  ],
+
+  "POSES": [
+    "Holding the black cat close to her chest",
+    "The cat perched on her shoulder",
+    "Seated while the cat gazes at the camera",
+    "The cat curled in her arms",
+    "Both staring into the darkness together"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm but mysterious",
+    "Melancholic gaze",
+    "Faint smile of hidden knowledge",
+    "Intense and dramatic",
+    "Eyes glowing subtly with arcane power"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Extreme close-up of the woman and the cat",
+    "Close-up of their faces side by side",
+    "The cat in sharp focus with the woman blurred",
+    "The woman in focus, the cat shadowed",
+    "Medium portrait with dramatic framing"
+  ],
+
+  "ATMOSPHERES": [
+    "Occult and enigmatic",
+    "Dreamlike and surreal",
+    "Heavy gothic mood",
+    "Dark romantic elegance",
+    "Arcane mystery"
+  ],
+
+  "ACCESSORIES": [
+    "Silver amulet",
+    "Runic tattoos",
+    "Dark veil",
+    "Crow feather earring",
+    "Occult rings"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Refined gothic elegance, fully composed presence",
+    "1": "Subtle sensual undertones through fabric and posture",
+    "2": "Dark romantic allure with emphasized silhouette",
+    "3": "Intimate, magnetic gothic sensuality balanced with restraint"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Subtle gothic charm with the black cat as a mystical companion",
+    "1": "Eerie connection, the cat’s eyes glowing faintly",
+    "2": "Unholy bond, the cat radiating shadowy aura",
+    "3": "Arcane manifestation, reality bending subtly around them"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A mysterious gothic woman and her black cat familiar captured in a cinematic dark portrait, refined occult elegance, chiaroscuro lighting, subtle arcane symbolism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A dark romantic witch holding her black cat under moonlit shadows, elegant gothic atmosphere, intimate mystical bond, dramatic lighting and rich textures, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A refined occult portrait of a woman and her black cat familiar in a gothic setting, cinematic shadows, arcane tension, poetic darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A mysterious Victorian witch and her black cat surrounded by mist and candlelight, dark romantic elegance, symbolic intimacy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A modern gothic portrait of a woman and her black cat in urban night shadows, minimal yet powerful occult atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "An arcane ritual scene with a composed witch and her black cat familiar, subtle supernatural tension, deep cinematic contrast, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A timeless gothic fine art portrait of a woman and her black cat bound by silent mystical connection, dark elegance and restrained magic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

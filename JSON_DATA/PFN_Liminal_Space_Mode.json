@@ -1,0 +1,114 @@
+{
+  "WORLD_NAME": "PFN_Liminal_Space_Mode",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in liminal architectural fashion imagery where a solitary female figure is placed inside empty, transitional, emotionally neutral spaces defined by repetition, symmetry, and artificial institutional lighting, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic fashion scene in which the subject appears composed, self-contained, and grounded within a vast empty environment such as corridors, lobbies, parking structures, or sterile halls, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing negative space, architectural repetition, subtle fluorescent or overhead lighting, soft institutional color grading, minimal emotional expression, natural skin tones without glamour glow, and a restrained cinematic finish, avoiding horror clichés, avoiding exaggerated glow, avoiding surreal distortion, and maintaining a realistic, physically plausible environment, optionally integrating the brand TK as a subtle engraved, printed, or embedded architectural detail within the space, never as bright neon, while modulating subtle tension with {{HORROR_INTENSITY}} and presence with {{SENSUALITY_LEVEL}} without breaking the liminal neutrality.",
+
+  "EPOCHS": [
+    "Contemporary architectural realism",
+    "Late 20th century institutional interior",
+    "Timeless transitional modern space",
+    "Minimalist urban emptiness"
+  ],
+
+  "OUTFITS": [
+    "Minimal tailored suit in muted tones",
+    "Structured monochrome coat with clean lines",
+    "High-neck minimalist dress in neutral fabric",
+    "Straight-cut trousers with fitted blazer",
+    "Long coat in desaturated gray or beige",
+    "Architectural sleeveless dress with rigid seams",
+    "Minimal column silhouette with no embellishment",
+    "Structured trench coat in institutional beige",
+    "Simple fitted bodysuit layered under tailored outerwear",
+    "Neutral-toned wide-leg trousers with precise tailoring"
+  ],
+
+  "LIGHTING": [
+    "Soft fluorescent ceiling lighting with even distribution",
+    "Institutional overhead panel light with subtle falloff",
+    "Flat diffused corridor lighting with mild green tint",
+    "Muted artificial lobby lighting with low contrast",
+    "Side light leaking softly from adjacent hallway"
+  ],
+
+  "BACKGROUNDS": [
+    "Empty concrete corridor with repeating ceiling lights",
+    "Underground parking structure with symmetrical columns",
+    "Large vacant lobby with polished floor and high ceiling",
+    "Sterile hallway fading gradually into darkness",
+    "Minimal institutional interior with beige walls and no decoration",
+    "Wide architectural passage with strong linear perspective",
+    "Empty airport-like waiting area with uniform lighting",
+    "Geometric space defined by repetition and symmetry"
+  ],
+
+  "OBJECTS": [
+    "Minimal concrete block positioned within space",
+    "Metallic bench aligned with corridor wall",
+    "Directional signage integrated into architecture",
+    "Subtle TK engraving on architectural surface",
+    "Muted floor reflection emphasizing emptiness"
+  ],
+
+  "POSES": [
+    "Standing centered in corridor, shoulders squared",
+    "Walking slowly forward with grounded posture",
+    "Still pose beneath ceiling lights, minimal movement",
+    "Seated alone on metallic bench, upright and composed",
+    "Half-turn within symmetrical hallway",
+    "Standing near concrete wall with arms relaxed",
+    "Facing camera directly within architectural frame",
+    "Profile stance aligned with corridor lines",
+    "Hands loosely at sides, gaze steady",
+    "Standing at intersection of two hallways"
+  ],
+
+  "EXPRESSIONS": [
+    "Neutral gaze with subtle introspection",
+    "Emotionally restrained expression",
+    "Calm presence within empty environment",
+    "Quiet self-awareness",
+    "Unwavering but non-dramatic eye contact"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Suspended silence within architectural emptiness",
+    "Subtle psychological stillness",
+    "Quiet institutional calm",
+    "Timeless transitional pause",
+    "Presence within spatial repetition"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal structured handbag in neutral tone",
+    "Thin metallic bracelet",
+    "Geometric earrings with matte finish",
+    "Simple leather belt with clean buckle"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure presence without sensual intent",
+    "1": "subtle magnetism through posture",
+    "2": "quiet allure within structured environment",
+    "3": "intimate intensity contained within stillness"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "calm architectural neutrality",
+    "1": "slight unease through emptiness",
+    "2": "subtle psychological tension in repetition",
+    "3": "oppressive stillness without overt horror"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Cinematic liminal architectural fashion portrait set in an empty corridor with repeating ceiling lights, composed female figure centered within vast institutional space, subtle fluorescent illumination and restrained emotional presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Minimalist fashion scene inside vacant lobby with polished floor and soft artificial lighting, solitary poised subject integrated into architectural symmetry and silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Wide symmetrical hallway fading into darkness with grounded female presence standing beneath muted ceiling panels, controlled institutional atmosphere and neutral tones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Underground parking structure with repeating concrete columns and soft overhead light, solitary figure aligned within geometric perspective and architectural silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Empty institutional hallway with beige walls and flat artificial illumination, composed subject positioned at center of spatial repetition and quiet stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Wide architectural passage defined by symmetry and repetition, minimalist fashion styling integrated within silent liminal environment and neutral color grading, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Sterile modern interior space with subtle fluorescent lighting and vast negative space, solitary female presence grounded in architectural calm and transitional atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

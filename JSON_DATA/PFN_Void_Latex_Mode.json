@@ -1,0 +1,115 @@
+{
+  "WORLD_NAME": "PFN_Void_Latex_Mode",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in ultra-minimal, total-black, high-fashion portraiture where glossy latex, polished leather, and reflective monochrome materials interact with controlled low-key studio lighting inside a void-like environment, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic fashion image centered on a poised female figure dressed in black latex, patent leather, vinyl, and high-gloss structured tailoring, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing specular highlights, micro-reflections across curved surfaces, controlled rim separation, skin-to-material contrast, and disciplined editorial intensity, with a palette dominated by deep black, liquid obsidian, graphite reflections, and sharp highlight accents, shallow-to-medium depth of field, precise rim lighting, sculptural top light, restrained bloom only on specular edges, and a modern fashion-film finish, optionally integrating the brand TK as a subtle metallic or embossed element emerging from reflection, never overt or commercial, while modulating intensity with {{SENSUALITY_LEVEL}} and tension with {{HORROR_INTENSITY}} without breaking the silent void atmosphere.",
+
+  "EPOCHS": [
+    "Contemporary high-fashion editorial present",
+    "Avant-garde monochrome couture",
+    "Post-industrial latex aesthetic",
+    "Near-future fetish-inspired minimalism"
+  ],
+
+  "OUTFITS": [
+    "Glossy black latex bodysuit with high-neck silhouette",
+    "Patent leather structured dress in liquid obsidian tone",
+    "Latex cropped jacket over fitted vinyl trousers",
+    "High-gloss vinyl pencil skirt with sculpted waist",
+    "Matte-and-gloss contrast bodysuit with reflective panels",
+    "Black latex gloves integrated into fitted long-sleeve ensemble",
+    "Polished leather corset layered over sheer black mesh",
+    "Structured latex coat with sharp shoulders and defined seams",
+    "High-waisted latex trousers with reflective sheen",
+    "Sleek vinyl turtleneck with micro-reflective surface",
+    "Latex harness detail over monochrome base layer",
+    "Minimal latex catsuit emphasizing curvature and highlight flow"
+  ],
+
+  "LIGHTING": [
+    "Sharp rim light carving glossy edges from darkness",
+    "Hard directional key light creating crisp specular highlights",
+    "Sculptural top light enhancing reflective curvature",
+    "Controlled side light revealing latex texture and sheen",
+    "Low-key studio lighting with high micro-contrast on gloss surfaces"
+  ],
+
+  "BACKGROUNDS": [
+    "Total black seamless void",
+    "Matte black cyclorama with faint gradient",
+    "Architectural shadowed interior with invisible edges",
+    "Dark studio space with subtle floor reflection",
+    "Deep charcoal backdrop absorbing light"
+  ],
+
+  "OBJECTS": [
+    "Minimal metallic platform catching sharp reflections",
+    "Black glossy pedestal merging with background",
+    "Thin chrome accessory reflecting controlled highlights",
+    "Subtle TK metallic accent emerging through reflection",
+    "Mirror-like floor surface amplifying specular tension"
+  ],
+
+  "POSES": [
+    "Standing tall, arms relaxed, glossy silhouette defined by rim light",
+    "Hands resting at hips, reflective surface catching top light",
+    "Profile pose emphasizing latex curvature and highlight flow",
+    "Seated upright, legs angled to accentuate reflective texture",
+    "Arms crossed with tension, specular lines tracing contours",
+    "Slow forward step, gloss surfaces reacting to directional light",
+    "Half-turn toward camera, reflective material shifting across form",
+    "Hands along thighs, controlled forward lean",
+    "Standing with legs slightly apart, grounded and architectural",
+    "Head slightly lowered while eyes remain forward, tension held",
+    "Shoulders squared, posture rigid and editorial",
+    "Seated on glossy platform with sharp edge reflections"
+  ],
+
+  "EXPRESSIONS": [
+    "Neutral gaze with restrained dominance",
+    "Controlled intensity, minimal facial movement",
+    "Emotionally unreadable expression under tension",
+    "Serious editorial presence with sharp focus",
+    "Quiet authority beneath reflective surfaces"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Absolute silence within reflective darkness",
+    "Tension suspended in negative space",
+    "High-contrast stillness with specular precision",
+    "Monochrome pressure amplified by gloss surfaces",
+    "Void-like calm disrupted only by highlights"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal black choker in matte finish",
+    "Thin metallic chain reflecting controlled highlights",
+    "Latex gloves extending to forearm",
+    "Polished graphite pendant resting at collarbone"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure editorial restraint with material focus",
+    "1": "subtle tension through reflective curvature",
+    "2": "controlled magnetism amplified by gloss contrast",
+    "3": "intimate proximity defined by specular tension"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean reflective minimalism",
+    "1": "slight unease through sharp highlights",
+    "2": "psychological tension within darkness and gloss",
+    "3": "oppressive void with aggressive specular contrast"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Ultra-minimal black latex fashion portrait in total void environment, glossy surfaces carved by rim light and sculptural top light, reflective tension and disciplined editorial presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic low-key scene dominated by liquid obsidian latex and patent leather textures, sharp specular highlights and controlled darkness, restrained but intense fashion atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Profile silhouette in glossy vinyl ensemble emerging from black void, reflective curvature enhanced by hard directional light and precise rim separation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Front-facing latex portrait with high micro-contrast and sharp highlight edges, sculptural posture and silent tension within negative space, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Seated reflective silhouette on glossy platform, obsidian textures reacting to controlled studio light, editorial minimalism amplified by specular flow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "High-gloss monochrome fashion image in absolute darkness, sculptural latex forms defined by rim light and top highlights, disciplined tension and architectural elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Clean void-inspired studio portrait in reflective monochrome palette, glossy latex surfaces contrasting smooth skin, restrained emotion and high-contrast editorial intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

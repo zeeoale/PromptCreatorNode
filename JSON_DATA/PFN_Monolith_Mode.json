@@ -1,0 +1,115 @@
+{
+  "WORLD_NAME": "PFN_Monolith_Mode",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in monumental, architecture-driven high-fashion portraiture where the female figure is presented as a sculptural presence integrated within rigid geometric environments, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic fashion image centered on a poised female figure dressed in structured tailoring, heavy fabrics, sculptural silhouettes, and architectural garments, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing verticality, symmetry, mass, tension, clean geometry, and controlled lighting that carves form from space, with a restrained palette of stone gray, deep charcoal, muted bronze, concrete tones, and subtle metallic accents, shallow-to-medium depth of field, strong directional or side lighting, minimal diffusion, crisp shadow transitions, and a modern architectural fashion-film finish, optionally integrating the brand TK as engraved stone detail, metallic inlay, or embossed architectural element within the environment, never overt or commercial, while modulating intensity with {{SENSUALITY_LEVEL}} and emotional weight with {{HORROR_INTENSITY}} without breaking the monumental atmosphere.",
+
+  "EPOCHS": [
+    "Contemporary architectural couture",
+    "Timeless monumental modernism",
+    "Brutalist fashion era",
+    "Near-future structural minimalism"
+  ],
+
+  "OUTFITS": [
+    "Structured long coat with exaggerated shoulders",
+    "High-neck sculptural bodysuit with rigid seams",
+    "Tailored wide-leg trousers in heavy fabric",
+    "Asymmetrical architectural dress with sharp edges",
+    "Minimal monochrome suit with elongated silhouette",
+    "Heavy structured cape falling in straight lines",
+    "Fitted corset layered under geometric outerwear",
+    "Monochrome trench coat with precise tailoring",
+    "High-waisted structured skirt with rigid volume",
+    "Boxy cropped jacket with clean vertical cut",
+    "Layered garments emphasizing vertical symmetry",
+    "Minimalist column dress in stone-gray tone"
+  ],
+
+  "LIGHTING": [
+    "Strong side light carving sharp facial structure",
+    "Directional top light emphasizing vertical lines",
+    "Hard key light with crisp architectural shadows",
+    "Low diffusion studio lighting with high clarity",
+    "Controlled rim light separating figure from rigid background"
+  ],
+
+  "BACKGROUNDS": [
+    "Concrete architectural wall with vertical seams",
+    "Brutalist interior space with geometric forms",
+    "Stone-gray monolithic slab rising behind subject",
+    "Minimalist architectural void with hard edges",
+    "Large rectangular structure casting sharp shadow"
+  ],
+
+  "OBJECTS": [
+    "Minimal stone pedestal elevating the figure",
+    "Metallic rectangular frame positioned vertically",
+    "Concrete block integrated into composition",
+    "Engraved TK monogram carved into stone surface",
+    "Subtle metallic inlay detail within architectural wall"
+  ],
+
+  "POSES": [
+    "Standing tall, shoulders squared, symmetrical stance",
+    "Arms relaxed but rigid, posture monumental",
+    "Profile pose emphasizing vertical alignment",
+    "Hands resting along thighs, controlled tension",
+    "Arms crossed, body centered within geometric frame",
+    "Seated upright with spine perfectly straight",
+    "One foot slightly forward, grounded authority",
+    "Chin slightly lifted, gaze level and unwavering",
+    "Back straight against architectural wall",
+    "Minimal movement pose emphasizing stillness",
+    "Half-turn maintaining rigid upper body alignment",
+    "Standing within rectangular frame, centered composition"
+  ],
+
+  "EXPRESSIONS": [
+    "Neutral expression with restrained authority",
+    "Calm dominance without visible emotion",
+    "Stoic gaze, emotionally unreadable",
+    "Controlled seriousness with structural tension",
+    "Silent confidence with unwavering eye contact"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Silent monumental stillness",
+    "Architectural calm with subtle tension",
+    "Heavy air, grounded presence",
+    "Minimal ambient sound within concrete space",
+    "Timeless stillness with structural weight"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal metallic cuff bracelet",
+    "Geometric ring in brushed steel",
+    "Thin structured belt with metallic buckle",
+    "Architectural pendant resting at sternum"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure structural presence, no sensual intent",
+    "1": "subtle allure through posture and silhouette",
+    "2": "controlled magnetism beneath rigid structure",
+    "3": "intimate intensity contained within monumentality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "calm monumental clarity",
+    "1": "slight unease through scale and shadow",
+    "2": "oppressive architectural weight",
+    "3": "overwhelming structural dominance"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Monumental architectural fashion portrait in structured stone-gray environment, sculptural female figure in rigid tailored garments, strong side light carving vertical lines and sharp shadows, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic architectural couture scene with geometric background and precise directional lighting, poised figure integrated within monolithic forms, disciplined symmetry and silent authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Structured silhouette standing before brutalist concrete wall, elongated tailoring and crisp shadow transitions defining presence and weight, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Front-facing monumental portrait framed by vertical architectural elements, rigid posture and minimal emotion within heavy geometric space, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Profile view highlighting structural garment seams and vertical alignment, strong side lighting and disciplined composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Symmetrical stance within rectangular architectural frame, stone textures and metallic accents reinforcing monumental fashion presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Clean architectural studio portrait in muted concrete palette, sculptural silhouette and restrained emotion within structured environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
