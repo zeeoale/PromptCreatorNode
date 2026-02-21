@@ -7,15 +7,19 @@ A powerful custom node for ComfyUI that generates rich, dynamic prompts based on
 
 ## Main Nodes
 
-#- Prompt Generator (main Node)
+### - Prompt Generator (main Node)
 
 <img width="479" height="1075" alt="image" src="https://github.com/user-attachments/assets/51e5b580-f621-452c-938f-946cb633a577" />
 
-#- Identity Mixer
+
+### - Identity Mixer
+
 
 <img width="479" height="808" alt="image" src="https://github.com/user-attachments/assets/466a2a43-8f49-46c7-b85e-698337b580de" />
 
-#- Connection Example
+
+### - Connection Example
+
 
 <img width="1035" height="1105" alt="image" src="https://github.com/user-attachments/assets/113f3169-3a39-4f48-bc7f-f28aacff7b0e" />
 
