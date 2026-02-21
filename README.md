@@ -5,10 +5,9 @@ A powerful custom node for ComfyUI that generates rich, dynamic prompts based on
 > Created with passion by traumakom  
 > Powered by Dante 🐈‍⬛, Helly 🐺, and Lily 💻
 
-<img width="325" height="739" alt="Screenshot_20260120_021750" src="https://github.com/user-attachments/assets/88e775dc-2b5a-45d9-a0e7-3d0afe5b346c" />
-<img width="332" height="739" alt="Screenshot_20260120_021811" src="https://github.com/user-attachments/assets/4af76762-d9b2-4d8c-beab-5ade6557810f" />
+<img width="1035" height="1105" alt="image" src="https://github.com/user-attachments/assets/113f3169-3a39-4f48-bc7f-f28aacff7b0e" />
+<img width="1035" height="1105" alt="image" src="https://github.com/user-attachments/assets/113f3169-3a39-4f48-bc7f-f28aacff7b0e" />
 
-<img width="1303" height="1032" alt="image" src="https://github.com/user-attachments/assets/abe5a3d3-abd6-4fe8-8c68-03c8c3714d61" />
 
 
 ## 🌟 Features
