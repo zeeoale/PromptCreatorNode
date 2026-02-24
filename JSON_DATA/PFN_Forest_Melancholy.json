@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Forest_Melancholy",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in melancholic forest portraiture with a couture-fairy-tale sensibility, focused on intimate, mossy woodland micro-worlds where beauty feels ancient and slightly haunted; when requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a solitary young woman drifting through a quiet forest clearing, always blending elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual narrative, emphasizing tactile natural detail such as velvet moss, bark fissures, damp lace, wind-lifted hair, petal bruising, pollen dust, and soft skin texture, with restrained color harmony (sage, olive, sepia gold, faded rose), shallow depth of field, gentle halation, and subtle film grain; maintain an elegant, traditional romantic mood that feels timeworn rather than trendy, avoid modern urban cues, keep sensuality poetic and implied (never vulgar), and when fitting integrate the brand “TK” organically as a small carved bark monogram, a tarnished metal tag, or a faint wax seal on an antique accessory, never as explicit advertising.",
+  "EPOCHS": [
+    "Early Dawn Whisper",
+    "Overcast Noon Stillness",
+    "Blue Hour Lament",
+    "Lantern Dusk Reverie",
+    "Moonlit Drift"
+  ],
+  "OUTFITS": [
+    "Off-shoulder lace dress with frayed hems and damp tulle layers",
+    "Corset bodice with delicate embroidery, paired with a translucent skirt",
+    "Victorian-inspired blouse with ruffled cuffs and soft gathered neckline",
+    "Antique slip dress under a loose knit shawl, edges slightly weathered",
+    "High-waist skirt with organza overskirt, stained with forest dew",
+    "Long-sleeve velvet dress with subtle moss speckling and worn seams",
+    "Delicate camisole and layered chiffon, cinched with a thin ribbon belt",
+    "Soft linen dress with lace inserts and faint mud-splatter patina"
+  ],
+  "LIGHTING": [
+    "Overcast diffuse light with soft shadowless wrap",
+    "Thin sunbeams breaking through canopy, gentle god rays",
+    "Backlit rim glow through mist, subtle halation",
+    "Late afternoon amber spill filtered by leaves",
+    "Cool blue hour haze with low contrast highlights",
+    "Moonlit sheen on damp fabric, minimal specular sparkle"
+  ],
+  "BACKGROUNDS": [
+    "Moss-covered fallen log in a quiet clearing",
+    "Birch grove with pale trunks and soft green bokeh",
+    "Deep forest path lined with ferns and wet leaves",
+    "Old tree roots forming a natural cradle of moss",
+    "Foggy woodland edge with distant dark pines",
+    "Stone and lichen outcrop beside a shallow stream"
+  ],
+  "OBJECTS": [
+    "Velvet moss clumps and delicate fern fronds",
+    "Thin twigs crossing the frame like calligraphy",
+    "Dried roses and bruised petals tucked into fabric folds",
+    "Antique brooch with tarnished filigree and hairline cracks",
+    "Small wax seal charm stamped with a faint 'TK' monogram",
+    "Torn ribbon strands caught on bark",
+    "Dew beads on lace, shimmering like tiny pearls",
+    "Mushroom caps and scattered acorn shells",
+    "Leaf-littered ground with damp, dark soil texture"
+  ],
+  "POSES": [
+    "Leaning shoulder-first against a mossy trunk, chin slightly raised",
+    "Lying on moss with hair fanned out, one hand resting near the face",
+    "Seated on a fallen log, knees angled toward camera, hands folded softly",
+    "Half-turn over the shoulder, skirt trailing into leaf litter",
+    "Crouched beside roots, fingers grazing moss as if listening",
+    "Reclined against stone, eyes lifted toward canopy light",
+    "Standing still on a narrow path, posture gentle and resigned"
+  ],
+  "EXPRESSIONS": [
+    "Soft melancholic gaze, eyelids heavy, lips barely parted",
+    "Distant longing, calm sadness without tears",
+    "Quiet vulnerability, unfocused eyes as if remembering",
+    "Subtle defiance beneath fatigue, mouth set with restraint",
+    "Dreamlike serenity, expression suspended between sleep and waking"
+  ],
+  "CAMERA_ANGLES": [
+    "Extreme close-up portrait with shallow depth of field and soft halation",
+    "Close-up three-quarter profile, twig crossing foreground bokeh",
+    "Top-down intimate framing on moss and hair textures",
+    "Low angle looking up through canopy, subject centered and still"
+  ],
+  "ATMOSPHERES": [
+    "Low rolling ground fog, drifting softly around fabric",
+    "Floating pollen and dust motes illuminated in god rays",
+    "Light drizzle residue, wet sheen on leaves and lace",
+    "Muted woodland hush, cinematic stillness and soft grain",
+    "Faint smoke-like mist curling from the forest floor"
+  ],
+  "ACCESSORIES": [
+    "Moss-and-twig crown with asymmetrical branches",
+    "flowers crown with asymmetrical branches",
+    "Dried flower headpiece with faded roses and seed pods",
+    "Delicate lace gloves with frayed cuffs",
+    "Tarnished earrings and antique rings with ornate settings",
+    "Thin choker ribbon with a tiny wax-seal pendant",
+    "Loose ribbon ties in hair, slightly tangled and damp"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Fully modest, romantic and reserved styling, no cleavage emphasis, gentle intimacy only.",
+    "1": "Softly suggestive through posture and fabric drape, tasteful neckline, never explicit.",
+    "2": "Elegant sensuality with couture silhouette and slightly deeper neckline, still poetic and restrained.",
+    "3": "High sensual tension through styling and pose while remaining classy, never vulgar or pornographic."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror, purely wistful forest romance with serene atmosphere.",
+    "1": "Mild uncanny undertone: fog, silence, slightly haunted beauty, subtle unease.",
+    "2": "Noticeable eerie mood: shadow shapes, unsettling stillness, hints of decay and omen-like details.",
+    "3": "Strong gothic-forest dread: oppressive mist, ominous silhouettes, disturbing nature cues while keeping elegance."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A quiet woodland extreme clouse-up portrait steeped in old-world melancholy, where a lone muse drifts through damp moss and pale birch light, her couture textures softened by fog and film grain, every detail tactile and timeworn, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate extreme close-up in a mossy clearing, twigs like fine calligraphy in the foreground and dew on lace catching faint sunbeams, her expression distant as if remembering something lost to the trees, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A romantic forest reverie with vintage couture and bruised petals, soft halation around highlights, drifting pollen in god rays, and a subtle ‘TK’ wax-seal charm hidden among antique accessories, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Blue-hour hush in deep woods, cool haze wrapping velvet moss and damp chiffon, cinematic stillness and restrained sorrow, with quiet decay in textures and leaf-litter underfoot, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A top-down, intimate tableau of hair and moss interwoven, lace sleeves and fern fronds framing a face lit by overcast softness, the forest feeling like an ancient chapel made of bark and mist, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A gentle gothic-fairy mood where beauty is traditional and timeworn, with moss crowns, tarnished jewelry, and faint smoke-like fog curling from the ground, the palette muted to sage, sepia, and faded rose, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A cinematic forest portrait poised between romance and omen, subtle unease in the silence, shadowed pines in the distance, and a barely carved ‘TK’ monogram on bark glimpsed like a secret mark of the world, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

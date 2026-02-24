@@ -1,0 +1,35 @@
+{
+  "WORLD_NAME": "PFN_Celestial_Tide",
+  "SYSTEM_PROMPT": "Immerse Katara in a surreal celestial ocean world where tides glow with starlight and floating isles drift amidst a serene night sky. The environment is rich with subtle TK signs integrated naturally, ancient stones, floating runes, and misty light beams. Focus on elegant, mystical aesthetics with contrast between deep blues and golden highlights, perfect for close-ups and graceful poses. The atmosphere should evoke calm majesty, magical serenity, and nostalgic reverence, emphasizing flowing garments, luminous reflections, and ethereal compositions. Scenes blend natural and mystical elements seamlessly, allowing character poses and accessories to harmonize with the environment, ensuring high detail, depth, and volumetric lighting throughout. The world is designed for ultra-detailed captures suitable for 4k renders, emphasizing serene majesty and celestial grandeur.",
+  "EPOCHS": [],
+  "OUTFITS": ["flowing celestial robes", "star-lit cape", "oceanic armor accents", "ethereal sandals", "glowing jewelry"],
+  "LIGHTING": ["moonlit glow", "starlight reflections", "bioluminescent shimmer", "soft golden highlights", "volumetric mist"],
+  "BACKGROUNDS": ["floating tidal rocks", "ethereal misty ocean", "starry night sky", "galaxy reflections in water", "ancient stone runes"],
+  "OBJECTS": ["floating runes", "glowing shells", "mystic water orbs", "celestial sigils", "ancient stones with TK marks"],
+  "POSES": ["graceful standing on tidal rock", "reaching towards starlit sky", "floating above water", "gentle wave interaction", "looking over horizon with flowing cape"],
+  "EXPRESSIONS": ["serene", "majestic", "mystical gaze", "gentle smile", "contemplative"],
+  "CAMERA_ANGLES": ["low angle looking up", "top-down from above water", "slightly tilted close-up", "medium distant framing with reflection", "side profile with flowing garments"],
+  "ATMOSPHERES": ["mystical fog", "celestial sparkle", "soft glowing mist", "ethereal luminescence", "tranquil tidal ambiance"],
+  "ACCESSORIES": ["glowing jewelry", "star-shaped hairpins", "ethereal sashes", "mystical bracelets", "floating runic charms"],
+  "SENSUALITY_LEVEL": {
+    "0": "innocent and graceful",
+    "1": "softly alluring",
+    "2": "elegant and captivating",
+    "3": "powerful goddess aura"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "slight ethereal shadows",
+    "2": "mysterious dark mist",
+    "3": "celestial storm and deep ocean abyss"
+  },
+  "CUSTOM_INTRO": {
+    "0": "Katara standing on a luminous tidal rock, starlight reflecting in flowing water, ethereal mist swirling around, elegant flowing garments, celestial symbols faintly glowing, soft luminescence, high detail, serene majesty, magical atmosphere, subtle TK urban signs integrated in environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Katara reaching toward a starlit sky above floating islands, gentle waves reflecting cosmic light, ethereal cape flowing, mystical runes hovering nearby, serene elegance, delicate glow, subtle TK symbols, high resolution, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting",
+    "2": "Floating above a celestial ocean, Katara's robes illuminated by bioluminescent shimmer, mist curling around ethereal stones, calm and mystical expression, starry reflections, integrated TK marks, magical serene aura, high detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting",
+    "3": "Side profile of Katara interacting with gentle waves under moonlit glow, flowing garments catching starlight, subtle runic charms floating nearby, mystical and graceful atmosphere, TK integrated naturally, high-resolution composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting",
+    "4": "Katara on floating tidal rocks, looking contemplative at galaxy reflections in water, ethereal mist enveloping environment, soft golden highlights, celestial sigils glowing faintly, elegant and magical ambiance, subtle TK urban motifs, high detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting",
+    "5": "Medium distant framing of Katara with flowing cape, mystical water orbs hovering nearby, ethereal fog and celestial sparkle surrounding, serene majesty, integrated TK details, magical atmosphere, high-detail render, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting",
+    "6": "Katara standing on tidal rock at dusk, bioluminescent waves reflecting starlight, ancient stones with TK markings around, mystical mist and subtle golden highlights, graceful and majestic pose, serene magical aura, high detail, masterpiece, best quality, amazing quality, 4k, very aesthetic, ultra-detailed, newest, scenery, depth of field, volumetric lighting"
+  }
+}

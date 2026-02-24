@@ -1,0 +1,90 @@
+{
+  "WORLD_NAME": "PFN_Primordial_Creation",
+  "SYSTEM_PROMPT": "Katara exists as the primordial principle of creation, neither benevolent nor malevolent, but the silent origin from which existence unfolds. She stands or sits upon an infinite matte black reflective field representing the void before form. Above her, the universe slowly takes shape: distant galaxies emerging, faint nebulae forming, subtle cosmic light diffusing through vast darkness. The environment is minimal, monumental, and symmetrical, emphasizing silence, balance, and eternal presence. Her posture is composed and statuesque, inspired by classical sacred iconography. Sensuality is refined and non-vulgar, expressed through graceful body lines, soft celestial drapery, gentle highlights on skin, and quiet magnetic presence. No chaos, no explosion — only cosmic inevitability. The composition must feel timeless, dignified, and iconographic, suitable for ultra-detailed 4k renders, with depth of field, volumetric lighting, and subtle reflections on the black ground.",
+  "EPOCHS": [],
+  "OUTFITS": [
+    "minimal celestial drapery",
+    "flowing ethereal fabric",
+    "structured divine silhouette gown",
+    "soft translucent layered robes",
+    "cosmic-thread ornamented mantle"
+  ],
+  "LIGHTING": [
+    "soft starlight rim light",
+    "subtle cosmic glow from above",
+    "gentle volumetric celestial haze",
+    "faint horizon light separation",
+    "delicate skin contour highlights"
+  ],
+  "BACKGROUNDS": [
+    "infinite matte black reflective field",
+    "perfectly flat endless horizon",
+    "slowly forming galaxies above",
+    "deep space nebula diffusion",
+    "minimal cosmic sky with distant stars"
+  ],
+  "OBJECTS": [
+    "subtle star particles",
+    "faint cosmic dust trails",
+    "soft light reflections on ground",
+    "distant forming constellations",
+    "bare infinite void surface"
+  ],
+  "POSES": [
+    "cross-legged centered meditation pose",
+    "seated on ground with legs folded to one side, one hand resting on thigh",
+    "full-body symmetrical standing pose",
+    "calm upright stance with relaxed arms",
+    "slight three-quarter contemplative seated pose"
+  ],
+  "EXPRESSIONS": [
+    "serene neutrality",
+    "distant contemplative gaze",
+    "soft authoritative calm",
+    "emotionless divine stillness",
+    "subtle almost imperceptible smile"
+  ],
+  "CAMERA_ANGLES": [
+    "full_body",
+    "worms_eye",
+    "very_high_top_down",
+    "medium_shot",
+    "three_quarter",
+    "dutch_tilt"
+  ],
+  "ATMOSPHERES": [
+    "cosmic silence",
+    "primordial stillness",
+    "monumental sacred emptiness",
+    "slow universal emergence",
+    "eternal void equilibrium"
+  ],
+  "ACCESSORIES": [
+    "subtle cosmic aura halo",
+    "delicate stardust around fingers",
+    "minimal celestial hair ornament",
+    "thin luminous arm bands",
+    "faint reflective sheen on skin"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "sacred and distant presence",
+    "1": "subtle graceful allure",
+    "2": "refined divine femininity",
+    "3": "powerful monumental feminine aura"
+  },
+  "HORROR_INTENSITY": {
+    "0": "none",
+    "1": "subtle existential vastness",
+    "2": "deep cosmic emptiness",
+    "3": "overwhelming infinite void scale"
+  },
+    "CUSTOM_INTRO": {
+    "0": "Katara standing perfectly centered on an infinite matte black reflective field, arms relaxed at her sides, the universe slowly forming above her, monumental symmetry, serene neutral expression, soft celestial rim light outlining her silhouette, sacred primordial stillness, refined divine femininity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Katara standing in a calm three-quarter pose on endless black ground, one hand gently resting near her collarbone, distant galaxies emerging overhead, subtle cosmic glow shaping her figure, elegant drapery falling naturally, quiet magnetic presence, timeless iconographic composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Katara seated on the infinite void with legs folded to one side, torso upright and dignified, one hand resting softly on her thigh, contemplative gaze toward the forming cosmos, soft horizon line separating void and universe, refined celestial sensuality, monumental sacred balance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Full-body upright pose of Katara standing tall on the black reflective plane, subtle reflection beneath her feet, arms slightly open in quiet acceptance, faint nebula diffusion above, serene authoritative calm, structured divine silhouette, eternal primordial presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Worm's-eye perspective of Katara standing against a vast forming universe, infinite void stretching below, soft cosmic glow outlining her body lines, monumental scale contrast, emotionless divine stillness, flowing ethereal fabric following gravity, sacred primordial aura, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Very high top-down view of Katara standing alone on a perfectly flat black plane, small yet centered in infinite space, faint cosmic reflection surrounding her form, minimal universe emerging at the horizon, calm sacred geometry, refined feminine presence without exaggeration, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Katara standing with weight slightly shifted to one leg on the infinite void, subtle dutch tilt composition creating quiet transcendence, slow galaxy formation above, soft celestial haze diffusing light around her silhouette, serene neutral expression, elegant divine posture, refined non-vulgar sensuality, monumental primordial presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

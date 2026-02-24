@@ -1,0 +1,104 @@
+{
+  "WORLD_NAME": "PFN_Green_Decay",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in sealed interior minimalism where refined contemporary fashion exists inside closed brutalist architecture slowly overtaken by controlled botanical decay. The environment must ALWAYS be an enclosed space with no visible sky, no horizon line, no exterior openings, and no natural sunlight source—light comes only from artificial gallery panels, diffused ceiling strips, or indirect reflected glow. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a fashion-forward female subject as the clear focal point within a claustrophobic yet elegant geometric interior. Nature appears as subtle invasion: ivy threading through hairline cracks, moss softening edges of concrete blocks, condensation on sealed walls, roots emerging from fractures in matte stone. Keep it grounded, realistic, editorial—not fantasy, not post-apocalyptic, not abandoned outdoors. The tone must remain minimal, decadent, restrained, emphasizing texture realism: damp concrete pores, oxidized metal, velvet fabric weight, controlled green accents. Include subtle environmental traces of the brand “TK” as faint engravings, aged stencils, embossed hardware, or reflections integrated naturally into surfaces.",
+  
+  "EPOCHS": [
+    "Contemporary sealed gallery interior",
+    "Timeless brutalist chamber",
+    "Post-industrial exhibition space after artificial rain",
+    "Near-future closed sanctuary reclaimed from within"
+  ],
+  "OUTFITS": [
+    "Tailored charcoal suit with a deep forest-green silk camisole, sharp shoulders, clean waist",
+    "Matte black turtleneck bodysuit under an olive satin trench coat, belt loosely cinched",
+    "Deep emerald velvet slip dress with minimal seams, liquid drape, thin straps",
+    "Black leather corset top paired with high-waisted moss-green trousers, crisp pleats",
+    "Ivory structured coat over a dark green rib-knit dress, monochrome restraint with one accent",
+    "Black satin blouse with botanical jacquard sheen, paired with pencil skirt and thin belt",
+    "Dark green latex gloves with an otherwise matte outfit, controlled contrast, fashion-forward",
+    "Minimal black dress with a single emerald lining flash at the slit, sculpted silhouette"
+  ],
+  "LIGHTING": [
+    "Soft diffused ceiling panel lighting, evenly controlled",
+    "Low side key artificial light, subtle shadow sculpting",
+    "Top-down gallery illumination, neutral and clinical",
+    "Indirect reflected glow from pale concrete surfaces",
+    "Moody artificial strip lights creating controlled highlights"
+  ],
+  "BACKGROUNDS": [
+    "Windowless concrete chamber with artificial ceiling light panels",
+    "Minimalist cube room with no exterior reference, geometric walls",
+    "Industrial hall interior, ceiling grids visible, no sky",
+    "Matte charcoal architectural blocks stacked inside a sealed space",
+    "Concrete corridor with no visible exits, humidity lingering",
+    "Closed brutalist interior with heavy monolithic pillars"
+  ],
+  "OBJECTS": [
+    "Ivy tendrils wrapping around sharp corners like delicate jewelry",
+    "Hairline cracks in concrete filled with thin roots and dark soil",
+    "Oxidized brass hardware with a muted green patina, faint TK emboss on a clasp",
+    "Damp stone dust and subtle water droplets on surfaces, realistic micro-texture",
+    "Fallen leaves and moss fragments arranged by gravity along ledges",
+    "Black ceramic vase with a single trailing vine, minimalist still-life accent",
+    "Worn concrete block with a barely readable TK engraving, aged and subtle",
+    "Soft fog of humidity at floor level, like breath on cold stone"
+  ],
+  "POSES": [
+    "Standing close to a concrete wall, one shoulder grazing it, fingers lightly touching ivy",
+    "Seated on a monolithic block, knees angled, posture composed and editorial",
+    "Half-turn toward camera, chin slightly lowered, hands clasped at waist, calm control",
+    "Leaning forward with forearms on thighs, gaze steady, roots and seams behind her",
+    "One hand lifting a vine away from her collarbone, the other relaxed by her side",
+    "Walking past geometric pillars, coat moving subtly, greenery brushing the hem",
+    "Reclined against a block edge, neck elongated, minimal movement, high-fashion stillness",
+    "Crouched near a cracked seam, fingertips tracing moss, expression restrained"
+  ],
+  "EXPRESSIONS": [
+    "Quietly intense gaze, lips relaxed, composed and untouchable",
+    "Melancholic calm, soft eyes, minimal emotion, editorial restraint",
+    "Subtle knowing half-smile, controlled and elegant, never playful",
+    "Distant focus as if listening, eyes slightly narrowed, cinematic stillness",
+    "Neutral expression with heavy-lidded eyes, intimate and minimal",
+    "Cold serenity, chin lifted a fraction, confident silence"
+  ],
+  "CAMERA_ANGLES": [],
+  
+  "ATMOSPHERES": [
+    "Claustrophobic elegance with controlled humidity",
+    "Silent enclosed space, fashion as the only presence",
+    "Minimal negative space interrupted by creeping greenery",
+    "Muted palette with deep greens and damp stone neutrals",
+    "Artificially lit interior after controlled rainfall"
+  ],
+  "ACCESSORIES": [
+    "Thin oxidized silver rings with subtle patina, minimalist stack",
+    "Matte black choker with a tiny TK-embossed clasp hidden at the back",
+    "Small hoop earrings with aged metal finish, understated",
+    "Delicate chain necklace resting on collarbone, cool-toned highlights",
+    "Structured mini bag in charcoal leather with faint botanical emboss",
+    "Minimal belt with brushed metal buckle, slight green oxidation",
+    "Black ankle boots with clean lines, damp sheen on the sole edge",
+    "Sheer black stockings with subtle texture, editorial and restrained"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure fashion editorial, fully portrait-safe, sensuality only through styling and mood.",
+    "1": "Subtle intimacy: body language, fabric tension, collarbones, and quiet confidence.",
+    "2": "Stronger allure: fitted silhouettes, controlled skin glimpses, tactile materials, still tasteful.",
+    "3": "High sensual charge: bold couture cuts and close proximity framing, intense but elegant, never explicit."
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror: serene minimal architecture with gentle botanical accents.",
+    "1": "Mild unease: damp shadows, quiet abandonment, nature creeping in slowly.",
+    "2": "Noticeable dread: aggressive roots in cracks, suffocating ivy presence, heavier darkness.",
+    "3": "High tension: claustrophobic takeover, choking vines, oppressive humidity—still realistic and refined."
+  },
+  "CUSTOM_INTRO": {
+    "0": "A minimalist fashion portrait in an austere concrete corridor where razor-clean geometry is slowly reclaimed by ivy and thin roots, the subject poised in couture restraint with damp stone textures and soft green bounce light shaping her face, subtle TK traces embedded as worn engravings in oxidized hardware, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A cinematic close-up with negative space dominating the frame, pristine charcoal planes interrupted by velvety moss and condensation, the model’s expression calm and distant as fine vines graze her shoulder and catch rim light, minimal patina details and a faint TK stencil ghosting the wall, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A full-body editorial scene in a gallery-like room of stacked monolithic blocks, seams webbed with roots and damp green growth, her tailored silhouette cutting through the humidity haze while satin and leather pick up controlled specular highlights, TK embossed subtly on a clasp, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "An intimate mid-shot where the subject leans against concrete, fingertips lifting a vine from her collarbone like jewelry, overcast skylight and soft haze separating her from the geometric background as moss softens edges and patina breathes on metal, faint TK engraving integrated into the set, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A moody side-lit portrait with crisp shadow falloff, wet stone pores and micro-cracks rendered with tactile realism, forest-green accents kept restrained as living growth threads through architecture, her gaze steady and composed, TK appearing only as a worn reflection on brushed metal, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A near-future minimalist sanctuary after the rain, concrete stairwell geometry stained by time and invaded by climbing ivy, the subject walking past pillars with subtle coat motion, humidity lingering low, couture textures and patina details grounded and real, TK hidden as embossed hardware, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A restrained decadent composition where pristine neutral architecture becomes a living frame, roots stitching cracks like fine seams while the model sits on a monolithic block in velvet and satin, calm expression and intimate proximity, green bounce and rim light carving her silhouette, TK present as faint aged stencil beneath foliage, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

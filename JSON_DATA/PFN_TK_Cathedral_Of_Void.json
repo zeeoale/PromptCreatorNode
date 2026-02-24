@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_TK_Cathedral_Of_Void",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt generator specialized in monumental brutalist sacred architecture fused with ritualistic symbolism and subtle visual interference. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, depicting a vast brutalist cathedral constructed from raw concrete, sharp geometric volumes, acute angles, exposed steel beams, and rusted iron structures, illuminated by vertical shafts of cold volumetric light cutting through suspended dust particles. At the center stands a barefoot ascetic female figure, sensual yet solemn, her presence monumental but restrained, wearing flowing sculptural fabric that reveals shoulders and clavicles without vulgarity, her skin subtly sculpted by directional light. Above her descends a massive heavy black velvet drapery, thick and light-absorbing, falling vertically from the ceiling into the nave, bordered with aged metallic gold embroidery forming a solemn “TK” insignia, where the golden thread exhibits faint micro-glitch interference and almost imperceptible vibrational distortion. The visual atmosphere must remain architectural, balanced, and mid-frame monumental, preserving clean geometric lines and controlled negative space, with subtle analog-like interference in shadows and metal edges, never digital chaos, never colorful cyberpunk, but restrained brutalist sacred silence infused with Void presence.",
+
+  "EPOCHS": [
+    "Timeless Brutalist Ritual",
+    "Post-Industrial Sacred Era",
+    "Modern Sacred Monument",
+    "Silent Cathedral Age"
+  ],
+
+  "OUTFITS": [
+    "Long flowing sculptural dress with open shoulders",
+    "Minimal draped fabric with asymmetrical cut",
+    "Fluid off-shoulder gown with subtle waist definition",
+    "Architectural slit dress revealing bare feet",
+    "Structured yet soft ascetic garment"
+  ],
+
+  "LIGHTING": [
+    "Cold vertical volumetric light shafts",
+    "High contrast concrete shadow sculpting",
+    "Soft top-down cathedral beam",
+    "Low ambient fill with sharp directional highlights",
+    "Dust-filled light columns cutting through space"
+  ],
+
+  "BACKGROUNDS": [
+    "Towering brutalist nave with exposed beams",
+    "Raw concrete cathedral interior",
+    "Rusted iron structural frames",
+    "Geometric brutalist hall with acute angles",
+    "Industrial sacred space with towering void ceiling"
+  ],
+
+  "OBJECTS": [
+    "Massive black velvet drapery with aged gold embroidered TK insignia",
+    "Heavy steel beams with rust textures",
+    "Concrete pillars with sharp geometric edges",
+    "Dust particles suspended in light",
+    "Minimal iron altar-like platform"
+  ],
+
+  "POSES": [
+    "Standing centered, arms relaxed along body",
+    "Head slightly lifted toward descending light",
+    "Barefoot stance grounded on cold concrete",
+    "Still ascetic posture with subtle arch of shoulders",
+    "Minimal movement, sculptural stillness",
+    "Seated on a minimal brutalist throne directly beneath the descending velvet drapery, posture upright, feet grounded, shoulders relaxed but commanding presence",
+    "Seated cross-legged on cold concrete beneath the massive drapery, barefoot, spine straight in silent contemplation, hands resting softly on knees",
+    "Side-seated in quiet contemplation beneath the drape, one hand grounded to the stone floor",
+    "Grounded side-seated pose, legs angled to the right, palm pressed against the floor"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm transcendent gaze",
+    "Serene solemn focus",
+    "Unreachable contemplative stare",
+    "Emotionless yet powerful presence"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Balanced mid-frame monumental composition",
+    "Slight low-angle perspective preserving scale",
+    "Centered architectural framing",
+    "Three-quarter vertical framing emphasizing height"
+  ],
+
+  "ATMOSPHERES": [
+    "Sacred brutalist silence",
+    "Oppressive architectural vastness",
+    "Subtle analog interference in shadows",
+    "Monumental stillness with faint vibrational tension"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal metallic ring reflecting cold light",
+    "Subtle geometric arm cuff",
+    "Bare feet lightly dusted with concrete powder"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Fully modest sacred presence with no exposed sensual detail.",
+    "1": "Subtle sculptural sensuality through exposed shoulders and light interaction.",
+    "2": "Strong yet refined sensual presence through posture, skin highlights, and fabric movement.",
+    "3": "Monumental sensual intensity through architectural lighting and confident ascetic stance, never vulgar."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Pure sacred monumental atmosphere with no horror.",
+    "1": "Subtle unease through scale and silence.",
+    "2": "Noticeable interference distortions in light and structure.",
+    "3": "Strong oppressive architectural tension with pronounced analog glitch vibration."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A monumental brutalist cathedral rises in cold silence as a barefoot ascetic figure stands beneath a massive black velvet drapery descending from the void ceiling, aged gold TK embroidery subtly vibrating in sacred stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a towering concrete nave filled with vertical light shafts and suspended dust, a solemn sensual ascetic stands grounded on cold stone as rusted iron beams frame the massive velvet drapery above her, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A brutalist sacred monument of sharp geometry and exposed steel encloses a calm barefoot figure illuminated by top-down cathedral light, the heavy velvet banner with aged gold TK insignia descending in ritual silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Cold volumetric beams cut through raw concrete and rusted iron as a sculptural ascetic silhouette stands centered beneath a massive velvet drapery whose golden embroidery exhibits faint micro-glitch vibration, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Inside an immense brutalist hall defined by acute angles and geometric austerity, a barefoot presence anchors the space while aged metallic gold thread glows subtly against black velvet in restrained interference, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A sacred industrial cathedral of raw cement and oxidized steel frames a solemn ascetic muse whose exposed shoulders catch descending light, monumental velvet drapery falling vertically from the ceiling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In oppressive architectural stillness, beneath towering concrete and rusted iron structures, a sensual yet solemn figure stands grounded as faint analog interference ripples subtly through the aged gold TK embroidery above, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

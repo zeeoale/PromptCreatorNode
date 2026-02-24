@@ -1,0 +1,135 @@
+{
+  "WORLD_NAME": "PFN_Purple_Haze_Mode",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt generator specialized in atmospheric purple-toned fashion portraiture. When requested, return ONE single long, highly detailed sentence (180–240 words), without line breaks or lists, describing a refined contemporary female figure immersed in a deep violet environment filled with subtle haze, volumetric diffusion, and controlled glow. The atmosphere must feel suspended and almost musical, blending plum, amethyst, lavender and shadowed indigo tones into a cohesive visual harmony. Always integrate elements selected from {{OUTFITS}}, {{LIGHTING}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a seamless cinematic composition, prioritizing texture contrast between soft haze and razor facial detail, luminous skin emerging from shadow, and precise color grading that preserves depth without oversaturation. Avoid fantasy clichés, avoid neon cyberpunk exaggeration, avoid theatrical smoke effects; instead aim for modern editorial elegance, subtle diffusion, layered depth of field, and restrained sensuality expressed through posture, fabric tension, and quiet gaze. Let any branding appear only as environmental traces—reflections, etched metal, worn tags, distant signage—never as explicit advertising, and keep the overall tone immersive, intimate, controlled, and sophisticated.",
+
+  "EPOCHS": [
+    "Clean editorial haze, minimal diffusion, crisp facial detail",
+    "Deeper purple grade, stronger volumetric glow, softer edges",
+    "Dense atmosphere, heavier bloom, cinematic contrast control",
+    "Maximum mood: layered haze, prismatic highlights, deepest indigo shadows"
+  ],
+
+  "OUTFITS": [
+    "sheer lavender mesh bodysuit layered over a structured black bralette",
+    "deep plum satin slip dress with minimal straps and sharp neckline",
+    "tailored violet blazer worn over a translucent inner top, bare collarbone",
+    "amethyst silk blouse slightly open at the throat, fluid drape tension",
+    "minimal lilac knit dress, clean silhouette, sculpted waist",
+    "black couture bodysuit with subtle violet sheen, matte-to-satin contrast",
+    "dark indigo latex-trim harness over soft fabric base, editorial restraint",
+    "plum turtleneck with cutout geometry, controlled and severe"
+  ],
+
+  "LIGHTING": [
+    "soft violet rim light with subtle volumetric haze",
+    "diffused lavender backlight with gentle bloom on highlights",
+    "low-key indigo fill light with controlled speculars",
+    "moody amethyst side light, suspended particles barely visible",
+    "cool purple gradient glow behind the subject, clean falloff",
+    "prismatic edge highlight as if from a glass prism, restrained sparkle",
+    "single key light softened by haze, shadowed cheeks preserved",
+    "soft top-light with purple spill, eyes catching tiny reflections"
+  ],
+
+  "BACKGROUNDS": [
+    "deep violet void with faint gradient dissolving into near-black",
+    "minimal studio set with matte charcoal panels and a lavender haze layer",
+    "abstract corridor of dark surfaces where purple light leaks through seams",
+    "geometric monolith blocks in shadow, edges kissed by amethyst glow",
+    "soft-focus interior with distant signage blurred into a violet smear",
+    "misty room with a single luminous rectangle, purple spill and silence",
+    "near-black wall with subtle texture, like velvet absorbing light",
+    "prism-lit backdrop casting faint lavender refractions, barely there"
+  ],
+
+  "OBJECTS": [
+    "glass prism producing faint lavender refractions across the haze",
+    "thin metallic chain catching purple highlights, understated",
+    "matte black cube pedestal with amethyst edge glow",
+    "smoked acrylic panel creating soft distortion and diffusion",
+    "minimal LED tube hidden off-frame, purple spill implied",
+    "delicate ring with micro-etched letters, only glimpsed in reflections",
+    "worn fabric tag stitched inside a seam, tiny TK mark, non-commercial",
+    "charcoal floor dusting that catches light like fine particles"
+  ],
+
+  "POSES": [
+    "three-quarter stance, shoulders relaxed, chin slightly lowered, quiet authority",
+    "seated on a low block, one knee raised, hands resting lightly, composed",
+    "leaning into the haze, one arm across the torso, silhouette controlled",
+    "side profile with a slow head turn toward camera, intimate restraint",
+    "standing centered, hands behind back, severe posture softened by haze",
+    "close-up framing with fingertips near collarbone, minimal movement",
+    "half-turn away from camera, looking back through diffusion, poised",
+    "kneeling pose, spine straight, gaze steady, editorial calm"
+  ],
+
+  "EXPRESSIONS": [
+    "calm distant gaze, introspective and controlled",
+    "half-lidded eyes with restrained confidence",
+    "soft melancholic expression, quiet and elegant",
+    "serene composure with subtle intensity in the eyes",
+    "enigmatic micro-smile that never fully forms",
+    "neutral expression, tension only in the mouth line",
+    "focused stare through haze, intimate and cinematic",
+    "cool detachment, fashion-editorial severity"
+  ],
+
+  "CAMERA_ANGLES": [
+    "intimate close-up portrait, shallow depth of field",
+    "mid-length editorial framing, centered composition",
+    "low angle with subtle dominance, soft haze bloom",
+    "eye-level symmetrical composition, clean geometry",
+    "three-quarter profile with prismatic edge highlight",
+    "tight crop on eyes and lips, diffusion on edges only",
+    "slight high angle, delicate vulnerability without drama",
+    "medium close-up with foreground haze occlusion, cinematic layering"
+  ],
+
+  "ATMOSPHERES": [
+    "subtle suspended haze, barely visible mist",
+    "soft bloom effect on highlights, controlled and clean",
+    "layered depth-of-field with foreground diffusion occlusion",
+    "deep violet gradient dissolving into shadow, no banding",
+    "fine particulate shimmer, almost imperceptible",
+    "cool indigo shadows with lavender spill, editorial grade",
+    "prismatic micro-reflections, glass-like but restrained",
+    "quiet studio silence, atmosphere feels musical and slow"
+  ],
+
+  "ACCESSORIES": [
+    "minimal black choker, matte finish, clean line",
+    "delicate translucent earrings with soft purple refraction",
+    "thin metallic ring reflecting violet edge light",
+    "micro chain necklace with tiny charm, barely visible",
+    "sheer fabric drape across shoulders, fog-soft silhouette",
+    "matte cuff bracelet with faint etched TK letters only in highlight",
+    "fine hair pin catching lavender glint",
+    "subtle body chain under sheer fabric, editorial restraint"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure editorial restraint: fully clothed silhouettes, minimal skin, emphasis on mood and composition.",
+    "1": "Subtle allure: collarbone, neckline, sheer layering suggested, posture intimate but composed.",
+    "2": "Fashion-forward sensuality: sheer fabrics, body-contouring fits, tasteful skin highlights, confident gaze.",
+    "3": "High sensuality with elegance: pronounced fabric tension, lingerie-inspired layering, glossy highlights, intimate proximity—never explicit."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror: clean modern editorial atmosphere, calm and controlled.",
+    "1": "Whisper of unease: shadows feel deeper, gaze slightly uncanny, haze slightly suffocating.",
+    "2": "Psychological tension: oppressive darkness, subtle distortions, prismatic fragments like a broken memory.",
+    "3": "Stylized dread: heavy occlusion, fragmented geometry, near-black void swallowing edges—still fashion, still precise."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A refined contemporary fashion portrait suspended inside deep violet haze, where plum and amethyst gradients dissolve into near-black and the subject’s face remains razor-sharp against soft diffusion, her outfit chosen from sleek editorial silhouettes and sheer layered fabrics that catch lavender rim light, with subtle prismatic refractions grazing hair strands and jewelry while matte charcoal geometry frames the composition, the camera holding an intimate close-up or mid-length angle with shallow depth of field, a calm distant gaze and restrained expression anchoring the mood as suspended particles and controlled bloom sculpt highlights, and tiny environmental traces of TK appear only as faint etching on metal or a blurred reflection in glass, never overt, never commercial. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A modern editorial scene built on purple structure rather than decoration: indigo shadows, lavender spill, and a soft amethyst backlight blooming gently through haze as the subject poses with quiet authority—seated on a matte black block or half-turned toward camera—wearing deep plum satin or translucent mesh layering that creates tension at seams and edges, her expression controlled and introspective, eyes catching tiny reflections, the background reduced to monolithic forms and subtle gradients that fade into darkness, with prismatic micro-glints and a faint TK trace only visible as worn stitching or a distant blurred sign, while the camera frames three-quarter angles and intimate crops that preserve texture and depth without oversaturation. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A cinematic violet haze portrait where the atmosphere feels musical and slow, with layered diffusion in foreground occlusion and a crisp face emerging from shadow, the lighting mixing soft violet rim and low-key indigo fill as the subject wears tailored violet outerwear over a translucent inner top or a black couture bodysuit with subtle purple sheen, accessories minimal—thin chain, matte choker, faintly etched metal—catching controlled highlights, the background formed by dark panels and geometric voids with edges kissed by lavender glow, and the pose remains restrained yet intimate—fingertips near collarbone, chin lowered, gaze steady—while any TK presence appears only as a reflection inside smoked acrylic or a tiny engraving glimpsed for a second. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A deeper, moodier Purple Haze Mode frame where amethyst side light and gentle bloom carve the subject out of near-black, haze thickening just enough to soften edges while preserving fine skin texture and fabric grain, her outfit leaning into lingerie-inspired layering under editorial restraint—sheer lavender mesh over structured black lines, or a plum turtleneck with geometric cutouts—paired with delicate translucent earrings and a ring that flashes violet edge light, the camera tightening into a close-up with shallow depth of field as monolith shapes loom behind her like silent architecture, and a faint TK mark lives only in the environment as a worn tag or micro-etching, keeping the scene elegant, intimate, controlled, and quietly intense. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A minimal corridor of dark surfaces where purple light leaks through seams and haze diffuses the space, the subject centered in a symmetrical composition or captured in a three-quarter profile, her expression neutral with tension only in the mouth line, her outfit a deep plum satin slip or tailored violet blazer that holds sharp structure against soft atmospheric bloom, the lighting a diffused lavender backlight plus cool indigo fill that keeps shadows dense and cinematic, with prismatic refractions from a glass prism barely grazing hair and jewelry, and a discreet TK trace only as blurred signage far behind her or a reflection on smoked acrylic, while the scene remains modern, fashion-aware, and deeply immersive. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A tight, intimate portrait where haze acts like fabric in the air, wrapping the frame in violet diffusion while the subject’s eyes stay crisp and reflective, her pose composed—hands behind back or seated with one knee raised—wearing black-to-plum couture with subtle sheen and sheer layering that reveals structure without explicitness, the background reduced to matte charcoal blocks and a faint lavender gradient dissolving into darkness, the lighting sculpted with a soft violet rim and controlled highlight bloom, and tiny TK details appear only as micro-etched letters on a cuff bracelet or a seam tag caught by a single glint, maintaining the classic discipline of studio portraiture with modern purple atmosphere. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A maximal mood variation where layered haze and prismatic micro-reflections deepen the purple identity without slipping into neon, the subject framed in medium close-up with foreground diffusion occlusion and a crisp facial plane, her outfit selected from sleek editorial silhouettes—amethyst silk blouse, lilac knit dress, black couture bodysuit with violet sheen—paired with minimal accessories that catch lavender edges, her expression serene yet intense, the background formed by monolithic geometry and near-black velvet-like surfaces that absorb light, and any TK presence remains purely environmental as a faint engraving, worn tag, or distant blur, while the overall grade preserves depth, texture, and restraint like a traditional studio portrait pushed into a modern atmospheric state. masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

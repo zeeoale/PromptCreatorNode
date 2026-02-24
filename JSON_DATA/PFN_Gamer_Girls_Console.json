@@ -1,0 +1,129 @@
+{
+  "WORLD_NAME": "PFN_Gamer_Girls_Console",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in high-gloss console gaming portraiture blending sensual fashion styling with modern living-room gaming culture, always set in enclosed interior environments such as neon-lit bedrooms, cozy living rooms, dark lounge setups, or LED-accented entertainment spaces, never outdoors. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a confident console gamer girl as the focal point, surrounded by a large TV screen glow, wireless game controller held correctly with proper ergonomic grip, D-pad clearly on the left side, action buttons clearly on the right side, realistic button layout, accurate analog stick placement, correct orientation facing the camera, not mirrored or reversed, console docks, LED backlighting, ambient RGB strips behind furniture, and soft atmospheric lighting. Sensuality must be strong yet editorial: deep necklines, fitted bodysuits, thigh-high socks, oversized off-shoulder sweaters, glossy fabrics reflecting screen light, smooth skin illuminated by TV glow, but never explicit or vulgar. Lighting should emphasize television light casting dynamic highlights on skin, colored ambient LEDs in the background, soft bloom, and cinematic contrast. Blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive visual narrative, maintaining polished rendering, immersive console atmosphere, and confident sensual energy. Integrate “TK” organically as subtle LED reflection, engraved controller detail, decorative neon sign, or ambient room décor accent, never intrusive or commercial. All handheld objects must be anatomically correct and properly oriented, with no mirrored or flipped layouts.",
+
+  "EPOCHS": [
+    "Late-night couch gaming session",
+    "Weekend marathon playthrough",
+    "Ranked match tension on big screen",
+    "Cozy bedroom console downtime",
+    "After-midnight story mode immersion"
+  ],
+
+  "OUTFITS": [
+    "Oversized off-shoulder sweater slipping gently",
+    "Fitted bodysuit with glossy fabric sheen",
+    "Thigh-high socks paired with short lounge shorts",
+    "Soft satin pajama set styled provocatively",
+    "Cropped hoodie with bralette underneath",
+    "Mini pleated skirt with relaxed gamer top",
+    "Latex shorts with oversized tee",
+    "Casual tank top with exposed shoulder strap",
+    "Snug crop top with lounge joggers",
+    "Minimal zip hoodie slightly open at neckline"
+  ],
+
+  "LIGHTING": [
+    "Soft TV glow casting blue highlights on skin",
+    "Warm cinematic screen light flicker",
+    "Purple ambient LED strips behind furniture",
+    "Pink and cyan vaporwave room lighting",
+    "Backlit silhouette from large television screen",
+    "Soft golden lamp light mixed with screen glow"
+  ],
+
+  "BACKGROUNDS": [
+    "Living room with large wall-mounted TV",
+    "Dark cozy bedroom with console setup",
+    "Minimal modern lounge with LED strips",
+    "Gaming corner with console dock and controller stand",
+    "Soft couch setup with plush pillows",
+    "Low-lit media room with cinematic atmosphere"
+  ],
+
+  "OBJECTS": [
+    "Wireless game controller with accurate ergonomic design, correct D-pad on the left, action buttons on the right, realistic analog sticks",
+    "Console dock glowing softly beneath TV",
+    "Stack of game cases scattered on table",
+    "Large flat-screen TV displaying colorful game scene",
+    "Energy drink cans on coffee table",
+    "Soft blanket draped over couch",
+    "Console headset resting nearby (optional, not PC style)",
+    "Ambient LED light panels on wall"
+  ],
+
+  "POSES": [
+    "Sitting cross-legged on couch gripping controller",
+    "Leaning back with one knee raised, controller in hand",
+    "Half-turned toward camera while mid-game",
+    "Lying sideways on sofa with relaxed arch posture",
+    "Seated on floor in front of TV screen glow",
+    "Standing adjusting outfit while holding controller loosely",
+    "Reclined against cushions with playful dominance",
+    "Focused forward posture mid intense match"
+  ],
+
+  "EXPRESSIONS": [
+    "Playful smirk",
+    "Focused competitive gaze",
+    "Teasing half-smile",
+    "Determined concentration",
+    "Soft seductive stare",
+    "Confident dominance",
+    "Post-victory satisfaction",
+    "Mock frustration with playful charm"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Low angle from coffee table perspective",
+    "Close-up portrait with TV light reflections",
+    "Side profile with screen glow outlining silhouette",
+    "Over-the-shoulder shot toward television",
+    "Three-quarter body framing on couch"
+  ],
+
+  "ATMOSPHERES": [
+    "Late-night neon intimacy",
+    "Cozy cinematic console cocoon",
+    "High-energy competitive tension",
+    "Soft vaporwave glow in living room",
+    "Dark ambient relaxation with screen flicker",
+    "Electric LED ambiance with warm highlights"
+  ],
+
+  "ACCESSORIES": [
+    "Wireless controller with glossy finish",
+    "Cat-ear headset resting nearby (not gaming PC style)",
+    "Choker necklace reflecting screen light",
+    "Layered necklaces glowing under LED hue",
+    "Glossy nails gripping controller tightly",
+    "Soft blanket partially covering legs",
+    "Subtle LED bracelet casting faint glow",
+    "Hair clips shaped like console buttons"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure casual gaming vibe, fully modest and non-suggestive styling.",
+    "1": "Subtle playful allure through relaxed posture and outfit choice.",
+    "2": "Strong sensual energy with fitted outfits, exposed skin and confident posing, still stylish.",
+    "3": "High sensual intensity through bold lounge fashion, dominant posture and glowing skin highlights, never explicit."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, purely console gaming atmosphere.",
+    "1": "Mild dark-room tension with dramatic lighting.",
+    "2": "Subtle glitch effects from screen creating digital unease.",
+    "3": "Heavy distortion and flickering screen creating psychological tension."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A sensual console gamer girl dominates her late-night couch session, illuminated by the soft blue glow of a massive TV screen, controller in hand and oversized sweater slipping gently, cinematic ambient LEDs framing her silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a dark cozy living room lit only by vibrant game visuals on a large television, a confident gamer girl reclines on the couch gripping her wireless controller, thigh-high socks and glossy fabrics reflecting screen light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A late-night console session framed by LED backlighting and cinematic TV glow, where a playful yet dominant gamer muse leans back with controller in hand and confident smirk, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Close-up portrait lit by shifting colors from a large flat-screen display, soft bloom wrapping around her silhouette as she focuses intensely mid-game, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Low-angle cinematic couch shot with neon LED accents and subtle TK reflections on glossy controller surface, a sensual gamer queen immersed in immersive console play, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A cozy media-room scene glowing in pink and blue ambient hues, where a confident console gamer lounges provocatively with wireless controller resting against her thigh, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "After-midnight gaming immersion in a softly lit bedroom console setup, TV flicker casting dramatic highlights across smooth skin and relaxed posture, cinematic and sensual yet refined, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

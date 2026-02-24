@@ -1,0 +1,121 @@
+{
+  "WORLD_NAME": "PFN_Red_Decay",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in refined “Red Decay” minimalism: enclosed brutalist interiors where clean geometry and quiet luxury are slowly marked by autumnal remnants—dry maple leaves, rust-toned dust, oxidized seams, and warm concrete patina—while the subject remains the visual anchor, elegant and fashion-forward, never fantasy, never outdoors; when requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a modern woman posed within a stark architectural chamber of sharp planes, narrow corridors, and soft industrial voids, always blending elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one coherent image, emphasizing controlled artificial lighting (warm zenithal panels, tungsten edge rims, dim corridor spill), micro-particles suspended in air, subtle oxidation on metal, and restrained botanical traces (a single crimson maple leaf, a thin vine-shadow, delicate leaf-vein embossing) that read as afterimage rather than invasion; keep the palette mature—burgundy, rust, terracotta, dried blood red, warm charcoal—avoid neon reds and open skies, and integrate “TK” only as environmental residue (faint carved lettering on concrete, a debossed leather tag, a soft reflection), preserving a gallery-grade, editorial realism with calm intensity.",
+  "EPOCHS": [
+    "balanced editorial focus",
+    "slow-burn cinematic restraint",
+    "minimal architecture emphasis",
+    "autumnal decay refinement"
+  ],
+  "OUTFITS": [
+    "black velvet corset dress with subtle burgundy sheen",
+    "burgundy satin slip dress under an oversized charcoal blazer",
+    "matte black leather trench coat, belt cinched tight",
+    "high-neck ribbed knit in warm charcoal with structured pencil skirt",
+    "tailored black suit with rust-toned silk camisole",
+    "asymmetrical one-shoulder dress in deep wine velvet",
+    "minimal column dress in dark terracotta with sharp seams",
+    "sleek black bodysuit with sheer burgundy mesh inserts",
+    "long coat in warm graphite wool, clean lapels, severe silhouette",
+    "structured corsetry top with high-waist trousers, tonal burgundy accents"
+  ],
+  "LIGHTING": [
+    "warm zenithal ceiling panel light, soft falloff, gentle shadow sculpt",
+    "tungsten rim light outlining hair and shoulders, low-key contrast",
+    "dim corridor spill lighting with warm bounce from concrete",
+    "single practical wall sconce glow, cinematic softness",
+    "softbox-like frontal fill kept minimal, deep background falloff",
+    "thin strip-light highlights along geometric edges, restrained glare",
+    "subtle haze catching light beams, dust motes visible",
+    "high-contrast chiaroscuro with warm undertone, portrait-safe"
+  ],
+  "BACKGROUNDS": [
+    "enclosed brutalist corridor of warm concrete, sharp corners, narrow depth",
+    "minimal geometric chamber with stepped blocks and negative alcoves",
+    "sealed atrium-like interior with frosted ceiling panels, no sky visible",
+    "monolithic wall planes with hairline cracks and oxidized seams",
+    "architectural void with stacked rectangular volumes, matte surfaces",
+    "gallery-like concrete room with sparse ledges and recessed niches",
+    "tight passageway with repeating frames and soft haze",
+    "abstract interior set of clean planes, warm charcoal gradients"
+  ],
+  "OBJECTS": [
+    "single crimson japanese maple leaf resting near the subject",
+    "thin line of dried leaves gathered in a corner seam",
+    "matte black ceramic vase with a single dried branch",
+    "oxidized brass pipe segment used as a minimal accent",
+    "leather handbag with subtle leaf-vein debossing",
+    "black stone pedestal dusted with rust-toned particles",
+    "small reflective metal plate catching a warm highlight",
+    "faint carved 'TK' lettering in concrete, partially worn",
+    "charcoal silk scarf with deep wine edge stitch",
+    "minimal jewelry tray with a single ring and dust motes"
+  ],
+  "POSES": [
+    "standing close to a concrete wall, shoulder angled, chin slightly lowered",
+    "seated on a low block, knees angled, hands relaxed near collarbone",
+    "half-turn toward camera, one hand grazing neck, restrained posture",
+    "leaning into a geometric corner, forearm resting on a ledge",
+    "slow step forward in corridor, coat drape controlled, gaze steady",
+    "reclined on a matte bench, one leg bent, editorial calm",
+    "kneeling on a block, torso upright, minimal tension in hands",
+    "side profile near a recess, fingers holding a single maple leaf",
+    "close-up framing with hand near lips, subtle breath, composed stillness",
+    "shoulders squared, head slightly tilted, quiet dominance"
+  ],
+  "EXPRESSIONS": [
+    "calm, distant focus with softened intensity",
+    "subtle restrained smile, unreadable",
+    "neutral mouth, heavy-lidded gaze",
+    "quiet defiance, steady eye contact",
+    "soft melancholy, controlled composure",
+    "cool confidence, minimal expression shift",
+    "enigmatic calm, slight brow tension",
+    "low-key seduction, portrait-safe restraint"
+  ],
+  "CAMERA_ANGLES": [
+    "tight portrait close-up, shallow depth of field, soft background geometry",
+    "three-quarter portrait, mid-shot, corridor lines leading behind",
+    "low angle portrait for architectural dominance, subtle perspective",
+    "high chest-up framing, negative space balanced, cinematic compression"
+  ],
+  "ATMOSPHERES": [
+    "warm charcoal haze with visible dust motes",
+    "quiet industrial stillness, soft air particles, low-key mood",
+    "autumnal dryness, faint rust scent implied, editorial calm",
+    "sealed interior silence, warm concrete glow, controlled darkness",
+    "subtle oxidation and patina, elegant decay, minimal tension",
+    "gallery-grade minimalism with slow-burn intensity"
+  ],
+  "ACCESSORIES": [
+    "thin black choker with tiny worn metal clasp",
+    "minimal silver chain necklace, small pendant",
+    "matte hoop earrings, understated",
+    "ring stack in oxidized silver, subtle",
+    "sheer black gloves, clean seams",
+    "velvet gloves in deep wine, soft sheen",
+    "small leather clutch with debossed leaf veins",
+    "hair pin with a faint 'TK' etch, barely visible"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "pure editorial restraint, no explicit emphasis, minimalist elegance only",
+    "1": "subtle allure through silhouette, fabric tension, and controlled gaze",
+    "2": "confident sensuality with couture fit, neckline detail, and intimate framing",
+    "3": "intense seductive mood, high fashion intimacy, still portrait-safe and refined"
+  },
+  "HORROR_INTENSITY": {
+    "0": "no horror, only minimal mood and clean geometry",
+    "1": "faint unease via shadow, dust, and oxidized seams, no gore",
+    "2": "quiet dread suggested by emptiness, worn markings, and claustrophobic framing",
+    "3": "strong psychological tension, oppressive architecture and uncanny stillness, no gore"
+  },
+  "CUSTOM_INTRO": {
+    "0": "A gallery-grade Red Decay portrait inside a sealed brutalist corridor of warm concrete, where mature burgundy shadows and rust-toned dust hang in the air like a slow afterimage, the subject poised with calm intensity as a single crimson maple leaf becomes the only organic punctuation, architectural planes guiding the eye toward her composed gaze, with faint worn 'TK' carving barely catching a tungsten rim and dust motes shimmering in controlled haze, emphasizing editorial realism, quiet luxury, and restrained seduction without ever opening to the outdoors, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "An intimate cinematic close-up in a minimal geometric chamber, warm zenithal panels sculpting her cheekbones while oxidized seams and terracotta-stained concrete recede into soft blur, her black velvet silhouette edged with deep wine sheen, a dried maple leaf resting near her fingers, and a debossed leather tag hinting 'TK' without shouting, the mood dry and quiet, dust motes drifting like fine powder in the beam, fashion-forward restraint held tight in a museum-silent interior, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A three-quarter editorial portrait along repeating corridor frames, tungsten rim light tracing hair and shoulders against warm charcoal gradients, the architecture severe and enclosed, corners sharp and calm, while autumnal residue gathers only in seams—rust particles, a few curled red leaves—never greenery, her posture controlled and dominant, accessories minimal, and a faint 'TK' reflection on a small metal plate appearing like a ghost mark, all rendered with precise realism and soft atmospheric haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A low-angle fashion portrait in a monolithic interior void, stacked rectangular volumes fading into darkness, warm concrete bounce lifting shadows, her matte black leather trench cinched with severe elegance, lips in deep burgundy, gaze steady and unblinking as a single crimson maple leaf is held like evidence of time passing, subtle leaf-vein embossing on a handbag and a worn concrete 'TK' notch blending into the set, the scene dry, quiet, and claustrophobic in the best cinematic way, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A seated composition on a black stone pedestal within a sealed atrium-like interior, frosted ceiling panels providing soft warm fill, micro-particles floating through the beam, her burgundy satin slip and charcoal blazer forming clean lines against patina-stained walls, with only minimal botanical trace—one red leaf, a thin vine-shadow—suggested as an afterimage rather than invasion, and a tiny 'TK' etch on a hair pin catching a single highlight, maintaining a restrained, traditional gallery aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A close, intimate corridor portrait with deep depth-of-field compression, warm tungsten edge glow and minimal frontal fill, her expression unreadable, couture silhouette immaculate, while rust-toned dust and dried leaves collect in corners like quiet history, concrete surfaces showing hairline cracks and oxidation, a matte black ceramic vase holding one dried branch, and a faint worn 'TK' carving dissolving into texture, the mood elegant, decadent, and perfectly controlled, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A severe geometric corner shot where architecture frames her face like a magazine cover, warm charcoal haze and dust motes suspended, her one-shoulder wine velvet dress catching a soft sheen, lips set in burgundy calm, a single crimson maple leaf resting on the ledge beside her, subtle oxidation on metal accents, and 'TK' appearing only as a debossed whisper on leather or a worn concrete notch, keeping everything enclosed, realistic, minimal, and quietly provocative, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

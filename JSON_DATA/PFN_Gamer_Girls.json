@@ -1,0 +1,129 @@
+{
+  "WORLD_NAME": "PFN_Gamer_Girls",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in high-gloss gamer aesthetic portraiture blending sensual fashion styling with modern gaming culture, always set in enclosed interior spaces such as neon-lit bedrooms, streaming setups, RGB battlestations, or dark ambient gaming rooms, never outdoors. When requested, return ONE single long, highly detailed sentence (180–240 words), cinematic and descriptive, without lists or line breaks, depicting a confident gamer girl as the focal point, surrounded by glowing monitors, RGB light strips, mechanical keyboards, gaming chairs, LED reflections, and subtle vaporwave ambiance. Sensuality must be strong yet stylish: deep necklines, latex or glossy fabrics, thigh-high socks, off-shoulder tops, cropped hoodies, soft skin highlights, but always fashion-forward and editorial rather than explicit. Lighting should emphasize neon rim lights, monitor glow on skin, reflective surfaces, soft bloom, and cinematic contrast. Blend elements selected from {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive visual narrative, maintaining aesthetic control, polished rendering, and immersive gamer atmosphere. Integrate “TK” organically as RGB keyboard glow, LED signage reflection, etched metal on a controller, or subtle branding in ambient décor, never commercial or intrusive.",
+
+  "EPOCHS": [
+    "Late-night streaming session",
+    "Midnight ranked grind",
+    "Tournament warm-up moment",
+    "Offline practice in neon solitude",
+    "Cyber lounge downtime"
+  ],
+
+  "OUTFITS": [
+    "Oversized cropped hoodie slipping off one shoulder",
+    "Latex mini skirt with high-waisted fit",
+    "Thigh-high socks with subtle neon trim",
+    "Fitted gaming crop top with glossy finish",
+    "Loose off-shoulder sweater over bralette",
+    "Mini pleated skirt with fishnet layers",
+    "Tight bodysuit with reflective material",
+    "Short athletic shorts with oversized hoodie",
+    "Soft satin pajama set styled provocatively",
+    "Minimal top with open zip and layered accessories"
+  ],
+
+  "LIGHTING": [
+    "Soft RGB glow from multiple monitors",
+    "Purple and cyan neon rim light",
+    "Warm monitor light reflecting on skin",
+    "LED strips under desk casting ambient glow",
+    "Pink and blue vaporwave lighting blend",
+    "Backlit silhouette with gaming screen highlights"
+  ],
+
+  "BACKGROUNDS": [
+    "RGB gaming battlestation with triple monitors",
+    "Dark bedroom filled with LED light strips",
+    "Streaming setup with ring light and mic arm",
+    "Neon-lit cyber room with posters and cables",
+    "Minimal black gaming room with glowing PC case",
+    "Cozy gamer corner with plush toys and RGB desk"
+  ],
+
+  "OBJECTS": [
+    "Wireless gaming controller with LED accents",
+    "Mechanical keyboard with rainbow backlight",
+    "High-end gaming mouse with glowing logo",
+    "Streaming microphone with pop filter",
+    "Energy drink cans scattered casually",
+    "RGB gaming chair with headrest pillow",
+    "Custom PC tower with visible liquid cooling",
+    "Headset resting on desk with cat ears attached"
+  ],
+
+  "POSES": [
+    "Leaning forward with controller in hand",
+    "Sitting sideways on gaming chair, legs crossed",
+    "Standing over desk adjusting headset",
+    "Reclined in chair with one knee raised",
+    "Close-up leaning toward camera playfully",
+    "One hand on keyboard, glancing over shoulder",
+    "Seated on desk edge with subtle arch posture",
+    "Hands gripping controller mid-intense focus"
+  ],
+
+  "EXPRESSIONS": [
+    "Playful smirk",
+    "Focused competitive gaze",
+    "Teasing half-smile",
+    "Determined concentration",
+    "Soft seductive stare",
+    "Confident dominance",
+    "Playful tongue bite",
+    "Relaxed post-game satisfaction"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Close-up portrait with neon reflections",
+    "Low angle emphasizing silhouette and LED glow",
+    "Over-the-shoulder gaming perspective",
+    "Three-quarter body framing with RGB depth",
+    "Top-down desk shot with subject looking up"
+  ],
+
+  "ATMOSPHERES": [
+    "Late-night neon intimacy",
+    "High-energy competitive tension",
+    "Soft vaporwave dreaminess",
+    "Cyberpunk sensual glow",
+    "Dark ambient gaming cocoon",
+    "Electric RGB saturation with soft bloom"
+  ],
+
+  "ACCESSORIES": [
+    "Gaming headset with glowing cat ears",
+    "Choker with small metallic charm",
+    "Layered necklaces reflecting neon light",
+    "Fingerless gaming gloves",
+    "Hair clips shaped like tiny controllers",
+    "LED-lit cat ear headband",
+    "Glossy nails reflecting monitor glow",
+    "Subtle RGB bracelet emitting soft light"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Pure gaming aesthetic, fully modest and non-suggestive styling.",
+    "1": "Subtle allure through posture and outfit choice, tasteful and playful.",
+    "2": "Strong sensual energy with fitted outfits, exposed skin and confident posing, still stylish.",
+    "3": "High sensual intensity through bold fashion, dominant posture and neon-lit skin highlights, never explicit."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "No horror elements, purely modern gaming atmosphere.",
+    "1": "Mild cyberpunk edge with darker lighting and tension.",
+    "2": "Subtle glitch or distorted screen effects creating unease.",
+    "3": "Heavy digital distortion and reality-bending neon atmosphere."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A neon-lit gamer girl dominates her RGB battlestation, cat-ear headset glowing under soft monitor light, glossy fabrics reflecting cyan and magenta hues, playful yet confident presence in a late-night streaming cocoon, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a dark ambient gaming room illuminated by triple monitors and LED strips, a sensual gamer girl leans forward gripping her controller, thigh-high socks and cropped hoodie glowing in cyberpunk hues, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "A confident gamer queen framed by neon rim light and RGB reflections, seated on a glowing gaming chair with cat-ear headset shining softly, energy drinks and mechanical keyboard scattered in stylish chaos, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Close-up neon portrait of a playful gamer girl with glossy skin reflecting monitor light, soft vaporwave glow wrapping around her silhouette as she glances over her shoulder mid-game, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "A cyber lounge scene where pink and cyan light sculpt a sensual gamer girl adjusting her cat-ear headset, fitted outfit and RGB glow blending into an electric late-night atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Low-angle cinematic shot of a dominant gamer girl framed by neon LED strips and glowing PC case, confident smirk illuminated by monitor reflections, immersive cyber aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A moody vaporwave gaming chamber filled with RGB haze and soft bloom, where a sensual gamer muse reclines confidently with controller in hand, cat-ear headset glowing against the dark, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

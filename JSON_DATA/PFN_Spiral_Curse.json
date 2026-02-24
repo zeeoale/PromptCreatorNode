@@ -1,0 +1,113 @@
+{
+  "WORLD_NAME": "PFN_Spiral_Curse",
+
+  "SYSTEM_PROMPT": "You are a cinematic prompt generator specialized in psychological horror inspired by spiraling obsessions, distorted anatomy, and oppressive atmospheres reminiscent of unsettling Japanese nightmare aesthetics. When requested, return ONE single long, highly detailed sentence (180–240 words), without lists or line breaks, blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, and {{ACCESSORIES}} into a cohesive and immersive visual scene. The tone must focus on slow-burning dread rather than gore excess, emphasizing spirals, repetition, subtle anatomical irregularities, oppressive silence, and claustrophobic framing. Bodies may distort in unnatural but elegant ways, environments may loop or breathe, reflections may act independently, and lighting should heighten unease through contrast and shadow tension. Avoid chaotic randomness; instead construct a controlled descent into horror where every detail reinforces a singular unsettling concept. The composition should feel deliberate, cinematic, and psychologically suffocating, prioritizing atmosphere, surreal geometry, and existential dread over gratuitous violence.",
+
+  "EPOCHS": [
+    "Modern Japan",
+    "Dreamlike Tokyo",
+    "Abandoned village",
+    "Timeless nightmare"
+  ],
+
+  "OUTFITS": [
+    "school uniform soaked in rain",
+    "shredded kimono",
+    "hospital gown with stains",
+    "tattered cloak",
+    "ordinary clothes with subtle irregularities"
+  ],
+
+  "LIGHTING": [
+    "dim flickering light",
+    "cold moonlit shadows",
+    "harsh fluorescent hospital glow",
+    "darkness pierced by unnatural internal illumination",
+    "flickering surgical lamps"
+  ],
+
+  "BACKGROUNDS": [
+    "spiraling alleyways",
+    "abandoned clinics",
+    "twisted forests",
+    "corridors that loop endlessly",
+    "mirror-filled rooms",
+    "hospital room overgrown with veins",
+    "ritual chamber stained in decades-old blood"
+  ],
+
+  "OBJECTS": [
+    "deformed mirror",
+    "floating eye",
+    "grinning doll",
+    "long black hair spreading unnaturally",
+    "abstract clock melting into wall",
+    "writhing mass of veins",
+    "faceless mannequin heads",
+    "mirror with internal organs behind it"
+  ],
+
+  "POSES": [
+    "frozen mid-scream",
+    "twisting unnaturally",
+    "standing still with crooked neck",
+    "reaching slowly toward viewer",
+    "levitating without control"
+  ],
+
+  "EXPRESSIONS": [
+    "empty stare",
+    "mouth unnaturally wide",
+    "half-smile with bleeding gums",
+    "blank expression with leaking eyes",
+    "contorted silent agony"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Dutch angle",
+    "low shot under chin",
+    "extreme close-up on distorted face",
+    "rear view with elongated shadow",
+    "from ceiling corner"
+  ],
+
+  "ATMOSPHERES": [
+    "overwhelming dread",
+    "room alive and breathing",
+    "infinite hallway of decay",
+    "resonance of unseen whispers",
+    "oppressive silence vibrating in air"
+  ],
+
+  "ACCESSORIES": [
+    "spiraled earrings",
+    "bandages soaked in ink",
+    "mirror shard necklace",
+    "amulet with embedded eye",
+    "bracelet made of human teeth"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "completely neutral and non-suggestive",
+    "1": "subtle aesthetic presence without exposure",
+    "2": "mild tension between vulnerability and atmosphere",
+    "3": "dark sensual undertones integrated into horror mood"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "suggestive unease and subtle irregularities",
+    "1": "unsettling distortions and impossible geometries",
+    "2": "terrifying anatomical mutations and oppressive dread",
+    "3": "nightmarish reality collapse and existential horror"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A lone figure stands within a spiraling urban nightmare where geometry bends subtly and shadows behave independently, atmosphere heavy with suffocating silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Inside a decaying corridor that loops impossibly into itself, a distorted silhouette emerges under flickering fluorescent light, spirals repeating across architecture and body alike, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "In a silent abandoned village wrapped in moonlit haze, a presence with subtly twisted anatomy stands frozen as reality folds inward, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Within a hospital chamber overgrown with organic veins, reflections move independently while the subject remains unnaturally still beneath surgical glow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "In a room filled with mirrors that reveal impossible angles of existence, spirals echo across walls and skin in oppressive stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "A twisted forest corridor bends into infinite repetition as a solitary figure contorts under cold lunar light, atmosphere thick with dread, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "In a ritual chamber where architecture breathes and geometry spirals inward, a distorted form stands suspended between stillness and collapse, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

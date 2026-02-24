@@ -1,0 +1,109 @@
+{
+  "WORLD_NAME": "PFN_Void_Decay",
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in void-adjacent, sealed interior fashion portraiture where darkness is architectural and decay is refined, controlled, and physically plausible—never fantasy, never outdoors, never apocalyptic spectacle. The environment must ALWAYS be an enclosed space with no visible sky, no horizon line, no open exterior windows, and no natural sunlight; illumination comes only from artificial studio rigs, hidden ceiling strips, low rim emitters, or indirect reflected glow that separates textures inside black tones. When requested, return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic high-fashion image centered on a poised female subject as the clear focal point, wearing modern monochrome couture where matte textiles, sheer layers, latex accents, and structured tailoring reveal micro-contrast. Decay appears as elegant entropy: oxidized edges on metal, powdery ash in seams, hairline cracks in matte panels, soot bloom on corners, subtle moisture haze, and faint particulate drift catching light. Always blend elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into one cohesive visual language, emphasizing negative space, controlled highlights, shallow-to-medium depth of field, restrained bloom, realistic material rendering, and disciplined editorial tension, optionally integrating the brand TK as discreet tonal embossing, aged stenciling, etched hardware, or a barely legible reflection emerging from shadow, never overt or commercial, while modulating intimacy with {{SENSUALITY_LEVEL}} and pressure with {{HORROR_INTENSITY}} without breaking the sealed void atmosphere.",
+  "EPOCHS": [
+    "Contemporary high-fashion editorial present inside a sealed black studio",
+    "Timeless modern minimalism in a windowless architectural chamber",
+    "Post-industrial interior after controlled blackout and dust fall",
+    "Near-future monochrome couture in a closed void corridor",
+    "Late-night studio set designed as a black shrine of texture and silence"
+  ],
+  "OUTFITS": [
+    "Matte black tailored bodysuit with sculpted seams and subtle charcoal paneling",
+    "Structured long black coat with sharp shoulders, heavy drape, and clean hemline",
+    "Sheer mesh top layered over tonal bralette with minimal harness detail",
+    "Latex-accented fitted dress in deep obsidian with controlled specular highlights",
+    "High-neck ribbed knit in graphite black paired with tailored wide-leg trousers",
+    "Asymmetric draped black gown with minimal detailing and precise silhouette breaks",
+    "Cropped black jacket over fitted charcoal trousers, crisp waist and clean lines",
+    "Layered translucent organza over matte underlayer, micro-texture separation in black",
+    "Monochrome suit with elongated silhouette, narrow lapels, and restrained sheen",
+    "Minimal black dress with a single dark-oxide lining flash at the slit"
+  ],
+  "LIGHTING": [
+    "Sharp rim light carving silhouette from darkness with precise falloff",
+    "Low-key studio lighting with controlled highlights and deep shadow retention",
+    "Single top spotlight with heavy shadow sculpting and minimal spill",
+    "Minimal side key revealing fabric grain, latex sheen, and skin luminosity",
+    "Soft backlight emerging from black background with faint haze separation",
+    "Thin floor-level kicker creating a restrained edge glow on boots and hem"
+  ],
+  "BACKGROUNDS": [
+    "Total black seamless void in a sealed studio space",
+    "Matte black cyclorama with faint charcoal gradient and no visible edges",
+    "Windowless architectural interior where walls dissolve into darkness",
+    "Dark studio floor with subtle reflection and dust film along the perimeter",
+    "Black corridor of monolithic panels, invisible ceiling, no exterior reference",
+    "Matte charcoal backdrop with micro-scratches and soot bloom near corners"
+  ],
+  "OBJECTS": [
+    "Powdery ash drift suspended in air, catching rim light like fine grain",
+    "Oxidized metal edge with muted graphite patina and faint TK emboss on a fastener",
+    "Hairline cracks in matte black panels filled with dark dust and micro-debris",
+    "Subtle reflective strip in the floor mirroring silhouette as a broken highlight",
+    "Thin black chair partially merging with background, only edges revealed",
+    "Minimal metallic accessory catching a single controlled highlight near the collarbone",
+    "A worn black plaque with a barely readable TK stencil ghosted under soot",
+    "Condensation haze near the floor, physically plausible and softly layered"
+  ],
+  "POSES": [
+    "Standing tall, arms relaxed, silhouette defined by rim light and negative space",
+    "Seated on low platform, posture composed and restrained, knees angled slightly",
+    "Profile pose with chin lowered into shadow, shoulder line sharp and architectural",
+    "Half-turn toward camera, body partially concealed by darkness, face held steady",
+    "Arms crossed, shoulders squared, controlled tension without aggression",
+    "Hands resting along thighs with subtle forward lean, couture texture emphasized",
+    "Slow step forward emerging from darkness, coat motion minimal and realistic",
+    "Leaning lightly against an unseen wall, negative space dominating composition",
+    "Head tilted downward, gaze lifting from shadow with quiet authority",
+    "One shoulder advanced, sculptural balance, hips squared, editorial restraint"
+  ],
+  "EXPRESSIONS": [
+    "Neutral gaze, emotionally unreadable, editorial stillness",
+    "Quiet dominance with minimal facial movement and heavy-lidded eyes",
+    "Detached calm, shadowed eye sockets, controlled presence",
+    "Subtle intensity beneath a composed exterior, lips relaxed",
+    "Serious fashion-film expression with restrained tension and focus",
+    "Cold serenity, chin lifted a fraction, silent confidence"
+  ],
+  "CAMERA_ANGLES": [],
+  "ATMOSPHERES": [
+    "Absolute silence suspended in darkness, pressure held in negative space",
+    "Low ambient hum in a sealed studio, light sculpting texture not space",
+    "Still air with particulate drift, cinematic weight without chaos",
+    "Monochrome stillness with subtle dread, refined and controlled",
+    "Void-like calm where decay reads as elegant entropy, not ruin",
+    "Shadow architecture that feels close, enclosed, and intentionally designed"
+  ],
+  "ACCESSORIES": [
+    "Matte black choker with a tiny TK-embossed clasp hidden at the back",
+    "Thin metallic pendant barely catching light, brushed and restrained",
+    "Graphite chain resting at collarbone, minimal movement, soft highlight",
+    "Subtle black gloves integrated into silhouette, seams visible in rim light",
+    "Black ankle boots with clean lines, faint dust along the sole edge",
+    "Minimal belt with oxidized buckle, patina controlled and realistic",
+    "Small charcoal leather mini bag with tonal emboss and no visible branding",
+    "Thin oxidized silver rings with muted patina, minimalist stack"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "Pure fashion editorial restraint, portrait-safe, sensuality only through styling and mood.",
+    "1": "Subtle intimacy through body language, fabric tension, collarbones, and quiet proximity.",
+    "2": "Stronger allure with fitted silhouettes, controlled skin glimpses, tactile materials, still tasteful.",
+    "3": "High sensual charge via bold couture cuts, close framing, and intense contrast—never explicit."
+  },
+  "HORROR_INTENSITY": {
+    "0": "Clean minimal darkness, calm void structure, no menace.",
+    "1": "Mild unease through depth of shadow and sealed-space silence.",
+    "2": "Noticeable pressure: oppressive negative space, heavier particulate drift, tighter enclosure.",
+    "3": "High psychological tension: near-void alienation, suffocating stillness, decay feels imminent yet refined."
+  },
+  "CUSTOM_INTRO": {
+    "0": "Void-decay fashion portrait in a sealed black studio where darkness becomes architecture, a poised female figure in monochrome couture with matte textiles and subtle latex sheen, sharp rim light separating her silhouette while ash-like particulate drift and soot bloom reveal elegant entropy on matte panels, faint TK traces etched into oxidized hardware and half-lost reflections, cinematic low-key exposure with disciplined negative space and tactile micro-contrast, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Cinematic mid-shot in a windowless void corridor of monolithic black panels, the model half-turned toward camera with controlled posture, sheer mesh layers over structured tailoring, condensation haze near the floor and hairline cracks collecting dark dust, a barely legible TK stencil ghosted under soot at the edge of frame, shallow-to-medium depth of field with restrained bloom on highlights, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Editorial full-body composition on a subtly reflective black floor, slow step forward as a long coat moves minimally, rim and side light carving texture separation across charcoal fabrics, oxidized metal edges and powdery ash in seams reading as refined decay, TK embossed discreetly on a clasp that catches one controlled highlight, silence and negative space dominating the frame, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Low-key studio portrait with a single top spotlight and deep shadow falloff, the subject seated on a low platform with knees angled, latex-accented dress and matte layers rendered in micro-contrast, soot bloom softening corners and dust film tracing the perimeter of the set, TK appearing only as a tonal reflection on brushed metal near her collarbone, cinematic fashion-film finish, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Profile silhouette partially swallowed by darkness, chin lowered into shadow and eyes lifting with quiet authority, ribbed graphite knit and tailored trousers separated by precise rim light, hairline cracks in matte black panels filled with dark debris, faint TK engraving integrated into a worn fastener, controlled haze and disciplined editorial tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Front-facing minimalist void scene with absolute black backdrop and subtle charcoal gradient, the model standing tall with arms relaxed, organza layered over matte underlayer for delicate texture separation, ash particulate catching light like fine grain, oxidized patina on a belt buckle with a hidden TK emboss, negative space holding the pressure in silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Restrained decadent close-up where couture seams and skin luminosity emerge from low-key exposure, a black choker with a tiny TK clasp disappearing into shadow, soot bloom and dust film adding elegant entropy to the sealed set, soft backlight and razor rim defining edges, silent void architecture framing her unreadable expression with cinematic depth of field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
