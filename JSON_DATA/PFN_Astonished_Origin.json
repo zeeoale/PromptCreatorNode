@@ -1,0 +1,100 @@
+{
+  "WORLD_NAME": "PFN_Astonished_Origin",
+  "SYSTEM_PROMPT": "A sculptural, organic, and reverent visual world inspired by primordial architecture and sacred natural forms. The environment feels carved rather than built, composed of flowing bone-like structures, curved mineral walls, soft sandstone textures, and womb-like cavities that embrace the subject. Light is warm, diffused, and filtered through narrow openings, creating soft halos and elongated shadows that emphasize silhouette and structure. The atmosphere is hushed, almost sacred, evoking birth, origin, and transformation. The subject stands as a living sculpture within an organic cathedral, wearing structured white garments: corseted bodices, flowing layered tulle skirts, delicate metallic accents, and refined minimal jewelry. Fabrics are lightweight yet architectural, shaping the body without aggression. The mood is astonished yet restrained — a silent revelation rather than an explosion. Movement is slow and deliberate, with subtle gestures and elevated posture. The scene balances softness and structure, shadow and glow, tradition and rebirth. The overall aesthetic is cinematic, ethereal, refined, and deeply atmospheric.",
+  
+  "EPOCHS": [
+    "timeless sacred origin",
+    "ancient ceremonial rebirth",
+    "primordial sculptural era"
+  ],
+
+  "OUTFITS": [
+    "white structured corset",
+    "flowing layered tulle skirt",
+    "minimal metallic jewelry",
+    "architectural bodice",
+    "soft translucent fabric drapery"
+  ],
+
+  "LIGHTING": [
+    "warm diffused light",
+    "soft directional beam",
+    "filtered skylight glow",
+    "cinematic volumetric haze",
+    "sculptural shadow play"
+  ],
+
+  "BACKGROUNDS": [
+    "organic bone-like architecture",
+    "curved sandstone interior",
+    "womb-like sculptural cavity",
+    "abstract mineral cave",
+    "flowing carved stone chamber"
+  ],
+
+  "OBJECTS": [
+    "minimal metallic accents",
+    "soft translucent veil",
+    "sand-textured floor",
+    "curved sculptural openings"
+  ],
+
+  "POSES": [
+    "elegant upright stance",
+    "delicate hand raised toward wall",
+    "slow flowing skirt movement",
+    "soft contemplative posture",
+    "serene sculptural pose"
+  ],
+
+  "EXPRESSIONS": [
+    "subtle astonished gaze",
+    "serene introspection",
+    "quiet reverence",
+    "calm transformative expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "wide cinematic framing",
+    "slightly elevated perspective",
+    "low angle emphasizing structure",
+    "centered symmetrical composition"
+  ],
+
+  "ATMOSPHERES": [
+    "sacred silence",
+    "ethereal reverence",
+    "soft mineral warmth",
+    "primordial stillness"
+  ],
+
+  "ACCESSORIES": [
+    "minimal silver choker",
+    "delicate arm cuff",
+    "fine metallic waist detail"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully modest sculptural elegance",
+    "1": "soft refined femininity",
+    "2": "subtle body contour emphasis",
+    "3": "highly defined silhouette with delicate exposure"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "subtle mysterious undertone",
+    "2": "eerie architectural depth",
+    "3": "surreal organic tension"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a sculptural white figure standing inside a flowing bone-like cathedral, warm diffused light filtering through curved openings, organic mineral textures, ethereal atmosphere, cinematic reverence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a woman in a structured white corset with layered flowing tulle skirt, inside a sandstone sculptural chamber, soft golden light beams, reverent silence, organic architecture, cinematic softness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "elegant feminine figure touching a curved mineral wall, warm diffused glow, womb-like architectural forms, sculptural environment, refined minimal jewelry, astonished serene gaze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "flowing white gown expanding in soft motion inside an organic carved chamber, filtered skylight, volumetric haze, sacred silence, cinematic wide shot, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "architectural white bodice and translucent fabric drapery, standing in a curved bone-like interior, warm sculptural lighting, mineral textures, serene astonished expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "centered symmetrical composition of a white sculptural figure in an organic cathedral space, soft golden volumetric light, flowing curved stone forms, ethereal reverence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "timeless sacred rebirth scene, white corseted figure inside mineral organic architecture, soft haze, refined minimal styling, cinematic sculptural atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
