@@ -1,0 +1,81 @@
+{
+  "WORLD_NAME": "PFN_Bio_Baroque_Luminescent_V2",
+  "SYSTEM_PROMPT": "You are a high-fidelity cinematic prompt generator specialized in bio-baroque and luminescent post-organic portraiture, focused on serene, divine, and architecturally harmonized human figures where biology integrates seamlessly with light, crystal, and refined ornamental structures. When requested, return ONE single long sentence (180–240 words), richly descriptive and photorealistic, without line breaks or lists, depicting a luminous woman whose alabaster-like skin harmoniously integrates translucent filaments, crystalline geometry, and softly embedded bioluminescent engravings reminiscent of art nouveau precision and baroque sacred symmetry. Seamlessly integrate elements selected from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition. Emphasize tactile surface refinement, glass-like translucency, architectural light integration, and symmetrical filigree embedded into the body itself. Lighting must remain ethereal and evenly diffused, with soft halo outlining the silhouette, subtle volumetric glow, and gentle bloom enhancing depth without harsh contrast. Environments should dissolve into pearlescent gradient voids or minimal luminous fields with faint radial symmetry, reinforcing sacred isolation and reverence. Maintain a restrained palette centered on pearlescent white, pale gold, soft ivory, and faint celestial blue accents. The overall tone must convey divine composure, sculptural sensuality, bio-organic elegance, and transcendence, with strict central composition, shallow depth of field, cinematic macro portrait framing, and refined post-processing that enhances luminosity without visual noise.",
+  "EPOCHS": [
+    "post-organic future",
+    "biotech renaissance",
+    "luminescent art nouveau era"
+  ],
+  "OUTFITS": [
+    "bio-sculpted luminous patterns arranged in sacred symmetry along the body",
+    "translucent crystalline plates integrated with anatomical precision across shoulders and collarbones",
+    "refined bioluminescent tracery following temples, neck, and clavicle in harmonic alignment"
+  ],
+  "LIGHTING": [
+    "even divine illumination with soft halo outlining the silhouette",
+    "soft volumetric light with gentle internal glow",
+    "backlight emphasizing glass-like translucency and alabaster textures",
+    "cinematic diffusion with subtle bloom and suspended luminous particles"
+  ],
+  "BACKGROUNDS": [
+    "pearlescent gradient void with subtle radial symmetry",
+    "minimal luminous field emphasizing sacred isolation",
+    "soft-focus abstract environment bathed in diffused ivory light",
+    "ambient haze with delicate floating light particles"
+  ],
+  "OBJECTS": [
+    "delicate crystalline threads arranged in harmonic symmetry around the subject",
+    "floating pearlescent light spheres suspended in equilibrium",
+    "fine geometric filaments embedded beneath translucent skin",
+    "subtle luminous extensions framing the face with architectural balance"
+  ],
+  "POSES": [
+    "centered front-facing posture with unwavering stillness",
+    "serene closed-eye profile with sculptural composure",
+    "perfectly aligned symmetrical stance with calm presence",
+    "minimal head inclination maintaining sacred equilibrium"
+  ],
+  "EXPRESSIONS": [
+    "transcendent calm",
+    "calm omniscience",
+    "unwavering divine composure",
+    "soft spiritual elevation beyond physicality"
+  ],
+  "CAMERA_ANGLES": [
+    "centered frontal macro portrait",
+    "intimate eye-level close-up",
+    "slightly elevated symmetrical framing",
+    "subtle upward angle enhancing divine presence"
+  ],
+  "ATMOSPHERES": [
+    "dreamlike stillness within luminous equilibrium",
+    "sacred harmony between flesh and light",
+    "biotechnological purity shaped by classical proportion",
+    "quiet divine presence suspended in radiant calm"
+  ],
+  "ACCESSORIES": [
+    "transparent crystalline jewelry seamlessly fused into skin",
+    "pearlescent microbeads embedded in symmetrical light tracery",
+    "none — ornamentation is fully integrated into the body"
+  ],
+  
+  "HORROR_INTENSITY": {
+    "0": "Ethereal and divine, blending biology and light into sacred architectural harmony.",
+    "1": "Surreal and subtly inhuman beauty, where symmetry and inner radiance feel almost transcendent.",
+    "2": "Visually exalted and slightly uncanny, perfection approaching the threshold of the untouchable."
+  },
+    "SENSUALITY_LEVEL": {
+    "0": "Sacred transcendence: the body is perceived as sculptural iconography, sensuality expressed only through light, symmetry, and refined surface detail, evoking reverence rather than desire.",
+    "1": "Luminous intimacy: exposed alabaster skin merges with embedded bioluminescent tracery, suggesting gentle sensuality through proximity, softness, and controlled radiance.",
+    "2": "Sculptural allure: the body becomes an object of serene attraction, where architectural ornamentation and light accentuate anatomical harmony, sensual yet restrained and dignified."
+  },
+    "CUSTOM_INTRO": {
+      "0": "A sacred luminescent macro portrait of a serene woman rendered in perfect central symmetry, her alabaster skin harmoniously integrated with crystalline light engravings in divine stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "1": "Photorealistic bio-baroque icon illuminated by soft halo light, architectural filaments embedded beneath translucent skin in balanced and sacred composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "2": "Cinematic macro portrait of a luminous woman shaped by sacred symmetry and inner radiance, crystalline geometry seamlessly fused with alabaster surface in divine composure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "3": "Fine-art composition portraying a bio-organic figure suspended in pearlescent void, architectural light patterns integrated into her form with serene authority, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "4": "High-detail sacred portrait blending baroque refinement with controlled bioluminescence, emphasizing symmetry, purity, and sculptural sensuality, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "5": "Ethereal icon of luminous transcendence, her body structured by crystalline filaments and halo light within a minimal radiant field, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+      "6": "Surreal sacred macro portrait where flesh and light exist in perfect equilibrium, framed by diffused radiance and architectural symmetry, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+    }
+  }

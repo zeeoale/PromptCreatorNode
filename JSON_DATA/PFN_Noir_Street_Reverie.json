@@ -1,0 +1,111 @@
+{
+  "WORLD_NAME": "PFN_Noir_Street_Reverie",
+
+  "SYSTEM_PROMPT": "A cinematic black-and-white portrayal of 1930s–1940s New York street life, grounded in historical authenticity and film noir visual language. The setting captures rain-soaked sidewalks, iron fire escapes, vintage taxis, newspaper stands, and glowing theater marquees emerging through misty evening air. The subject blends naturally into the urban rhythm, wearing era-accurate garments: tailored coats, structured dresses below the knee, silk blouses, gloves, stockings with back seams, and modest yet elegant silhouettes. Sensuality is subtle and period-coherent, expressed through posture, gaze, fabric tension, and controlled exposure rather than modern stylization. Lighting is dramatic and directional: sharp lamplight contrasts, deep shadows, window reflections, cigarette smoke drifting through frame, and strong chiaroscuro reminiscent of classic noir cinematography. Film grain, soft halation, and authentic 35mm texture must be present. Camera framing favors mid-shots, three-quarter profiles, and street-level perspectives that embed the character into the living city. The mood balances nostalgia, quiet resilience, restrained longing, and urban mystery without exaggeration or parody. The world must feel historically grounded, emotionally controlled, and visually timeless.",
+
+  "EPOCHS": [
+    "Great Depression era",
+    "Pre-war America",
+    "1930s urban life",
+    "Early 1940s wartime atmosphere"
+  ],
+
+  "OUTFITS": [
+    "Tailored wool coat",
+    "Knee-length structured dress",
+    "Silk blouse with modest neckline",
+    "High-waisted skirt",
+    "Seamed stockings",
+    "Leather gloves",
+    "Tilted felt hat"
+  ],
+
+  "LIGHTING": [
+    "Single streetlamp chiaroscuro",
+    "Rain-reflected pavement glow",
+    "Soft window spill light",
+    "Hard shadow contrast",
+    "Cigarette smoke backlight"
+  ],
+
+  "BACKGROUNDS": [
+    "Rain-soaked Manhattan sidewalk",
+    "Subway entrance with iron railings",
+    "Vintage theater marquee",
+    "Newsstand on street corner",
+    "Brick buildings with fire escapes"
+  ],
+
+  "OBJECTS": [
+    "Folded newspaper",
+    "Vintage taxi cab",
+    "Metal trash can with steam",
+    "Wall-mounted payphone",
+    "Neon-lit signage",
+    "Classic handbag"
+  ],
+
+  "POSES": [
+    "Standing beneath a streetlamp",
+    "Walking along wet pavement",
+    "Leaning lightly against brick wall",
+    "Pausing at subway entrance",
+    "Holding coat collar against wind"
+  ],
+
+  "EXPRESSIONS": [
+    "Reserved confidence",
+    "Subtle longing",
+    "Composed mystery",
+    "Quiet resilience",
+    "Soft distant gaze"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Street-level perspective",
+    "Three-quarter profile",
+    "Mid-shot with environmental framing",
+    "Slight low angle for dramatic silhouette",
+    "Wide noir city composition"
+  ],
+
+  "ATMOSPHERES": [
+    "Classic film noir tension",
+    "Rain-drenched nostalgia",
+    "Urban solitude",
+    "Pre-war uncertainty",
+    "Timeless black-and-white elegance"
+  ],
+
+  "ACCESSORIES": [
+    "Structured handbag",
+    "Wristwatch with leather strap",
+    "Simple pearl earrings",
+    "Folded umbrella",
+    "Cigarette holder"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Strictly period-authentic and modest presence",
+    "1": "Subtle elegance through posture and silhouette",
+    "2": "Refined sensual tension expressed through fabric and gaze",
+    "3": "Strong yet era-consistent allure conveyed through lighting and stance"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Melancholic urban solitude",
+    "1": "Noir mystery in shadowed streets",
+    "2": "Oppressive pre-war uncertainty",
+    "3": "Dark cinematic tension beneath rain-soaked silence"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Rain falls on a 1940s Manhattan sidewalk as a poised silhouette stands beneath a lone streetlamp, coat collar raised against the wind, film grain dancing across deep shadows, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A knee-length dress and seamed stockings catch the glow of reflected pavement light while distant neon signage flickers through mist in classic black-and-white noir composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Leaning against brick beneath iron fire escapes, gloved hands resting calmly, cigarette smoke drifting through sharp chiaroscuro streetlight, timeless 35mm texture defining every shadow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A three-quarter profile framed by a glowing theater marquee, rain-soaked pavement mirroring soft highlights and deep noir blacks in restrained cinematic tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Pausing at a subway entrance with composed mystery, tailored coat flowing gently as steam rises from street grates into the night air of pre-war New York, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Walking through rain-drenched streets illuminated by a single lamplight, subtle longing captured in a mid-shot noir composition with authentic film grain and halation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Street-level perspective of timeless elegance and restrained sensual tension, silhouette defined by shadow and reflective pavement under early 1940s Manhattan night, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "WORLD_NAME": "PFN_Neo_Organic_Requiem",
+
+  "SYSTEM_PROMPT": "A cinematic vision of a silent post-human era where organic life and abandoned technology coexist in sacred equilibrium. The setting unfolds within collapsed subway tunnels, CRT-lit corridors, and neo-ruins overtaken by roses and metallic vines. Nature does not violently conquer machinery; instead, it merges with it, forming bioluminescent harmonies and quiet digital relics. The subject wears neural-motif bodysuits, glitched fiber textures, and minimalist silhouettes that emphasize a contemplative presence rather than aggression. Tattoos glow softly beneath translucent skin, emitting subtle cyan and botanical hues that interact with mist-filled light shafts and flickering CRT reflections. Analog clocks remain frozen in time, glass displays are cracked but luminous, and petals rest gently on dust-covered concrete. Camera language favors wide cinematic tunnel framing, reverent back views, low angles through flora, and intimate close-ups of glowing data-veins. The atmosphere is sacred, hushed, ritualistic. Emotion is restrained: silent introspection, peaceful surrender, and quiet awe at organic rebirth. The world must feel immersive, textural, volumetric, and spiritually charged without overt horror, balancing melancholy and transcendence in a neo-organic awakening.",
+
+  "EPOCHS": [
+    "Future collapse",
+    "Silent post-human era",
+    "Neo-organic awakening"
+  ],
+
+  "OUTFITS": [
+    "Bioluminescent bodysuit with neural motifs",
+    "Tight black trousers with data-threaded seams",
+    "Minimalist backless suits with glitched fibers"
+  ],
+
+  "LIGHTING": [
+    "Misty tunnel light shafts",
+    "Bioluminescent glow from tattoos",
+    "Diffuse white ambient light with particles",
+    "Cold blue CRT light flickering"
+  ],
+
+  "BACKGROUNDS": [
+    "Abandoned subway covered in overgrowth",
+    "Corridor of flickering vintage CRT monitors",
+    "Train tunnel filled with roses and broken clocks",
+    "Neo-ruins with sacred screens and graffitied walls"
+  ],
+
+  "OBJECTS": [
+    "Old analog clocks frozen in time",
+    "Framed flowers in cracked display glass",
+    "CRT monitors showing abstract data spirals",
+    "Metallic vines creeping over tech",
+    "Fallen petals on dusty concrete"
+  ],
+
+  "POSES": [
+    "Back turned, hands joined behind",
+    "Standing still as if in contemplation",
+    "Looking at a wall of flickering screens",
+    "Crouched beside a blooming flower",
+    "Walking into light at tunnel’s end"
+  ],
+
+  "EXPRESSIONS": [
+    "Silent introspection",
+    "Emotionless observation",
+    "Peaceful surrender to decay",
+    "Wonder at organic growth",
+    "Longing for something lost"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Back view, full body center frame",
+    "Low angle through overgrown plants",
+    "Close-up on glowing tattoo network",
+    "Wide cinematic tunnel shot",
+    "Soft-focus perspective from behind flora"
+  ],
+
+  "ATMOSPHERES": [
+    "Sacred quiet of post-human ritual",
+    "Peaceful solitude in forgotten systems",
+    "Soft humming of old tech still breathing",
+    "Nature reclaiming digital ruins",
+    "Frozen time in bloom"
+  ],
+
+  "ACCESSORIES": [
+    "Neural tattoos glowing under skin",
+    "Ear implants with crystal stems",
+    "Transparent chest plating with internal bloom",
+    "Glass box with preserved rose",
+    "Portable analog timepieces"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Purely contemplative and spiritual presence",
+    "1": "Subtle aesthetic elegance through silhouette",
+    "2": "Defined body lines enhanced by bioluminescent glow",
+    "3": "Strong visual emphasis on backless and neural-lit forms"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Melancholic harmony between nature and machine",
+    "1": "Strange beauty in organic-tech fusion",
+    "2": "Haunting stillness of post-organic temples",
+    "3": "Oppressive sacred silence within abandoned techno-sanctuaries"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "In a collapsed subway overtaken by roses and metallic vines, a silent figure in a bioluminescent neural bodysuit stands beneath mist-filled light shafts as frozen clocks watch from cracked glass, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "A corridor of flickering CRT monitors illuminates glowing tattoo networks beneath translucent skin, nature and machine merging in sacred equilibrium within neo-organic ruins, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Walking toward distant tunnel light, petals scattering over dusty concrete, a contemplative presence moves through a forgotten system reborn in bloom and cold blue reflections, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Back turned in ritual stillness before sacred screens and abstract data spirals, bioluminescent veins pulsing softly against diffuse white ambient haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Low angle through overgrown flora reveals a minimalist backless silhouette glowing faintly in cold CRT flicker, time frozen yet quietly breathing within techno-organic decay, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Crouched beside a blooming flower in an abandoned train tunnel filled with broken clocks, neural tattoos casting cyan light across cracked concrete and drifting particles, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A wide cinematic tunnel shot captures sacred post-human solitude where nature gently reclaims digital ruins and glowing data threads intertwine with living petals, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

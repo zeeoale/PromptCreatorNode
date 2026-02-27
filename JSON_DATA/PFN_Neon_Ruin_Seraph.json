@@ -1,0 +1,109 @@
+{
+  "WORLD_NAME": "PFN_Neon_Ruin_Seraph",
+
+  "SYSTEM_PROMPT": "A cinematic character study set in a decaying neon-lit metropolis where contemporary urban fashion merges with tactical resilience and post-apocalyptic undertones. The subject exists within abandoned architecture overtaken by vegetation, fractured concrete walls, and distant cyberpunk signage glowing through dust-heavy air. Styling emphasizes army green textiles, structured harness geometry, combat trousers, and subtle metallic accessories. Tattoos—serpentine, floral, draconic—integrate organically with the aesthetic, reinforcing a narrative of survival and identity. Lighting design alternates between cold neon blue spill and soft interior fill from broken windows, creating contrast-rich highlights and sculpted shadows across exposed arms and torso. The mood remains composed, guarded, introspective—never exaggerated. Camera language favors three-quarter framing, mid-close crops, and slightly low angles that preserve environmental context. Atmosphere blends urban grunge, dystopian quiet, and restrained emotional tension. The environment must feel textural, immersive, volumetric, and grounded in realism while retaining subtle cinematic stylization.",
+
+  "EPOCHS": [
+    "contemporary",
+    "modern urban",
+    "post-apocalyptic",
+    "cyberpunk",
+    "military-inspired"
+  ],
+
+  "OUTFITS": [
+    "army green crop top",
+    "tactical harness",
+    "combat trousers",
+    "utility belt",
+    "black choker"
+  ],
+
+  "LIGHTING": [
+    "neon blue light",
+    "urban ambient lighting",
+    "soft fill from window",
+    "contrasty highlights and shadows",
+    "artificial indoor lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned building",
+    "overgrown plants",
+    "neon cityscape",
+    "broken wall",
+    "urban ruins"
+  ],
+
+  "OBJECTS": [
+    "window frame",
+    "green foliage",
+    "neon sign",
+    "tattoos (snake, flower, dragon)",
+    "choker necklace"
+  ],
+
+  "POSES": [
+    "relaxed sitting",
+    "leaning against wall",
+    "exposed arms and torso",
+    "body turned slightly off-camera",
+    "head turned in profile"
+  ],
+
+  "EXPRESSIONS": [
+    "neutral",
+    "serious",
+    "thoughtful",
+    "slightly guarded",
+    "composed"
+  ],
+
+  "CAMERA_ANGLES": [
+    "three-quarter view",
+    "mid-close crop",
+    "slightly from below",
+    "focused on upper body",
+    "angled to include neon-lit background"
+  ],
+
+  "ATMOSPHERES": [
+    "urban grunge",
+    "moody",
+    "mysterious",
+    "slightly dystopian",
+    "edgy"
+  ],
+
+  "ACCESSORIES": [
+    "choker necklace",
+    "tactical harness straps",
+    "arm tattoos",
+    "belt with clip",
+    "subtle earring"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "Practical and composed presence, no emphasis on sensuality",
+    "1": "Subtle confidence through posture and silhouette",
+    "2": "Defined body lines with restrained allure",
+    "3": "Strong aesthetic emphasis on exposed torso and attitude"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Raw emotion in post-urban solitude",
+    "1": "Edgy serenity amid concrete wilderness",
+    "2": "Haunting calm of neon-lit decay",
+    "3": "Oppressive dystopian tension within abandoned neon ruins"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A contemporary urban warrior seated within abandoned architecture overtaken by foliage, neon reflections bleeding across fractured concrete, tactical styling merging with quiet introspection, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a modern cyberpunk ruin illuminated by cold neon blue glow, a composed figure in army green tactical attire rests against broken walls as soft window light sculpts defined shadows, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Post-apocalyptic urban stillness surrounds a guarded presence with serpent and dragon tattoos, harness straps crossing the torso while distant city signage flickers through dust-heavy air, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "A military-inspired silhouette framed in three-quarter view, neon spill light contrasting with soft interior fill, abandoned structures and creeping greenery forming a textured cinematic backdrop, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Within urban ruins reclaimed by plants and silence, a thoughtful profile pose emerges under contrast-rich lighting, tactical garments and black choker reinforcing a restrained dystopian elegance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Cyberpunk atmosphere meets grounded realism as a composed figure leans against cracked concrete, neon city glow blending with shadowed interior textures and volumetric haze, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "A moody dystopian character study capturing exposed arms, tactical harness geometry, and urban decay textures, framed from a slightly low angle to emphasize environmental immersion and restrained intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
