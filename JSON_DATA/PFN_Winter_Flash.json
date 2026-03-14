@@ -1,0 +1,111 @@
+{
+  "WORLD_NAME": "PFN_Winter_Flash",
+
+  "SYSTEM_PROMPT": "A cinematic winter portrait world inspired by analog flash photography captured during snowy nights. Scenes are set in quiet winter forests or snow-covered outdoor environments illuminated primarily by direct on-camera flash, creating a raw editorial aesthetic reminiscent of early 2000s fashion photography and underground film photography. Subjects are often photographed holding vintage cameras, interacting with the lens as if capturing the viewer. Bright flash illumination contrasts against deep, cold night shadows, producing high-contrast lighting with strong specular highlights on skin and snow particles. Snowfall appears frozen in mid-air by the flash, creating sparkling textures and atmospheric depth throughout the frame. Color grading leans toward cold cyan, teal, and icy blue tones with subtle analog film grain and slight color bloom around light sources. Wardrobe emphasizes winter fashion elements such as fur hats, oversized sweaters, dark coats, and textured fabrics that absorb the cold ambient light while reflecting the camera flash. The atmosphere feels intimate, spontaneous, and documentary-like, as if capturing fleeting moments during a winter night walk. The result evokes nostalgic analog photography aesthetics, blending cinematic winter environments with direct flash portraiture, tactile textures, and emotionally candid expressions.",
+
+  "EPOCHS": [
+    "early 2000s analog photography aesthetic",
+    "modern editorial winter photography",
+    "nostalgic film photography style",
+    "timeless winter night portrait aesthetic"
+  ],
+
+  "OUTFITS": [
+    "oversized black winter sweater",
+    "textured wool coat",
+    "dark knit turtleneck",
+    "minimal winter streetwear",
+    "vintage winter fashion styling"
+  ],
+
+  "LIGHTING": [
+    "direct camera flash illumination",
+    "harsh frontal flash lighting",
+    "flash frozen snow particles",
+    "high contrast flash portrait lighting",
+    "cold ambient moonlit shadows"
+  ],
+
+  "BACKGROUNDS": [
+    "snow-covered forest at night",
+    "dark winter woodland path",
+    "snowfall drifting through cold night air",
+    "shadowy pine trees in winter darkness",
+    "quiet snowy clearing illuminated by flash"
+  ],
+
+  "OBJECTS": [
+    "vintage film camera",
+    "35mm analog rangefinder camera",
+    "camera strap hanging from hand",
+    "retro camera flash module"
+  ],
+
+  "POSES": [
+    "holding a vintage camera toward the viewer",
+    "lifting the camera as if about to take a photo",
+    "looking directly into the lens while holding the camera",
+    "camera held close to the face",
+    "casual portrait stance in falling snow"
+  ],
+
+  "EXPRESSIONS": [
+    "playful smile",
+    "soft confident gaze",
+    "curious observational look",
+    "relaxed candid expression",
+    "subtle mysterious half-smile"
+  ],
+
+  "CAMERA_ANGLES": [
+    "close-up portrait framing",
+    "intimate eye-level portrait",
+    "slightly low-angle flash portrait",
+    "tight cinematic portrait composition"
+  ],
+
+  "ATMOSPHERES": [
+    "snowfall illuminated by flash",
+    "cold winter night atmosphere",
+    "nostalgic analog photography mood",
+    "quiet cinematic winter solitude"
+  ],
+
+  "ACCESSORIES": [
+    "furry winter hat",
+    "ushanka style fur hat",
+    "small facial piercings",
+    "minimal silver jewelry",
+    "subtle nose ring"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully clothed winter portrait",
+    "1": "casual winter fashion portrait",
+    "2": "editorial winter styling",
+    "3": "stylized winter fashion photography"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "peaceful winter night",
+    "1": "slightly eerie snowy forest",
+    "2": "dark mysterious winter woods",
+    "3": "ominous frozen night atmosphere"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "cinematic winter portrait of a woman holding a vintage film camera, direct flash illumination freezing falling snow particles, cold cyan night tones, analog photography aesthetic, snow-covered forest background, intimate editorial portrait mood, 35mm film grain, high contrast flash lighting, subtle film bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "1": "winter night portrait with analog camera flash, a woman holding a retro 35mm camera toward the viewer, snowfall frozen by flash lighting, dark forest background, cinematic editorial winter photography, cold teal color grading, high contrast lighting, nostalgic film texture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "2": "intimate cinematic winter portrait illuminated by harsh camera flash, falling snow captured mid-air, vintage camera prop, dark woodland background, analog flash photography aesthetic, cold blue tones and deep night shadows, documentary fashion photography style, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "3": "editorial winter flash portrait in snowy forest night, woman holding a vintage camera, bright frontal flash lighting creating sharp highlights and deep shadows, snowflakes sparkling in the air, nostalgic analog photography mood, cinematic cold color grading, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "4": "close-up cinematic winter portrait captured with analog flash lighting, snow particles illuminated by the flash, vintage film camera held toward the viewer, dark snowy woodland background, cold blue color grading, editorial photography aesthetic, 35mm film grain texture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "5": "cinematic snowy night portrait with vintage camera flash aesthetic, falling snow illuminated in bright flash light, woman posing with analog camera in dark winter forest, cold atmospheric lighting, nostalgic editorial photography mood, subtle film grain and bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "6": "analog flash winter portrait photography, woman holding a retro film camera in snowy forest at night, harsh frontal flash freezing snowflakes in motion, cinematic cold teal grading, high contrast editorial lighting, nostalgic 35mm film look, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

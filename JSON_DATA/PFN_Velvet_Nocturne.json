@@ -1,0 +1,168 @@
+{
+  "WORLD_NAME": "PFN_Velvet_Nocturne",
+
+  "SYSTEM_PROMPT": "A cinematic portrait world inspired by velvet-drenched nocturnal elegance, aristocratic interiors, and decadent gothic couture aesthetics. The visual language blends baroque opulence with restrained fine-art portrait photography, where soft chiaroscuro lighting sculpts the figure against luxurious theatrical environments. Subjects inhabit dimly lit interiors such as abandoned opera houses, aristocratic salons, vintage theaters, or velvet-lined boudoirs filled with heavy drapery, antique mirrors, and ornate furniture. Lighting remains controlled and painterly, often built around a single key light with deep shadows and delicate rim highlights that emphasize fabric texture and facial structure. The atmosphere evokes timeless melancholy and quiet decadence, as if capturing a forgotten aristocratic moment suspended in time. Wardrobe emphasizes elegant couture pieces: velvet gowns, lace bodices, flowing chiffon dresses, or minimalist evening silhouettes with subtle gothic influences. Compositions focus on graceful posture and sculptural posing rather than movement, highlighting elegance, silhouette, and emotional stillness. Color palettes lean toward deep reds, black velvet tones, muted greens, and shadow-heavy environments that feel intimate and cinematic. The result resembles fine art editorial photography inspired by classical portrait painting, vintage couture photography, and theatrical staging, creating a mood of aristocratic solitude, quiet sensuality, and timeless nocturnal beauty.",
+
+  "EPOCHS": [
+    "timeless",
+    "art deco inspired",
+    "modern gothic",
+    "vintage couture era",
+    "late victorian decadence",
+    "1930s cinematic glamour",
+    "post-war european haute couture"
+  ],
+
+  "OUTFITS": [
+    "long elegant evening dress",
+    "open-back couture gown",
+    "black velvet dress",
+    "deep red silk dress",
+    "lace-sleeved gown",
+    "high-fashion minimalist dress",
+    "sheer layered chiffon gown",
+    "corseted evening dress with soft structure",
+    "off-shoulder velvet gown",
+    "asymmetrical couture dress",
+    "silk slip dress with vintage cut",
+    "tailored gothic evening suit for women",
+    "long satin gown with subtle slit",
+    "embroidered baroque-inspired dress",
+    "dark lace bodice with flowing skirt"
+  ],
+
+  "LIGHTING": [
+    "soft cinematic lighting",
+    "dramatic rim light",
+    "low key studio lighting",
+    "painterly shadow lighting",
+    "controlled fine art lighting",
+    "chiaroscuro inspired lighting",
+    "single key light with deep shadows",
+    "soft top light sculpting facial features",
+    "moody candlelit illumination",
+    "diffused velvet-like light falloff"
+  ],
+
+  "BACKGROUNDS": [
+    "deep red backdrop",
+    "dark floral baroque wallpaper",
+    "velvet curtain background",
+    "muted green vintage wallpaper",
+    "minimal fine art studio background",
+    "aged theater interior",
+    "ornate gothic salon",
+    "dimly lit aristocratic chamber",
+    "abandoned opera house",
+    "luxury boudoir with heavy drapery",
+    "dark wooden panel room",
+    "shadow-filled gallery space"
+  ],
+
+  "OBJECTS": [
+    "velvet curtains",
+    "decorative floral patterns",
+    "subtle theatrical elements",
+    "antique mirrors",
+    "ornate furniture",
+    "candelabras",
+    "vintage chaise longue",
+    "heavy draped fabrics",
+    "baroque frames",
+    "silk cushions"
+  ],
+
+  "POSES": [
+    "three-quarter back pose",
+    "looking over shoulder",
+    "graceful static stance",
+    "elegant controlled posture",
+    "reclining on velvet chaise longue",
+    "lying sideways on a velvet chaise longue",
+    "seated on a velvet divanette",
+    "relaxed seated pose on velvet sofa",
+    "crossed legs seated on velvet couch",
+    "elongated reclining pose with arched back",
+    "upright seated pose with hands resting softly",
+    "semi-reclined pose against velvet cushions",
+    "standing with weight shifted on one leg",
+    "slow walking pose with flowing fabric",
+    "leaning lightly against furniture",
+    "kneeling pose with upright posture",
+    "side profile pose emphasizing silhouette"
+  ],
+
+  "EXPRESSIONS": [
+    "calm and distant",
+    "melancholic gaze",
+    "controlled sensuality",
+    "serene elegance",
+    "quietly seductive expression",
+    "soft half-lidded eyes",
+    "introspective and enigmatic",
+    "subtle confident gaze",
+    "detached aristocratic poise",
+    "timeless feminine composure"
+  ],
+
+  "CAMERA_ANGLES": [
+    "medium portrait",
+    "waist-up portrait",
+    "three-quarter view",
+    "slightly elevated angle",
+    "low angle emphasizing elegance",
+    "cinematic close-up",
+    "intimate mid-shot",
+    "full body portrait with negative space"
+  ],
+
+  "ATMOSPHERES": [
+    "dark romantic",
+    "elegant gothic",
+    "mysterious",
+    "cinematic",
+    "fine art editorial",
+    "decadent luxury",
+    "somber sensuality",
+    "timeless melancholy",
+    "aristocratic decadence",
+    "velvet-drenched intimacy"
+  ],
+
+  "ACCESSORIES": [
+    "minimal earrings",
+    "vintage jewelry",
+    "subtle couture details",
+    "antique rings",
+    "delicate chokers",
+    "opera gloves",
+    "lace gloves",
+    "hair ornaments",
+    "pearl accessories",
+    "embroidered belts"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure elegance, no sensual emphasis",
+    "1": "suggested femininity through posture and fabric",
+    "2": "controlled sensuality, tasteful and refined",
+    "3": "decadent elegance with subtle erotic tension, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "low",
+    "1": "psychological",
+    "2": "atmosphere-driven darkness, no explicit horror elements",
+    "3": "gothic tension within aristocratic darkness"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "cinematic velvet-drenched portrait in an aristocratic interior, gothic couture elegance, dramatic chiaroscuro lighting sculpting the subject against baroque surroundings, fine art editorial photography, deep shadows and velvet textures, timeless melancholic atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "decadent gothic portrait photography in an ornate salon, velvet curtains and antique furniture surrounding an elegant subject, painterly chiaroscuro lighting with deep shadows, aristocratic melancholy mood, cinematic couture styling, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "fine art editorial portrait in a velvet-draped theater interior, gothic couture elegance illuminated by soft cinematic lighting, rich textures of silk and velvet fabrics, aristocratic solitude and timeless romantic atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "cinematic gothic couture portrait in a dim aristocratic chamber, baroque textures and velvet fabrics surrounding the subject, dramatic rim lighting and deep shadow composition, elegant melancholic atmosphere inspired by classical portrait painting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "aristocratic nocturnal portrait in a luxury boudoir with heavy drapery and antique mirrors, velvet couture fashion and refined posture illuminated by soft painterly lighting, timeless gothic elegance and editorial composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "dark romantic portrait photography inside an abandoned opera house, elegant gothic couture styling with flowing fabrics and velvet textures, dramatic cinematic lighting and aristocratic melancholy atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "cinematic fine art portrait inspired by baroque interiors and velvet couture fashion, elegant subject posed among antique furniture and heavy drapery, chiaroscuro lighting and deep shadow composition creating aristocratic gothic mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

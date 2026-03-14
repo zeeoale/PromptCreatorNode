@@ -1,0 +1,125 @@
+{
+  "WORLD_NAME": "PFN_Reflected_Night",
+  
+  "SYSTEM_PROMPT": "A cinematic urban night photography world characterized by atmospheric lighting, reflective surfaces, and glowing city environments. Scenes take place in modern urban nightlife settings where streetlights, neon signage, vehicle headlights, and interior lighting create layered reflections across glass, metal, and wet surfaces. The visual style emphasizes natural environmental lighting, soft bokeh highlights, luminous reflections, and subtle optical bloom. Images often feature shallow depth of field, cinematic contrast, and gentle film grain that enhance the realism of nighttime photography. The atmosphere can range from quiet and contemplative to vibrant urban nightlife, capturing fleeting moments within illuminated city environments. Reflections, light diffusion, and glowing highlights interact naturally with the surroundings, creating visually rich compositions without imposing rigid framing or camera placement. The overall aesthetic evokes contemporary cinematic photography where mood, lighting, and reflective textures shape the visual identity of the scene.",  
+  
+  "EPOCHS": [
+    "Contemporary",
+    "Modern urban nightlife",
+    "Cinematic photography era"
+  ],
+
+  "OUTFITS": [
+    "Oversized trench coat",
+    "Faux fur evening coat",
+    "Sequin evening dress",
+    "Studded leather jacket",
+    "Minimal urban nightwear",
+    "Elegant evening fashion"
+  ],
+
+  "LIGHTING": [
+    "Warm amber streetlight glow",
+    "Soft neon reflections",
+    "Interior window lighting",
+    "Low-key cinematic lighting",
+    "Soft color bloom highlights",
+    "Mixed warm and cool night lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "Rain-soaked city streets",
+    "Urban train station at night",
+    "Dim restaurant windows",
+    "Bus shelter glass panels",
+    "City nightlife through reflective glass"
+  ],
+
+  "OBJECTS": [
+    "Rain-streaked glass surfaces",
+    "Window reflections",
+    "Neon signage reflections",
+    "Bokeh light clusters",
+    "Blurred headlight streaks",
+    "Condensation on windows"
+  ],
+
+    "POSES": [
+    "Leaning against rain-streaked glass window",
+    "Standing near reflective storefront window",
+    "Looking out through a rainy bus window",
+    "Waiting under a dim streetlight",
+    "Profile portrait beside reflective surface",
+    "Sitting on a wet sidewalk curb under neon lights",
+    "Leaning against a parked car illuminated by streetlights",
+    "Standing under a rain-soaked bus stop shelter",
+    "Resting against a subway station wall beside reflective panels",
+    "Sitting alone on a bus stop bench at night",
+    "Standing beside a taxi with city lights reflecting on the door",
+    "Leaning against a streetlight pole with blurred traffic behind",
+    "Sitting on concrete steps outside a closed storefront",
+    "Standing beside a rain-covered phone booth",
+    "Resting one shoulder against a glass building facade",
+    "Walking slowly along a wet city sidewalk at night",
+    "Standing near a crosswalk with headlights streaking past",
+    "Sitting on the edge of a bus stop bench looking toward traffic",
+    "Waiting beside a reflective subway train door",
+    "Standing beneath a neon-lit shop sign in the rain"
+    ],
+
+  "EXPRESSIONS": [
+    "Melancholic",
+    "Quietly contemplative",
+    "Soft introspection",
+    "Subtle elegance",
+    "Detached calm"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Portrait through reflective window",
+    "Close-up through glass surface",
+    "85mm cinematic portrait framing",
+    "Profile shot beside reflective surface",
+    "Foreground light streak composition"
+  ],
+
+  "ATMOSPHERES": [
+    "Rainy urban night",
+    "Dreamy reflective mood",
+    "Moody cinematic glow",
+    "Soft melancholic atmosphere",
+    "Urban solitude"
+  ],
+
+  "ACCESSORIES": [
+    "Wide-brim hat",
+    "Minimal earrings",
+    "Elegant evening makeup",
+    "Soft winter scarves",
+    "Urban jewelry accents"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure cinematic portrait",
+    "1": "subtle elegance and glamour",
+    "2": "soft evening allure",
+    "3": "not emphasized"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror",
+    "1": "mild atmospheric tension",
+    "2": "not applicable",
+    "3": "not applicable"
+  },
+
+ "CUSTOM_INTRO": {
+    "0": "cinematic urban night scene with reflective glass surfaces and glowing city lights, soft bokeh haze drifting across the foreground, warm streetlights mixing with cool neon reflections, shallow depth of field, dreamy reflective atmosphere, filmic grain texture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "moody nighttime city atmosphere with rain-soaked streets and luminous reflections on glass and metal surfaces, elongated light streaks and floating bokeh highlights, soft cinematic lighting illuminating the subject, subtle film grain and lens bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "cinematic portrait scene set within glowing urban nightlife, layered reflections across windows and wet surfaces, ambient neon colors blending with warm streetlight glow, shallow depth photography with dreamy light bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "nighttime city ambience with reflective surfaces and drifting bokeh lights, atmospheric glow from distant headlights and neon signage, soft cinematic contrast and natural environmental lighting, film grain texture and optical bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "dreamlike urban night photography with luminous reflections on glass and wet pavement, blurred city lights stretching into soft glowing streaks, gentle color bloom and cinematic depth of field, atmospheric nocturnal mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "cinematic nocturnal city environment filled with layered reflections, soft neon highlights and glowing streetlights diffusing through misty night air, shallow depth-of-field portrait photography with subtle film grain, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "moody reflective urban night scene with luminous bokeh lights and cinematic glow, wet city textures reflecting ambient neon colors, dreamy shallow depth-of-field photography and subtle vintage lens bloom, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

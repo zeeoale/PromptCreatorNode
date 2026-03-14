@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_Urban_Goth_Feline",
+
+  "SYSTEM_PROMPT": "A dark editorial portrait world blending contemporary gothic fashion with urban fantasy aesthetics and feline symbolism. The visual language focuses on powerful, close-up portrait photography emphasizing striking facial features, elaborate makeup, and dramatic accessories. Subjects often embody a cat-like elegance and predatory confidence, combining gothic couture with subtle fantasy elements such as stylized cat ears, ornate headpieces, and intricate jewelry. Lighting remains controlled and studio-driven, using low-key portrait setups with dramatic key lighting and soft rim highlights to sculpt the face against deep shadows. Backgrounds remain minimal and dark, allowing the subject’s expression, styling, and accessories to dominate the composition. The aesthetic merges gothic glamour, occult fashion influences, and modern editorial portraiture, producing images that feel both seductive and powerful. Strong eye contact with the viewer is common, creating a confrontational and captivating presence. Makeup styling often features heavy eyeliner, dark lipstick, and bold contrasts that enhance the mysterious aura of the character. Overall the world evokes a fusion of gothic beauty, urban fantasy, and feline mystique, where elegance and danger coexist in a refined, studio-lit portrait environment.",
+
+  "EPOCHS": [
+    "Contemporary Gothic",
+    "Urban Fantasy",
+    "Dark Glamour",
+    "Modern Occult",
+    "Cat-girl Aesthetic"
+  ],
+
+  "OUTFITS": [
+    "Black lace tops and dresses",
+    "Intricate leather harnesses",
+    "Sheer, transparent fabrics",
+    "High-collared gothic shirts",
+    "Elaborate dark formalwear"
+  ],
+
+  "LIGHTING": [
+    "Low-key portrait lighting",
+    "Dramatic key light emphasizing facial features",
+    "Soft rim lighting for separation",
+    "High-contrast with deep shadows",
+    "Studio lighting setup"
+  ],
+
+  "BACKGROUNDS": [
+    "Solid black or dark grey studio backdrop",
+    "Minimalist and non-descript",
+    "Dark, moody gradients",
+    "Simple, out-of-focus background to emphasize the subject"
+  ],
+
+  "OBJECTS": [
+    "Cat ears (headband or integrated into a tiara)",
+    "Intricate metal and jewel headpieces",
+    "Lace fabrics",
+    "Ornate gothic jewelry"
+  ],
+
+  "POSES": [
+    "Direct-to-camera portrait",
+    "Three-quarter view of the face",
+    "Slight, confident head tilt",
+    "Upper body and headshot framing",
+    "Posing to highlight makeup and accessories"
+  ],
+
+  "EXPRESSIONS": [
+    "Intense, direct, and captivating gaze",
+    "Confident and slightly menacing",
+    "Seductive and mysterious",
+    "Stoic and powerful",
+    "Enigmatic and unreadable"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Eye-level portrait shot",
+    "Medium close-up on face and shoulders",
+    "Slightly low angle to convey confidence",
+    "Straight-on, confrontational angle",
+    "Tight crop on facial features"
+  ],
+
+  "ATMOSPHERES": [
+    "Darkly seductive and alluring",
+    "Gothic elegance",
+    "Mysterious and enchanting",
+    "Powerful and dominant femininity",
+    "A mix of danger and beauty"
+  ],
+
+  "ACCESSORIES": [
+    "Cat ear headbands or tiaras",
+    "Elaborate black lace or metal headpieces/veils",
+    "Septum ring and other facial piercings",
+    "Layered chokers, necklaces, and harnesses",
+    "Dramatic dark makeup (heavy eyeliner, black lipstick)"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure gothic portrait, no sensual emphasis",
+    "1": "subtle seductive elegance",
+    "2": "controlled gothic sensuality",
+    "3": "dark seductive glamour with feline mystique"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "Low; the aesthetic is dark, gothic, and stylized. It focuses on beauty, power, and mystery rather than inducing fear.",
+    "1": "slightly ominous gothic presence",
+    "2": "dark occult atmosphere",
+    "3": "predatory feline mystique"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "cinematic gothic feline portrait with dramatic studio lighting, intense gaze and elaborate dark makeup, gothic couture styling with cat ear headpiece, low-key lighting and deep shadows, dark editorial portrait aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "dark glamour portrait of a gothic feline-inspired woman with ornate headpiece and lace fashion, studio portrait lighting with deep shadows and rim light separation, intense eye contact and powerful presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "urban fantasy gothic portrait with feline aesthetic, dramatic makeup and piercing gaze, intricate gothic accessories and dark couture styling, cinematic low-key lighting and minimalist background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "powerful gothic feline portrait photography with confrontational gaze, cat ear headpiece and ornate jewelry, dramatic portrait lighting sculpting the face against deep shadow background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "dark editorial portrait of a mysterious gothic woman with feline elegance, heavy eyeliner and black lipstick makeup, intricate lace fashion and gothic accessories, cinematic studio lighting and moody atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "gothic fantasy portrait inspired by feline mystique, elegant dark couture and elaborate headpiece, intense eyes and powerful expression illuminated by dramatic studio lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "cinematic gothic feline portrait with dark glamour styling, dramatic lighting sculpting facial features, intense captivating gaze and ornate gothic accessories, minimalist studio background and powerful atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

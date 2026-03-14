@@ -1,0 +1,118 @@
+{
+  "WORLD_NAME": "PFN_Chiaroscuro_Closeup",
+
+  "SYSTEM_PROMPT": "A minimalist studio portrait world focused on extreme close-up photography and dramatic chiaroscuro lighting. The visual style emphasizes sculptural light shaping the face through strong contrast between illuminated areas and deep shadows. Colored light beams, narrow slits of light, and directional studio lighting carve the facial structure, revealing skin texture and facial contours while large portions of the frame remain in darkness or soft gradients. Backgrounds remain minimal or softly colored, allowing lighting and facial geometry to dominate the composition. The aesthetic draws inspiration from editorial fashion photography, modern chiaroscuro portraiture, and graphic studio lighting techniques. Light can appear as narrow bands, strong side illumination, or intersecting colored highlights, producing striking color contrasts and bold negative space. Images prioritize facial detail, sharp focus on eyes and skin texture, and cinematic depth produced by fast lenses and shallow depth of field. The atmosphere is dramatic, elegant, and graphic, where lighting design becomes the primary visual narrative.",
+
+  "EPOCHS": [
+    "Contemporary editorial photography",
+    "Modern studio portraiture",
+    "High-fashion photography"
+  ],
+
+  "OUTFITS": [
+    "Minimal black turtleneck",
+    "Leather jacket",
+    "High-fashion editorial styling",
+    "Minimalist studio wardrobe"
+  ],
+
+  "LIGHTING": [
+    "Dramatic chiaroscuro lighting",
+    "Narrow slit lighting across the face",
+    "Magenta and cyan color contrast lighting",
+    "Single beam spotlight",
+    "High-contrast studio lighting",
+    "Graphic color lighting",
+    "Sharp directional key light",
+    "Split-face lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "Minimal studio backdrop",
+    "Soft gradient background",
+    "Deep black background",
+    "Muted color studio wall",
+    "Negative space studio background"
+  ],
+
+  "OBJECTS": [
+    "Light beam cutting across the face",
+    "Color gel studio lights",
+    "Sharp shadow edges",
+    "Minimal studio environment",
+    "Dark negative space"
+  ],
+
+  "POSES": [
+    "Extreme close-up portrait",
+    "Profile close-up",
+    "Face tilted slightly upward",
+    "Direct gaze into camera",
+    "Eyes partially in shadow",
+    "Face emerging from darkness",
+    "Half-lit portrait",
+    "Side-lit facial profile"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm intensity",
+    "Neutral editorial expression",
+    "Serious contemplative gaze",
+    "Soft enigmatic look",
+    "Minimal facial emotion"
+  ],
+
+  "CAMERA_ANGLES": [
+    "Extreme close-up framing",
+    "Tight facial crop",
+    "Macro portrait perspective",
+    "Eye-level close-up",
+    "Side-profile close-up"
+  ],
+
+  "ATMOSPHERES": [
+    "Moody studio lighting",
+    "High-contrast editorial mood",
+    "Minimalist dramatic atmosphere",
+    "Graphic lighting aesthetic",
+    "Cinematic portrait intensity"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal earrings",
+    "Winged eyeliner",
+    "Editorial makeup",
+    "Glossy lips",
+    "Natural skin texture"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure editorial portrait",
+    "1": "subtle beauty photography",
+    "2": "high-fashion aesthetic",
+    "3": "not emphasized"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror",
+    "1": "slightly mysterious lighting",
+    "2": "not applicable",
+    "3": "not applicable"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "extreme close-up studio portrait with dramatic chiaroscuro lighting, sharp beam of colored light cutting across the face, deep shadows and sculpted facial planes, minimalist background, high-fashion editorial photography, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "1": "cinematic close-up portrait illuminated by narrow slit lighting across the eyes, deep shadow contrast and bold color lighting, minimalist studio background, sharp editorial photography style, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "2": "dramatic editorial close-up portrait with colored studio lighting shaping the face, magenta and cyan highlights, deep black shadows and graphic contrast, minimalist fashion photography aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "3": "high-fashion studio close-up portrait emerging from darkness, narrow beam lighting revealing facial structure, sharp contrast shadows and elegant minimal composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "4": "graphic studio portrait with bold chiaroscuro lighting and sculpted shadows across the face, strong color contrast and minimalist editorial background, cinematic close-up photography, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "5": "extreme close-up fashion portrait with dramatic studio lighting and deep shadow gradients, colored light beams highlighting eyes and cheekbones, minimalist editorial composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "6": "cinematic chiaroscuro close-up portrait with sharp directional lighting and intense shadow contrast, minimalist studio environment and bold color highlights, elegant editorial photography style, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

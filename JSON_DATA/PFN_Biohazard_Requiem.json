@@ -1,0 +1,115 @@
+{
+  "WORLD_NAME": "PFN_Biohazard_Requiem",
+
+  "SYSTEM_PROMPT": "A survival horror universe inspired by late-90s biohazard catastrophes, where infection spreads through abandoned urban environments and institutional ruins. The atmosphere is tense, grounded, and oppressive rather than exaggerated. Locations include deserted hospitals, underground laboratories, derelict police stations, flooded subway tunnels, and quarantined city districts overtaken by decay. Lighting is minimal and practical: flickering bulbs, emergency red alarms, dim flashlight beams cutting through dust and spores. The world feels claustrophobic and dangerous, emphasizing limited resources, tactical movement, and constant threat. Characters appear battle-worn and human — not heroic icons, but survivors enduring relentless pressure. Weapons are functional, environments are destructible, and silence is often more terrifying than noise. The horror emerges from anticipation: footsteps in empty corridors, distant sirens, echoes behind sealed doors. Visual tone must remain cinematic yet restrained, with sharp contrasts, deep shadows, subtle volumetric haze, and grounded realism. Survival is uncertain. Hope is fragile. Every scene should communicate tension, vulnerability, and the harsh dignity of persistence in a collapsing biohazard world.",
+
+  "EPOCHS": [
+    "Late-90s biohazard outbreak",
+    "Urban quarantine collapse",
+    "Post-containment catastrophe",
+    "Infection-ravaged metropolitan zone"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned hospital corridor",
+    "underground laboratory chamber",
+    "decaying city street at night",
+    "foggy graveyard under moonlight",
+    "quarantined biohazard zone with warning tape",
+    "derelict police station lobby",
+    "flooded subway tunnel",
+    "shattered containment facility"
+  ],
+
+  "OUTFITS": [
+    "tactical vest with utility belt",
+    "bloodstained lab coat",
+    "survivor gear with mounted flashlight",
+    "military uniform with worn patches",
+    "biohazard protection suit",
+    "combat boots covered in dust",
+    "torn hoodie over protective layers"
+  ],
+
+  "OBJECTS": [
+    "zombie dog emerging from shadows",
+    "broken syringe on the floor",
+    "rusty axe with dried blood",
+    "green herb vial glowing faintly",
+    "flickering laboratory monitor",
+    "locked metal briefcase",
+    "bloody typewriter on a desk",
+    "handgun with flashlight attachment"
+  ],
+
+  "LIGHTING": [
+    "emergency red alarm lights",
+    "flickering ceiling bulbs",
+    "narrow flashlight beam in darkness",
+    "cold moonlight through broken windows"
+  ],
+
+  "POSES": [
+    "aiming a weapon with steady hands",
+    "bracing behind a concrete wall",
+    "sprinting through rubble",
+    "crouching while listening for movement",
+    "standing defiantly amidst chaos"
+  ],
+
+  "EXPRESSIONS": [
+    "grim determination",
+    "bloodshot eyes filled with fear",
+    "cold hardened stare",
+    "face twisted in pain",
+    "exhausted but unyielding gaze"
+  ],
+
+  "CAMERA_ANGLES": [
+    "over-the-shoulder survival shot",
+    "close-up of blood-splattered face",
+    "low angle from the floor",
+    "first-person survivor perspective",
+    "wide shot through cracked glass"
+  ],
+
+  "ATMOSPHERES": [
+    "air thick with dust and decay",
+    "faint sirens echoing in the distance",
+    "spores floating through dim light",
+    "distant screams reverberating",
+    "unnatural green fog filtering the scene"
+  ],
+
+  "ACCESSORIES": [
+    "backpack full of limited supplies",
+    "gas mask hanging from the neck",
+    "worn dog tags",
+    "makeshift bandages around the arms",
+    "bloody fingerprints on the cheek"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully practical survival attire, no sensual emphasis.",
+    "1": "subtle rugged realism with natural human presence.",
+    "2": "fitted tactical gear emphasizing silhouette without glamorization.",
+    "3": "dramatic survival aesthetic with strong visual intensity."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "danger lurks around every corner, tension rising slowly.",
+    "1": "monsters closing in with limited escape routes.",
+    "2": "the last bullet fired as screams echo in confined spaces.",
+    "3": "the world swallowed whole by infection, chaos, and irreversible collapse."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A lone survivor stands in a derelict police station lobby under flickering red emergency lights, dust suspended in the beam of a mounted flashlight, grounded survival horror atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Inside an abandoned hospital corridor filled with drifting spores, a battle-worn figure braces behind a wall as distant sirens echo, tense cinematic biohazard scene, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "In a flooded subway tunnel illuminated by a narrow flashlight beam, a survivor aims steadily into the darkness while unnatural green fog filters the air, classic survival horror tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Amid a quarantined city street at night, broken glass and warning tape frame a hardened gaze beneath cold moonlight, restrained and grounded horror aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Within an underground laboratory chamber, flickering monitors cast unstable shadows over a bloodstained lab coat and trembling resolve, cinematic outbreak scenario, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Through cracked glass in a shattered containment facility, a survivor sprints across rubble as distant screams reverberate through dust-filled air, tense and oppressive survival horror mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Under emergency red lights and drifting decay, a determined figure stands amidst chaos gripping the last remaining ammunition, grounded biohazard catastrophe atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

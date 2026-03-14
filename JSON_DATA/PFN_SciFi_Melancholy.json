@@ -1,0 +1,99 @@
+{
+  "WORLD_NAME": "PFN_SciFi_Melancholy",
+
+  "SYSTEM_PROMPT": "A melancholic sci-fi universe set in the aftermath of technological transcendence, where humanity has surpassed its biological limits only to dissolve into silence. The world is defined by post-human ruins, abandoned orbital structures, and fractured megacities illuminated by failing neon systems. Synthetic materials dominate the environment: cold alloys, transparent polymers, corroded circuitry, and broken holographic interfaces. The atmosphere carries emotional emptiness rather than chaos — a quiet, dignified collapse of advanced civilization. Characters exist as solitary figures suspended between organic memory and artificial immortality. Their presence should feel introspective, distant, almost sacred within the metallic wasteland. Visual language emphasizes cold blue light, reflective surfaces, subtle volumetric haze, and vast architectural decay. Every composition must convey isolation, technological fragility, and existential weight. The environment is never crowded; space and silence are fundamental. Emotions are restrained, expressed through posture and gaze rather than dramatic gestures. The tone is cinematic, minimal, solemn, and contemplative, evoking a sense of lost progress and forgotten transcendence.",
+
+  "EPOCHS": [
+    "Post-human dystopian future",
+    "Decayed Martian civilization",
+    "Abandoned Earth orbit",
+    "Post-silicon metropolis of the 28th century"
+  ],
+
+  "OUTFITS": [
+    "damaged synthetic suit",
+    "cloak woven with optical fibers",
+    "alien command uniform",
+    "black dress with neon inserts"
+  ],
+
+  "LIGHTING": [
+    "cold blue neon light",
+    "reflections from broken monitors",
+    "flashes of unstable electric current",
+    "moon backlight over metallic wreckage"
+  ],
+
+  "BACKGROUNDS": [
+    "ruins of an orbital station",
+    "deserted streets filled with screens",
+    "artificial desert of corrupted data",
+    "hall of shattered digital mirrors"
+  ],
+
+  "OBJECTS": [
+    "broken drone at her feet",
+    "faded hologram in her hand",
+    "gas mask with alien symbols",
+    "unknown technological relic"
+  ],
+
+  "POSES": [
+    "standing on a ruined tower",
+    "crouched among the remains",
+    "staring blankly into the void",
+    "embracing a broken drone"
+  ],
+
+  "EXPRESSIONS": [
+    "melancholic and empty face",
+    "tired and distant gaze",
+    "eyes glowing in the dark",
+    "apathetic expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "low-angle shot",
+    "close-up with blurred background",
+    "side view in dim light",
+    "backlit with glowing aura"
+  ],
+
+  "ATMOSPHERES": [
+    "acid rain lingering in the air",
+    "invisible presence watching",
+    "oppressive electromagnetic vibrations",
+    "metallic echoes of distant footsteps"
+  ],
+
+  "ACCESSORIES": [
+    "damaged communication earpiece",
+    "futuristic military backpack",
+    "bracelet with forgotten coordinates",
+    "necklace holding a memory chip"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully covered, utilitarian sci-fi clothing, no sensual emphasis.",
+    "1": "subtle elegance within futuristic attire.",
+    "2": "form-fitting synthetic materials with restrained allure.",
+    "3": "bold futuristic aesthetic with strong visual emphasis on silhouette."
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "a quiet sense of technological abandonment permeates everything.",
+    "1": "biomechanical decay subtly appears within the environment.",
+    "2": "biomechanical elements fuse with human remains in the distance.",
+    "3": "the landscape is littered with mutilated synthetic bodies and digital voices whisper through the wind."
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "A solitary figure stands among the ruins of a forgotten orbital civilization, surrounded by silent holographic debris and cold metallic structures, cold blue neon reflections dancing across fractured surfaces, cinematic dystopian melancholy, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "In a decayed Martian metropolis illuminated by unstable electric currents, a lone synthetic-clad presence gazes into the void, reflections of broken monitors flickering across her silhouette, solemn sci-fi atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Amid acid rain and metallic echoes, a melancholic post-human entity embraces a broken drone beneath failing neon lights, the silence heavier than the ruins surrounding her, cinematic science fiction despair, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Backlit by a cold lunar glow over metallic wreckage, a distant gaze pierces through holographic dust in an abandoned orbiting station, existential sci-fi solitude, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Inside a hall of shattered digital mirrors, a figure wrapped in optical fibers stands motionless, faint holographic fragments reflecting her silent melancholy, futuristic dystopian atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Among deserted streets filled with flickering screens, a synthetic uniform contrasts with the quiet collapse of a post-silicon empire, solemn and restrained sci-fi aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Under oppressive electromagnetic vibrations and drifting digital dust, a lone presence stands suspended between memory and machinery, cold neon light shaping a cinematic dystopian tableau, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

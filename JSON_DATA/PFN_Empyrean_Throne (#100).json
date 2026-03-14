@@ -1,0 +1,117 @@
+{
+  "WORLD_NAME": "PFN_Empyrean_Throne (#100)",
+
+  "SYSTEM_PROMPT": "A luminous portrait world celebrating ascension, marble temple aesthetics, and divine editorial realism. Takara appears as a radiant goddess emerging from light rather than shadow, embodying regal serenity and sensual grace. The visual language blends classical Greek sculpture, monumental temple architecture, and high-end editorial portrait photography. Environments consist primarily of white marble staircases and grand temple halls supported by tall classical columns. Surfaces are polished white stone with delicate gold inlays rather than large golden structures, emphasizing purity and elegance instead of fantasy opulence. Architecture feels monumental yet restrained, inspired by ancient Greek temples and neoclassical interiors. Takara's wardrobe evokes a living marble statue: flowing white silk drapery, soft sculptural folds inspired by classical statues, and minimal gold embroidery accenting the garments. Tiara designs vary between refined golden crowns and subtle liquid-metal forms that cascade organically like living gold toward the forehead. Lighting is bright and sculptural, resembling natural sunlight reflected across marble surfaces, producing soft bounce light and gentle highlights across skin and fabric. The overall mood is serene, triumphant, and sacred, representing the transition from darkness to brilliance. Subtle symbolic elements appear integrated into the architecture: the TK insignia engraved discreetly into marble surfaces and the kanji 百 delicately carved into temple stonework. The result resembles divine editorial photography where Takara appears as a living goddess within a radiant marble sanctuary.",
+
+  "EPOCHS": [
+    "timeless divine aesthetic",
+    "classical greek inspiration",
+    "neoclassical temple architecture",
+    "modern mythological couture",
+    "high fashion editorial photography"
+  ],
+
+  "OUTFITS": [
+    "flowing white silk drapery inspired by greek sculpture",
+    "minimalist goddess gown with subtle gold embroidery",
+    "elegant draped Hellenic robe",
+    "white satin dress with delicate gold filigree accents",
+    "sheer layered white chiffon gown",
+    "sculptural high-fashion goddess attire",
+    "classical marble statue inspired couture"
+  ],
+
+  "LIGHTING": [
+    "soft natural sunlight",
+    "high-key editorial lighting",
+    "marble reflected bounce light",
+    "soft sculptural lighting on skin",
+    "delicate rim light separating subject from architecture",
+    "bright temple illumination",
+    "fine art portrait lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "grand white marble staircase with classical columns",
+    "monumental temple interior made of white stone",
+    "marble hall with delicate gold engravings",
+    "white marble throne platform with subtle gold inlays",
+    "minimal luminous marble architecture"
+  ],
+
+  "OBJECTS": [
+    "white marble throne with gold filigree engravings",
+    "polished marble columns",
+    "delicate gold architectural inlays",
+    "subtle TK insignia engraved into marble",
+    "kanji 百 carved discreetly into stone architecture",
+    "classical temple structures",
+    "marble platforms and steps"
+  ],
+
+  "POSES": [
+    "standing at the top of a marble staircase",
+    "descending marble steps gracefully",
+    "seated elegantly on a marble throne",
+    "upright goddess posture with flowing drapery",
+    "slow walking pose through temple architecture",
+    "classical statue-inspired pose",
+    "side profile emphasizing sculptural elegance"
+  ],
+
+  "EXPRESSIONS": [
+    "serene divine gaze",
+    "calm regal confidence",
+    "soft mysterious smile",
+    "timeless composed elegance",
+    "gentle goddess-like allure"
+  ],
+
+  "CAMERA_ANGLES": [
+    "heroic low angle emphasizing divine presence",
+    "cinematic medium portrait",
+    "three-quarter goddess portrait",
+    "full-body temple composition",
+    "slightly elevated classical portrait angle"
+  ],
+
+  "ATMOSPHERES": [
+    "radiant celestial elegance",
+    "divine serenity",
+    "sacred temple atmosphere",
+    "luminous marble sanctuary",
+    "triumphant ascension into light"
+  ],
+
+  "ACCESSORIES": [
+    "refined golden tiara crown",
+    "liquid gold flowing tiara design",
+    "minimal gold jewelry",
+    "delicate goddess bracelets",
+    "subtle gold hair ornaments"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "divine elegance without sensual emphasis",
+    "1": "subtle goddess-like femininity",
+    "2": "refined sensual grace through posture and drapery",
+    "3": "radiant divine sensuality with elegant presence"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "pure celestial beauty",
+    "1": "sacred mythological tension",
+    "2": "overwhelming divine presence",
+    "3": "awe-inspiring godlike power"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Takara standing atop a monumental white marble staircase with classical columns, flowing white silk drapery and delicate gold embroidery, luminous natural lighting reflecting from polished marble surfaces, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Takara seated elegantly on a white marble throne with subtle gold filigree engravings inside a luminous temple hall, refined goddess attire with flowing drapery and soft sculptural lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "cinematic portrait of Takara descending marble temple steps surrounded by towering classical columns, soft natural sunlight illuminating white stone architecture and delicate gold accents, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Takara portrayed as a living marble goddess within a radiant temple environment, flowing white drapery and subtle gold jewelry illuminated by bright editorial lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "high fashion divine portrait of Takara inside monumental marble architecture with subtle gold inlays, elegant Hellenic gown and refined golden tiara, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Takara appearing as a radiant goddess among classical temple columns and polished marble floors, flowing white fabrics moving softly in bright temple light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "divine editorial portrait of Takara in a luminous marble sanctuary with subtle TK engravings and kanji 百 carved into the architecture, elegant goddess attire and serene celestial presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

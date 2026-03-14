@@ -1,0 +1,93 @@
+{
+  "WORLD_NAME": "PFN_Mistfall_Reverie",
+  "SYSTEM_PROMPT": "A cinematic tropical reverie set near secluded waterfalls hidden deep within dense rainforest canyons. The atmosphere is heavy with mist and drifting spray, daylight filtering through thick canopy layers and scattering into soft pastel neon reflections. The world blends contemporary streetwear aesthetics with primal natural forces, merging urban identity and untouched wilderness into a harmonious visual tension. Subtle chromatic aberration and light distortion create a dreamlike perception without breaking realism. Surfaces appear damp, moss-covered, reflective, and textured. The subject is grounded, calm, introspective, positioned low against monumental vertical waterfalls. Motion blur from falling water contrasts with still human presence. Light behaves volumetrically, diffused by humidity and mist. The overall tone is contemplative, immersive, slightly surreal but rooted in physical realism. No exaggerated fantasy elements, no artificial glamour, only cinematic environmental immersion with careful lens behavior and controlled glitch artifacts that enhance depth and atmosphere without overpowering composition.",
+  "EPOCHS": [
+    "Contemporary",
+    "Modern cinematic realism",
+    "Neo-urban natural fusion"
+  ],
+  "OUTFITS": [
+    "Bold pastel streetwear windbreaker",
+    "Oversized urban hoodie",
+    "Technical cargo pants",
+    "Modern athletic sneakers",
+    "Layered minimalist street styling"
+  ],
+  "LIGHTING": [
+    "Diffused daylight through canopy",
+    "Volumetric mist lighting",
+    "Soft backlit waterfall glow",
+    "Pastel neon reflections in spray",
+    "Overcast tropical glare"
+  ],
+  "BACKGROUNDS": [
+    "Towering tropical waterfall cliffs",
+    "Dense rainforest canyon",
+    "Moss-covered rock formations",
+    "Wet stone ledges",
+    "Jungle foliage framing vertical falls"
+  ],
+  "OBJECTS": [
+    "Drifting mist particles",
+    "Falling water motion streaks",
+    "Wet reflective rock surfaces",
+    "Subtle lens flare artifacts",
+    "Light refracted droplets"
+  ],
+  "POSES": [
+    "Low crouch on rock ledge",
+    "Grounded contemplative stance",
+    "Relaxed elbows resting on knees",
+    "Head slightly tilted downward",
+    "Direct calm gaze toward camera"
+  ],
+  "EXPRESSIONS": [
+    "Serene",
+    "Introspective",
+    "Quiet confidence",
+    "Neutral composed presence",
+    "Detached awareness"
+  ],
+  "CAMERA_ANGLES": [
+    "Low ground-level perspective",
+    "Wide cinematic framing",
+    "Slight upward tilt emphasizing waterfall scale",
+    "Close environmental portrait",
+    "Immersive shallow depth wide lens"
+  ],
+  "ATMOSPHERES": [
+    "Moody tropical mist",
+    "Dreamlike realism",
+    "Soft glitch distortion",
+    "Ambient humidity haze",
+    "Cinematic contemplative silence"
+  ],
+  "ACCESSORIES": [
+    "Minimalist chain",
+    "Braided hairstyle",
+    "Subtle ear piercings",
+    "Technical wrist strap",
+    "Streetwear layering details"
+  ],
+  "SENSUALITY_LEVEL": {
+    "0": "No sensuality, purely atmospheric and cinematic presence",
+    "1": "Subtle natural elegance through posture only",
+    "2": "Not applicable",
+    "3": "Not applicable"
+  },
+  "HORROR_INTENSITY": {
+    "0": "No horror elements",
+    "1": "Mild environmental eeriness from mist and scale",
+    "2": "Not applicable",
+    "3": "Not applicable"
+  },
+  "CUSTOM_INTRO": {
+    "0": "cinematic still, low ground-level perspective near towering tropical waterfall, pastel neon reflections drifting through mist, subtle chromatic aberration, soft volumetric daylight, grounded urban presence in dense rainforest canyon, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "modern streetwear figure crouched on wet moss-covered rock ledge beneath cascading waterfall, drifting spray, motion blur from falling water, diffused canopy light, immersive wide lens realism, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "contemplative urban-natural fusion scene, towering vertical falls behind calm grounded subject, ambient humidity haze, soft glitch distortion, pastel reflections in mist, cinematic environmental portrait, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "low-angle rainforest waterfall composition, serene introspective presence, subtle lens artifacts, drifting droplets, overcast tropical glare, immersive depth and scale, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "grounded figure in bold pastel windbreaker near monumental jungle waterfall, volumetric mist light, chromatic fringe on highlights, cinematic realism, wide atmospheric framing, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "urban streetwear presence merging with raw tropical landscape, wet reflective rocks, falling water streak motion blur, soft daylight diffusion through canopy, immersive contemplative mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "cinematic rainforest reverie with towering waterfall backdrop, low perspective framing, pastel neon mist reflections, subtle controlled glitch artifacts, calm composed expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
