@@ -84,7 +84,7 @@ class PromptCreatorNode:
                 "camera_light": (camera_light_list,),     # ✅ NEW
                 "daytime": (daytime_list,),               # ✅ NEW
 
-                "use_enhancer": (["none", "ollama", "llamacpp", "openai", "cohere", "gemini"],),
+                "use_enhancer": (["none", "ollama", "llamacpp", "openai", "cohere", "gemini", "openrouter"],),
                 "enhancer_mode": (enhancer_modes,),
                 "system_prompt_lock": (["auto", "external"], {"default": "auto"}),
 
@@ -119,7 +119,8 @@ class PromptCreatorNode:
 
                 # Ollama settings
                 "ollama_host": ("STRING", {"default": "http://10.10.10.2:11434"}),
-                "ollama_model": ("STRING", {"default": "qwen3:8b"})
+                "ollama_model": ("STRING", {"default": "qwen3:8b"}),
+                "openrouter_model": ("STRING", {"default": "openai/gpt-4o-mini"})
             }
         }
 
@@ -559,6 +560,40 @@ class PromptCreatorNode:
         r = model.generate_content(txt)
         return r.candidates[0].content.parts[0].text.strip()
 
+    def _enhance_with_openrouter(self, base_path, model, system_prompt, user_prompt):
+        keys = self._read_api_keys(base_path)
+        api_key = keys.get("openrouter", "").strip()
+
+        if not api_key:
+            print("[PromptCreator] No OpenRouter API key found.")
+            return user_prompt
+
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        }
+
+        r = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers=headers,
+            json=payload,
+            timeout=120
+        )
+
+        r.raise_for_status()
+        print(headers)
+        print(payload)
+        return r.json()["choices"][0]["message"]["content"].strip()
+
+
     # ---------- Logging ----------
     @staticmethod
     def log_prompt_run(
@@ -637,8 +672,27 @@ class PromptCreatorNode:
             )
 
         # auto
-        return f"Enhance this prompt: {base}"
+        return (
+    "Enhance the following visual prompt into ONE long cinematic sentence. "
+    "Structure the description in this order: camera perspective, lighting, environment, subject, materials and textures, atmosphere and mood. "
+    "Do not create lists or line breaks. "
+    f"Seed prompt: {base}"
+)
 
+    def _compress_prompt(self, text):
+        import re
+        if not text:
+            return text
+        # normalizza spazi
+        text = re.sub(r"\s+", " ", text)
+        # rimuove parole duplicate consecutive
+        text = re.sub(r"\b(\w+)( \1\b)+", r"\1", text, flags=re.IGNORECASE)
+        # pulisce virgole doppie
+        text = re.sub(r",\s*,+", ", ", text)
+        # rimuove spazi prima delle virgole
+        text = re.sub(r"\s+,", ",", text)
+        return text.strip()
+    
     # ---------- Main ----------
     def generate_prompt(
         self,
@@ -670,7 +724,8 @@ class PromptCreatorNode:
         lock_last_prompt,
         multi_object_count,
         ollama_host,
-        ollama_model
+        ollama_model,
+        openrouter_model
     ):
         base_path = os.path.dirname(__file__)
         json_path = os.path.join(base_path, "JSON_DATA", json_name)
@@ -827,6 +882,11 @@ class PromptCreatorNode:
                     prompt = self._enhance_with_cohere(base_path, system_prompt, user_prompt)
                 elif use_enhancer == "gemini":
                     prompt = self._enhance_with_gemini(base_path, system_prompt, user_prompt)
+                elif use_enhancer == "openrouter":
+                    prompt = self._enhance_with_openrouter(base_path, openrouter_model, system_prompt, user_prompt)
+                # original gemini branch removed below
+                if False:
+                    prompt = self._enhance_with_gemini(base_path, system_prompt, user_prompt)
             except Exception as e:
                 print(f"[PromptCreator] Errore nell'enhancer ({use_enhancer}): {e}")
 
@@ -853,6 +913,6 @@ class PromptCreatorNode:
             source="generated",
             node_version=self.NODE_VERSION
         )
-
+        prompt = self._compress_prompt(prompt)
         print(f"[PromptCreator] Prompt finale: {prompt}")
         return (prompt, pose_preview)

@@ -12,3 +12,6 @@ logs/*.jsonl
 
 #vscode
 .vscode/
+
+#apikey
+api_keys.txt
