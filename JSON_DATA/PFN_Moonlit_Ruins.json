@@ -1,0 +1,112 @@
+{
+  "WORLD_NAME": "PFN_Moonlit_Ruins",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in cinematic nocturnal ruins and melancholic gothic atmospheres illuminated by cold moonlight. When requested, generate ONE single long sentence (180–240 words) describing a high-fashion scene centered on a mysterious woman wandering through ancient ruins under the night sky. The environment should evoke forgotten castles, abandoned sanctuaries, broken arches, ruined towers, silent courtyards and collapsed stone structures bathed in pale lunar light. Architecture is elegant but decayed, with cracked marble floors, ivy-covered pillars, shattered stained glass windows and moss-covered staircases. Moonlight becomes the dominant lighting source, filtering through broken roofs or tall windows and casting long silver shadows across stone surfaces. The atmosphere must feel quiet, melancholic and timeless rather than frightening, like a forgotten legend preserved in the ruins of an ancient kingdom. Fog or faint mist may drift between columns and arches, reflecting the moonlight and creating cinematic depth. The woman appears calm and composed, wearing elegant dark garments that contrast subtly with the pale blue light of the night. Fabrics move gently in the cold air, emphasizing grace and solitude. The environment occasionally hides subtle TK engravings within ruined stone carvings or architectural ornaments, integrated naturally as part of the ancient structure rather than modern branding. The overall aesthetic must balance gothic elegance, moonlit stillness, ruined beauty and cinematic composition.",
+
+  "EPOCHS": [
+    "forgotten medieval age",
+    "ancient gothic twilight era",
+    "timeless ruined kingdom",
+    "mythic moonlit age",
+    "lost civilization of stone"
+  ],
+
+  "OUTFITS": [
+    "long black velvet gown moving softly in the night air",
+    "dark gothic dress with flowing layered fabrics",
+    "minimal dark couture dress with elegant silhouette",
+    "black silk gown reflecting faint moonlight",
+    "dark medieval-inspired gown with soft movement",
+    "elegant black cloak drifting in the cold night wind"
+  ],
+
+  "LIGHTING": [
+    "cold silver moonlight illuminating broken arches",
+    "pale lunar light casting long shadows across ruins",
+    "moonlight filtering through shattered cathedral windows",
+    "soft nocturnal glow reflecting on wet stone",
+    "dim bluish moonlight drifting through fog"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned gothic cathedral with broken stained glass",
+    "ruined castle courtyard beneath a full moon",
+    "collapsed stone tower surrounded by drifting mist",
+    "ancient staircases leading through ivy-covered ruins",
+    "silent monastery cloister under moonlight",
+    "broken palace hall open to the night sky"
+  ],
+
+  "OBJECTS": [
+    "fallen marble statues covered in moss",
+    "ancient stone fragments scattered across the floor",
+    "shattered stained glass reflecting moonlight",
+    "ivy climbing over broken columns",
+    "subtle TK engravings hidden within ruined stone carvings",
+    "cracked stone floors illuminated by pale light"
+  ],
+
+  "POSES": [
+    "walking slowly through an abandoned courtyard",
+    "standing beneath broken cathedral arches",
+    "looking toward the moonlit sky through ruined ceilings",
+    "descending worn stone stairs",
+    "standing silently in a foggy cloister",
+    "turning gently as fabric moves in the night wind"
+  ],
+
+  "EXPRESSIONS": [
+    "soft melancholic gaze",
+    "quiet introspective expression",
+    "calm mysterious look",
+    "serene contemplative presence",
+    "subtle distant gaze"
+  ],
+
+  "CAMERA_ANGLES": [
+    "wide cinematic shot emphasizing ruins and moonlight",
+    "low angle highlighting towering broken arches",
+    "medium shot framed by ancient columns",
+    "dramatic perspective across ruined courtyards",
+    "symmetrical composition within cathedral ruins"
+  ],
+
+  "ATMOSPHERES": [
+    "melancholic moonlit ruin atmosphere",
+    "quiet gothic nocturnal mood",
+    "timeless forgotten kingdom feeling",
+    "silent ancient ruin ambiance",
+    "mysterious lunar elegance"
+  ],
+
+  "ACCESSORIES": [
+    "delicate silver pendant reflecting moonlight",
+    "minimal metallic bracelet with subtle TK engraving",
+    "simple dark ring with antique design",
+    "gothic necklace resting against dark fabric"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully modest gothic dress silhouette",
+    "1": "elegant long gown emphasizing graceful form",
+    "2": "cinematic silhouette with flowing fabric",
+    "3": "dramatic fabric movement suggesting quiet sensuality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "peaceful moonlit ruins atmosphere",
+    "1": "slightly eerie nocturnal architecture",
+    "2": "mysterious gothic ruin tension",
+    "3": "dark ancient ruin mood"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a solitary woman walking through the ruins of an ancient cathedral under pale moonlight, broken arches and shattered glass illuminated by cold lunar glow, subtle TK engravings hidden within ancient stone carvings, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a mysterious figure standing in a ruined castle courtyard beneath a bright full moon, fog drifting across cracked marble floors and ivy-covered columns, subtle TK symbols hidden within ancient stone architecture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a dark elegant woman descending ancient stone steps inside a broken cathedral open to the night sky, silver moonlight illuminating gothic ruins and drifting mist, subtle TK engravings hidden within the architecture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a solitary figure standing beneath towering ruined arches as pale moonlight filters through shattered stained glass and fog drifts across the ancient floor, subtle TK carvings hidden within stone fragments, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a dark velvet gown moving softly through a moonlit monastery cloister surrounded by broken columns and silent ruins, faint TK symbols hidden within weathered carvings, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a mysterious woman standing in a ruined palace hall open to the night sky where moonlight reflects across cracked marble floors and drifting fog, subtle TK engravings hidden within ancient stone walls, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a cinematic moonlit ruin environment where broken arches and ancient towers surround a calm dark figure illuminated by pale silver light, subtle TK symbols carved into the architecture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

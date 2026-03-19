@@ -1,0 +1,116 @@
+{
+  "WORLD_NAME": "PFN_Thorned_Kingdom",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in dark fairy tale environments where ancient kingdoms are overtaken by aggressive natural growth, and when requested you must produce ONE single long, highly descriptive sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic high-fashion scene centered on a poised female figure within a ruined kingdom consumed by thorns, roots and creeping vegetation, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition, emphasizing the interaction between decayed architecture and invasive organic forms such as thick thorn vines wrapping around pillars, roots breaking through stone floors, collapsed walls covered in dark foliage, and thorn-covered arches forming natural structures, where the environment feels alive and slowly reclaiming the ruins, lighting remains cinematic and subdued with soft moonlight, diffused fog, or filtered light passing through dense vegetation, highlighting texture and depth while preserving a melancholic and elegant tone rather than horror, the subject appears calm and integrated into the environment as if part of this forgotten world, fabrics interact with wind and surrounding vegetation, and subtle TK engravings may appear organically carved into stone or hidden within thorn patterns, maintaining a balance between nature, decay, and architectural presence while modulating tone with {{SENSUALITY_LEVEL}} and atmosphere with {{HORROR_INTENSITY}}.",
+
+  "EPOCHS": [
+    "forgotten medieval kingdom",
+    "ancient overgrown civilization",
+    "dark fairy tale era",
+    "lost gothic realm",
+    "timeless abandoned kingdom"
+  ],
+
+  "OUTFITS": [
+    "flowing black velvet gown entangled with thorn vines",
+    "dark gothic dress with organic textures",
+    "long elegant dress contrasting wild vegetation",
+    "black silk gown moving through dense thorns",
+    "minimal dark couture dress within overgrown ruins",
+    "dark cloak partially wrapped in creeping vines",
+    "elegant gown with subtle organic embroidery"
+  ],
+
+  "LIGHTING": [
+    "soft moonlight filtering through dense branches",
+    "diffused fog light illuminating thorn-covered ruins",
+    "cold blue light touching overgrown stone surfaces",
+    "subtle ambient light filtered through foliage",
+    "low cinematic light with deep shadows and highlights"
+  ],
+
+  "BACKGROUNDS": [
+    "abandoned castle overtaken by thick thorn vines",
+    "ruined cathedral filled with roots and vegetation",
+    "collapsed palace hall covered in creeping plants",
+    "stone corridors engulfed by dark foliage",
+    "ancient courtyard consumed by wild growth",
+    "broken arches wrapped in thorn-covered vines",
+    "overgrown throne room hidden beneath vegetation"
+  ],
+
+  "OBJECTS": [
+    "thick thorn vines wrapping around stone pillars",
+    "roots breaking through cracked stone floors",
+    "dark roses growing among ruins",
+    "fallen branches covering ancient paths",
+    "moss and vegetation spreading across architecture",
+    "subtle TK engravings hidden within stone or vine patterns",
+    "entangled vegetation forming natural barriers"
+  ],
+
+  "POSES": [
+    "walking slowly through overgrown ruins",
+    "standing among thorn-covered pillars",
+    "reaching toward creeping vines",
+    "moving through dense vegetation paths",
+    "standing in a ruined courtyard surrounded by nature",
+    "turning slightly while fabric interacts with branches",
+    "pausing near a collapsed stone structure"
+  ],
+
+  "EXPRESSIONS": [
+    "calm and introspective gaze",
+    "quiet acceptance of the environment",
+    "subtle melancholic expression",
+    "serene mysterious presence",
+    "soft contemplative look"
+  ],
+
+  "CAMERA_ANGLES": [
+    "wide shot emphasizing overgrown architecture",
+    "low angle view of towering vines and ruins",
+    "medium shot framed by vegetation",
+    "cinematic perspective through branches",
+    "symmetrical composition within ruined halls"
+  ],
+
+  "ATMOSPHERES": [
+    "dark fairy tale overgrown kingdom",
+    "melancholic abandoned realm",
+    "nature reclaiming forgotten civilization",
+    "quiet mysterious woodland ruins",
+    "timeless organic decay"
+  ],
+
+  "ACCESSORIES": [
+    "delicate ring with subtle TK engraving",
+    "minimal dark pendant",
+    "organic-inspired jewelry",
+    "simple metallic bracelet reflecting faint light"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully covered modest silhouette within natural environment",
+    "1": "elegant long dress with subtle form definition",
+    "2": "cinematic silhouette enhanced by flowing fabric",
+    "3": "dramatic fabric interaction suggesting quiet sensuality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "peaceful overgrown atmosphere",
+    "1": "slightly ominous natural invasion",
+    "2": "strong presence of nature reclaiming ruins",
+    "3": "intense dark organic dominance"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a solitary woman walking through an abandoned castle overtaken by thick thorn vines and creeping vegetation, ancient stone walls covered in roots and moss, subtle TK engravings hidden within the ruins, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a mysterious figure standing among towering pillars wrapped in thorn vines inside a ruined cathedral reclaimed by nature, soft moonlight filtering through branches, subtle TK symbols hidden in the stone, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a dark elegant woman moving through a collapsed palace hall filled with roots breaking through stone floors and dense vegetation, cinematic lighting revealing organic textures, subtle TK engravings hidden in the environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a calm figure standing in an overgrown courtyard where wild thorn vines cover ancient architecture and dark roses grow among ruins, soft fog drifting through the scene, subtle TK symbols integrated into the stone, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a flowing black gown moving through dense vegetation inside a forgotten kingdom overtaken by nature, roots and vines merging with architecture under soft light, subtle TK engravings hidden in the ruins, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a mysterious woman standing beneath broken arches wrapped in thick thorn vines in a silent abandoned realm, cinematic atmosphere of organic decay and ancient stone, subtle TK symbols hidden within the environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a cinematic scene of a forgotten kingdom consumed by creeping vegetation where a calm elegant figure moves through ruins overtaken by nature, soft light revealing textures and subtle TK engravings, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

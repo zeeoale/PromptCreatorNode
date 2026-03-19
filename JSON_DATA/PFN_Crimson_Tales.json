@@ -1,0 +1,117 @@
+{
+  "WORLD_NAME": "PFN_Crimson_Tales",
+  "SYSTEM_PROMPT": "A dark fairy-tale visual world inspired by ancient European folklore atmospheres, forgotten forests, and mysterious wanderers wrapped in deep crimson cloaks. The environment evokes the feeling of an old legend whispered through generations: silent woods, ruined stone paths, abandoned chapels hidden in fog, and winding trails covered in fallen leaves. A solitary woman moves through these landscapes as if guided by an unseen destiny, her presence calm yet powerful, embodying quiet strength rather than fear. The deep crimson cloak becomes a central symbolic element of the world, contrasting dramatically with cold forests, dark ruins, and muted natural palettes. The mood is cinematic, atmospheric, and slightly melancholic, reminiscent of forgotten fairy tales where nature, architecture, and myth coexist. Environments often include dense forests, towering ancient trees, mist drifting between trunks, narrow paths disappearing into darkness, wooden bridges over shallow streams, ruined towers swallowed by vines, and moonlit clearings where the air feels heavy with ancient stories. Lighting remains soft and directional: moonlight filtering through branches, cold dawn light touching foggy landscapes, or dim lantern glow reflecting on wet leaves and mossy stones. The overall tone is elegant and mysterious rather than horrific. Fabrics flow naturally with wind, cloaks move softly through the forest, and compositions emphasize cinematic storytelling, depth, and atmosphere. The crimson cloak functions as a visual beacon within dark environments, symbolizing fate, mystery, and quiet mythological presence in a timeless world of dark tales.",
+
+  "EPOCHS": [
+    "timeless mythic era",
+    "forgotten medieval age",
+    "ancient fairy-tale time",
+    "mythic twilight age",
+    "old forest legends",
+    "forgotten kingdom era"
+  ],
+
+  "OUTFITS": [
+    "deep crimson hooded velvet cloak over dark dress",
+    "flowing crimson velvet cloak with long hood",
+    "blood-red cloak drifting in cold forest wind",
+    "dark couture dress beneath a heavy crimson cloak",
+    "ancient fairy-tale crimson hood framing the face",
+    "long crimson cloak trailing over fallen leaves",
+    "dark gothic dress paired with deep red velvet cloak"
+  ],
+
+  "LIGHTING": [
+    "moonlight filtering through dense forest branches",
+    "cold twilight light touching drifting fog",
+    "dim lantern glow illuminating wet leaves",
+    "soft dawn light emerging through morning mist",
+    "pale silver moonlight reflecting on forest paths",
+    "diffused fog light in ancient woodland clearings"
+  ],
+
+  "BACKGROUNDS": [
+    "dark ancient forest with towering twisted trees",
+    "narrow woodland path disappearing into fog",
+    "abandoned chapel hidden deep in the forest",
+    "ruined stone bridge covered in moss and leaves",
+    "moonlit clearing surrounded by tall black trees",
+    "old forest road winding through fallen leaves",
+    "forgotten watchtower rising above misty woods"
+  ],
+
+  "OBJECTS": [
+    "old iron lantern hanging from a wooden branch",
+    "scattered crimson leaves on wet forest ground",
+    "ancient stone markers covered in moss",
+    "weathered wooden bridge crossing a shallow stream",
+    "broken chapel doors barely visible through fog",
+    "twisted roots emerging from dark forest soil",
+    "subtle TK engraving hidden within ancient stones"
+  ],
+
+  "POSES": [
+    "walking slowly along a narrow forest path",
+    "standing still beneath towering trees",
+    "turning back while holding the crimson cloak",
+    "lifting the hood slightly in drifting fog",
+    "standing in a moonlit forest clearing",
+    "walking across an old stone bridge",
+    "pausing near an abandoned chapel entrance"
+  ],
+
+  "EXPRESSIONS": [
+    "calm mysterious gaze",
+    "quiet contemplative expression",
+    "subtle melancholic look",
+    "soft distant gaze into the forest",
+    "serene and enigmatic expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "cinematic medium shot framed by tree branches",
+    "low angle view emphasizing towering forest",
+    "wide shot revealing winding forest paths",
+    "close portrait framed by crimson hood",
+    "over-the-shoulder view toward a misty path"
+  ],
+
+  "ATMOSPHERES": [
+    "mysterious forest fairy-tale mood",
+    "melancholic mythic woodland atmosphere",
+    "ancient legend whispered through fog",
+    "silent enchanted forest environment",
+    "timeless dark fairy-tale ambiance"
+  ],
+
+  "ACCESSORIES": [
+    "delicate silver ring with subtle TK engraving",
+    "small iron lantern carried by hand",
+    "dark leather belt beneath crimson cloak",
+    "subtle gothic pendant resting on velvet fabric"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "modest fairy-tale presence with fully covered silhouette",
+    "1": "elegant dark dress partially visible beneath cloak",
+    "2": "cinematic silhouette emphasizing graceful figure",
+    "3": "dramatic flowing fabrics suggesting quiet sensuality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "peaceful mysterious woodland atmosphere",
+    "1": "slightly ominous forest shadows",
+    "2": "dark mythic forest tension",
+    "3": "intense eerie forest legend mood"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a mysterious woman walking through an ancient forest wrapped in a deep crimson hooded cloak, fallen leaves drifting across a narrow path, fog weaving between towering black trees, cinematic fairy-tale atmosphere, subtle TK symbols hidden in mossy stones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a solitary crimson-cloaked figure standing in a moonlit forest clearing surrounded by ancient trees and drifting mist, long velvet cloak moving softly in the night wind, dark fairy-tale mood, subtle TK engravings hidden in weathered stone markers, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a deep crimson hood framing a mysterious face as a woman walks along a forgotten forest road covered in wet leaves, pale moonlight illuminating fog and twisted branches, cinematic dark fairy-tale composition, subtle TK markings carved into ancient stones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a crimson cloak drifting through cold forest mist as a solitary figure crosses an old moss-covered bridge over a silent stream, towering trees surrounding the path, mysterious fairy-tale atmosphere with subtle TK engravings hidden in ancient architecture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a woman in a deep red velvet cloak pausing before the broken doors of an abandoned chapel hidden deep within the forest, fog drifting through twisted roots and mossy stones, cinematic dark legend atmosphere, subtle TK symbols emerging within weathered carvings, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a crimson-hooded figure standing beneath towering black trees as cold moonlight filters through dense branches, fallen leaves covering the forest floor, mysterious fairy-tale atmosphere with faint TK engravings hidden among ancient stones, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a wandering crimson cloak moving silently through fog-covered woodland paths, soft lantern light illuminating moss and twisted roots, dark mythic forest mood with subtle TK glyphs carved into forgotten markers, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

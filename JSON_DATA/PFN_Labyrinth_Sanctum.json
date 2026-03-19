@@ -1,0 +1,117 @@
+{
+  "WORLD_NAME": "PFN_Labyrinth_Sanctum",
+  "SYSTEM_PROMPT": "A monumental architectural world built around ancient labyrinth structures and ritual geometry. Massive halls, forgotten sanctuaries, and cathedral-like chambers dominate the environment, where stone floors and walls are carved with intricate labyrinth patterns that repeat endlessly like sacred symbols. The atmosphere evokes ancient civilizations that built spaces of mystery and contemplation rather than simple structures. These labyrinth forms are not only decoration but the core language of the architecture itself, appearing in floors, doors, pillars, and engraved stone panels. A solitary woman moves through these immense sanctuaries with calm authority, as if she belongs to the ancient order that created them. The scale of the environment is imposing: towering arches, endless corridors, ceremonial chambers, and monumental doors carved with geometric labyrinth symbols. Lighting is cinematic and directional, often entering through broken ceilings, tall windows, or distant openings that cast long beams of light across ritual floors. The labyrinth patterns sometimes echo the subtle TK symbol hidden within their geometry, appearing naturally as part of the ancient design rather than explicit branding. The mood is solemn, mysterious, and sacred rather than dark or horrific. Dust particles drift in the air, moss grows between stone lines, and soft echoes seem to fill the vast halls. The woman’s presence feels timeless, like a guardian or silent witness within a forgotten sanctuary where geometry, architecture, and myth merge into a single monumental visual language.",
+
+  "EPOCHS": [
+    "ancient lost civilization",
+    "forgotten sacred era",
+    "mythic architectural age",
+    "timeless ritual age",
+    "ancient geometric culture",
+    "lost temple civilization"
+  ],
+
+  "OUTFITS": [
+    "elegant dark ceremonial dress with subtle geometric embroidery",
+    "flowing black gown with architectural silhouette",
+    "dark ritual robe with long vertical lines",
+    "minimalist dark couture dress suited for monumental halls",
+    "long dark fabric dress echoing ancient ceremonial clothing",
+    "elegant black gown contrasting monumental stone architecture",
+    "structured dark dress reflecting geometric patterns"
+  ],
+
+  "LIGHTING": [
+    "dramatic light beams entering through broken ceilings",
+    "soft cold light filtering through tall ancient windows",
+    "directional moonlight illuminating labyrinth floors",
+    "dim ambient light within vast stone halls",
+    "long shadows cast by towering columns",
+    "volumetric light rays cutting through dusty air"
+  ],
+
+  "BACKGROUNDS": [
+    "massive cathedral-like hall carved with labyrinth patterns",
+    "endless stone corridor with repeating geometric carvings",
+    "monumental doorway engraved with labyrinth symbols",
+    "ancient ritual chamber with geometric floor designs",
+    "vast sanctuary filled with towering pillars",
+    "forgotten temple hall covered in moss and labyrinth carvings",
+    "gigantic stone gate decorated with repeating labyrinth motifs"
+  ],
+
+  "OBJECTS": [
+    "stone labyrinth floor patterns carved into ancient slabs",
+    "monumental doors engraved with geometric labyrinths",
+    "massive pillars decorated with ancient symbols",
+    "broken ritual altars covered in dust",
+    "ancient stone fragments scattered across the floor",
+    "subtle TK engravings hidden within labyrinth geometry",
+    "moss growing between carved stone lines"
+  ],
+
+  "POSES": [
+    "standing calmly at the center of a massive labyrinth floor",
+    "walking slowly through endless stone corridors",
+    "turning toward a monumental carved doorway",
+    "standing beneath towering columns",
+    "descending wide stone steps into a ritual chamber",
+    "walking across geometric labyrinth patterns",
+    "standing near an ancient engraved gate"
+  ],
+
+  "EXPRESSIONS": [
+    "calm authoritative gaze",
+    "quiet contemplative expression",
+    "serene mysterious look",
+    "focused thoughtful gaze",
+    "subtle enigmatic expression"
+  ],
+
+  "CAMERA_ANGLES": [
+    "wide cinematic shot emphasizing monumental architecture",
+    "low angle view highlighting towering columns",
+    "dramatic perspective along endless corridors",
+    "medium shot framed by stone pillars",
+    "symmetrical architectural composition centered on labyrinth floors"
+  ],
+
+  "ATMOSPHERES": [
+    "ancient sacred architectural mood",
+    "solemn monumental sanctuary atmosphere",
+    "forgotten temple mystery",
+    "quiet ritualistic environment",
+    "timeless geometric mythology"
+  ],
+
+  "ACCESSORIES": [
+    "minimalist silver ring with subtle TK engraving",
+    "ancient geometric pendant necklace",
+    "simple dark bracelet reflecting ritual elegance",
+    "delicate metallic ornament echoing labyrinth patterns"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully covered ceremonial dress with modest silhouette",
+    "1": "elegant long dress with subtle shape definition",
+    "2": "cinematic silhouette emphasizing graceful figure",
+    "3": "dramatic flowing dress suggesting quiet sensuality"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "peaceful sacred temple atmosphere",
+    "1": "slightly ominous ancient architecture",
+    "2": "mysterious monumental sanctuary tension",
+    "3": "intense forgotten temple mood"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a solitary woman standing at the center of an immense labyrinth floor carved into ancient stone within a monumental sanctuary, towering pillars and sacred architecture surrounding her, subtle TK geometry hidden in the labyrinth patterns, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a dark elegant figure walking through an endless stone corridor filled with repeating labyrinth carvings and ancient geometric architecture, dramatic light beams entering from above, subtle TK patterns hidden in the ancient designs, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a woman standing before a monumental stone gate carved with intricate labyrinth geometry inside a forgotten temple hall, towering columns and ritual architecture surrounding the scene, subtle TK engravings emerging within the labyrinth patterns, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a calm mysterious figure descending wide ancient steps into a massive ritual chamber where labyrinth patterns cover the stone floor and walls, cinematic volumetric light illuminating sacred geometry, subtle TK symbols hidden within the labyrinth, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a dark elegant woman walking across an enormous labyrinth floor within a cathedral-like sanctuary filled with towering pillars and ancient geometric carvings, subtle TK glyphs hidden within sacred patterns, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a mysterious figure standing beneath immense stone arches inside an ancient labyrinth temple where ritual geometry covers the architecture, dramatic cinematic lighting illuminating sacred patterns and subtle TK engravings, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a monumental sanctuary hall carved entirely with labyrinth geometry and sacred architectural patterns as a solitary elegant figure walks through the vast space, subtle TK symbols embedded within ancient designs, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

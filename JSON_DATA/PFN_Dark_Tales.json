@@ -1,0 +1,115 @@
+{
+  "WORLD_NAME": "PFN_Dark_Tales",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in cinematic dark fantasy fashion imagery set in mysterious ancient environments reminiscent of forgotten fairy tales and gothic mythologies, and when requested you must produce ONE single long, highly descriptive sentence (180–240 words) in English with no line breaks and no bullet points, describing a visually rich scene centered on a poised female figure within atmospheric, decayed or ancient architecture, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive cinematic composition, emphasizing worn stone structures, labyrinthine doors, towering staircases, ruined glasshouses, tangled vines and symbolic architectural motifs such as massive doors forming labyrinth patterns made of repeating TK glyphs subtly carved into stone or metal surfaces, creating an environment that feels like a forgotten legend rather than a modern world, using dramatic but controlled lighting such as torch glow, twilight sky, soft fog, dim lantern light or distant burning horizons, maintaining deep shadows, textured surfaces and atmospheric depth while keeping the scene elegant and fashion-oriented, allowing the subject’s silhouette and garments to harmonize with the ancient environment, optionally integrating TK as discreet carved symbols, labyrinth motifs or architectural engravings rather than logos, subtly shaping mood with {{SENSUALITY_LEVEL}} and psychological undertones with {{HORROR_INTENSITY}} while preserving the feeling of a mysterious dark tale unfolding within a forgotten mythic world.",
+
+  "EPOCHS": [
+    "Dark fantasy timeless era",
+    "Mythic medieval-inspired setting",
+    "Gothic fairy tale atmosphere",
+    "Ancient forgotten kingdom aesthetic"
+  ],
+
+  "OUTFITS": [
+    "Flowing dark velvet gown with long trailing fabric",
+    "dark red hooded cloak inspired by ancient fairy tales",
+    "Elegant gothic dress with layered black silk",
+    "Long medieval-inspired cloak over dark couture garment",
+    "Dark fantasy robe with intricate folds",
+    "Textured velvet gown with subtle dramatic silhouette",
+    "Black lace dress with soft flowing layers",
+    "Minimal gothic couture dress with dramatic draping",
+    "Long dark cloak moving gently in cold air",
+    "Structured dark gown echoing ancient architecture",
+    "Fantasy-inspired dress blending elegance and mystery"
+  ],
+
+  "LIGHTING": [
+    "Soft twilight sky glowing through broken windows",
+    "Dim torchlight flickering against ancient stone walls",
+    "Cold moonlight illuminating misty ruins",
+    "Soft golden light from distant fire beyond windows",
+    "Subtle lantern glow casting long shadows",
+    "Volumetric fog diffusing faint light beams"
+  ],
+
+  "BACKGROUNDS": [
+    "Ruined gothic greenhouse with shattered glass ceiling",
+    "Ancient palace chamber overtaken by creeping vines",
+    "Massive stone staircase leading to a sealed labyrinth door",
+    "Forgotten castle interior with broken arches",
+    "Dark forest clearing with ancient carved gate",
+    "Old palace hall with towering windows and fading light"
+  ],
+
+  "OBJECTS": [
+    "massive carved door forming a labyrinth made of repeating TK glyphs",
+    "ancient stone archway wrapped in creeping vines",
+    "ornate gothic railings overlooking abandoned courtyards",
+    "cracked marble columns with faded engravings",
+    "fallen leaves scattered across worn stone floors",
+    "tall ancient doors covered in labyrinth-like carvings"
+  ],
+
+  "POSES": [
+    "walking slowly up an ancient staircase",
+    "standing before a massive labyrinth door",
+    "turning slightly while holding a long flowing dress",
+    "looking toward distant light through broken windows",
+    "standing still within an ancient hall of shadows",
+    "ascending worn stone steps with elegant posture",
+    "touching carved stone patterns on a labyrinth door",
+    "gazing quietly through tall gothic windows",
+    "pausing in front of towering ancient architecture",
+    "holding flowing fabric while standing at the center of ruins"
+  ],
+
+  "EXPRESSIONS": [
+    "quiet mysterious confidence",
+    "soft melancholic calm",
+    "subtle curiosity toward the unknown",
+    "calm introspective gaze",
+    "gentle yet powerful presence"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "dark fairy tale atmosphere",
+    "ancient mythic mystery",
+    "quiet haunting elegance",
+    "forgotten legend unfolding",
+    "gothic cinematic fantasy"
+  ],
+
+  "ACCESSORIES": [
+    "delicate dark choker with subtle metallic detail",
+    "minimal gothic earrings reflecting faint light",
+    "thin metallic bracelet catching torch glow",
+    "simple ornate ring with antique design"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure mysterious presence within ancient architecture",
+    "1": "subtle elegance emerging from the dark environment",
+    "2": "controlled sensuality shaped by dramatic atmosphere",
+    "3": "intimate dark fantasy presence with cinematic intensity"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean atmospheric dark fantasy",
+    "1": "mild mysterious tension in the environment",
+    "2": "strong haunting atmosphere within ancient ruins",
+    "3": "ominous mythic darkness surrounding the subject"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "dark fairy tale fashion portrait within ancient ruins and mysterious architecture, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "cinematic dark fantasy scene with gothic ruins and mysterious ancient structures surrounding an elegant female silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "mysterious mythic architecture with towering doors and ancient stone environments framing a poised fashion figure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "forgotten castle interior with towering windows and ancient staircases surrounding a calm female silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "dark atmospheric palace ruins with labyrinth doors and creeping vines forming a mysterious cinematic environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "gothic fairy tale architecture with ancient halls and dramatic shadows framing a poised fashion figure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "ancient mythic world with towering labyrinth doors and mysterious ruins surrounding a dark couture silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

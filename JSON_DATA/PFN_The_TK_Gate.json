@@ -1,0 +1,107 @@
+{
+  "WORLD_NAME": "PFN_The_TK_Gate",
+  "SYSTEM_PROMPT": "You are a master-level prompt generator specialized in symbolic threshold environments where reality, identity, and abstraction converge into a singular transitional space. The scene must represent a passage rather than a destination, a liminal gateway between constructed worlds and undefined states. When requested, you must return ONE single long, highly detailed sentence (180–240 words) in English, without line breaks or bullet points, describing a cinematic, ultra-clean, high-fashion image centered on a poised female subject positioned at or interacting with a monumental gate-like structure that embodies the TK identity through subtle environmental integration, worn markings, glowing fragments, or embedded symbols. The aesthetic must blend architectural minimalism with surreal presence, using controlled lighting, deep spatial layering, and a sense of suspended time. Always weave together elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}}, and {{ACCESSORIES}}, ensuring the gate feels ancient yet contemporary, functional yet symbolic, as if it marks the transition between all previously defined worlds.",
+  
+  "EPOCHS": [
+    "timeless threshold beyond defined eras",
+    "post-identity transitional state",
+    "collapsed timeline between constructed realities",
+    "eternal moment suspended between past and future"
+  ],
+  
+  "OUTFITS": [
+    "structured black ceremonial garments with sharp architectural cuts",
+    "minimalist white bodysuits with subtle metallic threading",
+    "layered translucent fabrics flowing like dimensional distortions",
+    "high-fashion cloaks with embedded geometric seams",
+    "hybrid garments blending ritual attire with modern tailoring"
+  ],
+  
+  "LIGHTING": [
+    "backlit gate emitting soft volumetric glow",
+    "contrasting beams slicing through darkness from unseen sources",
+    "diffused ambient light with subtle chromatic shifts",
+    "low-key lighting emphasizing silhouette and structure",
+    "pulsing internal light leaking from within the gate"
+  ],
+  
+  "BACKGROUNDS": [
+    "vast empty chamber with no visible walls or ceiling",
+    "infinite dark void interrupted only by the gate structure",
+    "minimalist architectural space dissolving into abstraction",
+    "sealed monolithic environment with no external reference",
+    "dimensionless environment with floating particulate matter"
+  ],
+  
+  "OBJECTS": [
+    "monumental gate structure with worn TK markings",
+    "floating fragments of broken geometric forms",
+    "subtle embedded symbols etched into surfaces",
+    "suspended particles reacting to unseen forces",
+    "thin reflective panels distorting the environment"
+  ],
+  
+  "POSES": [
+    "standing directly before the gate in a composed, ritual stance",
+    "reaching toward the gate surface without touching it",
+    "mid-step as if crossing an invisible boundary",
+    "turning slightly toward the viewer while facing the gate",
+    "still, centered, embodying quiet control and awareness"
+  ],
+  
+  "EXPRESSIONS": [
+    "calm, detached, and focused",
+    "emotionally neutral with subtle intensity",
+    "slightly contemplative gaze",
+    "controlled and introspective",
+    "serene with underlying tension"
+  ],
+  
+  "CAMERA_ANGLES": [
+    "wide frontal shot emphasizing scale and symmetry",
+    "low angle framing to enhance monumentality",
+    "centered composition aligned with the gate axis",
+    "slight perspective distortion for surreal depth",
+    "cinematic mid-distance shot with strong depth layering"
+  ],
+  
+  "ATMOSPHERES": [
+    "silent, suspended, and reverent",
+    "charged with subtle unseen energy",
+    "minimal yet heavy with symbolic weight",
+    "timeless and detached from reality",
+    "quietly monumental and introspective"
+  ],
+  
+  "ACCESSORIES": [
+    "minimal metallic accents integrated into garments",
+    "subtle geometric jewelry echoing gate structures",
+    "thin reflective surfaces attached to the outfit",
+    "delicate chains or lines suggesting connection points",
+    "bare elements emphasizing purity and form"
+  ],
+  
+  "SENSUALITY_LEVEL": {
+    "0": "fully neutral and abstract presentation with no sensual focus",
+    "1": "very subtle elegance through posture and form",
+    "2": "controlled and refined aesthetic presence",
+    "3": "heightened visual tension through silhouette and styling"
+  },
+  
+  "HORROR_INTENSITY": {
+    "0": "completely clean and symbolic environment",
+    "1": "subtle unease through emptiness and scale",
+    "2": "presence of unknown forces implied through atmosphere",
+    "3": "existential tension tied to the threshold concept"
+  },
+  
+  "CUSTOM_INTRO": {
+    "0": "a solitary figure stands before a monumental gate suspended in a dimensionless void where space seems to bend around its presence, the surface marked by subtle worn TK symbols that glow faintly as if responding to her proximity, while the environment remains silent and infinite, emphasizing the threshold between constructed realities and something beyond, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "within an endless dark chamber devoid of walls or horizon, a poised female subject approaches a massive gate-like structure emitting a soft internal glow, its surface etched with fragmented TK markings and geometric scars that suggest age and transformation, as suspended particles drift slowly in the air and the atmosphere holds a quiet, almost sacred tension, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a minimal architectural void opens into a central axis where a monumental gate stands as the only structure, its surface partially reflective and partially eroded with embedded TK traces, while a composed female figure stands precisely aligned with its center, her presence anchoring the scene between stillness and transition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "in a suspended moment outside of time, a towering gate radiates a controlled internal light that diffuses softly into the surrounding darkness, revealing faint TK engravings and fractured geometric patterns, while a solitary subject stands just at its threshold, embodying the tension between entry and stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a silent void holds a single monumental structure resembling a gate, its surface worn and marked by subtle TK inscriptions that appear almost alive under shifting light, as a centered female figure stands motionless before it, the composition balanced and symmetrical, suggesting a moment of irreversible transition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "the environment dissolves into abstraction as a gate emerges from darkness, its edges defined by faint luminous lines and embedded TK markings, while a poised subject stands in front of it with quiet authority, her silhouette sharply defined against the soft volumetric glow, creating a scene suspended between reality and interpretation, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a vast undefined space is interrupted only by a singular gate-like structure whose surface carries the subtle imprint of TK identity, worn yet persistent, as a composed female figure stands at its center, neither entering nor leaving, embodying the concept of a threshold where all previous worlds converge into one final moment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
