@@ -1,0 +1,111 @@
+{
+  "WORLD_NAME": "PFN_Void_Kyo-Eki",
+
+  "SYSTEM_PROMPT": "You are a prompt generator specialized in atmospheric liquid void fashion portraiture where darkness behaves like a viscous substance rather than rigid architecture, and when requested you must return ONE single long, highly detailed sentence (180–240 words) in English with no line breaks and no bullet points, describing a cinematic high-fashion image centered on a poised female figure emerging from a liquid black environment, always blending elements from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual language, emphasizing deep black tonal separation, soft gradients of darkness, viscous reflective surfaces resembling liquid obsidian, subtle atmospheric mist hovering above black fluid planes, flowing silhouettes and organic spatial curves instead of rigid geometry, restrained reflections on slow-moving dark liquid, controlled depth of field, disciplined low-key exposure, and sensual compositional balance where the environment itself becomes an extension of the subject’s presence, optionally integrating TK as minimal tonal engraving or subtle metallic micro-detail barely visible in shadow or reflected faintly on the liquid surface, never commercial or intrusive, while modulating presence with {{SENSUALITY_LEVEL}} and psychological tension with {{HORROR_INTENSITY}} without breaking the silent hypnotic atmosphere of the liquid void.",
+
+  "EPOCHS": [
+    "Contemporary liquid couture minimalism",
+    "Atmospheric void fashion editorial",
+    "Neo-noir cinematic fashion environment",
+    "Timeless sculptural darkness aesthetic"
+  ],
+
+  "OUTFITS": [
+    "Liquid velvet gown flowing toward the dark surface",
+    "Soft draped black couture dress with organic folds",
+    "Minimal silk dress dissolving into shadow",
+    "Long fluid robe with slow cascading fabric layers",
+    "Asymmetric matte black dress with soft contours",
+    "Black satin slip dress absorbing surrounding darkness",
+    "Sheer layered black garment floating lightly above the liquid surface",
+    "Textured velvet gown reflecting faint highlights from the dark fluid",
+    "Minimal sculptural dress with smooth curved silhouette",
+    "Dark couture garment blending seamlessly with the liquid void"
+  ],
+
+  "LIGHTING": [
+    "Soft diffused blue-black glow reflecting on the liquid surface",
+    "Low volumetric light emerging through atmospheric mist",
+    "Gentle rim light outlining silhouette against darkness",
+    "Subtle reflective highlights rippling across viscous black liquid",
+    "Dim overhead glow diffused through fog-like darkness"
+  ],
+
+  "BACKGROUNDS": [
+    "Viscous black liquid pool absorbing most light",
+    "Liquid obsidian surface extending into endless darkness",
+    "Slow rippling dark fluid reflecting soft gradients of light",
+    "Black reflective liquid basin surrounded by atmospheric mist",
+    "Deep monochrome void where fog floats above a glossy black surface",
+    "Soft curved void chamber filled with liquid darkness"
+  ],
+
+    "OBJECTS": [
+    "slow concentric ripples spreading across viscous black liquid",
+    "oil-like reflective surface with subtle surface tension",
+    "floating droplets of dark viscous fluid",
+    "thin layer of mist hovering above the liquid void"
+    ],
+
+  "POSES": [
+    "Standing knee-deep in viscous black liquid",
+    "Slow step forward through the reflective dark fluid",
+    "Standing still while subtle ripples expand around her legs",
+    "Half-profile emerging from atmospheric mist above the liquid surface",
+    "Hands grazing the dark fluid surface creating small ripples",
+    "Body slightly curved echoing the flowing environment",
+    "Slow turning motion within the liquid void",
+    "Head tilted softly while body remains calm and balanced",
+    "Standing calmly in shallow liquid darkness surrounded by mist",
+    "Walking slowly through the reflective void surface"
+  ],
+
+  "EXPRESSIONS": [
+    "Calm sensual detachment",
+    "Quiet introspective intensity",
+    "Measured elegance with restrained emotion",
+    "Soft hypnotic stillness",
+    "Silent confidence emerging from darkness"
+  ],
+
+  "CAMERA_ANGLES": [],
+
+  "ATMOSPHERES": [
+    "Hypnotic stillness of liquid darkness",
+    "Soft atmospheric void with drifting mist",
+    "Slow silent movement within reflective black fluid",
+    "Minimalist sensual darkness with cinematic weight",
+    "Calm abyss-like space filled with liquid shadow"
+  ],
+
+  "ACCESSORIES": [
+    "Minimal metallic cuff reflecting faint liquid highlights",
+    "Thin dark earrings barely visible against shadow",
+    "Soft matte black choker integrated into silhouette",
+    "Subtle tonal belt merging with the flowing garment"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure atmospheric presence within liquid darkness",
+    "1": "subtle elegance emerging from the reflective void",
+    "2": "controlled sensuality shaped by fluid shadows",
+    "3": "intimate presence merging body and liquid darkness"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "clean atmospheric liquid void",
+    "1": "mild unease beneath the reflective surface",
+    "2": "deep hypnotic tension within the black fluid",
+    "3": "abyss-like psychological depth within the liquid darkness"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "Liquid void fashion portrait emerging from viscous black darkness and soft atmospheric mist, cinematic sensual presence in reflective monochrome environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "Dark liquid abyss environment with soft drifting mist and reflective black surface surrounding a poised female silhouette, flowing couture absorbing dim light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "Atmospheric liquid void scene where a calm female figure emerges from a reflective obsidian-like surface under soft volumetric light, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "Cinematic dark fluid environment with subtle ripples of black liquid reflecting faint light around a composed fashion silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "Reflective black liquid surface and atmospheric mist forming a hypnotic void where a poised couture figure stands within flowing darkness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "Soft monochrome abyss where mist drifts above a glossy black liquid plane and a calm female figure emerges from shadow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "Minimal cinematic liquid void environment with reflective darkness and soft atmospheric gradients shaping a high-fashion silhouette, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
