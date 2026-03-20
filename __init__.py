@@ -4,7 +4,7 @@
 
 MANIFEST = {
     "name": "Prompt Creator Node",
-    "version": (1, 13, 3),
+    "version": (1, 16, 0),
     "author": "TK-traumakom",
     "project": "https://github.com/zeeoale/PromptCreatorNode",
     "description": (
@@ -39,11 +39,11 @@ def _print_promptcreator_banner():
           ██  ██ ██ ██    ██ ██   ██ ██                             
           ██   ████  ██████  ██████  ███████  
  -----------------------------------------------------
-                        1.13.3                         
+                        1.16.0                         
  -----------------------------------------------------
 
 ===========================================================
-PromptCreatorNode v1.13.3
+PromptCreatorNode v1.16.0
 A modular cinematic prompt generator for ComfyUI
 
 Loaded nodes:
@@ -52,6 +52,7 @@ Loaded nodes:
   - Prompt Replay
   - Prompt Builder
   - Promt Tags Extractor Node (create tags for galley uploader)
+  - Prompt Refiner Node
 
 Author: traumakom
 ===========================================================
@@ -69,6 +70,9 @@ from .IdentityMixerNode import IdentityMixerNode
 from .PromptReplayNode import PromptReplayNode
 from .PromptBuilderNode import PromptBuilderNode
 from .PromptTagsExtractorNode import PromptTagsExtractorNode
+from .PromptRefinerNode import PromptRefinerNode
+
+
 
 # -------------------------
 # ComfyUI mappings
@@ -79,7 +83,9 @@ NODE_CLASS_MAPPINGS = {
     "IdentityMixerNode": IdentityMixerNode,
     "PromptReplayNode": PromptReplayNode,
     "PromptBuilderNode": PromptBuilderNode,
-    "PromptTagsExtractorNode": PromptTagsExtractorNode
+    "PromptTagsExtractorNode": PromptTagsExtractorNode,
+    "PromptRefinerNode": PromptRefinerNode
+
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -87,6 +93,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "IdentityMixerNode": "Identity Mixer (Parts)",
     "PromptReplayNode": "Prompt Replay",
     "PromptBuilderNode": "Prompt Builder",
-    "PFN_PromptTagsExtractor": "PFN Prompt → Tags (Extractor)"
+    "PFN_PromptTagsExtractor": "PFN Prompt → Tags (Extractor)",
+    "PromptRefinerNode": "PFN Prompt Refiner",
+
 
 }
