@@ -1,0 +1,116 @@
+{
+  "WORLD_NAME": "PFN_Lost_Fallen_Angel_Heresy",
+
+  "SYSTEM_PROMPT": "You are a prompt alchemist specialized in sacred decay, residual iconography and implicit body horror. When requested, you must produce ONE single long, highly descriptive cinematic sentence (180–240 words) in English with no line breaks and no bullet points, describing a pale, androgynous figure that appears as a remnant of something once divine, now reduced to traces, fragments and symbolic residue rather than explicit transformation. Always blend elements drawn from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{BACKGROUNDS}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive visual composition where the body is not the focus of horror, but the surface upon which absence is expressed. Emphasize monochrome tonal control with deep blacks and pale whites, allowing only subtle, controlled deep red accents in specific areas such as eyes, wounds or symbolic marks. Never describe wings directly, instead suggest their absence through scattered feathers, negative space or residual traces in the environment. The atmosphere must feel silent, post-event, as if something irreversible has already happened and only echoes remain. Always mention camera perspective, lens feeling, grain, texture and materiality, ensuring a painterly yet photographic result that feels like a damaged sacred image recovered from an unknown past.",
+
+  "EPOCHS": [
+    "timeless void beyond ritual collapse",
+    "abandoned sacred space after unknown event",
+    "post-ritual silence suspended in time",
+    "forgotten chapel reduced to symbolic traces",
+    "non-place between existence and absence",
+    "afterlife threshold where nothing moves anymore"
+  ],
+
+  "OUTFITS": [
+    "minimal dark garment partially dissolving into shadow",
+    "delicate corset stained and fragmented by time",
+    "thin ceremonial fabric clinging to pale skin like residue",
+    "bare shoulders marked by faint traces and scars",
+    "dark lace partially torn and fused with the body",
+    "fabric that feels more like memory than clothing"
+  ],
+
+  "LIGHTING": [
+    "soft diffused monochrome light with deep contrast",
+    "low key lighting with selective highlights on skin",
+    "subtle rim light separating figure from void",
+    "dim ambient light as if filtered through dust and ash",
+    "single directional light emphasizing texture and silence",
+    "flat desaturated light with heavy cinematic grain"
+  ],
+
+  "BACKGROUNDS": [
+    "undefined dark void with scattered feathers",
+    "textured monochrome surface resembling worn film",
+    "faint architectural traces barely emerging from darkness",
+    "suggestion of ruined space without clear structure",
+    "soft gradient fading into absolute black",
+    "abstract environment where space feels collapsed"
+  ],
+
+  "OBJECTS": [
+    "scattered black feathers suggesting absent wings",
+    "subtle traces of dried blood forming symbolic marks",
+    "residual stains on skin and fabric",
+    "faint ritual patterns barely visible",
+    "burnt candle remains emitting weak light",
+    "undefined organic textures blending with the body"
+  ],
+
+  "POSES": [
+    "head gently lowered as if in silent acceptance",
+    "body slightly turned away from the viewer",
+    "still posture with minimal movement",
+    "arms relaxed, almost lifeless",
+    "subtle curvature suggesting fragility",
+    "frozen in a moment that feels already concluded"
+  ],
+
+  "EXPRESSIONS": [
+    "empty detached gaze",
+    "eyes closed or barely open in resignation",
+    "soft melancholic stillness",
+    "absence of visible emotion",
+    "quiet introspection beyond pain",
+    "expression that suggests something already lost"
+  ],
+
+  "CAMERA_ANGLES": [
+    "intimate close-up with shallow depth of field",
+    "medium shot centered and symmetrical",
+    "slightly high angle enhancing vulnerability",
+    "tight framing focusing on face and upper body",
+    "cinematic portrait perspective with subtle distortion"
+  ],
+
+  "ATMOSPHERES": [
+    "silent aftermath of an unknown event",
+    "sacred image corrupted by time",
+    "intimate and unsettling stillness",
+    "oppressive calm with no movement",
+    "feeling of irreversible transformation already completed",
+    "visual quietness that hides underlying disturbance"
+  ],
+
+  "ACCESSORIES": [
+    "thin metallic element barely visible",
+    "minimal symbolic jewelry with no shine",
+    "subtle marks resembling ritual remnants",
+    "almost invisible adornments integrated into the body",
+    "objects that feel part of the subject rather than added"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "pure symbolic presence with no sensual intent",
+    "1": "subtle softness in posture and form",
+    "2": "delicate exposure of skin with emotional weight",
+    "3": "intimate proximity creating quiet tension, never explicit"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "barely perceptible unease, almost calm",
+    "1": "subtle disturbing elements emerging from details",
+    "2": "strong psychological discomfort through absence and traces"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a monochrome cinematic portrait of a pale figure emerging from darkness with scattered feathers suggesting something lost, subtle red accents barely visible, atmosphere of silent aftermath, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a quiet composition where a fragile figure appears suspended in a void filled with residual traces and faint symbolic marks, absence of wings suggested through scattered elements, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a disturbing yet minimal scene focusing on pale skin, soft shadows and subtle red details emerging from monochrome darkness, conveying a post-event stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "an intimate portrait capturing a figure reduced to traces and symbolic residue, where the environment fades into nothingness and feathers suggest absence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a cinematic frame built on contrast between deep black shadows and pale luminous skin, with minimal red accents and a silent oppressive atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a minimal composition where the subject appears as a remnant rather than a presence, surrounded by abstract darkness and faint traces of something that once existed, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a final static moment where nothing moves and everything has already happened, with subtle visual clues hinting at loss and transformation without showing it directly, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
