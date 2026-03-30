@@ -1,0 +1,125 @@
+{
+  "WORLD_NAME": "PFN_Noir_Neon_Embers",
+
+  "SYSTEM_PROMPT": "You are a prompt engineer of a cinematic world where noir jazz atmosphere merges with modern neon precision, creating a timeless environment suspended between past and future. Scenes unfold like slow, controlled jazz compositions, where light, shadow, and presence move in deliberate rhythm. The environment is intimate yet structured, combining smoky vintage interiors with minimal, geometric modern elements. Warm tungsten lighting dominates the scene, casting deep shadows and soft highlights across reflective surfaces, while subtle neon accents introduce a cold counterbalance that enhances depth without overpowering the composition. Subjects are portrayed with quiet intensity and emotional restraint, embodying elegance, sensuality, and introspection without excess. Skin appears natural and textured, capturing imperfections, moisture, and realistic light interaction. Materials such as velvet, polished wood, glass, and brushed metal coexist harmoniously, reinforcing the contrast between tradition and modernity. The composition is precise and intentional, favoring strong framing, clean geometry, and controlled negative space. Depth of field is used to isolate subjects while maintaining atmospheric presence, with smoke, dust, and soft haze diffusing light organically. The overall mood is melancholic yet refined, where every visual element feels deliberate, balanced, and rhythmically composed, evoking a visual jazz language that is both cinematic and timeless.",
+
+  "EPOCHS": [
+    "timeless noir era",
+    "modern neon jazz age",
+    "contemporary cinematic fusion",
+    "retro-futuristic club setting"
+  ],
+
+  "OUTFITS": [
+    "black velvet dress",
+    "silk evening gown",
+    "minimal latex garments",
+    "tailored suit with subtle gloss",
+    "sheer layered fabrics",
+    "elegant off-shoulder dress",
+    "modern high-fashion editorial styling"
+  ],
+
+  "LIGHTING": [
+    "warm tungsten spotlight",
+    "low-key cinematic lighting",
+    "deep shadow contrast",
+    "soft rim light",
+    "subtle neon edge lighting",
+    "volumetric light beams",
+    "diffused ambient glow",
+    "reflective surface highlights"
+  ],
+
+  "BACKGROUNDS": [
+    "smoky jazz club interior",
+    "velvet curtain stage",
+    "dimly lit bar with reflective surfaces",
+    "minimal geometric studio with warm accents",
+    "rain-soaked window with neon reflections",
+    "dark enclosed cinematic space",
+    "wooden floor with soft reflections"
+  ],
+
+  "OBJECTS": [
+    "vintage microphone",
+    "saxophone",
+    "upright piano",
+    "whiskey glass",
+    "cigarette smoke trails",
+    "metallic chains",
+    "glass reflections",
+    "subtle neon panels"
+  ],
+
+  "POSES": [
+    "leaning on piano",
+    "seated with relaxed posture",
+    "holding microphone close to lips",
+    "slow dance stance",
+    "arms loosely crossed with tension",
+    "resting head on hand",
+    "standing still with controlled posture"
+  ],
+
+  "EXPRESSIONS": [
+    "melancholic calm",
+    "introspective gaze",
+    "subtle sensuality",
+    "emotional restraint",
+    "detached elegance",
+    "soft distant look",
+    "quiet intensity"
+  ],
+
+  "CAMERA_ANGLES": [
+    "close-up cinematic portrait",
+    "intimate mid-shot",
+    "over-the-shoulder reflection",
+    "low angle stage presence",
+    "top-down controlled framing",
+    "tight framing with shallow depth of field"
+  ],
+
+  "ATMOSPHERES": [
+    "smoky haze",
+    "floating dust particles",
+    "warm air diffusion",
+    "soft ambient movement",
+    "moody stillness",
+    "noir cinematic atmosphere"
+  ],
+
+  "ACCESSORIES": [
+    "delicate rings",
+    "minimal jewelry",
+    "metallic bracelets",
+    "thin chains",
+    "earrings with subtle reflections",
+    "vintage details"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully covered, minimal sensuality, focus on atmosphere and composition",
+    "1": "subtle elegance, slight skin exposure, refined posture",
+    "2": "balanced sensuality, visible body lines, controlled tension",
+    "3": "high sensuality, bold composition with strong presence while maintaining editorial taste"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror, purely cinematic and atmospheric",
+    "1": "slight unease through lighting and shadows",
+    "2": "noticeable tension with darker undertones",
+    "3": "strong unsettling mood with intense shadow play and emotional weight"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a cinematic noir jazz scene unfolds in a dimly lit space filled with warm tungsten glow and subtle neon accents, where smoke drifts slowly through the air and light reflects softly across polished surfaces, creating a quiet and melancholic atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a refined composition emerges in a smoky jazz club environment, where warm light shapes the scene and soft shadows define depth, enhanced by delicate neon highlights that introduce a modern contrast, creating a timeless cinematic balance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "in a dark enclosed studio blending noir atmosphere with modern minimalism, soft haze diffuses warm light while subtle neon reflections add depth, forming a structured yet intimate visual rhythm, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a melancholic jazz-inspired scene takes shape under controlled lighting, where deep shadows and warm highlights interact with clean geometric composition, creating a balance between emotional depth and visual precision, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a cinematic moment suspended between past and future, where vintage textures and modern reflections coexist under warm low-key lighting, enhanced by subtle neon accents that shape the scene with quiet intensity, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a slow visual rhythm emerges through light and shadow, where smoke, reflections, and controlled composition create an intimate noir atmosphere enriched by modern minimal details, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a deeply atmospheric scene unfolds like a jazz composition, where every element moves in balance between warmth and precision, blending vintage mood with contemporary structure in a cinematic harmony, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}

@@ -1,0 +1,94 @@
+{
+"WORLD_NAME": "PFN_Dark_Nun_V4",
+
+"SYSTEM_PROMPT": "You are a high-end cinematic prompt generator specialized in gothic iconography and dark religious couture, focused on isolating the subject into a dominant visual presence where the dark nun archetype becomes the sole focal point of the composition. When requested, return ONE single long sentence (180–240 words), richly descriptive and painterly, without line breaks or lists, depicting a dark nun figure framed in a controlled, intimate composition where background elements are minimal, blurred, or reduced to abstract darkness. Always preserve the iconic silhouette of the habit and veil, emphasizing material detail, fabric behavior, and high-fashion construction. Seamlessly blend elements chosen from {{EPOCHS}}, {{OUTFITS}}, {{LIGHTING}}, {{OBJECTS}}, {{POSES}}, {{EXPRESSIONS}}, {{CAMERA_ANGLES}}, {{ATMOSPHERES}} and {{ACCESSORIES}} into a cohesive portrait-driven image. Lighting must sculpt the face and body with precision, highlighting textures such as latex, lace, leather, and skin with subtle imperfections, while shadows isolate the subject from the environment. Avoid complex environmental storytelling and instead prioritize composition, posture, gaze, and garment structure. The tone must convey ritual authority, restrained menace, and sacred darkness, with a refined palette dominated by black, ivory, muted crimson, and soft metallic accents, resulting in an image that feels iconic, timeless, and intensely focused on presence rather than setting.",
+
+"EPOCHS": [
+"Gothic Iconography",
+"Dark Ritual Minimalism",
+"Sacred Couture",
+"Timeless Void"
+],
+
+"OUTFITS": [
+"Structured nun habit with high-fashion corset integration",
+"Matte black veil with subtle transparency and layered folds",
+"Lace and leather bodice beneath controlled habit silhouette",
+"Minimalist cassock with sharp tailoring and occult detailing"
+],
+
+"LIGHTING": [
+"Soft frontal key light with deep shadow falloff",
+"Low-key studio lighting isolating the subject",
+"Subtle rim light defining silhouette edges",
+"Controlled chiaroscuro focused on face and upper body"
+],
+
+"BACKGROUNDS": [
+"Pure dark void",
+"Soft blurred darkness",
+"Minimal gradient shadow background",
+"Out-of-focus ritual hints with no readable detail"
+],
+
+"OBJECTS": [
+"Subtle gold or metallic accents on skin or fabric",
+"Minimal ritual jewelry integrated into outfit",
+"Fine texture imperfections on skin",
+"Delicate cracks or markings with restrained detail"
+],
+
+"POSES": [
+"Centered frontal portrait with still posture",
+"Hands softly joined at abdomen",
+"Reclined sideways on ritual stone, veil cascading across the frame",
+"Minimal head tilt with direct gaze",
+"Seated across an altar edge, body angled and gaze directed off-frame",
+"Symmetrical composed stance"
+],
+
+"EXPRESSIONS": [
+"Cold neutral gaze",
+"Subtle melancholic detachment",
+"Controlled emotionless intensity",
+"Slightly parted lips with restrained tension"
+],
+
+"CAMERA_ANGLES": [],
+
+"ATMOSPHERES": [
+"Silent ritual presence",
+"Sacred stillness",
+"Dark elegance without chaos",
+"Minimalist gothic tension"
+],
+
+"ACCESSORIES": [
+"Minimal veil pins and fine metallic details",
+"Subtle chain elements integrated into garment",
+"Small occult symbols barely visible",
+"Delicate earrings or neck details"
+],
+
+"SENSUALITY_LEVEL": {
+"0": "Fully concealed form, focus entirely on silhouette and presence, no exposed skin beyond face and hands.",
+"1": "Minimal exposure through neckline and fabric tension, maintaining restraint and elegance.",
+"2": "Structured garment revealing controlled portions of the body, maintaining strong compositional balance."
+},
+
+"HORROR_INTENSITY": {
+"0": "Pure gothic presence, no disturbing elements, only atmosphere.",
+"1": "Subtle unsettling details such as dark tears or faint markings.",
+"2": "Visible but controlled distortions such as cracks or symbolic wounds, non-gory and refined."
+},
+
+"CUSTOM_INTRO": {
+"0": "Cinematic close-up portrait of a dark nun isolated in shadow, focus on face, fabric, and presence, minimal background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"1": "High-fashion gothic portrait centered on a nun figure, controlled composition, refined materials, minimal environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"2": "Minimalist dark nun iconography, subject isolated against soft darkness, emphasis on gaze and garment structure, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"3": "Close-up sacred portrait of a gothic nun figure, subtle details and refined lighting, background reduced to abstraction, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"4": "Dark couture nun portrait with emphasis on silhouette and material detail, minimal scene, strong presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"5": "Fine-art gothic close-up of a nun figure, restrained composition, deep shadows and soft highlights shaping the face, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"6": "Iconic dark nun composition focused on presence and stillness, minimal environment, high detail fabrics and controlled lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

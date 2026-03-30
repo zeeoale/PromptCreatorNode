@@ -1,0 +1,102 @@
+{
+"WORLD_NAME": "PFN_TK_Sanctified_Rupture",
+
+"SYSTEM_PROMPT": "A hyper-focused visual system centered on sacred close-up portraiture, merging the austerity of dark religious iconography with the symbolic transformation of fractured divinity. Subjects are presented in extreme close-up or tight framing, eliminating environmental distractions and emphasizing skin as surface, texture, and narrative. The face is treated as a ritual object rather than a human subject, with controlled asymmetry introduced through cracks, golden seams, and subtle distortions. Lighting is directional and deliberate, often low-key, carving the face out of darkness while preserving deep shadows. Materials resemble marble, porcelain, or aged photographic surfaces, with fine grain and imperfections that evoke analog processes. The presence of gold is never decorative but symbolic, emerging from wounds or fractures as a sign of transcendence. Expressions remain restrained, solemn, and introspective, reinforcing a sense of sacred stillness. The overall aesthetic is minimal, disciplined, and timeless, prioritizing composition, texture, and meaning over visual excess.",
+
+"EPOCHS": [
+"timeless void",
+"ritual present",
+"sacred past",
+"undefined era"
+],
+
+"OUTFITS": [
+"dark nun habit",
+"minimal veil",
+"bare shoulders",
+"ceremonial fabric draped",
+"monastic attire simplified"
+],
+
+"LIGHTING": [
+"low key dramatic lighting",
+"single directional light",
+"top light carving the face",
+"soft side light with deep shadows",
+"candle-like warm highlights"
+],
+
+"BACKGROUNDS": [
+"pure black void",
+"dark textured fabric",
+"cathedral shadow",
+"blurred ritual space",
+"minimal undefined darkness"
+],
+
+"OBJECTS": [
+"gold cracks on skin",
+"liquid gold tears",
+"subtle religious ornaments",
+"fine dust particles",
+"bare minimal composition"
+],
+
+"POSES": [
+"extreme close-up frontal",
+"close-up slight tilt",
+"face centered symmetrical",
+"micro head tilt",
+"still and rigid posture"
+],
+
+"EXPRESSIONS": [
+"neutral solemn gaze",
+"emotionless calm",
+"eyes slightly unfocused",
+"introspective stillness",
+"sacred detachment"
+],
+
+"CAMERA_ANGLES": [],
+
+"ATMOSPHERES": [
+"ritual silence",
+"sacred tension",
+"stillness and reverence",
+"subtle unease",
+"timeless presence"
+],
+
+"ACCESSORIES": [
+"minimal veil shadows",
+"thin gold details",
+"subtle face markings",
+"light grain texture",
+"aged photographic effect"
+],
+
+"SENSUALITY_LEVEL": {
+"0": "fully covered, monastic austerity",
+"1": "minimal skin visible, neutral",
+"2": "bare shoulders with restrained elegance",
+"3": "subtle sensual presence through texture and light"
+},
+
+"HORROR_INTENSITY": {
+"0": "pure sacred calm",
+"1": "slight unease in details",
+"2": "visible fractures and distortions",
+"3": "strong symbolic rupture, still non-gory"
+},
+
+"CUSTOM_INTRO": {
+"0": "extreme close-up portrait of a dark nun, fractured skin with golden seams, solemn expression, minimal background, sacred stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"1": "close-up face emerging from darkness, liquid gold tears flowing from the eyes, monastic veil, strong contrast lighting, ritual atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"2": "extreme close-up of a sacred female face, cracked porcelain skin with golden fractures, centered composition, minimal void background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"3": "tight portrait of a nun-like figure, subtle asymmetry, one eye partially obscured by gold, deep shadows, cinematic lighting, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"4": "close-up sacred portrait with fine grain texture, aged photographic look, minimal color palette, gold details emerging from skin, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"5": "extreme close-up of a serene face with subtle distortion, marble-like texture, gold accents on eyes and lips, ritual silence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"6": "close-up portrait, dark veil framing the face, golden cracks across the cheek, still composition, sacred and unsettling balance, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

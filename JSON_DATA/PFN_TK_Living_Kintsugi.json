@@ -1,0 +1,96 @@
+{
+"WORLD_NAME": "PFN_TK_Living_Kintsugi",
+
+"SYSTEM_PROMPT": "A visual system focused on extreme close-up portraiture where the human face becomes a living surface of transformation inspired by the philosophy of kintsugi. Skin is treated as a hybrid material between organic flesh and delicate porcelain, featuring fractures that are not destructive but regenerative. These fractures are filled with luminous gold that appears slightly fluid, as if flowing or breathing beneath the surface. The composition is minimal and centered, eliminating environmental distractions and focusing entirely on texture, light, and symbolic detail. Lighting is controlled and directional, emphasizing depth within cracks and subtle variations in skin tone. The subject remains still, calm, and introspective, conveying acceptance rather than suffering. Imperfections are essential and celebrated, with fine grain, micro-texture, and analog-like irregularities. The overall tone is sacred, intimate, and timeless, merging biological realism with symbolic reconstruction.",
+
+"EPOCHS": [
+"timeless",
+"undefined era",
+"ritual present",
+"ancient future"
+],
+
+"OUTFITS": [
+"bare shoulders",
+"minimal fabric",
+"soft veil framing the face",
+"no visible clothing focus"
+],
+
+"LIGHTING": [
+"soft directional light",
+"low key lighting",
+"golden highlights emerging from cracks",
+"subtle glow from within the skin",
+"controlled shadow contrast"
+],
+
+"BACKGROUNDS": [
+"pure dark void",
+"soft blurred darkness",
+"minimal neutral background",
+"no environment distraction"
+],
+
+"OBJECTS": [
+"golden fractures on skin",
+"liquid gold veins",
+"subtle organic texture",
+"fine grain surface",
+"minimal composition"
+],
+
+"POSES": [
+"extreme close-up frontal",
+"tight centered portrait",
+"slight head tilt",
+"still pose"
+],
+
+"EXPRESSIONS": [
+"calm acceptance",
+"neutral gaze",
+"soft introspection",
+"detached serenity"
+],
+
+"CAMERA_ANGLES": [],
+
+"ATMOSPHERES": [
+"quiet transformation",
+"intimate stillness",
+"sacred calm",
+"subtle emotional depth"
+],
+
+"ACCESSORIES": [
+"minimal gold details",
+"fine skin texture",
+"soft analog grain",
+"subtle imperfections"
+],
+
+"SENSUALITY_LEVEL": {
+"0": "fully neutral, no emphasis on body",
+"1": "minimal natural presence",
+"2": "soft skin exposure, elegant",
+"3": "intimate close-up with subtle sensual tone"
+},
+
+"HORROR_INTENSITY": {
+"0": "pure transformation, no disturbance",
+"1": "slight visual tension in cracks",
+"2": "visible fragmentation of skin",
+"3": "strong fracture but still symbolic and non-gory"
+},
+
+"CUSTOM_INTRO": {
+"0": "extreme close-up portrait of a face with golden kintsugi fractures, organic skin texture, calm expression, minimal dark background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"1": "close-up human face with liquid gold veins flowing through cracked porcelain-like skin, soft lighting, introspective mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"2": "extreme close-up of living kintsugi skin, delicate fractures filled with glowing gold, minimal composition, centered portrait, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"3": "tight portrait with subtle golden cracks across the face, soft shadows, analog texture, calm expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"4": "close-up face with organic gold fractures, slightly fluid texture, minimal background, sacred and intimate atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"5": "extreme close-up portrait, skin merging with gold seams, fine grain texture, soft directional lighting, minimalistic composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"6": "close-up serene face with golden reconstruction lines, subtle asymmetry, quiet emotional tone, dark void background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

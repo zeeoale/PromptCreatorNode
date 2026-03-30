@@ -1,0 +1,98 @@
+{
+"WORLD_NAME": "PFN_Chained_Desire_V2",
+
+"SYSTEM_PROMPT": "You are a prompt engineer crafting highly controlled cinematic compositions where the human body becomes a structured visual element shaped by tension, restraint, and deliberate design. Metallic chains are not accessories but architectural forces that define posture, direction, and visual rhythm. The environment is enclosed, minimal, and oppressive, dominated by deep crimson tones and heavy shadows that create an intimate and almost ritualistic atmosphere. Lighting is precise and directional, never flat, sculpting the subject with sharp highlights and controlled falloff, emphasizing skin texture, reflective surfaces, and dimensional contrast. The subject exists in a state of calm tension, never exaggerated, never chaotic, always composed and intentional. Sensuality is present but restrained, rooted in high-fashion editorial aesthetics and cinematic stillness rather than explicit exposure. The composition prioritizes balance, negative space, and visual weight, often using top-down or controlled perspective framing to reinforce structure. Every element must feel cohesive, grounded, and physically believable, avoiding artificial perfection and instead embracing subtle imperfection, micro-texture, and natural variation in skin, light, and material.",
+
+"EPOCHS": [
+"contemporary cinematic era",
+"timeless editorial fashion",
+"modern minimalist studio"
+],
+
+"OUTFITS": [
+"minimal black latex garments",
+"structured leather harness elements"
+],
+
+"LIGHTING": [
+"sharp directional studio lighting",
+"deep crimson ambient glow",
+"low-key cinematic contrast",
+"controlled shadow falloff",
+"subtle specular highlights on skin"
+],
+
+"BACKGROUNDS": [
+"dark enclosed studio space",
+"deep red textured walls",
+"minimal void environment",
+"claustrophobic confined setting"
+],
+
+"OBJECTS": [
+"metallic chains wrapping the body",
+"chains suspended from above",
+"chains casting shadows across skin",
+"industrial metal rings and connectors"
+],
+
+"POSES": [
+"arms wrapped around body in controlled tension",
+"slightly hunched shoulders expressing restraint",
+"top-down gaze toward camera",
+"subtle twisted torso emphasizing structure",
+"still, composed posture with minimal movement"
+],
+
+"EXPRESSIONS": [
+"calm observational gaze",
+"quiet intensity",
+"emotionally restrained expression",
+"detached yet present look"
+],
+
+"CAMERA_ANGLES": [
+"top-down overhead framing",
+"perpendicular planar perspective",
+"tight portrait close-up",
+"slightly tilted cinematic framing"
+],
+
+"ATMOSPHERES": [
+"claustrophobic and intimate",
+"ritualistic stillness",
+"controlled tension",
+"dark editorial mood"
+],
+
+"ACCESSORIES": [
+"metal bracelets integrated with chains",
+"minimal rings",
+"subtle industrial details",
+"bare neck or chain-wrapped collar"
+],
+
+"SENSUALITY_LEVEL": {
+"0": "fully restrained, purely editorial",
+"1": "subtle sensual undertone",
+"2": "balanced sensuality with strong artistic control",
+"3": "high sensual tension while maintaining elegance"
+},
+
+"HORROR_INTENSITY": {
+"0": "no horror elements",
+"1": "subtle unsettling mood",
+"2": "psychological tension",
+"3": "dark oppressive atmosphere"
+},
+
+"CUSTOM_INTRO": {
+"0": "a cinematic low-key portrait of a woman surrounded by metallic chains in a dark crimson studio, her posture composed and restrained, light sculpting her form with precision, the scene balancing sensuality and control, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"1": "top-down cinematic framing of a woman wrapped in chains, illuminated by sharp directional light, shadows carving structure across her skin in a confined red-toned space, creating a sense of quiet tension and controlled presence, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"2": "a dramatic editorial composition where chains define the geometry of the body, the subject calm and still within a deep crimson environment, light and shadow interacting with metallic surfaces and luminous skin, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"3": "a confined studio scene where a woman exists in quiet tension, chains suspended and wrapped around her form, lighting controlled and directional, emphasizing texture, contrast, and emotional stillness, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"4": "a cinematic portrait focused on structure and restraint, metallic chains shaping posture and composition, the subject illuminated by precise light in a dark red minimal space, creating an intimate and atmospheric scene, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"5": "a high-fashion editorial scene where sensuality is controlled and deliberate, chains interacting with the body as architectural elements, the lighting sharp and sculptural within a deep crimson environment, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+"6": "a dark cinematic composition where stillness defines the moment, a woman wrapped in chains holds a calm and intense gaze, the environment minimal and oppressive, illuminated by controlled light and shadow, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+}
+}

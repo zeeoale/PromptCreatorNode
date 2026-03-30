@@ -1,0 +1,123 @@
+{
+  "WORLD_NAME": "PFN_Chained_Desire",
+
+  "SYSTEM_PROMPT": "A highly stylized, cinematic world where the human body becomes a canvas of tension, elegance, and metallic structure. Subjects are adorned with intricate chains that wrap, suspend, and contour the form, not as mere accessories but as architectural elements shaping light and shadow. The environment is minimal yet oppressive, dominated by deep crimson tones and controlled darkness, creating a theatrical and intimate atmosphere. Lighting is sharp and directional, casting defined shadows of chains across skin, emphasizing texture, contrast, and dimensionality. The mood is sensual but restrained, rooted in high-fashion editorial aesthetics rather than explicit display. Skin appears luminous, slightly reflective, with subtle moisture or gloss enhancing highlights. The composition focuses on posture, tension, and emotional stillness, often capturing moments of quiet intensity or controlled vulnerability. The scene feels enclosed, almost ritualistic, where metal, skin, and light interact in a deliberate visual harmony. Depth of field is shallow, isolating the subject while maintaining a cinematic sense of space and atmosphere.",
+
+  "EPOCHS": [
+    "modern high fashion",
+    "timeless editorial aesthetic",
+    "contemporary cinematic era"
+  ],
+
+  "OUTFITS": [
+    "intricate chain harness",
+    "metallic body chains",
+    "minimal black latex garments",
+    "high fashion chain couture",
+    "reflective metallic accessories",
+    "elegant restrained bondage-inspired fashion"
+  ],
+
+  "LIGHTING": [
+    "hard directional lighting",
+    "deep red ambient glow",
+    "high contrast shadows",
+    "dramatic chiaroscuro",
+    "specular highlights on skin",
+    "metal reflection lighting",
+    "low key cinematic lighting"
+  ],
+
+  "BACKGROUNDS": [
+    "deep red gradient backdrop",
+    "dark enclosed studio space",
+    "textured crimson walls",
+    "minimal shadowed environment",
+    "abstract void with red tones",
+    "subtle industrial interior"
+  ],
+
+  "OBJECTS": [
+    "metal chains",
+    "chain shadows",
+    "metal rings",
+    "reflective surfaces",
+    "subtle mist particles",
+    "studio light beams"
+  ],
+
+  "POSES": [
+    "curled inward posture",
+    "arms wrapped around body",
+    "head tilted downward",
+    "intense direct gaze",
+    "shoulders slightly hunched",
+    "controlled seated pose",
+    "subtle twisted torso"
+  ],
+
+  "EXPRESSIONS": [
+    "intense gaze",
+    "detached calm",
+    "subtle tension",
+    "quiet vulnerability",
+    "cold elegance",
+    "focused stare"
+  ],
+
+  "CAMERA_ANGLES": [
+    "close-up portrait",
+    "medium shot frontal",
+    "slightly low angle",
+    "over shoulder framing",
+    "tight crop on upper body",
+    "cinematic side profile"
+  ],
+
+  "ATMOSPHERES": [
+    "sensual tension",
+    "claustrophobic elegance",
+    "dark editorial mood",
+    "ritualistic stillness",
+    "controlled intensity",
+    "minimalist dramatic space"
+  ],
+
+  "ACCESSORIES": [
+    "chain chokers",
+    "metal bracelets",
+    "delicate rings",
+    "subtle ear jewelry",
+    "minimal metallic accents"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully clothed, minimal sensual presence",
+    "1": "subtle elegance, suggestive but restrained",
+    "2": "strong sensual tension, exposed skin with artistic intent",
+    "3": "high sensuality, bold composition while maintaining editorial taste"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror elements",
+    "1": "slight unease from lighting and shadows",
+    "2": "oppressive atmosphere with psychological tension",
+    "3": "intense claustrophobic and unsettling mood"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a cinematic high fashion portrait of a woman wrapped in intricate metallic chains, standing in a deep red environment, dramatic shadows cast across her skin, sharp directional lighting, intense gaze, minimal background, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "1": "a close-up editorial shot of a woman with reflective skin and chain harness, deep crimson lighting, strong contrast shadows forming patterns on her body, elegant and controlled pose, cinematic atmosphere, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "2": "a high fashion cinematic scene with a woman partially wrapped in metallic chains, sitting in a dark red enclosed space, sharp highlights and deep shadows, sensual tension and minimal composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "3": "a dramatic portrait of a woman surrounded by chains, illuminated by hard directional light, red glow filling the background, shadows creating intricate patterns across her skin, intense and quiet expression, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "4": "a cinematic low key scene with metallic chains wrapping around a woman's body, deep red tones, high contrast lighting, glossy skin reflections, minimalistic environment, powerful editorial mood, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "5": "a stylized fashion portrait featuring a woman in chain couture, dramatic red background, strong shadows and highlights shaping her body, controlled posture and intense gaze, cinematic composition, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+
+    "6": "a moody cinematic scene of a woman enveloped in metallic chains, deep crimson atmosphere, sharp lighting casting detailed shadows, elegant tension and minimalist framing, high fashion editorial style, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
