@@ -71,7 +71,8 @@ class PromptRefinerNode:
                 "refinement_mode": ([
                     "subtle",
                     "balanced",
-                    "creative"
+                    "creative",
+                    "consistency"
                 ],),
             },
             "optional": {
@@ -133,6 +134,10 @@ class PromptRefinerNode:
 
         elif mode == "creative":
             return "Enhance the prompt with richer detail, atmosphere and depth while keeping the original concept intact."
+        
+        elif mode == "consistency":
+            return "Refine the prompt with strict consistency.Preserve identity, structure, and key visual elements exactly as given. Avoid introducing new concepts, styles, or variations. Keep wording stable and deterministic while improving only clarity and coherence."
+    
 
         return ""
 
