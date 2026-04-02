@@ -328,6 +328,18 @@
       "African (West African)",
       "African (East African)",
       "African-American"
+    ],
+    "nails": [
+      "long almond-shaped nails",
+      "short natural nails",
+      "long stiletto nails"
+    ],
+    "nail_color": [
+      "glossy black nails",
+      "deep crimson nails",
+      "natural nude nails",
+      "matte dark red nails",
+      "matte black nails"
     ]
   },
 

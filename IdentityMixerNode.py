@@ -3,28 +3,32 @@ import json
 import random
 import hashlib
 
-# ✅ v1.11.0: split makeup -> eye_makeup + lip_makeup
+# ✅ v1.12.0: added nails + nail_color
 FIELDS_ORDER = [
     "age",
     "face_type",
     "eyes",
     "eyes_color",
-    "eye_makeup",      # ✅ NEW
+    "eye_makeup",
     "nose",
     "mouth",
-    "lip_makeup",      # ✅ NEW
+    "lip_makeup",
     "hair",
     "hair_color",
     "skin",
     "body_type",
     "expression_base",
     "ethnicity",
+
+    # ✅ NEW
+    "nails",
+    "nail_color",
 ]
 
 SPECIAL_RANDOM = "(random)"
 SPECIAL_EMPTY = "(empty)"
-SPECIAL_NONE = "(none)"       # per ethnicity o altri campi
-SPECIAL_PRESET = "(preset)"   # scegli da preset quando disponibile
+SPECIAL_NONE = "(none)"
+SPECIAL_PRESET = "(preset)"
 
 def _load_json(path: str) -> dict:
     if path and os.path.exists(path):
@@ -56,38 +60,22 @@ def _merge_unique(*lists):
     return out
 
 def _get_traits_and_presets(data: dict):
-    """
-    Supporta due formati:
-    - Nuovo: {"TRAITS": {...}, "PRESETS": {...}}
-    - Legacy: {"IdentityName": {...}, "IdentityName2": {...}}
 
-    ✅ v1.11.0: retro-compat per vecchio campo "makeup":
-      - se in TRAITS esiste solo "makeup", lo usa come fallback per eye_makeup & lip_makeup
-      - se nei PRESETS esiste "makeup", lo usa come fallback per eye_makeup & lip_makeup
-    """
     traits_raw = data.get("TRAITS")
     presets = data.get("PRESETS") if isinstance(data.get("PRESETS"), dict) else {}
 
     if isinstance(traits_raw, dict):
-        # Normalizza tutti i campi "nuovi"
         norm = {}
         for k in FIELDS_ORDER:
             norm[k] = _norm_list(traits_raw.get(k, []))
 
-        # ✅ fallback: vecchio "makeup" -> eye_makeup & lip_makeup
+        # makeup fallback
         legacy_makeup = _norm_list(traits_raw.get("makeup", []))
         if legacy_makeup:
-            if not norm.get("eye_makeup"):
-                norm["eye_makeup"] = legacy_makeup[:]
-            else:
-                norm["eye_makeup"] = _merge_unique(norm["eye_makeup"], legacy_makeup)
+            norm["eye_makeup"] = _merge_unique(norm.get("eye_makeup", []), legacy_makeup)
+            norm["lip_makeup"] = _merge_unique(norm.get("lip_makeup", []), legacy_makeup)
 
-            if not norm.get("lip_makeup"):
-                norm["lip_makeup"] = legacy_makeup[:]
-            else:
-                norm["lip_makeup"] = _merge_unique(norm["lip_makeup"], legacy_makeup)
-
-        # ✅ normalizza anche presets: se manca eye/lip ma c'è makeup, lo distribuisce
+        # presets fix
         if isinstance(presets, dict) and presets:
             fixed_presets = {}
             for pname, pobj in presets.items():
@@ -97,36 +85,25 @@ def _get_traits_and_presets(data: dict):
 
                 p_makeup = _norm_list(p.get("makeup", []))
                 if p_makeup:
-                    if not _norm_list(p.get("eye_makeup", [])):
-                        p["eye_makeup"] = p_makeup[:]
-                    else:
-                        p["eye_makeup"] = _merge_unique(_norm_list(p.get("eye_makeup", [])), p_makeup)
-
-                    if not _norm_list(p.get("lip_makeup", [])):
-                        p["lip_makeup"] = p_makeup[:]
-                    else:
-                        p["lip_makeup"] = _merge_unique(_norm_list(p.get("lip_makeup", [])), p_makeup)
+                    p["eye_makeup"] = _merge_unique(_norm_list(p.get("eye_makeup", [])), p_makeup)
+                    p["lip_makeup"] = _merge_unique(_norm_list(p.get("lip_makeup", [])), p_makeup)
 
                 fixed_presets[pname] = p
             presets = fixed_presets
 
-        return norm, presets, True  # True = nuovo formato
+        return norm, presets, True
 
-    # Legacy: colleziona valori da identità singole
     identities = data
     values = {k: set() for k in FIELDS_ORDER}
 
-    # In legacy non esistono eye_makeup/lip_makeup: se trovi MAKEUP lo mettiamo su entrambi.
     for _, obj in identities.items():
         if not isinstance(obj, dict):
             continue
 
-        # legge makeup legacy (sia "makeup" che "MAKEUP")
         legacy_m = obj.get("makeup") or obj.get("MAKEUP")
 
         for k in FIELDS_ORDER:
             if k in ("eye_makeup", "lip_makeup"):
-                # fallback
                 v = legacy_m
             else:
                 v = obj.get(k) or obj.get(k.upper())
@@ -154,11 +131,12 @@ class IdentityMixerNode:
         for k in FIELDS_ORDER:
             base = traits.get(k, [])
             specials = [SPECIAL_RANDOM]
+
             if is_new and presets:
                 specials.append(SPECIAL_PRESET)
+
             specials += [SPECIAL_EMPTY]
 
-            # ethnicity: aggiungi (none) sempre
             if k == "ethnicity":
                 specials.insert(1, SPECIAL_NONE)
 
@@ -175,12 +153,12 @@ class IdentityMixerNode:
 
                 "eyes": (opts["eyes"],),
                 "eyes_color": (opts["eyes_color"],),
-                "eye_makeup": (opts["eye_makeup"],),   # ✅ NEW
+                "eye_makeup": (opts["eye_makeup"],),
 
                 "nose": (opts["nose"],),
 
                 "mouth": (opts["mouth"],),
-                "lip_makeup": (opts["lip_makeup"],),   # ✅ NEW
+                "lip_makeup": (opts["lip_makeup"],),
 
                 "hair": (opts["hair"],),
                 "hair_color": (opts["hair_color"],),
@@ -189,6 +167,10 @@ class IdentityMixerNode:
                 "body_type": (opts["body_type"],),
                 "expression_base": (opts["expression_base"],),
                 "ethnicity": (opts["ethnicity"],),
+
+                # ✅ NEW
+                "nails": (opts["nails"],),
+                "nail_color": (opts["nail_color"],),
 
                 "random_seed": ("INT", {"default": 123456, "min": 0, "max": 2147483647}),
                 "custom_intro_prefix": ("STRING", {"default": "", "multiline": True}),
@@ -212,6 +194,10 @@ class IdentityMixerNode:
         mouth, lip_makeup,
         hair, hair_color,
         skin, body_type, expression_base, ethnicity,
+
+        # ✅ NEW
+        nails, nail_color,
+
         random_seed, custom_intro_prefix,
         identities_file=None
     ):
@@ -224,9 +210,7 @@ class IdentityMixerNode:
         selected_preset = presets.get(preset, {}) if (is_new and preset and preset != "(none)") else {}
 
         def pick_value(field: str, sel: str) -> str:
-            if sel == SPECIAL_EMPTY:
-                return ""
-            if sel == SPECIAL_NONE:
+            if sel in [SPECIAL_EMPTY, SPECIAL_NONE]:
                 return ""
             if sel == SPECIAL_PRESET:
                 pool = _norm_list(selected_preset.get(field, []))
@@ -241,31 +225,29 @@ class IdentityMixerNode:
                 return ""
             return sel
 
-        # ✅ ordine coerente con FIELDS_ORDER
         for field, sel in [
             ("age", age),
             ("face_type", face_type),
-
             ("eyes", eyes),
             ("eyes_color", eyes_color),
             ("eye_makeup", eye_makeup),
-
             ("nose", nose),
-
             ("mouth", mouth),
             ("lip_makeup", lip_makeup),
-
             ("hair", hair),
             ("hair_color", hair_color),
-
             ("skin", skin),
             ("body_type", body_type),
             ("expression_base", expression_base),
             ("ethnicity", ethnicity),
+
+            # ✅ NEW
+            ("nails", nails),
+            ("nail_color", nail_color),
         ]:
             chosen[field] = pick_value(field, sel)
 
-        chunks = [chosen[k] for k in FIELDS_ORDER if isinstance(chosen.get(k), str) and chosen[k].strip()]
+        chunks = [chosen[k] for k in FIELDS_ORDER if chosen.get(k)]
         identity_core = ", ".join(chunks).strip()
 
         fixed_tail = "masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
@@ -277,16 +259,18 @@ class IdentityMixerNode:
         if identity_core:
             parts.append(identity_core)
 
-        custom_intro_out = ", ".join([p.strip().strip(",") for p in parts if p.strip()])
-        custom_intro_out = (custom_intro_out.rstrip(", ") + ", " + fixed_tail) if custom_intro_out else fixed_tail
+        custom_intro_out = ", ".join(parts)
+        custom_intro_out = (custom_intro_out + ", " + fixed_tail) if custom_intro_out else fixed_tail
 
         sig = _make_signature(chosen)
+
         meta = {
             "identity_signature": sig,
             "random_seed": int(random_seed),
             "preset": preset if preset else "(none)",
             "parts": chosen
         }
+
         meta_json = json.dumps(meta, ensure_ascii=False)
 
         return (custom_intro_out, sig, meta_json)
