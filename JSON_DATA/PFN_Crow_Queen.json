@@ -1,0 +1,114 @@
+{
+  "WORLD_NAME": "PFN_Crow_Queen",
+
+  "SYSTEM_PROMPT": "A dark, regal visual world blending gothic elegance with refined cinematic photography, where a mysterious feminine presence embodies the archetype of the Crow Queen, a sovereign figure of silence, omen, and quiet power. The aesthetic is rooted in restrained intensity rather than horror, emphasizing composed authority, ritual stillness, and symbolic presence. Subjects appear as mid-20s women with sculpted facial features, porcelain or pale skin tones, and calm, controlled expressions that evoke introspection and emotional distance. Black lace veils, feathered adornments, and intricate gothic garments frame the subject with layered textures, while ravens are integrated as living symbols—perched, observing, or subtly interacting—never chaotic, always deliberate. Lighting is dominated by cold moonlight, soft volumetric haze, and diffused highlights that sculpt the face and fabrics without harsh contrast. The environment remains minimal and atmospheric, often featuring a large full moon, drifting mist, and soft depth layering that isolates the subject in a suspended moment. The Takara aesthetic must be preserved: refined, intimate, emotionally restrained, with soft cinematic lighting, poetic composition, and subtle sensuality expressed through posture, gaze, and fabric rather than exposure. Every image should feel timeless, symbolic, and composed like a living painting, where darkness is elegant and silence carries presence.",
+
+  "EPOCHS": [
+    "timeless gothic era",
+    "neo-victorian dark fantasy",
+    "modern cinematic gothic",
+    "mythological nocturnal realm"
+  ],
+
+  "OUTFITS": [
+    "black lace veil covering head and shoulders",
+    "feathered gothic headdress with subtle ornaments",
+    "sheer black chiffon layered dress",
+    "intricate gothic lace gown with high collar",
+    "dark ceremonial attire with delicate embroidery",
+    "minimalist black silk robe with flowing textures"
+  ],
+
+  "LIGHTING": [
+    "soft moonlight backlighting",
+    "cold diffused night lighting",
+    "volumetric fog with subtle highlights",
+    "low contrast cinematic lighting",
+    "soft rim light outlining silhouette",
+    "dim ambient light with gentle glow"
+  ],
+
+  "BACKGROUNDS": [
+    "large full moon dominating the background",
+    "misty night sky with drifting fog",
+    "dark undefined space with soft gradients",
+    "subtle gothic architecture silhouettes",
+    "foggy forest barely visible in distance"
+  ],
+
+  "OBJECTS": [
+    "ravens perched on shoulders or arms",
+    "ravens flying in the background",
+    "delicate black feathers drifting in air",
+    "ornate gothic jewelry",
+    "subtle symbolic pendants"
+  ],
+
+  "POSES": [
+    "head slightly tilted downward with closed eyes",
+    "three-quarter profile with distant gaze",
+    "looking upward toward the moon",
+    "still frontal pose with calm authority",
+    "side profile with soft neck exposure",
+    "hands gently holding fabric or feathers",
+    "slight backward head tilt conveying surrender",
+    "chin slightly raised with regal composure"
+  ],
+
+  "EXPRESSIONS": [
+    "emotionally restrained calm",
+    "soft melancholic gaze",
+    "detached introspection",
+    "quiet authority",
+    "subtle vulnerability",
+    "serene stillness"
+  ],
+
+  "CAMERA_ANGLES": [
+    "close-up portrait with shallow depth of field",
+    "three-quarter cinematic framing",
+    "slightly low angle to enhance presence",
+    "tight crop focusing on face and shoulders",
+    "medium shot with layered foreground elements"
+  ],
+
+  "ATMOSPHERES": [
+    "ethereal and silent",
+    "dark but elegant",
+    "mysterious and symbolic",
+    "dreamlike nocturnal calm",
+    "poetic stillness with subtle tension"
+  ],
+
+  "ACCESSORIES": [
+    "black lace veils",
+    "feather ornaments",
+    "delicate gothic earrings",
+    "layered necklaces with symbolic pendants",
+    "subtle dark makeup accents"
+  ],
+
+  "SENSUALITY_LEVEL": {
+    "0": "fully covered, purely symbolic presence",
+    "1": "slight neck or shoulder exposure",
+    "2": "delicate transparency in fabrics",
+    "3": "soft sensuality expressed through pose and lighting"
+  },
+
+  "HORROR_INTENSITY": {
+    "0": "no horror, purely gothic elegance",
+    "1": "subtle eerie atmosphere",
+    "2": "dark symbolic presence",
+    "3": "ominous tone without explicit horror"
+  },
+
+  "CUSTOM_INTRO": {
+    "0": "a mysterious crow queen emerging from silence, wrapped in black lace and feathers, surrounded by ravens under a cold luminous full moon, her presence calm and absolute, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "1": "a regal gothic woman standing in soft moonlight, ravens perched quietly around her, her expression distant and composed, wrapped in layered black fabrics, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "2": "a serene dark queen with closed eyes, bathed in cold night light, surrounded by drifting feathers and silent ravens, her presence delicate yet powerful, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "3": "a cinematic portrait of a gothic crow queen beneath a massive full moon, soft fog surrounding her as ravens move slowly in the background, her gaze calm and distant, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "4": "a poetic nocturnal scene where a dark queen stands in stillness, black lace and feathers framing her face, ravens acting as silent guardians, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "5": "a refined gothic composition with a woman in layered black attire, illuminated by soft moonlight, her presence both distant and intimate, ravens surrounding her in quiet harmony, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting",
+    "6": "a symbolic crow queen captured in a moment of silence, her figure framed by mist and moonlight, delicate textures of lace and feathers enhancing her ethereal presence, Takara aesthetic, masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, absurdres, newest, scenery, depth of field, volumetric lighting"
+  }
+}
